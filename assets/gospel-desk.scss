@@ -176,13 +176,13 @@ i {
   blockquote {
     clear: both;
     font: normal 11pt/18pt $Sen;
-    text-indent: -0.4em;
+    text-indent: -5pt;
     padding: 0 0 12pt;
     cite {
       display: block;
       font: normal 9pt/12pt $Sen;
       padding: 3pt 0 3pt 12pt;
-      text-indent: -1em;
+      text-indent: -12pt;
       &::before {
         content: "—";
       }
@@ -319,10 +319,10 @@ footer {
     }
 
     ol {
-      margin: 0.5em 0 0.5em 2em;
+      margin: 6pt 0 18pt 24pt;
       li {
         font: normal 12pt/18pt $Sen;
-        margin-bottom: 0.5em;
+        margin-bottom: 6pt;
         &:last-of-type {
           margin-bottom: 0;
         }
@@ -336,7 +336,7 @@ footer {
 
   footer {
     padding: 24pt;
-    font: normal 12pt/12pt $Sen;
+    font: normal 10pt/12pt $Sen;
   }
 
   .clear {
