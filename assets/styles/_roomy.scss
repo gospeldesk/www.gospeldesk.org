@@ -1,0 +1,86 @@
+@mixin roomy_styles {
+
+  .hero {
+    h2 {
+      font: bold 36pt/36pt $Sen;
+    }
+    p {
+      padding: 24pt 0 0;
+      font: normal 14pt/28pt $Sen;
+    }
+  }
+
+  .content {
+    box-shadow: $black 0px 2pt 6pt;
+    padding: 24pt 36pt;
+    margin: 36pt auto;
+
+    &.single {
+      padding: 36pt 36pt 48pt;
+    }
+
+    header {
+      padding-left: 6pt;
+      margin-left: -9pt;
+    }
+
+    h3 {
+      font: bold 24pt/24pt $Sen;
+      margin-bottom: 6pt;
+    }
+    h4 {
+      font: normal 14pt/14pt $Sen;
+      border-left: 2pt solid $pink;
+      margin: 36pt 0 12pt -9pt;
+      padding: 2pt 0 2pt 6pt;
+    }
+
+    p {
+      font: normal 12pt/18pt $Sen;
+    }
+
+    blockquote {
+      margin: 0 0 6pt;
+      font: normal 12pt/18pt $Sen;
+      text-indent: -0.5em;
+      padding: 12pt 0;
+      cite {
+        float: right;
+        font: normal 10pt/18pt $Sen;
+        padding: 0 0 0 18pt;
+      }
+    }
+
+    img {
+      width: 47.5%;
+      margin: 0 5% 0 0;
+      float: left;
+    }
+
+    ol {
+      margin: 6pt 0 18pt 24pt;
+      li {
+        font: normal 12pt/18pt $Sen;
+        margin-bottom: 6pt;
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .status {
+      font: normal 12pt/12pt $Sen;
+    }
+  }
+
+  footer {
+    padding: 24pt;
+    font: normal 10pt/12pt $Sen;
+  }
+
+  .clear {
+    clear: both;
+    height: 0pt;
+  }
+
+}
