@@ -31,27 +31,27 @@ Jesus Himself celebrated the Twelve Believers. Let us celebrate them, as well!
 1. [The Centurion](./the-centurion/)
 1. [St. Zacchaeus](./st-zacchaeus/), the son of Abraham
 1. [The Wise Scribe](./the-wise-scribe/)
-1. [St. Mary of Bethany](./st-mary-of-bethany/), the twice-praised
 1. [St. Nathanael](./st-nathanael/), the true Israelite
 1. [St. Peter](./st-peter/), the blessed
+1. [St. Mary of Bethany](./st-mary-of-bethany/), the twice-praised
 
 
 #### The Structure of the Twelve
 
-1. **The Defiant**. [Justa](./st-justa/), [Veronica](./st-veronica/), and
-[the Sinful Woman](./the-sinful-woman/) were women on the edge of Jewish
-society, who defied onlookers to boldly approach Jesus with nothing to lose.
+1. **The Defiant**. [Justa](./st-justa/), [Veronica](./st-veronica/), and [the
+   Sinful Woman](./the-sinful-woman/) were women on the edge of Jewish society,
+   who defied onlookers to boldly approach Jesus with nothing to lose.
 
 1. **The Outcast**. [Dismas](./st-dismas/), [the Samaritan
-Leper](./the-samaritan-leper/), and [Bartimaeus](./st-bartimaeus/) were men
-without worldly advantages. They begged Jesus for mercy and were answered.
+   Leper](./the-samaritan-leper/), and [Bartimaeus](./st-bartimaeus/) were men
+   without worldly advantages. They begged Jesus for mercy and were answered.
 
 1. **The Powerful**. [The Centurion](./the-centurion/),
-[Zacchaeus](./st-zacchaeus/), and [the Wise Scribe](./the-wise-scribe/)
-occupied positions of wealth and status, yet they showed by their faith that
-all things are possible with God.
+   [Zacchaeus](./st-zacchaeus/), and [the Wise Scribe](./the-wise-scribe/)
+   occupied positions of wealth and status, yet they showed by their faith that
+   all things are possible with God.
 
-1. **The Familiar**. [Mary of Bethany](./st-mary-of-bethany/),
-[Nathanael](./st-nathanael/), and [Peter](./st-peter/) were close friends of
-Jesus. Nathanael and Peter are among the Twelve Disciples—indeed Peter is the
-most prominent Disciple—and Mary is a Myrrhbearer and Equal of the Apostles.
+1. **The Familiar**. [Nathanael](./st-nathanael/), [Peter](./st-peter/), and
+   [Mary of Bethany](./st-mary-of-bethany/) were close friends of Jesus.
+   Nathanael and Peter are among the Twelve Disciples—indeed Peter is the most
+   prominent Disciple—and Mary is a Myrrhbearer and Equal of the Apostles.
