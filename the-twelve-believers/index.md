@@ -15,9 +15,10 @@ Disciples](https://www.bibleinfo.com/en/questions/who-were-twelve-disciples),
 so also there are Twelve Believers who called on Jesus in a way that provides a
 clear picture of devotion for all Christians to follow.
 
-The purpose of the Twelve Believers project is to promote these people as
-saints of the Church, by exploring their stories and producing liturgical art.
-Jesus Himself celebrated the Twelve Believers. Let us celebrate them, as well!
+The purpose of the Twelve Believers project is to build faith in our own day by
+promoting these saints of the Church, producing liturgical art and exploring
+their stories. Jesus Himself celebrated the Twelve Believers. Let us celebrate
+them, as well!
 
 
 #### Who are the Twelve Believers?
@@ -40,7 +41,7 @@ Jesus Himself celebrated the Twelve Believers. Let us celebrate them, as well!
 
 1. **The Defiant**. [Justa](./st-justa/), [Veronica](./st-veronica/), and [the
    Sinful Woman](./the-sinful-woman/) were women on the edge of Jewish society,
-   who defied onlookers to boldly approach Jesus with nothing to lose.
+   with nothing left to lose, who defied onlookers to boldly approach Jesus.
 
 1. **The Outcast**. [Dismas](./st-dismas/), [the Samaritan
    Leper](./the-samaritan-leper/), and [Bartimaeus](./st-bartimaeus/) were men
@@ -53,5 +54,6 @@ Jesus Himself celebrated the Twelve Believers. Let us celebrate them, as well!
 
 1. **The Familiar**. [Nathanael](./st-nathanael/), [Peter](./st-peter/), and
    [Mary of Bethany](./st-mary-of-bethany/) were close friends of Jesus.
-   Nathanael and Peter are among the Twelve Disciples—indeed Peter is the most
-   prominent Disciple—and Mary is a Myrrhbearer and Equal of the Apostles.
+   Nathanael and Peter were among the Twelve Disciples—indeed Peter was the
+   most prominent Disciple—and Mary was a Myrrhbearer and Equal of the
+   Apostles.
