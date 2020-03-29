@@ -33,24 +33,23 @@ them, as well!
 1. [St. Mary of Bethany](./st-mary-of-bethany/), the twice-praised
 
 
-#### The Structure of the Twelve
+#### The Structure of the Twelve Believers
 
-1. **The Defiant Believers**. [Justa](./st-justa/), [Veronica](./st-veronica/),
-   and [the Sinful Woman](./the-sinful-woman/) were women on the edge of Jewish
-   society, with nothing left to lose, who defied onlookers to boldly approach
-   Jesus.
+1. **The Defiant**. [Justa](./st-justa/), [Veronica](./st-veronica/), and [the
+   Sinful Woman](./the-sinful-woman/) were women on the edge of Jewish society,
+   with nothing left to lose, who defied onlookers to boldly approach Jesus.
 
-1. **The Outcast Believers**. [Dismas](./st-dismas/), [the Samaritan
+1. **The Outcast**. [Dismas](./st-dismas/), [the Samaritan
    Leper](./the-samaritan-leper/), and [Bartimaeus](./st-bartimaeus/) were men
    without worldly advantages. They begged Jesus for mercy and were answered.
 
-1. **The Powerful Believers**. [The Centurion](./the-centurion/),
+1. **The Powerful**. [The Centurion](./the-centurion/),
    [Zacchaeus](./st-zacchaeus/), and [the Wise Scribe](./the-wise-scribe/)
    occupied positions of wealth and status, yet they showed by their faith that
    all things are possible with God.
 
-1. **The Familiar Believers**. [Nathanael](./st-nathanael/),
-   [Peter](./st-peter/), and [Mary of Bethany](./st-mary-of-bethany/) were
-   close friends of Jesus.  Nathanael and Peter were among the Twelve
-   Disciples—indeed Peter was the most prominent Disciple—and Mary was a
-   Myrrhbearer and Equal of the Apostles.
+1. **The Familiar**. [Nathanael](./st-nathanael/), [Peter](./st-peter/), and
+   [Mary of Bethany](./st-mary-of-bethany/) were close friends of Jesus.
+   Nathanael and Peter were among the Twelve Disciples—indeed Peter was the
+   most prominent Disciple—and Mary was a Myrrhbearer and Equal of the
+   Apostles.
