@@ -153,15 +153,19 @@ i {
       list-style: none;
       font: normal 12pt/14pt $Sen;
       display: inline;
-      &::after {
-        content: " ❧ ";
-      }
-      &:last-of-type::after {
-        content: "";
-      }
+      &::after { content: " ❧ "; }
+      &:last-of-type::after { content: ""; }
       color: $gray;
       a {
         color: $gray;
+      }
+    }
+    &.breadcrumbs {
+      margin: 0 0 24pt;
+      li {
+        font: normal 10pt/10pt $Sen;
+        &::after { content: " ⤇ "; }
+        &:last-of-type::after { content: ""; }
       }
     }
   }

@@ -1,0 +1,21 @@
+{% assign html_title = page.heading %}
+
+{% if page.subheading %}
+{% assign subheading = page.subheading %}
+{% assign html_title_sep = page.html_title_sep | strip %}
+{% if html_title_sep == ',' %}
+{% assign html_title = html_title | append: ", " | append: subheading %}
+{% endif %}
+{% if html_title_sep == '-' %}
+{% assign html_title = html_title | append: " - " | append: subheading %}
+{% endif %}
+{% if html_title_sep == '(' %}
+{% assign html_title = html_title | append: " (" | append: subheading | append: ") " %}
+{% endif %}
+{% endif %}
+
+{% if page.url != '/' %}
+{% assign html_title = html_title | append: " - Gospel Desk" %}
+{% endif %}
+
+{{ html_title }}

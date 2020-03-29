@@ -1,8 +1,9 @@
 ---
-layout: single
-title: The Centurion (Anonymous)
+heading: The Centurion
+subheading: Anonymous
+html_title_sep: "("
 ---
-<header>
-  <h3>The Centurion</h3>
-  <h4>Anonymous</h4>
-</header>
+
+"Go; be it done for you as you have believed." [Matthew 8:13]
+"Truly, I say to you, not even in Israel have I found such faith." [Matthew 8:10]
+"I tell you, not even in Israel have I found such faith." [Luke 7:9]

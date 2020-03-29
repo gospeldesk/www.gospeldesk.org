@@ -1,8 +1,8 @@
 ---
-layout: single
-title: St. Bartimaeus, the blind beggar
+heading: St. Bartimaeus
+subheading: the blind beggar
+html_title_sep: ","
 ---
-<header>
-  <h3>St. Bartimaeus</h3>
-  <h4>The blind beggar</h4>
-</header>
+
+"Go your way; your faith has made you well." [Mark 10:52]
+"Receive your sight. Your faith has made you well." [Luke 18:42]

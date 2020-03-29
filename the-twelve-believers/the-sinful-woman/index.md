@@ -1,8 +1,7 @@
 ---
-layout: single
-title: The Sinful Woman (Anonymous)
+heading: The Sinful Woman
+subheading: Anonymous
+html_title_sep: "("
 ---
-<header>
-  <h3>The Sinful Woman</h3>
-  <h4>Anonymous</h4>
-</header>
+
+"Your faith has saved you; go in peace." [Luke 7:50]

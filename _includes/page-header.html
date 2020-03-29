@@ -1,0 +1,11 @@
+<header>
+    {% if page.heading %}<h3>{{ page.heading }}</h3>{% endif %}
+    {% if page.subheading %}<h4>
+        {% assign x = page.subheading | size %}
+        {% assign workaround_liquid = page.subheading | slice: 0 | capitalize %}
+        {% assign gross = page.subheading | slice: 1, x %}
+        {% assign subheading = workaround_liquid | append: gross %}
+        {{ subheading }}
+    </h4>{% endif %}
+    {% if page.status %}<span class="status">{{ page.status }}</span>{% endif %}
+</header>

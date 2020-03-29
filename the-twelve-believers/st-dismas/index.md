@@ -1,8 +1,7 @@
 ---
-layout: single
-title: St. Dismas, the penitent thief
+heading: St. Dismas
+subheading: the penitent thief
+html_title_sep: ","
 ---
-<header>
-  <h3>St. Dismas</h3>
-  <h4>The penitent thief</h4>
-</header>
+
+"Truly, I say to you, today you will be with me in Paradise." [Luke 23:43]

@@ -1,8 +1,7 @@
 ---
-layout: single
-title: The Samaritan Leper (Anonymous)
+heading: The Samaritan Leper
+subheading: Anonymous
+html_title_sep: (
 ---
-<header>
-  <h3>The Samaritan Leper</h3>
-  <h4>Anonymous</h4>
-</header>
+
+"Rise and go your way; your faith has made you well." [Luke 17:19]

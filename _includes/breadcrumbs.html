@@ -1,0 +1,14 @@
+<ul class="breadcrumbs">
+    {% assign path_parts = page.url | split: '/' %}
+    {% assign ancestor_dir = '/' %}
+	<li><a href="/">Home</a></li>
+	{% for path_part in path_parts offset: 1 %}
+    {% assign ancestor_dir = ancestor_dir | append: path_part | append: "/" %}
+    {% assign ancestor = site.pages | where: "dir", ancestor_dir | first %}
+	{% if forloop.last %}
+	<li>{{ ancestor.heading }}</li>
+	{% else %}
+	<li><a href="{{ ancestor.url }}">{{ ancestor.heading }}</a></li>
+	{% endif %}
+	{% endfor %}
+</ul>

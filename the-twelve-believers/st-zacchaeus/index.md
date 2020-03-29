@@ -1,8 +1,7 @@
 ---
-layout: single
-title: St. Zacchaeus, the son of Abraham 
+heading: St. Zacchaeus
+subheading: the son of Abraham
+html_title_sep: ","
 ---
-<header>
-  <h3>St. Zacchaeus</h3>
-  <h4>The son of Abraham</h4>
-</header>
+
+"Today salvation has come to this house, since he also is a son of Abraham." [Luke 19:9]
