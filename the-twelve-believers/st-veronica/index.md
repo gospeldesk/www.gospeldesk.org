@@ -4,7 +4,10 @@ subheading: the woman with a flow of blood
 html_title_sep: ","
 ---
 
-#### Mark 5:25-34
+
+#### In the Gospels
+
+##### Mark 5:25-34
 
 A certain woman, who had an issue of blood for twelve years, and had suffered
 many things by many physicians, and had spent all that she had, and was no
@@ -27,7 +30,7 @@ He said to her, **Daughter, your faith has made you well. Go in peace, and be
 cured of your disease.**
 
 
-#### Matthew 9:20-22
+##### Matthew 9:20-22
 
 Behold, a woman who had an issue of blood for twelve years came behind him, and
 touched the fringe of his garment, for she said within herself, If I just touch
@@ -37,7 +40,7 @@ But Jesus, turning around and seeing her, said, **Daughter, cheer up! Your
 faith has made you well.** And the woman was made well from that hour.
 
 
-#### Luke 8:42-48
+##### Luke 8:42-48
 
 But as he went, the multitudes pressed against him. A woman who had a flow of
 blood for twelve years, who had spent all her living on physicians, and could

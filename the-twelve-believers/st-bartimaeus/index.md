@@ -5,7 +5,9 @@ html_title_sep: ","
 ---
 
 
-#### Mark 10:46-52
+#### In the Gospels
+
+##### Mark 10:46-52
 
 They came to Jericho. As he went out from Jericho, with his disciples and a
 great multitude, the son of Timaeus, Bartimaeus, a blind beggar, was sitting by
@@ -29,7 +31,7 @@ Jesus said to him, **Go your way. Your faith has made you well.**
 Immediately he received his sight, and followed Jesus in the way.
 
 
-#### Matthew 20:29-34
+##### Matthew 20:29-34
 
 As they went out from Jericho, a great multitude followed him. Behold, two
 blind men sitting by the road, when they heard that Jesus was passing by, cried
@@ -46,7 +48,7 @@ Jesus, being moved with compassion, touched their eyes, and immediately their
 eyes received their sight, and they followed him.
 
 
-#### Luke 18:35-43
+##### Luke 18:35-43
 
 It happened, as he came near Jericho, a certain blind man sat by the road,
 begging. Hearing a multitude going by, he asked what this meant. They told him

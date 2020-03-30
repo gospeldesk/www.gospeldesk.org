@@ -1,10 +1,12 @@
 ---
 heading: St. Dismas
-subheading: the penitent thief
+subheading: the penitent thief (a.k.a. St. Rakh)
 html_title_sep: ","
 ---
 
-#### Mark 15:24-32
+#### In the Gospels
+
+##### Mark 15:24-32
 
 Crucifying him, they parted his garments among them, casting lots on them, what
 each should take. It was the third hour, and they crucified him. The
@@ -23,7 +25,7 @@ Israel, now come down from the cross, that we may see and believe him. Those
 who were crucified with him insulted him.
 
 
-#### Matthew 27:38-44
+##### Matthew 27:38-44
 
 Then there were two robbers crucified with him, one on his right hand and one
 on the left. Those who passed by blasphemed him, wagging their heads, and
@@ -38,7 +40,7 @@ Son of God. The robbers also who were crucified with him cast on him the same
 reproach.
 
 
-#### Luke 23:32-43
+##### Luke 23:32-43
 
 There were also others, two criminals, led with him to be put to death. When
 they came to the place that is called The Skull, they crucified him there with
@@ -68,7 +70,7 @@ Jesus said to him, **Assuredly I tell you, today you will be with me in
 Paradise.**
 
 
-#### John 19:16-19
+##### John 19:16-19
 
 So then he delivered him to them to be crucified. So they took Jesus and led
 him away. He went out, bearing his cross, to the place called The Place of a

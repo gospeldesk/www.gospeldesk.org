@@ -135,16 +135,20 @@ i {
   }
 
   h3 {
-    font: bold 18pt/18pt $Sen;
+    font: bold 18pt/21pt $Sen;
     margin-bottom: 3pt;
   }
   h4 {
-    font: normal 12pt/12pt $Sen;
+    font: normal 12pt/15pt $Sen;
     border-left: 3pt solid $pink;
     margin: 24pt 0 9pt -18pt;
     padding: 2pt 0 2pt 15pt;
     clear: both;
     color: $gray;
+  }
+  h5 {
+    font: bold 12pt/12pt $Sen;
+    margin: 18pt 0 6pt;
   }
 
   ul {
@@ -171,7 +175,7 @@ i {
   }
 
   p {
-    font: normal 11pt/18pt $Sen;
+    font: normal 11pt/16pt $Sen;
     text-indent: 24pt;
     &:first-of-type {
       text-indent: 0;
@@ -204,9 +208,12 @@ i {
     width: 100%;
     margin: 0 0 12pt;
     display: block;
-
-    &:last-of-type {
-      margin-right: 0;
+  }
+  .caption {
+    font-size: smaller;
+    color: $gray;
+    a {
+      color: inherit;
     }
   }
 
@@ -219,6 +226,12 @@ i {
         margin-bottom: 0;
       }
     }
+  }
+
+  strong {
+    font-weight: normal;
+    background: #ffff66;
+    padding: 2pt 0;
   }
 
   .youtube {

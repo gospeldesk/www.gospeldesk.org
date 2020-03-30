@@ -4,7 +4,9 @@ subheading: Anonymous
 html_title_sep: "("
 ---
 
-#### Luke 7:36-50
+#### In the Gospels
+
+##### Luke 7:36-50
 
 One of the Pharisees invited him to eat with him. He entered into the
 Pharisee’s house, and sat at the table. Behold, a woman in the city who was a
@@ -26,13 +28,13 @@ therefore will love him most?
 Simon answered, He, I suppose, to whom he forgave the most.
 
 He said to him, You have judged correctly. Turning to the woman, he said to
-Simon, Do you see this woman? I entered into your house, and you gave me no
+Simon, **Do you see this woman? I entered into your house, and you gave me no
 water for my feet, but she has wet my feet with her tears, and wiped them with
 the hair of her head. You gave me no kiss, but she, since the time I came in,
 has not ceased to kiss my feet. You didn’t anoint my head with oil, but she has
 anointed my feet with ointment. Therefore I tell you, her sins, which are many,
 are forgiven, for she loved much. But to whom little is forgiven, the same
-loves little. He said to her, Your sins are forgiven.
+loves little.** He said to her, **Your sins are forgiven.**
 
 Those who sat at the table with him began to say to themselves, Who is this who
 even forgives sins?

@@ -3,7 +3,10 @@ heading: St. Justa
 subheading: the Canaanite woman
 html_title_sep: ","
 ---
-#### Mark 7:24-30
+
+#### In the Gospels
+
+##### Mark 7:24-30
 
 From there he arose, and went away into the borders of Tyre and Sidon. He
 entered into a house, and didn’t want anyone to know it, but he couldn’t escape
@@ -23,7 +26,7 @@ She went away to her house, and found the child having been laid on the bed,
 with the demon gone out.
 
 
-#### Matthew 15:21-28
+##### Matthew 15:21-28
 
 Jesus went out from there, and withdrew into the region of Tyre and Sidon.
 Behold, a Canaanite woman came out from those borders, and cried, saying, Have

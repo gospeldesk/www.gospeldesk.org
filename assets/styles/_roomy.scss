@@ -52,9 +52,14 @@
     }
 
     img {
-      width: 47.5%;
-      margin: 0 5% 0 0;
-      float: left;
+      &.half {
+        width: 47.5%;
+        margin: 0 5% 0 0;
+        float: left;
+        &:last-of-type {
+          margin-right: 0;
+        }
+      }
     }
 
     ol {
