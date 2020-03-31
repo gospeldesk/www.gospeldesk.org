@@ -59,13 +59,42 @@ $pink: #CA867C;
 body {
   background: $gray;
   text-align: center;
-  font: normal 12pt/14pt $Sen;
+  font: normal 12pt/18pt $Sen;
   min-width: 320px;
 }
 
 i {
   font-style: normal;
   text-decoration: underline;
+}
+
+strong {
+  font-weight: normal;
+  background: #ffff66;
+  padding: 1pt 0;
+}
+
+ul {
+  margin: 0;
+  li {
+    list-style: none;
+    font: normal 12pt/14pt $Sen;
+    display: inline;
+    &::after { content: " ❧ "; }
+    &:last-of-type::after { content: ""; }
+    color: $gray;
+    a {
+      color: $gray;
+    }
+  }
+  &.breadcrumbs {
+    margin: 0 0 24pt;
+    li {
+      font: normal 10pt/10pt $Sen;
+      &::after { content: " ⤇ "; }
+      &:last-of-type::after { content: ""; }
+    }
+  }
 }
 
 .top {
@@ -151,32 +180,9 @@ i {
     margin: 18pt 0 6pt;
   }
 
-  ul {
-    margin: 0;
-    li {
-      list-style: none;
-      font: normal 12pt/14pt $Sen;
-      display: inline;
-      &::after { content: " ❧ "; }
-      &:last-of-type::after { content: ""; }
-      color: $gray;
-      a {
-        color: $gray;
-      }
-    }
-    &.breadcrumbs {
-      margin: 0 0 24pt;
-      li {
-        font: normal 10pt/10pt $Sen;
-        &::after { content: " ⤇ "; }
-        &:last-of-type::after { content: ""; }
-      }
-    }
-  }
-
   p {
     font: normal 11pt/16pt $Sen;
-    text-indent: 24pt;
+    text-indent: 18pt;
     &:first-of-type {
       text-indent: 0;
     }
@@ -184,14 +190,14 @@ i {
 
   blockquote {
     clear: both;
-    font: normal 11pt/18pt $Sen;
+    font: normal 11pt/16pt $Sen;
     text-indent: -5pt;
     padding: 0 0 12pt;
     cite {
       display: block;
       font: normal 9pt/12pt $Sen;
-      padding: 3pt 0 3pt 12pt;
-      text-indent: -12pt;
+      padding: 3pt 0 3pt 9pt;
+      text-indent: -9pt;
       &::before {
         content: "—";
       }
@@ -210,7 +216,7 @@ i {
     display: block;
   }
   .caption {
-    font-size: smaller;
+    font: normal 10pt/14pt $Sen;
     color: $gray;
     a {
       color: inherit;
@@ -226,12 +232,6 @@ i {
         margin-bottom: 0;
       }
     }
-  }
-
-  strong {
-    font-weight: normal;
-    background: #ffff66;
-    padding: 2pt 0;
   }
 
   .youtube {
@@ -297,6 +297,11 @@ footer {
   }
   a {
     color: $white;
+  }
+  li {
+    display: block;
+    font: normal 11pt/16pt $Sen;
+    &::after { content: (""); }
   }
 }
 

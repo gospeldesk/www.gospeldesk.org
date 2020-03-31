@@ -10,6 +10,10 @@
     }
   }
 
+  strong {
+    padding: 2pt 0;
+  }
+
   .content {
     box-shadow: $black 0px 2pt 6pt;
     padding: 24pt 36pt;
@@ -25,11 +29,11 @@
     }
 
     h3 {
-      font: bold 24pt/24pt $Sen;
+      font: bold 24pt/32pt $Sen;
       margin-bottom: 6pt;
     }
     h4 {
-      font: normal 14pt/14pt $Sen;
+      font: normal 14pt/18pt $Sen;
       border-left: 2pt solid $pink;
       margin: 36pt 0 12pt -9pt;
       padding: 2pt 0 2pt 6pt;
@@ -37,6 +41,7 @@
 
     p {
       font: normal 12pt/18pt $Sen;
+      text-indent: 24pt;
     }
 
     blockquote {
@@ -61,6 +66,9 @@
         }
       }
     }
+    .caption {
+      font: normal 11pt/16pt $Sen;
+    }
 
     ol {
       margin: 6pt 0 18pt 24pt;
@@ -80,7 +88,11 @@
 
   footer {
     padding: 24pt;
-    font: normal 10pt/12pt $Sen;
+    li {
+      display: inline-block;
+      font: normal 10pt/14pt $Sen;
+      &::after { content: " ❧ "; }
+    }
   }
 
   .clear {
