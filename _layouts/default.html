@@ -47,5 +47,11 @@
           gtag('js', new Date());
           gtag('config', 'UA-161491994-1');
         </script>
+        <script>
+            let href=window.location.href;
+            if (href.endsWith('/index.html')) {
+                window.location.href = href.slice(0, -10);
+            }
+        </script>
     </body>
 </html>
