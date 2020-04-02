@@ -61,6 +61,7 @@ for three hundred denarii, and given to the poor? Now he said this, not because
     She has kept this for the day of my burial. For you always have the poor
     with you, but you don’t always have me.**
 
+----
 
 ##### Luke 10:38-42
 
