@@ -4,7 +4,7 @@ subheading: Celebrating those Christ celebrates
 ---
 
 [The Gospels](/the-gospels/) tell the story of Jesus, the Son of God, with the
-goal that we would submit to His leadership in our lives. What does this
+goal that we would submit to his leadership in our lives. What does this
 submission look like? In the Gospels, there are twelve people whom Christ
 **directly, explicitly praises** for their faith. Just as Jesus calls the
 [Twelve
