@@ -1,7 +1,7 @@
 { "name": "Gospel Desk"
 , "short_name": "Gospel Desk"
-, "icons":[ {"src": "/logo.192.png", "sizes": "192x192", "type": "image/png"}
-          , {"src": "/logo.512.png", "sizes": "512x512", "type": "image/png"}
+, "icons":[ {"src": "/assets/images/logo.192.png", "sizes": "192x192", "type": "image/png"}
+          , {"src": "/assets/images/logo.512.png", "sizes": "512x512", "type": "image/png"}
            ]
 , "theme_color": "#DADBD2"
 , "background_color": "#DADBD2"
