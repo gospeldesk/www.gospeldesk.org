@@ -25,6 +25,6 @@ get involved.
 
 #### Prototypes
 
-[![Prototype 1.0](https://raw.githubusercontent.com/gospel-desk/a-narrative-apparatus/master/prototype-1/prototype-1.png)](https://github.com/gospel-desk/a-narrative-apparatus/blob/master/prototype-1/The%20Gospels,%20with%20a%20Narrative%20Apparatus.pdf)
+[![Prototype 1.0](https://raw.githubusercontent.com/gospel-desk/a-narrative-apparatus/master/v1/prototype-1.png)](https://github.com/gospel-desk/a-narrative-apparatus/blob/master/v1/The%20Gospels,%20with%20a%20Narrative%20Apparatus.pdf)
 
-[![Prototype 1.5](https://raw.githubusercontent.com/gospel-desk/a-narrative-apparatus/master/prototype-1/prototype-1.5.png)](https://github.com/gospel-desk/a-narrative-apparatus/blob/master/prototype-1/Data.pdf)
+[![Prototype 1.5](https://raw.githubusercontent.com/gospel-desk/a-narrative-apparatus/master/v1/prototype-1.5.png)](https://github.com/gospel-desk/a-narrative-apparatus/blob/master/v1/Data.pdf)
