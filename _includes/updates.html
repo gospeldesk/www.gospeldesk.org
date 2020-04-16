@@ -1,0 +1,14 @@
+{% assign posts = site.posts | where: "is_published", true %}
+{% if include.n %}{% assign posts = posts | limit: include.n %}{% endif %}
+
+{% for post in posts %}
+<div class="update">
+  <h5>
+      <a class="title" href="{{ post.url }}">{{ post.heading }}</a>
+  </h5>
+  <div class="excerpt">
+      {{ post.date | date: "%Y-%m-%d" }} &middot;
+      {{ post.excerpt }}
+  </div>
+</div>
+{% endfor %}

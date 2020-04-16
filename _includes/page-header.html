@@ -7,5 +7,11 @@
         {% assign subheading = workaround_liquid | append: gross %}
         {{ subheading }}
     </h4>{% endif %}
+    {% if page.layout == 'post' %}
+    <h4>{{ page.excerpt }}</h4>
+    <ul>
+        <li>{{ page.date | date: "%B %e, %Y" }}</li>
+    </ul>
+    {% endif %}
     {% if page.status %}<span class="status">{{ page.status }}</span>{% endif %}
 </header>

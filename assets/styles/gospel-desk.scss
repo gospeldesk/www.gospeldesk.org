@@ -180,6 +180,9 @@ ul {
     margin: 18pt 0 6pt;
   }
 
+  h4 + p {
+      text-indent: 0;
+  }
   p {
     font: normal 11pt/16pt $Sen;
     text-indent: 18pt;
@@ -234,6 +237,15 @@ ul {
     }
   }
 
+  hr {
+    border: 0;
+    margin: 12pt 0 12pt 50%;
+    padding-left: -6pt;
+    &::before {
+      content: "❧";
+    }
+  }
+
   .youtube {
     /* https://www.w3schools.com/howto/howto_css_aspect_ratio.asp */
     &.aspect-ratio-16-9 { padding-top: 56.25%; }
@@ -255,15 +267,29 @@ ul {
     }
   }
 
-  hr {
-    border: 0;
-    margin: 12pt 0 12pt 50%;
-    padding-left: -6pt;
-    &::before {
-      content: "❧";
+  .update {
+    h5 {
+      font-weight: normal;
+    }
+    .title {
+      display: block;
+      padding: 6pt 0 3pt;
+    }
+    .excerpt {
+      display: block;
+      padding: 0 0 12pt;
+      font: normal 10pt/14pt $Sen;
+      color: $gray;
+      .date {
+        color: $black;
+      }
+    }
+
+    margin-top: 12pt;
+    &:first-of-type {
+      margin-top: 0;
     }
   }
-
 
   .status {
     float: right;

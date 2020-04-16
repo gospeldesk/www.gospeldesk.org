@@ -1,16 +1,24 @@
+{% if page.layout == 'post' %}
 <ul class="breadcrumbs">
-    {% assign path_parts = page.url | split: '/' %}
-    {% assign ancestor_dir = '/' %}
     <li><a href="/">Home</a></li>
-    {% for path_part in path_parts offset: 1 %}
-    {% assign ancestor_dir = ancestor_dir | append: path_part | append: "/" %}
-    {% assign ancestor = site.pages | where: "dir", ancestor_dir | first %}
-    {% if ancestor == nil %}
-    <li>Not Found</li>
-    {% elsif forloop.last %}
-    <li>{{ ancestor.heading }}</li>
-    {% else %}
-    <li><a href="{{ ancestor.url }}">{{ ancestor.heading }}</a></li>
-    {% endif %}
-    {% endfor %}
+    <li><a href="/updates/">Updates</a></li>
+    <li>{{ page.heading }}</li>
 </ul>
+{% else %}
+<ul class="breadcrumbs">
+  {% assign path_parts = page.url | split: '/' %}
+  {% assign ancestor_dir = '/' %}
+    <li><a href="/">Home</a></li>
+  {% for path_part in path_parts offset: 1 %}
+   {% assign ancestor_dir = ancestor_dir | append: path_part | append: "/" %}
+   {% assign ancestor = site.pages | where: "dir", ancestor_dir | first %}
+   {% if ancestor == nil %}
+    <li>Not Found</li>
+   {% elsif forloop.last %}
+    <li>{{ ancestor.heading }}</li>
+   {% else %}
+    <li><a href="{{ ancestor.url }}">{{ ancestor.heading }}</a></li>
+   {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
