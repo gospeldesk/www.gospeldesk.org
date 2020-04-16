@@ -1,6 +1,7 @@
 url: https://www.gospel-desk.com
 sass:
   sass_dir: .
+exclude: ["bin"]
 defaults:
   -
     scope:
