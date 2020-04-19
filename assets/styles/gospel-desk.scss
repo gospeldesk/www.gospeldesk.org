@@ -280,9 +280,6 @@ ul {
       padding: 0 0 12pt;
       font: normal 10pt/14pt $Sen;
       color: $gray;
-      .date {
-        color: $black;
-      }
     }
 
     margin-top: 12pt;
@@ -291,15 +288,6 @@ ul {
     }
   }
 
-  .status {
-    float: right;
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    color: $gray;
-    font: normal 10pt/10pt $Sen;
-  }
   .read-more {
     float: right;
     color: $red;
