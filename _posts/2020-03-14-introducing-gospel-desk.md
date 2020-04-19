@@ -102,7 +102,7 @@ Gospels. Here are three projects to kick things off:
    these lines, to support in-depth study of faith in Christ.
 
 1. [The Twelve Believers](/the-twelve-believers/)—My study of the Gospels to
-   date has led me to appreciate a group of people I'm calling the Twelve
+   date has led me to appreciate a group of saint I'm calling the Twelve
    Believers. These are the people that Christ, in the Gospels, explicitly,
    directly praises for their faith. We should celebrate them as well! In this
    project, Lord willing, we will explore their stories, and produce liturgical
