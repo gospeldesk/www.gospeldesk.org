@@ -1,0 +1,28 @@
+{% if page.suppress_subscribe %}{% else %}
+<section class="content subscribe">
+    <header>
+        <h3>Subscribe</h3>
+        {% if page.url == '/updates/' %}
+        <h4>Sign up to be notified when I post updates.</h4>
+        {% else %}
+        <h4>Sign up to be notified when I post <a href="/updates/">updates</a>.</h4>
+        {% endif %}
+    </header>
+    <form method="post" action="https://tinyletter.com/gospel-desk" target="_blank">
+        <table>
+            <tr>
+                <td class="input">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" value="" placeholder="email@example.com">
+                </td>
+                <td class="button"><button class="button" type="submit">Subscribe</button></td>
+            </tr>
+        </table>
+    </form>
+    <div class="tinyletter">
+        <a href="https://tinyletter.com/gospel-desk" target="_blank">
+            <img src="/assets/images/tinyletter.png" alt="TinyLetter">
+        </a>
+    </div>
+</section>
+{% endif %}

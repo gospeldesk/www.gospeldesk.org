@@ -80,6 +80,11 @@
         }
       }
     }
+    &.subscribe {
+      .tinyletter img {
+        width: 72pt;
+      }
+    }
   }
 
   footer {

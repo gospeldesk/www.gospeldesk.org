@@ -3,6 +3,7 @@ layout: post
 heading: Introducing Gospel Desk
 excerpt: A basic description of the Gospels (what are they? why do they matter?), and the projects launching with Gospel Desk
 is_published: no
+suppress_subscribe: no
 ---
 
 Greetings and welcome! My name is Chad Whitacre, and, under God, I am launching

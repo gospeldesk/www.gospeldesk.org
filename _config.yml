@@ -9,6 +9,7 @@ defaults:
     values:
       layout: "page"
       html_title_sep: "-"
+      suppress_subscribe: "yes"
 collections:
   posts:
     permalink: /updates/:year/:title/

@@ -176,8 +176,8 @@ ul {
     color: $gray;
   }
   h5 {
-    font: bold 12pt/12pt $Sen;
-    margin: 18pt 0 6pt;
+    font: bold 12pt/15pt $Sen;
+    margin: 18pt 0 3pt;
   }
 
   h4 + p {
@@ -268,18 +268,17 @@ ul {
   }
 
   .update {
-    h5 {
-      font-weight: normal;
-    }
     .title {
       display: block;
       padding: 6pt 0 3pt;
+    }
+    .date {
+      color: $gray;
     }
     .excerpt {
       display: block;
       padding: 0 0 12pt;
       font: normal 10pt/14pt $Sen;
-      color: $gray;
     }
 
     margin-top: 12pt;
@@ -297,6 +296,46 @@ ul {
     &:hover {
       background: $pink;
       color: $black;
+    }
+  }
+
+  &.subscribe {
+    position: relative;
+    form {
+      margin: 12pt 0;
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        .input {
+          width: 100%;
+          padding-right: 3pt;
+        }
+      }
+      label {
+        display: none;
+      }
+      input {
+        width: 100%;
+        font: 12pt/18pt $Sen;
+        padding: 3pt 12pt;
+        border: 1px solid $black;
+        background: white;
+        border-radius: 4px;
+      }
+      button {
+        background: $red;
+        color: $white;
+        font: 12pt/18pt $Sen;
+        padding: 3pt 12pt;
+        border: 1px solid $red;
+        border-radius: 4px;
+        margin: 0;
+      }
+    }
+    .tinyletter img {
+      width: 64pt;
+      display: block;
+      margin: 0 auto;
     }
   }
 }

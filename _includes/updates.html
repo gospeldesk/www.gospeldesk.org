@@ -7,7 +7,7 @@
       <a class="title" href="{{ post.url }}">{{ post.heading }}</a>
   </h5>
   <div class="excerpt">
-      {{ post.date | date: "%Y-%m-%d" }} &middot;
+      <span class="date">{{ post.date | date: "%Y-%m-%d" }} &middot;</span>
       {{ post.excerpt }}
   </div>
 </div>
