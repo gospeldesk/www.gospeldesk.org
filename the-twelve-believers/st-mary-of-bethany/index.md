@@ -8,7 +8,7 @@ html_title_sep: ","
   <img src="00.small.jpg" alt="St. Mary of Bethany, the twice-praised - first drawing">
 </a>
 <div class="caption">First drawing of a new icon of St. Mary of Bethany, by <a
-href="https://www.xamist.com/" target="_blank">Federico Aguirre</a>.</div>
+href="https://www.xamist.com/">Federico Aguirre</a>.</div>
 
 
 #### In the Gospels

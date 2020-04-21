@@ -45,14 +45,17 @@
     }
 
     blockquote {
-      margin: 0 0 6pt;
-      font: normal 12pt/18pt $Sen;
-      text-indent: -0.5em;
-      padding: 12pt 0;
-      cite {
-        float: right;
-        font: normal 10pt/18pt $Sen;
-        padding: 0 0 0 18pt;
+      margin: 12pt 0 12pt 24pt;
+      &.praise {
+        margin: 0 0 6pt;
+        font: normal 12pt/18pt $Sen;
+        text-indent: -0.5em;
+        padding: 12pt 0;
+        cite {
+          float: right;
+          font: normal 10pt/18pt $Sen;
+          padding: 0 0 0 18pt;
+        }
       }
     }
 

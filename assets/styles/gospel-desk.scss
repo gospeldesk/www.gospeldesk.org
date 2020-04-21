@@ -192,23 +192,27 @@ ul {
   }
 
   blockquote {
-    clear: both;
-    font: normal 11pt/16pt $Sen;
-    text-indent: -5pt;
-    padding: 0 0 12pt;
-    cite {
-      display: block;
-      font: normal 9pt/12pt $Sen;
-      padding: 3pt 0 3pt 9pt;
-      text-indent: -9pt;
-      &::before {
-        content: "—";
-      }
-    }
-    &:last-of-type {
-      padding-bottom: 0;
+    margin: 12pt 0 12pt 18pt;
+    &.praise {
+      margin: 0;
+      clear: both;
+      font: normal 11pt/16pt $Sen;
+      text-indent: -5pt;
+      padding: 0 0 12pt;
       cite {
+        display: block;
+        font: normal 9pt/12pt $Sen;
+        padding: 3pt 0 3pt 9pt;
+        text-indent: -9pt;
+        &::before {
+          content: "—";
+        }
+      }
+      &:last-of-type {
         padding-bottom: 0;
+        cite {
+          padding-bottom: 0;
+        }
       }
     }
   }
@@ -243,6 +247,7 @@ ul {
     padding-left: -6pt;
     &::before {
       content: "❧";
+      color: $gray;
     }
   }
 

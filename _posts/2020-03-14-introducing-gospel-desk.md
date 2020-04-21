@@ -2,14 +2,15 @@
 layout: post
 heading: Introducing Gospel Desk
 excerpt: A basic description of the Gospels (what are they? why do they matter?), and the projects launching with Gospel Desk
-is_published: no
+is_published: yes
 suppress_subscribe: no
+working_on_a_building: eSMR7EiYbQM
 ---
 
 Greetings and welcome! My name is Chad Whitacre, and, under God, I am launching
 a new project called Gospel Desk. Gospel Desk builds faith by deeply engaging
 with the Gospels. "Study and believe," that's one motto. Another motto is,
-"working on a building" ... watch out for that one!
+"Working on a building" ... watch out for that one!
 
 In this inaugural post it seems appropriate to begin with a basic description
 of the Gospels and their meaning. I'm afraid that this will feel somewhat dry
@@ -113,7 +114,3 @@ Gospels. Here are three projects to kick things off:
 So there you have it, three projects to launch Gospel Desk! Thanks for joining
 me on this adventure within an adventure. [Email](mailto:chad@zetaweb.com) is
 the best way to share your questions and feedback, if you like. Peace for now!
-
----
-
-{% include youtube.html video_id="eSMR7EiYbQM" %}
