@@ -78,15 +78,15 @@ of the Christian Bible as a whole is:
 The Bible claims to reveal the meaning of the Cosmos and my place in it.
 According to the Bible, I live in the bright shadow of Jesus, in the falling
 action, in the age of the Church. My own story is one particular story embedded
-within the Biblical metanarrative. The Bible wants to make me aware of the
-problem of sin and death, and invite me to participate in God's ongoing
-resolution of this problem.
+within the Biblical metanarrative. Through the Bible, God wants to make me
+aware of the problem of sin and death, and invite me to participate in his
+ongoing resolution of this problem.
 
 The Gospels tie together all of the threads of the Biblical story—from the
 cosmic to the intensely personal—in a way that I find utterly compelling. Apart
-from the Gospels, the Bible is mildly interesting at best; because of the
-Gospels, I claim the Biblical story as my own. The Gospels bring me close to
-Jesus, and it turns out that I love Jesus.
+from the Gospels, the Bible is interesting; because of the Gospels, I claim the
+Biblical story as my own. The Gospels bring me close to Jesus, and it turns out
+that I love Jesus.
 
 
 #### What is Gospel Desk?
