@@ -70,8 +70,8 @@ When presented with an almost clean slate of saints to represent, Jonathan
 narrowed the field to the Centurion and St. Mary of Bethany. With Federico also
 choosing Mary (see below), the path for Jonathan became clear. Lord willing,
 the Church will soon have a new image of the
-[Centurion](/the-twelve-believers/the-centurion/), the man under authority who
-put himself under Christ's authority. May we do the same!
+[Centurion](/the-twelve-believers/the-centurion/), the man of authority who put
+himself under Christ's authority. May we do the same!
 
 
 
