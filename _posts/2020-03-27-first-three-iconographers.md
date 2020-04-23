@@ -4,7 +4,6 @@ heading: First Three Iconographers Join the Twelve Believers Project
 excerpt: Symeon van Donkelaar, Jonathan Pageau, and Federico Aguirre have each accepted a commission
 is_published: yes
 suppress_subscribe: no
-working_on_a_building: Wd489w7tfKE
 ---
 
 [The Twelve Believers](/the-twelve-believers/) is a celebration of the twelve
