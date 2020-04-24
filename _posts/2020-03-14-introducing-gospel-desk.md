@@ -1,7 +1,7 @@
 ---
 layout: post
 heading: Introducing Gospel Desk
-excerpt: A basic description of the Gospels (what are they? why do they matter?), and the projects launching with Gospel Desk
+excerpt: "There are three initial projects under the Gospel Desk umbrella. But, first: What are the Gospels, and why do they matter?"
 is_published: yes
 suppress_subscribe: no
 ---
