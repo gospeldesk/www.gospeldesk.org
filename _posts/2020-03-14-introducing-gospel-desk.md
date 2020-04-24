@@ -12,7 +12,7 @@ with the Gospels. "Study and believe," that's one motto. Another motto is,
 "Working on a building" ... watch out for that one!
 
 In this inaugural post it seems appropriate to begin with a basic description
-of the Gospels and their meaning. I'm afraid that this will feel somewhat dry
+of the Gospels and their meaning. My fear is that this will feel somewhat dry
 and distant, but I'm not sure yet who will be reading this, and I don't want to
 assume common ground that may not exist. May God enliven this description for
 each of us as he pleases!
@@ -74,18 +74,17 @@ of the Christian Bible as a whole is:
 
 #### Why do the Gospels matter?
 
-The Bible claims to reveal the meaning of the Cosmos and my place in it.
-According to the Bible, I live in the bright shadow of Jesus, in the falling
-action, in the age of the Church. My own story is one particular story embedded
-within the Biblical metanarrative. Through the Bible, God wants to make me
-aware of the problem of sin and death, and invite me to participate in his
-ongoing resolution of this problem.
+God is the main character of all story, the center of all meaning. Through the
+Bible, God makes me aware of the problem of sin and death, of disconnection from
+him, and invites me to participate in his ongoing resolution of this problem. My
+life is one particular story embedded within God's overarching story. I live in
+the bright shadow of Jesus, in the falling action, in the age of the Church.
 
-The Gospels tie together all of the threads of the Biblical story—from the
-cosmic to the intensely personal—in a way that I find utterly compelling. Apart
-from the Gospels, the Bible is interesting; because of the Gospels, I claim the
-Biblical story as my own. The Gospels bring me close to Jesus, and it turns out
-that I love Jesus.
+The Gospels tie together all of the threads of the Biblical story, from the
+cosmic to the intensely personal, in a way that I find utterly compelling. Apart
+from the Gospels, the Bible is interesting; because of the Gospels, I submit to
+the Biblical story as my own. The Gospels bring me close to Jesus, and it turns
+out that I love Jesus.
 
 
 #### What is Gospel Desk?
