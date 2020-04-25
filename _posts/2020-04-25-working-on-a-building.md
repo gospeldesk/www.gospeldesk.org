@@ -15,6 +15,10 @@ Sewickley, Pennsylvania, on a hill called Spring Hill. The property is in two
 parcels, each with a house on it. Our family lives in 980 Crescent Avenue. 981
 is Gospel Desk headquarters.
 
+---
+
+[![Gospel Desk HQ](../gospel-desk-hq.small.jpg)](../gospel-desk-hq.jpg)
+
 #### Perched Between Village and Forest 
 
 Gospel Desk HQ at 981 Crescent represents the external and the public—the

@@ -16,10 +16,7 @@ Donkelaar, Jonathan Pageau, and Federico Aguirre.
 
 #### Symeon van Donkelaar
 
-<a href="https://www.conestogaicons.com/about/">
-  <img src="/img/2020/conestoga-studio.jpg"
-    alt="The Conestoga Iconographic Studio">
-    </a>
+[![The Conestoga Iconographic Studio](../conestoga-studio.jpg)](https://www.conestogaicons.com/about/)
 <div class="caption">The <a
 href="https://www.conestogaicons.com/about/">Conestoga Iconographic Studio</a>
 in Conestoga, ON.</div>
@@ -53,9 +50,7 @@ to teach us about seeing Christ. Praise be to God!
 
 #### Jonathan Pageau
 
-<a href="https://pageaucarvings.com/">
-  <img src="/img/2020/pageau-carvings.jpg" alt="Pageau Carvings">
-</a>
+[![Pageau Carvings](../pageau-carvings.jpg)](https://pageaucarvings.com/)
 
 ---
 
