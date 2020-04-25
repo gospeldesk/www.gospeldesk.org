@@ -47,7 +47,8 @@ building](https://en.wikipedia.org/wiki/I%27m_Working_on_a_Building)!
 
 ---
 
-{% include youtube.html video_id="G2bIBZVu1gM" %}
+{% include youtube.html video_id="ZEQgL85tpkU" %}
+
 
 #### Head, Heart, and Hospitality
 
