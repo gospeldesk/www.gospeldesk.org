@@ -12,13 +12,13 @@ Desk should also be incarnate—not just a social media brand, but a *place* for
 
 Last year, God blessed our family with a remarkable property on the edge of
 Sewickley, Pennsylvania, on a hill called Spring Hill. The property is in two
-parcels, each with a house on it. Our family lives in 980 Crescent Avenue. Lord
+parcels, each with a house on it. Our family lives at 980 Crescent Avenue. Lord
 willing, 981 will become the Gospel Desk Retreat House.
 
 ---
 
 [![Gospel Desk HQ](../gospel-desk-hq.small.jpg)](../gospel-desk-hq.jpg)
-<div class="caption">The Gospel Desk Retreat House, ripe with potential.</div>
+<div class="caption">The Gospel Desk Retreat House is ripe with potential.</div>
 
 #### Perched Between Village and Forest 
 
