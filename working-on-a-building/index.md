@@ -5,19 +5,21 @@ suppress_subscribe: no
 
 Working on a Building is "a song in both the African American spiritual and
 southern gospel traditions. The song has become a standard of the genres"
-([Wikipedia](https://en.wikipedia.org/wiki/I%27m_Working_on_a_Building)).
+([Wikipedia](https://en.wikipedia.org/wiki/I%27m_Working_on_a_Building)).  I
+learned the southern gospel version from my father. I've taken it as a theme
+song of sorts for Gospel Desk, and specifically for the [Retreat
+House](/updates/2020/working-on-a-building/).
 
-I learned the southern gospel version from my father. I've taken it as a theme
-song of sorts for Gospel Desk in general, and specifically for the [Retreat
-House](/updates/2020/working-on-a-building/). This page presents a catalog,
-culled from YouTube, of 253 recordings by 165 artists. (There's a note on
-methodology at the bottom of the page.) The purpose of this page is to give
-myself and anyone else interested the raw material for becoming familiar with
-the breadth and depth of this song. I don't actually want to venture too far
-into interpretation right now (ever?), but to help you approach the material,
-I've highlighted twelve recommendations for where to **start**. Don't stop
-there, though. There are many individual gems and patterns for you to discover.
-Enjoy!
+This page presents a catalog, culled from YouTube, of 253 recordings of Working
+on a Building, by 165 artists, grouped according to the two main versions of
+the song, and roughly ordered within each group by the date recorded (there's
+more on methodology in an appendix). The purpose of this page is to give myself
+and anyone else interested the raw material for becoming familiar with the
+breadth and depth of this song. I don't actually want to venture too far into
+interpretation right now (ever?), but to help you approach the material, I've
+highlighted twelve recommendations for where to **start**.  Don't stop there,
+though. There are many individual gems and overarching patterns for you to
+discover. Enjoy!
 
 
 #### African American Spiritual
@@ -223,19 +225,33 @@ Enjoy!
 
 #### Appendix A: Lessons
 
-1. [Ryan Kimm](https://www.youtube.com/watch?v=v42xesfyN8s) (2017; guitar)
 1. [Troy Brenningmeyer](https://www.youtube.com/watch?v=VbLYfdyQUFo) (2009; dobro)
+1. [Ryan Kimm](https://www.youtube.com/watch?v=v42xesfyN8s) (2017; guitar)
 1. [Bluegrass Backing Tracks](https://www.youtube.com/watch?v=0N4VE3_46mo) (2017)
 
 
 #### Appendix B: Similarly Named Songs 
 
-1. [Chairmen of the Board](https://www.youtube.com/watch?v=bbOOQgulmNw) (1972; [alt](https://www.youtube.com/watch?v=urp6M6sXrII); [alt](https://www.youtube.com/watch?v=x9-JBnzqNKc)) - "Working on a Building of Love"
-1. [Quazar](https://www.youtube.com/watch?v=XBh8hdQIui8) (1978) - "Working on the Building"
-1. [The Fantastic Four](https://www.youtube.com/watch?v=lr8gz983L1E) (1989; [alt](https://www.youtube.com/watch?v=_n4GMvj8KSM)) - "Working on a Building of Love"
-1. [Ryan Shaw](https://www.youtube.com/watch?v=WoyROURM-yc) (2000) - "Working on a Building of Love"
-1. [Wendell B.](https://www.youtube.com/watch?v=p7MmfZBQHak) (2010) - "Working on the Building"
-1. [Maurice McZeke & MDK](https://www.youtube.com/watch?v=REDT-leTpoU) (2013) - "Working On My Building"
+##### Working on a Building of Love
+
+1. [Chairmen of the Board](https://www.youtube.com/watch?v=bbOOQgulmNw) (1972; [alt](https://www.youtube.com/watch?v=urp6M6sXrII); [alt](https://www.youtube.com/watch?v=x9-JBnzqNKc))
+1. [Ryan Shaw](https://www.youtube.com/watch?v=WoyROURM-yc) (2000)
+
+##### Working on the Building
+
+1. [Quazar](https://www.youtube.com/watch?v=XBh8hdQIui8) (1978)
+
+##### Working on a Building of Love
+
+1. [The Fantastic Four](https://www.youtube.com/watch?v=lr8gz983L1E) (1989; [alt](https://www.youtube.com/watch?v=_n4GMvj8KSM))
+
+##### Working on the Building
+
+1. [Wendell B.](https://www.youtube.com/watch?v=p7MmfZBQHak) (2010)
+
+##### Working On My Building
+
+1. [Maurice McZeke & MDK](https://www.youtube.com/watch?v=REDT-leTpoU) (2013)
 
 
 #### Appendix C: Methodology
@@ -251,21 +267,24 @@ including recordings I had noticed during earlier searches that were not being
 included in later searches. I performed two more specific searches for "working
 on a building casey driessen" and "[...] tim o'brien," to satisfy myself that I
 had made a reasonable effort to discover all available recordings by these two
-masterful fiddle players. Lastly, I cross-checked
+master fiddlers. Lastly, I cross-checked
 [SecondHandSongs](https://secondhandsongs.com/performance/776841/versions), and
-I did pick up a few more that way.
+I picked up a few more that way.
 
-As to dates, I pulled them from YouTube descriptions where they seemed good
-enough. In some cases I did a little Google searching to find a year to go with
-a recording (though I haven't bothered to note the breadcrumbs, just the
-result). I used the post date where I had to; where that seemed especially
-suspect, or where I've only attempted a decade, I've added a question mark. I
-didn't try very hard to sort further by date within years.
+As to dates, I mostly pulled them from YouTube descriptions. In some cases I
+did a little Google searching to find a year to go with a recording (though I
+decided not to track the details for each case). I used the YouTube upload date
+where I had to; where that seemed especially suspect, or where I've only been
+able to narrow down to a decade, I've added a question mark. I didn't try very
+hard to sort further by date within years, so consider this a rough and partial
+ordering.
 
 Where more than one video presents the same recording, I picked one as the
-primary and linked the others as "alt."
+primary and linked the others as "alt." The Elvis and B.B. King/Little Richard
+versions have so many uploads that I didn't bother trying to list them all
+here.
 
 YouTube doubtless contains recordings of Working on a Building that are not
-included here (to say nothing of recordings that are not on YouTube at all, or
-that are already being added now that I've stopped searching). This catalog is,
-however, sufficient for its intended purpose.
+included here—to say nothing of recordings that are not on YouTube at all, or
+that are already being added now that I've stopped searching. This catalog is,
+however, sufficient for its intended purpose. Enjoy!
