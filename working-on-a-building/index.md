@@ -10,16 +10,17 @@ learned the southern gospel version from my father. I've taken it as a theme
 song of sorts for Gospel Desk, and specifically for the [Retreat
 House](/updates/2020/working-on-a-building/).
 
-This page presents a catalog, culled from YouTube, of 253 recordings of Working
-on a Building, by 165 artists, grouped according to the two main versions of
-the song, and roughly ordered within each group by the date recorded (there's
-more on methodology in an appendix). The purpose of this page is to give myself
-and anyone else interested the raw material for becoming familiar with the
-breadth and depth of this song. I don't actually want to venture too far into
-interpretation right now (ever?), but to help you approach the material, I've
-highlighted twelve recommendations for where to **start**.  Don't stop there,
-though. There are many individual gems and overarching patterns for you to
-discover. Enjoy!
+This page catalogs 253 recordings of Working on a Building by 165 artists,
+collected on YouTube. They are grouped according to the two main versions of
+the song, and roughly ordered within each group by the year recorded. (See the
+appendix for more on methodology.)
+
+The purpose of this page is to make it easier for myself and others to become
+familiar with the breadth and depth of this song. I don't actually want to
+venture too far into interpretation right now (ever?), but to help you approach
+the material, I've highlighted twelve recommendations for where to **start**.
+Don't stop there, though. There are many individual gems and overarching
+patterns here to discover. Enjoy!
 
 
 #### African American Spiritual
@@ -285,6 +286,6 @@ versions have so many uploads that I didn't bother trying to list them all
 here.
 
 YouTube doubtless contains recordings of Working on a Building that are not
-included here—to say nothing of recordings that are not on YouTube at all, or
-that are already being added now that I've stopped searching. This catalog is,
+included here—to say nothing of recordings that are not on YouTube to begin
+with, or that have been added after I compiled this list. This catalog is,
 however, sufficient for its intended purpose. Enjoy!
