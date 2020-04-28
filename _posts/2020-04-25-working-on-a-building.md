@@ -1,7 +1,7 @@
 ---
 layout: post
 heading: Working on a Building
-excerpt: "Gospel Desk has a place in the world, at 981 Crescent Avenue, on Spring Hill in Sewickley, Pennsylvania."
+excerpt: "Gospel Desk has a place in the world, at 981 Crescent Avenue, on Spring Hill in Sewickley, Pennsylvania, USA."
 is_published: yes
 suppress_subscribe: no
 ---
@@ -48,11 +48,7 @@ the foundation that explains the back wall's unsettling lean. It's not actually
 clear to what extent the building can be saved. The detached garage *did*
 collapse, long ago, and now cat litter and yard waste fill the spot. Here,
 then, is another aspect of Gospel Desk's meaning: [I'm working on a
-building](https://en.wikipedia.org/wiki/I%27m_Working_on_a_Building)!
-
----
-
-{% include youtube.html video_id="ZEQgL85tpkU" %}
+building](/working-on-a-building/)!
 
 
 #### Head, Heart, and Hospitality
