@@ -11,9 +11,9 @@ collaborate on iconography for the [Twelve Believers](/the-twelve-believers/)
 project, we are starting to confront the question of the architectural and
 liturgical context that the icons will ultimately inhabit. My hope is that they
 will live in a chapel—the Chapel of the Faithful Servant—within a guest house
-on our family's property. I think it will add a lot to include this as part of
-the Gospel Desk story, so in this post I want to introduce you to the guest
-house and its situation.
+on our family's property. I think making this part of the Gospel Desk story
+will add a lot, so in this post I want to introduce you to the guest house and
+its situation.
 
 
 #### Perched Between Village and Forest
