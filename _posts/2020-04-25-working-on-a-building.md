@@ -11,9 +11,9 @@ collaborate on iconography for the [Twelve Believers](/the-twelve-believers/)
 project, we are starting to confront the question of the architectural and
 liturgical context that the icons will ultimately inhabit. My hope is that they
 will live in a chapel—the Chapel of the Faithful Servant—within a guest house
-on our family's property. I think making this part of the Gospel Desk story
-will add a lot, so in this post I want to introduce you to the guest house and
-its situation.
+on our family's property. This is essential to the Twelve Believers project and
+an enrichment to the overall Gospel Desk story, so in this post I want to
+introduce you to our guest house and its situation.
 
 
 #### Perched Between Village and Forest
@@ -31,9 +31,9 @@ as a physical home for Gospel Desk.
 
 ---
 
-Compared to the internal, private sphere of our family's home next door, the
-guest house represents a more external and public aspect. But that's just the
-beginning of its symbolic meaning.
+Compared to the internal, private sphere of the main house, the guest house
+represents a more external and public aspect of our family's home. But that's
+just the beginning of its symbolic meaning.
 
 Down the valley through the trees I can glimpse the Methodists' clock tower at
 the center of the village. Rising behind us is a hundred-acre wood. Our
@@ -51,14 +51,14 @@ story, to inhabit the [story](/updates/2020/introducing-gospel-desk/) of which
 _he_ is the main character—thanks be to God!
 
 The guest house building itself has not been occupied for decades. The utility
-lines are long gone. When we took ownership (stewardship, I prefer), three
-fully rusted acetylene tanks(!) occupied the porch. Junk filled the upstairs
-and downright rubble the downstairs. I shoveled out 50 bags of former plaster
-and about as much dryrotten flooring to reveal a clean crack in the foundation
-that explains the back wall's unsettling lean.  It's not actually clear to what
+lines are gone. When we took ownership (stewardship, I prefer), three fully
+rusted acetylene tanks(!) occupied the porch. Junk filled the upstairs and
+downright rubble the downstairs. I shoveled out 50 bags of former plaster and
+about as much dryrotten flooring to reveal a clean crack in the foundation that
+explains the back wall's unsettling lean.  It's not actually clear to what
 extent the building can be saved. The detached garage *did* collapse, long ago,
 and now cat litter and yard waste fill the spot. Here, then, is the plain
-meaning behind Gospel Desk's motto, [I'm working on a
+meaning of Gospel Desk's motto, [I'm working on a
 building](/working-on-a-building/)!
 
 
@@ -67,11 +67,11 @@ building](/working-on-a-building/)!
 In the opening chapter of *The Abolition of Man*, C.S. Lewis summarizes an
 ancient anthropology: "The head rules the belly through the chest." I see in
 this a pattern for what the guest house at Spring Hill can become, if the Lord
-wills it: a library and a chapel upstairs, living quarters downstairs. Maybe
-some day you will be able to visit, studying in the library with the [Narrative
-Apparatus](/a-narrative-apparatus), praying in the chapel with the [Twelve
-Believers](/the-twelve-believers/), enjoying this special spot with us, and
-recentering your life within God's story.
+wills it: a library upstairs alongside the chapel, and living quarters
+downstairs. Maybe some day you will be able to visit, studying in the library
+with the [Narrative Apparatus](/a-narrative-apparatus), praying in the chapel
+with the [Twelve Believers](/the-twelve-believers/), enjoying this special spot
+with us, and recentering your life within God's story.
 
 ---
 
