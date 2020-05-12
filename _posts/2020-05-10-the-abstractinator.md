@@ -34,9 +34,10 @@ The Abstractinator.
 
 #### Decoding Abstractions in Text
 
-The Abstractinator is software to decode all of the textual abstractions in
-the entire Tri-State
-Area (that's a [cartoon reference](https://phineasandferb.fandom.com/wiki/List_of_Doofenshmirtz%27s_schemes_and_inventions) 😁).
+The Abstractinator is software to decode all of the textual abstractions in the
+entire Tri-State Area (that's a [cartoon
+reference](https://phineasandferb.fandom.com/wiki/List_of_Doofenshmirtz%27s_schemes_and_inventions),
+for my kids 😁).
 
 Maybe some day the scope of The Abstractinator will expand downwards into text
 criticism, and characters (text characters, as opposed to story characters)
