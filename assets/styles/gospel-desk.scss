@@ -292,18 +292,6 @@ ul {
     }
   }
 
-  .read-more {
-    float: right;
-    color: $red;
-    font: normal 12pt/18pt $Sen;
-    margin-top: 6pt;
-    padding: 3pt 6pt;
-    &:hover {
-      background: $pink;
-      color: $black;
-    }
-  }
-
   &.subscribe {
     position: relative;
     form {
@@ -342,6 +330,32 @@ ul {
       width: 64pt;
       display: block;
       margin: 0 auto;
+    }
+  }
+}
+
+.homepage {
+  .content {
+    padding-right: 0;
+    padding-bottom: 0;
+
+    .read-more {
+      float: right;
+      color: $red;
+      font: normal 11pt/16pt $Sen;
+      margin-top: 6pt;
+      padding: 3pt 6pt;
+      &:hover {
+        background: $pink;
+        color: $black;
+      }
+    }
+    img {
+      margin: 0 0 0 18pt;
+      float: right;
+
+      max-width: 256px;
+      width: 50%;
     }
   }
 }

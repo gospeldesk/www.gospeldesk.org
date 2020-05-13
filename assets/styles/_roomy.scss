@@ -90,6 +90,17 @@
     }
   }
 
+  .homepage {
+    .content {
+      .read-more {
+        font: normal 12pt/18pt $Sen;
+      }
+      img {
+        margin: 0 0 0 36pt;
+      }
+    }
+  }
+
   footer {
     padding: 24pt;
     li {
