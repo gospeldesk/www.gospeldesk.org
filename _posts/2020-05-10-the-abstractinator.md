@@ -1,7 +1,7 @@
 ---
 layout: post
 heading: The Abstractinator
-excerpt: "I am writing software to help compile information for The Gospels with a Narrative Apparatus."
+excerpt: "I am writing software to help compile information for <u>The Gospels, with a Narrative Apparatus</u>."
 is_published: yes
 ---
 
@@ -18,8 +18,8 @@ apparatus](https://en.wikipedia.org/wiki/Critical_apparatus)).
 
 [![Prototype 1.0](https://raw.githubusercontent.com/gospel-desk/a-narrative-apparatus/master/v1/prototype-1.png)](https://github.com/gospel-desk/a-narrative-apparatus/blob/master/v1/The%20Gospels,%20with%20a%20Narrative%20Apparatus.pdf)
 
-<div class="caption">A prototype of <i>The Gospels, with a Narrative
-Apparatus</i>.</div>
+<div class="caption">A prototype of <u>The Gospels, with a Narrative
+Apparatus</u>.</div>
 
 ---
 

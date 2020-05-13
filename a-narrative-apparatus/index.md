@@ -18,8 +18,8 @@ The three prerequisite tasks are:
 1. Sequentially relate all of the verbs, according to a scale of space and
    time, in order to determine the scenes.
 
-I am writing [specialized software](/updates/2020/the-abstractinator/) to
-compile this information. Lord willing, the result will be an exhaustive
+I am writing [specialized software](/updates/2020/the-abstractinator/) to aid
+in compiling this information. Lord willing, the result will be an exhaustive
 dataset that will provide the foundation for many fruitful analyses, such as
 [The Twelve Believers](/the-twelve-believers/).  Visit [the project on
 GitHub](https://github.com/gospel-desk/a-narrative-apparatus) to learn more and
