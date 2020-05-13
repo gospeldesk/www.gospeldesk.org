@@ -22,6 +22,11 @@ Don't stop there, though. There are many individual gems and overarching
 patterns here to discover. Enjoy!
 
 
+#### Highlights YouTube Playlist
+
+[![Highlights YouTube Playlist](highlights-youtube-playlist.png)](https://www.youtube.com/watch?v=eSMR7EiYbQM&list=PLANbMsVlhUqmhsz1pNcvzJq2FTXgw7Mct)
+
+
 #### African American Spiritual
 
 > I'm working on the building.  
