@@ -9,7 +9,7 @@ Gospels, with a Narrative Apparatus_ has an opposite goal: to render the
 narrative structure of the Gospels systematically and definitively, in both
 print and digital editions.
 
-The three prerequisite tasks are:
+The three primary prerequisite tasks apparent so far are:
 
 1. Catalog, taxonomically, all of the characters.
 
