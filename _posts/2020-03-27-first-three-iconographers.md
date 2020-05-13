@@ -51,7 +51,7 @@ to teach us about seeing Christ. Praise be to God!
 
 ---
 
-[Jonathan Pageau](https://pageaucarvings.com/), another Canadian, is to carve
+[Jonathan Pageau](https://pageaucarvings.com/), also a Canadian, is to carve
 the [Centurion](/the-twelve-believers/the-centurion/). I knew of Jonathan from
 the masthead of the [Orthodox Arts Journal](https://orthodoxartsjournal.org/),
 and from his social media presence through [The Symbolic
