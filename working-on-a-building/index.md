@@ -45,7 +45,7 @@ patterns here to discover. Enjoy!
 1. [The Blackwood Brothers](https://www.youtube.com/watch?v=4d9l6dRudIs) (194?)
 1. [Deacon Tom Foger & The Camp Meeting Choir](https://www.youtube.com/watch?v=MRnqStXBMcM) (1948)
 1. [The Jordanaires](https://www.youtube.com/watch?v=tADJ7vLv4hk) (1950) - [195?](https://www.youtube.com/watch?v=7Jmc33ua3MU)
-1. [Bro. Joe May](https://www.youtube.com/watch?v=ZYojJBTiq8I) (1951) - [195?](https://www.youtube.com/watch?v=xq7uoRxCjec) ([alt](https://www.youtube.com/watch?v=qOw-gK5I4tY))
+1. [Bro. Joe May](https://www.youtube.com/watch?v=ZYojJBTiq8I) (1951; [alt](https://www.youtube.com/watch?v=qOw-gK5I4tY)) - [195?](https://www.youtube.com/watch?v=xq7uoRxCjec)
 1. [B.B. King & Little Richard](https://www.youtube.com/watch?v=0QPyOliUliU) (1959; [alts](https://www.youtube.com/results?search_query=b+b+king+working+on+a+building))
 1. [Highway QC's](https://www.youtube.com/watch?v=rpXUp_YLvQw) (1960; [alt](https://www.youtube.com/watch?v=g6KOSSEIXA8); [alt](https://www.youtube.com/watch?v=wnzNN0d0UZs))
 1. [Elvis Presley](https://www.youtube.com/watch?v=VL8h7BTKipI) (1960; [alts](https://www.youtube.com/results?search_query=elvis+working+on+a+building)) - [karaoke](https://www.youtube.com/watch?v=GBkVUS3_9Eg) - [lolwut](https://www.youtube.com/watch?v=51bA47Ds-Q8) - [lololwutwut](https://www.youtube.com/watch?v=avNhgOnAiGY)
