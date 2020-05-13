@@ -1,24 +1,27 @@
 ---
 heading: A Narrative Apparatus
-subheading: Cataloging characters and scenes
+subheading: Cataloging characters, frames, and scenes
 ---
 
-[The Gospels](/the-gospels) lays out Mark, Matthew, Luke, and John in a
-readerly fashion, to make their narrative force more immediate. Now for the
-opposite: to render the narrative structure of the Gospels in systematic
-definitude.
+[The Gospels](/the-gospels) lays out Mark, Matthew, Luke, and John in a way
+that is easy to read, to make their narrative force more immediate. _The
+Gospels, with a Narrative Apparatus_ has an opposite goal: to render the
+narrative structure of the Gospels systematically and definitively, in both
+print and digital editions.
 
-Our basis is the [SBLGNT](http://sblgnt.com/) critical text, probably in its
-[MorphGNT](https://github.com/morphgnt/sblgnt) variant. There are two tasks:
+The three prerequisite tasks are:
 
-1. Catalog, taxonomically, all of the characters in the Gospels.
+1. Catalog, taxonomically, all of the characters.
 
-1. Sequentially relate all of the verbs in the Gospels, according to a scale of
-   space and time.
+1. Identify all of the different story frames.
 
-The result will be an exhaustive dataset that will provide the foundation for
-many fruitful analyses, such as [The Twelve Believers](/the-twelve-believers/).
-Visit [the project on
+1. Sequentially relate all of the verbs, according to a scale of space and
+   time, in order to determine the scenes.
+
+I am writing [specialized software](/updates/2020/the-abstractinator/) to
+compile this information. Lord willing, the result will be an exhaustive
+dataset that will provide the foundation for many fruitful analyses, such as
+[The Twelve Believers](/the-twelve-believers/).  Visit [the project on
 GitHub](https://github.com/gospel-desk/a-narrative-apparatus) to learn more and
 get involved.
 
