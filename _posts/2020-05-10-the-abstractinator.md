@@ -3,7 +3,6 @@ layout: post
 heading: The Abstractinator
 excerpt: "I am writing software to help compile information for The Gospels with a Narrative Apparatus."
 is_published: yes
-suppress_subscribe: no
 ---
 
 I hope, under God, to publish a print edition of the Gospels that encodes more

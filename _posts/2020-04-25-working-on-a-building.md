@@ -3,7 +3,6 @@ layout: post
 heading: Working on a Building
 excerpt: "Gospel Desk has a place in the world, on Spring Hill in Sewickley, Pennsylvania, USA."
 is_published: yes
-suppress_subscribe: no
 ---
 
 As I reach out to [artists](/updates/2020/first-three-iconographers/) to

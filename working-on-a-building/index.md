@@ -1,6 +1,5 @@
 ---
 heading: Working on a Building
-suppress_subscribe: no
 ---
 
 Working on a Building is "a song in both the African American spiritual and

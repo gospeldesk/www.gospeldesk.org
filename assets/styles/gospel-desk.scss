@@ -282,13 +282,24 @@ ul {
     }
     .excerpt {
       display: block;
-      padding: 0 0 12pt;
       font: normal 10pt/14pt $Sen;
     }
 
     margin-top: 12pt;
     &:first-of-type {
       margin-top: 0;
+    }
+  }
+
+  .read-more {
+    float: right;
+    color: $red;
+    font: normal 11pt/16pt $Sen;
+    margin-top: 6pt;
+    padding: 3pt 6pt;
+    &:hover {
+      background: $pink;
+      color: $black;
     }
   }
 
@@ -334,22 +345,10 @@ ul {
   }
 }
 
-.homepage {
+.projects {
   .content {
     padding-right: 0;
     padding-bottom: 0;
-
-    .read-more {
-      float: right;
-      color: $red;
-      font: normal 11pt/16pt $Sen;
-      margin-top: 6pt;
-      padding: 3pt 6pt;
-      &:hover {
-        background: $pink;
-        color: $black;
-      }
-    }
     img {
       margin: 0 0 0 18pt;
       float: right;

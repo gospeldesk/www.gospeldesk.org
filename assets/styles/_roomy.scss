@@ -83,6 +83,9 @@
         }
       }
     }
+    .read-more {
+      font: normal 12pt/18pt $Sen;
+    }
     &.subscribe {
       .tinyletter img {
         width: 72pt;
@@ -90,11 +93,8 @@
     }
   }
 
-  .homepage {
+  .projects {
     .content {
-      .read-more {
-        font: normal 12pt/18pt $Sen;
-      }
       img {
         margin: 0 0 0 36pt;
       }
