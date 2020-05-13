@@ -93,11 +93,20 @@
     }
   }
 
-  .projects {
-    .content {
-      img {
-        margin: 0 0 0 36pt;
-      }
+  .card {
+    padding: 24pt 0 0;
+    header {
+      margin: 0 0 12pt 27pt;
+    }
+    .description {
+      float: left;
+      width: 40%;
+      padding: 0 0 0 36pt;
+    }
+    img {
+      width: 50%;
+      max-width: 320px;
+      float: right;
     }
   }
 

@@ -345,17 +345,17 @@ ul {
   }
 }
 
-.projects {
-  .content {
-    padding-right: 0;
-    padding-bottom: 0;
-    img {
-      margin: 0 0 0 18pt;
-      float: right;
-
-      max-width: 256px;
-      width: 50%;
-    }
+.card {
+  padding: 12pt 0 0;
+  header {
+    margin: 0 0 12pt 0;
+  }
+  .description {
+    padding: 0 18pt 12pt;
+  }
+  img {
+    margin: 0;
+    width: 100%;
   }
 }
 
