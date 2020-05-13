@@ -51,10 +51,10 @@ to teach us about seeing Christ. Praise be to God!
 
 ---
 
-[Jonathan Pageau](https://pageaucarvings.com/) is to carve the
-[Centurion](/the-twelve-believers/the-centurion/). I knew of Jonathan from the
-masthead of the [Orthodox Arts Journal](https://orthodoxartsjournal.org/), and
-from his social media presence through [The Symbolic
+[Jonathan Pageau](https://pageaucarvings.com/), another Canadian, is to carve
+the [Centurion](/the-twelve-believers/the-centurion/). I knew of Jonathan from
+the masthead of the [Orthodox Arts Journal](https://orthodoxartsjournal.org/),
+and from his social media presence through [The Symbolic
 World](https://thesymbolicworld.com/). I find his exposition of a symbolic,
 Biblical worldview to be refreshing and invigorating. We are hopeful that his
 work queue and other commitments will allow us to begin working together in
@@ -63,11 +63,11 @@ work queue and other commitments will allow us to begin working together in
 When presented with an almost clean slate of saints to represent, Jonathan
 narrowed the field to the Centurion and St. Mary of Bethany. With Federico also
 choosing Mary (see below), the path for Jonathan became clear. Jonathan's
-contribution will likely be unique in that he is a _carver_ of icons rather than
-a painter. Lord willing, the Church will soon have a new stone (or wooden?)
-image of the [Centurion](/the-twelve-believers/the-centurion/), the man of
-authority who put himself under Christ's authority. May we do the same with our
-own lives!
+contribution may turn out to be unique in that he is a _carver_ of icons rather
+than a painter. Lord willing, the Church will soon have a new stone (or
+wooden?) image of the [Centurion](/the-twelve-believers/the-centurion/), the
+man of authority who put himself under Christ's authority. May we do the same
+with our own lives!
 
 
 
@@ -93,9 +93,9 @@ to spend time with him, to celebrate him."
 
 Federico is a Chilean artist trained in Greece, and a professor at the
 Pontifical Catholic University of Chile. As such, his style is a delightfully
-Latin American inflection of the Byzantine tradition. Here I must acknowledge
-the current pandemic, because it prevents Federico from accessing his workshop,
-but, Lord willing, the icon of Mary can be completed in early 2021.
+Latin American inflection of the Byzantine tradition. The pandemic currently
+hinders Federico from accessing his workshop, but, Lord willing, the icon of
+Mary can be completed in early 2021.
 
 ---
 
