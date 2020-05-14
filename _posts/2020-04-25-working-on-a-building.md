@@ -12,7 +12,7 @@ liturgical context that the icons will ultimately inhabit. My hope is that they
 will live in a chapel—the Chapel of the Faithful Servant—within a guest house
 on our family's property. This is essential to the Twelve Believers project
 and, I believe, an enrichment to the overall Gospel Desk story, so in this post
-I want to introduce you to our guest house and its situation.
+I want to introduce our guest house and its situation.
 
 
 #### Perched Between Village and Forest
