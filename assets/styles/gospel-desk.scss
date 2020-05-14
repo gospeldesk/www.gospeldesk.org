@@ -180,7 +180,9 @@ ul {
     margin: 18pt 0 3pt;
   }
 
-  h4 + p {
+  h4 + p,
+  h5 + p,
+  hr + p {
       text-indent: 0;
   }
   p {

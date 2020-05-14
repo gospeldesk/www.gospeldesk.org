@@ -10,9 +10,9 @@ collaborate on iconography for the [Twelve Believers](/the-twelve-believers/)
 project, we are starting to confront the question of the architectural and
 liturgical context that the icons will ultimately inhabit. My hope is that they
 will live in a chapel—the Chapel of the Faithful Servant—within a guest house
-on our family's property. This is essential to the Twelve Believers project and
-an enrichment to the overall Gospel Desk story, so in this post I want to
-introduce you to our guest house and its situation.
+on our family's property. This is essential to the Twelve Believers project
+and, I believe, an enrichment to the overall Gospel Desk story, so in this post
+I want to introduce you to our guest house and its situation.
 
 
 #### Perched Between Village and Forest
@@ -26,7 +26,9 @@ as a physical home for Gospel Desk.
 ---
 
 [![Gospel Desk HQ](../gospel-desk-hq.small.jpg)](../gospel-desk-hq.jpg)
-<div class="caption">The guest house at Spring Hill is ripe with potential.</div>
+
+<div class="caption">The guest house at Spring Hill is ripe with potential ...
+or ripe for destruction!</div>
 
 ---
 
