@@ -20,22 +20,23 @@ Donkelaar, Jonathan Pageau, and Federico Aguirre.
 
 ---
 
-Symeon van Donkelaar of [Conestoga Icons](https://www.conestogaicons.com/) has
-chosen to paint [St. Bartholomew](/the-twelve-believers/st-bartimaeus/). Symeon
-is the first iconographer I made contact with, after receiving his newsletter
-last October, on the Feast of St. Luke, with this call to action:
+Symeon van Donkelaar of [The Conestoga Iconographic
+Studio](https://www.conestogaicons.com/) has chosen to paint [St.
+Bartholomew](/the-twelve-believers/st-bartimaeus/). Symeon is the first
+iconographer I made contact with, after receiving his newsletter last October,
+on the Feast of St. Luke, with this call to action:
 
 > If you've thought about commissioning an icon from Conestoga Icons, please
 > get in touch before the month of October is finished. Without such interest
 > being expressed, the studio's door will have to close for the foreseeable
 > future.
 
-
 I had been sitting by for a while, reading Orthodox Arts Journal and
 subscribing to newsletters such as Conestoga's, pondering the possibility of a
 series of icons of St. Justa, the Canaanite woman. When I saw Symeon's message,
-I was moved to step forward. Conestoga has such a distinctive style, evoking
-Coptic influences yet possessing a decidedly modern—almost playful—aesthetic. I
+I was moved to step forward. Conestoga icons have such a distinctive style.
+While participating in the iconographic tradition, they embody a particular
+vision of the saints that evoke a decidedly modern—almost playful—aesthetic. I
 knew I wanted to work together if possible.
 
 Symeon and I entered into a wonderful dialogue that contributed directly to the
