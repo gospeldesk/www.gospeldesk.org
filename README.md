@@ -25,7 +25,7 @@ Next step: [Discord](https://discord.gg/DB2aRYw). 🕳
            Internet?
     1. Put out at least four videos.
 
-## Goals for 2020 and Beyond
+## Projected Units Sold
 
 | Title | 2020 | 2021 | 2022 | 2023 |
 |:------|---:|---:|---:|---:|
