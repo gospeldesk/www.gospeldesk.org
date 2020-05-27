@@ -1,7 +1,7 @@
 url: https://www.gospel-desk.com
 sass:
   sass_dir: .
-exclude: ["bin"]
+exclude: ["CNAME", "Makefile", "README.md"]
 defaults:
   -
     scope:
