@@ -136,7 +136,7 @@ each icon:
    ([Matthew 17:5](https://www.biblegateway.com/verse/en/Matthew%2017))
 1. Virgin Mary - "Blessed art thou among women."
    ([Luke 1:28](https://www.biblegateway.com/verse/en/Luke%201:28))
-1. John - "Yes, and you are more than a prophet."
+1. John - "Yes, and more than a prophet."
    ([Matthew 11:9](https://www.biblegateway.com/verse/en/Matthew%2011:9))
 1. [St. Justa](/the-twelve-believers/st-justa/) - "Woman, great is your faith!"
 1. [St. Veronica](/the-twelve-believers/st-veronica/) - "Daughter, be of good
