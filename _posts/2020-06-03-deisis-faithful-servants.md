@@ -132,7 +132,7 @@ receives is immediately returned to its source and proper end. On the image of
 Christ, the voice from heaven is centered. Here are the words to be included on
 each icon:
 
-1. Christ - "You are my beloved Son."
+1. Christ - "This is my beloved Son."
    ([Matthew 17:5](https://www.biblegateway.com/verse/en/Matthew%2017))
 1. Virgin Mary - "Blessed art thou among women."
    ([Luke 1:28](https://www.biblegateway.com/verse/en/Luke%201:28))
