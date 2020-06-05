@@ -108,29 +108,30 @@ Believers arrayed down the sides of the
   </tr>
 </table>
 
-Each portrait icon of the Twelve is to be 30 cm by 38 cm, framed alike, gaze
+Each portrait icon of the Twelve is to be 18 by 24 inches, framed alike, gaze
 outward, head inclined towards Christ. Each will vary from its neighbors in
 style while remaining equal in artistic mastery, each uniquely evoking the
 attraction we ought to feel for these reflections of the image of God. For, in
-Andrew's words, "Icons function via eros. A good icon makes you want to skip
-across the room and kiss it." The icons at the front will be larger and
-visually richer, with water gilt backgrounds, perhaps all on one panel, perhaps
-on separate panels of equal height, perhaps hinged in a triptych.
+Andrew's words:
+
+> Icons reveal the beauty of the Kingdom of Heaven to our physical senses,
+> inspiring our love of God and His saints by means of eros. Upon seeing a
+> great icon, one may feel wounded in the heart by erotic love, and may want to
+> skip across the room and kiss it, and never part from that beauty.
+
+The icons at the front will be the largest and most visually sumptuous, with
+burnished water gilding and jewel tones, perhaps all on one panel, perhaps on
+separate panels of equal height, perhaps hinged in a triptych.
 
 In this context, the Twelve Believers join the Virgin and the Forerunner in
 supplication to Christ on our behalf, and we join with this cloud of witnesses
-in prayer and worship. Christ holds the text (whether in a book or scroll), "Well
-done, good and faithful servants." Of course, Christ himself is the Faithful Servant,
-himself explicitly and directly praised by God at his Baptism and again at his
-Transfiguration. Likewise, Virgin Mary is praised by Archangel Gabriel, and
-John is praised by Christ before the people. 
-
-The specific words of praise to each are included on their icon, spoken by the
-voice of God coming from heaven: in the upper left corner for those inclined
-right, in the upper right for those inclined to the left. Thus, the praise each
-receives is immediately returned to its source and proper end. On the image of
-Christ, the voice from heaven is centered. Here are the words to be included on
-each icon:
+in prayer and worship. Christ holds the text (whether in a book or scroll),
+"Well done, good and faithful servants." Of course, Christ himself is the
+Faithful Servant, himself explicitly and directly praised by God at his Baptism
+and again at his Transfiguration. Likewise, Virgin Mary is praised by Archangel
+Gabriel, and John is praised by Christ before the people. The specific words of
+praise to each are included on their icon, inscribed in a manner suitable to
+each composition:
 
 1. Christ - "This is my beloved Son."
    ([Matthew 17:5](https://www.biblegateway.com/verse/en/Matthew%2017))
