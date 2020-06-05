@@ -130,8 +130,8 @@ in prayer and worship. Christ holds the text (whether in a book or scroll),
 Faithful Servant, himself explicitly and directly praised by God at his Baptism
 and again at his Transfiguration. Likewise, Virgin Mary is praised by Archangel
 Gabriel, and John is praised by Christ before the people. The specific words of
-praise to each are included on their icon, inscribed in a manner suitable to
-each composition:
+praise to each are inscribed on their icon, in a manner suitable to each
+composition:
 
 1. Christ - "This is my beloved Son."
    ([Matthew 17:5](https://www.biblegateway.com/verse/en/Matthew%2017))
