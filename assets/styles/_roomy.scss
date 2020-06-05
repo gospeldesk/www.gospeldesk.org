@@ -1,5 +1,9 @@
 @mixin roomy_styles {
 
+  body {
+    font: normal 12pt/18pt $Sen;
+  }
+
   .hero {
     h2 {
       font: bold 36pt/36pt $Sen;
@@ -40,7 +44,6 @@
     }
 
     p {
-      font: normal 12pt/18pt $Sen;
       text-indent: 24pt;
     }
 
@@ -48,7 +51,6 @@
       margin: 12pt 0 12pt 24pt;
       &.praise {
         margin: 0 0 6pt;
-        font: normal 12pt/18pt $Sen;
         text-indent: -0.5em;
         padding: 12pt 0;
         cite {
@@ -74,17 +76,13 @@
     }
 
     ol {
-      margin: 6pt 0 18pt 24pt;
+      margin: 18pt 0 18pt 24pt;
       li {
-        font: normal 12pt/18pt $Sen;
         margin-bottom: 6pt;
         &:last-of-type {
           margin-bottom: 0;
         }
       }
-    }
-    .read-more {
-      font: normal 12pt/18pt $Sen;
     }
     &.subscribe {
       .tinyletter img {

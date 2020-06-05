@@ -59,7 +59,7 @@ $pink: #CA867C;
 body {
   background: $gray;
   text-align: center;
-  font: normal 12pt/18pt $Sen;
+  font: normal 11pt/16pt $Sen;
   min-width: 320px;
 }
 
@@ -78,7 +78,6 @@ ul {
   margin: 0;
   li {
     list-style: none;
-    font: normal 12pt/14pt $Sen;
     display: inline;
     &::after { content: " ❧ "; }
     &:last-of-type::after { content: ""; }
@@ -186,7 +185,6 @@ ul {
       text-indent: 0;
   }
   p {
-    font: normal 11pt/16pt $Sen;
     text-indent: 18pt;
     &:first-of-type {
       text-indent: 0;
@@ -198,7 +196,6 @@ ul {
     &.praise {
       margin: 0;
       clear: both;
-      font: normal 11pt/16pt $Sen;
       text-indent: -5pt;
       padding: 0 0 12pt;
       cite {
@@ -218,6 +215,9 @@ ul {
       }
     }
   }
+  blockquote + p {
+    text-indent: 0;
+  }
 
   img {
     width: 100%;
@@ -233,10 +233,9 @@ ul {
   }
 
   ol {
-    margin: 0.5em 0 0.5em 2em;
+    margin: 12pt 0 12pt 18pt;
     li {
-      font: normal 12pt/18pt $Sen;
-      margin-bottom: 0.5em;
+      margin-bottom: 6pt;
       &:last-of-type {
         margin-bottom: 0;
       }
@@ -296,7 +295,6 @@ ul {
   .read-more {
     float: right;
     color: $red;
-    font: normal 11pt/16pt $Sen;
     margin-top: 6pt;
     padding: 3pt 6pt;
     &:hover {
@@ -363,7 +361,6 @@ ul {
 
 footer {
   padding: 18pt;
-  font: normal 11pt/18pt $Sen;
   background: $black;
   color: $white;
   span {
@@ -374,7 +371,6 @@ footer {
   }
   li {
     display: block;
-    font: normal 11pt/16pt $Sen;
     &::after { content: (""); }
   }
 }
