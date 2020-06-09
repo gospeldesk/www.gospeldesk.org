@@ -1,7 +1,8 @@
 ---
 layout: post
 heading: "A Deisis of the Faithful Servants"
-excerpt: "Advised by Andrew Gould, I have set the iconographic parameters for the Twelve Believers project."
+excerpt: "Advised by Andrew Gould, I have set the parameters for the iconography of the Twelve Believers."
+is_published: yes
 ---
 
 The [Twelve Believers](/the-twelve-believers/) project is a celebration of
@@ -18,7 +19,7 @@ for this group of saints within the life of the Church. The artistic challenge
 and opportunity is, as one iconographer put it, "making every single image
 function together with the 'team' of other images." If done well, this "will
 give a feeling of ensemble and create a stunning impression" of the group as a
-whole, increasing the possibility of their reception as such within the Church.
+whole, aiding their reception as such within the Church.
 
 Therefore, I am happy to announce that Andrew Gould, principal designer at [New
 World Byzantine](https://newworldbyzantine.com/) and founding editor of the
@@ -32,49 +33,75 @@ project.
 
 The primary conclusion from my initial conversations with Andrew is that the
 icons of the Twelve Believers are to be structured as a deisis, that is, a
-representation of Christ in glory following his second coming, with the Mother
-of God and John the Baptist in supplication on his right hand and his left.
-For example, here is [a
+representation of Christ in Glory at the Second Coming, with the Mother of God
+and John the Baptist in supplication on his right hand and his left.  For
+example, here is [a
 deisis](https://orthodoxartsjournal.org/deisis-an-iconographic-installation/)
 from Federico José Xamist, one of the iconographers working with the Twelve
 Believers project. The deisis tier of a traditional iconostasis, particularly a
-Russian one, would typically proceed outwards with Archangels Gabriel and
-Michael, Saints Peter and Paul, etc. For us instead it will be the Twelve
-Believers arrayed down the sides of the
-[chapel](/updates/2020/working-on-a-building/), as follows:
+Russian one, proceeds outwards with Archangels Gabriel and Michael, Saints
+Peter and Paul, etc. For us instead it will be the Twelve Believers arrayed
+down the sides of the [chapel](/updates/2020/working-on-a-building/), as
+follows:
 
 <style>
-  .deesis {
+  .deisis {
     width: 1px;
     margin: 12pt auto;
     border-collapse: collapse;
   }
-  .deesis td {
+  .deisis td {
     width: 50%;
     white-space: nowrap;
   }
-  .deesis td:first-of-type {
+  .deisis td:first-of-type {
     text-align: right;
-    padding-right: 36pt;
-  }
-  .deesis td:last-of-type {
-    text-align: left;
-    padding-left: 36pt;
-  }
-  .deesis tr.front td {
-    border-bottom: 1px solid #21201A;
-  }
-  .deesis td.mary {
     padding-right: 9pt;
   }
-  .deesis td.john {
+  .deisis td:last-of-type {
+    text-align: left;
     padding-left: 9pt;
   }
-  .deesis td.christ {
+  .deisis tr.front td {
+    border-bottom: 1px solid #21201A;
+  }
+  .deisis td.mary {
+    padding-right: 4.5pt;
+  }
+  .deisis td.john {
+    padding-left: 4.5pt;
+  }
+  .deisis td.christ {
     text-align: center;
   }
+  @media only screen and (max-width: 420px) {
+    .deisis {
+      width: 82%;
+      margin: 12pt 0 24pt 18pt;
+    }
+    .deisis td {
+      width: auto;
+      display: block;
+      padding: 0;
+    }
+    .deisis td:first-of-type {
+      text-align: left;
+    }
+    .deisis td:last-of-type {
+      text-align: right;
+    }
+    .deisis td.christ {
+      text-align: center;
+    }
+    .deisis tr.front td {
+      border-bottom: none;
+    }
+    .deisis tr.front td.john {
+      border-bottom: 1px solid #21201A;
+    }
+  }
 </style>
-<table class="deesis">
+<table class="deisis">
   <tr>
     <td colspan="2" class="christ">Christ</td>
   </tr>
@@ -109,7 +136,7 @@ Believers arrayed down the sides of the
 </table>
 
 Each portrait icon of the Twelve is to be 18 by 24 inches, framed alike, gaze
-outward, head inclined towards Christ. Each will vary from its neighbors in
+outward, head inclined toward Christ. Each will vary from its neighbors in
 style while remaining equal in artistic mastery, each uniquely evoking the
 attraction we ought to feel for these reflections of the image of God. For, in
 Andrew's words:
@@ -134,7 +161,7 @@ praise to each are inscribed on their icon, in a manner suitable to each
 composition:
 
 1. Christ - "This is my beloved Son."
-   ([Matthew 17:5](https://www.biblegateway.com/verse/en/Matthew%2017))
+   ([Matthew 17:5](https://www.biblegateway.com/verse/en/Matthew%2017:5))
 1. Virgin Mary - "Blessed art thou among women."
    ([Luke 1:28](https://www.biblegateway.com/verse/en/Luke%201:28))
 1. John - "Yes, and more than a prophet."
@@ -153,6 +180,32 @@ cheer!"
 1. [St. Peter](/the-twelve-believers/st-peter/) - "Blessed are you, Simon bar Jonah."
 1. [St. Mary of Bethany](/the-twelve-believers/st-mary-of-bethany/) - "She has chosen the good portion."
 
-Surely many more details will need to be decided as the project unfolds, but
-the above should give us enough structure to begin in earnest. Thanks be to
+Many individual details will need to be decided as the project unfolds. As
+these details are discovered, the above framework will ensure that we unite the
+creativity and individuality of each artist into a coherent whole. Thanks be to
 God!
+
+
+#### Assembling the Team
+
+The next step is to form the team of thirteen iconographers, understanding that
+some changes to the roster may occur here and there as the project unfolds in
+the coming years.
+
+It is important to assemble the full team up front in order to ensure a
+stylistic balance, and also for more pragmatic reasons. On the one hand, many
+artists have years-long waiting lists. On the other hand, the intended use for
+these icons goes beyond their private display.  I have a commercial intent, to
+publish a devotional book about the Twelve Believers that includes the icons,
+as well as written reflections, meditations, prayers, etc.  While it would be
+crass to reduce the Twelve Believers to its commercial aspect, it would also be
+short-sighted to ignore the question of properly
+[licensing](https://www.plagiarismtoday.com/2019/09/05/copyright-and-commissioned-art/)
+these works of art for such a use. Furthermore, the chief way I know to limit
+the corrupting influence of money is to act [transparently and
+openly](https://opensource.com/open-organization/16/9/openness-means-to-what-end).
+Unfortunately, transparency is not yet common in commerce, so this too will
+need to be negotiated with each member of the team, and that had better be done
+up front.
+
+Which is to say, there is much to be done! Pray for me, a sinner.
