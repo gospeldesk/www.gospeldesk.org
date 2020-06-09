@@ -188,9 +188,9 @@ God!
 
 #### Assembling the Team
 
-The next step is to form the team of thirteen iconographers, understanding that
-some changes to the roster may occur here and there as the project unfolds in
-the coming years.
+The next step is to finish forming the team of thirteen iconographers,
+understanding that some changes to the roster may occur here and there as the
+project unfolds in the coming years.
 
 It is important to assemble the full team up front in order to ensure a
 stylistic balance, and also for more pragmatic reasons. On the one hand, many
