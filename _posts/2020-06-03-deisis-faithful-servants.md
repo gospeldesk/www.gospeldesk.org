@@ -34,7 +34,7 @@ project.
 The primary conclusion from my initial conversations with Andrew is that the
 icons of the Twelve Believers are to be structured as a deisis, that is, a
 representation of Christ in Glory at the Second Coming, with the Mother of God
-and John the Baptist in supplication on his right hand and his left.  For
+and John the Baptist in supplication on his right hand and his left. For
 example, here is [a
 deisis](https://orthodoxartsjournal.org/deisis-an-iconographic-installation/)
 from Federico José Xamist, one of the iconographers working with the Twelve
@@ -195,17 +195,16 @@ project unfolds in the coming years.
 It is important to assemble the full team up front in order to ensure a
 stylistic balance, and also for more pragmatic reasons. On the one hand, many
 artists have years-long waiting lists. On the other hand, the intended use for
-these icons goes beyond their private display.  I have a commercial intent, to
-publish a devotional book about the Twelve Believers that includes the icons,
-as well as written reflections, meditations, prayers, etc.  While it would be
-crass to reduce the Twelve Believers to its commercial aspect, it would also be
-short-sighted to ignore the question of properly
+these icons goes beyond their private display. I have commercial intentions.
+For example, I hope to publish a devotional book about the Twelve Believers
+that includes the icons, as well as written reflections, meditations, prayers,
+etc. While it would be crass to reduce the Twelve Believers to its commercial
+aspect, it would also be short-sighted to ignore the question of properly
 [licensing](https://www.plagiarismtoday.com/2019/09/05/copyright-and-commissioned-art/)
-these works of art for such a use. Furthermore, the chief way I know to limit
-the corrupting influence of money is to act [transparently and
-openly](https://opensource.com/open-organization/16/9/openness-means-to-what-end).
-Unfortunately, transparency is not yet common in commerce, so this too will
-need to be negotiated with each member of the team, and that had better be done
-up front.
+these works of art for such uses. Further complicating matters, the chief way I
+know to limit the corrupting influence of money is to act [transparently and
+openly](https://opensource.com/open-organization/16/9/openness-means-to-what-end),
+but, unfortunately, transparency is not yet common in commerce. So this too
+will need to be negotiated with each member of the team.
 
 Which is to say, there is much to be done! Pray for me, a sinner.
