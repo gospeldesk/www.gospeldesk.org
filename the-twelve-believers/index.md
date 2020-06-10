@@ -4,9 +4,9 @@ subheading: Celebrating those Christ celebrates
 ---
 
 [The Gospels](/the-gospels/) tell the story of Jesus, the Son of God, with the
-intention that we would submit to him. What does this submission look like? In
-the Gospels, there are twelve people whom Christ **directly, explicitly
-praises** for their faith. Just as Jesus calls the [Twelve
+intention that we would believe in him. What does belief look like? In the
+Gospels, there are twelve people whom Christ **directly, explicitly praises**
+for their faith. Just as Jesus calls the [Twelve
 Disciples](https://www.bibleinfo.com/en/questions/who-were-twelve-disciples),
 so also there are another Twelve who call on Jesus in a way that provides a
 clear picture of devotion for all Christians to follow.
