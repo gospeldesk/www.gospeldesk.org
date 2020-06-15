@@ -63,15 +63,30 @@ body {
   min-width: 320px;
 }
 
-i, em {
+/* no italic in Sen */
+em, cite {
   font-style: normal;
   text-decoration: underline;
 }
 
+@mixin highlight($color, $opacity) {
+  background: $color;
+  background: linear-gradient(
+                rgba($color, 0) 0%,
+                rgba($color, 0) 35%,
+                rgba($color, $opacity) 35%,
+                rgba($color, $opacity) 77%,
+                rgba($color, 0) 77%,
+                rgba($color, 0) 100%,
+              );
+}
+u {
+  text-decoration: none; // override default
+	@include highlight(#0ff, 0.13);
+}
 strong {
-  font-weight: normal;
-  background: #ffff66;
-  padding: 1pt 0;
+  font-weight: normal; // override default
+	@include highlight(#ff6, 0.2);
 }
 
 ul {

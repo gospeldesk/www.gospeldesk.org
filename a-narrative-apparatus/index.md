@@ -4,8 +4,8 @@ subheading: Cataloging characters, frames, and scenes
 ---
 
 [The Gospels](/the-gospels) lays out Mark, Matthew, Luke, and John in a way
-that is easy to read, to make their narrative force more immediate. _The
-Gospels, with a Narrative Apparatus_ has an opposite goal: to render the
+that is easy to read, to make their narrative force more immediate. <cite>The
+Gospels, with a Narrative Apparatus</cite> has an opposite goal: to render the
 narrative structure of the Gospels systematically and definitively, in both
 print and digital editions.
 

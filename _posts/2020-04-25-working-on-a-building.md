@@ -65,14 +65,14 @@ building](/working-on-a-building/)!
 
 #### Head, Heart, and Hospitality
 
-In the opening chapter of *The Abolition of Man*, C.S. Lewis summarizes an
-ancient anthropology: "The head rules the belly through the chest." I see in
-this a pattern for what the guest house at Spring Hill can become, if the Lord
-wills it: a library upstairs alongside the chapel, and living quarters
-downstairs. Maybe some day you will be able to visit, studying in the library
-with the [Narrative Apparatus](/a-narrative-apparatus), praying in the chapel
-with the [Twelve Believers](/the-twelve-believers/), enjoying this special spot
-with us, and recentering your life within God's story.
+In the opening chapter of <cite>The Abolition of Man</cite>, C.S. Lewis
+summarizes an ancient anthropology: "The head rules the belly through the
+chest." I see in this a pattern for what the guest house at Spring Hill can
+become, if the Lord wills it: a library upstairs alongside the chapel, and
+living quarters downstairs. Maybe some day you will be able to visit, studying
+in the library with the [Narrative Apparatus](/a-narrative-apparatus), praying
+in the chapel with the [Twelve Believers](/the-twelve-believers/), enjoying
+this special spot with us, and recentering your life within God's story.
 
 ---
 
