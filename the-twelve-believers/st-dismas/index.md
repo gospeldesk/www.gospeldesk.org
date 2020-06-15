@@ -64,7 +64,7 @@ Christ, save yourself and us!
 But the other answered, and rebuking him said, Don’t you even fear God, seeing
 you are under the same condemnation? And we indeed justly, for we receive the
 due reward for our deeds, but this man has done nothing wrong. He said to
-Jesus, Lord, remember me when you come into your Kingdom.
+Jesus, <u>Lord, remember me when you come into your Kingdom.</u>
 
 Jesus said to him, **Assuredly I tell you, today you will be with me in
 Paradise.**

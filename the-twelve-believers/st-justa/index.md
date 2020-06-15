@@ -16,8 +16,8 @@ Syrophoenician by race. She begged him that he would cast the demon out of her
 daughter. But Jesus said to her, Let the children be filled first, for it is
 not appropriate to take the children’s bread and throw it to the dogs.
 
-But she answered him, Yes, Lord. Yet even the dogs under the table eat the
-children’s crumbs.
+But she answered him, <u>Yes, Lord. Yet even the dogs under the table eat the
+children’s crumbs.</u>
 
 He said to her, **For this saying, go your way. The demon has gone out of your
 daughter.**
@@ -45,8 +45,8 @@ But she came and worshiped him, saying, Lord, help me.
 But he answered, It is not appropriate to take the children’s bread and throw
 it to the dogs.
 
-But she said, Yes, Lord, but even the dogs eat the crumbs which fall from their
-masters’ table.
+But she said, <u>Yes, Lord, but even the dogs eat the crumbs which fall from
+their masters’ table.</u>
 
 Then Jesus answered her, **Woman, great is your faith! Be it done to you even
 as you desire.** And her daughter was healed from that hour.

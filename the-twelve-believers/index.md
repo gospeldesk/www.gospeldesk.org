@@ -5,8 +5,8 @@ subheading: Celebrating those Christ celebrates
 
 [The Gospels](/the-gospels/) tell the story of Jesus, the Son of God, with the
 intention that we would believe in him. What does belief look like? In the
-Gospels, there are twelve people whom Christ **directly, explicitly praises**
-for their faith. Just as Jesus calls the [Twelve
+Gospels, there are twelve people whom Christ directly, explicitly **praises**
+for their <u>faith</u>. Just as Jesus calls the [Twelve
 Disciples](https://www.bibleinfo.com/en/questions/who-were-twelve-disciples),
 so also there are another Twelve who call on Jesus in a way that provides a
 clear picture of devotion for all Christians to follow.
@@ -57,5 +57,5 @@ Believers. Let us celebrate them, as well!
    
    [Nathanael](./st-nathanael/), [Peter](./st-peter/), and [Mary of
    Bethany](./st-mary-of-bethany/) are close friends of Jesus. Nathanael and
-   Peter are among the Twelve Disciples—indeed Peter is the most prominent
-   Disciple—and Mary is a Myrrhbearer and Equal of the Apostles.
+   Peter are among the Twelve Disciples—indeed Peter is the most prominent—and
+   Mary is a Myrrhbearer and Equal of the Apostles.

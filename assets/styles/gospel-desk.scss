@@ -84,6 +84,9 @@ u {
   text-decoration: none; // override default
 	@include highlight(#0ff, 0.13);
 }
+u.red {
+	@include highlight(#f00, 0.08);
+}
 strong {
   font-weight: normal; // override default
 	@include highlight(#ff6, 0.2);

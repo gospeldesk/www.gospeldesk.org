@@ -17,7 +17,7 @@ prophets.
 
 He said to them, But who do you say that I am?
 
-Peter answered, You are the Christ.
+Peter answered, <u>You are the Christ.</u>
 
 He commanded them that they should tell no one about him. He began to teach
 them that the Son of Man must suffer many things, and be rejected by the
@@ -38,7 +38,7 @@ one of the prophets.
 
 He said to them, But who do you say that I am?
 
-Simon Peter answered, You are the Christ, the Son of the living God.
+Simon Peter answered, <u>You are the Christ, the Son of the living God.</u>
 
 Jesus answered him, **Blessed are you, Simon Bar Jonah, for flesh and blood
 has not revealed this to you, but my Father who is in heaven. I also tell you
@@ -51,12 +51,12 @@ Christ. From that time, Jesus began to show his disciples that he must go to
 Jerusalem and suffer many things from the elders, chief priests, and scribes,
 and be killed, and the third day be raised up. 
 
-Peter took him aside, and began to rebuke him, saying, Far be it from you,
-Lord! This will never be done to you.
+Peter took him aside, and began to rebuke him, saying, <u class="red">Far be it
+from you, Lord! This will never be done to you.</u>
 
-But he turned, and said to Peter, Get behind me, Satan! You are a stumbling
-block to me, for you are not setting your mind on the things of God, but on the
-things of men.
+But he turned, and said to Peter, <u class="red">Get behind me, Satan! You are
+a stumbling block to me, for you are not setting your mind on the things of
+God, but on the things of men.</u>
 
 
 ##### Luke 9:18-22
@@ -69,7 +69,7 @@ of the old prophets is risen again.
 
 He said to them, But who do you say that I am?
 
-Peter answered, The Christ of God.
+Peter answered, <u>The Christ of God.</u>
 
 But he warned them, and commanded them to tell this to no one, saying, The Son
 of Man must suffer many things, and be rejected by the elders, chief priests,
@@ -81,6 +81,6 @@ and scribes, and be killed, and the third day be raised up.
 At this, many of his disciples went back, and walked no more with him. Jesus
 said therefore to the twelve, You don’t also want to go away, do you?
 
-Simon Peter answered him, Lord, to whom would we go? You have the words of
+Simon Peter answered him, <u>Lord, to whom would we go? You have the words of
 eternal life. We have come to believe and know that you are the Christ, the Son
-of the living God.
+of the living God.</u>

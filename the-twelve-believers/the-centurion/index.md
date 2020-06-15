@@ -14,10 +14,11 @@ Lord, my servant lies in the house paralyzed, grievously tormented.
 
 Jesus said to him, I will come and heal him.
 
-The centurion answered, Lord, I’m not worthy for you to come under my roof.
+The centurion answered, <u>Lord, I’m not worthy for you to come under my roof.
 Just say the word, and my servant will be healed. For I am also a man under
 authority, having under myself soldiers. I tell this one, Go, and he goes, and
-tell another, Come, and he comes, and tell my servant, Do this, and he does it.
+tell another, Come, and he comes, and tell my servant, Do this, and he does
+it.</u>
 
 When Jesus heard it, he marveled, and said to those who followed, **Most
 certainly I tell you, I haven’t found so great a faith, not even in Israel. I
@@ -37,11 +38,11 @@ Jews, asking him to come and save his servant. When they came to Jesus, they
 begged him earnestly, saying, He is worthy for you to do this for him, for he
 loves our nation, and he built our synagogue for us. Jesus went with them. When
 he was now not far from the house, the centurion sent friends to him, saying to
-him, Lord, don’t trouble yourself, for I am not worthy for you to come under my
-roof. Therefore I didn’t even think myself worthy to come to you, but say the
-word, and my servant will be healed. For I also am a man placed under
+him, <u>Lord, don’t trouble yourself, for I am not worthy for you to come under
+my roof. Therefore I didn’t even think myself worthy to come to you, but say
+the word, and my servant will be healed. For I also am a man placed under
 authority, having under myself soldiers. I tell this one, Go! and he goes, and
-to another, Come! and he comes, and to my servant, Do this, and he does it.
+to another, Come! and he comes, and to my servant, Do this, and he does it.</u>
 
 When Jesus heard these things, he marveled at him, and turned and said to the
 multitude who followed him, **I tell you, I have not found such great faith,

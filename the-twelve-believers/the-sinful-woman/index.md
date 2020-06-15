@@ -11,12 +11,12 @@ html_title_sep: "("
 One of the Pharisees invited him to eat with him. He entered into the
 Pharisee’s house, and sat at the table. Behold, a woman in the city who was a
 sinner, when she knew that he was reclining in the Pharisee’s house, she
-brought an alabaster jar of ointment. Standing behind at his feet weeping, she
-began to wet his feet with her tears, and she wiped them with the hair of her
-head, kissed his feet, and anointed them with the ointment. Now when the
-Pharisee who had invited him saw it, he said to himself, This man, if he were a
-prophet, would have perceived who and what kind of woman this is who touches
-him, that she is a sinner.
+brought an alabaster jar of ointment. <u>Standing behind at his feet weeping,
+she began to wet his feet with her tears, and she wiped them with the hair of
+her head, kissed his feet, and anointed them with the ointment.</u> Now when
+the Pharisee who had invited him saw it, he said to himself, This man, if he
+were a prophet, would have perceived who and what kind of woman this is who
+touches him, that she is a sinner.
 
 Jesus answered him, Simon, I have something to tell you. He said, Teacher, say
 on.

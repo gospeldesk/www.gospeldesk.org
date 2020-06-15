@@ -12,9 +12,9 @@ html_title_sep: ","
 A certain woman, who had an issue of blood for twelve years, and had suffered
 many things by many physicians, and had spent all that she had, and was no
 better, but rather grew worse, having heard the things concerning Jesus, came
-up behind him in the crowd, and touched his clothes. For she said, If I just
-touch his clothes, I will be made well. Immediately the flow of her blood was
-dried up, and she felt in her body that she was healed of her affliction.
+up behind him in the crowd, and touched his clothes. For she said, <u>If I just
+touch his clothes, I will be made well.</u> Immediately the flow of her blood
+was dried up, and she felt in her body that she was healed of her affliction.
 
 Immediately Jesus, perceiving in himself that the power had gone out from him,
 turned around in the crowd, and asked, Who touched my clothes?
@@ -33,8 +33,8 @@ cured of your disease.**
 ##### Matthew 9:20-22
 
 Behold, a woman who had an issue of blood for twelve years came behind him, and
-touched the fringe of his garment, for she said within herself, If I just touch
-his garment, I will be made well.
+touched the fringe of his garment, for she said within herself, <u>If I just
+touch his garment, I will be made well.</u>
 
 But Jesus, turning around and seeing her, said, **Daughter, cheer up! Your
 faith has made you well.** And the woman was made well from that hour.
