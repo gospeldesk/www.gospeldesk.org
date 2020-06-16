@@ -16,8 +16,8 @@ Nathanael said to him, Can any good thing come out of Nazareth?
 
 Philip said to him, Come and see.
 
-Jesus saw Nathanael coming to him, and said about him, **Behold, an Israelite
-indeed, in whom is no deceit!**
+Jesus saw Nathanael coming to him, and said about him, <u>Behold, an Israelite
+indeed, in whom is no deceit!</u>
 
 Nathanael said to him, How do you know me?
 

@@ -73,24 +73,23 @@ em, cite {
   background: $color;
   background: linear-gradient(
                 rgba($color, 0) 0%,
-                rgba($color, 0) 35%,
-                rgba($color, $opacity) 35%,
-                rgba($color, $opacity) 77%,
-                rgba($color, 0) 77%,
+                rgba($color, 0) 32%,
+                rgba($color, $opacity) 32%,
+                rgba($color, $opacity) 80%,
+                rgba($color, 0) 80%,
                 rgba($color, 0) 100%,
               );
 }
-u {
+u, u.yellow {
   text-decoration: none; // override default
-	@include highlight(#0ff, 0.13);
+  @include highlight(#ff6, 0.25);
 }
-u.red {
-	@include highlight(#f00, 0.08);
-}
-strong {
-  font-weight: normal; // override default
-	@include highlight(#ff6, 0.2);
-}
+u.blue { @include highlight(#0ff, 0.18); }
+u.red { @include highlight(#f00, 0.08); }
+u.heavy, u.yellow.heavy { @include highlight(#ff6, 0.8); }
+u.heavy.blue { @include highlight(#0ff, 0.6); }
+u.heavy.red { @include highlight(#f00, 0.2); }
+
 
 ul {
   margin: 0;
@@ -217,6 +216,7 @@ ul {
       text-indent: -5pt;
       padding: 0 0 12pt;
       cite {
+        text-decoration: none;
         display: block;
         font: normal 9pt/12pt $Sen;
         padding: 3pt 0 3pt 9pt;

@@ -17,7 +17,7 @@ prophets.
 
 He said to them, But who do you say that I am?
 
-Peter answered, <u>You are the Christ.</u>
+Peter answered, <u class="blue">You are the Christ.</u>
 
 He commanded them that they should tell no one about him. He began to teach
 them that the Son of Man must suffer many things, and be rejected by the
@@ -38,14 +38,15 @@ one of the prophets.
 
 He said to them, But who do you say that I am?
 
-Simon Peter answered, <u>You are the Christ, the Son of the living God.</u>
+Simon Peter answered, <u class="blue">You are the Christ, the Son of the living
+God.</u>
 
-Jesus answered him, **Blessed are you, Simon Bar Jonah, for flesh and blood
+Jesus answered him, <u>Blessed are you, Simon Bar Jonah, for flesh and blood
 has not revealed this to you, but my Father who is in heaven. I also tell you
 that you are Peter, and on this rock I will build my assembly, and the gates of
 Hades will not prevail against it. I will give to you the keys of the Kingdom
 of Heaven, and whatever you bind on earth will have been bound in heaven, and
-whatever you release on earth will have been released in heaven.** Then he
+whatever you release on earth will have been released in heaven.</u> Then he
 commanded the disciples that they should tell no one that he was Jesus the
 Christ. From that time, Jesus began to show his disciples that he must go to
 Jerusalem and suffer many things from the elders, chief priests, and scribes,
@@ -69,7 +70,7 @@ of the old prophets is risen again.
 
 He said to them, But who do you say that I am?
 
-Peter answered, <u>The Christ of God.</u>
+Peter answered, <u class="blue">The Christ of God.</u>
 
 But he warned them, and commanded them to tell this to no one, saying, The Son
 of Man must suffer many things, and be rejected by the elders, chief priests,
@@ -81,6 +82,6 @@ and scribes, and be killed, and the third day be raised up.
 At this, many of his disciples went back, and walked no more with him. Jesus
 said therefore to the twelve, You don’t also want to go away, do you?
 
-Simon Peter answered him, <u>Lord, to whom would we go? You have the words of
-eternal life. We have come to believe and know that you are the Christ, the Son
-of the living God.</u>
+Simon Peter answered him, <u class="blue">Lord, to whom would we go? You have
+the words of eternal life. We have come to believe and know that you are the
+Christ, the Son of the living God.</u>

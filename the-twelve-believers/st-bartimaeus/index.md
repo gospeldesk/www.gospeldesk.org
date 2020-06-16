@@ -12,9 +12,9 @@ html_title_sep: ","
 They came to Jericho. As he went out from Jericho, with his disciples and a
 great multitude, the son of Timaeus, Bartimaeus, a blind beggar, was sitting by
 the road. When he heard that it was Jesus the Nazarene, he began to cry out,
-and say, <u>Jesus, you son of David, have mercy on me!</u> Many rebuked him,
-that he should be quiet, but he cried out much more, <u>You son of David, have
-mercy on me!</u>
+and say, <u class="blue">Jesus, you son of David, have mercy on me!</u> Many
+rebuked him, that he should be quiet, but he cried out much more, <u
+class="blue">You son of David, have mercy on me!</u>
 
 Jesus stood still, and said, Call him.
 
@@ -24,9 +24,9 @@ He, casting away his cloak, sprang up, and came to Jesus.
 
 Jesus asked him, What do you want me to do for you?
 
-The blind man said to him, <u>Rabboni, that I may see again.</u>
+The blind man said to him, <u class="blue">Rabboni, that I may see again.</u>
 
-Jesus said to him, **Go your way. Your faith has made you well.**
+Jesus said to him, <u>Go your way. Your faith has made you well.</u>
 
 Immediately he received his sight, and followed Jesus in the way.
 
@@ -35,14 +35,14 @@ Immediately he received his sight, and followed Jesus in the way.
 
 As they went out from Jericho, a great multitude followed him. Behold, two
 blind men sitting by the road, when they heard that Jesus was passing by, cried
-out, <u>Lord, have mercy on us, you son of David!</u> The multitude rebuked
-them, telling them that they should be quiet, but they cried out even more,
-<u>Lord, have mercy on us, you son of David!</u>
+out, <u class="blue">Lord, have mercy on us, you son of David!</u> The
+multitude rebuked them, telling them that they should be quiet, but they cried
+out even more, <u class="blue">Lord, have mercy on us, you son of David!</u>
 
 Jesus stood still, and called them, and asked, What do you want me to do for
 you?
 
-They told him, <u>Lord, that our eyes may be opened.</u>
+They told him, <u class="blue">Lord, that our eyes may be opened.</u>
 
 Jesus, being moved with compassion, touched their eyes, and immediately their
 eyes received their sight, and they followed him.
@@ -52,17 +52,17 @@ eyes received their sight, and they followed him.
 
 It happened, as he came near Jericho, a certain blind man sat by the road,
 begging. Hearing a multitude going by, he asked what this meant. They told him
-that Jesus of Nazareth was passing by. He cried out, <u>Jesus, you son of
-David, have mercy on me!</u> Those who led the way rebuked him, that he should
-be quiet, but he cried out all the more, <u>You son of David, have mercy on
-me!</u>
+that Jesus of Nazareth was passing by. He cried out, <u class="blue">Jesus, you
+son of David, have mercy on me!</u> Those who led the way rebuked him, that he
+should be quiet, but he cried out all the more, <u class="blue">You son of
+David, have mercy on me!</u>
 
 Standing still, Jesus commanded him to be brought to him. When he had come
 near, he asked him, What do you want me to do?
 
-He said, <u>Lord, that I may see again.</u>
+He said, <u class="blue">Lord, that I may see again.</u>
 
-Jesus said to him, **Receive your sight. Your faith has healed you.**
+Jesus said to him, <u>Receive your sight. Your faith has healed you.</u>
 
 Immediately he received his sight, and followed him, glorifying God. All the
 people, when they saw it, praised God.

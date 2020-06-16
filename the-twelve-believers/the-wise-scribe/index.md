@@ -18,14 +18,14 @@ soul, and with all your mind, and with all your strength. This is the first
 commandment. The second is like this, You shall love your neighbor as yourself.
 There is no other commandment greater than these.
 
-The scribe said to him, <u>Truly, teacher, you have said well that he is one,
-and there is none other but he, and to love him with all the heart, and with
-all the understanding, with all the soul, and with all the strength, and to
-love his neighbor as himself, is more important than all whole burnt offerings
-and sacrifices.</u>
+The scribe said to him, <u class="blue">Truly, teacher, you have said well that
+he is one, and there is none other but he, and to love him with all the heart,
+and with all the understanding, with all the soul, and with all the strength,
+and to love his neighbor as himself, is more important than all whole burnt
+offerings and sacrifices.</u>
 
-When Jesus saw that he answered wisely, he said to him, **You are not far from
-the Kingdom of God.**
+When Jesus saw that he answered wisely, he said to him, <u>You are not far from
+the Kingdom of God.</u>
 
 
 ##### Matthew 22:33-40
@@ -52,7 +52,7 @@ He answered, You shall love the Lord your God with all your heart, with all
 your soul, with all your strength, and with all your mind, and your neighbor as
 yourself.
 
-He said to him, **You have answered correctly. Do this, and you will live.**
+He said to him, <u>You have answered correctly. Do this, and you will live.</u>
 
 But he, desiring to justify himself, asked Jesus, Who is my neighbor?
 

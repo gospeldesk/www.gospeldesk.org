@@ -4,12 +4,14 @@ subheading: Celebrating those Christ celebrates
 ---
 
 [The Gospels](/the-gospels/) tell the story of Jesus, the Son of God, with the
-intention that we would believe in him. What does belief look like? In the
-Gospels, there are twelve people whom Christ directly, explicitly **praises**
-for their <u>faith</u>. Just as Jesus calls the [Twelve
+intention that we would believe in him, and that, believing, we would have life
+in his name. What does belief look like? In the Gospels, there are twelve
+people whom Christ directly, explicitly <u>praises</u> for their <u
+class="blue">faith</u>. Just as Jesus calls the [Twelve
 Disciples](https://www.bibleinfo.com/en/questions/who-were-twelve-disciples),
-so also there are another Twelve who call on Jesus in a way that provides a
-clear picture of devotion for all Christians to follow.
+so also there are another Twelve who <u class="blue">call</u> on Jesus and are
+<u>answered</u>, providing a clear picture of devotion for all Christians to
+follow.
 
 The purpose of the Twelve Believers project is to build faith in our day by
 promoting these saints of the Church—producing liturgical art, exploring their

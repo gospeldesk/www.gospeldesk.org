@@ -4,6 +4,7 @@ subheading: the Canaanite woman
 html_title_sep: ","
 ---
 
+
 #### In the Gospels
 
 ##### Mark 7:24-30
@@ -16,11 +17,11 @@ Syrophoenician by race. She begged him that he would cast the demon out of her
 daughter. But Jesus said to her, Let the children be filled first, for it is
 not appropriate to take the children’s bread and throw it to the dogs.
 
-But she answered him, <u>Yes, Lord. Yet even the dogs under the table eat the
-children’s crumbs.</u>
+But she answered him, <u class="blue">Yes, Lord. Yet even the dogs under the
+table eat the children’s crumbs.</u>
 
-He said to her, **For this saying, go your way. The demon has gone out of your
-daughter.**
+He said to her, <u>For this saying, go your way. The demon has gone out of your
+daughter.</u>
 
 She went away to her house, and found the child having been laid on the bed,
 with the demon gone out.
@@ -45,8 +46,8 @@ But she came and worshiped him, saying, Lord, help me.
 But he answered, It is not appropriate to take the children’s bread and throw
 it to the dogs.
 
-But she said, <u>Yes, Lord, but even the dogs eat the crumbs which fall from
-their masters’ table.</u>
+But she said, <u class="blue">Yes, Lord, but even the dogs eat the crumbs which
+fall from their masters’ table.</u>
 
-Then Jesus answered her, **Woman, great is your faith! Be it done to you even
-as you desire.** And her daughter was healed from that hour.
+Then Jesus answered her, <u>Woman, great is your faith! Be it done to you even
+as you desire.</u> And her daughter was healed from that hour.
