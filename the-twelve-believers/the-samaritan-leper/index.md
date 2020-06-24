@@ -12,7 +12,7 @@ html_title_sep: (
 It happened as he was on his way to Jerusalem, that he was passing along the
 borders of Samaria and Galilee. As he entered into a certain village, ten men
 who were lepers met him, who stood at a distance. They lifted up their voices,
-saying, Jesus, Master, have mercy on us!
+saying, <u class="blue">Jesus, Master, have mercy on us!</u>
 
 When he saw them, he said to them, Go and show yourselves to the priests. It
 happened that as they went, they were cleansed. <u class="blue">One of them,
