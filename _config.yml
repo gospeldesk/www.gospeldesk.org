@@ -1,4 +1,4 @@
-url: https://www.gospel-desk.com
+url: https://www.gospeldesk.org
 sass:
   sass_dir: .
 exclude: ["CNAME", "Makefile", "README.md"]
