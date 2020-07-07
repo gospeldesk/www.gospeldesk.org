@@ -4,32 +4,49 @@ Welcome! You found the inside. 😁
 
 Next step: [Discord](https://discord.gg/DB2aRYw). 🕳
 
+
+## The Mission
+
+Gospel Desk's mission is to build faith in our day by deeply engaging with the Gospels.
+
+
+## The Formula
+
+1. Study the Gospels.
+2. Publish digital content.
+3. Commission icons.
+4. Publish books.
+5. Tour icons.
+6. Speak.
+7. Build virtual community.
+
+
 ## Goals for 2020
 
-([thread](https://github.com/gospeldesk/www.gospeldesk.org/issues/3#issuecomment-599090915))
-
+1. Meta
+    1. Find the audience.
+    1. Build the community.
+    1. Understand the entity.
 1. Product
-    1. Reprint [**_The Gospels_**](https://github.com/gospeldesk/the-gospels/)
-       ($1500). Sell 100 on Amazon.
-    1. Hang an icon of at least one of the [**Twelve
-       Believers**](https://github.com/gospeldesk/the-twelve-believers/) on
-       the wall of HQ ($3000).
-    1. Complete v1 of a character database for the [**narrative
-       apparatus**](https://github.com/gospeldesk/a-narrative-apparatus/) ($0,
-       lots of time!).
-1. Marketing ($500)
-    1. Events:
-        1. Something hyperlocal (Sewickley/Ambridge).
-        1. Something local (Pittsburgh).
-        1. Something further afield? As an attendee? To meet people from the
-           Internet?
-    1. Put out at least four videos.
+    1. Compile a character database for _The Gospels, with a Narrative Apparatus_.
+1. Marketing
+    1. Book a tour of irl/hybrid speaking engagements.
+    1. Experiment with:
+        1. podcast appearances
+        1. ads
+        1. [...](https://zapier.com/blog/acquire-customers/)?
+1. Financing
+    1. Sell 100 copies of _The Gospels_ ~= $400.
+    1. Do some mercenary programming ~>= $10,000?
 
-## Projected Units Sold
+
+## Units Sold
+
+Wholesale: **actual** / expected
 
 | Title | 2020 | 2021 | 2022 | 2023 |
 |:------|---:|---:|---:|---:|
-| _The Gospels_ | 100 | 1,000 | 500 | 0 |
-| _The Gospels, Second Edition_ | - | - | 10,000 | 20,000 |
+| [_The Gospels_ ](https://www.gospeldesk.org/the-gospels/) | **12** / 100 | 1,000 | 500 | 0 |
+| _The Gospels, Second Edition_ | - | - | 5,000 | 20,000 |
 | _The Gospels, with a Narrative Apparatus_ | - | 500 | 1,000 | 2,000 |
-| _The Twelve Believers_ | - | - | - | 2,000 |
+| _The Twelve Believers_ | - | - | - | 20,000 |
