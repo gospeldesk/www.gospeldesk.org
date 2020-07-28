@@ -1,13 +1,13 @@
 ---
 layout: post
 heading: "First Event on July 29"
-excerpt: "The first Gospel Desk event will be live-streamed from Grace Church in Edgeworth tomorrow evening."
+excerpt: "The first Gospel Desk event will be live-streamed from Grace Edgeworth tomorrow evening."
 is_published: yes
 ---
 
 On Wednesday, July 29 from 7:00 to 8:30 PM (US/Eastern), Lord willing, I will
-be speaking at [Grace Church](https://www.edgeworthanglican.com/) in Edgeworth,
-PA, sharing about the [Twelve
+be speaking at [Grace Edgeworth](https://www.edgeworthanglican.com/), PA,
+sharing about the [Twelve
 Believers](https://www.gospeldesk.org/the-twelve-believers/) and Gospel Desk in
 general. If you'd like to attend in person, please RSVP via email to [Fr.
 Chance Perdue](mailto:chance@edgeworthanglican.com). The event will also be
