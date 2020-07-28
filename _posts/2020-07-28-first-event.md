@@ -26,7 +26,7 @@ may have life in his name.
 
 Since starting Gospel Desk last October, I have been focused on setting up a
 website and email list, and on laying the groundwork for some longer-term
-publishing projects. My prayer with this first event on July 29 is that God
-will start to bring together a community of people who share the vision of
+publishing projects. My prayer with this first pilot event on July 29 is that
+God will start to bring together a community of people who share the vision of
 Gospel Desk and are ready to work together to achieve it. If you are
 interested, please join me on July 29. And please pray for me, a sinner.
