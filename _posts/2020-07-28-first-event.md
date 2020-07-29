@@ -6,12 +6,11 @@ is_published: yes
 ---
 
 On Wednesday, July 29 from 7:00 to 8:30 PM (US/Eastern), Lord willing, I will
-be speaking at [Grace Edgeworth](https://www.edgeworthanglican.com/), PA,
-sharing about the [Twelve
-Believers](https://www.gospeldesk.org/the-twelve-believers/) and Gospel Desk in
-general. If you'd like to attend in person, please RSVP via email to [Fr.
-Chance Perdue](mailto:chance@edgeworthanglican.com). The event will also be
-live-streamed on [the parish's YouTube
+be speaking at [Grace Edgeworth](https://www.edgeworthanglican.com/), sharing
+about the [Twelve Believers](https://www.gospeldesk.org/the-twelve-believers/)
+and Gospel Desk in general. If you'd like to attend in person, please RSVP via
+email to [Fr.  Chance Perdue](mailto:chance@edgeworthanglican.com). The event
+will also be live-streamed on [the parish's YouTube
 channel](https://www.youtube.com/channel/UCI-PG998Cfc9Gpq6XXgd2Zw).  There's no
 need to register for the live-stream, just click the link shortly before 7:00.
 
