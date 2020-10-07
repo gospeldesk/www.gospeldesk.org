@@ -46,7 +46,7 @@ Wholesale: **actual** / expected
 
 | Title | 2020 | 2021 | 2022 | 2023 |
 |:------|---:|---:|---:|---:|
-| [_The Gospels_ ](https://www.gospeldesk.org/the-gospels/) | **12** / 100 | 1,000 | 500 | 0 |
+| [_The Gospels_ ](https://www.gospeldesk.org/the-gospels/) | **43** / 100 | 1,000 | 500 | 0 |
 | _The Gospels, Second Edition_ | - | - | 5,000 | 20,000 |
 | _The Gospels, with a Narrative Apparatus_ | - | 500 | 1,000 | 2,000 |
 | _The Twelve Believers_ | - | - | - | 20,000 |
