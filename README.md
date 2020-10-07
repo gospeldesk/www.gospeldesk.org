@@ -28,6 +28,7 @@ Gospel Desk's mission is to build faith in our day by deeply engaging with the G
     1. Build the community.
     1. Understand the entity.
 1. Product
+    1. Hang an icon of one of the Twelve Believers on a wall.
     1. Compile a character database for _The Gospels, with a Narrative Apparatus_.
 1. Marketing
     1. Book a tour of irl/hybrid speaking engagements.
