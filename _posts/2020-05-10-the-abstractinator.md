@@ -16,7 +16,7 @@ apparatus](https://en.wikipedia.org/wiki/Critical_apparatus)).
 
 ---
 
-[![Prototype 1.0](https://raw.githubusercontent.com/gospeldesk/a-narrative-apparatus/master/v1/prototype-1.png)](https://github.com/gospeldesk/a-narrative-apparatus/blob/master/v1/The%20Gospels,%20with%20a%20Narrative%20Apparatus.pdf)
+[![Prototype 1.0](/a-narrative-apparatus/prototype-1.png)](/a-narrative-apparatus/prototype-1.pdf)
 
 <div class="caption">A prototype of <cite>The Gospels, with a Narrative
 Apparatus</cite>.</div>
