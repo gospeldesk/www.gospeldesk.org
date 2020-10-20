@@ -63,7 +63,8 @@ and are answered.</div>
       <a href="./st-dismas/">
         <img src="default.png" class="default">
         <span class="name">St. Dismas</span>
-        <span class="description">the penitent thief (a.k.a. St. Rakh)</span>
+        <span class="description">the penitent thief</span>
+        <span class="description">(a.k.a. St. Rakh)</span>
       </a>
     </td>
     <td>
@@ -126,7 +127,8 @@ and Equal of the Apostles.</div>
       <a href="./st-nathanael/">
         <img src="default.png" class="default">
         <span class="name">St. Nathanael</span>
-        <span class="description">the true Israelite (a.k.a. St. Bartholomew)</span>
+        <span class="description">the true Israelite</span>
+        <span class="description">(a.k.a. St. Bartholomew)</span>
       </a>
     </td>
     <td>
