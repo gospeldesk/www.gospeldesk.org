@@ -23,7 +23,7 @@ Believers. Let us celebrate them, as well!
 
 ##### The Defiant 
 
-<div class="caption">Women on the edge of society, with nothing left to lose,
+<div class="caption">Women with nothing left to lose,
 who defy onlookers to boldly approach Jesus.</div>
 
 <table class="twelve-believers">
@@ -86,8 +86,8 @@ and are answered.</div>
 
 ##### The Powerful
 
-<div class="caption">They occupy positions of wealth and status, yet they show
-by their faith that all things are possible with God.</div>
+<div class="caption">Though they occupy positions of wealth and status, they
+show by their faith that all things are possible with God.</div>
 
 <table class="twelve-believers">
   <tr>

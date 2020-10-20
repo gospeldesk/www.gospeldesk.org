@@ -407,18 +407,21 @@ table.twelve-believers {
   border-collapse: collapse;
 
   td {
-    width: 33%;
     vertical-align: top;
+    display: block;
 
     a {
       display: block;
+      clear: both;
       position: relative;
-      padding: 0 10px 0 0;
       text-decoration: none;
+      padding: 12pt 0 0;
+      margin: 0;
 
       img {
-        width: 100%;
-        margin: 12pt 0 6pt;
+        width: 33%;
+        float: left;
+        margin: 0 12pt 0 0;
 
         &.default {
           opacity: 0.15;
@@ -427,7 +430,7 @@ table.twelve-believers {
 
       span {
         display: block;
-        padding: 0 10px 0 0;
+        padding: 0 12pt 0 0;
 
         &.name {
           text-decoration: underline;
@@ -437,6 +440,27 @@ table.twelve-believers {
           font-size: smaller;
           line-height: 130%;
           color: $black;
+        }
+      }
+    }
+    &:last-child a img {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 420px) {
+  table.twelve-believers {
+    td {
+      display: table-cell;
+      width: 33%;
+      a {
+        padding: 0;
+        margin: 0 12pt 0 0;
+        img {
+          float: none;
+          width: 100%;
+          margin: 12pt 0 6pt;
         }
       }
     }
