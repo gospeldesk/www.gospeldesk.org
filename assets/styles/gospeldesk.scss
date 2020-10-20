@@ -399,6 +399,54 @@ footer {
 }
 
 
+/* Page-specific */
+/* ============= */
+
+table.twelve-believers {
+  width: 100%;
+  border-collapse: collapse;
+
+  td {
+    width: 33%;
+    vertical-align: top;
+
+    a {
+      display: block;
+      position: relative;
+      padding: 0 10px 0 0;
+      text-decoration: none;
+
+      img {
+        width: 100%;
+        margin: 12pt 0 6pt;
+
+        &.default {
+          opacity: 0.2;
+        }
+      }
+
+      span {
+        display: block;
+        padding: 0 10px 0 0;
+
+        &.name {
+          text-decoration: underline;
+        }
+
+        &.description {
+          font-size: smaller;
+          line-height: 120%;
+          color: $black;
+        }
+      }
+    }
+  }
+}
+
+
+/* Responsiveness */
+/* ============== */
+
 @media only screen and (min-width: 640px) {
   @include roomy_styles
 }

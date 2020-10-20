@@ -21,43 +21,127 @@ Believers. Let us celebrate them, as well!
 
 #### Who are the Twelve Believers?
 
-1. [St. Justa](./st-justa/), the Canaanite woman
-1. [St. Veronica](./st-veronica/), the woman with a flow of blood
-1. [The Sinful Woman](./the-sinful-woman/)
-1. [St. Dismas](./st-dismas/), the penitent thief (a.k.a. St. Rakh)
-1. [The Samaritan Leper](./the-samaritan-leper/)
-1. [St. Bartimaeus](./st-bartimaeus/), the blind beggar
-1. [The Centurion](./the-centurion/)
-1. [St. Zacchaeus](./st-zacchaeus/), the son of Abraham
-1. [The Wise Scribe](./the-wise-scribe/)
-1. [St. Nathanael](./st-nathanael/), the true Israelite (a.k.a. St. Bartholomew)
-1. [St. Peter](./st-peter/), the blessed
-1. [St. Mary of Bethany](./st-mary-of-bethany/), the twice-praised
+##### The Defiant 
+
+<div class="caption">Women on the edge of society, with nothing left to lose,
+who defy onlookers to boldly approach Jesus.</div>
+
+<table class="twelve-believers">
+  <tr>
+    <td>
+      <a href="./st-justa/">
+        <img src="default.png" class="default">
+        <span class="name">St. Justa</span>
+        <span class="description">the Canaanite woman</span>
+      </a>
+    </td>
+    <td>
+      <a href="./st-veronica/">
+        <img src="default.png" class="default">
+        <span class="name">St. Veronica</span>
+        <span class="description">the woman with a flow of blood</span>
+      </a>
+    </td>
+    <td>
+      <a href="./the-sinful-woman/">
+        <img src="default.png" class="default">
+        <span class="name">The Sinful Woman</span>
+      </a>
+    </td>
+  </tr>
+</table>
 
 
-#### The Structure of the Twelve Believers
+##### The Outcast 
 
-1. ##### The Defiant 
+<div class="caption">Men without worldly advantages. They beg Jesus for mercy
+and are answered.</div>
 
-   [Justa](./st-justa/), [Veronica](./st-veronica/), and [the Sinful
-   Woman](./the-sinful-woman/) are women on the edge of Jewish society, with
-   nothing left to lose, who defy onlookers to boldly approach Jesus.
+<table class="twelve-believers">
+  <tr>
+    <td>
+      <a href="./st-dismas/">
+        <img src="default.png" class="default">
+        <span class="name">St. Dismas</span>
+        <span class="description">the penitent thief (a.k.a. St. Rakh)</span>
+      </a>
+    </td>
+    <td>
+      <a href="./the-samaritan-leper/">
+        <img src="default.png" class="default">
+        <span class="name">The Samaritan Leper</span>
+      </a>
+    </td>
+    <td>
+      <a href="./st-bartimaeus/">
+        <img src="default.png" class="default">
+        <span class="name">St. Bartimaeus</span>
+        <span class="description">the blind beggar</span>
+      </a>
+    </td>
+  </tr>
+</table>
 
-1. ##### The Outcast
 
-   [Dismas](./st-dismas/), [the Samaritan Leper](./the-samaritan-leper/), and
-   [Bartimaeus](./st-bartimaeus/) are men without worldly advantages. They beg
-   Jesus for mercy and are answered.
+##### The Powerful
 
-1. ##### The Powerful
+<div class="caption">They occupy positions of wealth and status, yet they show
+by their faith that all things are possible with God.</div>
 
-   [The Centurion](./the-centurion/), [Zacchaeus](./st-zacchaeus/), and [the
-   Wise Scribe](./the-wise-scribe/) occupy positions of wealth and status, yet
-   they show by their faith that all things are possible with God.
+<table class="twelve-believers">
+  <tr>
+    <td>
+      <a href="./the-centurion/">
+        <img src="default.png" class="default">
+        <span class="name">The Centurion</span>
+      </a>
+    </td>
+    <td>
+      <a href="./st-zacchaeus/">
+        <img src="default.png" class="default">
+        <span class="name">St. Zacchaeus</span>
+        <span class="description">the son of Abraham</span>
+      </a>
+    </td>
+    <td>
+      <a href="./the-wise-scribe/">
+        <img src="default.png" class="default">
+        <span class="name">The Wise Scribe</span>
+      </a>
+    </td>
+  </tr>
+</table>
 
-1. ##### The Familiar
+
+##### The Familiar
    
-   [Nathanael](./st-nathanael/), [Peter](./st-peter/), and [Mary of
-   Bethany](./st-mary-of-bethany/) are close friends of Jesus. Nathanael and
-   Peter are among the Twelve Disciples—indeed Peter is the most prominent—and
-   Mary is a Myrrhbearer and Equal of the Apostles.
+<div class="caption">Close friends of Jesus. Nathanael and Peter are among the
+Twelve Disciples—indeed Peter is the most prominent—and Mary is a Myrrhbearer
+and Equal of the Apostles.</div>
+
+
+<table class="twelve-believers">
+  <tr>
+    <td>
+      <a href="./st-nathanael/">
+        <img src="default.png" class="default">
+        <span class="name">St. Nathanael</span>
+        <span class="description">the true Israelite (a.k.a. St. Bartholomew)</span>
+      </a>
+    </td>
+    <td>
+      <a href="./st-peter/">
+        <img src="default.png" class="default">
+        <span class="name">St. Peter</span>
+        <span class="description">the blessed</span>
+      </a>
+    </td>
+    <td>
+      <a href="./st-mary-of-bethany/">
+        <img src="./st-mary-of-bethany/00.thumb.jpg">
+        <span class="name">St. Mary of Bethany</span>
+        <span class="description">the twice-praised</span>
+      </a>
+    </td>
+  </tr>
+</table>
