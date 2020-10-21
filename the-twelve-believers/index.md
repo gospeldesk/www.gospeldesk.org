@@ -23,8 +23,8 @@ Believers. Let us celebrate them, as well!
 
 ##### The Defiant 
 
-<div class="caption">Women with nothing left to lose,
-who defy onlookers to boldly approach Jesus.</div>
+<div class="caption">Women with nothing left to lose, they defy onlookers to
+boldly approach Jesus.</div>
 
 <table class="twelve-believers">
   <tr>
@@ -54,7 +54,7 @@ who defy onlookers to boldly approach Jesus.</div>
 
 ##### The Outcast 
 
-<div class="caption">Men without worldly advantages. They beg Jesus for mercy
+<div class="caption">Men without worldly advantages, they beg Jesus for mercy
 and are answered.</div>
 
 <table class="twelve-believers">
@@ -86,8 +86,8 @@ and are answered.</div>
 
 ##### The Powerful
 
-<div class="caption">Though they occupy positions of wealth and status, they
-show by their faith that all things are possible with God.</div>
+<div class="caption">Wealth and of high standing, they show that all things are
+possible with God.</div>
 
 <table class="twelve-believers">
   <tr>
@@ -116,9 +116,7 @@ show by their faith that all things are possible with God.</div>
 
 ##### The Familiar
    
-<div class="caption">Close friends of Jesus. Nathanael and Peter are among the
-Twelve Disciples—indeed Peter is the most prominent—and Mary is a Myrrhbearer
-and Equal of the Apostles.</div>
+<div class="caption">Close friends of Jesus, they are Apostles and Equal of the Apostles.</div>
 
 
 <table class="twelve-believers">
