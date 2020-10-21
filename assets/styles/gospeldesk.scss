@@ -463,6 +463,9 @@ table.twelve-believers {
           margin: 12pt 0 6pt;
         }
       }
+      &:last-child a img {
+        margin-bottom: 6pt;
+      }
     }
   }
 }
