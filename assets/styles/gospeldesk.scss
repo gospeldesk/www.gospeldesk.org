@@ -140,6 +140,16 @@ ul {
     margin: 0 auto;
     font: normal 12pt/18pt $Sen;
   }
+  a {
+    color: $gray;
+    border: 1pt solid $gray;
+    padding: 6pt 12pt;
+    &:hover {
+      border-color: $white;
+      background: $white;
+      color: $red;
+    }
+  }
 }
 
 .pieces {

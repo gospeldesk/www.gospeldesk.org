@@ -8,7 +8,7 @@ catechesis rooted in the Gospels.
 Chad Whitacre is the sole proprietor of Gospel Desk. He holds a B.A. in Ancient
 Languages with a minor in Theology from Wheaton College (Illinois), and is a
 member of the Anglican Church in North America, which he helped to found. He
-and his family live outside of Pittsburgh, Pennsylvania.
+and his family live outside of Pittsburgh, Pennsylvania, USA.
 
 
 #### Contact
