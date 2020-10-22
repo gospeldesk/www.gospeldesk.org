@@ -26,28 +26,31 @@ and his family live outside of Pittsburgh, Pennsylvania.
 
 #### Brand Assets
 
+These are trademarks of Gospel Desk. You may use them to refer and link to
+Gospel Desk, but not to impersonate Gospel Desk.
+
 <style>
-  .content .brand-asset {
+  .content .assets a {
     display: block;
     float: left;
-    margin: 0 5% 5% 0;
+    margin: 12pt 5% 5% 0;
     width: 30%;
     border: 1px solid #21201A;
   }
-  .content .brand-asset.color {
+  .content .assets a:last-of-type {
+    margin-right: 0;
+  }
+  .content .assets a img {
+    margin: 0;
+  }
+  .content .assets .color {
     font: normal 12pt/12pt monospace;
     padding: 12pt 0;
     text-align: center;
   }
-  .content .brand-asset img {
-    margin: 0;
-  }
-  .content .brand-asset:last-of-type {
-    margin-right: 0;
-  }
 </style>
 
-<div>
+<div class="assets">
   <a href="gospel-desk-logo.svg" class="brand-asset"><img src="gospel-desk-logo.svg"></a>
   <a href="gospel-desk-compact.svg" class="brand-asset"><img src="gospel-desk-compact.svg"></a>
   <a href="gospel-desk-icon.svg" class="brand-asset"><img src="gospel-desk-icon.svg"></a>
@@ -56,15 +59,15 @@ and his family live outside of Pittsburgh, Pennsylvania.
 <div class="clear"></div>
 
 <style>
-  .content .brand-asset.white { background: #DADBD2; }
-  .content .brand-asset.black { background: #21201A; color: #DADBD2; }
-  .content .brand-asset.red   { background: #B2342D; color: #DADBD2; }
+  .content .assets .white { background: #DADBD2; }
+  .content .assets .black { background: #21201A; color: #DADBD2; }
+  .content .assets .red   { background: #B2342D; color: #DADBD2; }
 </style>
 
-<div>
-  <div class="brand-asset color white">#DADBD2</div>
-  <div class="brand-asset color black">#21201A</div>
-  <div class="brand-asset color red">#B2342D</div>
+<div class="assets">
+  <div class="color white">#DADBD2</div>
+  <div class="color black">#21201A</div>
+  <div class="color red">#B2342D</div>
 </div>
 
 <div class="clear"></div>
