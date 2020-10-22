@@ -282,6 +282,13 @@ ul {
     cursor: pointer;
   }
 
+  img.social-icon {
+    display: inline-block;
+    width: 16px;
+    margin: 0 0 -2pt;
+    padding: 0;
+  }
+
   .amazon.available-at {
     display: block;
     position: absolute;
