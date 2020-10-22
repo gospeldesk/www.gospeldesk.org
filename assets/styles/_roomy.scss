@@ -89,6 +89,22 @@
         width: 72pt;
       }
     }
+
+    .amazon {
+      &.available-at {
+        top: 64pt;
+        right: 36pt;
+        width: 12%;
+      }
+      &.buy-at {
+        margin: 12pt 0 0;
+      }
+    }
+    &.card .amazon.available-at {
+      top: 24pt;
+      right: 36pt;
+      width: 24%;
+    }
   }
 
   .card {

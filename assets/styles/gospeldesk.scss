@@ -148,6 +148,7 @@ ul {
 
 .content {
   display: block;
+  position: relative;
   color: $black;
   text-decoration: none;
   background: $white;
@@ -270,6 +271,35 @@ ul {
     }
   }
 
+  button {
+    background: $red;
+    color: $white;
+    font: 12pt/18pt $Sen;
+    padding: 3pt 12pt;
+    border: 1px solid $red;
+    border-radius: 4px;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  .amazon {
+    display: block;
+
+    &.available-at {
+      position: absolute;
+      top: 48pt;
+      right: 18pt;
+      width: 18%;
+    }
+    &.buy-at {
+      margin: 12pt 0 0;
+    }
+  }
+  &.card .amazon.available-at {
+    top: 12pt;
+    right: 18pt;
+  }
+
   .youtube {
     /* https://www.w3schools.com/howto/howto_css_aspect_ratio.asp */
     &.aspect-ratio-16-9 { padding-top: 56.25%; }
@@ -343,16 +373,6 @@ ul {
         border: 1px solid $black;
         background: white;
         border-radius: 4px;
-      }
-      button {
-        background: $red;
-        color: $white;
-        font: 12pt/18pt $Sen;
-        padding: 3pt 12pt;
-        border: 1px solid $red;
-        border-radius: 4px;
-        margin: 0;
-        cursor: pointer;
       }
     }
     .tinyletter img {
