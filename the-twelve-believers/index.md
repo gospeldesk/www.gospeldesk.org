@@ -86,8 +86,8 @@ and are answered.</div>
 
 ##### The Powerful
 
-<div class="caption">Wealth and of high standing, they show that all things are
-possible with God.</div>
+<div class="caption">Wealthy and of high standing, they show that all things
+are possible with God.</div>
 
 <table class="twelve-believers">
   <tr>
