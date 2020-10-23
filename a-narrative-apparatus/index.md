@@ -1,27 +1,18 @@
 ---
 heading: A Narrative Apparatus
-subheading: Cataloging characters, frames, and scenes
+subheading: Visualizing the structure of the Gospels
 ---
 
 [The Gospels](/the-gospels) lays out Mark, Matthew, Luke, and John in a way
-that is easy to read, to make their narrative force more immediate. <cite>The
-Gospels, with a Narrative Apparatus</cite> has an opposite goal: to render the
-narrative structure of the Gospels systematically and definitively, in both
-print and digital editions.
+that is easy to read straight through as a story. <cite>The Gospels, with a
+Narrative Apparatus</cite> has an opposite goal: to visualize the narrative
+structure of the Gospels in fine detail.
 
-The three primary prerequisite tasks apparent so far are:
-
-1. Catalog, taxonomically, all of the characters.
-
-1. Identify all of the different story frames.
-
-1. Sequentially relate all of the verbs, according to a scale of space and
-   time, in order to determine the scenes.
-
-I am writing [specialized software](/updates/2020/the-abstractinator/) to aid
-in compiling this information. Lord willing, the result will be an exhaustive
-dataset that will provide the foundation for many fruitful analyses, such as
-[The Twelve Believers](/the-twelve-believers/).
+This project is in its early stages, starting with the compilation of a dataset
+of characters, frames and scenes in the Gospels. I am looking into writing
+[specialized software](/updates/2020/the-abstractinator/) to aid in compiling
+this dataset. Lord willing, it will provide the foundation for many fruitful
+analyses, such as [The Twelve Believers](/the-twelve-believers/).
 
 
 #### Prototypes
