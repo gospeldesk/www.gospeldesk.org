@@ -5,7 +5,7 @@ subheading: Visualizing the structure of the Gospels
 
 [The Gospels](/the-gospels) lays out Mark, Matthew, Luke, and John in a way
 that is easy to read straight through as a story. <cite>The Gospels, with a
-Narrative Apparatus</cite> has an opposite goal: to visualize the narrative
+Narrative Apparatus</cite> has a complementary goal: to visualize the narrative
 structure of the Gospels in fine detail.
 
 This project is in its early stages, starting with the compilation of a dataset
