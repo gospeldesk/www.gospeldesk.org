@@ -27,7 +27,7 @@ member of the Anglican Church in North America, which he helped to found.
 #### Brand Assets
 
 These are trademarks of Gospel Desk. You may use them to refer and link to
-Gospel Desk, but not to impersonate Gospel Desk.
+Gospel Desk, but not (of course) to impersonate Gospel Desk.
 
 <style>
   .content .assets a {
