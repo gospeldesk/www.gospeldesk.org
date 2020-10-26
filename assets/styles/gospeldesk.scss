@@ -249,8 +249,8 @@ ul {
   }
 
   img {
-    width: 100%;
-    margin: 12pt 0;
+    max-width: 100%;
+    margin: 12pt auto 0;
     display: block;
   }
   .caption {
