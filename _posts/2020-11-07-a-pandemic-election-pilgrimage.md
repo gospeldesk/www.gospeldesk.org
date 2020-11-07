@@ -46,7 +46,7 @@ fall short!”
 
 ---
 
-I happened to discover this from [Will
+I happened to discover [this from Will
 Smith](https://www.youtube.com/watch?v=-nu5g3AiO4U#t=10m22s) soon after I got
 back: 
 
