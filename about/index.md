@@ -18,8 +18,8 @@ member of the Anglican Church in North America, which he helped to found.
   <a href="mailto:chad@zetaweb.com">chad@zetaweb.com</a>
   <br><br>
   <img src="/assets/images/social-icon-facebook.png" class="social-icon">
-  <a href="https://www.facebook.com/chadwhitacre">
-    Chad Whitacre
+  <a href="https://www.facebook.com/GospelDesk">
+    @GospelDesk
   </a>
 </div>
 
