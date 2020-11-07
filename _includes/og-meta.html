@@ -3,8 +3,17 @@
 <meta property="og:url"         content="{{ site.url }}{{ page.url }}">
 <meta property="og:title"       content="{{ page.heading }}">
 <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ page.subheading }}{% endif %}">
-<meta property="og:image"       content="{{ site.url }}{% if page.og_image %}{{ page.og_image }}{% else %}/assets/images/logo.256.png{% endif %}">
-<meta property="og:image:alt"   content="{% if page.og_image %}{{ page.og_image_alt }}{% else %}the Gospel Desk logo{% endif %}">
+
+{% if page.image %}
+<meta property="og:image"       content="{{ site.url }}{{ page.image }}">
+<meta property="og:image:alt"   content="{{ page.image_alt }}">
+{% elsif page.url | remove_first: '/' | split: '/' | first == 'the-twelve-believers' %}
+<meta property="og:image"       content="{{ site.url }}/the-twelve-believers/default.png">
+<meta property="og:image:alt"   content="new icon forthcoming, if the Lord wills it">
+{% else %}
+<meta property="og:image"       content="{{ site.url }}/assets/images/logo.256.png">
+<meta property="og:image:alt"   content="the Gospel Desk logo">
+{% endif %}
 
 {% if page.isbn %}
 <meta property="og:type"        content="book">

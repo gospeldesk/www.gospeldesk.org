@@ -4,6 +4,8 @@ heading: "A Pandemic Election Pilgrimage"
 excerpt: "In which an Amish matriarch independently discovers the Jesus Prayer, and Will Smith nearly preaches the Gospel."
 byline: by Chad Whitacre
 is_published: yes
+image: /updates/2020/st-tikhons-gate.thumb.jpg
+image_alt: an onion dome against a blue sky
 ---
 
 I happened to be away from home during the 2016 election—I spent two weeks

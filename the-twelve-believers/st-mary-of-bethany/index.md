@@ -2,6 +2,8 @@
 heading: St. Mary of Bethany
 subheading: the twice-praised
 html_title_sep: ","
+image: /the-twelve-believers/st-mary-of-bethany/00.thumb.jpg
+image_alt: a drawing of St. Mary of Bethany
 ---
 
 <a href="00.jpg">

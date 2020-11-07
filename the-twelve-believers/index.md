@@ -1,6 +1,8 @@
 ---
 heading: The Twelve Believers
 subheading: Celebrating those Christ celebrates
+image: /the-twelve-believers/st-mary-of-bethany/00.thumb.jpg
+image_alt: a drawing of St. Mary of Bethany
 ---
 
 [The Gospels](/the-gospels/) tell the story of Jesus, the Son of God, with the
