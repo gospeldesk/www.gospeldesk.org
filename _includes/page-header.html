@@ -11,6 +11,7 @@
     <h4>{{ page.excerpt }}</h4>
     <ul>
         <li>{{ page.date | date: "%B %e, %Y" }}</li>
+        {% if page.byline%}<li>{{ page.byline }}</li>{% endif %}
     </ul>
     {% endif %}
     {% if page.status %}<span class="status">{{ page.status }}</span>{% endif %}

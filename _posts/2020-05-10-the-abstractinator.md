@@ -2,6 +2,7 @@
 layout: post
 heading: The Abstractinator
 excerpt: "I am writing software to help compile information for <cite>The Gospels, with a Narrative Apparatus</cite>."
+byline: by Chad Whitacre
 is_published: yes
 ---
 

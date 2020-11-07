@@ -2,6 +2,7 @@
 layout: post
 heading: "First Event on July 29"
 excerpt: "The first Gospel Desk event will be live-streamed from Grace Edgeworth tomorrow evening."
+byline: by Chad Whitacre
 is_published: yes
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 heading: Working on a Building
 excerpt: "Gospel Desk has a place in the world, on Spring Hill in Sewickley, Pennsylvania, USA."
+byline: by Chad Whitacre
 is_published: yes
 ---
 

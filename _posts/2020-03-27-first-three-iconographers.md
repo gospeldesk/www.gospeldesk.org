@@ -2,6 +2,7 @@
 layout: post
 heading: First Three Iconographers Join the Twelve Believers Project
 excerpt: "Symeon van Donkelaar, Jonathan Pageau, and Federico Aguirre are making new images of St. Bartimaeus, the Centurion, and St. Mary of Bethany."
+byline: by Chad Whitacre
 is_published: yes
 ---
 

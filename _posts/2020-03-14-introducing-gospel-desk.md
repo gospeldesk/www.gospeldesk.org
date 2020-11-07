@@ -2,6 +2,7 @@
 layout: post
 heading: Introducing Gospel Desk
 excerpt: "There are three initial projects under the Gospel Desk umbrella. But, first: What are the Gospels, and why do they matter?"
+byline: by Chad Whitacre
 is_published: yes
 ---
 

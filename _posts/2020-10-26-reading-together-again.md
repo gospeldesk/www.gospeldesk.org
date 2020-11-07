@@ -2,6 +2,7 @@
 layout: post
 heading: "Reading, Together, Again"
 excerpt: "The Gospels is back in print and ready for your next study group."
+byline: by Chad Whitacre
 is_published: yes
 ---
 
