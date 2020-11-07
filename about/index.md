@@ -3,8 +3,8 @@ heading: About
 ---
 
 Gospel Desk is a publishing company focused on Christian evangelism and
-catechesis rooted in the Gospels. Our mission is to help the Church build faith
-through the Gospels.
+catechesis. Our mission is to help the Church build faith rooted in the
+Gospels.
 
 Chad Whitacre is the sole proprietor of Gospel Desk. He holds a B.A. in Ancient
 Languages with a minor in Theology from Wheaton College (Illinois), and is a

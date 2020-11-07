@@ -7,7 +7,7 @@ Next step: [Discord](https://discord.gg/DB2aRYw). 🕳
 
 ## The Mission
 
-Gospel Desk's mission is to help the Church build faith through the Gospels.
+Gospel Desk's mission is to help the Church build faith rooted in the Gospels.
 
 
 ## The Formula
