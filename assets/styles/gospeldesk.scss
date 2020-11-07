@@ -256,9 +256,14 @@ ul {
   .caption {
     font: normal 10pt/14pt $Sen;
     color: $gray;
+    margin: 6pt 0 0;
     a {
       color: inherit;
     }
+  }
+  h5 + .caption {
+    /* for The Twelve Believers index */
+    margin: 0;
   }
 
   ol {
