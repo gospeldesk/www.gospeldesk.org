@@ -4,6 +4,7 @@
 <meta property="og:title"       content="{{ page.heading }}">
 <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ page.subheading }}{% endif %}">
 <meta property="og:image"       content="{{ site.url }}{% if page.og_image %}{{ page.og_image }}{% else %}/assets/images/logo.256.png{% endif %}">
+<meta property="og:image:alt"   content="{% if page.og_image %}{{ page.og_image_alt }}{% else %}the Gospel Desk logo{% endif %}">
 
 {% if page.isbn %}
 <meta property="og:type"        content="book">
