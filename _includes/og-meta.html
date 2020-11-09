@@ -4,7 +4,7 @@
 <meta property="og:title"       content="{{ page.heading }}">
 <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ page.subheading }}{% endif %}">
 
-{{ assign section = page.url | remove_first: '/' | split: '/' | first }}
+{% assign section = page.url | remove_first: '/' | split: '/' | first %}
 
 {% if page.image %}
 <meta property="og:image"       content="{{ site.url }}{{ page.image }}">
