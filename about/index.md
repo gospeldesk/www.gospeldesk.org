@@ -1,5 +1,6 @@
 ---
 heading: About
+excerpt: Gospel Desk is a publishing company focused on Christian evangelism and catechesis.
 ---
 
 Gospel Desk is a publishing company focused on Christian evangelism and
