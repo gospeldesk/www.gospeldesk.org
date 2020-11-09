@@ -21,6 +21,11 @@ member of the Anglican Church in North America, which he helped to found.
   <a href="https://www.facebook.com/chadwhitacre">
     Chad Whitacre
   </a>
+  <br><br>
+  <img src="/assets/images/social-icon-twitter.svg" class="social-icon">
+  <a href="https://twitter.com/justafied_">
+    @justafied_
+  </a>
 </div>
 
 
