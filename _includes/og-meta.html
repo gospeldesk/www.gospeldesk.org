@@ -4,10 +4,12 @@
 <meta property="og:title"       content="{{ page.heading }}">
 <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ page.subheading }}{% endif %}">
 
+{{ assign section = page.url | remove_first: '/' | split: '/' | first }}
+
 {% if page.image %}
 <meta property="og:image"       content="{{ site.url }}{{ page.image }}">
 <meta property="og:image:alt"   content="{{ page.image_alt }}">
-{% elsif page.url | remove_first: '/' | split: '/' | first == 'the-twelve-believers' %}
+{% elsif section == 'the-twelve-believers' %}
 <meta property="og:image"       content="{{ site.url }}/the-twelve-believers/default.png">
 <meta property="og:image:alt"   content="new icon forthcoming, if the Lord wills it">
 {% else %}
