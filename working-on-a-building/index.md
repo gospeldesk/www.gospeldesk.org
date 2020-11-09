@@ -1,5 +1,7 @@
 ---
 heading: Working on a Building
+image: /updates/2020/gospel-desk-hq.thumb.jpg
+image_alt: a shack
 ---
 
 Working on a Building is "a song in both the African American spiritual and
