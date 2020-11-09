@@ -19,7 +19,7 @@ member of the Anglican Church in North America, which he helped to found.
   <br><br>
   <img src="/assets/images/social-icon-facebook.png" class="social-icon">
   <a href="https://www.facebook.com/chadwhitacre">
-    Chad Whitacre
+    @chadwhitacre
   </a>
   <br><br>
   <img src="/assets/images/social-icon-twitter.svg" class="social-icon">
