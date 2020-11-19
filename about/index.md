@@ -7,9 +7,9 @@ Gospel Desk is a publishing company focused on Christian evangelism and
 catechesis. Our mission is to help the Church build faith rooted in the
 Gospels.
 
-Chad Whitacre is the sole proprietor of Gospel Desk. He holds a B.A. in Ancient
-Languages with a minor in Theology from Wheaton College (Illinois), and is a
-member of the Anglican Church in North America, which he helped to found.
+Chad W. L. Whitacre is the sole proprietor of Gospel Desk. He holds a B.A. in
+Ancient Languages with a minor in Theology from Wheaton College (Illinois), and
+is a member of the Anglican Church in North America, which he helped to found.
 
 
 #### Contact
@@ -24,8 +24,8 @@ member of the Anglican Church in North America, which he helped to found.
   </a>
   <br><br>
   <img src="/assets/images/social-icon-twitter.svg" class="social-icon">
-  <a href="https://twitter.com/justafied_">
-    @justafied_
+  <a href="https://twitter.com/CWLWhitacre">
+    @CWLWhitacre
   </a>
 </div>
 
