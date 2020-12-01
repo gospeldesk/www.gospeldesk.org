@@ -1,13 +1,13 @@
 {% if page.show_subscribe %}
 <section class="content subscribe">
     <header>
-        <h3>Email</h3>
-        {% if page.url == '/updates/' %}
-        <h4>Subscribe for updates.</h4>
-        {% else %}
-        <h4>Subscribe for <a href="/updates/">updates</a>.</h4>
-        {% endif %}
+        <h3>Subscribe</h3>
     </header>
+    {% if page.url == '/updates/' %}
+    <p>Updates in your inbox?</p>
+    {% else %}
+    <p><a href="/updates/">Updates</a> in your inbox?</p>
+    {% endif %}
     <form method="post" action="https://tinyletter.com/gospeldesk" target="_blank">
         <table>
             <tr>
@@ -22,6 +22,18 @@
     <div class="tinyletter">
         <a href="https://tinyletter.com/gospeldesk">
             <img src="/assets/images/tinyletter.png" alt="TinyLetter">
+        </a>
+    </div>
+    <hr>
+    <div class="social">
+        <a href="https://twitter.com/CWLWhitacre">
+            <img src="/assets/images/social-icon-twitter.svg" alt="Twitter">
+        </a>
+        <a href="https://www.facebook.com/chadwhitacre">
+            <img src="/assets/images/social-icon-facebook.svg" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/gospeldesk/">
+            <img src="/assets/images/social-icon-instagram.svg" alt="Instagram">
         </a>
     </div>
 </section>

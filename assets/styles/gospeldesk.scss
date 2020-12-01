@@ -278,8 +278,7 @@ ul {
 
   hr {
     border: 0;
-    margin: 12pt 0 12pt 50%;
-    padding-left: -6pt;
+    margin: 12pt 0 12pt 49%;
     &::before {
       content: "❧";
       color: $gray;
@@ -399,6 +398,14 @@ ul {
       width: 64pt;
       display: block;
       margin: 0 auto;
+    }
+    .social {
+      text-align: center;
+      a {
+        width: 32pt;
+        margin: 0 8pt;
+        display: inline-block;
+      }
     }
   }
 }
