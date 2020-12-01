@@ -18,6 +18,16 @@ is a member of the Anglican Church in North America, which he helped to found.
   <img src="/assets/images/social-icon-email.svg" class="social-icon">
   <a href="mailto:chad@zetaweb.com">chad@zetaweb.com</a>
   <br><br>
+  <img src="/assets/images/social-icon-facebook.svg" class="social-icon">
+  <a href="https://www.facebook.com/chadwhitacre">
+    @chadwhitacre
+  </a>
+  <br><br>
+  <img src="/assets/images/social-icon-instagram.svg" class="social-icon">
+  <a href="https://www.instagram.com/gospeldesk/">
+    @gospeldesk
+  </a>
+  <br><br>
   <img src="/assets/images/social-icon-twitter.svg" class="social-icon">
   <a href="https://twitter.com/CWLWhitacre">
     @CWLWhitacre
