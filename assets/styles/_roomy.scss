@@ -4,6 +4,15 @@
     font: normal 12pt/18pt $Sen;
   }
 
+  body.inside-page {
+    .top {
+      img {
+        max-width: 160px;
+      }
+      padding: 6vh 0 12vh;
+    }
+  }
+
   .hero {
     h2 {
       font: bold 36pt/36pt $Sen;
