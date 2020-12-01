@@ -9,7 +9,7 @@ is_published: yes
 <a href="/the-gospels/">The Gospels</a> is an edition of the four canonical
 Gospels designed for both individual reading and group study. Out of print for
 five years, it is now available once again, [at
-Amazon](https://www.amazon.com/dp/098515490X?tag=gospeldesk-20).
+Amazon](https://www.amazon.com/gp/product/098515490X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=098515490X&linkCode=as2&tag=gd-ws-2-20&linkId=112c6d2f38a766669ba38a74aaaf1ee2).
 
 On his [Bible Design
 Blog](https://www.bibledesignblog.com/blog/2011/08/the-gospels-edited-by-chad-whitacre.html),
@@ -20,7 +20,7 @@ the American Standard Version (and placed in the public domain).
 
 ---
 
-[![page](/the-gospels/page.gif)](https://www.amazon.com/dp/098515490X?tag=gospeldesk-20)
+[![page](/the-gospels/page.gif)](https://www.amazon.com/gp/product/098515490X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=098515490X&linkCode=as2&tag=gd-ws-2-20&linkId=112c6d2f38a766669ba38a74aaaf1ee2)
 
 ---
 
@@ -35,7 +35,7 @@ into the Acts of the Apostles, the New and Old Testaments, and the full
 tradition and life of the Church—including, where appropriate, the movie version.
 
 In addition to the print version [at
-Amazon](https://www.amazon.com/dp/098515490X?tag=gospeldesk-20), <em>The
+Amazon](https://www.amazon.com/gp/product/098515490X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=098515490X&linkCode=as2&tag=gd-ws-2-20&linkId=112c6d2f38a766669ba38a74aaaf1ee2), <em>The
 Gospels</em> is also available as a PDF [at
 Gumroad](https://gumroad.com/l/the-gospels).  Pick up a copy for yourself, and
 consider leading a reading group at your local church to help people directly
