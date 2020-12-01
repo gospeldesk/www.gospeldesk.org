@@ -17,7 +17,7 @@
 
         {% include og-meta.html %}
     </head>
-    <body>
+    <body class="{% if page.url == '/' %}homepage{% else %}inside-page{% endif %}">
         <header class="top">
             <h1><a href="/"><img src="/wordmark.svg" alt="Gospel Desk"></a></h1>
         </header>
