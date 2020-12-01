@@ -37,27 +37,7 @@
                 <li><a href="/about/">About</a></li>
             </ul>
         </footer>
-
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164506890-1"></script>
-        <script>
-            let href=window.location.href;
-            if (href.endsWith('/index.html')) {
-                window.location.href = href.slice(0, -10);
-            }
-
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-164506890-1');
-
-            // https://gist.github.com/allybee/5871749 🙇
-            let re = new RegExp(window.location.host.replace("www.", ""), "i");
-            let a = document.getElementsByTagName('a');a
-            for (var i=0; i < a.length; i++) {
-                console.log(a[i])
-              if( !re.test(a[i].host) ) a[i].setAttribute('target', '_blank');
-            }
-        </script>
-				<script async defer data-domain="gospeldesk.org" src="https://plausible.io/js/plausible.js"></script>
+				<script async defer data-domain="gospeldesk.org"
+          src="https://plausible.io/js/plausible.js"></script>
     </body>
 </html>
