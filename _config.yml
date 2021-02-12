@@ -9,7 +9,4 @@ defaults:
     values:
       layout: "page"
       html_title_sep: "-"
-      show_subscribe: "yes"
-collections:
-  posts:
-    permalink: /updates/:year/:title/
+      show_follow_along: "yes"

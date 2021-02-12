@@ -9,10 +9,9 @@ Narrative Apparatus</cite> has a complementary goal: to visualize the narrative
 structure of the Gospels in fine detail.
 
 This project is in its early stages, starting with the compilation of a dataset
-of characters, frames and scenes in the Gospels. I am looking into writing
-[specialized software](/updates/2020/the-abstractinator/) to aid in compiling
-this dataset. Lord willing, it will provide a solid foundation for many
-fruitful analyses, such as [The Twelve Believers](/the-twelve-believers/).
+of characters, frames and scenes in the Gospels. Lord willing, it will provide
+a solid foundation for many fruitful analyses, such as [The Twelve
+Believers](/the-twelve-believers/).
 
 
 #### Prototypes

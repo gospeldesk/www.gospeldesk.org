@@ -1,13 +1,8 @@
-{% if page.show_subscribe %}
-<section class="content subscribe">
+{% if page.show_follow_along %}
+<section class="content follow-along">
     <header>
-        <h3>Subscribe</h3>
+        <h3>Follow Along</h3>
     </header>
-    {% if page.url == '/updates/' %}
-    <p>Updates in your inbox?</p>
-    {% else %}
-    <p><a href="/updates/">Updates</a> in your inbox?</p>
-    {% endif %}
     <form method="post" action="https://tinyletter.com/gospeldesk" target="_blank">
         <table>
             <tr>
