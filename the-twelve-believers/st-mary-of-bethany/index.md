@@ -2,14 +2,14 @@
 heading: St. Mary of Bethany
 subheading: the twice-praised
 html_title_sep: ","
-image: /the-twelve-believers/st-mary-of-bethany/00.thumb.jpg
+image: /the-twelve-believers/st-mary-of-bethany/st-mary-of-bethany.512.jpg
 image_alt: a drawing of St. Mary of Bethany
 ---
 
-<a href="00.jpg">
-  <img src="00.small.jpg" alt="St. Mary of Bethany, the twice-praised - first drawing">
+<a href="st-mary-of-bethany.jpg">
+  <img src="st-mary-of-bethany.small.jpg" alt="St. Mary of Bethany, the twice-praised">
 </a>
-<div class="caption">First drawing of a new icon of St. Mary of Bethany, by <a
+<div class="caption">From the hand of <a
 href="https://www.xamist.com/">Federico Aguirre</a>.</div>
 
 

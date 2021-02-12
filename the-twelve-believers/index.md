@@ -1,8 +1,8 @@
 ---
 heading: The Twelve Believers
 subheading: Celebrating those Christ celebrates
-image: /the-twelve-believers/st-mary-of-bethany/00.thumb.jpg
-image_alt: a drawing of St. Mary of Bethany
+image: /the-twelve-believers/st-mary-of-bethany/st-mary-of-bethany.thumb.jpg
+image_alt: an icon of St. Mary of Bethany
 ---
 
 [The Gospels](/the-gospels/) tell the story of Jesus, the Son of God, with the
@@ -140,7 +140,7 @@ are possible with God.</div>
     </td>
     <td>
       <a href="./st-mary-of-bethany/">
-        <img src="./st-mary-of-bethany/00.thumb.jpg">
+        <img src="./st-mary-of-bethany/st-mary-of-bethany.thumb.jpg">
         <span class="name">St. Mary of Bethany</span>
         <span class="description">the twice-praised</span>
       </a>
