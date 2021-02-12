@@ -1,17 +1,19 @@
 ---
 heading: About
-excerpt: Gospel Desk is a publishing company focused on Christian evangelism and catechesis.
+excerpt: Gospel Desk is a creative outlet for Chad W. L. Whitacre, lay theologian.
 ---
 
 Greetings, friend! My name is Chad W. L. Whitacre, and Gospel Desk is a
-creative outlet for me to publish content related to my study of the Gospels
-and my experience of the Christian life.
+creative outlet for me to publish content related to the life in Christ,
+grounded in study of the Gospels.
 
 A little background: I grew up in the Episcopal Church, and I did my
 undergraduate work at Wheaton College in Ancient Languages, with a minor in
-Biblical and Theological Studies. I am a member of the Anglican Church in North
-America, which I helped to found, though I find myself now with a strong (and
-growing) affinity for Orthodoxy. Lord, Jesus Christ, have mercy on me! ☦️
+Biblical and Theological Studies. I am a layman in the Anglican Church in North
+America, which I helped to found, though I find myself with a strong (and
+growing) affinity for Orthodoxy. Lord, Jesus Christ, have mercy on me!
+
+Thanks for visiting. God bless! ☦️
 
 
 #### Contact
