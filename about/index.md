@@ -10,8 +10,8 @@ grounded in the life of Christ in the Gospels.
 A little background: I grew up in the Episcopal Church, and I did my
 undergraduate work at Wheaton College in Ancient Languages, with a minor in
 Biblical and Theological Studies. I am a layman in the Anglican Church in North
-America (which I helped to found), though I find myself with a growing affinity
-for Orthodoxy. Lord, Jesus Christ, have mercy on me!
+America (which I helped to found), with a growing affinity for Orthodoxy. Lord,
+Jesus Christ, have mercy on me!
 
 Thanks for visiting. God bless! ☦️
 
