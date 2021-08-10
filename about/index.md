@@ -4,8 +4,21 @@ excerpt: Gospel Desk is a creative outlet for Chad W. L. Whitacre, lay theologia
 ---
 
 Greetings, friend! My name is Chad W. L. Whitacre, and Gospel Desk is a
-creative outlet for me to publish content related to the life in Christ,
-grounded in the life of Christ in the Gospels.
+conversation about the life in Christ, grounded in the life of Christ in the
+Gospels. Here’s where it happens:
+
+1. <b>Books</b>—[_The Gospels_](/the-gospels/) is the first one out. 📖
+1. <b>Social Media</b>—I post [study notes on
+   Twitter](https://twitter.com/CWLWhitacre), and [pictures on
+Instagram](https://www.instagram.com/gospeldesk/). Are _you_ on TikTok? 🤨
+1. <b>Newsletter</b>—Things are a little more [private in
+   there](https://www.getrevue.co/profile/gospeldesk) than on social media, so
+the share-meter goes up. 📈
+1. <b>Email/DMs</b>—[Get in touch](mailto:chad@zetaweb.com) if you’d like to
+   talk privately about Gospel Desk projects and/or what God is doing in your
+life. 💌
+1. <b>IRL</b>—My favorite thing is talking about this stuff face-to-face. Let’s
+   do more of those! 💃
 
 A little background: I grew up in the Episcopal Church, and I did my
 undergraduate work at Wheaton College in Ancient Languages, with a minor in

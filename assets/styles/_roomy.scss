@@ -94,8 +94,12 @@
       }
     }
     &.follow-along {
-      .tinyletter img {
-        width: 72pt;
+      form {
+        .powered-by {
+          img {
+            height: 14pt;
+          }
+        }
       }
     }
 

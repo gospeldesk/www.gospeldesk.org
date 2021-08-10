@@ -280,7 +280,7 @@ ul {
     border: 0;
     margin: 12pt 0 12pt 49%;
     &::before {
-      content: "❧";
+      content: "✚";
       color: $gray;
     }
   }
@@ -393,11 +393,17 @@ ul {
         background: white;
         border-radius: 4px;
       }
-    }
-    .tinyletter img {
-      width: 64pt;
-      display: block;
-      margin: 0 auto;
+      .powered-by {
+        text-align: center;
+        font-size: smaller;
+        color: $gray;
+        img {
+          position: relative;
+          top: 3pt;
+          height: 12pt;
+          display: inline;
+        }
+      }
     }
     .social {
       text-align: center;
