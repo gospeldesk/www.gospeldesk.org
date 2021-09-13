@@ -1,8 +1,14 @@
 ---
-heading: St. Dismas
+heading: St. Dysmas
 subheading: the penitent thief (a.k.a. St. Rakh)
 html_title_sep: ","
 ---
+
+<a href="st-dysmas.jpg">
+  <img src="st-dysmas.small.jpg" alt="St. Dysmas, the penitent thief">
+</a>
+<div class="caption">From the hand of <a
+href="https://www.facebook.com/konstantinos.yannakis">Konstantinos Yannakis</a>.</div>
 
 #### In the Gospels
 

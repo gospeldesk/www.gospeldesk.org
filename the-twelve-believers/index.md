@@ -62,9 +62,9 @@ and are answered.</div>
 <table class="twelve-believers">
   <tr>
     <td>
-      <a href="./st-dismas/">
-        <img src="default.png" class="default">
-        <span class="name">St. Dismas</span>
+      <a href="./st-dysmas/">
+        <img src="./st-dysmas/st-dysmas.thumb.jpg">
+        <span class="name">St. Dysmas</span>
         <span class="description">the penitent thief</span>
         <span class="description">(a.k.a. St. Rakh)</span>
       </a>
