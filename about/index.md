@@ -10,7 +10,7 @@ Gospels. Here’s where it happens:
 1. <b>Books</b>—[_The Gospels_](/the-gospels/) is the first one out. 📖
 1. <b>Social Media</b>—I post [study notes on
    Twitter](https://twitter.com/CWLWhitacre), and [pictures on
-Instagram](https://www.instagram.com/gospeldesk/). Are _you_ on TikTok? 🤨
+Instagram](https://www.instagram.com/cwlwhitacre/). Are _you_ on TikTok? 🤨
 1. <b>Newsletter</b>—Things are a little more [private in
    there](https://www.getrevue.co/profile/gospeldesk) than on social media, so
 the share-meter goes up. 📈
@@ -41,8 +41,8 @@ Thanks for visiting. God bless! ☦️
   </a>
   <br><br>
   <img src="/assets/images/social-icon-instagram.svg" class="social-icon">
-  <a href="https://www.instagram.com/gospeldesk/">
-    @gospeldesk
+  <a href="https://www.instagram.com/cwlwhitacre/">
+    @cwlwhitacre
   </a>
   <br><br>
   <img src="/assets/images/social-icon-twitter.svg" class="social-icon">
