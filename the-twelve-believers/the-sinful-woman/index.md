@@ -1,8 +1,16 @@
 ---
 heading: The Sinful Woman
-subheading: Anonymous
+subheading: forgiven by Christ
 html_title_sep: "("
+image: /the-twelve-believers/the-sinful-woman/the-sinful-woman.thumb.jpg
+image_alt: an icon of the Sinful Woman
 ---
+
+<a href="the-sinful-woman.jpg">
+  <img src="the-sinful-woman.small.jpg" alt="St. Mary of Bethany, the twice-praised">
+</a>
+<div class="caption">From the hand of <a
+href="https://aidanharticons.com/">Aidan Hart</a>.</div>
 
 
 #### In the Gospels

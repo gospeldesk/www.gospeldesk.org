@@ -34,20 +34,21 @@ boldly approach Jesus.</div>
       <a href="./st-justa/">
         <img src="default.png" class="default">
         <span class="name">St. Justa</span>
-        <span class="description">the Canaanite woman</span>
+        <span class="description">The Canaanite Woman</span>
       </a>
     </td>
     <td>
       <a href="./st-veronica/">
         <img src="default.png" class="default">
         <span class="name">St. Veronica</span>
-        <span class="description">the woman with a flow of blood</span>
+        <span class="description">The Woman with a Flow of Blood</span>
       </a>
     </td>
     <td>
       <a href="./the-sinful-woman/">
-        <img src="default.png" class="default">
+        <img src="./the-sinful-woman/the-sinful-woman.thumb.jpg">
         <span class="name">The Sinful Woman</span>
+        <span class="description">Forgiven by Christ</span>
       </a>
     </td>
   </tr>
@@ -65,7 +66,7 @@ and are answered.</div>
       <a href="./st-dysmas/">
         <img src="./st-dysmas/st-dysmas.thumb.jpg">
         <span class="name">St. Dysmas</span>
-        <span class="description">the penitent thief</span>
+        <span class="description">The Penitent Thief</span>
         <span class="description">(a.k.a. St. Rakh)</span>
       </a>
     </td>
@@ -79,7 +80,7 @@ and are answered.</div>
       <a href="./st-bartimaeus/">
         <img src="default.png" class="default">
         <span class="name">St. Bartimaeus</span>
-        <span class="description">the blind beggar</span>
+        <span class="description">The Blind Beggar</span>
       </a>
     </td>
   </tr>
@@ -103,7 +104,7 @@ are possible with God.</div>
       <a href="./st-zacchaeus/">
         <img src="default.png" class="default">
         <span class="name">St. Zacchaeus</span>
-        <span class="description">the son of Abraham</span>
+        <span class="description">The Son of Abraham</span>
       </a>
     </td>
     <td>
@@ -127,7 +128,7 @@ are possible with God.</div>
       <a href="./st-nathanael/">
         <img src="default.png" class="default">
         <span class="name">St. Nathanael</span>
-        <span class="description">the true Israelite</span>
+        <span class="description">The True Israelite</span>
         <span class="description">(a.k.a. St. Bartholomew)</span>
       </a>
     </td>
@@ -135,14 +136,14 @@ are possible with God.</div>
       <a href="./st-peter/">
         <img src="default.png" class="default">
         <span class="name">St. Peter</span>
-        <span class="description">the blessed</span>
+        <span class="description">The Blessed</span>
       </a>
     </td>
     <td>
       <a href="./st-mary-of-bethany/">
         <img src="./st-mary-of-bethany/st-mary-of-bethany.thumb.jpg">
         <span class="name">St. Mary of Bethany</span>
-        <span class="description">the twice-praised</span>
+        <span class="description">The Twice-Praised</span>
       </a>
     </td>
   </tr>
