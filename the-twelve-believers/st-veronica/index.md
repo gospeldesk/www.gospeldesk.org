@@ -1,6 +1,6 @@
 ---
 heading: St. Veronica
-subheading: the woman with a flow of blood
+subheading: The Woman with a Flow of Blood
 html_title_sep: ","
 ---
 

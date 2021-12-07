@@ -1,6 +1,6 @@
 ---
 heading: St. Zacchaeus
-subheading: the son of Abraham
+subheading: The Son of Abraham
 html_title_sep: ","
 ---
 

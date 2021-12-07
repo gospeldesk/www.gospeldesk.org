@@ -1,6 +1,6 @@
 ---
 heading: St. Peter
-subheading: the blessed
+subheading: The Blessed
 html_title_sep: ","
 ---
 

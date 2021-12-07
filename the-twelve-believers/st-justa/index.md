@@ -1,6 +1,6 @@
 ---
 heading: St. Justa
-subheading: the Canaanite woman
+subheading: The Canaanite Woman
 html_title_sep: ","
 ---
 

@@ -1,7 +1,7 @@
 ---
 heading: The Sinful Woman
-subheading: forgiven by Christ
-html_title_sep: "("
+subheading: Forgiven by Christ
+html_title_sep: ","
 image: /the-twelve-believers/the-sinful-woman/the-sinful-woman.thumb.jpg
 image_alt: an icon of the Sinful Woman
 ---

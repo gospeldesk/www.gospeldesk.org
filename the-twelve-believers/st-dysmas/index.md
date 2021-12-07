@@ -1,6 +1,6 @@
 ---
 heading: St. Dysmas
-subheading: the penitent thief (a.k.a. St. Rakh)
+subheading: The Penitent Thief (a.k.a. St. Rakh)
 html_title_sep: ","
 image: /the-twelve-believers/st-dysmas/st-dysmas.thumb.jpg
 image_alt: an icon of St. Dysmas

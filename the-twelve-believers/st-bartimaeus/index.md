@@ -1,6 +1,6 @@
 ---
 heading: St. Bartimaeus
-subheading: the blind beggar
+subheading: The Blind Beggar
 html_title_sep: ","
 ---
 

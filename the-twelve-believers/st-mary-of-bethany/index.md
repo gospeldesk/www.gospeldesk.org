@@ -1,6 +1,6 @@
 ---
 heading: St. Mary of Bethany
-subheading: the twice-praised
+subheading: The Twice-Praised
 html_title_sep: ","
 image: /the-twelve-believers/st-mary-of-bethany/st-mary-of-bethany.thumb.jpg
 image_alt: an icon of St. Mary of Bethany

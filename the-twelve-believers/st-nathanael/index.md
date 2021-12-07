@@ -1,6 +1,6 @@
 ---
 heading: St. Nathanael
-subheading: the true Israelite (a.k.a. St. Bartholomew)
+subheading: The True Israelite (a.k.a. St. Bartholomew)
 html_title_sep: ","
 ---
 
