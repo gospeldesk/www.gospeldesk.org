@@ -422,7 +422,21 @@ ul {
     margin: 0 0 12pt 0;
   }
   .description {
+    position: relative;
     padding: 0 18pt 12pt;
+    .dagger {
+      position: relative;
+      top: -3pt;
+      left: 0;
+      font-size: smaller;
+    }
+    .note {
+      position: absolute;
+      bottom: 6pt;
+      left: 18pt;
+      font: normal 8pt/8pt $Sen;
+      color: $gray;
+    }
   }
   img {
     margin: 0;
@@ -490,6 +504,7 @@ table.twelve-believers {
         }
 
         &.description {
+          position: relative;
           font-size: smaller;
           line-height: 130%;
           color: $black;

@@ -15,12 +15,6 @@ so also there are another Twelve who <u class="blue">call</u> on Jesus and are
 <u>answered</u>, providing a clear picture of devotion for all Christians to
 follow.
 
-The purpose of the Twelve Believers project is to build faith in our day by
-promoting these saints of the Church—producing liturgical art, exploring their
-stories, and following them as they follow Christ. Jesus celebrates the Twelve
-Believers. Let us celebrate them, as well!
-
-
 #### Who are the Twelve Believers?
 
 ##### The Defiant 

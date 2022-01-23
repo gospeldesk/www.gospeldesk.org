@@ -124,6 +124,11 @@
       float: left;
       width: 40%;
       padding: 0 0 0 36pt;
+
+      position: static;
+      .note {
+        left: 36pt;
+      }
     }
     img {
       width: 50%;
