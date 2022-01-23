@@ -3,9 +3,16 @@ heading: About
 excerpt: Gospel Desk is a creative outlet for Chad W. L. Whitacre, lay theologian.
 ---
 
-Greetings, friend! My name is Chad W. L. Whitacre, and Gospel Desk is a
+<div>
+<img src="goofball.jpg" style="float: left; margin: 0 20px 0 0; width: 72px;">
+<p>Greetings, friend! My name is Chad W. L. Whitacre, and Gospel Desk is a
 conversation about the life in Christ, grounded in the life of Christ in the
-Gospels. Here’s where it happens:
+Gospels. </p>
+</div>
+
+<div class="clear" style="padding-bottom: 12pt;"></div>
+
+Here’s where it happens:
 
 1. <b>Books</b>—[_The Gospels_](/the-gospels/) is the first one out. 📖
 1. <b>Social Media</b>—I post [study notes on
@@ -20,11 +27,11 @@ life. 💌
 1. <b>IRL</b>—My favorite thing is talking about this stuff face-to-face. Let’s
    do more of those! 💃
 
-A little background: I grew up in the Episcopal Church, and I did my
-undergraduate work at Wheaton College in Ancient Languages, with a minor in
-Biblical and Theological Studies. I helped to found the Anglican Church in
-North America, and now I am a catechumen in the Orthodox Church in America.
-Lord Jesus Christ, have mercy on me!
+A little background: I grew up in the Episcopal Church, and I studied Ancient
+Languages (with a minor in Biblical and Theological Studies) at Wheaton
+College. I helped to launch the Anglican Church in North America, and now I am a
+catechumen in the Orthodox Church in America.  Lord Jesus Christ, have mercy on
+me!
 
 Thanks for visiting. God bless! ☦️
 
@@ -34,11 +41,6 @@ Thanks for visiting. God bless! ☦️
 <div>
   <img src="/assets/images/social-icon-email.svg" class="social-icon">
   <a href="mailto:chad@zetaweb.com">chad@zetaweb.com</a>
-  <br><br>
-  <img src="/assets/images/social-icon-facebook.svg" class="social-icon">
-  <a href="https://www.facebook.com/chadwhitacre">
-    @chadwhitacre
-  </a>
   <br><br>
   <img src="/assets/images/social-icon-instagram.svg" class="social-icon">
   <a href="https://www.instagram.com/cwlwhitacre/">
