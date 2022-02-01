@@ -12,7 +12,7 @@ song of sorts for Gospel Desk, because we have a shack on our property that I
 dream of fixing up into a Gospel Desk headquarters and retreat house some day.
 With God's help!
 
-This page catalogs 253 recordings of Working on a Building by 165 artists,
+This page catalogs 254 recordings of Working on a Building by 166 artists,
 collected on YouTube. They are grouped according to the two main versions of
 the song, and roughly ordered within each group by the year recorded. (See the
 appendix for more on methodology.)
@@ -229,6 +229,7 @@ patterns here to discover. Enjoy!
 1. [Dan Trabue](https://www.youtube.com/watch?v=CL5to56kO0s) (2019)
 1. [Jeremy Charlie](https://www.youtube.com/watch?v=-GLV0jzONU0) (2019)
 1. [Kasia](https://www.youtube.com/watch?v=2qLTiSFPxLY) (2020)
+1. [Leslie Jordan](https://www.youtube.com/watch?v=AStvYgSaDKc) (2021)
 
 
 #### Appendix A: Lessons
