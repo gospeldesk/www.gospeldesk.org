@@ -9,8 +9,7 @@ southern gospel traditions. The song has become a standard of the genres"
 ([Wikipedia](https://en.wikipedia.org/wiki/I%27m_Working_on_a_Building)). I
 learned the southern gospel version from my father. I've taken it as a theme
 song of sorts for Gospel Desk, because we have a shack on our property that I
-dream of fixing up into a Gospel Desk headquarters and retreat house some day.
-With God's help!
+dream of fixing up as a Gospel Desk retreat some day. With God's help!
 
 This page catalogs 254 recordings of Working on a Building by 166 artists,
 collected on YouTube. They are grouped according to the two main versions of
@@ -18,11 +17,10 @@ the song, and roughly ordered within each group by the year recorded. (See the
 appendix for more on methodology.)
 
 The purpose of this page is to make it easier for myself and others to become
-familiar with the breadth and depth of this song. I don't actually want to
-venture too far into interpretation right now (ever?), but to help you approach
-the material, I've highlighted twelve recommendations for where to <u class="heavy yellow">start</u>.
-Don't stop there, though. There are many individual gems and overarching
-patterns here to discover. Enjoy!
+familiar with the breadth and depth of this song. I've highlighted twelve
+recommendations for where to <u class="heavy yellow">start</u>.  Don't stop
+there, though. There are many individual gems and overarching patterns here to
+discover. Enjoy!
 
 
 #### Highlights YouTube Playlist
@@ -229,7 +227,7 @@ patterns here to discover. Enjoy!
 1. [Dan Trabue](https://www.youtube.com/watch?v=CL5to56kO0s) (2019)
 1. [Jeremy Charlie](https://www.youtube.com/watch?v=-GLV0jzONU0) (2019)
 1. [Kasia](https://www.youtube.com/watch?v=2qLTiSFPxLY) (2020)
-1. [Leslie Jordan](https://www.youtube.com/watch?v=AStvYgSaDKc) (2021)
+1. [Leslie Jordan, Ashley McBryde, and Charlie Worsham](https://www.youtube.com/watch?v=AStvYgSaDKc) (2021)
 
 
 #### Appendix A: Lessons
@@ -297,3 +295,7 @@ YouTube doubtless contains recordings of Working on a Building that are not
 included here—to say nothing of recordings that are not on YouTube to begin
 with, or that have been added after I compiled this list. This catalog is,
 however, sufficient for its intended purpose. Enjoy!
+
+#### Updates
+
+**2022-01-31**&mdash;I added Leslie Jordan's version.
