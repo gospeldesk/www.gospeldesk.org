@@ -29,8 +29,8 @@ life. 💌
 
 A little background: I grew up in the Episcopal Church, and I studied Ancient
 Languages (with a minor in Biblical and Theological Studies) at Wheaton
-College. I helped to launch the Anglican Church in North America, and now I am a
-catechumen in the Orthodox Church in America.  Lord Jesus Christ, have mercy on
+College. I helped to launch the Anglican Church in North America, and now I am
+a member of the Orthodox Church in America. Lord Jesus Christ, have mercy on
 me!
 
 Thanks for visiting. God bless! ☦️
