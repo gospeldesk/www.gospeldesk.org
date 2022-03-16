@@ -128,7 +128,7 @@ are possible with God.</div>
     </td>
     <td>
       <a href="./st-peter/">
-        <img src="default.png" class="default">
+        <img src="./st-peter/st-peter.thumb.jpg">
         <span class="name">St. Peter</span>
         <span class="description">The Blessed</span>
       </a>

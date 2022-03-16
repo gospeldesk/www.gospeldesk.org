@@ -2,7 +2,15 @@
 heading: St. Peter
 subheading: The Blessed
 html_title_sep: ","
+image: /the-twelve-believers/st-peter/st-peter.thumb.jpg
+image_alt: an icon of St. Peter
 ---
+
+<a href="st-peter.jpg">
+  <img src="st-peter.small.jpg" alt="St. Peter, the blessed">
+</a>
+<div class="caption">From the hand of <a
+href="http://ikona-skiniya.com/">Anton Daineko</a>.</div>
 
 
 #### In the Gospels
