@@ -1,63 +1,37 @@
 ---
 heading: About
-excerpt: Gospel Desk is a creative outlet for Chad W. L. Whitacre, lay theologian.
+excerpt: Workinʼ on a building.
 ---
 
-<div>
-<img src="goofball.jpg" style="float: left; margin: 0 20px 0 0; width: 72px;">
-<p>Greetings, friend! My name is Chad W. L. Whitacre, and Gospel Desk is a
-conversation about the life in Christ, grounded in the life of Christ in the
-Gospels. </p>
-</div>
+<img src="goofball.jpg" style="float: right; margin: 0 0 20px 20px; width: 128px;">
 
-<div class="clear" style="padding-bottom: 12pt;"></div>
-
-Here’s where it happens:
-
-1. <b>Books</b>—[_The Gospels_](/the-gospels/) is the first one out. 📖
-1. <b>Social Media</b>—I post [study notes on
-   Twitter](https://twitter.com/CWLWhitacre), and [pictures on
-Instagram](https://www.instagram.com/cwlwhitacre/). Are _you_ on TikTok? 🤨
-1. <b>Newsletter</b>—Things are a little more [private in
-   there](https://www.getrevue.co/profile/gospeldesk) than on social media, so
-the share-meter goes up. 📈
-1. <b>Email/DMs</b>—[Get in touch](mailto:chad@zetaweb.com) if you’d like to
-   talk privately about Gospel Desk projects and/or what God is doing in your
-life. 💌
-1. <b>IRL</b>—My favorite thing is talking about this stuff face-to-face. Let’s
-   do more of those! 💃
+<p style="text-indent: 0;">Greetings, friend! My name is Chad Whitacre, and
+Gospel Desk is a creative outlet for me to talk about the life in Christ,
+grounded in the life of Christ in the Gospels.</p>
 
 A little background: I grew up in the Episcopal Church, and I studied Ancient
 Languages (with a minor in Biblical and Theological Studies) at Wheaton
 College. I helped to launch the Anglican Church in North America, and now I am
-a member of the Orthodox Church in America. Lord Jesus Christ, have mercy on
-me!
+a member of [St. Nicholas Orthodox Church](https://orthodoxpittsburgh.org/).
+Lord Jesus Christ, have mercy on me!
 
-Thanks for visiting. God bless! ☦️
+Thanks for visiting! ✚
 
 
 #### Contact
 
 <div>
+  <img src="/assets/images/social-icon-instagram.svg" class="social-icon">
+  <a href="https://www.instagram.com/chad.whitacre/">
+    @chad.whitacre
+  </a>
+  <br><br>
   <img src="/assets/images/social-icon-email.svg" class="social-icon">
   <a href="mailto:chad@zetaweb.com">chad@zetaweb.com</a>
-  <br><br>
-  <img src="/assets/images/social-icon-instagram.svg" class="social-icon">
-  <a href="https://www.instagram.com/cwlwhitacre/">
-    @cwlwhitacre
-  </a>
-  <br><br>
-  <img src="/assets/images/social-icon-twitter.svg" class="social-icon">
-  <a href="https://twitter.com/CWLWhitacre">
-    @CWLWhitacre
-  </a>
 </div>
 
 
-#### Brand Assets
-
-These are trademarks of Gospel Desk. You may use them to refer and link to
-Gospel Desk, but not (of course) to impersonate Gospel Desk.
+#### Logos and Colors
 
 <style>
   .content .assets a {
