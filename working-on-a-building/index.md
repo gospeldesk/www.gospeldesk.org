@@ -8,8 +8,7 @@ Working on a Building is "a song in both the African American spiritual and
 southern gospel traditions. The song has become a standard of the genres"
 ([Wikipedia](https://en.wikipedia.org/wiki/I%27m_Working_on_a_Building)). I
 learned the southern gospel version from my father. I've taken it as a theme
-song of sorts for Gospel Desk, because we have a shack on our property that I
-dream of fixing up as a Gospel Desk retreat some day. With God's help!
+song of sorts for Gospel Desk.
 
 This page catalogs 254 recordings of Working on a Building by 166 artists,
 collected on YouTube. They are grouped according to the two main versions of
