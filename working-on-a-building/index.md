@@ -15,11 +15,9 @@ collected on YouTube. They are grouped according to the two main versions of
 the song, and roughly ordered within each group by the year recorded. (See the
 appendix for more on methodology.)
 
-The purpose of this page is to make it easier for myself and others to become
-familiar with the breadth and depth of this song. I've highlighted twelve
-recommendations for where to <u class="heavy yellow">start</u>.  Don't stop
-there, though. There are many individual gems and overarching patterns here to
-discover. Enjoy!
+I've highlighted twelve recommendations for where to <u class="heavy
+yellow">start</u>.  Don't stop there, though. There are many individual gems
+and overarching patterns here to discover. Enjoy!
 
 
 #### Highlights YouTube Playlist
