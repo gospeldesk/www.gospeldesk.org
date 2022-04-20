@@ -10,7 +10,7 @@ southern gospel traditions. The song has become a standard of the genres"
 learned the southern gospel version from my father. I've taken it as a theme
 song of sorts for Gospel Desk.
 
-This page catalogs 254 recordings of Working on a Building by 166 artists,
+This page catalogs 255 recordings of Working on a Building by 166 artists,
 collected on YouTube. They are grouped according to the two main versions of
 the song, and roughly ordered within each group by the year recorded. (See the
 appendix for more on methodology.)
@@ -205,7 +205,7 @@ and overarching patterns here to discover. Enjoy!
 1. [The Lower Lights](https://www.youtube.com/watch?v=4lgk1tFwEaU) (2016)
 1. [Marcel and Nakos](https://www.youtube.com/watch?v=PWwyZ3f-b3s) (2016)
 1. [Wikiup](https://www.youtube.com/watch?v=zgUtAXokLLA) (2016)
-1. [<u class="heavy yellow">The Danberrys</u>](https://www.youtube.com/watch?v=o0u3sbHSb2A&list=PLANbMsVlhUqmhsz1pNcvzJq2FTXgw7Mct) (2016)
+1. [<u class="heavy yellow">The Danberrys</u>](https://www.youtube.com/watch?v=o0u3sbHSb2A&list=PLANbMsVlhUqmhsz1pNcvzJq2FTXgw7Mct) (2016) - [2016](https://www.youtube.com/watch?v=yWuIGWY1KEs)
 1. [BackCountry](https://www.youtube.com/watch?v=SPsnULZcMWg) (2017)
 1. [Dave Adkins](https://www.youtube.com/watch?v=rLG4yHJWwkE) (2017)
 1. [Jordan's Crossing](https://www.youtube.com/watch?v=2P4knAoAYg4) (2017)
