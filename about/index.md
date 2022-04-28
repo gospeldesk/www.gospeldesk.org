@@ -5,15 +5,15 @@ excerpt: Workinʼ on a building.
 
 <img src="goofball.jpg" style="float: right; margin: 0 0 20px 20px; width: 128px;">
 
-<p style="text-indent: 0;">Greetings, friend! My name is Chad Whitacre, and
-Gospel Desk is a creative outlet for me to talk about the life in Christ,
-grounded in the life of Christ in the Gospels.</p>
+<p style="text-indent: 0;">Greetings, friend! My name is Chad Whitacre. I am a
+member of <a href="https://orthodoxpittsburgh.org">St.  Nicholas Orthodox
+Church</a>, and Gospel Desk is an excuse for me to be able to talk about God.
+Hopefully it's a good excuse!</p>
 
-A little background: I grew up in the Episcopal Church, and I studied Ancient
-Languages (with a minor in Biblical and Theological Studies) at Wheaton
-College. I helped to launch the Anglican Church in North America, and now I am
-a member of [St. Nicholas Orthodox Church](https://orthodoxpittsburgh.org/).
-Lord Jesus Christ, have mercy on me!
+I grew up in the Episcopal Church, and I studied Ancient Languages (with a
+minor in Biblical and Theological Studies) at Wheaton College. I helped to
+launch the Anglican Church in North America, and now here I am. Lord Jesus
+Christ, have mercy on me!
 
 Thanks for visiting! ✚
 
