@@ -7,8 +7,8 @@ excerpt: Workinʼ on a building.
 
 <p style="text-indent: 0;">Greetings, friend! My name is Chad Whitacre. I am a
 member of <a href="https://orthodoxpittsburgh.org">St.  Nicholas Orthodox
-Church</a>, and Gospel Desk is an excuse for me to be able to talk about God.
-Hopefully it's a good excuse!</p>
+Church</a>, and Gospel Desk is an excuse to talk about God. Hopefully it's a 
+good excuse!</p>
 
 I grew up in the Episcopal Church, and I studied Ancient Languages (with a
 minor in Biblical and Theological Studies) at Wheaton College. I helped to
