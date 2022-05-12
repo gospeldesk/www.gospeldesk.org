@@ -7,31 +7,33 @@ Next step: [Discord](https://discord.gg/DB2aRYw). 🕳
 
 ## The Mission
 
-Gospel Desk's mission is to help the Church build faith rooted in the Gospels.
+Gospel Desk's mission is to help the Church bring as many people as close to
+union with God as possible.
 
 
 ## The Formula
 
-1. Study the Gospels.
-2. Publish digital content.
-3. Commission icons.
-4. Publish books.
-5. Tour icons.
-6. Speak.
-7. Build virtual community.
+1. Study the Gospels and the Fathers.
+1. Publish content.
+  1. icons
+  1. videos
+  1. social
+  1. email
+  1. books
+1. Tour.
+1. 
 
 
-## Goals for 2020
+## Goals for 2022
 
 1. Meta
     1. Find the audience.
     1. Build the community.
     1. Understand the entity.
 1. Product
-    1. Hang an icon of one of the Twelve Believers on a wall.
+    1. Receive a fourth icon.
     1. Compile a character database for _The Gospels, with a Narrative Apparatus_.
-1. Marketing
-    1. Book a tour of irl/hybrid speaking engagements.
+1. Marketing - 
     1. Experiment with:
         1. podcast appearances
         1. ads
