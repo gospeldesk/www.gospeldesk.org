@@ -26,6 +26,11 @@ Thanks for visiting! ✚
     @chad.whitacre
   </a>
   <br><br>
+  <img src="/assets/images/social-icon-twitter.svg" class="social-icon">
+  <a href="https://twitter.com/__chadwhitacre">
+    @__chadwhitacre
+  </a>
+  <br><br>
   <img src="/assets/images/social-icon-email.svg" class="social-icon">
   <a href="mailto:chad@zetaweb.com">chad@zetaweb.com</a>
 </div>
