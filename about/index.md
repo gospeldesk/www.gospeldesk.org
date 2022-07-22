@@ -12,7 +12,7 @@ good excuse!</p>
 
 I grew up in the Episcopal Church, and I studied Ancient Languages (with a
 minor in Biblical and Theological Studies) at Wheaton College. I helped launch
-the Anglican Church in North America. Then I tried to launch my own
+the Anglican Church in North America. Then I tried to start my own
 denomination, Christian Minimalism. Now here I am. Lord Jesus Christ, have
 mercy on me!
 
