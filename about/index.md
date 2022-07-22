@@ -11,9 +11,10 @@ Church</a>, and Gospel Desk is an excuse to talk about God. Hopefully it's a
 good excuse!</p>
 
 I grew up in the Episcopal Church, and I studied Ancient Languages (with a
-minor in Biblical and Theological Studies) at Wheaton College. I helped to
-launch the Anglican Church in North America, and now here I am. Lord Jesus
-Christ, have mercy on me!
+minor in Biblical and Theological Studies) at Wheaton College. I helped launch
+the Anglican Church in North America. Then I tried to launch my own
+denomination, Christian Minimalism. Now here I am. Lord Jesus Christ, have
+mercy on me!
 
 Thanks for visiting! ✚
 
