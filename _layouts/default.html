@@ -1,5 +1,10 @@
 <!doctype html>
 <html>
+    {% if page.redirect %}
+    <head>
+        <meta http-equiv="refresh" content="0; url={{ page.redirect }}">
+    </head>
+    {% else %}
     <head>
         <title>{% include html-title.html %}</title>
         <meta charset="utf-8">
@@ -40,4 +45,5 @@
 				<script async defer data-domain="gospeldesk.org"
           src="https://plausible.io/js/plausible.js"></script>
     </body>
+    {% endif %}
 </html>
