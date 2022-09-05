@@ -296,4 +296,4 @@ however, sufficient for its intended purpose. Enjoy!
 #### Updates
 
 **2022-01-31**&mdash;I added Leslie Jordan's version.  
-**2022-04-20**&mdash;I added two more version from The Danberrys.
+**2022-04-20**&mdash;I added two more versions from The Danberrys.
