@@ -1,16 +1,21 @@
 ---
 heading: Working on a Building
-image: /working-on-a-building/the-shack.jpg
+image: /working-on-a-building/og.jpg
 image_alt: a shack
 ---
 
-Working on a Building is "a song in both the African American spiritual and
+<img src="the-shack.jpg">
+<div class="caption">A building that needs to be worked on.</div>
+
+#### Introduction
+
+"Working on a Building" is "a song in both the African American spiritual and
 southern gospel traditions. The song has become a standard of the genres"
 ([Wikipedia](https://en.wikipedia.org/wiki/I%27m_Working_on_a_Building)). I
 learned the southern gospel version from my father. I've taken it as a theme
 song of sorts for Gospel Desk.
 
-This page catalogs 256 recordings of Working on a Building by 166 artists,
+This page catalogs 256 recordings of "Working on a Building" by 166 artists,
 collected on YouTube. They are grouped according to the two main versions of
 the song, and roughly ordered within each group by the year recorded. (See the
 appendix for more on methodology.)
@@ -288,7 +293,7 @@ primary and linked the others as "alt." The Elvis and B.B. King/Little Richard
 versions have so many uploads that I didn't bother trying to list them all
 here.
 
-YouTube doubtless contains recordings of Working on a Building that are not
+YouTube doubtless contains recordings of "Working on a Building" that are not
 included here—to say nothing of recordings that are not on YouTube to begin
 with, or that have been added after I compiled this list. This catalog is,
 however, sufficient for its intended purpose. Enjoy!

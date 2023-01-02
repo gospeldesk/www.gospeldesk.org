@@ -7,16 +7,16 @@ excerpt: Workinʼ on a building.
 
 <p style="text-indent: 0;">Greetings, friend! My name is Chad Whitacre. I am a
 member of <a href="https://orthodoxpittsburgh.org">St.  Nicholas Orthodox
-Church</a>, and Gospel Desk is an excuse to talk about God. Hopefully it's a 
-good excuse!</p>
+Church</a>, and Gospel Desk is an excuse to talk about God. May it be a good
+excuse!</p>
 
 I grew up in the Episcopal Church, and I studied Ancient Languages (with a
 minor in Biblical and Theological Studies) at Wheaton College. I helped launch
 the Anglican Church in North America. Then I tried to start my own
-denomination, Christian Minimalism. Now here I am. Lord Jesus Christ, have
-mercy on me!
+denomination, Christian Minimalism. Now here I am, a layman in the Orthodox
+Church in America. Pray for me, a sinner.
 
-Thanks for visiting! ✚
+Thanks for visiting! Glory to God for all things! ✚
 
 
 #### Contact

@@ -1,6 +1,6 @@
 ---
 heading: The Twelve Believers
-subheading: Celebrating those Christ celebrates
+subheading: Venerating those Christ venerates
 image: /the-twelve-believers/st-mary-of-bethany/st-mary-of-bethany.thumb.jpg
 image_alt: an icon of St. Mary of Bethany
 ---
