@@ -21,6 +21,10 @@ Thanks for visiting! Glory to God for all things! ✚
 
 #### Contact
 
+(I regularly delete social media posts. Find me [in real life](https://www.orthodoxpittsburgh.org/parishcalendar)! :^)
+
+<br>
+
 <div>
   <img src="/assets/images/social-icon-instagram.svg" class="social-icon">
   <a href="https://www.instagram.com/chad.whitacre/">
@@ -35,7 +39,6 @@ Thanks for visiting! Glory to God for all things! ✚
   <img src="/assets/images/social-icon-email.svg" class="social-icon">
   <a href="mailto:chad@zetaweb.com">chad@zetaweb.com</a>
 </div>
-
 
 #### Logos and Colors
 
