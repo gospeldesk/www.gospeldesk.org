@@ -85,7 +85,6 @@ Surely this prayer is suitable to include in one's private devotions. How else
 might it be incorporated into the life of the Church?
 
 
-
 #### A Note on Translations
 
 The standard translation of <i>The Fount of Knowledge</i> has been
