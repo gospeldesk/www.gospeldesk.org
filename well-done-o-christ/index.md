@@ -43,12 +43,12 @@ This prayer—the only prayer in the entire <i>Fount of Knowledge</i>—is the
 crown of the crown of the crown of the crown of the crown of the early Fathers.
 
 <div style="padding: 24pt;">
- <div style="padding-left: 40%"><b>Well done, O Christ!</b></div>
- <div style="padding-left: 35%">Worship of demons <em>has</em> ceased.</div>
- <div style="padding-left: 30%">Book IV: After His Resurrection</div>
- <div style="padding-left: 25%">Part III: On the Orthodox Faith</div>
- <div style="padding-left: 20%"><i>Fount of Knowledge</i></div>
- <div style="padding-left: 15%">Early Fathers — Ecumenical Councils</div>
+ <div style="padding-left: 40%; padding-bottom: 6pt;"><b>Well done, O Christ!</b></div>
+ <div style="padding-left: 35%; padding-bottom: 6pt;">Worship of demons <em>has</em> ceased.</div>
+ <div style="padding-left: 30%; padding-bottom: 6pt;">Book IV: After His Resurrection</div>
+ <div style="padding-left: 25%; padding-bottom: 6pt;">Part III: On the Orthodox Faith</div>
+ <div style="padding-left: 20%; padding-bottom: 6pt;"><i>Fount of Knowledge</i></div>
+ <div style="padding-left: 15%; padding-bottom: 6pt;">Early Fathers — Ecumenical Councils</div>
 </div>
 
 This is our effusive response to Christ’s real victory in our actual world, the
@@ -85,10 +85,23 @@ Surely this prayer is suitable to include in one's private devotions. How else
 might it be incorporated into the life of the Church?
 
 
+#### Endorsements
+
+"Thank you, Chad, for this prayer of St. John of Damascus." —Fr. Josiah Trenham (email, 2022-12-07)
+
+
+
 #### A Note on Translations
 
 The standard translation of <i>The Fount of Knowledge</i> has been
-[Chase's](https://www.cuapress.org/9780813209685/writings/), which is the
-version quoted above. SVS Press recently published a new translation by
+[Chase's](https://www.cuapress.org/9780813209685/writings/), and this is the
+version quoted above (p. 339). SVS Press recently published a new translation
+by
 [Russell](https://svspress.com/on-the-orthodox-faith-volume-3-of-the-fount-of-knowledge-pps-62/),
-in which this prayer is not so poetic.
+but his rendering of this prayer is not as poetic.
+
+
+#### Timeline
+
+**2022-01-02**&mdash;I published this page.  
+**2020-08-02**&ndash;**2020-11-05**&mdash;I read <i>The Fount of Knowledge</i> with an online book group, in the course of which I discovered this prayer.
