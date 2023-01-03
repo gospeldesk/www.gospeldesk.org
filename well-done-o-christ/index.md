@@ -85,11 +85,6 @@ Surely this prayer is suitable to include in one's private devotions. How else
 might it be incorporated into the life of the Church?
 
 
-#### Endorsements
-
-"Thank you, Chad, for this prayer of St. John of Damascus." —Fr. Josiah Trenham (email, 2022-12-07)
-
-
 
 #### A Note on Translations
 
