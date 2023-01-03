@@ -9,9 +9,8 @@ image_alt: an icon of St. Mary of Bethany
 intention that we would believe in him, and that, believing, we would have life
 in his name. What does belief look like? In the Gospels, there are twelve
 people whom Christ directly, explicitly <u>praises</u> for their <u
-class="blue">faith</u>. Just as Jesus calls the [Twelve
-Disciples](https://www.bibleinfo.com/en/questions/who-were-twelve-disciples),
-so also there are another Twelve who <u class="blue">call</u> on Jesus and are
+class="blue">faith</u>. Just as Jesus calls the Twelve Apostles, so also there
+are another Twelve who <u class="blue">call</u> on Jesus and are
 <u>answered</u>, providing a clear picture of devotion for all Christians to
 follow.
 
