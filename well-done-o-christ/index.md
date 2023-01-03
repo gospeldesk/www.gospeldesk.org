@@ -5,13 +5,6 @@ image: /well-done-o-christ/og.jpg
 image_alt: the beginning of a paragraph in a book, "Well done, O Christ!"
 ---
 
-<a href="well-done-o-christ.jpg">
-  <img src="well-done-o-christ.small.jpg">
-</a>
-<div class="caption">"Well done, O Christ!" as I discovered it.</div>
-
-#### The Story of a Prayer
-
 St. John of Damascus published a book called <i>The Fount of Knowledge</i> in
 about 750 A.D. It is the crown of the early Fathers, summing up the exposition
 and teaching in the centuries after Christ’s first coming, the time of the
@@ -43,12 +36,12 @@ This prayer—the only prayer in the entire <i>Fount of Knowledge</i>—is the
 crown of the crown of the crown of the crown of the crown of the early Fathers.
 
 <div style="padding: 24pt;">
- <div style="padding-left: 40%; padding-bottom: 6pt;"><b>Well done, O Christ!</b></div>
- <div style="padding-left: 35%; padding-bottom: 6pt;">Worship of demons <em>has</em> ceased.</div>
- <div style="padding-left: 30%; padding-bottom: 6pt;">Book IV: After His Resurrection</div>
- <div style="padding-left: 25%; padding-bottom: 6pt;">Part III: On the Orthodox Faith</div>
- <div style="padding-left: 20%; padding-bottom: 6pt;"><i>Fount of Knowledge</i></div>
- <div style="padding-left: 15%; padding-bottom: 6pt;">Early Fathers — Ecumenical Councils</div>
+ <div style="padding-left: 35%; padding-bottom: 6pt;"><b>Well done, O Christ!</b></div>
+ <div style="padding-left: 30%; padding-bottom: 6pt;">Worship of demons <em>has</em> ceased.</div>
+ <div style="padding-left: 25%; padding-bottom: 6pt;">Book IV: After His Resurrection</div>
+ <div style="padding-left: 20%; padding-bottom: 6pt;">Part III: On the Orthodox Faith</div>
+ <div style="padding-left: 15%; padding-bottom: 6pt;"><i>Fount of Knowledge</i></div>
+ <div style="padding-left: 10%; padding-bottom: 6pt;">Early Fathers — Ecumenical Councils</div>
 </div>
 
 This is our effusive response to Christ’s real victory in our actual world, the
@@ -89,10 +82,11 @@ might it be incorporated into the life of the Church?
 
 The standard translation of <i>The Fount of Knowledge</i> has been
 [Chase's](https://www.cuapress.org/9780813209685/writings/), and this is the
-version quoted above (p. 339). SVS Press recently published a new translation
-by
-[Russell](https://svspress.com/on-the-orthodox-faith-volume-3-of-the-fount-of-knowledge-pps-62/),
-but his rendering of this prayer is not as poetic.
+version quoted above (p. 339). SVS Press has published a [new
+translation](https://svspress.com/on-the-orthodox-faith-volume-3-of-the-fount-of-knowledge-pps-62/),
+but its rendering of the prayer is not as poetic.  <a
+href="well-done-o-christ.jpg"> <img src="well-done-o-christ.small.jpg"> </a>
+<div class="caption">"Well done, O Christ!" as I discovered it.</div>
 
 
 #### Timeline
