@@ -70,9 +70,9 @@ hands. Yet every moment leading up to our moments of repentance, and every
 moment leading forth, are Christ's. Our repentence is almost, we might say, a
 single point, without dimension or content. Christ is wholly active in bringing
 us to salvation, and wholly active in carrying us forward from it. Our bare,
-stark acceptance is all that is in our hands—simultaneously everything, and yet
-so close to nothing.  Wonderously, Christ is _grateful_ to us for our utterly
-passive acceptance, for this nearly-nothing! Glory to Him!
+stark acceptance is all that is in our hands—simultaneously everything for us,
+and yet so close to nothing.  Wonderously, Christ is _grateful_ to us for our
+utterly passive acceptance, for this nearly-nothing! Glory to Him!
 
 O Christ our God, lead us to repentance. Give us Grace to accept. Smash the
 idols in our life, in our households and neighborhoods, our cities and nations!
