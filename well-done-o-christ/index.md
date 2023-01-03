@@ -8,7 +8,7 @@ image_alt: the beginning of a paragraph in a book, "Well done, O Christ!"
 <a href="well-done-o-christ.jpg">
   <img src="well-done-o-christ.small.jpg">
 </a>
-<div class="caption">Well done, O Christ!</div>
+<div class="caption">"Well done, O Christ!" as I discovered it.</div>
 
 #### The Story of a Prayer
 
@@ -39,8 +39,8 @@ it. Thanks be to Thee Who hast given being and the grace of well-being, and Who
 by Thy ineffable Condescension hast brought back to this state those who fell
 from it.</div>
 
-This prayer is the crown of the crown of the crown of the crown of the crown of
-the early Fathers.
+This prayer—the only prayer in the entire <i>Fount of Knowledge</i>—is the
+crown of the crown of the crown of the crown of the crown of the early Fathers.
 
 <div style="padding: 24pt;">
  <div style="padding-left: 40%"><b>Well done, O Christ!</b></div>
