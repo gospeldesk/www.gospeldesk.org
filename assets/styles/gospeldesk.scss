@@ -262,7 +262,7 @@ ul {
     }
   }
   h5 + .caption {
-    /* for The Twelve Believers index */
+    /* for The Twelve Faithful Servants index */
     margin: 0;
   }
 
@@ -469,7 +469,7 @@ footer {
 /* Page-specific */
 /* ============= */
 
-table.twelve-believers {
+table.twelve-faithful-servants {
   width: 100%;
   border-collapse: collapse;
 
@@ -518,7 +518,7 @@ table.twelve-believers {
 }
 
 @media only screen and (min-width: 420px) {
-  table.twelve-believers {
+  table.twelve-faithful-servants {
     td {
       display: table-cell;
       width: 33%;

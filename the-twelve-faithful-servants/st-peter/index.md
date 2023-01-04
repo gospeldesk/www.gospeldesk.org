@@ -2,7 +2,7 @@
 heading: St. Peter
 subheading: The Blessed
 html_title_sep: ","
-image: /the-twelve-believers/st-peter/st-peter.thumb.jpg
+image: /the-twelve-faithful-servants/st-peter/st-peter.thumb.jpg
 image_alt: an icon of St. Peter
 ---
 
