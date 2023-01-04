@@ -372,15 +372,37 @@ ul {
 
   &.follow-along {
     position: relative;
-    .powered-by {
-      text-align: center;
-      font-size: smaller;
-      color: $gray;
-      img {
-        position: relative;
-        top: 3pt;
-        height: 12pt;
-        display: inline;
+    form {
+      margin: 12pt 0;
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        .input {
+          width: 100%;
+          padding-right: 3pt;
+        }
+      }
+      label {
+        display: none;
+      }
+      input {
+        width: 100%;
+        font: 12pt/18pt $Sen;
+        padding: 3pt 12pt;
+        border: 1px solid $black;
+        background: white;
+        border-radius: 4px;
+      }
+      .powered-by {
+        text-align: center;
+        font-size: smaller;
+        color: $gray;
+        img {
+          position: relative;
+          top: 3pt;
+          height: 12pt;
+          display: inline;
+        }
       }
     }
     .social {
