@@ -36,12 +36,12 @@ This prayer—the only prayer in the entire <i>Fount of Knowledge</i>—is the
 crown of the crown of the crown of the crown of the crown of the early Fathers.
 
 <div style="padding: 24pt;">
- <div style="padding-left: 35%; padding-bottom: 6pt;"><b>Well done, O Christ!</b></div>
- <div style="padding-left: 30%; padding-bottom: 6pt;">Worship of demons <em>has</em> ceased.</div>
+ <div style="padding-left: 35%; padding-bottom: 6pt;">&ldquo;<b>Well done, O Christ!</b>&rdquo;</div>
+ <div style="padding-left: 30%; padding-bottom: 6pt;">&ldquo;Worship of demons <em>has</em> ceased.&rdquo;</div>
  <div style="padding-left: 25%; padding-bottom: 6pt;">Book IV: After His Resurrection</div>
  <div style="padding-left: 20%; padding-bottom: 6pt;">Part III: On the Orthodox Faith</div>
  <div style="padding-left: 15%; padding-bottom: 6pt;"><i>Fount of Knowledge</i></div>
- <div style="padding-left: 10%; padding-bottom: 6pt;">Early Fathers — Ecumenical Councils</div>
+ <div style="padding-left: 10%; padding-bottom: 6pt;">Early Fathers, Ecumenical Councils</div>
 </div>
 
 This is our effusive response to Christ’s real victory in our actual world, the
