@@ -54,18 +54,19 @@ glory) to the eventual Triumph of Orthodoxy. The Kingdom of God is not yet, yet
 it is already, in our material world, in our midst. 
 
 One of the wonders of this prayer is its laying bare of two parodoxical
-realities: God's Grace and our free will. We are "resourceless." Christ gives
-us "all things," including our very "being and the grace of well-being." Even
-what Christ asks of us, the one and only thing—"that we be saved"—He gives us.
-The _only_ thing that lies with us is whether we "accept" His gift. Our initial
-conversion, and each subsequent moment of repentance and return, is in our
-hands. Yet every moment leading up to our moments of repentance, and every
-moment leading forth, are Christ's. Our repentence is almost, we might say, a
-single point, without dimension or content. Christ is wholly active in bringing
-us to salvation, and wholly active in carrying us forward from it. Our bare,
-stark acceptance is all that is in our hands—simultaneously everything for us,
-and yet so close to nothing.  Wonderously, Christ is _grateful_ to us for our
-utterly passive acceptance, for our nearly-nothing! Glory to Him!
+realities: God's Grace and our free will. We are "resourceless." We are
+dependent on Christ for "all things," including our very "being and the grace
+of well-being." Even what Christ asks of us, the one and only thing—"that we be
+saved"—He gives us. The _only_ thing that lies with us is whether we "accept"
+His gift. Our initial conversion, and each subsequent moment of repentance and
+return, is in our hands. Yet every moment leading up to our moments of
+repentance, and every moment leading forth, are Christ's. Our repentence is
+almost, we might say, a single point, without dimension or content. Christ is
+wholly active in bringing us to salvation, and wholly active in carrying us
+forward from it. Our bare, stark acceptance is all that is in our
+hands—simultaneously everything for us, and yet so close to nothing.
+Wonderously, Christ is _grateful_ to us for our utterly passive acceptance, for
+our nearly-nothing! Glory to Him!
 
 O Christ our God, lead us to repentance. Give us Grace to accept. Smash the
 idols in our life, in our households and neighborhoods, our cities and nations!
@@ -84,7 +85,7 @@ The standard translation of <i>The Fount of Knowledge</i> has been
 [Chase's](https://www.cuapress.org/9780813209685/writings/), and this is the
 version quoted above (p. 339). SVS Press has published a [new
 translation](https://svspress.com/on-the-orthodox-faith-volume-3-of-the-fount-of-knowledge-pps-62/),
-but its rendering of the prayer is not as poetic.  <a
+but its rendering of the prayer is not as poetic. <a
 href="well-done-o-christ.jpg"> <img src="well-done-o-christ.small.jpg"> </a>
 <div class="caption">"Well done, O Christ!" as I discovered it.</div>
 
