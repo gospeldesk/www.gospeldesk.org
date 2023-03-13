@@ -3,7 +3,7 @@ heading: About
 excerpt: Workinʼ on a building.
 ---
 
-<img src="goofball.jpg" style="float: right; margin: 0 0 20px 20px; width: 128px;">
+<img src="profile-pic.jpg" style="float: right; margin: 0 0 20px 20px; width: 128px;">
 
 <p style="text-indent: 0;">Greetings, friend! My name is Chad Whitacre. I am a
 member of <a href="https://orthodoxpittsburgh.org">St.  Nicholas Orthodox
