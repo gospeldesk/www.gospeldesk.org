@@ -16,6 +16,13 @@ the Anglican Church in North America. Then I tried to start my own
 denomination, Christian Minimalism. Now here I am, a layman in the Orthodox
 Church in America. Pray for me, a sinner.
 
+I publish this website with the blessing of my bishop, His Eminence, Archbishop
+Melchisidek of Pittsburgh and Western Pennsylvania. He has appointed Fr. Thomas
+Soroka (my priest) and Dr. Edith Humphrey (my godmother) to review the
+materials published here, "to maintain the principle of 'when two or three are
+gathered,'" so that thereby Gospel Desk might be "'of the Church' in a very
+concrete sense." I am grateful to all three.
+
 Thanks for visiting! Glory to God for all things! ✚
 
 
