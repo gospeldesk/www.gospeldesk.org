@@ -19,9 +19,9 @@ The crescendo of the third part is a stunning declaration of the victory of
 Christ within our one shared human history and civilization. The Gospel _has_
 been preached, idols _have_ been torn down, virtue _has_ been established, and
 not through force of arms but by the persuasiveness of unlettered fishermen.
-The Damascene writes near Jerusalem when iconoclasm has infiltrated the Church,
-and Islam has conquered the Holy Land. Yet he can still celebrate the reality
-of Christ’s impact. He bursts into prayer!
+The Damascene writes near Jerusalem while the Holy Land is under the yoke of
+Islam, and while the Church is infested with iconoclasm. Yet he can still
+celebrate the reality of Christ’s impact. He bursts into prayer!
 
 <div style="padding: 24pt; font-size: 13pt; line-height: 19pt;"><b>Well done, O
 Christ</b>, O Wisdom, and Power, and Word of God, and God Almighty! What should
@@ -53,7 +53,13 @@ the saints John of Damascus. In that Council he contributed materially (from
 glory) to the eventual Triumph of Orthodoxy. The Kingdom of God is not yet, yet
 it is already, in our material world, in our midst. 
 
-One of the wonders of this prayer is its laying bare of two parodoxical
+How strange, though, for us to address Christ with, &ldquo;Well done!&rdquo; It
+can seem inappropriate, as if we were setting ourselves up as a judge over
+Christ–God forbid! No: this can only be understood as a response to the,
+&ldquo;Well done, good and faithful servant!&rdquo; that we all long to hear.
+Indeed, the Greek term (εὖγε) is the same in both instances.
+
+Another of the wonders of this prayer is its laying bare of two parodoxical
 realities: God's Grace and our free will. We are "resourceless." We are
 dependent on Christ for "all things," including our very "being and the grace
 of well-being." Even what Christ asks of us, the one and only thing—"that we be
@@ -65,8 +71,15 @@ almost, we might say, a single point, without dimension or content. Christ is
 wholly active in bringing us to salvation, and wholly active in carrying us
 forward from it. Our bare, stark acceptance is all that is in our
 hands—simultaneously everything for us, and yet so close to nothing.
-Wonderously, Christ is _grateful_ to us for our utterly passive acceptance, for
-our nearly-nothing! Glory to Him!
+
+How shocking to learn that Christ is _grateful_ when we accept His salvation!
+Grateful to whom (or Whom), I dare not say. Perhaps the parable of the Prodigal
+Son gives us a way to comprehend the Damascene's spiritual insight. The Father
+declares, "It is right that we should make merry and be glad." In the mystery
+of God's providence, He never forces us to accept His salvation.  Yet we know
+that there is joy in the presence of the angels of God over one sinner who
+repents. From the Damascene we learn that Christ Himself shares in—indeed, is
+the Alpha and the Omega of—this joy, this gratitude.
 
 O Christ our God, lead us to repentance. Give us Grace to accept. Smash the
 idols in our life, in our households and neighborhoods, our cities and nations!
@@ -87,10 +100,11 @@ version quoted above (p. 339). SVS Press has published a [new
 translation](https://svspress.com/on-the-orthodox-faith-volume-3-of-the-fount-of-knowledge-pps-62/),
 but its rendering of the prayer is not as poetic. <a
 href="well-done-o-christ.jpg"> <img src="well-done-o-christ.small.jpg"> </a>
-<div class="caption">"Well done, O Christ!" as I discovered it.</div>
 
 
+<!--
 #### Timeline
 
 **2022-01-02**&mdash;I published this page.  
 **2020-08-02**&ndash;**2020-11-05**&mdash;I read <i>The Fount of Knowledge</i> with an online book group, in the course of which I discovered this prayer.
+-->
