@@ -73,13 +73,13 @@ forward from it. Our bare, stark acceptance is all that is in our
 hands—simultaneously everything for us, and yet so close to nothing.
 
 How shocking to learn that Christ is _grateful_ when we accept His salvation!
-Grateful to whom (or Whom), I dare not say. Perhaps the parable of the Prodigal
-Son gives us a way to comprehend the Damascene's spiritual insight. The Father
-declares, "It is right that we should make merry and be glad." In the mystery
-of God's providence, He never forces us to accept His salvation.  Yet we know
-that there is joy in the presence of the angels of God over one sinner who
-repents. From the Damascene we learn that Christ Himself shares in—indeed, is
-the Alpha and the Omega of—this joy, this gratitude.
+Perhaps the parable of the Prodigal Son gives us a way to comprehend the
+Damascene's spiritual insight. The Father declares, "It is right that we should
+make merry and be glad." In the mystery of God's providence, He never forces us
+to accept His salvation.  Yet we know that there is joy in the presence of the
+angels of God over one sinner who repents. From the Damascene we learn that
+Christ Himself shares in—indeed, is the Alpha and the Omega of—this joy, this
+gratitude.
 
 O Christ our God, lead us to repentance. Give us Grace to accept. Smash the
 idols in our life, in our households and neighborhoods, our cities and nations!
