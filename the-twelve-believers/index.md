@@ -95,7 +95,7 @@ are possible with God.</div>
     </td>
     <td>
       <a href="./st-zacchaeus/">
-        <img src="default.png" class="default">
+        <img src="./st-zacchaeus/st-zacchaeus.thumb.jpg">
         <span class="name">St. Zacchaeus</span>
         <span class="description">The Son of Abraham</span>
       </a>

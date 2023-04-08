@@ -2,7 +2,15 @@
 heading: St. Zacchaeus
 subheading: The Son of Abraham
 html_title_sep: ","
+image: /the-twelve-believers/st-zacchaeus/st-zacchaeus.thumb.jpg
+image_alt: an icon of St. Zacchaeus
 ---
+
+<a href="st-zacchaeus.jpg">
+  <img src="st-zacchaeus.small.jpg" alt="St. Zacchaeus, the son of Abraham">
+</a>
+<div class="caption">From the hand of <a
+href="https://www.elenamurariu.com/">Elena Murariu</a>.</div>
 
 
 #### In the Gospels
