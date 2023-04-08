@@ -1,5 +1,6 @@
 # Patch version should match https://formulae.brew.sh/formula/ruby@2.7
-bundle := /opt/homebrew/Cellar/ruby@2.7/2.7.7/bin/bundle
+# Also update in Gemfile.
+bundle := /opt/homebrew/Cellar/ruby@2.7/2.7.8/bin/bundle
 
 default: bundle
 	$(bundle) exec jekyll serve --host 0.0.0.0 --livereload --drafts
