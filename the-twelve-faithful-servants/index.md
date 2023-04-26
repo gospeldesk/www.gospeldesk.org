@@ -14,9 +14,9 @@ are another Twelve who <u class="blue">call</u> on Jesus and are
 <u>answered</u>, providing a clear picture of devotion for all to follow.
 
 I am commissioning icons of these Twelve Faithful Servants from twelve
-different iconographers, along with a Deisis to crown the series. Below you can
-see the ones completed so far. May we, like them, hear, "Well done, good and
-faithful servant!"
+different iconographers<!--, along with a Deisis to crown the series-->. Below
+you can see the ones completed so far. May we, like them, hear, "Well done,
+good and faithful servant!"
 
 #### The Twelve
 
@@ -146,6 +146,7 @@ are possible with God.</div>
   </tr>
 </table>
 
+<!--
 #### The Deisis
 
 <div class="caption">Christ is the true Faithful Servant, acknowledged by the
@@ -174,3 +175,4 @@ acclamation.</div>
     </td>
   </tr>
 </table>
+-->
