@@ -1,8 +1,8 @@
 ---
 heading: The Twelve Faithful Servants
 subheading: Venerating those whom Christ praises
-image: /the-faithful-servants/st-mary-of-bethany/st-mary-of-bethany.thumb.jpg
-image_alt: an icon of St. Mary of Bethany
+image: /the-twelve-faithful-servants/the-sinful-woman/the-sinful-woman.thumb.jpg
+image_alt: an icon of the Sinful Woman Forgiven by Christ
 ---
 
 [The Gospels](/the-gospels/) tell the story of Jesus, the Son of God, with the
