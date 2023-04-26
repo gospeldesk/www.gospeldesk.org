@@ -2,7 +2,7 @@
 heading: The Sinful Woman
 subheading: Forgiven by Christ
 html_title_sep: ","
-image: /the-twelve-faithful-servants/the-sinful-woman/the-sinful-woman.thumb.jpg
+image: /the-faithful-servants/the-sinful-woman/the-sinful-woman.thumb.jpg
 image_alt: an icon of the Sinful Woman
 ---
 

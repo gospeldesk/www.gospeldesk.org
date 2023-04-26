@@ -1,4 +1,4 @@
 ---
 layout: default
-redirect: /the-twelve-faithful-servants/
+redirect: /the-faithful-servants/
 ---

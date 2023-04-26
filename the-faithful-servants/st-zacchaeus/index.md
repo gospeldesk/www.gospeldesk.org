@@ -2,7 +2,7 @@
 heading: St. Zacchaeus
 subheading: The Son of Abraham
 html_title_sep: ","
-image: /the-twelve-faithful-servants/st-zacchaeus/st-zacchaeus.thumb.jpg
+image: /the-faithful-servants/st-zacchaeus/st-zacchaeus.thumb.jpg
 image_alt: an icon of St. Zacchaeus
 ---
 
