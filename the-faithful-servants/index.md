@@ -116,7 +116,7 @@ are possible with God.</div>
 
 ##### The Familiar
  
-<div class="caption">Close friends of Jesus, they are Apostles and Equal of the Apostles.</div>
+<div class="caption">Close friends of Jesus, they are Apostles and Equal to the Apostles.</div>
 
 
 <table class="faithful-servants">
