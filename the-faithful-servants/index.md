@@ -18,7 +18,7 @@ different iconographers<!--, along with a Deisis to crown the series-->. Below
 you can see the ones completed so far. May we, like them, hear, "Well done,
 good and faithful servant!"
 
-#### The Twelve
+#### The Twelve Faithful Servants
 
 ##### The Defiant
 
