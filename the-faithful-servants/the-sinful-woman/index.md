@@ -7,7 +7,7 @@ image_alt: an icon of the Sinful Woman
 ---
 
 <a href="the-sinful-woman.jpg">
-  <img src="the-sinful-woman.small.jpg" alt="St. Mary of Bethany, the twice-praised">
+  <img src="the-sinful-woman.small.jpg" alt="The Sinful Woman, forgiven by Christ">
 </a>
 <div class="caption">From the hand of <a
 href="https://aidanharticons.com/">Aidan Hart</a>.</div>
