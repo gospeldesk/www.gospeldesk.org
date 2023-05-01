@@ -36,7 +36,7 @@ boldly approach Jesus.</div>
     </td>
     <td>
       <a href="./st-veronica/">
-        <img src="default.png" class="default">
+        <img src="./st-veronica/st-veronica.thumb.jpg">
         <span class="name">St. Veronica</span>
         <span class="description">The Woman with a Flow of Blood</span>
       </a>

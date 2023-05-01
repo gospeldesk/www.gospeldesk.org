@@ -2,7 +2,15 @@
 heading: St. Veronica
 subheading: The Woman with a Flow of Blood
 html_title_sep: ","
+image: /the-faithful-servants/st-veronica/st-veronica.thumb.jpg
+image_alt: an icon of St. Veronica
 ---
+
+<a href="st-veronica.jpg">
+  <img src="st-veronica.small.jpg" alt="St. Veronica, the woman with a flow of blood">
+</a>
+<div class="caption">From the hand of <a
+href="http://ikona-skiniya.com/">Ekaterina Daineko</a>.</div>
 
 
 #### In the Gospels
