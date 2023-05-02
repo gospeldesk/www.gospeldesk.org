@@ -21,14 +21,14 @@ Melchisidek of Pittsburgh and Western Pennsylvania. He has appointed Fr. Thomas
 Soroka (my priest) and Dr. Edith Humphrey (my godmother) to review the
 materials published here, "to maintain the principle of 'when two or three are
 gathered,'" so that thereby Gospel Desk might be "'of the Church' in a very
-concrete sense." I am grateful to all three.
+concrete sense." I am deeply grateful to all three.
 
 Thanks for visiting! Glory to God for all things! ✚
 
 
 #### Contact
 
-(I regularly delete social media posts. Find me [in real life](https://www.orthodoxpittsburgh.org/parishcalendar)! :^)
+If you can&apos;t find me [in real life](https://www.orthodoxpittsburgh.org/parishcalendar) ... ;^)
 
 <br>
 
@@ -91,3 +91,9 @@ Thanks for visiting! Glory to God for all things! ✚
 </div>
 
 <div class="clear"></div>
+
+#### Bonus Content
+
+<a href="/working-on-a-building/"><b>Working on a Building</b></a>  
+An American spiritual, extensively cataloged  
+166 artists, 256 recordings, 12 highlights
