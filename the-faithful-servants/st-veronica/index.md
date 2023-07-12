@@ -64,3 +64,35 @@ of me. When the woman saw that she was not hidden, she came trembling, and
 falling down before him declared to him in the presence of all the people the
 reason why she had touched him, and how she was healed immediately. He said to
 her, <u>Daughter, cheer up. Your faith has made you well. Go in peace.</u>
+
+
+#### In the Synaxarion
+
+##### July 12. The Memory of Saint VERONICA with the Issue of Blood, who was healed by Christ and who died in peace.<sup>†</sup>
+
+Saint Veronica came from Caesarea in Philippi (Paneas). She was healed by our
+Lord Jesus Christ of a flux of blood which had afficted her for long years
+(Matt. 9.20). In thanksgiving, she had a bronze statue struck, which
+represented Christ stretching out His hand to a woman kneeling before him. At
+His feet on the plinth, where this inscription was written: "To God, Saviour of
+the world," a plant grew that was able to heal all sicknesses. Veronica placed
+this statue in front of her house, so that all who passed by might venerate it
+and keep present in their hearts the memory of its Model, the
+God-Man.<sup>‡</sup> Having passed the rest of her life in holiness and in a
+manner pleasing to God, she fell asleep in peace, to rejoice before the Face of
+the Lord forever.
+
+<p class="note">† According to a Latin tradition, Saint Veronica was the woman
+who dried the Lord's bloodstained Face as He carried His Cross to Golgotha. The
+Lord's appearance remained imprinted on the linen, which thus became considered
+to be one of the images 'not made with hands'. But, according to an ancient
+apocryphal writing, <cite>The Acts of Pilate</cite>, Veronica (Berenice) was
+rather the woman with the issue of blood, who, possessing a portrait of Christ,
+presented it to Emperor Tiberius in Rome. On his death, the precious portrait
+was given to St Clement.</p>
+
+<p class="note">‡ Cf. Eusebius of Caesarea: <cite>Eccles. Hist.</cite> VIL, 18.
+It is perhaps a unique example of the veneration of a statue in the Orthodox
+tradition. This effigy of Christ was destroyed, on the orders of Julian the
+Apostate during his attempt to revive paganism (361); cf. Sozomen:
+<cite>Eccles.  Hist.</cite> V, 21.</p>

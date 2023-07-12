@@ -218,6 +218,14 @@ ul {
       text-indent: 0;
     }
   }
+  sup {
+    font: normal 9pt/14pt $Sen;
+  }
+  p.note {
+    text-indent: -0.8em;
+    font: normal 9pt/14pt $Sen;
+    margin: 12pt 0 12pt 18pt;
+  }
 
   blockquote {
     margin: 12pt 0 12pt 18pt;
