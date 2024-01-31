@@ -190,6 +190,15 @@ ul {
     }
   }
 
+  .meta {
+    font: normal 10pt/10pt $Sen;
+    margin: 6pt 0 18pt;
+    color: $gray;
+    a {
+      color: $gray;
+    }
+  }
+
   h3 {
     font: bold 18pt/21pt $Sen;
     margin-bottom: 3pt;
@@ -348,7 +357,7 @@ ul {
     }
   }
 
-  .update {
+  .post {
     .title {
       display: block;
       padding: 6pt 0 3pt;

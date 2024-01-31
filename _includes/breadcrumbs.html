@@ -1,3 +1,10 @@
+{% if page.layout == 'post' %}
+<ul class="breadcrumbs">
+    <li><a href="/">Home</a></li>
+    <li><a href="/blog/">Blog</a></li>
+    <li>{{ page.title }}</li>
+</ul>
+{% else %}
 <ul class="breadcrumbs">
   {% assign path_parts = page.url | split: '/' %}
   {% assign ancestor_dir = '/' %}
@@ -14,3 +21,4 @@
    {% endif %}
   {% endfor %}
 </ul>
+{% endif %}

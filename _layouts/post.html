@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<section class="content single">
+  {% include breadcrumbs.html %}
+  <header>
+    <h3>{{ page.title }}</h3>
+    <h4>{{ page.excerpt }}</h4>
+  </header>
+  <div class="meta">
+    By <a href="/about/">Chad Whitacre</a> ❧ Published on {{
+    page.date | date: '%d-%b-%Y' }}
+  </div>
+  {{ content }}
+</section>
+{% include follow-along.html %}

@@ -1,0 +1,11 @@
+{% for post in site.posts limit: include.n %}
+<div class="post">
+  <h5>
+      <a class="title" href="{{ post.url }}">{{ post.title }}</a>
+  </h5>
+  <div class="excerpt">
+      <span class="date">{{ post.date | date: "%d-%b-%Y" }} &middot;</span>
+      {{ post.excerpt }}
+  </div>
+</div>
+{% endfor %}

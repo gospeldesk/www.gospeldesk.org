@@ -10,3 +10,6 @@ defaults:
       layout: "page"
       html_title_sep: "-"
       show_follow_along: "yes"
+collections:
+  posts:
+    permalink: /blog/:year/:title/
