@@ -1,49 +1,72 @@
 <!doctype html>
 <html>
-    {% if page.redirect %}
-    <head>
-        <meta http-equiv="refresh" content="0; url={{ page.redirect }}">
-    </head>
-    {% else %}
-    <head>
-        <title>{% include html-title.html %}</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css"
-              href="/assets/styles/gospeldesk.css?{{site.time | date: '%s'}}">
+  <head>
+    <title>{% include html-title.html %}</title>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/assets/styles.css?{{site.time | date: '%s'}}"
+    />
 
-        <!-- h/t https://favicon.io/ -->
-        <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/logo.180.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/logo.32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/logo.16.png">
-        <link rel="manifest" href="/site.webmanifest">
+    <!-- h/t https://favicon.io/ -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/images/logo.180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/images/logo.32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/images/logo.16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
 
-        <meta name="viewport" content="width=device-width">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-        {% include og-meta.html %}
-    </head>
-    <body class="{% if page.url == '/' %}homepage{% else %}inside-page{% endif %}">
-        <header class="top">
-            <h1><a href="/"><img src="/wordmark.svg" alt="Gospel Desk"></a></h1>
-        </header>
-        <section class="hero">
-            {{ page.hero }}
-        </section>
-        {{ content }}
-        <footer>
-            <ul>
-                <li>
-                    &copy;
-                    2010—<script type="text/javascript">
-                      document.write(new Date().getFullYear());
-                    </script>
-                    <a href="/">Gospel Desk</a>
-                </li>
-                <li><a href="/about/">About</a></li>
-            </ul>
-        </footer>
-				<script async defer data-domain="gospeldesk.org"
-          src="https://plausible.io/js/plausible.js"></script>
-    </body>
-    {% endif %}
+    <script
+      async
+      defer
+      data-domain="gospeldesk.org"
+      src="https://plausible.io/js/plausible.js"
+    ></script>
+
+    {% include og-meta.html %}
+  </head>
+  <body
+    class="{% if page.url == '/' %}homepage{% else %}inside-page{% endif %}"
+  >
+    <article>
+      <a class="up" href="../" title="navigate up one level">
+        <img src="/about/gospel-desk-icon.svg" alt="navigate up one level">
+      </a>
+      {{ content }}
+    </article>
+    <footer>
+      &copy;
+      2010—<script type="text/javascript">
+        document.write(new Date().getFullYear());
+      </script>
+      <a href="/">Gospel Desk</a> &middot;
+      <a href="/about/">About</a> &middot;
+      <a href="mailto:chad@zetaweb.com">Email</a>
+      <form method="post" action="https://buttondown.email/api/emails/embed-subscribe/gospeldesk" target="_blank">
+        <input type="email" name="email" value="" placeholder="email@example.com">
+        <button class="button" type="submit">Subscribe</button></td>
+        <div class="powered-by">
+          Email updates powered by
+          <a href="https://buttondown.email">Buttondown</a>.
+        </div>
+      </form>
+    </footer>
+    <div id="too-small">🥺</div>
+  </body>
 </html>

@@ -1,9 +1,16 @@
 ---
 layout: default
 ---
-<section class="content single">
-    {% include breadcrumbs.html %}
-    {% include page-header.html %}
-    {{ content }}
+<header>
+  <h2>{{ page.title }}</h2>
+  {% if page.subtitle %}<h3 class="subtitle">
+    {% assign x = page.subtitle | size %}
+    {% assign workaround_liquid = page.subtitle | slice: 0 | capitalize %}
+    {% assign gross = page.subtitle | slice: 1, x %}
+    {% assign subtitle = workaround_liquid | append: gross %}
+    {{ subtitle }}
+  </h3>{% endif %}
+</header>
+<section>
+{{ content }}
 </section>
-{% include follow-along.html %}

@@ -1,13 +1,15 @@
 ---
-heading: Working on a Building
+title: Working on a Building
 image: /working-on-a-building/og.jpg
 image_alt: a shack
 ---
 
-<img src="the-shack.jpg">
-<div class="caption">A building that needs to be worked on.</div>
+<div class="img">
+  <img src="the-shack.jpg">
+  <div class="caption">A building that needs to be worked on.</div>
+</div>
 
-#### Introduction
+### Introduction
 
 "Working on a Building" is "a song in both the African American spiritual and
 southern gospel traditions. The song has become a standard of the genres"
@@ -25,12 +27,15 @@ yellow">start</u>.  Don't stop there, though. There are many individual gems
 and overarching patterns here to discover. Enjoy!
 
 
-#### Highlights YouTube Playlist
+### Highlights YouTube Playlist
 
-[![Highlights YouTube Playlist](highlights-youtube-playlist.png)](https://www.youtube.com/watch?v=eSMR7EiYbQM&list=PLANbMsVlhUqmhsz1pNcvzJq2FTXgw7Mct)
+<div class="img">
+  <a href="https://www.youtube.com/watch?v=eSMR7EiYbQM&list=PLANbMsVlhUqmhsz1pNcvzJq2FTXgw7Mct">
+    <img src="highlights-youtube-playlist.png" alt="Highlights YouTube Playlist">
+  </a>
+</div>
 
-
-#### African American Spiritual
+### African American Spiritual
 
 > I'm working on the building.  
 > It's a true foundation.  
@@ -86,13 +91,13 @@ and overarching patterns here to discover. Enjoy!
 1. [Charlie W.](https://www.youtube.com/watch?v=zBm9c_iBtcs) (2020)
 
 
-#### Both!
+### Both!
 
 1. [Mylon LeFevre](https://www.youtube.com/watch?v=xw1U1r1VBPM) (1972)
 1. [Shani Judd Diehl & Stephanie Dawn](https://www.youtube.com/watch?v=LFbEBnYyWDk) (2015?)
 
 
-#### Southern Gospel
+### Southern Gospel
 
 > I'm working on a building,  
 > I'm working on a building.  
@@ -232,38 +237,38 @@ and overarching patterns here to discover. Enjoy!
 1. [Leslie Jordan, Ashley McBryde, and Charlie Worsham](https://www.youtube.com/watch?v=AStvYgSaDKc) (2021)
 
 
-#### Appendix A: Lessons
+### Appendix A: Lessons
 
 1. [Troy Brenningmeyer](https://www.youtube.com/watch?v=VbLYfdyQUFo) (2009; dobro)
 1. [Ryan Kimm](https://www.youtube.com/watch?v=v42xesfyN8s) (2017; guitar)
 1. [Bluegrass Backing Tracks](https://www.youtube.com/watch?v=0N4VE3_46mo) (2017)
 
 
-#### Appendix B: Similarly Named Songs 
+### Appendix B: Similarly Named Songs 
 
-##### Working on a Building of Love
+#### Working on a Building of Love
 
 1. [Chairmen of the Board](https://www.youtube.com/watch?v=bbOOQgulmNw) (1972; [alt](https://www.youtube.com/watch?v=urp6M6sXrII); [alt](https://www.youtube.com/watch?v=x9-JBnzqNKc))
 1. [Ryan Shaw](https://www.youtube.com/watch?v=WoyROURM-yc) (2000)
 
-##### Working on the Building
+#### Working on the Building
 
 1. [Quazar](https://www.youtube.com/watch?v=XBh8hdQIui8) (1978)
 
-##### Working on a Building of Love
+#### Working on a Building of Love
 
 1. [The Fantastic Four](https://www.youtube.com/watch?v=lr8gz983L1E) (1989; [alt](https://www.youtube.com/watch?v=_n4GMvj8KSM))
 
-##### Working on the Building
+#### Working on the Building
 
 1. [Wendell B.](https://www.youtube.com/watch?v=p7MmfZBQHak) (2010)
 
-##### Working On My Building
+#### Working On My Building
 
 1. [Maurice McZeke & MDK](https://www.youtube.com/watch?v=REDT-leTpoU) (2013)
 
 
-#### Appendix C: Methodology
+### Appendix C: Methodology
 
 I searched for "working on a building" on YouTube between March 20 and April
 27, 2020, and also systematically looked through the suggestions in the sidebar
@@ -298,7 +303,7 @@ included here—to say nothing of recordings that are not on YouTube to begin
 with, or that have been added after I compiled this list. This catalog is,
 however, sufficient for its intended purpose. Enjoy!
 
-#### Updates
+### Updates
 
 **2022-01-31**&mdash;I added Leslie Jordan's version.  
 **2022-04-20**&mdash;I added two more versions from The Danberrys.

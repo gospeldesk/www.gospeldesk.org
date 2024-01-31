@@ -1,4 +1,4 @@
 ---
 layout: redirect
-to: /app/privacy/
+to: /the-gospels/
 ---

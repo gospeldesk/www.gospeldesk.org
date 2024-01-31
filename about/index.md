@@ -1,9 +1,9 @@
 ---
-heading: About
+title: About Gospel Desk
 excerpt: Workinʼ on a building.
 ---
 
-<a href="chadwhitacre.jpg"><img src="chadwhitacre.small.jpg" style="float: right; margin: 0 0 20px 20px; width: 50%;"></a>
+<a href="chadwhitacre.jpg"><img src="chadwhitacre.small.jpg" style="float: right; margin: 0 0 20px 20px; width: 33%;"></a>
 
 <p style="text-indent: 0;">Greetings, friend! My name is Chad Whitacre. I am a
 member of <a href="https://orthodoxpittsburgh.org">St.  Nicholas Orthodox
@@ -26,13 +26,15 @@ concrete sense." I am deeply grateful to all three.
 Thanks for visiting! Glory to God for all things! ✚
 
 
-#### Contact
-
-If you can&apos;t find me [in real life](https://www.orthodoxpittsburgh.org/parishcalendar) ... ;^)
-
-<br>
+### Contact
 
 <div>
+
+  Ideally, find me <a
+    href="https://www.orthodoxpittsburgh.org/parishcalendar">in person</a>. 😉 Barring that ...
+
+  <br><br>
+
   <img src="/assets/images/social-icon-instagram.svg" class="social-icon">
   <a href="https://www.instagram.com/chad.whitacre/">
     @chad.whitacre
@@ -47,23 +49,26 @@ If you can&apos;t find me [in real life](https://www.orthodoxpittsburgh.org/pari
   <a href="mailto:chad@zetaweb.com">chad@zetaweb.com</a>
 </div>
 
-#### Logos and Colors
+### Logos and Colors
 
 <style>
-  .content .assets a {
+  article .assets a {
     display: block;
     float: left;
     margin: 12pt 5% 5% 0;
     width: 30%;
     border: 1px solid #21201A;
+    background: url("checked.webp");
+    background-size: cover;
   }
-  .content .assets a:last-of-type {
+  article .assets a:last-of-type {
     margin-right: 0;
   }
-  .content .assets a img {
+  article .assets a img {
     margin: 0;
+    width: 100%;
   }
-  .content .assets .color {
+  article .assets .color {
     font: normal 12pt/12pt monospace;
     padding: 12pt 0;
     text-align: center;
@@ -79,21 +84,27 @@ If you can&apos;t find me [in real life](https://www.orthodoxpittsburgh.org/pari
 <div class="clear"></div>
 
 <style>
-  .content .assets .white { background: #DADBD2; }
-  .content .assets .black { background: #21201A; color: #DADBD2; }
-  .content .assets .red   { background: #B2342D; color: #DADBD2; }
+  article .assets .white { background: #FAF6F2; border: 1px solid #21201A; }
+  article .assets .black { background: #21201A; color: #DADBD2; }
+  article .assets .red   { background: #B2342D; color: #DADBD2; }
 </style>
 
 <div class="assets">
-  <div class="color white">#DADBD2</div>
+  <div class="color white">#FAF6F2</div>
   <div class="color black">#21201A</div>
   <div class="color red">#B2342D</div>
 </div>
 
-<div class="clear"></div>
+<br>
 
-#### Bonus Content
+### Bonus Content
 
-<a href="/working-on-a-building/"><b>Working on a Building</b></a>  
-An American spiritual, extensively cataloged  
-166 artists, 256 recordings, 12 highlights
+<div class="post-listing">
+  <a class="post" href="/working-on-a-building/">
+    <h3>Working on a Building</h3>
+    <div class="excerpt">
+      An American spiritual, extensively cataloged.
+      166 artists, 256 recordings, 12 highlights
+    </div>
+  </a>
+</div>
