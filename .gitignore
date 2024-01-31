@@ -1,5 +1,7 @@
-.jekyll-cache
-_site
-.sass-cache
 .DS_Store
 .bundle/ruby
+.jekyll-cache
+.sass-cache
+TODO
+_drafts/*
+_site

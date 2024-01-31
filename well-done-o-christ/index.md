@@ -1,6 +1,6 @@
 ---
-heading: Well done, O Christ!
-subheading: Praying with St. John of Damascus
+title: Well done, O Christ!
+subtitle: Praying with St. John of Damascus
 image: /well-done-o-christ/og.jpg
 image_alt: the beginning of a paragraph in a book, "Well done, O Christ!"
 ---

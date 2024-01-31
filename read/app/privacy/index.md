@@ -1,5 +1,4 @@
 ---
-heading: Privacy Policy
+layout: redirect
+to: /app/privacy/
 ---
-
-The Gospel Desk App does not collect any data.

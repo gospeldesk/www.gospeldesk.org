@@ -1,16 +1,16 @@
-{% assign html_title = page.heading %}
+{% assign html_title = page.title %}
 
-{% if page.subheading %}
-{% assign subheading = page.subheading %}
+{% if page.subtitle %}
+{% assign subtitle = page.subtitle %}
 {% assign html_title_sep = page.html_title_sep | strip %}
 {% if html_title_sep == ',' %}
-{% assign html_title = html_title | append: ", " | append: subheading %}
+{% assign html_title = html_title | append: ", " | append: subtitle %}
 {% endif %}
 {% if html_title_sep == '-' %}
-{% assign html_title = html_title | append: " - " | append: subheading %}
+{% assign html_title = html_title | append: " - " | append: subtitle %}
 {% endif %}
 {% if html_title_sep == '(' %}
-{% assign html_title = html_title | append: " (" | append: subheading | append: ") " %}
+{% assign html_title = html_title | append: " (" | append: subtitle | append: ") " %}
 {% endif %}
 {% endif %}
 

@@ -1,57 +1,31 @@
 ---
 layout: default
-heading: Gospel Desk
-subheading: From the life of Christ, to the life in Christ.
-hero: <h2>Read. Study. Grow.<h2>
-  <p>
-    From the life of Christ, to the life in Christ.
-  </p>
-  <p><a href="/about/">About</a></p>
+title: Gospel Desk
 ---
-<div class="projects">
-    <a class="content card" href="/read/">
-        <header>
-            <h3>Read the Gospels</h3>
-            <h4>Digital and print editions</h4>
-        </header>
-
-        <div class="description">
-            <p>The Gospels are pure spiritual milk, words of eternal life
-            worth returning to time and again.</p>
-            <span class="read-more">Explore editions &hellip;</span>
-            <div class="clear"></div>
-        </div>
-        <img src="/assets/images/thumb.read.png" />
-        <div class="clear"></div>
-    </a>
-    <a class="content card" href="/the-faithful-servants/">
-        <header>
-            <h3>The Faithful Servants</h3>
-            <h4>Venerating those whom Christ praises</h4>
-        </header>
-
-        <div class="description">
-            <p>There are twelve saints in the Gospels whom Christ praises for
-            their faith, providing a picture of devotion for all of us.</p>
-            <span class="read-more">Explore &hellip;</span>
-            <div class="clear"></div>
-        </div>
-        <img src="/assets/images/thumb.the-faithful-servants.jpg" />
-        <div class="clear"></div>
-    </a>
-    <a class="content card" href="/well-done-o-christ/">
-        <header>
-            <h3>Well done, O Christ!</h3>
-            <h4>Praying with St. John of Damascus</h4>
-        </header>
-
-        <div class="description">
-            <p>May this prayer be more widely prayed. It is one of the most important of the early Fathers.</p>
-            <span class="read-more">Learn more &hellip;</span>
-            <div class="clear"></div>
-        </div>
-        <img src="/assets/images/thumb.st-john-of-damascus.jpg" />
-        <div class="clear"></div>
-    </a>
+<h1>
+  <a href="/"><img src="/wordmark.svg" alt="Gospel Desk" /></a>
+</h1>
+<ul>
+  <li><a href="/app/"><img src="/assets/images/homepage/app.webp"><span>App</span></a></li>
+  <li><a href="/the-gospels/"><img src="/assets/images/homepage/book.webp"><span>Book</span></a></li>
+  <li><a href="/the-twelve-faithful-servants/"><img src="/assets/images/homepage/icons.webp"><span>Icons</span></a></li>
+</ul>
+<div class="clear"></div>
+<div class="post-listing">
+  {% for post in site.posts limit: include.n %}
+  <a class="post" href="{{ post.url }}">
+    <h3>{{ post.title }}</h3>
+    <div class="excerpt">
+      <span class="date">{{ post.date | date: "%d-%b-%Y" }} &middot;</span>
+      {{ post.excerpt }}
+    </div>
+  </a>
+  {% endfor %}
 </div>
-{% include follow-along.html %}
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" id="clipping-path-source">
+  <defs>
+    <clipPath id="clip" clipPathUnits="objectBoundingBox">
+      <polygon points="0 0.059, 0.135 0, 1 0, 1 0.941, 0.865 1, 0 1, 0 0.059" />
+    </clipPath>
+  </defs>
+</svg>

@@ -1,16 +1,16 @@
 <meta property="og:site_name"   content="Gospel Desk">
 
 <meta property="og:url"         content="{{ site.url }}{{ page.url }}">
-<meta property="og:title"       content="{{ page.heading }}">
-<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ page.subheading }}{% endif %}">
+<meta property="og:title"       content="{{ page.title }}">
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ page.subtitle }}{% endif %}">
 
 {% assign section = page.url | remove_first: '/' | split: '/' | first %}
 
 {% if page.image %}
 <meta property="og:image"       content="{{ site.url }}{{ page.image }}">
 <meta property="og:image:alt"   content="{{ page.image_alt }}">
-{% elsif section == 'the-faithful-servants' %}
-<meta property="og:image"       content="{{ site.url }}/the-faithful-servants/default.png">
+{% elsif section == 'the-twelve-faithful-servants' %}
+<meta property="og:image"       content="{{ site.url }}/the-twelve-faithful-servants/default.png">
 <meta property="og:image:alt"   content="new icon forthcoming, God willing">
 {% else %}
 <meta property="og:image"       content="{{ site.url }}/assets/images/logo.256.png">

@@ -1,7 +1,7 @@
-url: https://www.gospeldesk.org
+url: "https://www.gospeldesk.org"
 sass:
   sass_dir: .
-exclude: ["CNAME", "Makefile", "README.md"]
+exclude: ["CNAME", "Makefile", "README.md", "Gemfile", "Gemfile.lock"]
 defaults:
   -
     scope:
@@ -10,6 +10,12 @@ defaults:
       layout: "page"
       html_title_sep: "-"
       show_follow_along: "yes"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 collections:
   posts:
-    permalink: /blog/:year/:title/
+    permalink: "/:year/:title/"
