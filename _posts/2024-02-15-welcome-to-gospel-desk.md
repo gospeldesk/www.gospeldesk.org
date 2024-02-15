@@ -86,12 +86,12 @@ Sunday</a> this weekend.</div>
 ---
 
 Today, by the grace of God, six icons are completed and in rotation at my
-parish. Next week is two years since chrismation. Having read and studied the
-Bible for decades as an Anglican, it has been wonderful these past few years to
-begin to inhabit the Gospel in the Church, to explore the foothills of the
-“butter mountain,” to acquire in small and growing measure the mind of the
-Fathers. God willing, with the blessing of my bishop and the guidance of my
-priest and my godmother, I am ready to reach a wider audience.
+parish. Next week is two years since chrismation. Having studied the Gospels
+for decades as an Anglican, it has been wonderful these past few years to begin
+to inhabit the Gospel in the Church, to explore the foothills of the “butter
+mountain,” to acquire in small and growing measure the mind of the Fathers.
+God willing, with the blessing of my bishop and the guidance of my priest and
+my godmother, I am ready to reach a wider audience.
 
 ### Themes
 
