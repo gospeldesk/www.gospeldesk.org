@@ -90,9 +90,9 @@ parish. Next week is two years since chrismation. Having studied the Gospels
 for decades as an Anglican, it has been wonderful these past few years to begin
 to _inhabit_ the Gospel in the Church, to explore the foothills of the “butter
 mountain,” to acquire in small and growing measure the mind of the Fathers
-through study and struggle in the desert of my heart. God willing, with the
-blessing of my bishop and the guidance of my priest and my godmother, I am
-ready to engage a wider audience.
+through study, sacraments, and struggle in the desert of my heart. God willing,
+with the blessing of my bishop and the guidance of my priest and my godmother,
+I am ready to engage a wider audience.
 
 ### Themes
 
