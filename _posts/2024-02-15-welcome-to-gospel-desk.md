@@ -88,10 +88,11 @@ Sunday</a> this weekend.</div>
 Today, by the grace of God, six icons are completed and in rotation at my
 parish. Next week is two years since chrismation. Having studied the Gospels
 for decades as an Anglican, it has been wonderful these past few years to begin
-to inhabit the Gospel in the Church, to explore the foothills of the “butter
-mountain,” to acquire in small and growing measure the mind of the Fathers.
-God willing, with the blessing of my bishop and the guidance of my priest and
-my godmother, I am ready to reach a wider audience.
+to _inhabit_ the Gospel in the Church, to explore the foothills of the “butter
+mountain,” to acquire in small and growing measure the mind of the Fathers
+through study and struggle in the desert of my heart. God willing, with the
+blessing of my bishop and the guidance of my priest and my godmother, I am
+ready to engage a wider audience.
 
 ### Themes
 
@@ -115,7 +116,7 @@ and I want to deposit it with you so that I can at least return it with
 interest. “[I]t is the conscience of the offerer that sanctifies the sacrifice
 when it is pure, and thus moves God to accept the offering as from a friend”
 (St. Irenaeus, _Against Heresies_, 4.16.4). May God in His mercy grant me a
-pure conscience that I might make a true offering.
+pure conscience that I might make of my life a worthy offering to Him.
 
 I am motivated by the Great Commission. I want to see the Church thrive and
 grow. I am encouraged by my bishop, my priest, my godmother, and my friends. I
