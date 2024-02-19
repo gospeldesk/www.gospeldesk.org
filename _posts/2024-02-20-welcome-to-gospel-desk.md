@@ -140,7 +140,7 @@ my hand, and I want to make the most of it. “[I]t is the conscience of the
 offerer that sanctifies the sacrifice when it is pure, and thus moves God to
 accept the offering as from a friend” (St. Irenaeus, _Against Heresies_,
 4.16.4). May God in His mercy grant me a pure conscience that I might make
-ready an acceptable offering.
+ready an acceptable offering to Him.
 
 I am motivated by the Great Commission. I am encouraged by my bishop, my
 priest, my godparents, and my friends. I trust that God will prosper what is
