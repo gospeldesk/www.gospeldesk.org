@@ -75,7 +75,7 @@ outright antagonistic. Not a general American Christian audience, which might
 perhaps have found interest in a book of devotional meditations, but whose
 interest would quickly wane. I wanted to bring this gift—if it be a genuine
 gift—to the Church, and though I was Anglican, I knew it was the Orthodox
-Church whose acceptance mattered.
+Church whose acceptance mattered. I decided to commission icons.
 
 Eventually, I consulted with Andrew Gould of the [Orthodox Arts
 Journal](https://orthodoxartsjournal.org/), thinking to present the Twelve
