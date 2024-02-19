@@ -13,8 +13,10 @@ and my hopes for this blog.
 
 ### A Brief Biography
 
-<div><a href="/about/chadwhitacre.jpg"><img src="/about/chadwhitacre.small.jpg"
-style="float: left; margin: 0 16pt 16pt 0; width: 33%;"></a></div>
+<div><a href="/about/chadwhitacre.jpg" style="display: block; float: left;
+margin: 0 16pt 16pt 0 ! important; width: 33%;"><img
+src="/about/chadwhitacre.small.jpg" style="margin: 0;"
+></a></div>
 
 My name is Chad Whitacre. I am an Orthodox Christian, a member of [St.
 Nicholas, McKees Rocks](https://orthodoxpittsburgh.org/), a vibrant parish of
@@ -39,8 +41,8 @@ St. Chad, pray for us!
 
 For my part, I started out in my dad’s footsteps, studying Ancient Languages
 (Greek and Hebrew) and Theology at Wheaton College. It's hard to support a
-family reading Greek, however, and I also inherited a technical bent from my
-mother, a math and science teacher, so I embarked on [a self-taught career in
+family reading Greek, and I also inherited a technical bent from my mother, a
+math and science teacher, so I embarked on [a self-taught career in
 software](https://chadwhitacre.com/), particularly Open Source. I do love to
 read and write theology, though, and I do love the Church. Gospel Desk is an
 outlet for that.
