@@ -20,11 +20,12 @@ for line in open(f'_posts/{filename}'):
     # absolutize links
     line = line.replace('"./', f'"{url}')
     line = line.replace('"/', '"https://www.gospeldesk.org/')
+    line = line.replace('[feedback](mailto:chad@zetaweb.com)', 'feedback')
 
     out += line
 
 print(f'''
-_This is a post from [Gospel Desk](https://www.gospeldesk.org/). You can also [read it on the web]({url})._
+_Here is [the latest post]({url}) from [Gospel Desk](https://www.gospeldesk.org/). Thanks for reading! —Chad_
 
 ---
 ''')
