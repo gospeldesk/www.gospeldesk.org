@@ -97,7 +97,7 @@ sacraments, and struggle in the desert of my heart.
 
 By the grace of God, six icons are now complete and in rotation at my parish.
 The longing I began feeling six years ago to bring the Twelve Faithful Servants
-to the awareness of the Church is coming to fruition. My priest is
+to the awareness of the Church is finding its fulfillment. My priest is
 [acknowledging them from the
 ambon](https://www.facebook.com/watch/live/?ref=watch_permalink&v=1021074838986786&t=7401).
 My fellow parishioners are [venerating their
