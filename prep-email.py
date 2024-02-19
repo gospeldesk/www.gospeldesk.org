@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-import sys
-import re
+import os
 
-filename = sys.argv[1]
+filename = '_posts/' + sorted(os.listdir('_posts'))[-1]
 year, month, day, slug = filename.split('-', 3)
 slug, ext = slug.split('.')
 out = ''
@@ -18,9 +17,9 @@ for line in open(filename):
         continue
 
     # absolutize links
-    line = line.replace('"./', '"https://www.gospeldesk.org/{year}/{slug}/')
+    line = line.replace('"./', f'"https://www.gospeldesk.org/{year}/{slug}/')
     line = line.replace('"/', '"https://www.gospeldesk.org/')
 
     out += line
 
-sys.stdout.write(out)
+print(out, end='')
