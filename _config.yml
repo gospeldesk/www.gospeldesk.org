@@ -1,7 +1,7 @@
 url: "https://www.gospeldesk.org"
 sass:
   sass_dir: .
-exclude: ["CNAME", "Makefile", "README.md", "Gemfile", "Gemfile.lock"]
+exclude: ["CNAME", "Makefile", "README.md", "Gemfile", "Gemfile.lock", "prep-email.py"]
 defaults:
   -
     scope:
