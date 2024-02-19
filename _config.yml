@@ -9,7 +9,6 @@ defaults:
     values:
       layout: "page"
       html_title_sep: "-"
-      show_follow_along: "yes"
   -
     scope:
       path: ""
