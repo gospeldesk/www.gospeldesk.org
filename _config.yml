@@ -9,12 +9,14 @@ defaults:
     values:
       layout: "page"
       html_title_sep: "-"
+      clip_bottom: false
   -
     scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
+      clip_bottom: false
 collections:
   posts:
     permalink: "/:year/:title/"

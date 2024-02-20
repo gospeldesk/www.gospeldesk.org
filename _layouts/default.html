@@ -42,7 +42,10 @@
     {% include og-meta.html %}
   </head>
   <body
-    class="{% if page.url == '/' %}homepage{% else %}inside-page{% endif %}"
+    class="
+      {% if page.url == '/' %}homepage{% else %}inside-page{% endif %}
+      {% if page.clip_bottom %}clip-bottom{% endif %}
+    "
   >
     <article>
       <a class="up" href="../" title="navigate up one level">
