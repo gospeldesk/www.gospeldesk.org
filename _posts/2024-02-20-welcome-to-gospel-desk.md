@@ -1,6 +1,6 @@
 ---
 title: Welcome to Gospel Desk
-excerpt: Gospel Desk is an Orthodox Christian blog by Chad Whitacre.
+excerpt: Gospel Desk is an Orthodox Christian blog by Chad Whitacre, for participation in the life of the Church.
 image: /2024/welcome-to-gospel-desk/social.webp
 ---
 
@@ -8,8 +8,9 @@ Greetings! Welcome to Gospel Desk. My purpose with this blog is to participate
 in the life of the Orthodox Church, sharing observations from the Gospels, the
 wider Scriptures, and the Fathers. I hope to further the Great Commission.
 Perhaps I will engage with contemporary issues, though that is not my primary
-interest. This introductory post offers a sketch of my background and my hopes
-for this blog.
+interest. This introductory post offers a sketch of my background, and an
+explanation for why I am finally starting this blog after sitting on it for
+years.
 
 ### A Brief Biography
 
@@ -76,14 +77,14 @@ But with whom to share? Not the academy, largely aloof from faith when not
 outright antagonistic. Not a general American Christian audience, which might
 perhaps have found interest in a book of devotional meditations, but whose
 interest would quickly wane. I wanted to bring this gift—if it be a genuine
-gift—to the Church. I decided to commission icons.
+gift—to the Church, and though I was Anglican, I knew it was the Orthodox
+Church whose verdict mattered.
 
-Though I was Anglican, I knew it was the Orthodox Church whose acceptance
-mattered. I consulted with Andrew Gould of the [Orthodox Arts
-Journal](https://orthodoxartsjournal.org/). At one point, he off-handedly
-remarked that what I had undertaken was “just an Anglican art project,” that
-these were “not truly liturgical objects.” It’s not wholly false to say that I
-converted to Orthodoxy to prove Andrew wrong. Thanks be to God!
+I decided to commission icons. Consulting with Andrew Gould of the [Orthodox
+Arts Journal](https://orthodoxartsjournal.org/), he off-handedly remarked that
+what I had undertaken was “just an Anglican art project,” that these were “not
+truly liturgical objects.” It’s not wholly false to say that I converted to
+Orthodoxy to prove Andrew wrong. Thanks be to God!
 
 ### Gospel Desk Today and Tomorrow
 
@@ -136,13 +137,14 @@ because you or God need my amateur scholarship, but because I find a talent in
 my hand, and I want to make the most of it. “[I]t is the conscience of the
 offerer that sanctifies the sacrifice when it is pure, and thus moves God to
 accept the offering as from a friend” (St. Irenaeus, _Against Heresies_,
-4.16.4). May God in His mercy grant me a pure conscience that I might make
-ready an acceptable offering to Him.
+4.16.4). May God in His mercy grant me, an unworthy sinner, a pure conscience
+to bring Him an acceptable offering.
 
-I am motivated by the Great Commission. I am encouraged by my bishop, my
-priest, my godparents, and my friends. I trust that God will prosper what is
-worthwhile in my efforts, and what is unworthy will be corrected or forgotten.
-I welcome your [feedback](mailto:chad@zetaweb.com), and I thank you for
-reading.
+I am roused by the Parable of the Talents and the Great Commission. I am
+encouraged by my bishop, priest, godparents, and friends. I trust that God will
+prosper what is worthwhile in my efforts, and what is unworthy will be
+corrected or forgotten. I covet your prayers and welcome your
+[feedback](mailto:chad@zetaweb.com), and I thank you for reading. May you find
+something helpful here.
 
 Glory to Jesus Christ! ☦️ 💃
