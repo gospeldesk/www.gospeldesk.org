@@ -235,6 +235,13 @@ header {
   }
 }
 
+.clip-bottom {
+  article {
+    padding-bottom: 0;
+  }
+}
+
+
 article {
   position: relative;
   max-width: 7in;
