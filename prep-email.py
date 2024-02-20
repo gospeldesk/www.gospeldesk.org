@@ -20,6 +20,7 @@ for line in open(f'_posts/{filename}'):
     # absolutize links
     line = line.replace('"./', f'"{url}')
     line = line.replace('"/', '"https://www.gospeldesk.org/')
+    line = line.replace('(/', '(https://www.gospeldesk.org/')
     line = line.replace('[feedback](mailto:chad@zetaweb.com)', 'feedback')
 
     out += line

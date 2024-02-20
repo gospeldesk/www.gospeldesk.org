@@ -105,7 +105,7 @@ They are beginning to be seen for us as great witnesses to faith in Christ.
 
 ---
 
-<a href="./tetrapod.webp"><img src="./tetrapod.webp"></a>
+<a href="./tetrapod.webp"><img src="./tetrapod.640.webp"></a>
 
 <div class="caption"><a href="/the-twelve-faithful-servants/st-zacchaeus/">St.
 Zacchaeus's icon</a> is ready to go for this past <a
