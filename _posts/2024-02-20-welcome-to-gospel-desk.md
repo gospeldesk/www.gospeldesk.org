@@ -5,11 +5,11 @@ image: /2024/welcome-to-gospel-desk/social.webp
 ---
 
 Greetings! Welcome to Gospel Desk. My purpose with this blog is to participate
-in the life of the Orthodox Church. I look forward to sharing observations from
-the Gospels, the wider Scriptures, and the Fathers. I hope to further the Great
-Commission. Perhaps I will engage with contemporary issues, though that is not
-my primary interest. This introductory post offers a sketch of my background
-and my hopes for this blog.
+in the life of the Orthodox Church, sharing observations from the Gospels, the
+wider Scriptures, and the Fathers. I hope to further the Great Commission.
+Perhaps I will engage with contemporary issues, though that is not my primary
+interest. This introductory post offers a sketch of my background and my hopes
+for this blog.
 
 ### A Brief Biography
 
@@ -76,16 +76,14 @@ But with whom to share? Not the academy, largely aloof from faith when not
 outright antagonistic. Not a general American Christian audience, which might
 perhaps have found interest in a book of devotional meditations, but whose
 interest would quickly wane. I wanted to bring this gift—if it be a genuine
-gift—to the Church, and though I was Anglican, I knew it was the Orthodox
-Church whose acceptance mattered. I decided to commission icons.
+gift—to the Church. I decided to commission icons.
 
-Eventually, I consulted with Andrew Gould of the [Orthodox Arts
-Journal](https://orthodoxartsjournal.org/), thinking to present the Twelve
-Faithful Servants to the Orthodox Church from my position as an Anglican. At
-one point, he off-handedly remarked that what I had undertaken was “just an
-Anglican art project,” that these were “not truly liturgical objects.” It’s not
-wholly false to say that I converted to Orthodoxy to prove Andrew wrong. Thanks
-be to God!
+Though I was Anglican, I knew it was the Orthodox Church whose acceptance
+mattered. I consulted with Andrew Gould of the [Orthodox Arts
+Journal](https://orthodoxartsjournal.org/). At one point, he off-handedly
+remarked that what I had undertaken was “just an Anglican art project,” that
+these were “not truly liturgical objects.” It’s not wholly false to say that I
+converted to Orthodoxy to prove Andrew wrong. Thanks be to God!
 
 ### Gospel Desk Today and Tomorrow
 
@@ -128,9 +126,8 @@ has put me in touch with [Brian Glass](https://parochianus.blog/) of
 contribute. I am working through a patristics reading plan, which I aim to say
 more about in [a future
 post](https://github.com/gospeldesk/www.gospeldesk.org/issues/29). I already
-have one additional discovery to share, a prayer of St. John of Damascus. More
-on that, perhaps, in [another future
-post](https://github.com/gospeldesk/www.gospeldesk.org/issues/31).
+have one additional discovery to share, [a prayer of St. John of
+Damascus](https://github.com/gospeldesk/www.gospeldesk.org/issues/31).
 
 I hope what I write will build up the Church. As I indicated, I am not here for
 an academic exercise. I want to study with due rigor, yet I want my reading and
