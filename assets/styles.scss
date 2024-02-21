@@ -55,23 +55,24 @@
   padding: 0;
 }
 
-body {
-  background: var(--red);
-  animation: bg 300s linear forwards;
-  color: var(--black);
-  text-align: left;
-  font: normal 14pt/21pt Sen, sans-serif;
-  min-width: 320px;
-}
-@keyframes bg {
+@keyframes to-gold{
   to {
     background-color: var(--gold);
   }
 }
-@keyframes button {
+@keyframes to-red {
   to {
     background-color: var(--red);
   }
+}
+
+body {
+  background: var(--red);
+  animation: to-gold 300s linear forwards;
+  color: var(--black);
+  text-align: left;
+  font: normal 14pt/21pt Sen, sans-serif;
+  min-width: 320px;
 }
 
 
@@ -290,6 +291,7 @@ article {
     font-size: 12pt;
     line-height: 16pt;
     background: var(--gold);
+    animation: to-red 300s linear forwards;
     padding: 6pt 6pt 6pt 36pt;
     border-radius: 6pt;
     position: relative;
@@ -517,7 +519,7 @@ footer {
 
     button {
       background: var(--gold);;
-      animation: button 300s linear forwards;
+      animation: to-red 300s linear forwards;
       color: var(--white);;
       font: 12pt/18pt Sen;
       padding: 3pt 12pt;
