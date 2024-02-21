@@ -57,7 +57,7 @@
 
 body {
   background: var(--red);
-  animation: bg 3s linear forwards;
+  animation: bg 300s linear forwards;
   color: var(--black);
   text-align: left;
   font: normal 14pt/21pt Sen, sans-serif;
@@ -517,7 +517,7 @@ footer {
 
     button {
       background: var(--gold);;
-      animation: button 3s linear forwards;
+      animation: button 300s linear forwards;
       color: var(--white);;
       font: 12pt/18pt Sen;
       padding: 3pt 12pt;
