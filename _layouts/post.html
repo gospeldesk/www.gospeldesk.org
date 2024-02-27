@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+{% assign year = post.date | date: '%Y' %}
+{% if '0000' == '0000' %}
+<div class="draft">Draft</div>
+{% endif %}
 <header>
   <h2>{{ page.title }}</h2>
   <div class="meta">

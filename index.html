@@ -12,7 +12,9 @@ title: Gospel Desk
 </ul>
 <div class="clear"></div>
 <div class="post-listing">
-  {% for post in site.posts limit: include.n %}
+  {% for post in site.posts %}
+  {% assign year = post.date | date: '%Y' %}
+  {% if year > '0000' %}
   <a class="post" href="{{ post.url }}">
     <h3>{{ post.title }}</h3>
     <div class="excerpt">
@@ -20,6 +22,7 @@ title: Gospel Desk
       {{ post.excerpt }}
     </div>
   </a>
+  {% endif %}
   {% endfor %}
 </div>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" id="clipping-path-source">
