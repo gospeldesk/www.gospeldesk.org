@@ -233,7 +233,22 @@ u.heavy.red { @include highlight(#f00, 0.2); }
   clear: both;
 }
 
+.draft {
+  font: bold 21pt/28pt Sen;
+  background: var(--red);
+  animation: to-gold 300s linear forwards;
+  color: var(--white);
+  margin: 0 0 72pt;
+  padding: 12pt;
+  text-align: center;
+  box-shadow: inset 0px 5px 5px var(--black);
+}
+
 header {
+  h2 {
+    font: bold 21pt/28pt Sen;
+    color: var(--black);
+  }
   h3 {
     font: normal 16pt/21pt Sen;
     margin: 3pt 0 0;
