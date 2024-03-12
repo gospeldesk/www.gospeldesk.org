@@ -317,6 +317,13 @@ article {
       top: 6pt;
       height: 16pt;
     }
+    span {
+      display: block;
+      position: absolute;
+      left: 12pt;
+      top: 6pt;
+      font-size: 16pt;
+    }
   }
 
   section {
@@ -345,10 +352,14 @@ article {
     }
 
     h3 + p,
+    h4 + p,
     div + p,
     hr + p,
     br + p {
         text-indent: 0;
+    }
+    .clear + p {
+      margin-top: 12pt;
     }
     p {
       text-indent: 18pt;
@@ -413,7 +424,7 @@ article {
       margin: 0;
     }
 
-    ol {
+    ul, ol {
       margin: 12pt 0 12pt 18pt;
       li {
         margin-bottom: 6pt;
