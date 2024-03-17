@@ -74,7 +74,7 @@ signifying:
 - Archangel Gabriel, who announced the Incarnation to the Mother of God;
 - the angel who appeared to Joseph in his dreams (this wasn't also Gabriel, was
   it?); and
-- the two angels at the tomb.
+- the angel at the tomb (or was it two?).
 
 I'm not sure how the Church identifies these angels. Perhaps the drawing
 should show two or four instead of three.
@@ -111,15 +111,16 @@ should show two or four instead of three.
 <div class="tldr"><span>👉</span>From here down is scraps and fragments from previous
 documents, to be incorporated above.</div>
 
+#### What about
+
+Moses and Elijah!
+
 #### Core
 
 Nine individuals form the core of the Church in the Gospels, counting Christ
 Himself, Who is the Head of the Church. We should especially venerate, honor,
 and emulate these saints in virtue and in worship of Christ our God together
 with His All-Holy Father and Life-giving Spirit.
-
-
-
 
 #### The Inner Circle
 
