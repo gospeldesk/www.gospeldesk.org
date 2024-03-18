@@ -24,7 +24,7 @@ knowledgeable than I in the Scriptures and the Church's cosmology, and more
 skilled in art (the bar is low, friends). What is missing or misplaced? What
 future iconography might this inspire?
 
-I titled the drawing, "Synaxis of the Gospels." The people are arranged as
+I titled the drawing, "Synaxis of the Gospels." The people are grouped as
 follows:
 
 1. Holy Trinity
