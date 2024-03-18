@@ -25,7 +25,21 @@ skilled in art (the bar is low, friends). What is missing or misplaced? What
 future iconography might this inspire?
 
 I titled the drawing, "Synaxis of the Gospels." The people are arranged as
-follows.
+follows:
+
+1. Holy Trinity
+1. Angels
+1. Deisis
+1. Predecessors
+1. Apostles
+1. Myrrh-bearers
+1. Faithful Servants
+1. Disciples
+1. The Seventy
+1. Onlookers
+1. Crowds
+1. Nature
+1. Opponents
 
 ### Holy Trinity
 
@@ -111,13 +125,10 @@ include **Moses** and **Elijah** here as well, from the Transfiguration.
 
 ### Apostles
 
-- **Simon Peter** and his brother
-- **Andrew** the first-called
+- **Simon Peter** and his brother **Andrew**, the first-called
 - **James** and **John the Theologian**, sons of Zebedee and Salome, Sons of Thunder
-- **James**, son of Alphaeus and his brother
-- **Matthew**, the tax collector, called Levi
-- **Philip**, who said “Come and see” to
-- **Nathanael**, also called Bartholomew
+- **James**, son of Alphaeus and his brother **Matthew**, the tax collector, called Levi
+- **Philip**, who said “Come and see” to **Nathanael**, also called Bartholomew
 - **Thomas**, who touched the Lord’s side
 - **Thaddaeus**, also called Jude (or Judas)
 - **Simon**, the Canaanite, the Zealot
@@ -137,9 +148,9 @@ Transfiguration.
 
 ### Disciples
 
-### Onlookers
-
 ### The Seventy
+
+### Onlookers
 
 ### Crowds
 
