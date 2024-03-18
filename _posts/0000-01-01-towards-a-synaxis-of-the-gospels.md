@@ -18,13 +18,13 @@ lives. I want to see this more clearly.
 
 I made a drawing of all the people in the Gospels, arranged hierarchically.
 The occasion was the invitation of a friend to add a page to a notebook of
-pleasantries: poems, recipes, reminiscences, and so forth. I offer it here not
+poems, recipes, reminiscences, and so forth. I offer it here not
 as any sort of final word, but rather as a suggestion to others more
 knowledgeable than I in the Scriptures and the Church's cosmology, and more
-skilled in art (the bar is low, friends). What is missing or misplaced?  What
+skilled in art (the bar is low, friends). What is missing or misplaced? What
 future iconography might this inspire?
 
-I titled this drawing, "Synaxis of the Gospels." The people are arranged as
+I titled the drawing, "Synaxis of the Gospels." The people are arranged as
 follows.
 
 ### Holy Trinity
@@ -50,15 +50,17 @@ follows.
 </div>
 <div class="clear"></div>
 
-God the Father is shown at upper right, hand outstretched in blessing. Maybe in
-iconography that is supposed to be Christ's hand? I don't know. It appears in
-the icon of the [Sinful Woman Forgiven by
+**God the Father** is shown at upper right, hand outstretched in blessing.
+Maybe in iconography that is supposed to be Christ's hand? I don't know. It
+appears in the icon of the [Sinful Woman Forgiven by
 Christ](/the-twelve-faithful-servants/the-sinful-woman/). In including it in my
 drawing, I had in mind the Voice from Heaven at Christ's Baptism, His
-Transfiguration, and the Coming of the Hour. Christ Himself is of course the
-center of the composition, with the Holy Spirit in the form of a dove
+Transfiguration, and the Coming of the Hour. **God the Son** is the
+center of the composition, with **God the Holy Spirit** in the form of a dove
 descending from heaven as at the Baptism.
 
+You'll notice I did not attempt eyes on any of the figures. This is a sketch,
+not an icon.
 
 ### Angels
 
@@ -66,28 +68,68 @@ descending from heaven as at the Baptism.
     <img src="angels.webp">
 </div>
 
-At the top of the drawing is the angelic host that appears at the Nativity.
+At the top of the drawing is the **angelic host** that appears at the Nativity.
 They are arrayed behind Christ, offset just below the Father, and with the Holy
 Spirit passing through their midst. Three specific angels are depicted,
 signifying:
 
-- Archangel Gabriel, who announced the Incarnation to the Mother of God;
-- the angel who appeared to Joseph in his dreams (this wasn't also Gabriel, was
-  it?); and
-- the angel at the tomb (or was it two?).
+- **Archangel Gabriel**, who announced the Incarnation to the Mother of God;
+- the **angel who appeared to Joseph** in his dreams (this wasn't also Gabriel,
+  was it?); and
+- the **angels at the tomb** (it was two, right?).
 
-I'm not sure how the Church identifies these angels. Perhaps the drawing
-should show two or four instead of three.
+I'm not sure how the Church identifies these angels. Perhaps the drawing should
+show two or four instead of three.
 
 ### Deisis
 
-1. **Jesus Christ**, our God and Savior
-1. **Virgin Mary**, His Most-Pure Mother, Joseph’s wife
-1. **John the Forerunner**, His second cousin, son of Elizabeth and Zechariah
+<div class="detail">
+    <img src="deisis.webp">
+</div>
 
-### Predecessors 
+The center of the drawing is **Jesus Christ**, our God and Savior. He is
+flanked in the traditional deisis by the **Virgin Mary**, His Most-Pure Mother,
+Joseph’s wife and **John the Forerunner**, His second cousin, son of Elizabeth
+and Zechariah.
+
+### Predecessors
+
+<div class="detail">
+    <img src="predecessors.webp">
+</div>
+
+Behind the deisis stand the predecessors of Christ.
+
+- Behind Mary: **Joseph** and the faithful step-brothers of Christ, **James**
+  and **Joses**, who repented of their initial disbelief and were numbered
+  among the Seventy.
+- Behind Christ Himself: **Simeon** and **Anna**.
+- Behind John: his parents, **Elizabeth** and **Zachariah**.
+
+Missing from this tier are the **Shepherds** and the **Magi**. I would now
+include **Moses** and **Elijah** here as well, from the Transfiguration.
 
 ### Apostles
+
+- **Simon Peter** and his brother
+- **Andrew** the first-called
+- **James** and **John the Theologian**, sons of Zebedee and Salome, Sons of Thunder
+- **James**, son of Alphaeus and his brother
+- **Matthew**, the tax collector, called Levi
+- **Philip**, who said “Come and see” to
+- **Nathanael**, also called Bartholomew
+- **Thomas**, who touched the Lord’s side
+- **Thaddaeus**, also called Jude (or Judas)
+- **Simon**, the Canaanite, the Zealot
+
+Judas Iscariot betrays him. The Apostles as a group abandon Christ in His
+Passion, and several have weak moments individually. Peter denies Christ three
+times, wavers in the waves, and even tempts Christ. Thomas withholds belief
+until he has seen. The sons of Zebedee, prompted by their mother Salome, ask to
+sit at His right hand, provoking the indignation of the ten. Another time they
+ask to call down fire from heaven, and are rebuked. Yet Christ restores Peter,
+appears to Thomas, and manifests His glory to James and John with Peter at the
+Transfiguration.
 
 ### Myrrh-bearing Women
 
@@ -105,15 +147,10 @@ should show two or four instead of three.
 
 ### Opponents
 
-
-----
+---
 
 <div class="tldr"><span>👉</span>From here down is scraps and fragments from previous
 documents, to be incorporated above.</div>
-
-#### What about
-
-Moses and Elijah!
 
 #### Core
 
@@ -155,27 +192,6 @@ brothers are disbelieving, but James and Joses do go on to join the Seventy.
 
 From His many disciples, Christ appoints Seventy Apostles to go before Him, and
 Twelve Apostles to go with Him. Six of the Twelve are sets of brothers.
-
-Simon Peter and his brother
-Andrew the first-called
-James and John the Theologian,
-sons of Zebedee and Salome, Sons of Thunder
-James, son of Alphaeus and his brother
-Matthew, the tax collector, called Levi
-Philip, who said “Come and see” to
-Nathanael, also called Bartholomew
-Thomas, who touched the Lord’s side
-Thaddaeus, also called Jude (or Judas)
-Simon, the Canaanite, the Zealot
-
-Judas Iscariot betrays him. The Apostles as a group abandon Christ in His
-Passion, and several have weak moments individually. Peter denies Christ three
-times, wavers in the waves, and even tempts Christ. Thomas withholds belief
-until he has seen. The sons of Zebedee, prompted by their mother Salome, ask to
-sit at His right hand, provoking the indignation of the ten. Another time they
-ask to call down fire from heaven, and are rebuked. Yet Christ restores Peter,
-appears to Thomas, and manifests His glory to James and John with Peter at the
-Transfiguration.
 
 The Twelve Apostles are called by Christ. The Twelve Faithful Servants, on the other
 hand, call on Christ, and are met with His praise for their faith.
