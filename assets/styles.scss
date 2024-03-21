@@ -351,6 +351,7 @@ article {
       margin-top: 0
     }
 
+    h2 + p,
     h3 + p,
     h4 + p,
     div + p,
@@ -430,6 +431,9 @@ article {
         margin-bottom: 6pt;
         &:last-of-type {
           margin-bottom: 0;
+        }
+        &::marker {
+          color: var(--gray);
         }
       }
     }
