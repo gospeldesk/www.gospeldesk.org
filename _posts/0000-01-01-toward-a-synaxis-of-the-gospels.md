@@ -52,7 +52,8 @@ The center of the cosmic hierarchy we find in the Gospels is our God and
 Savior, Jesus Christ. He came not to bring peace but a sword, to separate out
 those who believe in Him from those who do not. In my drawing I represent this
 fundamental division with the sweeping curve of the Seventy Apostles. Inside
-the arc they describe are those within the Kingdom, beyond are those outside.
+the arc they describe are those within the Kingdom, beyond are those who have
+placed themselves outside.
 
 ### Holy Trinity
 
