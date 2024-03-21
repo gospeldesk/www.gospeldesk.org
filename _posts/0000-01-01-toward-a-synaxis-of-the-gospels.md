@@ -6,7 +6,15 @@ excerpt: I made a drawing of all the people in the Gospels, arranged hierarchica
 As I've read the Gospels over the years, I've wanted to know: who are all the
 people in the Gospels? How do they relate to Christ? For surely Christ is the
 center of the Gospels, as He is the center of the whole cosmos, and of our own
-lives. I want to see this more clearly.
+lives. I want to see this more clearly, so I made a drawing of all the people in
+the Gospels, arranged hierarchically.
+
+The occasion was the invitation of a friend to add a page to a notebook of
+poems, artwork, recipes, reminiscences, and so forth. I offer it here not
+as any sort of final word, but rather as a suggestion to others more
+knowledgeable than I in the Scriptures and the Church's cosmology, or more
+skilled in art (the bar is low, friends). What is missing or misplaced? What
+future iconography might this inspire?
 
 ---
 
@@ -16,18 +24,10 @@ lives. I want to see this more clearly.
 
 ---
 
-I made a drawing of all the people in the Gospels, arranged hierarchically.
-The occasion was the invitation of a friend to add a page to a notebook of
-poems, recipes, reminiscences, and so forth. I offer it here not
-as any sort of final word, but rather as a suggestion to others more
-knowledgeable than I in the Scriptures and the Church's cosmology, or more
-skilled in art (the bar is low, friends). What is missing or misplaced? What
-future iconography might this inspire?
-
 I titled the drawing, "Synaxis of the Gospels." The people are grouped as
 follows:
 
-1. [Synaxis Proper]()
+1. [In the Kingdom](#in-the-kingdom)
     1. [Holy Trinity](#holy-trinity)
     1. [Angels](#angels)
     1. [Predecessors](#predecessors)
@@ -36,21 +36,23 @@ follows:
     1. [Myrrh-bearers](#myrrh-bearing-women)
     1. [Faithful Servants](#faithful-servants)
     1. [Followers](#followers)
+    1. [Onlookers](#onlookers)
     1. [Children](#children)
     1. [Seventy Apostles](#seventy-apostles)
 1. [Outside](#outside)
-    1. [Onlookers](#onlookers)
     1. [Crowds](#crowds)
     1. [Nature](#nature)
     1. [Opponents](#opponents)
 
 <br>
 
-## Synaxis Proper
+### Kingdom
 
-I think the synaxis of the Gospels would be the group of saints we find there,
-gathered around Christ. It would not, properly speaking, include those who
-place themselves outside the Kingdom of God.
+The center of the cosmic hierarchy we find in the Gospels is our God and
+Savior, Jesus Christ. He came not to bring peace but a sword, to separate out
+those who believe in Him from those who do not. In my drawing I represent this
+fundamental division with the sweeping curve of the Seventy Apostles. Inside
+the arc they describe are those within the Kingdom, beyond are those outside.
 
 ### Holy Trinity
 
