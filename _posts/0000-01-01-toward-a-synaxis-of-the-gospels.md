@@ -80,7 +80,8 @@ There are many wonderful interrelations to explore among these groups,
 especially among the first five. Peter and Andrew are brothers. Peter is an
 Apostle and also a Faithful Servant. Peter, James, and John are witnesses to
 the Transfiguration together. Mary, Martha, and Lazarus of Bethany are siblings
-with a close friendship with the Lord.
+with a close friendship with the Lord. Mary and Martha are Myrrh-bearers. Mary
+is a Faithful Servant—the only one praised twice. And so forth.
 
 I represented children throughout this portion of the drawing, some with their
 parents who approach Christ for healing, others gathered directly before
