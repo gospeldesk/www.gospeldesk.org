@@ -359,6 +359,10 @@ article {
     br + p {
         text-indent: 0;
     }
+    .half + p {
+      text-indent: 0;
+      margin-top: 6pt;
+    }
     .clear + p {
       margin-top: 12pt;
     }
@@ -490,6 +494,9 @@ article {
       margin-right: 4%;
       &:nth-of-type(2) {
         margin-right: 0;
+      }
+      img {
+        margin-bottom: 6pt;
       }
     }
 

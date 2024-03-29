@@ -3,16 +3,25 @@ title: Toward a Synaxis of the Gospels
 excerpt: I made a drawing of all the people in the Gospels, arranged hierarchically.
 ---
 
-As I've read the Gospels over the years, I've wanted to know: who are all the
-people in the Gospels? How do they relate to Christ? For surely Christ is the
-center of the Gospels, as He is the center of the whole cosmos, and of our own
-lives. I want to see this more clearly, so I made a drawing of all the people in
-the Gospels, arranged hierarchically.
+In my first post I shared the story of how I came around to Orthodoxy [through
+study of the
+Gospels](/2024/welcome-to-gospel-desk/#the-role-of-gospel-desk-in-my-conversion)
+over several decades. I considered the question of how to live my life from the
+perspective of its end: the dread judgement seat of Christ. Reading the Gospels
+through this lens, I discovered in the Gospels first [St.
+Justa](/the-twelve-faithful-servants/st-justa/), and then the whole [Twelve
+Faithful Servants](/the-twelve-faithful-servants/).
+
+Continuing on from there, I've wanted to know: who are _all_ the people in the
+Gospels, and how do they relate to Christ? For surely Christ is the center of
+the Gospels, as He is the center of the whole cosmos, and of our own lives. I
+want to see this more clearly, so I made a drawing of all the people in the
+Gospels, arranged hierarchically.
 
 The occasion was the invitation of a friend to add a page to a notebook of
-poems, artwork, recipes, reminiscences, and so forth. I offer it here not
-as any sort of final word, but rather as a suggestion to others more
-knowledgeable than I in the Scriptures and the Church's cosmology, or more
+poems, artwork, recipes, reminiscences, and so forth. I offer it here not as
+any sort of final word, but rather as a starting point, a suggestion to others
+more knowledgeable than I in the Scriptures and the Church's cosmology, or more
 skilled in art (the bar is low, friends). What is missing or misplaced? What
 future iconography might this inspire?
 
@@ -24,250 +33,74 @@ future iconography might this inspire?
 
 ---
 
-I titled the drawing, "Synaxis of the Gospels." The people are grouped as
-follows:
-
-1. [In the Kingdom](#in-the-kingdom)
-    1. [Holy Trinity](#holy-trinity)
-    1. [Angels](#angels)
-    1. [Predecessors](#predecessors)
-    1. [Deisis](#deisis)
-    1. [Twelve Apostles](#twelve-apostles)
-    1. [Myrrh-bearers](#myrrh-bearing-women)
-    1. [Faithful Servants](#faithful-servants)
-    1. [Followers](#followers)
-    1. [Onlookers](#onlookers)
-    1. [Children](#children)
-    1. [Seventy Apostles](#seventy-apostles)
-1. [Outside](#outside)
-    1. [Crowds](#crowds)
-    1. [Nature](#nature)
-    1. [Opponents](#opponents)
-
-<br>
-
-### Kingdom
+I titled the drawing, "Synaxis of the Gospels." Maybe there is a better name. I
+had in mind icons such as the [Synaxis of the Saints of North
+America](https://www.oca.org/saints/lives/2017/06/18/49-synaxis-of-the-saints-of-north-america)
+and the [Synaxis of the Archangel Michael and the Other Bodiless
+Powers](https://www.oca.org/saints/lives/2024/11/08/103244-synaxis-of-the-archangel-michael-and-the-other-bodiless-powers).
 
 The center of the cosmic hierarchy we find in the Gospels is our God and
-Savior, Jesus Christ. He came not to bring peace but a sword, to separate out
-those who believe in Him from those who do not. In my drawing I represent this
-fundamental division with the sweeping curve of the Seventy Apostles. Inside
-the arc they describe are those within the Kingdom, beyond are those who have
-placed themselves outside.
-
-### Holy Trinity
-
-<style>
-.detail {
-    margin: 0 0 12pt;
-    padding: 0;
-}
-.detail.trinity img {
-    float: left;
-    width: 30%;
-    margin: 0 3% 0 0;
-}
-.detail.trinity img:last-child {
-    margin-right: 0;
-}
-</style>
-<div class="detail trinity">
-    <img src="father.webp">
-    <img src="christ.webp">
-    <img src="spirit.webp">
-</div>
-<div class="clear"></div>
-
-**God the Father** is shown at upper right, hand outstretched in blessing.
-Maybe in iconography that is supposed to be Christ's hand? I don't know. It
-appears in the icon of the [Sinful Woman Forgiven by
+Savior, **Jesus Christ**, and He is at the center of my composition. The
+**Father** is shown at upper right, hand outstretched in blessing. Maybe in
+iconography that is supposed to be Christ's hand? I don't know. It appears in
+the icon of the [Sinful Woman Forgiven by
 Christ](/the-twelve-faithful-servants/the-sinful-woman/). In including it in my
 drawing, I had in mind the Voice from Heaven at Christ's Baptism, His
-Transfiguration, and the Coming of the Hour. **God the Son** is the
-center of the composition, with **God the Holy Spirit** in the form of a dove
-descending from heaven as at the Baptism.
+Transfiguration, and the Coming of the Hour. The **Holy Spirit** descends in
+the form of a dove as at the Baptism.
 
-You'll notice I did not attempt eyes on any of the figures. This is a sketch,
-not an icon.
+<p class="half"><a href="./composition.webp"><img src="./composition.webp"></a></p>
 
-### Angels
+Christ came not to bring peace but a sword, to separate out those who believe
+in Him from those who do not. In my drawing I represent this fundamental
+division with the sweeping curve of the **Seventy Apostles**. Within the arc
+they describe is the Kingdom, united with the angelic host and indwelt by God.
+Beyond are those who have placed themselves outside, under the sway of
+**Satan**. This defines the basic structure of the composition.
 
-<div class="detail"><img src="angels.webp"></div>
+I arranged the individuals within the Kingdom in seven groups, according to
+the measure of their faith:
 
-At the top of the drawing is the **angelic host** that appears at the Nativity.
-They are arrayed behind Christ, offset just below the Father, and with the Holy
-Spirit as a dove passing through their midst. Three specific angels are depicted,
-signifying:
+1. The **Deisis**: Christ Himself, the Virgin Mary, and John the Forerunner.
+1. The **Predecessors** of Christ, such as Righteous Joseph, and Simeon and
+   Anna.
+   1. The **Twelve Apostles**. 
+   1. The **Myrrh-bearing Women**. 
+   1. The **Faithful Servants**, those whom Christ [explicitly, directly
+   praises](/the-twelve-faithful-servants/) for their faith.
+   1. Those whose faith is **clear**, though not explicitly, directly praised.
+   for example, St. Photini, the Woman at the Well.
+   1. Those whose faith is **likely**, though not emphasized, such as the Woman
+   Caught in Adultery.
 
-- **Archangel Gabriel**, who announced the Incarnation to the Mother of God;
-- the **angel who appeared to Joseph** in his dreams (this wasn't also Gabriel,
-  was it?); and
-- the **angels at the tomb** (it was two, right?).
+Immediately outside the Kingdom I represented those particular elements of the
+natural world that appear in the Gospel stories, such as the wind and the
+waves, and the fig tree. Further beyond are the crowds, some individuals of
+whom are distinguishable, heckling Christ at various points. At the bottom of
+the picture is the outer darkness, reminiscent of the lower portion of the
+Golgotha and Resurrection icons. Here we find Satan, his demons, and those who
+give themselves over to him, including Herod and Judas. Lord have mercy.
 
-I'm not sure how the Church identifies these angels. Perhaps the drawing should
-show two or four instead of three.
+Overlap.
 
-### Deisis
+Children.
 
-<div class="detail"><img src="deisis.webp"></div>
+I included a key on the page opposite. Here are some I know to be missing:
 
-The center of the drawing is **Jesus Christ**, our God and Savior. He is
-flanked in the traditional deisis by the **Virgin Mary**, His Most-Pure Mother,
-Joseph’s wife and **John the Forerunner**, His second cousin, son of Elizabeth
-and Zechariah.
-
-### Predecessors
-
-<div class="detail"><img src="predecessors.webp"></div>
-
-Behind the deisis stand the predecessors of Christ.
-
-- Behind Mary: **Joseph** and the faithful step-brothers of Christ, **James**
-  and **Joses**, who repented of their initial disbelief and were numbered
-  among the Seventy.
-- Behind Christ Himself: **Simeon** and **Anna**.
-- Behind John: his parents, **Elizabeth** and **Zachariah**.
-
-Missing from this tier are the **Shepherds** and the **Magi**. I would now
-include **Moses** and **Elijah** here as well, from the Transfiguration.
+- Moses and Elijah, should be with the predecessors. Magi and Shepherds.
+- Heard of swine with the natural world.
 
 
-### Exemplars
+---
 
-Standing immediately before the deisis are three groups of exemplary saints:
-the Twelve Apostles, the Seven Myrrh-bearing Women, and the Twelve Faithful
-Servants. There is some overlap between these groups.
-
-<div class="detail"><img src="exemplars.webp"></div>
-
-
-### Twelve Apostles
-
-From His many disciples, Christ appoints Seventy Apostles to go before Him, and
-Twelve Apostles to go with Him. Six of the Twelve are sets of brothers.
-
-- **Simon Peter** and his brother **Andrew**, the first-called
-- **James** and **John the Theologian**, sons of Zebedee and Salome, Sons of Thunder
-- **James**, son of Alphaeus and his brother **Matthew**, the tax collector, called Levi
-- **Philip**, who said “Come and see” to **Nathanael**, also called Bartholomew
-- **Thomas**, who touched the Lord’s side
-- **Thaddaeus**, also called Jude (or Judas)
-- **Simon**, the Canaanite, the Zealot
-
-Judas Iscariot betrays him. The Apostles as a group abandon Christ in His
-Passion, and several have weak moments individually. Peter denies Christ three
-times, wavers in the waves, and even tempts Christ. Thomas withholds belief
-until he has seen. The sons of Zebedee, prompted by their mother Salome, ask to
-sit at His right hand, provoking the indignation of the ten. Another time they
-ask to call down fire from heaven, and are rebuked. Yet Christ restores Peter,
-appears to Thomas, and manifests His glory to James and John with Peter at the
-Transfiguration.
-
-### Myrrh-bearing Women
-
-We should also praise and emulate the seven holy Myrrh-bearers.
-
-- Mary, the Mother of God
-- Mary Magdalene, who had seven demons
-- Joanna, the wife of Chuza, Herod's steward
-- Salome, the wife of Zebedee
-- Mary, the wife of Cleopas
-- Susanna, patron of Christ
-- Mary and Martha of Bethany
-
-
-### Faithful Servants
-
-The Twelve Apostles are called by Christ. The Twelve Faithful Servants, on the other
-hand, call on Christ, and are met with His praise for their faith.
-
-The Defiant
-- Justa, the Canaanite woman
-- Veronica, the woman with a flow of blood
-- The Sinful Woman, forgiven by Christ
-
-The Outcast
-- Dysmas (Rakh), the penitent thief
-- The Samaritan Leper
-- Bartimaeus, the blind beggar
-
-The Powerful
-- The Centurion
-- Zacchaeus, the son of Abraham
-- The Wise Scribe
-
-The Familiar
-- Nathanael (Bartholomew), the true Israelite
-- Peter, the blessed
-- Mary of Bethany, the twice-praised
-
-The Twelve Faithful Servants come from all walks of life—rich and poor, weak and
-powerful, men and women, Jews and Gentiles, sick and healthy, friends and
-strangers, in families and alone, sinful and pious. Some struggle against the
-crowd, some are their own worst enemy, some approach Christ easily. There is
-someone for everyone. Read their stories and ask God to help you make a special
-connection with one or two of them. They show us most clearly what it means to
-respond to Christ’s claim of allegiance on our lives. Twelve Faithful Servants, pray to
-Christ our God for us, that He would help our unbelief!
-
-### Followers
-
-<div class="detail"><img src="followers.webp"></div>
-
-There are 19 other clear models of faith.
-
-- The Poor Widow, who gives the mite
-- The four Friends of the Paralytic, lowering him down
-- Photini, the woman at the well
-
-Healed Worshippers
-
-- Jairus, believing in Christ to heal his daughter
-- Peter’s mother-in-law, who serves Christ
-- The Blind-born, witness before the Pharisees
-- The Epileptic’s Father, “Help my unbelief!”
-- The Gadarene, clothed and in his right mind
-- The Infirm Woman, afflicted for eighteen years
-
-In and After His Passion
-
-- Procla, wife of Pilate
-- Simon of Cyrene, who bears His Cross
-- Longinus, the Centurion at the Cross
-- Nicodemus and Joseph of Arimethea
-- Cleopas and Luke on the road to Emmaus
+<div class="tldr"><span>👉</span>From here down is scraps and fragments from previous
+documents, to be incorporated above.</div>
 
 ### Children
 
 - The Lad with the loaves and fishes
 - The Child He sets in their midst
 - The Children brought to Him
-
-### The Seventy
-
-### Onlookers
-
-There are ten others whom Jesus heals or saves. Their stories focus on the
-mercy of God, the amazement of the crowd, or the offense taken by the Pharisees
-and the scribes, with no mention of the faith of the person being healed or
-saved. Yet there are many we can identify with here.
-
-- The Woman Caught in Adultery, “Sin no more”
-- The Paralytic at Bethesda pool, “Sin no more”
-- The Widow of Nain and her son
-- A Leper who moves Christ to pity (then gabs)
-- A Man with a Withered Hand
-- A Dumb Demoniac
-- A Deaf Mute from Decapolis
-- A Man with Dropsy
-- Malchus, the High Priest’s servant
-
-### Crowds
-
-Jesus does have compassion on the crowd, but He also rues their lukewarm faith,
-and dismisses their heckling. “Whoever does the will of God is my brother, and
-sister, and mother.” “Blessed rather are those who hear the word of God and
-keep it!” “Leave the dead to bury their own dead.”
 
 ### Nature
 
@@ -317,13 +150,6 @@ Of those who encounter Christ in His youth, we should honor nine individuals and
 1. Simeon and Anna
 1. The Shepherds
 1. The Magi
-
-Herod the King slaughters the Holy Innocents. The teachers in the temple who
-encounter the twelve- year-old Christ recognize His wisdom, but their exchange
-foreshadows the conflict leading to His Crucifixion. The Lord had step-sisters
-as well as step-brothers, James, Jude, Simon, and Joses. We hear that His
-brothers are disbelieving, but James and Joses do go on to join the Seventy.
-
 
 
 We should read the lives of the saints, especially our North American saints.
