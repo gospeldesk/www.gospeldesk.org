@@ -119,6 +119,6 @@ friend's notebook. I did, however, accidentally leave some people out. Moses
 and Elijah should be with the predecessors, as should the Magi and Shepherds.
 Let me know if you find others missing.
 
-My hope is that this drawing can help us become more familiar with the Gospels,
-and see more clearly the saints we find there. May God count us worthy of being
-found in His Holy Church today!
+My hope is that this drawing can help us more clearly see the early communion
+of saints we find in the Gospels. May God count us worthy of being found in His
+Holy Church today!
