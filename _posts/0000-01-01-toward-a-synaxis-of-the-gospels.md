@@ -12,16 +12,16 @@ lens, I discovered [St. Justa](/the-twelve-faithful-servants/st-justa/), and
 then the rest of the [Twelve Faithful
 Servants](/the-twelve-faithful-servants/).
 
-The ripples continuing, I've wanted to know: who are _all_ the individuals in
-the Gospels, and how do they relate to Christ? For surely Christ is the center
-of the Gospels, as He is the center of the whole cosmos, and of our own lives.
-I want to see this more clearly, so I made a drawing of all the individuals in
-the Gospels, arranged hierarchically.
+Following the ripples further, I've since asked: who are _all_ the individuals
+in the Gospels, and how do they relate to Christ? For surely Christ is the
+center of the Gospels, as He is the center of the whole cosmos, and of our own
+lives.  I want to see this more clearly, so I made a drawing of all the
+individuals in the Gospels, arranged hierarchically.
 
 The occasion was the invitation of a friend to add a page to a notebook of
 poems, artwork, recipes, reminiscences, and so forth. I drew this in my first
-year after chrismation, on December 13, 2022. I offer it here not as any sort
-of final word, but rather as a starting point, a suggestion to others more
+year after chrismation, on December 13, 2022. I offer it here not with any
+finality, but rather as a starting point, a suggestion to others more
 knowledgeable than I in the Scriptures and the Church's cosmology, or more
 skilled in art (the bar is low, friends). What is missing or misplaced? What
 future iconography might this inspire?
@@ -62,8 +62,10 @@ Beyond are those who have placed themselves outside, under the sway of
 
 ### In the Kingdom
 
-I arranged the individuals within the Kingdom in seven groups, according to
-the measure of their faith as recorded in the Gospels.
+I arranged the individuals within the Kingdom in seven groups, according to the
+measure of their faith as recorded in the Gospels. This can be seen as loosely
+related to the proskomedia, adapted for the specific individuals we find in the
+Gospels.
 
 1. The **Deisis**: Christ Himself; the Virgin Mary, Mother of God; and St. John the Forerunner
 1. The **Predecessors** of Christ, such as Righteous Joseph, and Righteous Simeon and
