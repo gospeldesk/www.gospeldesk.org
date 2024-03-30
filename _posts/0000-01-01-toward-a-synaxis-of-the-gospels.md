@@ -15,7 +15,7 @@ Servants](/the-twelve-faithful-servants/).
 Following the ripples further, I've since asked: who are _all_ the individuals
 in the Gospels, and how do they relate to Christ? For surely Christ is the
 center of the Gospels, as He is the center of the whole cosmos, and of our own
-lives.  I want to see this more clearly, so I made a drawing of all the
+lives. I want to see this more clearly, so I made a drawing of all the
 individuals in the Gospels, arranged hierarchically.
 
 The occasion was the invitation of a friend to add a page to a notebook of
@@ -120,5 +120,5 @@ and Elijah should be with the predecessors, as should the Magi and Shepherds.
 Let me know if you find others missing.
 
 My hope is that this drawing can help us become more familiar with the Gospels,
-and more clearly see the saints we find there. May God count us worthy of being
+and see more clearly the saints we find there. May God count us worthy of being
 found in His Holy Church today!
