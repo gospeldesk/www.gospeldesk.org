@@ -21,7 +21,7 @@ individuals in the Gospels, arranged hierarchically.
 The occasion was the invitation of a friend to add a page to a notebook of
 poems, artwork, recipes, reminiscences, and so forth. I drew this in my first
 year after chrismation, on December 13, 2022. I offer it here not with any
-finality, but rather as a starting point, a suggestion to others more
+sense of finality, but rather as a starting point, a suggestion to others more
 knowledgeable than I in the Scriptures and the Church's cosmology, or more
 skilled in art (the bar is low, friends). What is missing or misplaced? What
 future iconography might this inspire?
@@ -70,8 +70,8 @@ Gospels.
 1. The **Deisis**: Christ Himself; the Virgin Mary, Mother of God; and St. John the Forerunner
 1. The **Predecessors** of Christ, such as Righteous Joseph, and Righteous Simeon and
    Prophetess Anna
-1. The **Twelve Apostles**.
-1. The **Myrrh-bearing Women**.
+1. The **Twelve Apostles**
+1. The **Myrrh-bearing Women**
 1. The **Faithful Servants**, those whom Christ [explicitly, directly
    praises](/the-twelve-faithful-servants/) for their faith
 1. Those whose faith is **clear**, though not explicitly, directly praised;
@@ -108,13 +108,13 @@ as Herod and Judas who gave themselves over to him. Lord have mercy.
 I think of the Synaxis of the Gospels drawing as a map of sorts. When I hear a
 particular story of an encounter with Christ, I can ask, "Where does this fit?"
 It is also a family tree. The individuals in the Synaxis of the Gospels are the
-seed of the Church—the Apostles, yes, heading up _all_ the faithful. They
-number approximately 144, a beautiful counterpoint to the 144,000 we find at
-the end, in the Revelation.
+seed of the Church. They number approximately 144, a beautiful counterpoint to
+the 144,000 we find at the end, in the Revelation. The smallest seed becomes a
+great spreading tree.
 
 We have some groups represented in the abstract, but as with an icon, this
-drawing (which is not itself an icon) emphasizes the individuality of the people
-represented. These are hypostases, and I included a key on the verso in my
+drawing (which is not itself an icon) emphasizes the individuality of the
+people represented. Each is a hypostasis. I included a key on the verso in my
 friend's notebook. I did, however, accidentally leave some people out. Moses
 and Elijah should be with the predecessors, as should the Magi and Shepherds.
 Let me know if you find others missing.
