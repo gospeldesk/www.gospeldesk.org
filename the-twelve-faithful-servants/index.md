@@ -51,7 +51,6 @@ boldly approach Jesus.</div>
   </tr>
 </table>
 
-
 #### The Outcast
 
 <div class="caption">Men without worldly advantages, they beg Jesus for mercy
@@ -83,7 +82,6 @@ and are answered.</div>
   </tr>
 </table>
 
-
 #### The Powerful
 
 <div class="caption">Wealthy and of high standing, they show that all things
@@ -113,11 +111,9 @@ are possible with God.</div>
   </tr>
 </table>
 
-
 #### The Familiar
- 
-<div class="caption">Close friends of Jesus, they are Apostles and Equal to the Apostles.</div>
 
+<div class="caption">Close friends of Jesus, they are Apostles and Equal to the Apostles.</div>
 
 <table class="faithful-servants">
   <tr>
@@ -179,10 +175,11 @@ acclamation.</div>
 
 ### How the Icons Are Used
 
-My priest, Fr. Thomas Soroka, has set aside an analogion for these icons of the
-Twelve Faithful Servants. They rotate through for veneration during the year.
-Here is a clip of Fr. Tom introducing the icons and inviting me to say a few
-words:
+Fr. Thomas Soroka has set aside an analogion for the Twelve Faithful Servants
+at [St. Nicholas Orthodox Church in McKees
+Rocks](https://orthodoxpittsburgh.org/). Their icons rotate through for
+veneration during the year. Here is a clip of Fr. Tom introducing the icons
+and inviting me to say a few words:
 
 {% include youtube.html video_id="CBpYW2tzNk0" %}
 

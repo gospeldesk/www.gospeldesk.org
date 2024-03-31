@@ -4,7 +4,6 @@ subtitle: The Blind Beggar
 html_title_sep: ","
 ---
 
-
 ### In the Gospels
 
 #### Mark 10:46-52
@@ -30,7 +29,6 @@ Jesus said to him, <u>Go your way. Your faith has made you well.</u>
 
 Immediately he received his sight, and followed Jesus in the way.
 
-
 #### Matthew 20:29-34
 
 As they went out from Jericho, a great multitude followed him. Behold, two
@@ -46,7 +44,6 @@ They told him, <u class="blue">Lord, that our eyes may be opened.</u>
 
 Jesus, being moved with compassion, touched their eyes, and immediately their
 eyes received their sight, and they followed him.
-
 
 #### Luke 18:35-43
 

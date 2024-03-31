@@ -4,7 +4,6 @@ subtitle: Anonymous
 html_title_sep: "("
 ---
 
-
 ### In the Gospels
 
 #### Mark 12:28-34
@@ -27,7 +26,6 @@ offerings and sacrifices.</u>
 When Jesus saw that he answered wisely, he said to him, <u>You are not far from
 the Kingdom of God.</u>
 
-
 #### Matthew 22:33-40
 
 When the multitudes heard it, they were astonished at his teaching. But the
@@ -39,7 +37,6 @@ Jesus said to him, You shall love the Lord your God with all your heart, with
 all your soul, and with all your mind. This is the first and great commandment.
 A second likewise is this, You shall love your neighbor as yourself. The whole
 law and the prophets depend on these two commandments.
-
 
 #### Luke 10:25-37
 

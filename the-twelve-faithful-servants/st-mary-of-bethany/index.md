@@ -12,7 +12,6 @@ image_alt: an icon of St. Mary of Bethany
 <div class="caption">From the hand of <a
 href="https://www.xamist.com/">Federico Aguirre</a>.</div>
 
-
 ### In the Gospels
 
 #### Mark 14:3-9
@@ -21,7 +20,7 @@ While he was at Bethany, in the house of Simon the leper, as he sat at the
 table, <u class="blue">a woman came having an alabaster jar of ointment of pure
 nard—very costly. She broke the jar, and poured it over his head.</u> But there
 were some who were indignant among themselves, saying, Why has this ointment
-been wasted?  For this might have been sold for more than three hundred
+been wasted? For this might have been sold for more than three hundred
 denarii, and given to the poor. They grumbled against her.
 
 But Jesus said, <u>Leave her alone. Why do you trouble her? She has done a good
@@ -31,7 +30,6 @@ could. She has anointed my body beforehand for the burying. Most certainly I
 tell you, wherever this Good News may be preached throughout the whole world,
 that which this woman has done will also be spoken of for a memorial of
 her.</u>
-
 
 #### Matthew 26:6-13
 
@@ -48,7 +46,6 @@ it to prepare me for burial. Most certainly I tell you, wherever this Good News
 is preached in the whole world, what this woman has done will also be spoken of
 as a memorial of her.</u>
 
-
 #### John 12:1-8
 
 Then six days before the Passover, Jesus came to Bethany, where Lazarus was,
@@ -61,10 +58,10 @@ Iscariot, Simon’s son, one of his disciples, who would betray him, said, Why
 wasn’t this ointment sold for three hundred denarii, and given to the poor? Now
 he said this, not because he cared for the poor, but because he was a thief,
 and having the money box, used to steal what was put into it. But Jesus said,
-<u>Leave her alone.  She has kept this for the day of my burial. For you always
+<u>Leave her alone. She has kept this for the day of my burial. For you always
 have the poor with you, but you don’t always have me.</u>
 
-----
+---
 
 #### Luke 10:38-42
 

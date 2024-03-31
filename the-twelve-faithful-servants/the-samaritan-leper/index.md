@@ -4,7 +4,6 @@ subtitle: Anonymous
 html_title_sep: (
 ---
 
-
 ### In the Gospels
 
 #### Luke 17:11-19
