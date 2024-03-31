@@ -12,7 +12,6 @@ image_alt: an icon of St. Veronica
 <div class="caption">From the hand of <a
 href="http://ikona-skiniya.com/">Ekaterina Daineko</a>.</div>
 
-
 ### In the Gospels
 
 #### Mark 5:25-34
@@ -38,7 +37,6 @@ and told him all the truth.
 He said to her, <u>Daughter, your faith has made you well. Go in peace, and be
 cured of your disease.</u>
 
-
 #### Matthew 9:20-22
 
 Behold, a woman who had an issue of blood for twelve years came behind him, and
@@ -47,7 +45,6 @@ class="blue">If I just touch his garment, I will be made well.</u>
 
 But Jesus, turning around and seeing her, said, <u>Daughter, cheer up! Your
 faith has made you well.</u> And the woman was made well from that hour.
-
 
 #### Luke 8:42-48
 
@@ -64,7 +61,6 @@ of me. When the woman saw that she was not hidden, she came trembling, and
 falling down before him declared to him in the presence of all the people the
 reason why she had touched him, and how she was healed immediately. He said to
 her, <u>Daughter, cheer up. Your faith has made you well. Go in peace.</u>
-
 
 ### In the Synaxarion
 

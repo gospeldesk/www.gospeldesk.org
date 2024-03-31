@@ -4,7 +4,6 @@ subtitle: The True Israelite (a.k.a. St. Bartholomew)
 html_title_sep: ","
 ---
 
-
 ### In the Gospels
 
 #### John 1:45-51

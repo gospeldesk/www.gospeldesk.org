@@ -32,7 +32,6 @@ said, He saved others. He can’t save himself. Let the Christ, the King of
 Israel, now come down from the cross, that we may see and believe him. Those
 who were crucified with him insulted him.
 
-
 #### Matthew 27:38-44
 
 Then there were two robbers crucified with him, one on his right hand and one
@@ -46,7 +45,6 @@ of Israel, let him come down from the cross now, and we will believe in him. He
 trusts in God. Let God deliver him now, if he wants him, for he said, I am the
 Son of God. The robbers also who were crucified with him cast on him the same
 reproach.
-
 
 #### Luke 23:32-43
 
@@ -76,7 +74,6 @@ Jesus, <u class="blue">Lord, remember me when you come into your Kingdom.</u>
 
 Jesus said to him, <u>Assuredly I tell you, today you will be with me in
 Paradise.</u>
-
 
 #### John 19:16-19
 

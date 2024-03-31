@@ -12,7 +12,6 @@ image_alt: an icon of St. Peter
 <div class="caption">From the hand of <a
 href="http://ikona-skiniya.com/">Anton Daineko</a>.</div>
 
-
 ### In the Gospels
 
 #### Mark 8:27-33
@@ -34,7 +33,6 @@ rise again. He spoke to them openly. Peter took him, and began to rebuke him.
 But he, turning around, and seeing his disciples, rebuked Peter, and said, Get
 behind me, Satan! For you have in mind not the things of God, but the things of
 men.
-
 
 #### Matthew 16:13-23
 
@@ -58,7 +56,7 @@ whatever you release on earth will have been released in heaven.</u> Then he
 commanded the disciples that they should tell no one that he was Jesus the
 Christ. From that time, Jesus began to show his disciples that he must go to
 Jerusalem and suffer many things from the elders, chief priests, and scribes,
-and be killed, and the third day be raised up. 
+and be killed, and the third day be raised up.
 
 Peter took him aside, and began to rebuke him, saying, <u class="red">Far be it
 from you, Lord! This will never be done to you.</u>
@@ -66,7 +64,6 @@ from you, Lord! This will never be done to you.</u>
 But he turned, and said to Peter, <u class="red">Get behind me, Satan! You are
 a stumbling block to me, for you are not setting your mind on the things of
 God, but on the things of men.</u>
-
 
 #### Luke 9:18-22
 
@@ -83,7 +80,6 @@ Peter answered, <u class="blue">The Christ of God.</u>
 But he warned them, and commanded them to tell this to no one, saying, The Son
 of Man must suffer many things, and be rejected by the elders, chief priests,
 and scribes, and be killed, and the third day be raised up.
-
 
 #### John 6:66-69
 

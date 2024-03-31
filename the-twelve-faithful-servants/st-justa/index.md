@@ -4,7 +4,6 @@ subtitle: The Canaanite Woman
 html_title_sep: ","
 ---
 
-
 ### In the Gospels
 
 #### Mark 7:24-30
@@ -25,7 +24,6 @@ daughter.</u>
 
 She went away to her house, and found the child having been laid on the bed,
 with the demon gone out.
-
 
 #### Matthew 15:21-28
 

@@ -4,7 +4,6 @@ subtitle: Anonymous
 html_title_sep: "("
 ---
 
-
 ### In the Gospels
 
 #### Matthew 8:5-13
@@ -15,7 +14,7 @@ Lord, my servant lies in the house paralyzed, grievously tormented.
 Jesus said to him, I will come and heal him.
 
 The centurion answered, <u class="blue">Lord, I’m not worthy for you to come
-under my roof.  Just say the word, and my servant will be healed. For I am also
+under my roof. Just say the word, and my servant will be healed. For I am also
 a man under authority, having under myself soldiers. I tell this one, Go, and
 he goes, and tell another, Come, and he comes, and tell my servant, Do this,
 and he does it.</u>
@@ -27,7 +26,6 @@ Abraham, Isaac, and Jacob in the Kingdom of Heaven, but the children of the
 Kingdom will be thrown out into the outer darkness. There will be weeping and
 gnashing of teeth.</u> Jesus said to the centurion, <u>Go your way. Let it be
 done for you as you have believed.</u> His servant was healed in that hour.
-
 
 #### Luke 7:1-10
 
@@ -49,7 +47,6 @@ When Jesus heard these things, he marveled at him, and turned and said to the
 multitude who followed him, <u>I tell you, I have not found such great faith,
 no, not in Israel.</u> Those who were sent, returning to the house, found that
 the servant who had been sick was well.
-
 
 #### John 4:46b-53
 
