@@ -176,3 +176,26 @@ acclamation.</div>
   </tr>
 </table>
 -->
+
+### How the Icons Are Used
+
+My priest, Fr. Thomas Soroka, has set aside an analogion for these icons of the
+Twelve Faithful Servants. They rotate through for veneration during the year.
+Here is a clip of Fr. Tom introducing the icons and inviting me to say a few
+words:
+
+{% include youtube.html video_id="CBpYW2tzNk0" %}
+
+Here is a clip of the [Sinful Woman Forgiven By Christ](./the-sinful-woman/)
+being vested for Great Lent:
+
+{% include youtube.html video_id="8RmQOlIMwZ0" %}
+
+Here are a few photos showing the analogion with [St.
+Zacchaeus](./st-zacchaeus/):
+
+<img src="near.jpg">
+
+<img src="mid.jpg">
+
+<img src="far.jpg">
