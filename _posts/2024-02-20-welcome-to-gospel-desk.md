@@ -98,10 +98,10 @@ By the grace of God, six icons are now complete and in rotation at my parish.
 The longing I began feeling six years ago to bring the Twelve Faithful Servants
 to the awareness of the Church is finding its fulfillment. My priest is
 [acknowledging them from the
-ambon](https://www.facebook.com/watch/live/?ref=watch_permalink&v=1021074838986786&t=7401).
-My fellow parishioners are [venerating their
-icons](https://www.facebook.com/watch/live/?ref=watch_permalink&v=1021074838986786&t=7790).
-They are beginning to be seen for us as great witnesses to faith in Christ.
+ambon](https://www.youtube.com/watch?v=CBpYW2tzNk0). My fellow parishioners
+are [venerating their
+icons](https://www.youtube.com/watch?v=CBpYW2tzNk0#t=6m24s). They are
+beginning to be seen for us as great witnesses to faith in Christ.
 
 ---
 
