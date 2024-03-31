@@ -183,7 +183,7 @@ and inviting me to say a few words:
 
 {% include youtube.html video_id="CBpYW2tzNk0" %}
 
-Here is a clip of the [Sinful Woman Forgiven By Christ](./the-sinful-woman/)
+Here is a clip of the [Sinful Woman Forgiven by Christ](./the-sinful-woman/)
 being vested for Great Lent:
 
 {% include youtube.html video_id="8RmQOlIMwZ0" %}
