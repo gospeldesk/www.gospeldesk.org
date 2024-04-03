@@ -15,16 +15,15 @@ Servants](/the-twelve-faithful-servants/).
 Following the ripples further, I've since asked: who are _all_ the individuals
 in the Gospels, and how do they relate to Christ? For surely Christ is the
 center of the Gospels, as He is the center of the whole cosmos, and of our own
-lives. I want to see this more clearly, so I made a drawing of all the
+lives. I wanted to see this more clearly, so I made a drawing of all the
 individuals in the Gospels, arranged hierarchically.
 
 The occasion was the invitation of a friend to add a page to a notebook of
-poems, artwork, recipes, reminiscences, and so forth. I drew this in my first
-year after chrismation, on December 13, 2022. I offer it here not with any
-sense of finality, but rather as a starting point, a suggestion to others more
-knowledgeable than I in the Scriptures and the Church's cosmology, or more
-skilled in art (the bar is low, friends). What is missing or misplaced? What
-future iconography might this inspire?
+poems, artwork, recipes, reminiscences, and so forth. It was in my first year
+after chrismation, on December 13, 2022. I offer it here not with any sense of
+finality, but rather as a starting point, a suggestion to others more
+knowledgeable than I, or more skilled in art (the bar is low, friends). What is
+missing or misplaced? What future iconography might this inspire?
 
 ---
 
@@ -35,17 +34,16 @@ future iconography might this inspire?
 
 ---
 
-I titled the drawing, "Synaxis of the Gospels." Maybe there is a better name. I
-had in mind icons such as the [Synaxis of the Saints of North
+I titled the drawing, "Synaxis of the Gospels." I had in mind icons such as the
+[Synaxis of the Saints of North
 America](https://www.oca.org/saints/lives/2017/06/18/49-synaxis-of-the-saints-of-north-america)
 and the [Synaxis of the Archangel Michael and the Other Bodiless
 Powers](https://www.oca.org/saints/lives/2024/11/08/103244-synaxis-of-the-archangel-michael-and-the-other-bodiless-powers).
 
 The center of the cosmic hierarchy we find in the Gospels is our God and
 Savior, **Jesus Christ**, and He is at the center of my composition. The
-**Father** is shown at upper right, hand outstretched in blessing. Maybe in
-iconography that is supposed to be Christ's hand? I don't know. It appears in
-the icon of the [Sinful Woman Forgiven by
+**Father** is indicated at upper right by the hand outstretched in blessing, as
+in the icon of the [Sinful Woman Forgiven by
 Christ](/the-twelve-faithful-servants/the-sinful-woman/). In including it in my
 drawing, I had in mind the Voice from Heaven at Christ's Baptism, His
 Transfiguration, and the Coming of the Hour. The **Holy Spirit** descends in
