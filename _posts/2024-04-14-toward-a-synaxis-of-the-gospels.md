@@ -26,7 +26,7 @@ I had considered the question of how to live my life from the perspective of
 its end: the dread judgement seat of Christ. Reading the Gospels through this
 lens, I discovered [St. Justa](/the-twelve-faithful-servants/st-justa/), and
 then the rest of the [Twelve Faithful
-Servants](/the-twelve-faithful-servants/).
+Servants](/the-twelve-faithful-servants/) (as I came to call them).
 
 The wider question was: who are _all_ the individuals in the Gospels, and how do
 they relate to Christ? For surely Christ is the center of the Gospels, as He is
