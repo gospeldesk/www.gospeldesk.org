@@ -1,6 +1,6 @@
 ---
 title: Toward a Synaxis of the Gospels
-excerpt: I made a drawing of all the individuals in the Gospels, arranged hierarchically. Could this be a new icon?
+excerpt: I made a drawing of all the individuals in the Gospels, arranged hierarchically. Could this lead to an icon?
 ---
 
 I have an idea for an icon, which I am calling the "Synaxis of the Gospels." I am
