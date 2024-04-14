@@ -345,7 +345,9 @@ article {
     }
     h4 {
       font: bold 12pt/17pt Sen;
+      text-transform: uppercase;
       margin: 18pt 0 6pt;
+      color: var(--gray);;
     }
     h3 + h4 {
       margin-top: 0
