@@ -44,7 +44,7 @@ myself inhabit several group identities, I exist before God first as a unique
 individual. I wanted to better understand my own relationship with God by
 meditating on the Gospel record of His interactions with individuals _as
 individuals_. This led me in 2008 to an appreciation for [St. Justa, the
-Canaanite Woman](http://localhost:4000/the-twelve-faithful-servants/st-justa/). Revisiting this question in 2018 led me to recognize and name the
+Canaanite Woman](/the-twelve-faithful-servants/st-justa/). Revisiting this question in 2018 led me to recognize and name the
 [Twelve Faithful Servants](/the-twelve-faithful-servants/).
 
 In 2022, a friend invited me to add a page to a notebook of poems, artwork,
