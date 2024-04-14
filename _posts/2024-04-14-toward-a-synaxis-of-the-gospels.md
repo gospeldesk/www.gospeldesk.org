@@ -1,6 +1,6 @@
 ---
 title: Toward a Synaxis of the Gospels
-excerpt: I made a drawing of all the individuals in the Gospels, arranged hierarchically.
+excerpt: I made a drawing of all the individuals in the Gospels, arranged hierarchically. Could this be a new icon?
 ---
 
 I have an idea for an icon, which I am calling the "Synaxis of the Gospels." I am
@@ -222,8 +222,8 @@ know](mailto:chad@zetaweb.com) if you find others missing.)
 My hope is that the Synaxis of the Gospels can help us more clearly see the
 first flush of the communion of saints in the Gospels. I believe these saints
 want us to know them better, to follow them as they follow Christ. May those
-individuals who encountered Christ in His first coming guide us In our
-individualistic age, 
+individuals who encountered Christ in His first coming guide us in our
+individualistic age.
 
 If the Synaxis of the Gospels is not of God, may it be rejected and
 forgotten. If genuine, may we see this icon emerge within
