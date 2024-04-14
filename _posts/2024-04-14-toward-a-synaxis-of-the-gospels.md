@@ -34,7 +34,7 @@ the center of the whole cosmos, and of our own lives. I did a study on this in 2
 
 ---
 
-<a href="first-study.webp"><img src="first-study.640.webp"></a>
+<a href="./first-study.webp"><img src="./first-study.640.webp"></a>
 
 ---
 
@@ -95,19 +95,19 @@ centrality of Christ in the communion of His saints.
   <tr>
     <td>
       <a href="https://www.oca.org/saints/lives/2020/06/14/48-synaxis-of-all-saints">
-        <img src="synaxis-all-saints.jpg">
+        <img src="./synaxis-all-saints.jpg">
         Synaxis of All Saints
       </a>
     </td>
     <td>
       <a href="https://www.oca.org/saints/lives/2017/06/18/49-synaxis-of-the-saints-of-north-america">
-        <img src="synaxis-north-america.jpg">
+        <img src="./synaxis-north-america.jpg">
         Synaxis of the Saints of North America
       </a>
     </td>
     <td>
       <a href="https://www.oca.org/saints/lives/2024/11/08/103244-synaxis-of-the-archangel-michael-and-the-other-bodiless-powers">
-        <img src="synaxis-bodiless.jpg">
+        <img src="./synaxis-bodiless.jpg">
         Synaxis of the Archangel Michael and the Other Bodiless Powers
       </a>
     </td>
@@ -115,19 +115,19 @@ centrality of Christ in the communion of His saints.
   <tr>
     <td>
       <a href="https://www.oca.org/saints/lives/2018/12/26/103648-synaxis-of-the-most-holy-mother-of-god">
-        <img src="synaxis-theotokos.jpg">
+        <img src="./synaxis-theotokos.jpg">
         Synaxis of the Theotokos
       </a>
     </td>
     <td>
       <a href="https://www.oca.org/saints/lives/2023/02/19/5-sunday-of-meatfare-of-the-last-judgment">
-        <img src="last-judgement.jpg">
+        <img src="./last-judgement.jpg">
         The Last Judgement
       </a>
     </td>
     <td>
       <a href="https://www.oca.org/orthodoxy/the-orthodox-faith/worship/the-divine-liturgy/prothesis">
-        <img src="proskomedia.jpg">
+        <img src="./proskomedia.jpg">
         The Proskomedia or Prothesis
       </a>
     </td>
