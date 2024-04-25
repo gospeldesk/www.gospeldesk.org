@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign year = page.date | date: '%Y' %}
-{% if year == '0000' %}
+{% if page.noindex %}
 <div class="draft">Draft</div>
 {% endif %}
 <header>
