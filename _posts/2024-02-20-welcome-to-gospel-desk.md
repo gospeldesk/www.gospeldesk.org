@@ -1,7 +1,6 @@
 ---
 title: Welcome to Gospel Desk
 excerpt: Gospel Desk is an Orthodox Christian blog by Chad Whitacre, to participate in the life of the Church.
-image: /2024/welcome-to-gospel-desk/social.webp
 ---
 
 Greetings! Welcome to Gospel Desk. My purpose with this blog is to participate

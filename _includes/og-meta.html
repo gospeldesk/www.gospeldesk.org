@@ -5,10 +5,14 @@
 <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ page.subtitle }}{% endif %}">
 
 {% assign section = page.url | remove_first: '/' | split: '/' | first %}
+{% assign first_two = section | slice: 0, 2 %}
 
 {% if page.image %}
 <meta property="og:image"       content="{{ site.url }}{{ page.image }}">
 <meta property="og:image:alt"   content="{% if page.image_alt %}{{ page.image_alt }}{% else %}{{ page.title }}{% endif %}">
+{% elsif first_two == '20' %}
+<meta property="og:image"       content="{{ site.url }}{{ page.url }}social.webp">
+<meta property="og:image:alt"   content="{{ page.title }}">
 {% elsif section == 'the-twelve-faithful-servants' %}
 <meta property="og:image"       content="{{ site.url }}/the-twelve-faithful-servants/default.png">
 <meta property="og:image:alt"   content="new icon forthcoming, God willing">
