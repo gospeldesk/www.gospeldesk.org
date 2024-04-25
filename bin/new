@@ -1,0 +1,22 @@
+#!/usr/bin/env zsh
+if [ "$#" -eq 0 ]; then
+  echo "What title?"
+  exit
+fi
+
+title="$@"
+year=$(date +"%Y")
+slug=$(echo "$title" | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
+post_dir="$year/$slug"
+mkdir -p "$post_dir"
+
+filename="$post_dir/index.md"
+echo "---" > $filename
+echo "title: $title" >> $filename
+echo "excerpt: Foo."  >> $filename
+echo "noindex: true" >> $filename
+echo "---" >> $filename
+echo '<img src="./social.webp">' >> $filename
+
+cp social.webp "$post_dir/"
+git add "$post_dir"
