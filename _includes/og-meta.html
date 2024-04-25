@@ -8,7 +8,7 @@
 
 {% if page.image %}
 <meta property="og:image"       content="{{ site.url }}{{ page.image }}">
-<meta property="og:image:alt"   content="{{ page.image_alt }}">
+<meta property="og:image:alt"   content="{% if page.image_alt %}{{ page.image_alt }}{% else %}{{ page.title }}{% endif %}">
 {% elsif section == 'the-twelve-faithful-servants' %}
 <meta property="og:image"       content="{{ site.url }}/the-twelve-faithful-servants/default.png">
 <meta property="og:image:alt"   content="new icon forthcoming, God willing">
