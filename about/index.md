@@ -111,7 +111,7 @@ Thanks for visiting! Glory to God for all things! ✚
   <a class="post" href="https://www.youtube.com/watch?v=op-G-1JuXOg">
     <h3>Computer in My Pocket</h3>
     <div class="excerpt">
-    A meditation on meditation.
+    A meditation on meditation
     </div>
   </a>
 </div>
