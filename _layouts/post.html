@@ -8,8 +8,8 @@ layout: default
 <header>
   <h2>{{ page.title }}</h2>
   <div class="meta">
-    By <a href="/about/">Chad Whitacre</a> ❧ Published on {{
-    page.date | date: '%B %e, %Y' }}
+    By <a href="/about/">Chad Whitacre</a> ❧ {% if page.date %}Published on {{
+    page.date | date: '%B %e, %Y' }}{% else %}Unpublished{% endif %}
   </div>
   <div class="tldr"><img src="/assets/images/tldr.webp">{{ page.excerpt }}</div>
 </header>

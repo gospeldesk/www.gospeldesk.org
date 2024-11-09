@@ -15,6 +15,7 @@ echo "---" > $filename
 echo "title: $title" >> $filename
 echo "excerpt: Foo."  >> $filename
 echo "noindex: true" >> $filename
+echo "layout: post" >> $filename
 echo "---" >> $filename
 echo '<img src="./social.webp">' >> $filename
 
