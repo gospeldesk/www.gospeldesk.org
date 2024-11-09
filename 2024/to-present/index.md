@@ -73,5 +73,3 @@ us was the only person in the world to him when we were together.
 
 I want to pour myself out, so that on the Last Day I can rejoice when you stand
 before Christ and He says to you, "Well done, good and faithful servant!"
-
-<img src="./social.webp">
