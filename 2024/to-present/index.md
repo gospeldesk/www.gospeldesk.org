@@ -69,7 +69,6 @@ biology teacher, a mentor to several generations of high school and college
 students. I never had him for class. We got to be friends later, through our
 Anglican parish. After a couple breakfasts at Eat'n Park, it dawned on me that
 Ed had three breakfasts a day, five days a week—or so it seemed—and each one of
-us was the only person in the world to him when we were together.
-
-I want to pour myself out, so that on the Last Day I can rejoice when you stand
+us was the only person in the world to him when we were together. I want to
+pour myself out like that, so that on the Last Day I can rejoice when you stand
 before Christ and He says to you, "Well done, good and faithful servant!"
