@@ -61,7 +61,7 @@ dinner. This happens on the street and in the hospital.
 At my day job I'm deep in the world of high tech, awash in different visions of
 the future and human personhood, competing claims of allegiance. What unites
 them all is atheism. DEI. AGI. The singularity. The simulation. Rebuilding
-cities. Building new cities. Escaping to space. Accelerating this. Accelerating
+cities. Building new cities. Escaping to space. Accelerating this. Conserving
 that. Chasing dreams. For what? It's all empty. There's no knowledge of God.
 There's no prayer. There's no humility. There's no repentance. There's no
 self-denial. There's no ascesis. There's no growth in holiness, no escape from
@@ -72,17 +72,17 @@ Except when it isn't. The Holy Spirit is everywhere present and fills all
 things. As I write, I'm thinking of individuals I encounter in my work that
 lift my spirits, that exhibit the fruit of the Spirit. I'm also thinking of
 conversations God has brought about in recent years, when I've spent time with
-colleagues in person. "So, Chad, what makes you tick? Is it faith?" "So, Chad,
+colleagues face to face. "So, Chad, what makes you tick? Is it faith?" "So, Chad,
 are people religious in Pittsburgh?" "Chad, I've never told this to anyone,
 not even my wife."
 
 Making tents is good. Worshiping tents is bad. I want to worship God. I want to
 be holy. I want to be present to the people in front of me—physically in front
 of me. I want to love them and lay down my life for them. I'm bad at it and I
-want to get better every day—every perfect, holy, peaceful, and sinless day. I want
-to sharpen and be sharpened, with iron. In the end, I want for us to present
-each other—by the power and grace of the Holy Spirit, together with all the
-saints and the hosts of heaven—as pure offerings to God on the Day of Christ.
-To Him be all glory, honor, and worship, of the Father and of the Son and of
-the Holy Spirit, both now and ever and unto the ages of ages! Amen! Lord have
-mercy!
+want to get better every day. I want to sharpen and be sharpened, with iron.
+
+In the end, I want for us to present each other—by the power and grace of the
+Holy Spirit, together with all the saints—as pure offerings to God on the Day
+of Christ.  To Him be all glory, honor, and worship, of the Father and of the
+Son and of the Holy Spirit, both now and ever and unto the ages of ages! Amen!
+Lord have mercy!
