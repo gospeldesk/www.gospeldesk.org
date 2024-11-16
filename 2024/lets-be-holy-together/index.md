@@ -1,6 +1,6 @@
 ---
 title: Let's Be Holy Together
-excerpt: Through the grace of the Holy Spirit, let's present each other as pure offerings to God on the Day of Christ. 
+excerpt: Through the grace of the Holy Spirit, let's present each other as pure offerings to God on the Day of Christ.
 noindex: true
 layout: post
 ---
@@ -8,7 +8,7 @@ layout: post
 Nothing helps with focus like a deadline, and there's no deadline like death.
 My own is inching closer. Third quarter, God willing. Middle age. [My dad
 died](https://singinghome.com/). Several friends as well. What
-matters? What am I about?  
+matters? What am I about?
 
 I received an answer fifteen years ago, a particular phrase that has stuck with
 me: "to present each other as pure offerings to God on the Day of Christ." I
@@ -31,7 +31,7 @@ This phrase or intention is mostly distilled from Philippians 2:12-18:
 > service of your faith, I am glad and rejoice with you all. For the same
 > reason you also be glad and rejoice with me.
 
-We each stand alone at the last. Yet St. Paul indicates that we 
+We each stand alone at the last. Yet St. Paul indicates that we
 witness each other's judgement in some way. He expects to rejoice in
 _their_ salvation on the Day of Christ. Now, we are all members of one another.
 Life is a gift. Time is ours from God. How else to spend it than working out
@@ -46,7 +46,7 @@ recognize that our relationships are not static. God is working in our lives,
 through each other. The time I spend with my loved ones is most valuable when I
 am actively working to love them more fully with the love of God, to see them
 as God sees them. We might also expand the sentiment to elevate the Divine
-Liturgy, time spent with friends and family _in communion with God_. 
+Liturgy, time spent with friends and family _in communion with God_.
 
 Love God with all my heart, mind, soul, and strength. Love my neighbor as
 myself. Love one another as Christ loved us. Love my wife as Christ loved the
@@ -60,7 +60,7 @@ dinner. This happens on the street and in the hospital.
 
 At my day job I'm deep in the world of high tech, awash in different visions of
 the future and human personhood, competing claims of allegiance. What unites
-them all is atheism.  DEI. AGI. The singularity. The simulation. Rebuilding
+them all is atheism. DEI. AGI. The singularity. The simulation. Rebuilding
 cities. Building new cities. Escaping to space. Accelerating this. Accelerating
 that. Chasing dreams. For what? It's all empty. There's no knowledge of God.
 There's no prayer. There's no humility. There's no repentance. There's no
