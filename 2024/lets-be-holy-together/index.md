@@ -10,7 +10,7 @@ My own is inching closer. Third quarter, God willing. Middle age. [My dad
 died](https://singinghome.com/). Several friends as well. What
 matters? What am I about?
 
-I received an answer fifteen years ago, a particular phrase that has stuck with
+I found an answer fifteen years ago, a particular phrase that has stuck with
 me: "to present each other as pure offerings to God on the Day of Christ." I
 want to be holy, and not holier _than_ thou—holier _with_ thou, by God's grace.
 
