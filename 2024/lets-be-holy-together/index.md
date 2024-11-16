@@ -31,11 +31,11 @@ This phrase or intention is mostly distilled from Philippians 2:12-18:
 > service of your faith, I am glad and rejoice with you all. For the same
 > reason you also be glad and rejoice with me.
 
-We each stand alone at the last. Yet St. Paul indicates that we
-witness each other's judgement in some way. He expects to rejoice in
-_their_ salvation on the Day of Christ. Now, we are all members of one another.
-Life is a gift. Time is ours from God. How else to spend it than working out
-our own salvation, together?
+We each stand alone at the last. Yet St. Paul indicates that we witness each
+other's judgement in some way. He expects to rejoice in _their_ salvation on
+the Day of Christ. Now, we are all members of one another. Life is a gift. Our
+time is from God. How else to spend it than working out our own salvation,
+together?
 
 ### Spending Time
 
