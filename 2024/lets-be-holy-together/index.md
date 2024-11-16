@@ -6,8 +6,8 @@ layout: post
 ---
 
 Nothing helps with focus like a deadline, and there's no deadline like death.
-My own is coming closer. I'm in quarter three, God willing. Middle age. [My dad
-died](https://singinghome.com/) recently. Several friends as well. What
+My own is inching closer. Third quarter, God willing. Middle age. [My dad
+died](https://singinghome.com/). Several friends as well. What
 matters? What am I about?  
 
 I received an answer fifteen years ago, a particular phrase that has stuck with
@@ -32,7 +32,7 @@ This phrase or intention is mostly distilled from Philippians 2:12-18:
 > reason you also be glad and rejoice with me.
 
 We each stand alone at the last. Yet St. Paul indicates that we 
-observe or witness each other's judgement. He expects to rejoice in
+witness each other's judgement in some way. He expects to rejoice in
 _their_ salvation on the Day of Christ. Now, we are all members of one another.
 Life is a gift. Time is ours from God. How else to spend it than working out
 our own salvation, together?
@@ -69,21 +69,20 @@ my own sin. There's only swirling mire, crooked and perverse. All is done with
 complaining and disputing.
 
 Except when it isn't. The Holy Spirit is everywhere present and fills all
-things. As I write I'm thinking of individuals I encounter in my work that lift
-my spirits, that exhibit the fruit of the Spirit. I'm also thinking of
-conversations God has brought about in recent years, when I've been able to
-meet colleagues in person. "So, Chad, what makes you tick? Is it faith?" "So,
-Chad, are people really religious in Pittsburgh?" "I've never told this to
-anyone, not even my wife."
+things. As I write, I'm thinking of individuals I encounter in my work that
+lift my spirits, that exhibit the fruit of the Spirit. I'm also thinking of
+conversations God has brought about in recent years, when I've spent time with
+colleagues in person. "So, Chad, what makes you tick? Is it faith?" "So, Chad,
+are people religious in Pittsburgh?" "Chad, I've never told this to anyone,
+not even my wife."
 
 Making tents is good. Worshiping tents is bad. I want to worship God. I want to
 be holy. I want to be present to the people in front of me—physically in front
 of me. I want to love them and lay down my life for them. I'm bad at it and I
-want to get better at it every perfect, holy, peaceful, and sinless day. I want
+want to get better every day—every perfect, holy, peaceful, and sinless day. I want
 to sharpen and be sharpened, with iron. In the end, I want for us to present
 each other—by the power and grace of the Holy Spirit, together with all the
 saints and the hosts of heaven—as pure offerings to God on the Day of Christ.
-
 To Him be all glory, honor, and worship, of the Father and of the Son and of
 the Holy Spirit, both now and ever and unto the ages of ages! Amen! Lord have
 mercy!
