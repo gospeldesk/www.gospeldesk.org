@@ -84,5 +84,4 @@ want to get better every day. I want to sharpen and be sharpened, with iron.
 In the end, I want for us to present each other—by the power and grace of the
 Holy Spirit, together with all the saints—as pure offerings to God on the Day
 of Christ. To Him be all glory, honor, and worship, of the Father and of the
-Son and of the Holy Spirit, both now and ever and unto the ages of ages! Amen!
-Lord have mercy!
+Son and of the Holy Spirit, now and ever and unto the ages of ages! Amen!
