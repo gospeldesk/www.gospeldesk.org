@@ -51,10 +51,10 @@ Liturgy, time spent with friends and family _in communion with God_.
 Love God with all my heart, mind, soul, and strength. Love my neighbor as
 myself. Love one another as Christ loved us. Love my wife as Christ loved the
 Church. Love my enemies and pray for those who persecute me. This is how I work
-out my own salvation with fear and trembling. This doesn't happen online. This
-happens in person, face-to-face. This happens in my household, in our house.
-This happens in my parish, in our parish hall. This happens at coffee and over
-dinner. This happens on the street and in the hospital.
+out my own salvation with fear and trembling. This doesn't happen online, for
+me. This happens in person, face-to-face. This happens in my household, in our
+house. This happens in my parish, in our parish hall. This happens at coffee
+and over dinner. This happens on the street and in the hospital.
 
 ### Nothing Else Matters
 
