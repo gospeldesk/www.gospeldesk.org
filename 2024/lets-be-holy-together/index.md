@@ -45,7 +45,7 @@ more highly. There's truth there. To complete the sentiment, we should
 recognize that our relationships are not static. God is working in our lives,
 through each other. The time I spend with my loved ones is most valuable when I
 am actively working to love them more fully with the love of God, to see them
-as God sees them. We might also expand the sentiment to elevate the Divine
+as God sees them. We might also elevate the sentiment to include the Divine
 Liturgy, time spent with friends and family _in communion with God_.
 
 Love God with all my heart, mind, soul, and strength. Love my neighbor as
@@ -80,7 +80,7 @@ not even my wife."
 Making tents is good. Worshiping tents is bad. I want to worship God. I want to
 be holy. I want to be present to the people in front of me—physically in front
 of me. I want to love them and lay down my life for them. I'm bad at it and I
-want to get better every day. I want to sharpen and be sharpened, with iron.
+want to get better every day. I want to sharpen and be sharpened, like iron.
 
 In the end, I want for us to present each other—by the power and grace of the
 Holy Spirit, together with all the saints—as pure offerings to God on the Day
