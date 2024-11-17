@@ -10,9 +10,9 @@ My own is inching closer. Third quarter, God willing. Middle age. [My dad
 died](https://singinghome.com/). Several friends as well. What
 matters? What am I about?
 
-I found an answer fifteen years ago, a particular phrase that has stuck with
-me: "to present each other as pure offerings to God on the Day of Christ." I
-want to be holy, and not holier _than_ thou—holier _with_ thou, by God's grace.
+I found an answer fifteen years ago, a particular phrase that stuck with me:
+"to present each other as pure offerings to God on the Day of Christ." I want
+to be holy; not holier _than_ thou, but holier _with_ thou, by God's grace.
 
 This phrase or intention is mostly distilled from Philippians 2:12-18:
 
