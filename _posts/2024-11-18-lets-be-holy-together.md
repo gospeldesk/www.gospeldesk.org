@@ -1,8 +1,6 @@
 ---
 title: Let's Be Holy Together
 excerpt: Through the grace of the Holy Spirit, let's present each other as pure offerings to God on the Day of Christ.
-noindex: true
-layout: post
 ---
 
 Nothing helps with focus like a deadline, and there's no deadline like death.
