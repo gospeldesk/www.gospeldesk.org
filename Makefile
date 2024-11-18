@@ -2,7 +2,9 @@
 # Also update in Gemfile.
 bundle := /opt/homebrew/Cellar/ruby@2.7/2.7.8_1/bin/bundle
 
-default: bundle
+default: bundle run
+
+run:
 	$(bundle) exec jekyll serve --host 0.0.0.0 --livereload --drafts --future
 
 bundle: ruby
