@@ -6,9 +6,9 @@ layout: post
 ---
 
 Nothing helps with focus like a deadline, and there's no deadline like death.
-My own is inching closer. Third quarter, God willing. Middle age. [My dad
-died](https://singinghome.com/). Several friends as well. What
-matters? What am I about?
+[My dad died](https://singinghome.com/). Several friends as well. My end is
+drawing closer. Third quarter, God willing. Middle age. What matters? What am
+I about?
 
 I found an answer fifteen years ago, a particular phrase that stuck with me:
 "to present each other as pure offerings to God on the Day of Christ." I want
