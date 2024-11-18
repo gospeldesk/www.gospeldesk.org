@@ -43,7 +43,7 @@ more highly. There's truth there. To complete the sentiment, we should
 recognize that our relationships are not static. God is working in our lives,
 through each other. The time I spend with my loved ones is most valuable when I
 am actively working to love them more fully with the love of God, to see them
-as God sees them. We might also elevate the sentiment to include the Divine
+as God sees them. We might also expand the sentiment to elevate  the Divine
 Liturgy, time spent with friends and family _in communion with God_.
 
 Love God with all my heart, mind, soul, and strength. Love my neighbor as
