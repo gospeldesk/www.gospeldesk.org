@@ -77,7 +77,7 @@ not even my wife."
 
 Making tents is good. Worshiping tents is bad. I want to worship God. I want to
 be holy. I want to be present to the people in front of me—physically in front
-of me. I want to love them and lay down my life for them. I'm bad at it and I
+of me. I want to love them and pour out my life for them. I'm bad at it and I
 want to get better every day. I want to sharpen and be sharpened, like iron.
 
 In the end, I want for us to present each other—by the power and grace of the
