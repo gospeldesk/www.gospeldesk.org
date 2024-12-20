@@ -10,8 +10,8 @@ There are seven ways to relate to God:
 
 1. Enemy
 2. Stranger
-3. Creature
 4. Slave or Servant
-5. Child or Brother
+5. Disciple
 6. Friend
+5. Child or Brother
 7. God
