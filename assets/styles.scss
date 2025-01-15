@@ -358,7 +358,8 @@ article {
     h4 + p,
     div + p,
     hr + p,
-    br + p {
+    br + p,
+    script + p {
         text-indent: 0;
     }
     .half + p {
@@ -522,6 +523,10 @@ article {
           height: 100%;
         }
       }
+    }
+
+    .glide, .image {
+      margin: 12pt 0;
     }
 
     .read-more {
@@ -725,4 +730,12 @@ table.faithful-servants {
   #too-small {
     display: block;
   }
+}
+
+/* glide override */
+.glide__arrow--left {
+  left: 2em;
+}
+.glide__arrow--right {
+  right: 2em;
 }
