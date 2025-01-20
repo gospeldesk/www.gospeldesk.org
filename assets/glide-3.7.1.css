@@ -47,6 +47,7 @@
 .glide__arrows {
   -webkit-touch-callout: none;
   user-select: none;
+  text-align: center;
 }
 .glide__bullets {
   -webkit-touch-callout: none;
@@ -58,35 +59,37 @@
 
 /* https://unpkg.com/@glidejs/glide@3.7.1/dist/css/glide.theme.css */
 .glide__arrow {
-  position: absolute;
-  display: block;
-  top: 50%;
-  z-index: 2;
-  color: white;
+  position: relative;
+  color: var(--white);
   text-transform: uppercase;
-  padding: 9px 12px;
   background-color: var(--gold);
   border: none;
-  border-radius: 4px;
-  opacity: 1;
   cursor: pointer;
-  transform: translateY(-50%);
-  line-height: 2.5em;;
+  line-height: 2em;;
   text-align: center;
-  width: 2.5em;
-  height: 5em;
+  margin: 20px;
+}
+.glide__arrow span {
+  border: solid var(--white);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+}
+
+.glide__arrow--right span {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.glide__arrow--left span {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }
 .glide__arrow:focus {
   outline: none;
 }
 .glide__arrow:hover {
   border-color: white;
-}
-.glide__arrow--left {
-  left: -3.25em;
-}
-.glide__arrow--right {
-  right: -3.25em;
 }
 .glide__arrow--disabled {
   opacity: 0.33;
