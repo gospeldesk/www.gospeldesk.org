@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
+import csv
 import json
+
+out = csv.writer(open('pericopes-by-verse.csv', 'w+'))
 
 def parse_verse(v):
     b,c,v = v.strip().split('.')
@@ -40,16 +43,18 @@ for rec in calendarium:
                 cur = next(cursor)
             except StopIteration:
                 break
-            if cur[1:3] > (end_chapter, end_verse):
+            if cur[0] != book or cur[1:3] > (end_chapter, end_verse):
                 break
             pericopes_by_verse[cur].append(pk)
 
+out.writerow([''] + list(range(1, 398)))
 for b,c,v in all_verses:
     pericopes = pericopes_by_verse[(b,c,v)]
     print(f'{b} {c:>2}:{v:<3}', ', '.join([str(pk) for pk in pericopes]) if pericopes else 'MISSING')
+    row = ['' for i in list(range(1, 398))]
+    for pk in pericopes:
+        row[pk-1] = '█'
+    out.writerow([f'{b} {c:>2}:{v:<3}'] + row)
 
-# Missing:
-#  Matt  3:12
-#  Matt  4:24
-#  Matt 12:9
-#  Matt 22:1
+# Asked about missing:
+#   https://github.com/brianglass/orthocal-python/issues/116
