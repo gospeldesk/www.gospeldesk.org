@@ -8,6 +8,9 @@ exclude:
   - "Makefile"
   - "README.md"
   - "bin"
+  - "vendor"
+  - "explore/readings.py"
+  - "explore/verses.txt"
 defaults:
   -
     scope:
