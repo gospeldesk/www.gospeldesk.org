@@ -3,44 +3,16 @@ title: Explore
 noindex: true
 ---
 
-# Liturgical Readings
+Passages from the Gospels are read at services throughout the year. Visit
+[Orthocal](https://orthocal.info/) to explore by date. Explore passage by
+passage below.
 
-- Reference - Matthew 1:1-5
-- Text - 
-- Pericopes - 
-- Upcoming Dates (one year, updated weekly)
-- People
-
-
-
-
-# Full Pericopes
-
-- Reference - Matthew 1:1-5
-- Text - 
-- Readings
-
-# People
-
-- Pericopes
-- Readings
-- Synaxarion
-- Icons
-- Commentary
-- Parishes and Monasteries
-
-# Groups
-
-- Divinity
-- Heavenly Host
-- Predecessors
-- Seventy Apostles
-- Deisis
-- Twelve Apostles
-- Myrrhbearing Women
-- Twelve Faithful Servants
-- Second Rank
-- Third Rank
-- Multitude
-- Nature
-- Outcast
+<ol>
+{% for reading in site.data.readings %}
+  <li>
+    <a href="./{{ reading.pk }}/">
+      {{ reading.name }}
+    </a>
+  </li>
+{% endfor %}
+</ol>

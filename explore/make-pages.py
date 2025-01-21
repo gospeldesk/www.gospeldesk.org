@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
 import csv
+import datetime
 import json
 from collections import defaultdict
 
-GOSPELS = 'Matt Mark Luke John'.split()
+GOSPELS = 'Matthew Mark Luke John'.split()
+nav = csv.writer(open('../_data/readings.csv', 'w+'))
+nav.writerow(('pk', 'name'))
 dates = csv.reader(open('dates-by-pericope.csv'))
+next(dates)  # skip headers
 calendarium = json.load(open('../vendor/orthocal-python/fixtures/calendarium.json'))
 
 by_pericope = defaultdict(list)
-for date, pericope, service in dates:
-    by_pericope[pericope].append((date, service))
+for pericope, date, service in dates:
+    by_pericope[int(pericope)].append((date, service))
 
 def parse_chapter_verse(cv):
     return int(cv[:-3]), int(cv[-3:])
@@ -17,25 +21,26 @@ def parse_chapter_verse(cv):
 for rec in calendarium:
     if rec['model'] != 'calendarium.pericope':
         continue
-    rec['fields']['book'] not in GOSPELS:
+    if rec['fields']['book'] not in GOSPELS:
         continue
-    pk = rec['pk']
+    pk = int(rec['pk'])
     name = rec['fields']['display']
+    nav.writerow((pk, name))
     fp = open(f'{pk}.md', 'w+')
+    s = '' if by_pericope[pk] == 1 else 's'
     print(f'''\
 ---
 title: {name}
 pk: {pk}
+noindex: true
 ---
 
-## Upcoming Services
+### Upcoming Services
 
-God willing, this Gospel will be proclaimed at the following services:
+God willing, this Gospel will be proclaimed at the following service{s} over the next year:
 
 ''', file=fp)
     for date, service in by_pericope[pk]:
-        if service == 'Liturgy':
-            service = ''
-        else:
-            service = f'({service})'
-        print(f'1. {date}{service}', file=fp)
+        date = datetime.date(*map(int, date.split('-')))
+        url = f'https://orthocal.info/readings/gregorian/{date.strftime("%Y/%m/%d")}/'
+        print(f'1. {service} on [{date.strftime("%B, %e, %Y")}]({url})', file=fp)
