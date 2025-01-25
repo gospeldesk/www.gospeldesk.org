@@ -48,13 +48,17 @@ for rec in calendarium:
             pericopes_by_verse[cur].append(pk)
 
 out.writerow([''] + list(range(1, 398)))
+txt = open('annotated-verses.txt', 'w+')
 for b,c,v in all_verses:
     pericopes = pericopes_by_verse[(b,c,v)]
-    print(f'{b} {c:>2}:{v:<3}', ', '.join([str(pk) for pk in pericopes]) if pericopes else 'MISSING')
     row = ['' for i in list(range(1, 398))]
+    pks = []
     for pk in pericopes:
         row[pk-1] = '█'
+        pks.append(str(pk))
     out.writerow([f'{b} {c:>2}:{v:<3}'] + row)
+    pks = '·'.join(pks) if pks else '-'
+    print(f'{b} {c:>2} {v:>2} {pks:>15} -', file=txt)
 
 # Asked about missing:
 #   https://github.com/brianglass/orthocal-python/issues/116
