@@ -5,7 +5,7 @@ import json
 out = csv.writer(open('pericopes-by-verse.csv', 'w+'))
 
 def parse_verse(v):
-    b,c,v = v.strip().split('.')
+    b,c,v = v.strip().split(None, 2)
     v = v.split()[0]
     c = int(c)
     v = int(v)
