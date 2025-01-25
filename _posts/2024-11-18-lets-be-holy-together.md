@@ -10,9 +10,17 @@ I about?
 
 I found an answer fifteen years ago, a particular phrase that stuck with me:
 "to present each other as pure offerings to God on the Day of Christ." I want
-to be holy, and not holier _than_ thou—holier _with_ thou, by God's grace.
+to be holy, and not holier _than_ thou—holier _with_ thou, by God's grace
+working in and through us.
 
-This phrase or intention is mostly distilled from Philippians 2:12-18:
+The phrase distills two passages from the Apostle Paul. The first is Colossians
+1:28-29:
+
+> Him we preach, warning every man and teaching every man in all wisdom, that
+> we may present every man perfect in Christ Jesus. To this end I also labor,
+> striving according to His working which works in me mightily.
+
+The second is Philippians 2:12-18:
 
 > Therefore, my beloved, as you have always obeyed, not as in my presence only,
 > but now much more in my absence, work out your own salvation with fear and
@@ -31,9 +39,10 @@ This phrase or intention is mostly distilled from Philippians 2:12-18:
 
 We each stand alone at the last. Yet St. Paul indicates that we witness each
 other's judgement in some way. He expects to rejoice in _their_ salvation on
-the Day of Christ. Now, we are all members of one another. Life is a gift. Our
-time is from God. How else to spend it than working out our own salvation,
-together?
+the Day of Christ. Beyond passively witnessing the event, we can actively
+_present_ each other to God. Love of God and love of neighbor are one love. We
+offer ourselves in sacrified to God and to each other, and we offer each other
+to God.
 
 ### Spending Time
 
@@ -43,7 +52,7 @@ more highly. There's truth there. To complete the sentiment, we should
 recognize that our relationships are not static. God is working in our lives,
 through each other. The time I spend with my loved ones is most valuable when I
 am actively working to love them more fully with the love of God, to see them
-as God sees them. We might also expand the sentiment to elevate  the Divine
+as God sees them. We might also elevate the sentiment to recognize the Divine
 Liturgy, time spent with friends and family _in communion with God_.
 
 Love God with all my heart, mind, soul, and strength. Love my neighbor as
