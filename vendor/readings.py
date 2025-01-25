@@ -12,7 +12,7 @@ def parse_verse(v):
     return b,c,v
 
 pericopes_by_verse = dict()
-calendarium = json.load(open('../vendor/orthocal-python/fixtures/calendarium.json'))
+calendarium = json.load(open('orthocal-python/fixtures/calendarium.json'))
 all_verses = [parse_verse(line) for line in open('verses.txt')]
 for verse in all_verses:
     pericopes_by_verse[verse] = []

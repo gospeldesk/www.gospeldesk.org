@@ -7,18 +7,23 @@ from collections import defaultdict
 GOSPELS = 'Matthew Mark Luke John'.split()
 nav = csv.writer(open('../_data/readings.csv', 'w+'))
 nav.writerow(('pk', 'name'))
-dates = csv.reader(open('dates-by-pericope.csv'))
-next(dates)  # skip headers
-calendarium = json.load(open('../vendor/orthocal-python/fixtures/calendarium.json'))
+services_csv = csv.reader(open('services.csv'))
+readings_csv = csv.reader(open('readings.csv'))
+next(services_csv), next(readings_csv) # skip headers
+calendarium_json = json.load(open('orthocal-python/fixtures/calendarium.json'))
 
-by_pericope = defaultdict(list)
-for pericope, date, service in dates:
-    by_pericope[int(pericope)].append((date, service))
+services_by_pericope_id = defaultdict(list)
+for pericope_id, date, service in services_csv:
+    services_by_pericope_id[int(pericope_id)].append((date, service))
+
+readings_by_pericope_id = defaultdict(list)
+for pericope_id, reading in readings_csv:
+    readings_by_pericope_id[int(pericope_id)] = reading
 
 def parse_chapter_verse(cv):
     return int(cv[:-3]), int(cv[-3:])
 
-for rec in calendarium:
+for rec in calendarium_json:
     if rec['model'] != 'calendarium.pericope':
         continue
     if rec['fields']['book'] not in GOSPELS:
@@ -26,21 +31,26 @@ for rec in calendarium:
     pk = int(rec['pk'])
     name = rec['fields']['display']
     nav.writerow((pk, name))
-    fp = open(f'{pk}.md', 'w+')
-    s = '' if by_pericope[pk] == 1 else 's'
+    fp = open(f'../explore/{pk}.md', 'w+')
+    services = services_by_pericope_id[pk]
+    s = '' if services_by_pericope_id[pk] == 1 else 's'
+    reading = readings_by_pericope_id[pk]
     print(f'''\
 ---
 title: {name}
 pk: {pk}
+permalink: /explore/{pk}/
 noindex: true
 ---
+
+{reading}
 
 ### Upcoming Services
 
 God willing, this Gospel will be proclaimed at the following service{s} over the next year:
 
 ''', file=fp)
-    for date, service in by_pericope[pk]:
+    for date, service in services_by_pericope_id[pk]:
         date = datetime.date(*map(int, date.split('-')))
         url = f'https://orthocal.info/readings/gregorian/{date.strftime("%Y/%m/%d")}/'
         print(f'1. {service} on [{date.strftime("%B, %e, %Y")}]({url})', file=fp)
