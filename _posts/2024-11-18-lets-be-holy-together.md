@@ -41,7 +41,7 @@ We each stand alone at the last. Yet St. Paul indicates that we witness each
 other's judgement in some way. He expects to rejoice in _their_ salvation on
 the Day of Christ. Beyond passively witnessing the event, we can actively
 _present_ each other to God. Love of God and love of neighbor are one love. We
-offer ourselves in sacrified to God and to each other, and we offer each other
+offer ourselves in sacrifice to God and to each other, and we offer each other
 to God.
 
 ### Spending Time
