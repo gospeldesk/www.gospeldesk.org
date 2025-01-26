@@ -2,10 +2,30 @@ annotated-verses.txt
 --------------------
 
 one line per verse
-tagged with all personal subjects and objects of all verbs
+  tagged with all personal subjects and objects of all verbs
 
-peoples - bethlehem judaea jerusalem israel east
-multitude - 
+each verb is a scene
+  who is present in the scene - frames
+    - narrator/author always present
+    - subject, object, others also present
+    - not present but referred to
+      - by narrator
+      - by character
+    - can recurse when narrator/character quotes a prophet
+      - prophet becomes narrator/author
+
+      dialogue
+      prophecy
+      dialogue + prophecy
+
+- first reading - justa
+- second reading - by English section
+- third reading - by English verse
+- fourth reading - SBLGNT - by verb
+
+nature - sea stones bread wheat chaff dove ... a lot of this, some as character
+peoples ~= places - bethlehem judaea jerusalem israel east
+multitude - as multitude
 group - scribes chief-priests pharisees
 small-group - wise-men shepherds
 anon - 

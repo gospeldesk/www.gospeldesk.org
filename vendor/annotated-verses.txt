@@ -15,7 +15,7 @@
               1 Matt  1 15 - eliud eleazar matthan jacob
               1 Matt  1 16 - jacob joseph theotokos jesus
               1 Matt  1 17 -  
-            1·2 Matt  1 18 - theotokos joseph jesus holy-ghost
+            1·2 Matt  1 18 - theotokos joseph jesus * holy-ghost
             1·2 Matt  1 19 - theotokos joseph
             1·2 Matt  1 20 - joseph dream-angel * jesus holy-ghost
             1·2 Matt  1 21 - joseph dream-angel * jesus holy-ghost jews
@@ -41,53 +41,53 @@
               4 Matt  2 16 - herod innocents * wise-men
               4 Matt  2 17 - * jeremiah
               4 Matt  2 18 - * jeremiah * rama rachel innocents
-              4 Matt  2 19 - dream-angel joseph egypt * herod 
+              4 Matt  2 19 - dream-angel joseph egypt * herod
               4 Matt  2 20 - dream-angel joseph * jesus theotokos israel herod
               4 Matt  2 21 - joseph jesus theotokos israel
               4 Matt  2 22 - joseph dream-angel jesus theotokos galilee * archelaus herod judaea
               4 Matt  2 23 - joseph jesus theotokos nazareth * prophets jesus
-              5 Matt  3  1 -
-              5 Matt  3  2 -
-              5 Matt  3  3 -
-              5 Matt  3  4 -
-              5 Matt  3  5 -
-              5 Matt  3  6 -
-              5 Matt  3  7 -
-              5 Matt  3  8 -
-              5 Matt  3  9 -
-              5 Matt  3 10 -
-              5 Matt  3 11 -
-              - Matt  3 12 -
-              6 Matt  3 13 -
-              6 Matt  3 14 -
-              6 Matt  3 15 -
-              6 Matt  3 16 -
-              6 Matt  3 17 -
-              7 Matt  4  1 -
-              7 Matt  4  2 -
-              7 Matt  4  3 -
-              7 Matt  4  4 -
-              7 Matt  4  5 -
-              7 Matt  4  6 -
-              7 Matt  4  7 -
-              7 Matt  4  8 -
-              7 Matt  4  9 -
-              7 Matt  4 10 -
-              7 Matt  4 11 -
-              8 Matt  4 12 -
-              8 Matt  4 13 -
-              8 Matt  4 14 -
-              8 Matt  4 15 -
-              8 Matt  4 16 -
-              8 Matt  4 17 -
-              9 Matt  4 18 -
-              9 Matt  4 19 -
-              9 Matt  4 20 -
-              9 Matt  4 21 -
-              9 Matt  4 22 -
-              9 Matt  4 23 -
-              - Matt  4 24 -
-          10·11 Matt  4 25 -
+              5 Matt  3  1 - baptist judaea
+              5 Matt  3  2 - baptist judaea
+              5 Matt  3  3 - * isaiah * baptist god
+              5 Matt  3  4 - baptist
+              5 Matt  3  5 - baptist jerusalem judaea jordan
+              5 Matt  3  6 - baptist jerusalem judaea jordan
+              5 Matt  3  7 - baptist pharisees sadducees * vipers
+              5 Matt  3  8 - baptist pharisees sadducees * fruits
+              5 Matt  3  9 - baptist pharisees sadducees * abraham god stones abrahams-children
+              5 Matt  3 10 - baptist pharisees sadducees * trees
+              5 Matt  3 11 - baptist pharisees sadducees * jesus holy-ghost fire
+              - Matt  3 12 - baptist pharisees sadducees * jesus wheat chaff fire
+              6 Matt  3 13 - jesus galilee jordan baptist
+              6 Matt  3 14 - jesus baptist
+              6 Matt  3 15 - jesus baptist
+              6 Matt  3 16 - jesus baptist water heavens holy-ghost[dove]
+              6 Matt  3 17 - jesus baptist water heavens holy-ghost[dove] god[voice]
+              7 Matt  4  1 - jesus holy-ghost * devil
+              7 Matt  4  2 - jesus
+              7 Matt  4  3 - jesus devil stones
+              7 Matt  4  4 - jesus devil * moses * man bread word god
+              7 Matt  4  5 - jesus devil jerusalem temple
+              7 Matt  4  6 - jesus devil * jesus god david * angels jesus stone
+              7 Matt  4  7 - jesus devil * moses * jews god
+              7 Matt  4  8 - jesus devil mountain world
+              7 Matt  4  9 - jesus devil mountain world
+              7 Matt  4 10 - jesus devil * devil moses * jews god
+              7 Matt  4 11 - jesus devil angels
+              8 Matt  4 12 - jesus baptist galilee
+              8 Matt  4 13 - jesus nazareth capernaum zabulon nepththalim
+              8 Matt  4 14 - * isaiah
+              8 Matt  4 15 - * isaiah * zabulon nephthalim beyond-jordan galilee gentiles
+              8 Matt  4 16 - * isaiah * jesus gentiles
+              8 Matt  4 17 - jesus jews
+              9 Matt  4 18 - jesus galilee peter andrew nets sea
+              9 Matt  4 19 - jesus peter andrew * jesus peter andrew men
+              9 Matt  4 20 - jesus peter andrew nets
+              9 Matt  4 21 - jesus peter andrew james john zebedee ship nets
+              9 Matt  4 22 - jesus peter andrew james john zebedee ship
+              9 Matt  4 23 - jesus galilee multitude[galilee] sickness diseases
+             *9 Matt  4 24 - jesus syria sick[syria] diseases torments devils lunatick palsy
+          10·11 Matt  4 25 - jesus multitude[galilee decapolis jerusalem judaea beyond-jordan]
           10·11 Matt  5  1 -
           10·11 Matt  5  2 -
           10·11 Matt  5  3 -
