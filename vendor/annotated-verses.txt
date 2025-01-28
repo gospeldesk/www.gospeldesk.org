@@ -47,7 +47,7 @@
               4 Matt  2 22 - joseph dream-angel jesus theotokos galilee * archelaus herod judaea
               4 Matt  2 23 - joseph jesus theotokos nazareth * prophets jesus
               5 Matt  3  1 - baptist judaea
-              5 Matt  3  2 - baptist judaea
+              5 Matt  3  2 - baptist judaea * men kingdom
               5 Matt  3  3 - * isaiah * baptist god
               5 Matt  3  4 - baptist
               5 Matt  3  5 - baptist jerusalem judaea jordan
@@ -79,126 +79,126 @@
               8 Matt  4 14 - * isaiah
               8 Matt  4 15 - * isaiah * zabulon nephthalim beyond-jordan galilee gentiles
               8 Matt  4 16 - * isaiah * jesus gentiles
-              8 Matt  4 17 - jesus jews
+              8 Matt  4 17 - jesus jews * men kingdom
               9 Matt  4 18 - jesus galilee peter andrew nets sea
               9 Matt  4 19 - jesus peter andrew * jesus peter andrew men
               9 Matt  4 20 - jesus peter andrew nets
               9 Matt  4 21 - jesus peter andrew james john zebedee ship nets
               9 Matt  4 22 - jesus peter andrew james john zebedee ship
-              9 Matt  4 23 - jesus galilee multitude[galilee] sickness diseases
+              9 Matt  4 23 - jesus galilee kingdom multitude[galilee] sickness diseases
              *9 Matt  4 24 - jesus syria sick[syria] diseases torments devils lunatick palsy
           10·11 Matt  4 25 - jesus multitude[galilee decapolis jerusalem judaea beyond-jordan]
-          10·11 Matt  5  1 -
-          10·11 Matt  5  2 -
-          10·11 Matt  5  3 -
-          10·11 Matt  5  4 -
-          10·11 Matt  5  5 -
-          10·11 Matt  5  6 -
-          10·11 Matt  5  7 -
-          10·11 Matt  5  8 -
-          10·11 Matt  5  9 -
-          10·11 Matt  5 10 -
-          10·11 Matt  5 11 -
-          10·11 Matt  5 12 -
-             10 Matt  5 13 -
-             12 Matt  5 14 -
-             12 Matt  5 15 -
-             12 Matt  5 16 -
-             12 Matt  5 17 -
-             12 Matt  5 18 -
-             12 Matt  5 19 -
-             13 Matt  5 20 -
-             13 Matt  5 21 -
-             13 Matt  5 22 -
-             13 Matt  5 23 -
-             13 Matt  5 24 -
-             13 Matt  5 25 -
-             13 Matt  5 26 -
-             14 Matt  5 27 -
-             14 Matt  5 28 -
-             14 Matt  5 29 -
-             14 Matt  5 30 -
-             14 Matt  5 31 -
-             14 Matt  5 32 -
-             15 Matt  5 33 -
-             15 Matt  5 34 -
-             15 Matt  5 35 -
-             15 Matt  5 36 -
-             15 Matt  5 37 -
-             15 Matt  5 38 -
-             15 Matt  5 39 -
-             15 Matt  5 40 -
-             15 Matt  5 41 -
-             16 Matt  5 42 -
-             16 Matt  5 43 -
-             16 Matt  5 44 -
-             16 Matt  5 45 -
-             16 Matt  5 46 -
-             16 Matt  5 47 -
-             16 Matt  5 48 -
-             17 Matt  6  1 -
-             17 Matt  6  2 -
-             17 Matt  6  3 -
-             17 Matt  6  4 -
-             17 Matt  6  5 -
-             17 Matt  6  6 -
-             17 Matt  6  7 -
-             17 Matt  6  8 -
-             17 Matt  6  9 -
-             17 Matt  6 10 -
-             17 Matt  6 11 -
-             17 Matt  6 12 -
-             17 Matt  6 13 -
-             18 Matt  6 14 -
-             18 Matt  6 15 -
-             18 Matt  6 16 -
-             18 Matt  6 17 -
-             18 Matt  6 18 -
-             18 Matt  6 19 -
-             18 Matt  6 20 -
-             18 Matt  6 21 -
-             19 Matt  6 22 -
-             19 Matt  6 23 -
-             19 Matt  6 24 -
-             19 Matt  6 25 -
-             19 Matt  6 26 -
-             19 Matt  6 27 -
-             19 Matt  6 28 -
-             19 Matt  6 29 -
-             19 Matt  6 30 -
-          19·20 Matt  6 31 -
-          19·20 Matt  6 32 -
-          19·20 Matt  6 33 -
-             20 Matt  6 34 -
-             21 Matt  7  1 -
-             21 Matt  7  2 -
-             21 Matt  7  3 -
-             21 Matt  7  4 -
-             21 Matt  7  5 -
-             21 Matt  7  6 -
-             21 Matt  7  7 -
-             21 Matt  7  8 -
-             20 Matt  7  9 -
-             20 Matt  7 10 -
-             20 Matt  7 11 -
-             22 Matt  7 12 -
-             22 Matt  7 13 -
-             22 Matt  7 14 -
-          22·23 Matt  7 15 -
-          22·23 Matt  7 16 -
-          22·23 Matt  7 17 -
-          22·23 Matt  7 18 -
-          22·23 Matt  7 19 -
-          22·23 Matt  7 20 -
-       22·23·24 Matt  7 21 -
-             24 Matt  7 22 -
-             24 Matt  7 23 -
-             25 Matt  7 24 -
-             25 Matt  7 25 -
-             25 Matt  7 26 -
-             25 Matt  7 27 -
-             25 Matt  7 28 -
-             25 Matt  7 29 -
+          10·11 Matt  5  1 - jesus multitude mountain disciples
+          10·11 Matt  5  2 - jesus disciples
+          10·11 Matt  5  3 - jesus disciples * poor-in-spirit kingdom
+          10·11 Matt  5  4 - jesus disciples * mourn god
+          10·11 Matt  5  5 - jesus disciples * meek earth god
+          10·11 Matt  5  6 - jesus disciples * hunger-and-thirst god
+          10·11 Matt  5  7 - jesus disciples * merciful god
+          10·11 Matt  5  8 - jesus disciples * pure-in-heart god
+          10·11 Matt  5  9 - jesus disciples * peacemakers god
+          10·11 Matt  5 10 - jesus disciples * persecuted kingdom
+          10·11 Matt  5 11 - jesus disciples * disciples jesus
+          10·11 Matt  5 12 - jesus disciples * disciples god prophets
+             10 Matt  5 13 - jesus disciples * disciples
+             12 Matt  5 14 - jesus disciples * disciples
+             12 Matt  5 15 - jesus disciples * disciples
+             12 Matt  5 16 - jesus disciples * disciples men god
+             12 Matt  5 17 - jesus disciples * jesus law prophets
+             12 Matt  5 18 - jesus disciples * law
+             12 Matt  5 19 - jesus disciples * law disciples men kingdom
+             13 Matt  5 20 - jesus disciples * disciples scribes pharisees kingdom
+             13 Matt  5 21 - jesus disciples * jews moses judgment
+             13 Matt  5 22 - jesus disciples * disciples judgment
+             13 Matt  5 23 - jesus disciples * disciples
+             13 Matt  5 24 - jesus disciples * disciples
+             13 Matt  5 25 - jesus disciples * disciples
+             13 Matt  5 26 - jesus disciples * disciples
+             14 Matt  5 27 - jesus disciples * jews moses
+             14 Matt  5 28 - jesus disciples * disciples
+             14 Matt  5 29 - jesus disciples * disciples
+             14 Matt  5 30 - jesus disciples * disciples
+             14 Matt  5 31 - jesus disciples * jews moses
+             14 Matt  5 32 - jesus disciples * disciples
+             15 Matt  5 33 - jesus disciples * jews moses
+             15 Matt  5 34 - jesus disciples * disciples
+             15 Matt  5 35 - jesus disciples * disciples earth jerusalem
+             15 Matt  5 36 - jesus disciples * disciples hairs
+             15 Matt  5 37 - jesus disciples * disciples devil
+             15 Matt  5 38 - jesus disciples * jews moses
+             15 Matt  5 39 - jesus disciples * disciples
+             15 Matt  5 40 - jesus disciples * disciples
+             15 Matt  5 41 - jesus disciples * disciples
+             16 Matt  5 42 - jesus disciples * disciples
+             16 Matt  5 43 - jesus disciples * jews moses
+             16 Matt  5 44 - jesus disciples * disciples
+             16 Matt  5 45 - jesus disciples * disciples god
+             16 Matt  5 46 - jesus disciples * disciples 
+             16 Matt  5 47 - jesus disciples * disciples 
+             16 Matt  5 48 - jesus disciples * disciples god 
+             17 Matt  6  1 - jesus disciples * disciples poor men god
+             17 Matt  6  2 - jesus disciples * disciples poor men hypocrites
+             17 Matt  6  3 - jesus disciples * disciples poor
+             17 Matt  6  4 - jesus disciples * disciples poor god
+             17 Matt  6  5 - jesus disciples * disciples hypocrites men
+             17 Matt  6  6 - jesus disciples * disciples god
+             17 Matt  6  7 - jesus disciples * disciples gentiles
+             17 Matt  6  8 - jesus disciples * disciples god
+             17 Matt  6  9 - jesus disciples * disciples god * god
+             17 Matt  6 10 - jesus disciples * disciples god * kingdom earth heaven
+             17 Matt  6 11 - jesus disciples * disciples god * bread
+             17 Matt  6 12 - jesus disciples * disciples god * disciples
+             17 Matt  6 13 - jesus disciples * disciples god * disciples devil god
+             18 Matt  6 14 - jesus disciples * disciples men god
+             18 Matt  6 15 - jesus disciples * disciples men god
+             18 Matt  6 16 - jesus disciples * disciples hypocrites men
+             18 Matt  6 17 - jesus disciples * disciples
+             18 Matt  6 18 - jesus disciples * disciples men god
+             18 Matt  6 19 - jesus disciples * disciples
+             18 Matt  6 20 - jesus disciples * disciples
+             18 Matt  6 21 - jesus disciples * disciples
+             19 Matt  6 22 - jesus disciples * disciples
+             19 Matt  6 23 - jesus disciples * disciples
+             19 Matt  6 24 - jesus disciples * disciples god mammon
+             19 Matt  6 25 - jesus disciples * disciples
+             19 Matt  6 26 - jesus disciples * disciples birds
+             19 Matt  6 27 - jesus disciples * disciples
+             19 Matt  6 28 - jesus disciples * disciples lilies
+             19 Matt  6 29 - jesus disciples * disciples solomon
+             19 Matt  6 30 - jesus disciples * disciples god lilies
+          19·20 Matt  6 31 - jesus disciples * disciples
+          19·20 Matt  6 32 - jesus disciples * disciples gentiles god
+          19·20 Matt  6 33 - jesus disciples * disciples kingdom god
+             20 Matt  6 34 - jesus disciples * disciples
+             21 Matt  7  1 - jesus disciples * disciples 
+             21 Matt  7  2 - jesus disciples * disciples god
+             21 Matt  7  3 - jesus disciples * disciples
+             21 Matt  7  4 - jesus disciples * disciples
+             21 Matt  7  5 - jesus disciples * disciples
+             21 Matt  7  6 - jesus disciples * disciples
+             21 Matt  7  7 - jesus disciples * disciples god
+             21 Matt  7  8 - jesus disciples * disciples god
+             20 Matt  7  9 - jesus disciples * disciples
+             20 Matt  7 10 - jesus disciples * disciples
+             20 Matt  7 11 - jesus disciples * disciples god
+             22 Matt  7 12 - jesus disciples * disciples law prophets
+             22 Matt  7 13 - jesus disciples * disciples
+             22 Matt  7 14 - jesus disciples * disciples
+          22·23 Matt  7 15 - jesus disciples * disciples false-prophets
+          22·23 Matt  7 16 - jesus disciples * disciples false-prophets
+          22·23 Matt  7 17 - jesus disciples * disciples false-prophets
+          22·23 Matt  7 18 - jesus disciples * disciples false-prophets
+          22·23 Matt  7 19 - jesus disciples * disciples false-prophets
+          22·23 Matt  7 20 - jesus disciples * disciples false-prophets
+       22·23·24 Matt  7 21 - jesus disciples * men jesus god
+             24 Matt  7 22 - jesus disciples * men jesus
+             24 Matt  7 23 - jesus disciples * men jesus
+             25 Matt  7 24 - jesus disciples * disciples
+             25 Matt  7 25 - jesus disciples * disciples
+             25 Matt  7 26 - jesus disciples * disciples
+             25 Matt  7 27 - jesus disciples * disciples
+             25 Matt  7 28 - jesus disciples
+             25 Matt  7 29 - jesus disciples * scribes
              25 Matt  8  1 -
              25 Matt  8  2 -
              25 Matt  8  3 -
