@@ -199,22 +199,22 @@
              25 Matt  7 27 - jesus disciples * disciples
              25 Matt  7 28 - jesus disciples
              25 Matt  7 29 - jesus disciples * scribes
-             25 Matt  8  1 -
-             25 Matt  8  2 -
-             25 Matt  8  3 -
-             25 Matt  8  4 -
-             26 Matt  8  5 -
-             26 Matt  8  6 -
-             26 Matt  8  7 -
-             26 Matt  8  8 -
-             26 Matt  8  9 -
-             26 Matt  8 10 -
-             26 Matt  8 11 -
-             26 Matt  8 12 -
-             26 Matt  8 13 -
-             27 Matt  8 14 -
-             27 Matt  8 15 -
-             27 Matt  8 16 -
+             25 Matt  8  1 - jesus mountain multitude
+             25 Matt  8  2 - jesus leper
+             25 Matt  8  3 - jesus leper leprosy
+             25 Matt  8  4 - jesus leper * priest moses
+             26 Matt  8  5 - jesus capernaum centurion
+             26 Matt  8  6 - jesus centurion * centurion-servant palsy
+             26 Matt  8  7 - jesus centurion * centurion-servant palsy
+             26 Matt  8  8 - jesus centurion * centurion jesus centurion-servant palsy
+             26 Matt  8  9 - jesus centurion * centurion
+             26 Matt  8 10 - jesus centurion disciples * centurion israel
+             26 Matt  8 11 - jesus centurion disciples * kingdom
+             26 Matt  8 12 - jesus centurion disciples * kingdom
+             26 Matt  8 13 - jesus centurion * centurion centurion-servant
+             27 Matt  8 14 - jesus peter peter-wife-mother fever
+             27 Matt  8 15 - jesus peter peter-wife-mother fever
+             27 Matt  8 16 - jesus devils sick
              27 Matt  8 17 -
              27 Matt  8 18 -
              27 Matt  8 19 -
