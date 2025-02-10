@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import csv
 import datetime
+import json
 import os
 import sys
 from collections import defaultdict
@@ -17,21 +18,43 @@ out = csv.writer(open('services.csv', 'w+'))
 out2 = csv.writer(open('readings.csv', 'w+'))
 dt = datetime.date.today()
 ONE_DAY = datetime.timedelta(days=1)
+GOSPELS = 'Matthew Mark Luke John'.split()
+calendarium_json = json.load(open('orthocal-python/fixtures/calendarium.json'))
+missing = set([int(x.strip()) for x in open('missing')]) # TODO: compute from sqlite
 
-readings_for_dates = []
+remaining = dict()
+readings_for_dates = list()
+dates_by_pericope_id = dict()
+text_by_pericope_id = dict()
 
-for i in range(365+7):
+for rec in calendarium_json:
+    if rec['model'] != 'calendarium.pericope':
+        continue
+    if rec['fields']['book'] not in GOSPELS:
+        continue
+    pk = int(rec['pk'])
+    if pk in missing:
+        continue
+    remaining[pk] = 3
+    dates_by_pericope_id[pk] = []
+
+while remaining:
     ymd = (dt.year, dt.month, dt.day)
     day = Day(*ymd)
     day.initialize()
+    date = '%04d-%02d-%02d' % ymd
+    print(date, len(remaining))
+    if ymd[0] > 2032:
+        import pdb; pdb.set_trace()
     readings = [r for r in day.get_readings() if r.source == 'Gospel']
-    readings_for_dates.append(('%04d-%02d-%02d' % ymd, readings))
-    dt += ONE_DAY
-
-dates_by_pericope_id = defaultdict(list)
-text_by_pericope_id = dict()
-for date, readings in readings_for_dates:
     for reading in readings:
+        pericope = reading.pericope
+        pk = pericope.pk
+        passage = pericope.get_passage()
+
+        if pk not in remaining:
+            continue
+
         x = reading.ordering
         if x > 1000:
             service = 'post-Liturgy'
@@ -55,10 +78,16 @@ for date, readings in readings_for_dates:
             service = '1st hour'
         elif x > 0:
             service = 'Matins'
-        pericope = reading.pericope
-        text = ' '.join([v.content for v in pericope.get_passage()])
-        dates_by_pericope_id[reading.pericope.pk].append((date, service))
-        text_by_pericope_id[reading.pericope.pk] = text
+
+        text = ' '.join([v.content for v in passage])
+        dates_by_pericope_id[pk].append((date, service))
+        text_by_pericope_id[pk] = text
+        remaining[pk] -= 1
+        if remaining[pk] == 0:
+            del remaining[pk]
+
+    dt += ONE_DAY
+
 
 out.writerow(('id', 'date', 'service'))
 for pericope_id, readings in dates_by_pericope_id.items():

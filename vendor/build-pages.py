@@ -47,7 +47,7 @@ noindex: true
 
 ### Upcoming Services
 
-God willing, this Gospel will be proclaimed at the following service{s} over the next year:
+God willing, this Gospel will be proclaimed at the following services:
 
 ''', file=fp)
     for date, service in services_by_pericope_id[pk]:
