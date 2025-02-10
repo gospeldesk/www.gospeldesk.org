@@ -33,8 +33,21 @@ for rec in calendarium_json:
     nav.writerow((pk, name))
     fp = open(f'../explore/{pk}.md', 'w+')
     services = services_by_pericope_id[pk]
-    s = '' if services_by_pericope_id[pk] == 1 else 's'
     reading = readings_by_pericope_id[pk]
+    services = services_by_pericope_id[pk]
+    upcoming = ''
+    if services:
+        upcoming = f'''\
+
+### Upcoming Services
+
+God willing, this Gospel will be proclaimed at the following services:
+
+'''
+        for date, service in services_by_pericope_id[pk]:
+            date = datetime.date(*map(int, date.split('-')))
+            url = f'https://orthocal.info/readings/gregorian/{date.strftime("%Y/%m/%d")}/'
+            upcoming += f'1. {service} on [{date.strftime("%B, %e, %Y")}]({url})\n'
     print(f'''\
 ---
 title: {name}
@@ -44,13 +57,4 @@ noindex: true
 ---
 
 {reading}
-
-### Upcoming Services
-
-God willing, this Gospel will be proclaimed at the following services:
-
-''', file=fp)
-    for date, service in services_by_pericope_id[pk]:
-        date = datetime.date(*map(int, date.split('-')))
-        url = f'https://orthocal.info/readings/gregorian/{date.strftime("%Y/%m/%d")}/'
-        print(f'1. {service} on [{date.strftime("%B, %e, %Y")}]({url})', file=fp)
+{upcoming}''', file=fp)
