@@ -10,6 +10,7 @@ def parse_verse(v):
 
 pericopes_by_verse = dict()
 calendarium = json.load(open('orthocal-python/fixtures/calendarium.json'))
+additional = json.load(open('additional.json'))
 all_verses = [parse_verse(line) for line in open('verses.txt')]
 for verse in all_verses:
     pericopes_by_verse[verse] = []
@@ -19,7 +20,7 @@ GOSPELS = 'Matt Mark Luke John'.split()
 def parse_chapter_verse(cv):
     return int(cv[:-3]), int(cv[-3:])
 
-for rec in calendarium:
+for rec in calendarium + additional:
     if rec['model'] != 'calendarium.pericope':
         continue
     pk = rec['pk']
@@ -29,6 +30,7 @@ for rec in calendarium:
     if preverse:
         verse_ranges = [f'{book}_{preverse}_{preverse}'] + verse_ranges
     for verse_range in verse_ranges:
+        print(verse_range)
         book, start, end = verse_range.split('_')
         if book not in GOSPELS:
             continue
