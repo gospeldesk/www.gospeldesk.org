@@ -1,87 +1,83 @@
-Matt  3 12 - 5
-Matt  4 24 - 
-Matt 12  9 - 
-Matt 22  1 - 
-Mark  1 45 - 
-Mark  2 13 - 
-Mark  5 21 - 
-Mark  6 54 - 
-Mark  9 32 - 
-Mark 15 42 - 
-Luke  1 50 - 
-Luke  1 51 - 
-Luke  1 52 - 
-Luke  1 53 - 
-Luke  1 54 - 
-Luke  1 55 - 
-Luke  1 69 - 
-Luke  1 70 - 
-Luke  1 71 - 
-Luke  1 72 - 
-Luke  1 73 - 
-Luke  1 74 - 
-Luke  1 75 - 
-Luke  1 77 - 
-Luke  1 78 - 
-Luke  1 79 - 
-Luke  4 37 - 
-Luke  6 11 - 
-Luke  8  4 - 
-Luke  8 40 - 
-Luke 12 41 - 
-Luke 13 30 - 
-Luke 17 11 - 
-Luke 18  1 - 
-Luke 18  9 - 
-Luke 19 11 - 
-Luke 20 45 - 
-John  2 23 - 
-John  2 24 - 
-John  2 25 - 
-John  3 34 - 
-John  3 35 - 
-John  3 36 - 
-John  4  1 - 
-John  4  2 - 
-John  4  3 - 
-John  4  4 - 
-John  4 43 - 
-John  4 44 - 
-John  4 45 - 
-John  5 16 - 
-John  6  3 - 
-John  6  4 - 
-John  6 34 - 
-John  6 45 - 
-John  6 46 - 
-John  6 47 - 
-John  6 55 - 
-John  6 70 - 
-John  6 71 - 
-John  7 31 - 
-John  7 32 - 
-John  7 33 - 
-John  7 34 - 
-John  7 35 - 
-John  7 36 - 
-John  7 53 - 
-John  8  1 - 
-John  8  2 - 
-John 10 39 - 
-John 10 40 - 
-John 10 41 - 
-John 10 42 - 
-John 11 46 - 
-John 13 18 - 
-John 13 19 - 
-John 13 20 - 
-John 13 21 - 
-John 13 22 - 
-John 13 23 - 
-John 13 24 - 
-John 13 25 - 
-John 13 26 - 
-John 13 27 - 
-John 13 28 - 
-John 13 29 - 
-John 13 30 - 
+Matt  3:12  MISSING
+Matt  4:24  MISSING
+Mark  1:45  MISSING
+Mark  2:13  MISSING
+Mark  5:21  MISSING
+Mark  9:32  MISSING
+Mark 15:42  MISSING
+Luke  1:50  MISSING
+Luke  1:51  MISSING
+Luke  1:52  MISSING
+Luke  1:53  MISSING
+Luke  1:54  MISSING
+Luke  1:55  MISSING
+Luke  1:69  MISSING
+Luke  1:70  MISSING
+Luke  1:71  MISSING
+Luke  1:72  MISSING
+Luke  1:73  MISSING
+Luke  1:74  MISSING
+Luke  1:75  MISSING
+Luke  1:77  MISSING
+Luke  1:78  MISSING
+Luke  1:79  MISSING
+Luke  6:11  MISSING
+Luke  8:4   MISSING
+Luke  8:40  MISSING
+Luke 12:41  MISSING
+Luke 13:30  MISSING
+Luke 17:11  MISSING
+Luke 18:1   MISSING
+Luke 18:9   MISSING
+Luke 19:11  MISSING
+Luke 20:45  MISSING
+John  2:23  MISSING
+John  2:24  MISSING
+John  2:25  MISSING
+John  3:34  MISSING
+John  3:35  MISSING
+John  3:36  MISSING
+John  4:1   MISSING
+John  4:2   MISSING
+John  4:3   MISSING
+John  4:4   MISSING
+John  4:43  MISSING
+John  4:44  MISSING
+John  4:45  MISSING
+John  5:16  MISSING
+John  6:3   MISSING
+John  6:4   MISSING
+John  6:34  MISSING
+John  6:45  MISSING
+John  6:46  MISSING
+John  6:47  MISSING
+John  6:55  MISSING
+John  6:70  MISSING
+John  6:71  MISSING
+John  7:31  MISSING
+John  7:32  MISSING
+John  7:33  MISSING
+John  7:34  MISSING
+John  7:35  MISSING
+John  7:36  MISSING
+John  7:53  MISSING
+John  8:1   MISSING
+John  8:2   MISSING
+John 10:39  MISSING
+John 10:40  MISSING
+John 10:41  MISSING
+John 10:42  MISSING
+John 11:46  MISSING
+John 13:18  MISSING
+John 13:19  MISSING
+John 13:20  MISSING
+John 13:21  MISSING
+John 13:22  MISSING
+John 13:23  MISSING
+John 13:24  MISSING
+John 13:25  MISSING
+John 13:26  MISSING
+John 13:27  MISSING
+John 13:28  MISSING
+John 13:29  MISSING
+John 13:30  MISSING

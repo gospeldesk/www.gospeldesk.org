@@ -1,0 +1,11 @@
+[
+{
+    "model": "calendarium.pericope",
+    "pk": 90001,
+    "fields": {
+        "book": "Matthew",
+        "display": "Matthew 3.1-12",
+        "sdisplay": "Matt 3.1-12"
+    }
+}
+]

@@ -13,7 +13,7 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "orthocal.settings")
 django.setup()
 
 from calendarium.liturgics.day import Day
-from calendarium.models import Pericope
+from calendarium.models import Pericope, Verse, Reading
 
 out = csv.writer(open('services.csv', 'w+'))
 out2 = csv.writer(open('readings.csv', 'w+'))
@@ -21,14 +21,17 @@ dt = datetime.date.today()
 ONE_DAY = datetime.timedelta(days=1)
 GOSPELS = 'Matthew Mark Luke John'.split()
 calendarium_json = json.load(open('orthocal-python/fixtures/calendarium.json'))
-missing = set([int(x.strip()) for x in open('missing')]) # TODO: compute from sqlite
+additional_json = json.load(open('additional.json'))
+known_pericope_ids = set([x['pericope'] for x in
+    Reading.objects.filter(source='Gospel').values('pericope').distinct()])
+known_pericope_ids.remove(113) # hack - I'm not finding a date for this one in the next 10 years
 
 remaining = dict()
 readings_for_dates = list()
 dates_by_pericope_id = dict()
 text_by_pericope_id = dict()
 
-for rec in calendarium_json:
+for rec in calendarium_json + additional_json:
     if rec['model'] != 'calendarium.pericope':
         continue
     if rec['fields']['book'] not in GOSPELS:
@@ -36,12 +39,12 @@ for rec in calendarium_json:
     pk = int(rec['pk'])
 
     # Store text for all pericopes ...
-    passage = Pericope.objects.get(id=pk).get_passage()
+    passage = Verse.objects.lookup_reference(rec['fields']['sdisplay'])
     text = ' '.join([v.content for v in passage])
     text_by_pericope_id[pk] = text
 
-    # ... but only look for dates where we know we have them.
-    if pk in missing:
+    # ... but only look for dates where we know we will find them in the next few years.
+    if pk not in known_pericope_ids:
         continue
     remaining[pk] = 3
     dates_by_pericope_id[pk] = []
@@ -51,7 +54,7 @@ while remaining:
     day = Day(*ymd)
     day.initialize()
     date = '%04d-%02d-%02d' % ymd
-    print(date, len(remaining))
+    #print(date, len(remaining))
     readings = [r for r in day.get_readings() if r.source == 'Gospel']
     for reading in readings:
         pericope = reading.pericope
@@ -60,31 +63,7 @@ while remaining:
         if pk not in remaining:
             continue
 
-        x = reading.ordering
-        if x > 1000:
-            service = 'post-Liturgy'
-        elif x > 900:
-            service = 'Liturgy'
-        elif x > 800:
-            service = 'Liturgy'
-        elif x > 700:
-            service = 'Matins'
-        elif x > 600:
-            service = 'Vespers'
-        elif x > 500:
-            service = 'Vespers'
-        elif x > 400:
-            service = '9th hour'
-        elif x > 300:
-            service = '6th hour'
-        elif x > 200:
-            service = '3rd hour'
-        elif x > 100:
-            service = '1st hour'
-        elif x > 0:
-            service = 'Matins'
-
-        dates_by_pericope_id[pk].append((date, service))
+        dates_by_pericope_id[pk].append(date)
         remaining[pk] -= 1
         if remaining[pk] == 0:
             del remaining[pk]
@@ -92,10 +71,10 @@ while remaining:
     dt += ONE_DAY
 
 
-out.writerow(('id', 'date', 'service'))
+out.writerow(('id', 'date'))
 for pericope_id, readings in dates_by_pericope_id.items():
-    for date, service in readings:
-        out.writerow((pericope_id, date, service))
+    for date in readings:
+        out.writerow((pericope_id, date))
 
 out2.writerow(('id', 'text'))
 for pericope_id, text in text_by_pericope_id.items():
