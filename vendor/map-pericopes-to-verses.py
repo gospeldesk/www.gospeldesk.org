@@ -30,7 +30,6 @@ for rec in calendarium + additional:
     if preverse:
         verse_ranges = [f'{book}_{preverse}_{preverse}'] + verse_ranges
     for verse_range in verse_ranges:
-        print(verse_range)
         book, start, end = verse_range.split('_')
         if book not in GOSPELS:
             continue
@@ -49,6 +48,12 @@ for rec in calendarium + additional:
                 break
             pericopes_by_verse[cur].append(pk)
 
+stack = set()
 for b,c,v in all_verses:
-    pericopes = pericopes_by_verse[(b,c,v)]
+    pericopes = set(pericopes_by_verse[(b,c,v)])
+    # TODO - if overlapped only a single verse, don't fold together
+    # TODO - handle gaps - fold together Matt 10:32 - 11:1, Matt 12:14-12:30
+    if not stack & pericopes:
+        print('----')
+    stack = pericopes
     print(f'{b} {c:>2}:{v:<3}', ', '.join([str(pk) for pk in pericopes]) if pericopes else 'MISSING')
