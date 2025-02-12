@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+from collections import defaultdict
 
 def parse_verse(v):
     b,c,v = v.strip().split('*')[0].strip().split()
@@ -8,6 +9,7 @@ def parse_verse(v):
     v = int(v)
     return b,c,v
 
+pericope_map = dict()
 pericopes_by_verse = dict()
 calendarium = json.load(open('orthocal-python/fixtures/calendarium.json'))
 additional = json.load(open('additional.json'))
@@ -19,6 +21,7 @@ GOSPELS = 'Matt Mark Luke John'.split()
 
 def parse_chapter_verse(cv):
     return int(cv[:-3]), int(cv[-3:])
+
 
 for rec in calendarium + additional:
     if rec['model'] != 'calendarium.pericope':
@@ -48,12 +51,28 @@ for rec in calendarium + additional:
                 break
             pericopes_by_verse[cur].append(pk)
 
-stack = set()
+
+pericope_map = dict()
 for b,c,v in all_verses:
-    pericopes = set(pericopes_by_verse[(b,c,v)])
-    # TODO - if overlapped only a single verse, don't fold together
-    # TODO - handle gaps - fold together Matt 10:32 - 11:1, Matt 12:14-12:30
-    if not stack & pericopes:
+    pericopes = pericopes_by_verse[(b,c,v)]
+    for pk in pericopes:
+        pericope_map[pk] = {*pericopes} ^ {pk}
+
+import pdb; pdb.set_trace()
+
+meta_i = 700000
+meta_to_pk = defaultdict(set)
+pk_to_meta = dict()
+for b,c,v in all_verses:
+    pericopes = pericopes_by_verse[(b,c,v)]
+    metas = list(set([pk_to_meta[pk] for pk in pericopes if pk in pk_to_meta]))
+    assert len(metas) in (0, 1), (pericopes, metas)
+    if metas:
+        meta_i = metas[0]
+    else:
+        meta_i += 1
         print('----')
-    stack = pericopes
-    print(f'{b} {c:>2}:{v:<3}', ', '.join([str(pk) for pk in pericopes]) if pericopes else 'MISSING')
+    for pk in pericopes:
+        meta_to_pk[meta_i].add(pk)
+        pk_to_meta[pk] = meta_i
+    print(f'{b} {c:>2}:{v:<3} {meta_i}', ', '.join([str(pk) for pk in pericopes]) if pericopes else 'MISSING')
