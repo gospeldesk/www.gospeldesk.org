@@ -1021,17 +1021,17 @@ Matt 26:2
 Matt 26:3
 Matt 26:4
 Matt 26:5
-Matt 26:6   117
-Matt 26:7   117
-Matt 26:8   117
-Matt 26:9   117
-Matt 26:10  117
-Matt 26:11  117
-Matt 26:12  117
-Matt 26:13  117
-Matt 26:14  117
-Matt 26:15  117
-Matt 26:16  117
+Matt 26:6
+Matt 26:7
+Matt 26:8
+Matt 26:9
+Matt 26:10
+Matt 26:11
+Matt 26:12
+Matt 26:13
+Matt 26:14
+Matt 26:15
+Matt 26:16
 ----
 Matt 26:17
 Matt 26:18
@@ -1094,73 +1094,76 @@ Matt 26:73
 Matt 26:74
 Matt 26:75
 ----
-Matt 27:1   119
-Matt 27:2   119
-Matt 27:3   119, 121
-Matt 27:4   119, 121
-Matt 27:5   119, 121
-Matt 27:6   119, 121
-Matt 27:7   119, 121
-Matt 27:8   119, 121
-Matt 27:9   119, 121
-Matt 27:10  119, 121
-Matt 27:11  119, 121
-Matt 27:12  119, 121
-Matt 27:13  119, 121
-Matt 27:14  119, 121
-Matt 27:15  119, 121
-Matt 27:16  119, 121
-Matt 27:17  119, 121
-Matt 27:18  119, 121
-Matt 27:19  119, 121
-Matt 27:20  119, 121
-Matt 27:21  119, 121
-Matt 27:22  119, 121
-Matt 27:23  119, 121
-Matt 27:24  119, 121
-Matt 27:25  119, 121
-Matt 27:26  119, 121
-Matt 27:27  119, 121, 122
-Matt 27:28  119, 121, 122
-Matt 27:29  119, 121, 122
-Matt 27:30  119, 121, 122
-Matt 27:31  119, 121, 122
-Matt 27:32  119, 121, 122
-Matt 27:33  119,           123
-Matt 27:34  119,           123
-Matt 27:35  119,           123
-Matt 27:36  119,           123
-Matt 27:37  119,           123
-Matt 27:38  119,           123
-Matt 27:39  119,           123
-Matt 27:40  119,           123
-Matt 27:41  119,           123
-Matt 27:42  119,           123
-Matt 27:43  119,           123
-Matt 27:44  119,           123
-Matt 27:45  119,           123
-Matt 27:46  119,           123
-Matt 27:47  119,           123
-Matt 27:48  119,           123
-Matt 27:49  119,           123
-Matt 27:50  119,           123
-Matt 27:51  119,           123
-Matt 27:52  119,           123
-Matt 27:53  119,           123
-Matt 27:54  119,           123
-Matt 27:55  119
-Matt 27:56  119
+Matt 27:1
+Matt 27:2
+Matt 27:3
+Matt 27:4
+Matt 27:5
+Matt 27:6
+Matt 27:7
+Matt 27:8
+Matt 27:9
+Matt 27:10
+Matt 27:11
+Matt 27:12
+Matt 27:13
+Matt 27:14
+Matt 27:15
+Matt 27:16
+Matt 27:17
+Matt 27:18
+Matt 27:19
+Matt 27:20
+Matt 27:21
+Matt 27:22
+Matt 27:23
+Matt 27:24
+Matt 27:25
+Matt 27:26
+----
+Matt 27:27  122
+Matt 27:28  122
+Matt 27:29  122
+Matt 27:30  122
+Matt 27:31  122
+Matt 27:32  122
+----
+Matt 27:33  123
+Matt 27:34  123
+Matt 27:35  123
+Matt 27:36  123
+Matt 27:37  123
+Matt 27:38  123
+Matt 27:39  123
+Matt 27:40  123
+Matt 27:41  123
+Matt 27:42  123
+Matt 27:43  123
+Matt 27:44  123
+Matt 27:45  123
+Matt 27:46  123
+Matt 27:47  123
+Matt 27:48  123
+Matt 27:49  123
+Matt 27:50  123
+Matt 27:51  123
+Matt 27:52  123
+Matt 27:53  123
+Matt 27:54  123
+----
+Matt 27:55
+Matt 27:56
 Matt 27:57
 Matt 27:58
 Matt 27:59
 Matt 27:60
 Matt 27:61
 ----
-Matt 27:62  124
-Matt 27:63  124
-Matt 27:64  124
-Matt 27:65  124
-Matt 27:66  124
+Matt 27:62
+Matt 27:63
+Matt 27:64
+Matt 27:65
+Matt 27:66
 ----
 Matt 28:1   125
 Matt 28:2   125
@@ -1885,47 +1888,47 @@ Mark 15:13  194
 Mark 15:14  194
 Mark 15:15  194
 ----
-Mark 15:16  195, 196
-Mark 15:17  195, 196
-Mark 15:18  195, 196
-Mark 15:19  195, 196
-Mark 15:20  195, 196
-Mark 15:21  195, 196
-Mark 15:22  195, 196, 197
-Mark 15:23  195, 196
-Mark 15:24  195, 196
-Mark 15:25  195, 196, 197
-Mark 15:26  195, 196
-Mark 15:27  195, 196
-Mark 15:28  195, 196
-Mark 15:29  195, 196
-Mark 15:30  195, 196
-Mark 15:31  195, 196
-Mark 15:32  195, 196
-Mark 15:33       196, 197
-Mark 15:34       196, 197
-Mark 15:35       196, 197
-Mark 15:36       196, 197
-Mark 15:37       196, 197
-Mark 15:38       196, 197
-Mark 15:39       196, 197
-Mark 15:40       196, 197
-Mark 15:41       196, 197
+Mark 15:16
+Mark 15:17
+Mark 15:18
+Mark 15:19
+Mark 15:20
+Mark 15:21
+Mark 15:22  197
+Mark 15:23
+Mark 15:24
+Mark 15:25  197
+Mark 15:26
+Mark 15:27
+Mark 15:28
+Mark 15:29
+Mark 15:30
+Mark 15:31
+Mark 15:32
+Mark 15:33  197
+Mark 15:34  197
+Mark 15:35  197
+Mark 15:36  197
+Mark 15:37  197
+Mark 15:38  197
+Mark 15:39  197
+Mark 15:40  197
+Mark 15:41  197
 ----
 Mark 15:42  90007
-Mark 15:43  90007, 198, 199
-Mark 15:44  90007, 198, 199
-Mark 15:45  90007, 198, 199
-Mark 15:46  90007, 198, 199
-Mark 15:47  90007, 198, 199
-Mark 16:1   90007,      199, 200
-Mark 16:2   90007,      199, 200
-Mark 16:3   90007,      199, 200
-Mark 16:4   90007,      199, 200
-Mark 16:5   90007,      199, 200
-Mark 16:6   90007,      199, 200
-Mark 16:7   90007,      199, 200
-Mark 16:8   90007,      199, 200
+Mark 15:43  90007, 199
+Mark 15:44  90007, 199
+Mark 15:45  90007, 199
+Mark 15:46  90007, 199
+Mark 15:47  90007, 199
+Mark 16:1   90007, 199, 200
+Mark 16:2   90007, 199, 200
+Mark 16:3   90007, 199, 200
+Mark 16:4   90007, 199, 200
+Mark 16:5   90007, 199, 200
+Mark 16:6   90007, 199, 200
+Mark 16:7   90007, 199, 200
+Mark 16:8   90007, 199, 200
 ----
 Mark 16:9   201
 Mark 16:10  201
@@ -3145,24 +3148,24 @@ Luke 23:28  316
 Luke 23:29  316
 Luke 23:30  316
 Luke 23:31  316
-Luke 23:32  316, 317
-Luke 23:33  316, 317
-Luke 23:34  316, 317
-Luke 23:35       317
-Luke 23:36       317
-Luke 23:37       317
-Luke 23:38       317
-Luke 23:39       317
-Luke 23:40       317
-Luke 23:41       317
-Luke 23:42       317
-Luke 23:43       317
-Luke 23:44  316, 317
-Luke 23:45  316, 317
-Luke 23:46  316, 317
-Luke 23:47  316, 317
-Luke 23:48  316, 317
-Luke 23:49  316, 317
+Luke 23:32  316
+Luke 23:33  316
+Luke 23:34  316
+Luke 23:35
+Luke 23:36
+Luke 23:37
+Luke 23:38
+Luke 23:39
+Luke 23:40
+Luke 23:41
+Luke 23:42
+Luke 23:43
+Luke 23:44  316
+Luke 23:45  316
+Luke 23:46  316
+Luke 23:47  316
+Luke 23:48  316
+Luke 23:49  316
 Luke 23:50  316
 Luke 23:51  316
 Luke 23:52  316
@@ -4067,64 +4070,64 @@ John 18:26
 John 18:27
 John 18:28
 ----
-John 18:28  385, 386
-John 18:29  385, 386
-John 18:30  385, 386
-John 18:31  385, 386
-John 18:32  385, 386
-John 18:33  385, 386
-John 18:34  385, 386
-John 18:35  385, 386
-John 18:36  385, 386
-John 18:37  385, 386
-John 18:38  385, 386
-John 18:39  385, 386
-John 18:40  385, 386
-John 19:1   385, 386
-John 19:2   385, 386
-John 19:3   385, 386
-John 19:4   385, 386
-John 19:5   385, 386
-John 19:6   385, 386, 387
-John 19:7   385, 386, 387
-John 19:8   385, 386, 387
-John 19:9   385, 386, 387
-John 19:10  385, 386, 387
-John 19:11  385, 386, 387
-John 19:12  385, 386
-John 19:13  385, 386, 387
-John 19:14  385, 386, 387
-John 19:15  385, 386, 387
-John 19:16  385, 386, 387
-John 19:17       386, 387
-John 19:18       386, 387
-John 19:19       386, 387
-John 19:20       386, 387
-John 19:21       386
-John 19:22       386
-John 19:23       386
-John 19:24       386
-John 19:25       386, 387, 388, 389
-John 19:26       386, 387, 388, 389
-John 19:27       386, 387, 388, 389
-John 19:28       386, 387, 388
-John 19:29       386,      388
-John 19:30       386, 387, 388
-John 19:31       386, 387, 388
-John 19:32       386, 387, 388
-John 19:33       386, 387, 388
-John 19:34       386, 387, 388
-John 19:35       386, 387, 388
-John 19:36       386,      388
-John 19:37       386,      388
-John 21:24                 389
-John 21:25                 389
+John 18:28
+John 18:29
+John 18:30
+John 18:31
+John 18:32
+John 18:33
+John 18:34
+John 18:35
+John 18:36
+John 18:37
+John 18:38
+John 18:39
+John 18:40
+John 19:1
+John 19:2
+John 19:3
+John 19:4
+John 19:5
+John 19:6   387
+John 19:7   387
+John 19:8   387
+John 19:9   387
+John 19:10  387
+John 19:11  387
+John 19:12
+John 19:13  387
+John 19:14  387
+John 19:15  387
+John 19:16  387
+John 19:17  387
+John 19:18  387
+John 19:19  387
+John 19:20  387
+John 19:21
+John 19:22
+John 19:23
+John 19:24
+John 19:25  387, 389
+John 19:26  387, 389
+John 19:27  387, 389
+John 19:28  387
+John 19:29
+John 19:30  387
+John 19:31  387
+John 19:32  387
+John 19:33  387
+John 19:34  387
+John 19:35  387
+John 19:36
+John 19:37
+John 21:24
+John 21:25
 ----
-John 19:38  390
-John 19:39  390
-John 19:40  390
-John 19:41  390
-John 19:42  390
+John 19:38
+John 19:39
+John 19:40
+John 19:41
+John 19:42
 ----
 John 20:1   391
 John 20:2   391
@@ -4421,6 +4424,17 @@ John 12:48  365
 John 12:49  365
 John 12:50  365
 ---- Wednesday Presanctified
+Matt 26:6   117
+Matt 26:7   117
+Matt 26:8   117
+Matt 26:9   117
+Matt 26:10  117
+Matt 26:11  117
+Matt 26:12  117
+Matt 26:13  117
+Matt 26:14  117
+Matt 26:15  117
+Matt 26:16  117
 ---- Thursday Bridegroom
 Luke 22:1   314
 Luke 22:2   314
@@ -4556,81 +4570,7 @@ Matt 26:74  116
 Matt 26:75  116
 Matt 27:1   116
 Matt 27:2   116
----- Friday Composite
-Matt 27:1   120
-Matt 27:2   120
-Matt 27:3   120
-Matt 27:4   120
-Matt 27:5   120
-Matt 27:6   120
-Matt 27:7   120
-Matt 27:8   120
-Matt 27:9   120
-Matt 27:10  120
-Matt 27:11  120
-Matt 27:12  120
-Matt 27:13  120
-Matt 27:14  120
-Matt 27:15  120
-Matt 27:16  120
-Matt 27:17  120
-Matt 27:18  120
-Matt 27:19  120
-Matt 27:20  120
-Matt 27:21  120
-Matt 27:22  120
-Matt 27:23  120
-Matt 27:24  120
-Matt 27:25  120
-Matt 27:26  120
-Matt 27:27  120
-Matt 27:28  120
-Matt 27:29  120
-Matt 27:30  120
-Matt 27:31  120
-Matt 27:32  120
-Matt 27:33  120
-Matt 27:34  120
-Matt 27:35  120
-Matt 27:36  120
-Matt 27:37  120
-Matt 27:38  120
-Luke 23:39  120
-Luke 23:40  120
-Luke 23:41  120
-Luke 23:42  120
-Luke 23:43  120
-Matt 27:39  120
-Matt 27:40  120
-Matt 27:41  120
-Matt 27:42  120
-Matt 27:43  120
-Matt 27:44  120
-Matt 27:45  120
-Matt 27:46  120
-Matt 27:47  120
-Matt 27:48  120
-Matt 27:49  120
-Matt 27:50  120
-Matt 27:51  120
-Matt 27:52  120
-Matt 27:53  120
-Matt 27:54  120
-John 19:31  120
-John 19:32  120
-John 19:33  120
-John 19:34  120
-John 19:35  120
-John 19:36  120
-John 19:37  120
-Matt 27:55  120
-Matt 27:56  120
-Matt 27:57  120
-Matt 27:58  120
-Matt 27:59  120
-Matt 27:60  120
-Matt 27:61  120
----- Passion 1
+---- Friday Passion 1
 John 13:31  371
 John 13:32  371
 John 13:33  371
@@ -4757,7 +4697,7 @@ John 17:24  371
 John 17:25  371
 John 17:26  371
 John 18:1   371
----- Passion 2
+---- Friday Passion 2
 John 18:1   384
 John 18:2   384
 John 18:3   384
@@ -4786,7 +4726,7 @@ John 18:25  384
 John 18:26  384
 John 18:27  384
 John 18:28  384
----- Passion 3
+---- Friday Passion 3
 Matt 26:57  118
 Matt 26:58  118
 Matt 26:59  118
@@ -4806,12 +4746,384 @@ Matt 26:72  118
 Matt 26:73  118
 Matt 26:74  118
 Matt 26:75  118
----- Passion 4
----- Passion 5
----- Passion 6
----- Passion 7
----- Passion 8
----- Passion 9
----- Passion 10
----- Passion 11
----- Passion 12
+---- Friday Passion 4
+John 18:28  385
+John 18:29  385
+John 18:30  385
+John 18:31  385
+John 18:32  385
+John 18:33  385
+John 18:34  385
+John 18:35  385
+John 18:36  385
+John 18:37  385
+John 18:38  385
+John 18:39  385
+John 18:40  385
+John 19:1   385
+John 19:2   385
+John 19:3   385
+John 19:4   385
+John 19:5   385
+John 19:6   385
+John 19:7   385
+John 19:8   385
+John 19:9   385
+John 19:10  385
+John 19:11  385
+John 19:12  385
+John 19:13  385
+John 19:14  385
+John 19:15  385
+John 19:16  385
+---- Friday Passion 5
+Matt 27:3   121
+Matt 27:4   121
+Matt 27:5   121
+Matt 27:6   121
+Matt 27:7   121
+Matt 27:8   121
+Matt 27:9   121
+Matt 27:10  121
+Matt 27:11  121
+Matt 27:12  121
+Matt 27:13  121
+Matt 27:14  121
+Matt 27:15  121
+Matt 27:16  121
+Matt 27:17  121
+Matt 27:18  121
+Matt 27:19  121
+Matt 27:20  121
+Matt 27:21  121
+Matt 27:22  121
+Matt 27:23  121
+Matt 27:24  121
+Matt 27:25  121
+Matt 27:26  121
+Matt 27:27  121
+Matt 27:28  121
+Matt 27:29  121
+Matt 27:30  121
+Matt 27:31  121
+Matt 27:32  121
+---- Friday Passion 6
+Mark 15:16  195
+Mark 15:17  195
+Mark 15:18  195
+Mark 15:19  195
+Mark 15:20  195
+Mark 15:21  195
+Mark 15:22  195
+Mark 15:23  195
+Mark 15:24  195
+Mark 15:25  195
+Mark 15:26  195
+Mark 15:27  195
+Mark 15:28  195
+Mark 15:29  195
+Mark 15:30  195
+Mark 15:31  195
+Mark 15:32  195
+---- Friday Passion 7
+Matt 27:33  123
+Matt 27:34  123
+Matt 27:35  123
+Matt 27:36  123
+Matt 27:37  123
+Matt 27:38  123
+Matt 27:39  123
+Matt 27:40  123
+Matt 27:41  123
+Matt 27:42  123
+Matt 27:43  123
+Matt 27:44  123
+Matt 27:45  123
+Matt 27:46  123
+Matt 27:47  123
+Matt 27:48  123
+Matt 27:49  123
+Matt 27:50  123
+Matt 27:51  123
+Matt 27:52  123
+Matt 27:53  123
+Matt 27:54  123
+---- Friday Passion 8
+Luke 23:32  317
+Luke 23:33  317
+Luke 23:34  317
+Luke 23:35  317
+Luke 23:36  317
+Luke 23:37  317
+Luke 23:38  317
+Luke 23:39  317
+Luke 23:40  317
+Luke 23:41  317
+Luke 23:42  317
+Luke 23:43  317
+Luke 23:44  317
+Luke 23:45  317
+Luke 23:46  317
+Luke 23:47  317
+Luke 23:48  317
+Luke 23:49  317
+---- Friday Passion 9
+John 19:25  388
+John 19:26  388
+John 19:27  388
+John 19:28  388
+John 19:29  388
+John 19:30  388
+John 19:31  388
+John 19:32  388
+John 19:33  388
+John 19:34  388
+John 19:35  388
+John 19:36  388
+John 19:37  388
+---- Friday Passion 10
+Mark 15:43  198
+Mark 15:44  198
+Mark 15:45  198
+Mark 15:46  198
+Mark 15:47  198
+---- Friday Passion 11
+John 19:38  390
+John 19:39  390
+John 19:40  390
+John 19:41  390
+John 19:42  390
+---- Friday Passion 12
+Matt 27:62  124
+Matt 27:63  124
+Matt 27:64  124
+Matt 27:65  124
+Matt 27:66  124
+---- Friday 1st Hour
+Matt 27:1   119
+Matt 27:2   119
+Matt 27:3   119
+Matt 27:4   119
+Matt 27:5   119
+Matt 27:6   119
+Matt 27:7   119
+Matt 27:8   119
+Matt 27:9   119
+Matt 27:10  119
+Matt 27:11  119
+Matt 27:12  119
+Matt 27:13  119
+Matt 27:14  119
+Matt 27:15  119
+Matt 27:16  119
+Matt 27:17  119
+Matt 27:18  119
+Matt 27:19  119
+Matt 27:20  119
+Matt 27:21  119
+Matt 27:22  119
+Matt 27:23  119
+Matt 27:24  119
+Matt 27:25  119
+Matt 27:26  119
+Matt 27:27  119
+Matt 27:28  119
+Matt 27:29  119
+Matt 27:30  119
+Matt 27:31  119
+Matt 27:32  119
+Matt 27:33  119
+Matt 27:34  119
+Matt 27:35  119
+Matt 27:36  119
+Matt 27:37  119
+Matt 27:38  119
+Matt 27:39  119
+Matt 27:40  119
+Matt 27:41  119
+Matt 27:42  119
+Matt 27:43  119
+Matt 27:44  119
+Matt 27:45  119
+Matt 27:46  119
+Matt 27:47  119
+Matt 27:48  119
+Matt 27:49  119
+Matt 27:50  119
+Matt 27:51  119
+Matt 27:52  119
+Matt 27:53  119
+Matt 27:54  119
+Matt 27:55  119
+Matt 27:56  119
+---- Friday 3rd Hour
+Mark 15:16  196
+Mark 15:17  196
+Mark 15:18  196
+Mark 15:19  196
+Mark 15:20  196
+Mark 15:21  196
+Mark 15:22  196
+Mark 15:23  196
+Mark 15:24  196
+Mark 15:25  196
+Mark 15:26  196
+Mark 15:27  196
+Mark 15:28  196
+Mark 15:29  196
+Mark 15:30  196
+Mark 15:31  196
+Mark 15:32  196
+Mark 15:33  196
+Mark 15:34  196
+Mark 15:35  196
+Mark 15:36  196
+Mark 15:37  196
+Mark 15:38  196
+Mark 15:39  196
+Mark 15:40  196
+Mark 15:41  196
+---- Friday 6th Hour
+Luke 23:32  317
+Luke 23:33  317
+Luke 23:34  317
+Luke 23:35  317
+Luke 23:36  317
+Luke 23:37  317
+Luke 23:38  317
+Luke 23:39  317
+Luke 23:40  317
+Luke 23:41  317
+Luke 23:42  317
+Luke 23:43  317
+Luke 23:44  317
+Luke 23:45  317
+Luke 23:46  317
+Luke 23:47  317
+Luke 23:48  317
+Luke 23:49  317
+---- Friday 9th Hour
+John 18:28  386
+John 18:29  386
+John 18:30  386
+John 18:31  386
+John 18:32  386
+John 18:33  386
+John 18:34  386
+John 18:35  386
+John 18:36  386
+John 18:37  386
+John 18:38  386
+John 18:39  386
+John 18:40  386
+John 19:1   386
+John 19:2   386
+John 19:3   386
+John 19:4   386
+John 19:5   386
+John 19:6   386
+John 19:7   386
+John 19:8   386
+John 19:9   386
+John 19:10  386
+John 19:11  386
+John 19:12  386
+John 19:13  386
+John 19:14  386
+John 19:15  386
+John 19:16  386
+John 19:17  386
+John 19:18  386
+John 19:19  386
+John 19:20  386
+John 19:21  386
+John 19:22  386
+John 19:23  386
+John 19:24  386
+John 19:25  386
+John 19:26  386
+John 19:27  386
+John 19:28  386
+John 19:29  386
+John 19:30  386
+John 19:31  386
+John 19:32  386
+John 19:33  386
+John 19:34  386
+John 19:35  386
+John 19:36  386
+John 19:37  386
+---- Friday Composite
+Matt 27:1   120
+Matt 27:2   120
+Matt 27:3   120
+Matt 27:4   120
+Matt 27:5   120
+Matt 27:6   120
+Matt 27:7   120
+Matt 27:8   120
+Matt 27:9   120
+Matt 27:10  120
+Matt 27:11  120
+Matt 27:12  120
+Matt 27:13  120
+Matt 27:14  120
+Matt 27:15  120
+Matt 27:16  120
+Matt 27:17  120
+Matt 27:18  120
+Matt 27:19  120
+Matt 27:20  120
+Matt 27:21  120
+Matt 27:22  120
+Matt 27:23  120
+Matt 27:24  120
+Matt 27:25  120
+Matt 27:26  120
+Matt 27:27  120
+Matt 27:28  120
+Matt 27:29  120
+Matt 27:30  120
+Matt 27:31  120
+Matt 27:32  120
+Matt 27:33  120
+Matt 27:34  120
+Matt 27:35  120
+Matt 27:36  120
+Matt 27:37  120
+Matt 27:38  120
+Luke 23:39  120
+Luke 23:40  120
+Luke 23:41  120
+Luke 23:42  120
+Luke 23:43  120
+Matt 27:39  120
+Matt 27:40  120
+Matt 27:41  120
+Matt 27:42  120
+Matt 27:43  120
+Matt 27:44  120
+Matt 27:45  120
+Matt 27:46  120
+Matt 27:47  120
+Matt 27:48  120
+Matt 27:49  120
+Matt 27:50  120
+Matt 27:51  120
+Matt 27:52  120
+Matt 27:53  120
+Matt 27:54  120
+John 19:31  120
+John 19:32  120
+John 19:33  120
+John 19:34  120
+John 19:35  120
+John 19:36  120
+John 19:37  120
+Matt 27:55  120
+Matt 27:56  120
+Matt 27:57  120
+Matt 27:58  120
+Matt 27:59  120
+Matt 27:60  120
+Matt 27:61  120
