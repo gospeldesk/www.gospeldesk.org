@@ -23,12 +23,12 @@ Matt  1 22 - * god isaiah
 Matt  1 23 - * god isaiah * theotokos jesus * god jews
 Matt  1 24 - joseph theotokos * dream-angel
 Matt  1 25 - joseph theotokos jesus
-Matt  2  1 - wise-men jerusalem * jesus theotokos bethlehem judaea herod
+Matt  2  1 - wise-men jerusalem * jesus theotokos bethlehem judea herod
 Matt  2  2 - wise-men jerusalem * jesus jews star
 Matt  2  3 - herod jerusalem * wise-men
 Matt  2  4 - herod chief-priests scribes * jews jesus
-Matt  2  5 - chief-priests scribes herod * bethlehem judaea isaiah
-Matt  2  6 - * bethlehem judaea jews jesus
+Matt  2  5 - chief-priests scribes herod * bethlehem judea isaiah
+Matt  2  6 - * bethlehem judea jews jesus
 Matt  2  7 - herod wise-men * star
 Matt  2  8 - herod wise-men * bethlehem jesus
 Matt  2  9 - wise-men herod star jesus * east
@@ -44,14 +44,14 @@ Matt  2 18 - * jeremiah * ramah rachel innocents
 Matt  2 19 - dream-angel joseph egypt * herod
 Matt  2 20 - dream-angel joseph * jesus theotokos israel herod
 Matt  2 21 - joseph jesus theotokos israel
-Matt  2 22 - joseph dream-angel jesus theotokos galilee * archelaus herod judaea
+Matt  2 22 - joseph dream-angel jesus theotokos galilee * archelaus herod judea
 Matt  2 23 - joseph jesus theotokos nazareth * prophets jesus
-Matt  3  1 - baptist judaea
-Matt  3  2 - baptist judaea * men kingdom
+Matt  3  1 - baptist judea
+Matt  3  2 - baptist judea * men kingdom
 Matt  3  3 - * isaiah * baptist god
 Matt  3  4 - baptist
-Matt  3  5 - baptist jerusalem judaea jordan
-Matt  3  6 - baptist jerusalem judaea jordan
+Matt  3  5 - baptist jerusalem judea jordan
+Matt  3  6 - baptist jerusalem judea jordan
 Matt  3  7 - baptist pharisees sadducees * vipers
 Matt  3  8 - baptist pharisees sadducees * fruits
 Matt  3  9 - baptist pharisees sadducees * abraham god stones abrahams-children
@@ -85,9 +85,9 @@ Matt  4 19 - jesus peter andrew * jesus peter andrew men
 Matt  4 20 - jesus peter andrew nets
 Matt  4 21 - jesus peter andrew james john zebedee ship nets
 Matt  4 22 - jesus peter andrew james john zebedee ship
-Matt  4 23 - jesus galilee kingdom multitude[galilee] sickness diseases
-Matt  4 24 - jesus syria sick[syria] diseases torments devils lunatick palsy
-Matt  4 25 - jesus multitude[galilee decapolis jerusalem judaea beyond-jordan]
+Matt  4 23 - jesus galilee kingdom multitude[galilee] sickness disease
+Matt  4 24 - jesus syria sick[syria] disease torments demons epileptics paralytics 
+Matt  4 25 - jesus multitude[galilee decapolis jerusalem judea beyond-jordan]
 Matt  5  1 - jesus multitude mountain disciples
 Matt  5  2 - jesus disciples
 Matt  5  3 - jesus disciples * poor-in-spirit kingdom
@@ -215,7 +215,7 @@ Matt  8 13 - jesus centurion * centurion centurion-servant
 Matt  8 14 - jesus peter peter-wife-mother fever
 Matt  8 15 - jesus peter peter-wife-mother fever
 Matt  8 16 - jesus multitude devils sick
-Matt  8 17 - * esias * jesus sickness
+Matt  8 17 - * isaiah * jesus sickness
 Matt  8 18 - jesus multitude disciples
 Matt  8 19 - jesus scribe * jesus scribe
 Matt  8 20 - jesus scribe * jesus
@@ -234,43 +234,43 @@ Matt  8 32 - jesus two-possessed devils swine * jesus devils two-possessed swine
 Matt  8 33 - jesus swineherders gergesenes two-possessed
 Matt  8 34 - jesus gergesenes
 Matt  9  1 - jesus nazareth
-Matt  9  2 - jesus multitude anon-palsy
+Matt  9  2 - jesus multitude anon-paralytic
 Matt  9  3 - scribes * jesus
 Matt  9  4 - jesus scribes * scribes
-Matt  9  5 - * * anon-palsy
-Matt  9  6 - * scribes jesus anon-palsy
-Matt  9  7 - anon-palsy
-Matt  9  8 - multitude anon-palsy god
+Matt  9  5 - jesus scribes * * anon-paralytic
+Matt  9  6 - jesus scribes anon-paralytic * scribes jesus anon-paralytic
+Matt  9  7 - anon-paralytic
+Matt  9  8 - multitude anon-paralytic god
 Matt  9  9 - jesus matthew * matthew jesus
 Matt  9 10 - jesus sinners disciples
 Matt  9 11 - pharisees jesus sinners disciples * jesus sinners
 Matt  9 12 - jesus pharisees * sinners
 Matt  9 13 - jesus pharisees * jesus sinners
 Matt  9 14 - jesus john-disciples * john-disciples pharisees disciples
-Matt  9 15 -
-Matt  9 16 -
-Matt  9 17 -
-Matt  9 18 -
-Matt  9 19 -
-Matt  9 20 -
-Matt  9 21 -
-Matt  9 22 -
-Matt  9 23 -
-Matt  9 24 -
-Matt  9 25 -
-Matt  9 26 -
-Matt  9 27 -
-Matt  9 28 -
-Matt  9 29 -
-Matt  9 30 -
-Matt  9 31 -
-Matt  9 32 -
-Matt  9 33 -
-Matt  9 34 -
-Matt  9 35 -
-Matt  9 36 -
-Matt  9 37 -
-Matt  9 38 -
+Matt  9 15 - jesus john-disciples * jesus disciples god
+Matt  9 16 - jesus john-disciples * anon
+Matt  9 17 - jesus john-disciples * anon
+Matt  9 18 - jesus john-disciples anon-ruler * anon-ruler-daughter jesus
+Matt  9 19 - jesus anon-ruler disciples
+Matt  9 20 - jesus veronica 
+Matt  9 21 - veronica * veronica jesus
+Matt  9 22 - jesus veronica
+Matt  9 23 - jesus anon-ruler anon-ruler-flute-players anon-ruler-crowd
+Matt  9 24 - jesus anon-ruler-flute-players anon-ruler-crowd * anon-fluter-players anon-ruler-crowd anon-ruler-daughter
+Matt  9 25 - jesus anon-ruler anon-ruler-flute-players anon-ruler-crowd anon-ruler-daughter
+Matt  9 26 - nazareth
+Matt  9 27 - jesus bartimaeus anon-other-blind
+Matt  9 28 - jesus bartimaeus anon-other-blind * bartimaeus anon-other-blind jesus
+Matt  9 29 - jesus bartimaeus anon-other-blind * bartimaeus anon-other-blind
+Matt  9 30 - jesus bartimaeus anon-other-blind * bartimaeus anon-other-blind nazareth
+Matt  9 31 - bartimaeus anon-other-blind nazareth
+Matt  9 32 - jesus disciples anon-mute
+Matt  9 33 - jesus disciples anon-mute demon multitude[nazareth]
+Matt  9 34 - pharisees * satan jesus demons
+Matt  9 35 - jesus nazareth disease sickness
+Matt  9 36 - jesus multitude[nazareth]
+Matt  9 37 - jesus disciples
+Matt  9 38 - jesus disciples * disciples god
 Matt 10  1 -
 Matt 10  2 -
 Matt 10  3 -
