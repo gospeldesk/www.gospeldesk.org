@@ -6,17 +6,11 @@ excerpt: Workinʼ on a building.
 <a href="chadwhitacre.jpg"><img src="chadwhitacre.small.jpg" style="float: right; margin: 0 0 20px 20px; width: 33%;"></a>
 
 <p style="text-indent: 0;">Greetings, friend! My name is Chad Whitacre. I am a
-member of <a href="https://orthodoxpittsburgh.org">St.  Nicholas Orthodox
-Church</a>, and Gospel Desk is an excuse to talk about God. May it be a good
+member of <a href="https://orthodoxpittsburgh.org">St. Nicholas Orthodox
+Church</a>.
 excuse!</p>
 
-I grew up in the Episcopal Church, and I studied Ancient Languages (with a
-minor in Biblical and Theological Studies) at Wheaton College. I helped launch
-the Anglican Church in North America. Then I tried to start my own
-denomination, Christian Minimalism. Now here I am, a layman in the Orthodox
-Church in America. Pray for me, a sinner.
-
-I [publish this website](/2024/welcome-to-gospel-desk/) with the blessing of my
+I publish this website with the blessing of my
 bishop, His Eminence, Archbishop Melchisidek of Pittsburgh and Western
 Pennsylvania. He has appointed Fr. Thomas Soroka (my priest) and Dr. Edith
 Humphrey (my godmother) to review the materials published here, "to maintain
