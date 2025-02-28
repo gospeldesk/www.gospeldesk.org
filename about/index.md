@@ -7,8 +7,7 @@ excerpt: Workinʼ on a building.
 
 <p style="text-indent: 0;">Greetings, friend! My name is Chad Whitacre. I am a
 member of <a href="https://orthodoxpittsburgh.org">St. Nicholas Orthodox
-Church</a>.
-excuse!</p>
+Church</a>.</p>
 
 I publish this website with the blessing of my
 bishop, His Eminence, Archbishop Melchisidek of Pittsburgh and Western
@@ -25,23 +24,10 @@ Thanks for visiting! Glory to God for all things! ✚
 
 <div>
 
-  Ideally, find me <a
-    href="https://www.orthodoxpittsburgh.org/parishcalendar">in person</a>. 😉 Barring that ...
+  Best to <a href="https://www.orthodoxpittsburgh.org/parishcalendar">find me
+  in person</a>, second-best is to email <a
+  href="mailto:chad@zetaweb.com">chad@zetaweb.com</a>.
 
-  <br><br>
-
-  <img src="/assets/images/social-icon-instagram.svg" class="social-icon">
-  <a href="https://www.instagram.com/chad.whitacre/">
-    @chad.whitacre
-  </a>
-  <br><br>
-  <img src="/assets/images/social-icon-twitter.svg" class="social-icon">
-  <a href="https://twitter.com/__chadwhitacre">
-    @__chadwhitacre
-  </a>
-  <br><br>
-  <img src="/assets/images/social-icon-email.svg" class="social-icon">
-  <a href="mailto:chad@zetaweb.com">chad@zetaweb.com</a>
 </div>
 
 ### Logos and Colors
