@@ -25,8 +25,8 @@ Thanks for visiting! Glory to God for all things! ✚
 <div>
 
   Best to <a href="https://www.orthodoxpittsburgh.org/parishcalendar">find me
-  in person</a>, second-best is to email <a
-  href="mailto:chad@zetaweb.com">chad@zetaweb.com</a>.
+  in person</a>, second-best is <a
+  href="mailto:chad@zetaweb.com">email</a>.
 
 </div>
 
