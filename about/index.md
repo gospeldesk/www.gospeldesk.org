@@ -75,23 +75,3 @@ Thanks for visiting! Glory to God for all things! ✚
   <div class="color black">#21201A</div>
   <div class="color red">#B2342D</div>
 </div>
-
-<br>
-
-### Bonus Content
-
-<div class="post-listing">
-  <a class="post" href="/working-on-a-building/">
-    <h3>Working on a Building</h3>
-    <div class="excerpt">
-      An American spiritual, extensively cataloged.
-      166 artists, 256 recordings, 12 highlights
-    </div>
-  </a>
-  <a class="post" href="https://www.youtube.com/watch?v=op-G-1JuXOg">
-    <h3>Computer in My Pocket</h3>
-    <div class="excerpt">
-    A meditation on meditation
-    </div>
-  </a>
-</div>
