@@ -9,13 +9,12 @@ excerpt: Workinʼ on a building.
 member of <a href="https://orthodoxpittsburgh.org">St. Nicholas Orthodox
 Church</a>.</p>
 
-I publish this website with the blessing of my
-bishop, His Eminence, Archbishop Melchisidek of Pittsburgh and Western
-Pennsylvania. He has appointed Fr. Thomas Soroka (my priest) and Dr. Edith
-Humphrey (my godmother) to review the materials published here, "to maintain
-the principle of 'when two or three are gathered,'" so that thereby Gospel Desk
-might be "'of the Church' in a very concrete sense." I am deeply grateful to
-all three.
+I publish this website with the blessing of my bishop, His Eminence, Archbishop
+Melchisidek of Pittsburgh and Western Pennsylvania. He has appointed Fr. Thomas
+Soroka (my priest) and Dr. Edith Humphrey (my godmother) to review the
+materials published here, "to maintain the principle of 'when two or three are
+gathered,'" so that thereby Gospel Desk might be "'of the Church' in a very
+concrete sense." I am deeply grateful to all three.
 
 Thanks for visiting! Glory to God for all things! ✚
 
