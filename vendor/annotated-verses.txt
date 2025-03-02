@@ -15,10 +15,10 @@ Matt  1 14 - azor zadok achim eliud
 Matt  1 15 - eliud eleazar matthan jacob
 Matt  1 16 - jacob joseph theotokos jesus
 Matt  1 17 - * abraham david jews-exile babylonians jesus
-Matt  1 18 - theotokos joseph jesus * holy-ghost
+Matt  1 18 - theotokos joseph jesus * holy-spirit
 Matt  1 19 - theotokos joseph
-Matt  1 20 - joseph dream-angel * jesus holy-ghost
-Matt  1 21 - joseph dream-angel * jesus holy-ghost jews
+Matt  1 20 - joseph dream-angel * jesus holy-spirit
+Matt  1 21 - joseph dream-angel * jesus holy-spirit jews
 Matt  1 22 - * god isaiah
 Matt  1 23 - * god isaiah * theotokos jesus * god jews
 Matt  1 24 - joseph theotokos * dream-angel
@@ -56,14 +56,14 @@ Matt  3  7 - baptist pharisees sadducees * vipers
 Matt  3  8 - baptist pharisees sadducees * fruits
 Matt  3  9 - baptist pharisees sadducees * abraham god stones abrahams-children
 Matt  3 10 - baptist pharisees sadducees * trees
-Matt  3 11 - baptist pharisees sadducees * jesus holy-ghost fire
+Matt  3 11 - baptist pharisees sadducees * jesus holy-spirit fire
 Matt  3 12 - baptist pharisees sadducees * jesus wheat chaff fire
 Matt  3 13 - jesus galilee jordan baptist
 Matt  3 14 - jesus baptist
 Matt  3 15 - jesus baptist
-Matt  3 16 - jesus baptist water heavens holy-ghost[dove]
-Matt  3 17 - jesus baptist water heavens holy-ghost[dove] god[voice]
-Matt  4  1 - jesus holy-ghost * devil
+Matt  3 16 - jesus baptist water heavens holy-spirit[dove]
+Matt  3 17 - jesus baptist water heavens holy-spirit[dove] god[voice]
+Matt  4  1 - jesus holy-spirit * devil
 Matt  4  2 - jesus
 Matt  4  3 - jesus devil stones
 Matt  4  4 - jesus devil * moses * man bread word god
@@ -212,25 +212,25 @@ Matt  8 10 - jesus centurion disciples * centurion israel
 Matt  8 11 - jesus centurion disciples * kingdom
 Matt  8 12 - jesus centurion disciples * kingdom
 Matt  8 13 - jesus centurion * centurion centurion-servant
-Matt  8 14 - jesus peter peter-wife-mother fever
-Matt  8 15 - jesus peter peter-wife-mother fever
-Matt  8 16 - jesus multitude devils sick
+Matt  8 14 - jesus peter peter-wife-mor fever
+Matt  8 15 - jesus peter peter-wife-mor fever
+Matt  8 16 - jesus multitude demons sick
 Matt  8 17 - * isaiah * jesus sickness
 Matt  8 18 - jesus multitude disciples
 Matt  8 19 - jesus scribe * jesus scribe
 Matt  8 20 - jesus scribe * jesus
-Matt  8 21 - jesus anon-disciple * jesus anon-disciple anon-disciple-father
-Matt  8 22 - jesus anon-disciple * jesus anon-disciple anon-disciple-father
+Matt  8 21 - jesus anon-disciple * jesus anon-disciple anon-disciple-far
+Matt  8 22 - jesus anon-disciple * jesus anon-disciple anon-disciple-far
 Matt  8 23 - jesus disciples
 Matt  8 24 - jesus disciples sea
 Matt  8 25 - jesus disciples * jesus disciples
 Matt  8 26 - jesus disciples sea * disciples
 Matt  8 27 - disiples * jesus sea
-Matt  8 28 - jesus gergesenes two-possessed devils
-Matt  8 29 - jesus two-possessed devils * devils two-possessed jesus
-Matt  8 30 - jesus two-possessed devils swine
-Matt  8 31 - jesus two-possessed devils * jesus devils two-possessed swine
-Matt  8 32 - jesus two-possessed devils swine * jesus devils two-possessed swine sea
+Matt  8 28 - jesus gergesenes two-possessed demons
+Matt  8 29 - jesus two-possessed demons * demons two-possessed jesus
+Matt  8 30 - jesus two-possessed demons swine
+Matt  8 31 - jesus two-possessed demons * jesus demons two-possessed swine
+Matt  8 32 - jesus two-possessed demons swine * jesus demons two-possessed swine sea
 Matt  8 33 - jesus swineherders gergesenes two-possessed
 Matt  8 34 - jesus gergesenes
 Matt  9  1 - jesus nazareth
@@ -241,7 +241,7 @@ Matt  9  5 - jesus scribes * * anon-paralytic
 Matt  9  6 - jesus scribes anon-paralytic * scribes jesus anon-paralytic
 Matt  9  7 - anon-paralytic
 Matt  9  8 - multitude anon-paralytic god
-Matt  9  9 - jesus matthew * matthew jesus
+Matt  9  9 - jesus matw * matthew jesus
 Matt  9 10 - jesus sinners disciples
 Matt  9 11 - pharisees jesus sinners disciples * jesus sinners
 Matt  9 12 - jesus pharisees * sinners
@@ -259,11 +259,11 @@ Matt  9 23 - jesus anon-ruler anon-ruler-flute-players anon-ruler-crowd
 Matt  9 24 - jesus anon-ruler-flute-players anon-ruler-crowd * anon-fluter-players anon-ruler-crowd anon-ruler-daughter
 Matt  9 25 - jesus anon-ruler anon-ruler-flute-players anon-ruler-crowd anon-ruler-daughter
 Matt  9 26 - nazareth
-Matt  9 27 - jesus bartimaeus anon-other-blind
-Matt  9 28 - jesus bartimaeus anon-other-blind * bartimaeus anon-other-blind jesus
-Matt  9 29 - jesus bartimaeus anon-other-blind * bartimaeus anon-other-blind
-Matt  9 30 - jesus bartimaeus anon-other-blind * bartimaeus anon-other-blind nazareth
-Matt  9 31 - bartimaeus anon-other-blind nazareth
+Matt  9 27 - jesus bartimaeus anon-or-blind
+Matt  9 28 - jesus bartimaeus anon-or-blind * bartimaeus anon-other-blind jesus
+Matt  9 29 - jesus bartimaeus anon-or-blind * bartimaeus anon-other-blind
+Matt  9 30 - jesus bartimaeus anon-or-blind * bartimaeus anon-other-blind nazareth
+Matt  9 31 - bartimaeus anon-or-blind nazareth
 Matt  9 32 - jesus disciples anon-mute
 Matt  9 33 - jesus disciples anon-mute demon multitude[nazareth]
 Matt  9 34 - pharisees * satan jesus demons
@@ -271,51 +271,51 @@ Matt  9 35 - jesus nazareth disease sickness
 Matt  9 36 - jesus multitude[nazareth]
 Matt  9 37 - jesus disciples
 Matt  9 38 - jesus disciples * disciples god
-Matt 10  1 -
-Matt 10  2 -
-Matt 10  3 -
-Matt 10  4 -
-Matt 10  5 -
-Matt 10  6 -
-Matt 10  7 -
-Matt 10  8 -
-Matt 10  9 -
-Matt 10 10 -
-Matt 10 11 -
-Matt 10 12 -
-Matt 10 13 -
-Matt 10 14 -
-Matt 10 15 -
-Matt 10 16 -
-Matt 10 17 -
-Matt 10 18 -
-Matt 10 19 -
-Matt 10 20 -
-Matt 10 21 -
-Matt 10 22 -
-Matt 10 23 -
-Matt 10 24 -
-Matt 10 25 -
-Matt 10 26 -
-Matt 10 27 -
-Matt 10 28 -
-Matt 10 29 -
-Matt 10 30 -
-Matt 10 31 -
-Matt 10 32 -
-Matt 10 33 -
-Matt 10 34 -
-Matt 10 35 -
-Matt 10 36 -
-Matt 10 37 -
-Matt 10 38 -
-Matt 10 39 -
-Matt 10 40 -
-Matt 10 41 -
-Matt 10 42 -
-Matt 11  1 -
-Matt 11  2 -
-Matt 11  3 -
+Matt 10  1 - jesus disciples demons sickness disease
+Matt 10  2 - peter andrew james john * zebedee
+Matt 10  3 - philip bartholomew thomas matw james thaddeus * alphaeus
+Matt 10  4 - simon judas
+Matt 10  5 - jesus twelve * twelve gentiles samaritans
+Matt 10  6 - jesus twelve * twelve jews
+Matt 10  7 - jesus twelve * twelve
+Matt 10  8 - jesus twelve * twelve sick demons
+Matt 10  9 - jesus twelve * twelve
+Matt 10 10 - jesus twelve * twelve
+Matt 10 11 - jesus twelve * twelve city
+Matt 10 12 - jesus twelve * twelve house
+Matt 10 13 - jesus twelve * twelve house
+Matt 10 14 - jesus twelve * twelve house city
+Matt 10 15 - jesus twelve * jesus twelve * sodom-gomorrha city
+Matt 10 16 - jesus twelve * jesus twelve wolves
+Matt 10 17 - jesus twelve * twelve wolves
+Matt 10 18 - jesus twelve * kings gentiles
+Matt 10 19 - jesus twelve * wolves kings gentiles
+Matt 10 20 - jesus twelve * twelve spirit god
+Matt 10 21 - jesus twelve * brother child father parents
+Matt 10 22 - jesus twelve * twelve men endurer
+Matt 10 23 - jesus twelve * wolves twelve city israel jesus
+Matt 10 24 - jesus twelve * twelve jesus
+Matt 10 25 - jesus twelve * twelve jesus * wolves devil
+Matt 10 26 - jesus twelve * twelve wolves
+Matt 10 27 - jesus twelve * jesus twelve
+Matt 10 28 - jesus twelve * twelve wolves god
+Matt 10 29 - jesus twelve * sparrows god
+Matt 10 30 - jesus twelve * hairs
+Matt 10 31 - jesus twelve * twelve sparrows
+Matt 10 32 - jesus twelve * disciples men jesus god
+Matt 10 33 - jesus twelve * disciples men jesus god
+Matt 10 34 - jesus twelve * twelve jesus earth
+Matt 10 35 - jesus twelve * jesus man father daughter mother
+Matt 10 36 - jesus twelve * man household
+Matt 10 37 - jesus twelve * man father mother jesus son daughter
+Matt 10 38 - jesus twelve * man jesus
+Matt 10 39 - jesus twelve * man jesus
+Matt 10 40 - jesus twelve * man jesus god
+Matt 10 41 - jesus twelve * man prophet righteous-man
+Matt 10 42 - jesus twelve * man disciple
+Matt 11  1 - jesus twelve cities
+Matt 11  2 - baptist jesus baptist-disciples
+Matt 11  3 - baptist-disciples jesus
 Matt 11  4 -
 Matt 11  5 -
 Matt 11  6 -
