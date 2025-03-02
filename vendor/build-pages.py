@@ -25,6 +25,11 @@ for pericope_id, text in texts_csv:
 def parse_chapter_verse(cv):
     return int(cv[:-3]), int(cv[-3:])
 
+def flerp(date):
+    d = datetime.date(*map(int, date.split('-')))
+    url = f'https://orthocal.info/readings/gregorian/{d.strftime("%Y/%m/%d")}/'
+    return (d.strftime("%B, %e, %Y"), url)
+
 for rec in calendarium_json + additional_json:
     if rec['model'] != 'calendarium.pericope':
         continue
@@ -38,17 +43,15 @@ for rec in calendarium_json + additional_json:
     text = texts_by_pericope_id[pk]
     upcoming = ''
     if dates:
+        assert len(dates) == 2
+        d, url = flerp(dates[0])
+        d2, url2 = flerp(dates[1])
         upcoming = f'''\
 
 ### Upcoming Proclamations
 
-God willing, the Church will proclaim this Gospel on the following dates:
-
+God willing, the Church will next proclaim this Gospel on <u><b><a class="next-proclamation" href="{url}">{d}</a></b></u>, and then again on <a class="next-next-proclamation" href="{url2}">{d2}</a>.
 '''
-        for date in dates:
-            d = datetime.date(*map(int, date.split('-')))
-            url = f'https://orthocal.info/readings/gregorian/{d.strftime("%Y/%m/%d")}/'
-            upcoming += f'1. [{d.strftime("%B, %e, %Y")}]({url})\n'
     print(f'''\
 ---
 title: {name}
