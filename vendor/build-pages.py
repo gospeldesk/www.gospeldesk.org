@@ -21,6 +21,7 @@ texts_by_pericope_id = dict()
 for pericope_id, text in texts_csv:
     texts_by_pericope_id[int(pericope_id)] = text
 
+
 def parse_chapter_verse(cv):
     return int(cv[:-3]), int(cv[-3:])
 

@@ -15,12 +15,14 @@ django.setup()
 from calendarium.liturgics.day import Day
 from calendarium.models import Pericope, Verse, Reading
 
-out = csv.writer(open('dates.csv', 'w+'))
-out2 = csv.writer(open('texts.csv', 'w+'))
+dates_csv = csv.writer(open('dates.csv', 'w+'))
+texts_csv = csv.writer(open('texts.csv', 'w+'))
+gospels_csv = csv.reader(open('gospels.csv'))
 dt = datetime.date.today()
 cutoff = dt + datetime.timedelta(days=365*10)
 ONE_DAY = datetime.timedelta(days=1)
 GOSPELS = 'Matthew Mark Luke John'.split()
+N = 2  # number of readings to find
 calendarium_json = json.load(open('orthocal-python/fixtures/calendarium.json'))
 additional_json = json.load(open('additional.json'))
 
@@ -28,6 +30,17 @@ remaining = dict()
 readings_for_dates = list()
 dates_by_pericope_id = dict()
 text_by_pericope_id = dict()
+
+web = defaultdict(lambda: defaultdict(dict))
+for b,c,v,text in gospels_csv:
+    web[b][int(c)][int(v)] = text
+
+BK = {
+    'MAT': 'Matt',
+    'MRK': 'Mark',
+    'LUK': 'Luke',
+    'JHN': 'John'
+}
 
 for rec in calendarium_json + additional_json:
     if rec['model'] != 'calendarium.pericope':
@@ -38,10 +51,11 @@ for rec in calendarium_json + additional_json:
 
     # Store text for all pericopes.
     passage = Verse.objects.lookup_reference(rec['fields']['sdisplay'])
-    text = ' '.join([v.content for v in passage])
+    web_verses = [web[BK[v.book]][v.chapter][v.verse] for v in passage]
+    text = ' '.join([v.strip() for v in web_verses])
     text_by_pericope_id[pk] = text
 
-    remaining[pk] = 3  # We look for the next three proclamations (within 10 years).
+    remaining[pk] = N  # We look for the next N readings within 10 years.
     dates_by_pericope_id[pk] = []
 
 while remaining and dt < cutoff:
@@ -65,15 +79,15 @@ while remaining and dt < cutoff:
     dt += ONE_DAY
 
 
-out.writerow(('id', 'date'))
+dates_csv.writerow(('id', 'date'))
 for pericope_id, readings in dates_by_pericope_id.items():
     for date in readings:
-        out.writerow((pericope_id, date))
+        dates_csv.writerow((pericope_id, date))
 
-out2.writerow(('id', 'text'))
+texts_csv.writerow(('id', 'text'))
 for pericope_id, text in text_by_pericope_id.items():
-    out2.writerow((pericope_id, text))
+    texts_csv.writerow((pericope_id, text))
 
 print("Undiscovered proclamations:")
 for pk, n in sorted(remaining.items()):
-    print(f'http://localhost:4000/explore/{pk}', '' if n == 3 else f'... {n}!')
+    print(f'http://localhost:4000/explore/{pk}', '' if n == N else f'... {n}!')
