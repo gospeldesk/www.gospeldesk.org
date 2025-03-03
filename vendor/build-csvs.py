@@ -19,7 +19,7 @@ dates_csv = csv.writer(open('dates.csv', 'w+'))
 texts_csv = csv.writer(open('texts.csv', 'w+'))
 gospels_csv = csv.reader(open('gospels.csv'))
 dt = datetime.date.today()
-cutoff = dt + datetime.timedelta(days=365*10)
+CUTOFF = dt + datetime.timedelta(days=365*10)
 ONE_DAY = datetime.timedelta(days=1)
 GOSPELS = 'Matthew Mark Luke John'.split()
 N = 2  # number of readings to find
@@ -42,6 +42,9 @@ BK = {
     'JHN': 'John'
 }
 
+def htmlize(b,c,v,t):
+    return f'<div class="verse"><span>{v}</span>{t}</div>'
+
 for rec in calendarium_json + additional_json:
     if rec['model'] != 'calendarium.pericope':
         continue
@@ -51,14 +54,14 @@ for rec in calendarium_json + additional_json:
 
     # Store text for all pericopes.
     passage = Verse.objects.lookup_reference(rec['fields']['sdisplay'])
-    web_verses = [web[BK[v.book]][v.chapter][v.verse] for v in passage]
-    text = ' '.join([v.strip() for v in web_verses])
+    web_verses = [(v.book, v.chapter, v.verse, web[BK[v.book]][v.chapter][v.verse]) for v in passage]
+    text = ' '.join([htmlize(*v) for v in web_verses])
     text_by_pericope_id[pk] = text
 
-    remaining[pk] = N  # We look for the next N readings within 10 years.
+    remaining[pk] = N  # We look for the next N readings within CUTOFF years.
     dates_by_pericope_id[pk] = []
 
-while remaining and dt < cutoff:
+while remaining and dt < CUTOFF:
     ymd = (dt.year, dt.month, dt.day)
     day = Day(*ymd)
     day.initialize()

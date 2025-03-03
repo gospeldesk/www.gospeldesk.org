@@ -10,9 +10,9 @@ passage below.
 <ol>
 {% for reading in site.data.readings %}
   <li>
-    <a href="./{{ reading.pk }}/">
-      {{ reading.name }}
-    </a>
+    <a href="./{{ reading.slug }}/">
+      {{ reading.title }}
+    </a> ({{ reading.range }})
   </li>
 {% endfor %}
 </ol>

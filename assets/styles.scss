@@ -578,6 +578,17 @@ footer {
   }
 }
 
+.verse {
+  display: inline;
+  span {
+    font-size: 8pt;
+    padding: 0 3pt 0 0;
+    position: relative;
+    top: -4pt;
+    color: var(--gray);
+  }
+}
+
 
 /* Page-specific */
 /* ============= */
