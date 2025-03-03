@@ -6,7 +6,7 @@ from collections import defaultdict
 
 GOSPELS = 'Matthew Mark Luke John'.split()
 nav = csv.writer(open('../_data/readings.csv', 'w+'))
-nav.writerow(('pk', 'name'))
+nav.writerow(('slug', 'title', 'ref'))
 dates_csv = csv.reader(open('dates.csv'))
 texts_csv = csv.reader(open('texts.csv'))
 next(dates_csv), next(texts_csv) # skip headers
@@ -30,60 +30,78 @@ def flerp(date):
     url = f'https://orthocal.info/readings/gregorian/{d.strftime("%Y/%m/%d")}/'
     return (d.strftime("%B %e, %Y"), url)
 
-for line in meta_pericopes:
-    line = line.strip()
-    if line.startswith('----'):
-        if line.endswith('----'):
-            fp = None
-            continue
-        title = line.split(None, 1)[1]
-        slug = title.lower().replace(' ', '-')
-        if slug in slugs:
-            import pdb; pdb.set_trace()
-        slugs.add(slug)
-        print(slug)
-        fp = open(f'../explore/{slug}.html', 'w+')
+def main():
+    cur = None
 
-    if fp is None:
-        continue
+    for line in meta_pericopes:
+        line = line.strip()
+        if line.startswith('----'):
+            if cur:
+                cur.flush()
+            if line.endswith('----'):
+                cur = None
+                continue
+            cur = Pericope(line.split(None, 1)[1])
+        elif cur:
+            cur.add(line)
 
-    continue
+class Pericope(object):
 
-    if rec['model'] != 'calendarium.pericope':
-        continue
-    if rec['fields']['book'] not in GOSPELS:
-        continue
-    pk = int(rec['pk'])
-    name = rec['fields']['display']
-    nav.writerow((pk, name))
-    fp = open(f'../explore/{pk}.md', 'w+')
-    dates = dates_by_pericope_id[pk]
-    text = texts_by_pericope_id[pk]
-    upcoming = ''
-    if dates:
-        assert len(dates) == 2
-        d, url = flerp(dates[0])
-        d2, url2 = flerp(dates[1])
-        # case 0:
-        #   this Gospel
-        # case 1:
-        #   most of this Gospel ({range})
-        # case 2:
-        #   a portion of this Gospel ({range})
-        #   another portion of this Gospel ({range})
-        upcoming = f'''\
+    __slugs = set()
+
+    def __init__(self, title):
+        self.title = title
+        self.slug = title.lower().replace(' ', '-')
+        assert self.slug not in self.__slugs, self.slug
+        self.__slugs.add(self.slug)
+        self.pks = set()
+        self.verses = []
+
+    def add(self, line):
+        bcv = line[:10]
+        pks = line[10:].strip()
+        b, cv = bcv.split()
+        for pk in pks.split():
+            self.pks.add(pk.replace(',', ''))
+        self.verses.append('lorem ipsum')
+
+    @property
+    def text(self):
+        return ' '.join(self.verses)
+
+    def flush(self):
+        nav.writerow((self.slug, self.title, 'some ref'))
+        fp = open(f'../explore/{self.slug}.md', 'w+')
+        pk = list(self.pks)[0]
+        dates = dates_by_pericope_id[pk]
+        upcoming = ''
+        if dates:
+            assert len(dates) == 2
+            d, url = flerp(dates[0])
+            d2, url2 = flerp(dates[1])
+            # case 0:
+            #   this Gospel
+            # case 1:
+            #   most of this Gospel ({range})
+            # case 2:
+            #   a portion of this Gospel ({range})
+            #   another portion of this Gospel ({range})
+            upcoming = f'''\
 
 ### Upcoming Proclamations
 
 God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="{url}">{d}</a></b></u>, and then again on <a class="next-next-proclamation" href="{url2}">{d2}</a>.
 '''
-    print(f'''\
+        print(f'''\
 ---
-title: {name}
+title: {self.title}
 pk: {pk}
-permalink: /explore/{pk}/
+permalink: /explore/{self.slug}/
 noindex: true
 ---
 
-{text}
+{self.text}
 {upcoming}''', file=fp)
+
+if __name__ == '__main__':
+    main()

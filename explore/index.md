@@ -12,7 +12,7 @@ passage below.
   <li>
     <a href="./{{ reading.slug }}/">
       {{ reading.title }}
-    </a> ({{ reading.range }})
+    </a> ({{ reading.ref }})
   </li>
 {% endfor %}
 </ol>
