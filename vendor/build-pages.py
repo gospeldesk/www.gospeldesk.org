@@ -8,22 +8,27 @@ GOSPELS = 'Matthew Mark Luke John'.split()
 nav = csv.writer(open('../_data/readings.csv', 'w+'))
 nav.writerow(('slug', 'title', 'ref'))
 dates_csv = csv.reader(open('dates.csv'))
-texts_csv = csv.reader(open('texts.csv'))
-next(dates_csv), next(texts_csv) # skip headers
+next(dates_csv) # skip headers
+gospels_csv = csv.reader(open('gospels.csv'))
 meta_pericopes = open('meta-pericopes.txt')
 
 dates_by_pericope_id = defaultdict(list)
 for pericope_id, date in dates_csv:
     dates_by_pericope_id[int(pericope_id)].append(date)
 
-texts_by_pericope_id = dict()
-for pericope_id, text in texts_csv:
-    texts_by_pericope_id[int(pericope_id)] = text
+WEB = defaultdict(lambda: defaultdict(dict))
+for b,c,v,text in gospels_csv:
+    WEB[b][int(c)][int(v)] = text
 
-slugs = set()
+BK = {
+    'MAT': 'Matt',
+    'MRK': 'Mark',
+    'LUK': 'Luke',
+    'JHN': 'John'
+}
 
-def parse_chapter_verse(cv):
-    return int(cv[:-3]), int(cv[-3:])
+def htmlize(b,c,v,t):
+    return f'<div class="verse"><span>{v}</span>{t}</div>'
 
 def flerp(date):
     d = datetime.date(*map(int, date.split('-')))
@@ -61,9 +66,10 @@ class Pericope(object):
         bcv = line[:10]
         pks = line[10:].strip()
         b, cv = bcv.split()
+        c, v = map(int, cv.split(':'))
         for pk in pks.split():
             self.pks.add(pk.replace(',', ''))
-        self.verses.append('lorem ipsum')
+        self.verses.append(htmlize(b, c, v, WEB[b][c][v]))
 
     @property
     def text(self):

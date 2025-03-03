@@ -16,8 +16,6 @@ from calendarium.liturgics.day import Day
 from calendarium.models import Pericope, Verse, Reading
 
 dates_csv = csv.writer(open('dates.csv', 'w+'))
-texts_csv = csv.writer(open('texts.csv', 'w+'))
-gospels_csv = csv.reader(open('gospels.csv'))
 dt = datetime.date.today()
 CUTOFF = dt + datetime.timedelta(days=365*10)
 ONE_DAY = datetime.timedelta(days=1)
@@ -29,21 +27,6 @@ additional_json = json.load(open('additional.json'))
 remaining = dict()
 readings_for_dates = list()
 dates_by_pericope_id = dict()
-text_by_pericope_id = dict()
-
-web = defaultdict(lambda: defaultdict(dict))
-for b,c,v,text in gospels_csv:
-    web[b][int(c)][int(v)] = text
-
-BK = {
-    'MAT': 'Matt',
-    'MRK': 'Mark',
-    'LUK': 'Luke',
-    'JHN': 'John'
-}
-
-def htmlize(b,c,v,t):
-    return f'<div class="verse"><span>{v}</span>{t}</div>'
 
 for rec in calendarium_json + additional_json:
     if rec['model'] != 'calendarium.pericope':
@@ -51,13 +34,6 @@ for rec in calendarium_json + additional_json:
     if rec['fields']['book'] not in GOSPELS:
         continue
     pk = int(rec['pk'])
-
-    # Store text for all pericopes.
-    passage = Verse.objects.lookup_reference(rec['fields']['sdisplay'])
-    web_verses = [(v.book, v.chapter, v.verse, web[BK[v.book]][v.chapter][v.verse]) for v in passage]
-    text = ' '.join([htmlize(*v) for v in web_verses])
-    text_by_pericope_id[pk] = text
-
     remaining[pk] = N  # We look for the next N readings within CUTOFF years.
     dates_by_pericope_id[pk] = []
 
@@ -86,10 +62,6 @@ dates_csv.writerow(('id', 'date'))
 for pericope_id, readings in dates_by_pericope_id.items():
     for date in readings:
         dates_csv.writerow((pericope_id, date))
-
-texts_csv.writerow(('id', 'text'))
-for pericope_id, text in text_by_pericope_id.items():
-    texts_csv.writerow((pericope_id, text))
 
 print("Undiscovered proclamations:")
 for pk, n in sorted(remaining.items()):
