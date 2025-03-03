@@ -1,0 +1,9 @@
+---
+title: Matthew 10:23–31
+pk: 39
+permalink: /explore/matthew-10:23-31/
+noindex: true
+---
+
+<div class="verse"><span>23</span>But when they persecute you in this city, flee into the next, for most certainly I tell you, you will not have gone through the cities of Israel, until the Son of Man has come. </div> <div class="verse"><span>24</span>“A disciple is not above his teacher, nor a servant above his lord. </div> <div class="verse"><span>25</span>It is enough for the disciple that he be like his teacher, and the servant like his lord. If they have called the master of the house Beelzebul, how much more those of his household! </div> <div class="verse"><span>26</span>Therefore don’t be afraid of them, for there is nothing covered that will not be revealed; and hidden that will not be known. </div> <div class="verse"><span>27</span>What I tell you in the darkness, speak in the light; and what you hear whispered in the ear, proclaim on the housetops. </div> <div class="verse"><span>28</span>Don’t be afraid of those who kill the body, but are not able to kill the soul. Rather, fear him who is able to destroy both soul and body in Gehenna. </div> <div class="verse"><span>29</span>“Aren’t two sparrows sold for an assarion coin? Not one of them falls on the ground apart from your Father’s will, </div> <div class="verse"><span>30</span>but the very hairs of your head are all numbered. </div> <div class="verse"><span>31</span>Therefore don’t be afraid. You are of more value than many sparrows. </div>
+

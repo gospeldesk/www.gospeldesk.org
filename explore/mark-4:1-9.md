@@ -1,0 +1,9 @@
+---
+title: Mark 4:1–9
+pk: 142
+permalink: /explore/mark-4:1-9/
+noindex: true
+---
+
+<div class="verse"><span>1</span>Again he began to teach by the seaside. A great multitude was gathered to him, so that he entered into a boat in the sea, and sat down. All the multitude were on the land by the sea. </div> <div class="verse"><span>2</span>He taught them many things in parables, and told them in his teaching, </div> <div class="verse"><span>3</span>“Listen! Behold, the farmer went out to sow, </div> <div class="verse"><span>4</span>and as he sowed, some seed fell by the road, and the birds came and devoured it. </div> <div class="verse"><span>5</span>Others fell on the rocky ground, where it had little soil, and immediately it sprang up, because it had no depth of soil. </div> <div class="verse"><span>6</span>When the sun had risen, it was scorched; and because it had no root, it withered away. </div> <div class="verse"><span>7</span>Others fell among the thorns, and the thorns grew up, and choked it, and it yielded no fruit. </div> <div class="verse"><span>8</span>Others fell into the good ground, and yielded fruit, growing up and increasing. Some produced thirty times, some sixty times, and some one hundred times as much.” </div> <div class="verse"><span>9</span>He said, “Whoever has ears to hear, let him hear.” </div>
+

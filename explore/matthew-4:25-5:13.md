@@ -1,0 +1,9 @@
+---
+title: Matthew 4:25–5:13
+pk: 10
+permalink: /explore/matthew-4:25-5:13/
+noindex: true
+---
+
+<div class="verse"><span>25</span>Great multitudes from Galilee, Decapolis, Jerusalem, Judea and from beyond the Jordan followed him. </div> <div class="verse"><span>1</span>Seeing the multitudes, he went up onto the mountain. When he had sat down, his disciples came to him. </div> <div class="verse"><span>2</span>He opened his mouth and taught them, saying, </div> <div class="verse"><span>3</span>“Blessed are the poor in spirit, for theirs is the Kingdom of Heaven. ;  </div> <div class="verse"><span>4</span>Blessed are those who mourn, for they shall be comforted. ;  , </div> <div class="verse"><span>5</span>Blessed are the gentle, for they shall inherit the earth. </div> <div class="verse"><span>6</span>Blessed are those who hunger and thirst after righteousness, for they shall be filled. </div> <div class="verse"><span>7</span>Blessed are the merciful, for they shall obtain mercy. </div> <div class="verse"><span>8</span>Blessed are the pure in heart, for they shall see God. </div> <div class="verse"><span>9</span>Blessed are the peacemakers, for they shall be called children of God. </div> <div class="verse"><span>10</span>Blessed are those who have been persecuted for righteousness’ sake, for theirs is the Kingdom of Heaven. </div> <div class="verse"><span>11</span>“Blessed are you when people reproach you, persecute you, and say all kinds of evil against you falsely, for my sake. </div> <div class="verse"><span>12</span>Rejoice, and be exceedingly glad, for great is your reward in heaven. For that is how they persecuted the prophets who were before you. </div> <div class="verse"><span>13</span>“You are the salt of the earth, but if the salt has lost its flavor, with what will it be salted? It is then good for nothing, but to be cast out and trodden under the feet of men. </div>
+

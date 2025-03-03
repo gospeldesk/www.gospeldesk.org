@@ -1,0 +1,9 @@
+---
+title: Matthew 14:22–34
+pk: 64
+permalink: /explore/matthew-14:22-34/
+noindex: true
+---
+
+<div class="verse"><span>22</span>Immediately Jesus made the disciples get into the boat, and to go ahead of him to the other side, while he sent the multitudes away. </div> <div class="verse"><span>23</span>After he had sent the multitudes away, he went up into the mountain by himself to pray. When evening had come, he was there alone. </div> <div class="verse"><span>24</span>But the boat was now in the middle of the sea, distressed by the waves, for the wind was contrary. </div> <div class="verse"><span>25</span>In the fourth watch of the night, </div> <div class="verse"><span>26</span>When the disciples saw him walking on the sea, they were troubled, saying, “It’s a ghost!” and they cried out for fear. </div> <div class="verse"><span>27</span>But immediately Jesus spoke to them, saying, “Cheer up! It is I! Don’t be afraid.” </div> <div class="verse"><span>28</span>Peter answered him and said, “Lord, if it is you, command me to come to you on the waters.” </div> <div class="verse"><span>29</span>He said, “Come!” Peter stepped down from the boat, and walked on the waters to come to Jesus. </div> <div class="verse"><span>30</span>But when he saw that the wind was strong, he was afraid, and beginning to sink, he cried out, saying, “Lord, save me!” </div> <div class="verse"><span>31</span>Immediately Jesus stretched out his hand, took hold of him, and said to him, “You of little faith, why did you doubt?” </div> <div class="verse"><span>32</span>When they got up into the boat, the wind ceased. </div> <div class="verse"><span>33</span>Those who were in the boat came and worshiped him, saying, “You are truly the Son of God!” </div> <div class="verse"><span>34</span>When they had crossed over, they came to the land of Gennesaret. </div>
+

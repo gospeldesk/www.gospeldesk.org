@@ -1,0 +1,9 @@
+---
+title: Matthew 6:31–7:11
+pk: 20
+permalink: /explore/matthew-6:31-7:11/
+noindex: true
+---
+
+<div class="verse"><span>31</span>“Therefore don’t be anxious, saying, ‘What will we eat?’, ‘What will we drink?’ or, ‘With what will we be clothed?’ </div> <div class="verse"><span>32</span>For the Gentiles seek after all these things; for your heavenly Father knows that you need all these things. </div> <div class="verse"><span>33</span>But seek first God’s Kingdom, and his righteousness; and all these things will be given to you as well. </div> <div class="verse"><span>34</span>Therefore don’t be anxious for tomorrow, for tomorrow will be anxious for itself. Each day’s own evil is sufficient. </div> <div class="verse"><span>9</span>Or who is there among you, who, if his son asks him for bread, will give him a stone? </div> <div class="verse"><span>10</span>Or if he asks for a fish, who will give him a serpent? </div> <div class="verse"><span>11</span>If you then, being evil, know how to give good gifts to your children, how much more will your Father who is in heaven give good things to those who ask him! </div>
+

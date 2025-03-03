@@ -40,14 +40,17 @@ def main():
 
     for line in meta_pericopes:
         line = line.strip()
-        if line.startswith('----'):
+        if line == '====':
+            continue
+        elif line.startswith('----'):
             if cur:
                 cur.flush()
             if line.endswith('----'):
-                cur = None
-                continue
-            cur = Pericope(line.split(None, 1)[1])
-        elif cur:
+                title = ''
+            else:
+                title = line.split(None, 1)[1]
+            cur = Pericope(title)
+        else:
             cur.add(line)
 
 class Pericope(object):
@@ -56,9 +59,6 @@ class Pericope(object):
 
     def __init__(self, title):
         self.title = title
-        self.slug = title.lower().replace(' ', '-')
-        assert self.slug not in self.__slugs, self.slug
-        self.__slugs.add(self.slug)
         self.pks = set()
         self.verses = []
 
@@ -69,17 +69,46 @@ class Pericope(object):
         c, v = map(int, cv.split(':'))
         for pk in pks.split():
             self.pks.add(pk.replace(',', ''))
-        self.verses.append(htmlize(b, c, v, WEB[b][c][v]))
+        self.verses.append((b,c,v))
 
     @property
     def text(self):
-        return ' '.join(self.verses)
+        return ' '.join([htmlize(b,c,v, WEB[b][c][v]) for b,c,v in self.verses])
+
+    @property
+    def ref(self):
+        sb,sc,sv = self.verses[0]
+        eb,ec,ev = self.verses[-1]
+        sb = 'Matthew' if sb == 'Matt' else sb
+        eb = 'Matthew' if eb == 'Matt' else eb
+        # TODO make this fully robust
+        if eb != sb:
+            return 'Composite'
+        elif ec != sc:
+            return f'{sb} {sc}:{sv}–{ec}:{ev}'
+        else:
+            return f'{sb} {sc}:{sv}–{ev}'
 
     def flush(self):
-        nav.writerow((self.slug, self.title, 'some ref'))
-        fp = open(f'../explore/{self.slug}.md', 'w+')
-        pk = list(self.pks)[0]
-        dates = dates_by_pericope_id[pk]
+        if self.title:
+            title = self.title
+            ref = self.ref
+        else:
+            title = self.ref
+            ref = ''
+
+        slug = title.lower().replace(' ', '-').replace('–', '-')
+        assert slug not in self.__slugs, slug
+        self.__slugs.add(slug)
+
+        nav.writerow((slug, title, ref))
+
+        fp = open(f'../explore/{slug}.md', 'w+')
+        pk = ''
+        dates = None
+        if self.pks:
+            pk = list(self.pks)[0]
+            dates = dates_by_pericope_id[pk]
         upcoming = ''
         if dates:
             assert len(dates) == 2
@@ -100,9 +129,9 @@ God willing, the Church will proclaim this Gospel on <u><b><a class="next-procla
 '''
         print(f'''\
 ---
-title: {self.title}
+title: {title}
 pk: {pk}
-permalink: /explore/{self.slug}/
+permalink: /explore/{slug}/
 noindex: true
 ---
 
