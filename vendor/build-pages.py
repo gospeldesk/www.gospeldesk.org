@@ -131,7 +131,7 @@ class Pericope(object):
 
         nav.writerow((slug, title, ref))
 
-        fp = open(f'../passages/{slug}.md', 'w+')
+        fp = open(f'../readings/{slug}.md', 'w+')
         pk = ''
         dates = None
         if self.pks:
@@ -159,11 +159,11 @@ God willing, the Church will proclaim this Gospel on <u><b><a class="next-procla
 ---
 title: "{title}"
 pk: "{pk}"
-permalink: "/passages/{slug}/"
+permalink: "/readings/{slug}/"
 noindex: true
 ---
 
-<div class="passage">
+<div class="reading">
 {self.text}
 </div>
 {upcoming}''', file=fp)

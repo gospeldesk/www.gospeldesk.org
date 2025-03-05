@@ -1,5 +1,5 @@
 #!/usr/bin/env zsh
 ./usfx-to-csv
-rm ../passages/*.md
+rm ../readings/*.md
 ./build-pages.py
-cp index.md ../passages/
+cp index.md ../readings/
