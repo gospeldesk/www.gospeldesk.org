@@ -1,9 +1,0 @@
----
-title: Matthew 14:1–13
-pk: 62
-permalink: /explore/matthew-14:1-13/
-noindex: true
----
-
-<div class="verse"><span>1</span>At that time, Herod the tetrarch heard the report concerning Jesus, </div> <div class="verse"><span>2</span>and said to his servants, “This is John the Baptizer. He is risen from the dead. That is why these powers work in him.” </div> <div class="verse"><span>3</span>For Herod had laid hold of John, and bound him, and put him in prison for the sake of Herodias, his brother Philip’s wife. </div> <div class="verse"><span>4</span>For John said to him, “It is not lawful for you to have her.” </div> <div class="verse"><span>5</span>When he would have put him to death, he feared the multitude, because they counted him as a prophet. </div> <div class="verse"><span>6</span>But when Herod’s birthday came, the daughter of Herodias danced among them and pleased Herod. </div> <div class="verse"><span>7</span>Whereupon he promised with an oath to give her whatever she should ask. </div> <div class="verse"><span>8</span>She, being prompted by her mother, said, “Give me here on a platter the head of John the Baptizer.” </div> <div class="verse"><span>9</span>The king was grieved, but for the sake of his oaths, and of those who sat at the table with him, he commanded it to be given, </div> <div class="verse"><span>10</span>and he sent and beheaded John in the prison. </div> <div class="verse"><span>11</span>His head was brought on a platter, and given to the young lady: and she brought it to her mother. </div> <div class="verse"><span>12</span>His disciples came, and took the body, and buried it; and they went and told Jesus. </div> <div class="verse"><span>13</span>Now when Jesus heard this, he withdrew from there in a boat, to a deserted place apart. When the multitudes heard it, they followed him on foot from the cities. </div>
-

@@ -2,8 +2,10 @@
 import csv
 import datetime
 import json
+import string
 from collections import defaultdict
 
+LETTERS_NUMBERS = string.ascii_letters + string.digits
 GOSPELS = 'Matthew Mark Luke John'.split()
 nav = csv.writer(open('../_data/readings.csv', 'w+'))
 nav.writerow(('slug', 'title', 'ref'))
@@ -97,7 +99,8 @@ class Pericope(object):
             title = self.ref
             ref = ''
 
-        slug = title.lower().replace(' ', '-').replace('–', '-')
+        slug = [c if c in LETTERS_NUMBERS else ' ' for c in title.lower()]
+        slug = '-'.join(''.join(slug).split())
         assert slug not in self.__slugs, slug
         self.__slugs.add(slug)
 
@@ -107,7 +110,7 @@ class Pericope(object):
         pk = ''
         dates = None
         if self.pks:
-            pk = list(self.pks)[0]
+            pk = int(list(self.pks)[0])
             dates = dates_by_pericope_id[pk]
         upcoming = ''
         if dates:
@@ -129,9 +132,9 @@ God willing, the Church will proclaim this Gospel on <u><b><a class="next-procla
 '''
         print(f'''\
 ---
-title: {title}
-pk: {pk}
-permalink: /explore/{slug}/
+title: "{title}"
+pk: "{pk}"
+permalink: "/explore/{slug}/"
 noindex: true
 ---
 

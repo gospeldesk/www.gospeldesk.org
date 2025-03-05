@@ -1,0 +1,5 @@
+#!/usr/bin/env zsh
+./usfx-to-csv
+rm ../explore/*.md
+./build-pages.py
+cp index.md ../explore/

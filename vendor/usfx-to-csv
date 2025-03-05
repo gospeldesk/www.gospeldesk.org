@@ -42,7 +42,7 @@ def print_children(book_name, element, indent):
         if child.tag in ('p', 'q', 'wj'):
             if child.attrib.get('sfm', '') != 'mt':
                 emit(child.text)
-            emit(child.tail)
+        emit(child.tail)
         if child.tag in ('ft', 'f', 'x'):
             continue
         print_children(book_name, child, indent+2)

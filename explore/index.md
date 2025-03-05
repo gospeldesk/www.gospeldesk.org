@@ -10,9 +10,8 @@ passage below.
 <ol>
 {% for reading in site.data.readings %}
   <li>
-    <a href="./{{ reading.slug }}/">
-      {{ reading.title }}
-    </a> {% if reading.ref %}({{ reading.ref }}){% endif %}
+    <a href="./{{ reading.slug }}/">{{ reading.title }}</a>
+    {% if reading.ref %}({{ reading.ref }}){% endif %}
   </li>
 {% endfor %}
 </ol>

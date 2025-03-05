@@ -57,7 +57,6 @@ while remaining and dt < CUTOFF:
 
     dt += ONE_DAY
 
-
 dates_csv.writerow(('id', 'date'))
 for pericope_id, readings in dates_by_pericope_id.items():
     for date in readings:
