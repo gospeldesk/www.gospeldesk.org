@@ -110,7 +110,7 @@ class Pericope(object):
         pk = ''
         dates = None
         if self.pks:
-            pk = int(list(self.pks)[0])
+            pk = int(sorted(self.pks)[0])
             dates = dates_by_pericope_id[pk]
         upcoming = ''
         if dates:

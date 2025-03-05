@@ -1,9 +1,13 @@
 ---
 title: "Preaching of John the Forerunner"
-pk: "90001"
+pk: "5"
 permalink: "/explore/preaching-of-john-the-forerunner/"
 noindex: true
 ---
 
 <div class="verse"><span>1</span>In those days, John the Baptizer came, preaching in the wilderness of Judea, saying, </div> <div class="verse"><span>2</span>“Repent, for the Kingdom of Heaven is at hand!” </div> <div class="verse"><span>3</span>For this is he who was spoken of by Isaiah the prophet, saying, “The voice of one crying in the wilderness, make ready the way of the Lord. Make his paths straight.” </div> <div class="verse"><span>4</span>Now John himself wore clothing made of camel’s hair, with a leather belt around his waist. His food was locusts and wild honey. </div> <div class="verse"><span>5</span>Then people from Jerusalem, all of Judea, and all the region around the Jordan went out to him. </div> <div class="verse"><span>6</span>They were baptized by him in the Jordan, confessing their sins. </div> <div class="verse"><span>7</span>But when he saw many of the Pharisees and Sadducees coming for his baptism, he said to them, “You offspring of vipers, who warned you to flee from the wrath to come? </div> <div class="verse"><span>8</span>Therefore produce fruit worthy of repentance! </div> <div class="verse"><span>9</span>Don’t think to yourselves, ‘We have Abraham for our father,’ for I tell you that God is able to raise up children to Abraham from these stones. </div> <div class="verse"><span>10</span>“Even now the ax lies at the root of the trees. Therefore every tree that doesn’t produce good fruit is cut down, and cast into the fire. </div> <div class="verse"><span>11</span>I indeed baptize you in water for repentance, but he who comes after me is mightier than I, whose shoes I am not worthy to carry. He will baptize you in the Holy Spirit. </div> <div class="verse"><span>12</span>His winnowing fork is in his hand, and he will thoroughly cleanse his threshing floor. He will gather his wheat into the barn, but the chaff he will burn up with unquenchable fire.” </div>
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://orthocal.info/readings/gregorian/2026/01/03/">January  3, 2026</a></b></u>, and then again on <a class="next-next-proclamation" href="https://orthocal.info/readings/gregorian/2026/01/05/">January  5, 2026</a>.
 

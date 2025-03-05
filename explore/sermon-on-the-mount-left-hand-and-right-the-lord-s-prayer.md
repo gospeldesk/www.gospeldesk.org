@@ -1,7 +1,7 @@
 ---
-title: "Matthew 6:1–13"
+title: "Sermon on the Mount: Left Hand and Right; The Lord's Prayer"
 pk: "17"
-permalink: "/explore/matthew-6-1-13/"
+permalink: "/explore/sermon-on-the-mount-left-hand-and-right-the-lord-s-prayer/"
 noindex: true
 ---
 

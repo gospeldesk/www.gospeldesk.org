@@ -1,7 +1,7 @@
 ---
-title: "Matthew 7:24–8:4"
+title: "Sermon on the Mount: Rock and Sand; Healing a Leper"
 pk: "25"
-permalink: "/explore/matthew-7-24-8-4/"
+permalink: "/explore/sermon-on-the-mount-rock-and-sand-healing-a-leper/"
 noindex: true
 ---
 

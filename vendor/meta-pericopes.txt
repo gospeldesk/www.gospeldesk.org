@@ -95,7 +95,7 @@ Matt  4:21  9, 90002
 Matt  4:22  9, 90002
 Matt  4:23  9, 90002
 Matt  4:24     90002
----- Sermon on the Mount: Beatitudes, Salt of the Earth
+---- Sermon on the Mount: Beatitudes; Salt of the Earth
 Matt  4:25  10, 11
 Matt  5:1   10, 11
 Matt  5:2   10, 11
@@ -110,7 +110,7 @@ Matt  5:10  10, 11
 Matt  5:11  10, 11
 Matt  5:12  10, 11
 Matt  5:13  10
----- Sermon on the Mount: Light of the World, Law and Prophets
+---- Sermon on the Mount: Light of the World; Law and Prophets
 Matt  5:14  12
 Matt  5:15  12
 Matt  5:16  12
@@ -125,14 +125,14 @@ Matt  5:23  13
 Matt  5:24  13
 Matt  5:25  13
 Matt  5:26  13
----- Sermon on the Mount: Adultery, Divorce
+---- Sermon on the Mount: Adultery; Divorce
 Matt  5:27  14
 Matt  5:28  14
 Matt  5:29  14
 Matt  5:30  14
 Matt  5:31  14
 Matt  5:32  14
----- Sermon on the Mount: Swearing, Resistance
+---- Sermon on the Mount: Swearing; Resistance
 Matt  5:33  15
 Matt  5:34  15
 Matt  5:35  15
@@ -142,7 +142,7 @@ Matt  5:38  15
 Matt  5:39  15
 Matt  5:40  15
 Matt  5:41  15
-----
+---- Sermon on the Mount: Love Your Enemies
 Matt  5:42  16
 Matt  5:43  16
 Matt  5:44  16
@@ -150,7 +150,7 @@ Matt  5:45  16
 Matt  5:46  16
 Matt  5:47  16
 Matt  5:48  16
-----
+---- Sermon on the Mount: Left Hand and Right; The Lord's Prayer
 Matt  6:1   17
 Matt  6:2   17
 Matt  6:3   17
@@ -164,7 +164,7 @@ Matt  6:10  17
 Matt  6:11  17
 Matt  6:12  17
 Matt  6:13  17
-----
+---- Sermon on the Mount: Forgiveness; Fasting; Treasure
 Matt  6:14  18
 Matt  6:15  18
 Matt  6:16  18
@@ -173,7 +173,7 @@ Matt  6:18  18
 Matt  6:19  18
 Matt  6:20  18
 Matt  6:21  18
-----
+---- Sermon on the Mount: Seek First the Kingdom 
 Matt  6:22  19
 Matt  6:23  19
 Matt  6:24  19
@@ -186,7 +186,7 @@ Matt  6:30  19
 Matt  6:31  19
 Matt  6:32  19
 Matt  6:33  19
-----
+---- Sermon on the Mount: Don't Be Anxious
 Matt  6:31  20
 Matt  6:32  20
 Matt  6:33  20
@@ -194,7 +194,7 @@ Matt  6:34  20
 Matt  7:9   20
 Matt  7:10  20
 Matt  7:11  20
-----
+---- Sermon on the Mount: Don't Judge
 Matt  7:1   21
 Matt  7:2   21
 Matt  7:3   21
@@ -203,7 +203,7 @@ Matt  7:5   21
 Matt  7:6   21
 Matt  7:7   21
 Matt  7:8   21
-----
+---- Sermon on the Mount: Golden Rule; False Prophets
 Matt  7:12      22
 Matt  7:13      22
 Matt  7:14      22
@@ -216,7 +216,7 @@ Matt  7:20      22, 23
 Matt  7:21  24, 22, 23
 Matt  7:22  24
 Matt  7:23  24
-----
+---- Sermon on the Mount: Rock and Sand; Healing a Leper
 Matt  7:24  25
 Matt  7:25  25
 Matt  7:26  25

@@ -1,7 +1,7 @@
 ---
-title: "Matthew 6:31–7:11"
+title: "Sermon on the Mount: Don't Be Anxious"
 pk: "20"
-permalink: "/explore/matthew-6-31-7-11/"
+permalink: "/explore/sermon-on-the-mount-don-t-be-anxious/"
 noindex: true
 ---
 

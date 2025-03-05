@@ -1,5 +1,5 @@
 ---
-title: "Sermon on the Mount: Beatitudes, Salt of the Earth"
+title: "Sermon on the Mount: Beatitudes; Salt of the Earth"
 pk: "10"
 permalink: "/explore/sermon-on-the-mount-beatitudes-salt-of-the-earth/"
 noindex: true

@@ -1,7 +1,7 @@
 ---
-title: "Matthew 5:42–48"
+title: "Sermon on the Mount: Love Your Enemies"
 pk: "16"
-permalink: "/explore/matthew-5-42-48/"
+permalink: "/explore/sermon-on-the-mount-love-your-enemies/"
 noindex: true
 ---
 

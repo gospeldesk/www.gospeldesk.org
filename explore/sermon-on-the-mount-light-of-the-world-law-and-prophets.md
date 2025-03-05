@@ -1,5 +1,5 @@
 ---
-title: "Sermon on the Mount: Light of the World, Law and Prophets"
+title: "Sermon on the Mount: Light of the World; Law and Prophets"
 pk: "12"
 permalink: "/explore/sermon-on-the-mount-light-of-the-world-law-and-prophets/"
 noindex: true

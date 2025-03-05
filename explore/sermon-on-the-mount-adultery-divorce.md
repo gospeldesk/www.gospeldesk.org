@@ -1,5 +1,5 @@
 ---
-title: "Sermon on the Mount: Adultery, Divorce"
+title: "Sermon on the Mount: Adultery; Divorce"
 pk: "14"
 permalink: "/explore/sermon-on-the-mount-adultery-divorce/"
 noindex: true

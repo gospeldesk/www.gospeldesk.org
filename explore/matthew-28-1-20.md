@@ -1,6 +1,6 @@
 ---
 title: "Matthew 28:1–20"
-pk: "126"
+pk: "125"
 permalink: "/explore/matthew-28-1-20/"
 noindex: true
 ---
@@ -9,5 +9,5 @@ noindex: true
 
 ### Upcoming Proclamations
 
-God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://orthocal.info/readings/gregorian/2025/04/27/">April 27, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://orthocal.info/readings/gregorian/2025/06/15/">June 15, 2025</a>.
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://orthocal.info/readings/gregorian/2025/04/19/">April 19, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://orthocal.info/readings/gregorian/2025/04/21/">April 21, 2025</a>.
 

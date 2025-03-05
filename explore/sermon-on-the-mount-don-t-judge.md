@@ -1,7 +1,7 @@
 ---
-title: "Matthew 7:1–8"
+title: "Sermon on the Mount: Don't Judge"
 pk: "21"
-permalink: "/explore/matthew-7-1-8/"
+permalink: "/explore/sermon-on-the-mount-don-t-judge/"
 noindex: true
 ---
 

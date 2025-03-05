@@ -1,7 +1,7 @@
 ---
-title: "Sermon on the Mount: Swearing, Non-resistance"
+title: "Sermon on the Mount: Swearing; Resistance"
 pk: "15"
-permalink: "/explore/sermon-on-the-mount-swearing-non-resistance/"
+permalink: "/explore/sermon-on-the-mount-swearing-resistance/"
 noindex: true
 ---
 

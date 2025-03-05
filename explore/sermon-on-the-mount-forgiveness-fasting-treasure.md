@@ -1,7 +1,7 @@
 ---
-title: "Matthew 6:14–21"
+title: "Sermon on the Mount: Forgiveness; Fasting; Treasure"
 pk: "18"
-permalink: "/explore/matthew-6-14-21/"
+permalink: "/explore/sermon-on-the-mount-forgiveness-fasting-treasure/"
 noindex: true
 ---
 

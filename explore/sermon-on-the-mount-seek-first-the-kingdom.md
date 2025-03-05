@@ -1,7 +1,7 @@
 ---
-title: "Matthew 6:22–33"
+title: "Sermon on the Mount: Seek First the Kingdom"
 pk: "19"
-permalink: "/explore/matthew-6-22-33/"
+permalink: "/explore/sermon-on-the-mount-seek-first-the-kingdom/"
 noindex: true
 ---
 
