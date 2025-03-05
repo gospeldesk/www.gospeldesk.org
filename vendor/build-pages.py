@@ -85,7 +85,7 @@ class Pericope(object):
     def text(self):
         def make_verse(b,c,v):
             text = WEB[b][c][v]
-            return f'<span class="verse"><span class="v">{v}</span>{text}</span>'
+            return f'<span class="v">{v}</span>{text}'
 
         fragments = []
         for el in self.elements:
@@ -131,7 +131,7 @@ class Pericope(object):
 
         nav.writerow((slug, title, ref))
 
-        fp = open(f'../explore/{slug}.md', 'w+')
+        fp = open(f'../passages/{slug}.md', 'w+')
         pk = ''
         dates = None
         if self.pks:
@@ -159,7 +159,7 @@ God willing, the Church will proclaim this Gospel on <u><b><a class="next-procla
 ---
 title: "{title}"
 pk: "{pk}"
-permalink: "/explore/{slug}/"
+permalink: "/passages/{slug}/"
 noindex: true
 ---
 
