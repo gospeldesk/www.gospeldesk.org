@@ -30,7 +30,7 @@ BK = {
 }
 
 def htmlize(b,c,v,t):
-    return f'<div class="verse"><span>{v}</span>{t}</div>'
+    return f'<span class="verse"><span class="v">{v}</span>{t}</span>'
 
 def flerp(date):
     d = datetime.date(*map(int, date.split('-')))
@@ -62,25 +62,39 @@ class Pericope(object):
     def __init__(self, title):
         self.title = title
         self.pks = set()
-        self.verses = []
+        self.verse_buffer = []
+        self.elements = []
 
     def add(self, line):
-        bcv = line[:10]
-        pks = line[10:].strip()
-        b, cv = bcv.split()
-        c, v = map(int, cv.split(':'))
-        for pk in pks.split():
-            self.pks.add(pk.replace(',', ''))
-        self.verses.append((b,c,v))
+        if line.startswith('#'):
+            if line[1:]:
+                self.elements.append(line[1:])
+        elif not line:
+            self.flush_paragraph()
+        else:
+            bcv = line[:10]
+            pks = line[10:].strip()
+            b, cv = bcv.split()
+            c, v = map(int, cv.split(':'))
+            for pk in pks.split():
+                self.pks.add(pk.replace(',', ''))
+            self.verse_buffer.append((b,c,v))
 
     @property
     def text(self):
-        return ' '.join([htmlize(b,c,v, WEB[b][c][v]) for b,c,v in self.verses])
+        fragments = []
+        for el in self.elements:
+            if type(el) is str:     # section heading
+                fragments.append(f'<h3>{el}</h3>')
+            elif type(el) is list:  # paragraph
+                text =  ' '.join([htmlize(b,c,v, WEB[b][c][v]) for b,c,v in el])
+                fragments.append(f'<p>{text}</p>')
+        return '\n'.join(fragments)
 
     @property
     def ref(self):
-        sb,sc,sv = self.verses[0]
-        eb,ec,ev = self.verses[-1]
+        sb,sc,sv = self.elements[0][0]
+        eb,ec,ev = self.elements[-1][-1]
         sb = 'Matthew' if sb == 'Matt' else sb
         eb = 'Matthew' if eb == 'Matt' else eb
         # TODO make this fully robust
@@ -91,7 +105,13 @@ class Pericope(object):
         else:
             return f'{sb} {sc}:{sv}–{ev}'
 
+    def flush_paragraph(self):
+        self.elements.append(self.verse_buffer)
+        self.verse_buffer = []
+
     def flush(self):
+        self.flush_paragraph()
+
         if self.title:
             title = self.title
             ref = self.ref
