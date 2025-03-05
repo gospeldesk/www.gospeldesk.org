@@ -5,7 +5,9 @@ permalink: "/explore/matthew-23-1-12/"
 noindex: true
 ---
 
+<div class="passage">
 <p><span class="verse"><span class="v">1</span>Then Jesus spoke to the multitudes and to his disciples, </span> <span class="verse"><span class="v">2</span>saying, “The scribes and the Pharisees sat on Moses’ seat. </span> <span class="verse"><span class="v">3</span>All things therefore whatever they tell you to observe, observe and do, but don’t do their works; for they say, and don’t do. </span> <span class="verse"><span class="v">4</span>For they bind heavy burdens that are grievous to be borne, and lay them on men’s shoulders; but they themselves will not lift a finger to help them. </span> <span class="verse"><span class="v">5</span>But all their works they do to be seen by men. They make their phylacteries broad, enlarge the fringes of their garments, </span> <span class="verse"><span class="v">6</span>and love the place of honor at feasts, the best seats in the synagogues, </span> <span class="verse"><span class="v">7</span>the salutations in the marketplaces, and to be called ‘Rabbi, Rabbi’ by men. </span> <span class="verse"><span class="v">8</span>But don’t you be called ‘Rabbi,’ for one is your teacher, the Christ, and all of you are brothers. </span> <span class="verse"><span class="v">9</span>Call no man on the earth your father, for one is your Father, he who is in heaven. </span> <span class="verse"><span class="v">10</span>Neither be called masters, for one is your master, the Christ. </span> <span class="verse"><span class="v">11</span>But he who is greatest among you will be your servant. </span> <span class="verse"><span class="v">12</span>Whoever exalts himself will be humbled, and whoever humbles himself will be exalted. </span></p>
+</div>
 
 ### Upcoming Proclamations
 

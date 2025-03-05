@@ -5,7 +5,9 @@ permalink: "/explore/matthew-20-29-34/"
 noindex: true
 ---
 
+<div class="passage">
 <p><span class="verse"><span class="v">29</span>As they went out from Jericho, a great multitude followed him. </span> <span class="verse"><span class="v">30</span>Behold, two blind men sitting by the road, when they heard that Jesus was passing by, cried out, “Lord, have mercy on us, you son of David!” </span> <span class="verse"><span class="v">31</span>The multitude rebuked them, telling them that they should be quiet, but they cried out even more, “Lord, have mercy on us, you son of David!” </span> <span class="verse"><span class="v">32</span>Jesus stood still, and called them, and asked, “What do you want me to do for you?” </span> <span class="verse"><span class="v">33</span>They told him, “Lord, that our eyes may be opened.” </span> <span class="verse"><span class="v">34</span>Jesus, being moved with compassion, touched their eyes; and immediately their eyes received their sight, and they followed him. </span></p>
+</div>
 
 ### Upcoming Proclamations
 

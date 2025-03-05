@@ -5,7 +5,9 @@ permalink: "/explore/matthew-16-13-19/"
 noindex: true
 ---
 
+<div class="passage">
 <p><span class="verse"><span class="v">13</span>Now when Jesus came into the parts of Caesarea Philippi, he asked his disciples, saying, “Who do men say that I, the Son of Man, am?” </span> <span class="verse"><span class="v">14</span>They said, “Some say John the Baptizer, some, Elijah, and others, Jeremiah, or one of the prophets.” </span> <span class="verse"><span class="v">15</span>He said to them, “But who do you say that I am?” </span> <span class="verse"><span class="v">16</span>Simon Peter answered, “You are the Christ, the Son of the living God.” </span> <span class="verse"><span class="v">17</span>Jesus answered him, “Blessed are you, Simon Bar Jonah, for flesh and blood has not revealed this to you, but my Father who is in heaven. </span> <span class="verse"><span class="v">18</span>I also tell you that you are Peter, and on this rock I will build my assembly, and the gates of Hades will not prevail against it. </span> <span class="verse"><span class="v">19</span>I will give to you the keys of the Kingdom of Heaven, and whatever you bind on earth will have been bound in heaven; and whatever you release on earth will have been released in heaven.” </span></p>
+</div>
 
 ### Upcoming Proclamations
 

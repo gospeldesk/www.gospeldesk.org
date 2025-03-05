@@ -5,7 +5,9 @@ permalink: "/explore/matthew-13-3-9/"
 noindex: true
 ---
 
+<div class="passage">
 <p><span class="verse"><span class="v">3</span>He spoke to them many things in parables, saying, “Behold, a farmer went out to sow. </span> <span class="verse"><span class="v">4</span>As he sowed, some seeds fell by the roadside, and the birds came and devoured them. </span> <span class="verse"><span class="v">5</span>Others fell on rocky ground, where they didn’t have much soil, and immediately they sprang up, because they had no depth of earth. </span> <span class="verse"><span class="v">6</span>When the sun had risen, they were scorched. Because they had no root, they withered away. </span> <span class="verse"><span class="v">7</span>Others fell among thorns. The thorns grew up and choked them. </span> <span class="verse"><span class="v">8</span>Others fell on good soil, and yielded fruit: some one hundred times as much, some sixty, and some thirty. </span> <span class="verse"><span class="v">9</span>He who has ears to hear, let him hear.” </span></p>
+</div>
 
 ### Upcoming Proclamations
 

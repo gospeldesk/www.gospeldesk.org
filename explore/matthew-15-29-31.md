@@ -5,7 +5,9 @@ permalink: "/explore/matthew-15-29-31/"
 noindex: true
 ---
 
+<div class="passage">
 <p><span class="verse"><span class="v">29</span>Jesus departed from there, and came near to the sea of Galilee; and he went up into the mountain, and sat there. </span> <span class="verse"><span class="v">30</span>Great multitudes came to him, having with them the lame, blind, mute, maimed, and many others, and they put them down at his feet. He healed them, </span> <span class="verse"><span class="v">31</span>so that the multitude wondered when they saw the mute speaking, the injured healed, the lame walking, and the blind seeing—and they glorified the God of Israel. </span></p>
+</div>
 
 ### Upcoming Proclamations
 

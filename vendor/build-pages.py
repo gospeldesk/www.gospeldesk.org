@@ -29,9 +29,6 @@ BK = {
     'JHN': 'John'
 }
 
-def htmlize(b,c,v,t):
-    return f'<span class="verse"><span class="v">{v}</span>{t}</span>'
-
 def flerp(date):
     d = datetime.date(*map(int, date.split('-')))
     url = f'https://orthocal.info/readings/gregorian/{d.strftime("%Y/%m/%d")}/'
@@ -41,7 +38,7 @@ def main():
     cur = None
 
     for line in meta_pericopes:
-        line = line.strip()
+        line = line.rstrip()
         if line == '====':
             continue
         elif line.startswith('----'):
@@ -67,10 +64,14 @@ class Pericope(object):
 
     def add(self, line):
         if line.startswith('#'):
+            self.flush_paragraph()
             if line[1:]:
                 self.elements.append(line[1:])
         elif not line:
             self.flush_paragraph()
+        elif line.startswith(' '):
+            self.flush_paragraph()
+            #line, split_on = line.split('|')[0].strip()
         else:
             bcv = line[:10]
             pks = line[10:].strip()
@@ -82,12 +83,16 @@ class Pericope(object):
 
     @property
     def text(self):
+        def make_verse(b,c,v):
+            text = WEB[b][c][v]
+            return f'<span class="verse"><span class="v">{v}</span>{text}</span>'
+
         fragments = []
         for el in self.elements:
             if type(el) is str:     # section heading
-                fragments.append(f'<h3>{el}</h3>')
+                fragments.append(f'<h3>{el.strip()}</h3>')
             elif type(el) is list:  # paragraph
-                text =  ' '.join([htmlize(b,c,v, WEB[b][c][v]) for b,c,v in el])
+                text =  ' '.join([make_verse(b,c,v) for b,c,v in el])
                 fragments.append(f'<p>{text}</p>')
         return '\n'.join(fragments)
 
@@ -158,7 +163,9 @@ permalink: "/explore/{slug}/"
 noindex: true
 ---
 
+<div class="passage">
 {self.text}
+</div>
 {upcoming}''', file=fp)
 
 if __name__ == '__main__':
