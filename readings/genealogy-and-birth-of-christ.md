@@ -1,11 +1,11 @@
 ---
 title: "Genealogy and Birth of Christ"
 pk: "1"
-permalink: "/passages/genealogy-and-birth-of-christ/"
+permalink: "/readings/genealogy-and-birth-of-christ/"
 noindex: true
 ---
 
-<div class="passage">
+<div class="reading">
 <p><span class="v">1</span>The book of the genealogy of Jesus Christ, the son of David, the son of Abraham. </p>
 <p><span class="v">2</span>Abraham became the father of Isaac. Isaac became the father of Jacob. Jacob became the father of Judah and his brothers.  <span class="v">3</span>Judah became the father of Perez and Zerah by Tamar. Perez became the father of Hezron. Hezron became the father of Ram.  <span class="v">4</span>Ram became the father of Amminadab. Amminadab became the father of Nahshon. Nahshon became the father of Salmon.  <span class="v">5</span>Salmon became the father of Boaz by Rahab. Boaz became the father of Obed by Ruth. Obed became the father of Jesse.  <span class="v">6</span>Jesse became the father of King David. David became the father of Solomon by her who had been Uriah’s wife. </p>
 <p><span class="v">7</span>Solomon became the father of Rehoboam. Rehoboam became the father of Abijah. Abijah became the father of Asa.  <span class="v">8</span>Asa became the father of Jehoshaphat. Jehoshaphat became the father of Joram. Joram became the father of Uzziah.  <span class="v">9</span>Uzziah became the father of Jotham. Jotham became the father of Ahaz. Ahaz became the father of Hezekiah.  <span class="v">10</span>Hezekiah became the father of Manasseh. Manasseh became the father of Amon. Amon became the father of Josiah.  <span class="v">11</span>Josiah became the father of Jechoniah and his brothers, at the time of the exile to Babylon. </p>

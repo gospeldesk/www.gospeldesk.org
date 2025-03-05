@@ -1,11 +1,11 @@
 ---
 title: "Luke 8:1–3"
 pk: "237"
-permalink: "/passages/luke-8-1-3/"
+permalink: "/readings/luke-8-1-3/"
 noindex: true
 ---
 
-<div class="passage">
+<div class="reading">
 <p><span class="v">1</span>Soon afterwards, he went about through cities and villages, preaching and bringing the good news of God’s Kingdom. With him were the twelve,  <span class="v">2</span>and certain women who had been healed of evil spirits and infirmities: Mary who was called Magdalene, from whom seven demons had gone out;  <span class="v">3</span>and Joanna, the wife of Chuzas, Herod’s steward; Susanna; and many others; who served them from their possessions. </p>
 </div>
 

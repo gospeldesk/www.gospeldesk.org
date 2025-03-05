@@ -1,11 +1,11 @@
 ---
 title: "Matthew 16:24–28"
 pk: "75"
-permalink: "/passages/matthew-16-24-28/"
+permalink: "/readings/matthew-16-24-28/"
 noindex: true
 ---
 
-<div class="passage">
+<div class="reading">
 <p><span class="v">24</span>Then Jesus said to his disciples, “If anyone desires to come after me, let him deny himself, and take up his cross, and follow me.  <span class="v">25</span>For whoever desires to save his life will lose it, and whoever will lose his life for my sake will find it.  <span class="v">26</span>For what will it profit a man, if he gains the whole world, and forfeits his life? Or what will a man give in exchange for his life?  <span class="v">27</span>For the Son of Man will come in the glory of his Father with his angels, and then he will render to everyone according to his deeds.  <span class="v">28</span>Most certainly I tell you, there are some standing here who will in no way taste of death, until they see the Son of Man coming in his Kingdom.” </p>
 </div>
 

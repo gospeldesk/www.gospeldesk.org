@@ -12,7 +12,7 @@ nav.writerow(('slug', 'title', 'ref'))
 dates_csv = csv.reader(open('dates.csv'))
 next(dates_csv) # skip headers
 gospels_csv = csv.reader(open('gospels.csv'))
-meta_pericopes = open('meta-pericopes.txt')
+readings = open('readings.txt')
 
 dates_by_pericope_id = defaultdict(list)
 for pericope_id, date in dates_csv:
@@ -37,7 +37,7 @@ def flerp(date):
 def main():
     cur = None
 
-    for line in meta_pericopes:
+    for line in readings:
         line = line.rstrip()
         if line == '====':
             continue

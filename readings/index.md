@@ -1,5 +1,5 @@
 ---
-title: Passages
+title: Gospel Readings
 noindex: true
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: "Wise Men"
 pk: "3"
-permalink: "/passages/wise-men/"
+permalink: "/readings/wise-men/"
 noindex: true
 ---
 
-<div class="passage">
+<div class="reading">
 <p><span class="v">1</span>Now when Jesus was born in Bethlehem of Judea in the days of King Herod, behold, wise men from the east came to Jerusalem, saying,  <span class="v">2</span>“Where is he who is born King of the Jews? For we saw his star in the east, and have come to worship him.” </p>
 <p><span class="v">3</span>When King Herod heard it, he was troubled, and all Jerusalem with him.  <span class="v">4</span>Gathering together all the chief priests and scribes of the people, he asked them where the Christ would be born.  <span class="v">5</span>They said to him, “In Bethlehem of Judea, for this is written through the prophet,  <span class="v">6</span>‘You Bethlehem, land of Judah, are in no way least among the princes of Judah: for out of you shall come a governor, who shall shepherd my people, Israel.’” </p>
 <p><span class="v">7</span>Then Herod secretly called the wise men, and learned from them exactly what time the star appeared.  <span class="v">8</span>He sent them to Bethlehem, and said, “Go and search diligently for the young child. When you have found him, bring me word, so that I also may come and worship him.” </p>
