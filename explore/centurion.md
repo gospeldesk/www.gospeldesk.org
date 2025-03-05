@@ -1,7 +1,7 @@
 ---
-title: "Matthew 8:5–13"
+title: "Centurion"
 pk: "26"
-permalink: "/explore/matthew-8-5-13/"
+permalink: "/explore/centurion/"
 noindex: true
 ---
 
