@@ -1,0 +1,58 @@
+#!/usr/bin/env python3
+"""Reads in USFX and emits CSV, one verse per row.
+"""
+import xml.etree.ElementTree as ET
+
+tree = ET.parse('gospels.xml')
+usfx = tree.getroot()
+fp = open('gospels.csv', 'w+')
+
+want = {
+    'MRK': 'Mark',
+    'MAT': 'Matt',
+    'LUK': 'Luke',
+    'JHN': 'John'
+}
+
+C = '0'
+V = '0'
+EMITTED = False
+
+def emit(s, end=' '):
+    if s and 'reliable' in s:
+        import pdb; pdb.set_trace()
+    global EMITTED
+    if s is None:
+        return
+    s = s.replace('\n', '').lstrip()
+    if s:
+        print(s, end=end, file=fp)
+        EMITTED = True
+
+def print_children(book_name, element, indent):
+    global C, V
+    for child in element:
+        if child.tag == 'c':
+            C = child.attrib['id']
+        if child.tag == 'v':
+            V = child.attrib['id']
+            if EMITTED:
+                print('"', file=fp)
+            emit(f'{book_name},{C},{V},"'.ljust(10), '')
+        if child.tag in ('p', 'q', 'wj'):
+            if child.attrib.get('sfm', '') != 'mt':
+                emit(child.text)
+            emit(child.tail)
+        if child.tag in ('ft', 'f', 'x'):
+            continue
+        print_children(book_name, child, indent+2)
+
+for book in usfx:
+    if book.tag != 'book':
+        continue
+    if book.attrib['id'] not in want:
+        continue
+    book_name = want[book.attrib['id']]
+    print_children(book_name, book, 2)
+
+print(file=fp)
