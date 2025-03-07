@@ -61,6 +61,8 @@ class Pericope(object):
         self.pks = set()
         self.verse_buffer = []
         self.elements = []
+        self.direct = []
+        self.indirect = []
 
     def add(self, line):
         if line.startswith('#'):
@@ -69,6 +71,14 @@ class Pericope(object):
                 self.elements.append(line[1:])
         elif not line:
             self.flush_paragraph()
+        elif line.startswith('|'):
+            if '*' in line:
+                direct, indirect = line[1:].split('*')
+            else:
+                direct = line[1:]
+                indirect = ''
+            self.direct = direct.strip().split()
+            self.indirect = indirect.strip().split()
         elif line.startswith(' '):
             self.flush_paragraph()
             #line, split_on = line.split('|')[0].strip()
@@ -155,17 +165,47 @@ class Pericope(object):
 
 God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="{url}">{d}</a></b></u>, and then again on <a class="next-next-proclamation" href="{url2}">{d2}</a>.
 '''
+        frontmatter = ''
+        if self.direct:
+            frontmatter += 'direct: [' + ', '.join(self.direct) + ']\n'
+        if self.indirect:
+            frontmatter += 'indirect: [' + ', '.join(self.indirect) + ']\n'
+
         print(f'''\
 ---
 title: "{title}"
 pk: "{pk}"
 permalink: "/readings/{slug}/"
 noindex: true
----
+{frontmatter}---
 
 <div class="reading">
 {self.text}
 </div>
+{{% if page.direct or page.indirect %}}
+### In This Passage
+{{% endif %}}
+
+{{% if page.direct %}}
+#### Directly
+<ol>
+{{% for slug in page.direct %}}
+  {{% assign person =  site.characters | where:"slug", slug | first %}}
+  <li>{{% if person != nil %}}<a href="{{{{person.id}}}}">{{{{ person.name }}}}</a>{{% else %}}MISSING: {{{{ slug }}}}{{% endif %}}</li>
+{{% endfor %}}
+</ol>
+{{% endif %}}
+
+{{% if page.direct %}}
+#### Indirectly
+<ol>
+{{% for slug in page.indirect %}}
+  {{% assign person =  site.characters | where:"slug", slug | first %}}
+  <li>{{% if person != nil %}}<a href="{{{{person.id}}}}">{{{{ person.name }}}}</a>{{% else %}}MISSING: {{{{ slug }}}}{{% endif %}}</li>
+{{% endfor %}}
+</ol>
+{{% endif %}}
+
 {upcoming}''', file=fp)
 
 if __name__ == '__main__':

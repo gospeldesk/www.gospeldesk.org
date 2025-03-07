@@ -8,6 +8,30 @@ noindex: true
 <div class="reading">
 <p><span class="v">17</span>The multitude therefore that was with him when he called Lazarus out of the tomb, and raised him from the dead, was testifying about it.  <span class="v">18</span>For this cause also the multitude went and met him, because they heard that he had done this sign.  <span class="v">19</span>The Pharisees therefore said among themselves, “See how you accomplish nothing. Behold, the world has gone after him.”  <span class="v">20</span>Now there were certain Greeks among those that went up to worship at the feast.  <span class="v">21</span>These, therefore, came to Philip, who was from Bethsaida of Galilee, and asked him, saying, “Sir, we want to see Jesus.”  <span class="v">22</span>Philip came and told Andrew, and in turn, Andrew came with Philip, and they told Jesus.  <span class="v">23</span>Jesus answered them, “The time has come for the Son of Man to be glorified.  <span class="v">24</span>Most certainly I tell you, unless a grain of wheat falls into the earth and dies, it remains by itself alone. But if it dies, it bears much fruit.  <span class="v">25</span>He who loves his life will lose it. He who hates his life in this world will keep it to eternal life.  <span class="v">26</span>If anyone serves me, let him follow me. Where I am, there will my servant also be. If anyone serves me, the Father will honor him.  <span class="v">27</span>“Now my soul is troubled. What shall I say? ‘Father, save me from this time?’ But for this cause I came to this time.  <span class="v">28</span>Father, glorify your name!” Then there came a voice out of the sky, saying, “I have both glorified it, and will glorify it again.”  <span class="v">29</span>The multitude therefore, who stood by and heard it, said that it had thundered. Others said, “An angel has spoken to him.”  <span class="v">30</span>Jesus answered, “This voice hasn’t come for my sake, but for your sakes.  <span class="v">31</span>Now is the judgment of this world. Now the prince of this world will be cast out.  <span class="v">32</span>And I, if I am lifted up from the earth, will draw all people to myself.”  <span class="v">33</span>But he said this, signifying by what kind of death he should die.  <span class="v">34</span>The multitude answered him, “We have heard out of the law that the Christ remains forever. How do you say, ‘The Son of Man must be lifted up?’ Who is this Son of Man?”  <span class="v">35</span>Jesus therefore said to them, “Yet a little while the light is with you. Walk while you have the light, that darkness doesn’t overtake you. He who walks in the darkness doesn’t know where he is going.  <span class="v">36</span>While you have the light, believe in the light, that you may become children of light.” Jesus said these things, and he departed and hid himself from them.  <span class="v">37</span>But though he had done so many signs before them, yet they didn’t believe in him,  <span class="v">38</span>that the word of Isaiah the prophet might be fulfilled, which he spoke, “Lord, who has believed our report? To whom has the arm of the Lord been revealed?”  <span class="v">39</span>For this cause they couldn’t believe, for Isaiah said again,  <span class="v">40</span>“He has blinded their eyes and he hardened their heart, lest they should see with their eyes, and perceive with their heart, and would turn, and I would heal them.”  <span class="v">41</span>Isaiah said these things when he saw his glory, and spoke of him.  <span class="v">42</span>Nevertheless even of the rulers many believed in him, but because of the Pharisees they didn’t confess it, so that they wouldn’t be put out of the synagogue,  <span class="v">43</span>for they loved men’s praise more than God’s praise.  <span class="v">44</span>Jesus cried out and said, “Whoever believes in me, believes not in me, but in him who sent me.  <span class="v">45</span>He who sees me sees him who sent me.  <span class="v">46</span>I have come as a light into the world, that whoever believes in me may not remain in the darkness.  <span class="v">47</span>If anyone listens to my sayings, and doesn’t believe, I don’t judge him. For I came not to judge the world, but to save the world.  <span class="v">48</span>He who rejects me, and doesn’t receive my sayings, has one who judges him. The word that I spoke, the same will judge him in the last day.  <span class="v">49</span>For I spoke not from myself, but the Father who sent me, he gave me a commandment, what I should say, and what I should speak.  <span class="v">50</span>I know that his commandment is eternal life. The things therefore which I speak, even as the Father has said to me, so I speak.” </p>
 </div>
+{% if page.direct or page.indirect %}
+### In This Passage
+{% endif %}
+
+{% if page.direct %}
+#### Directly
+<ol>
+{% for slug in page.direct %}
+  {% assign person =  site.characters | where:"slug", slug | first %}
+  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
+{% endfor %}
+</ol>
+{% endif %}
+
+{% if page.direct %}
+#### Indirectly
+<ol>
+{% for slug in page.indirect %}
+  {% assign person =  site.characters | where:"slug", slug | first %}
+  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
+{% endfor %}
+</ol>
+{% endif %}
+
 
 ### Upcoming Proclamations
 

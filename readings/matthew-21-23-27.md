@@ -8,6 +8,30 @@ noindex: true
 <div class="reading">
 <p><span class="v">23</span>When he had come into the temple, the chief priests and the elders of the people came to him as he was teaching, and said, “By what authority do you do these things? Who gave you this authority?”  <span class="v">24</span>Jesus answered them, “I also will ask you one question, which if you tell me, I likewise will tell you by what authority I do these things.  <span class="v">25</span>The baptism of John, where was it from? From heaven or from men?” They reasoned with themselves, saying, “If we say, ‘From heaven,’ he will ask us, ‘Why then did you not believe him?’  <span class="v">26</span>But if we say, ‘From men,’ we fear the multitude, for all hold John as a prophet.”  <span class="v">27</span>They answered Jesus, and said, “We don’t know.” He also said to them, “Neither will I tell you by what authority I do these things. </p>
 </div>
+{% if page.direct or page.indirect %}
+### In This Passage
+{% endif %}
+
+{% if page.direct %}
+#### Directly
+<ol>
+{% for slug in page.direct %}
+  {% assign person =  site.characters | where:"slug", slug | first %}
+  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
+{% endfor %}
+</ol>
+{% endif %}
+
+{% if page.direct %}
+#### Indirectly
+<ol>
+{% for slug in page.indirect %}
+  {% assign person =  site.characters | where:"slug", slug | first %}
+  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
+{% endfor %}
+</ol>
+{% endif %}
+
 
 ### Upcoming Proclamations
 

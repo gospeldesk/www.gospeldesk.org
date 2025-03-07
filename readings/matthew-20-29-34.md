@@ -8,6 +8,30 @@ noindex: true
 <div class="reading">
 <p><span class="v">29</span>As they went out from Jericho, a great multitude followed him.  <span class="v">30</span>Behold, two blind men sitting by the road, when they heard that Jesus was passing by, cried out, “Lord, have mercy on us, you son of David!”  <span class="v">31</span>The multitude rebuked them, telling them that they should be quiet, but they cried out even more, “Lord, have mercy on us, you son of David!”  <span class="v">32</span>Jesus stood still, and called them, and asked, “What do you want me to do for you?”  <span class="v">33</span>They told him, “Lord, that our eyes may be opened.”  <span class="v">34</span>Jesus, being moved with compassion, touched their eyes; and immediately their eyes received their sight, and they followed him. </p>
 </div>
+{% if page.direct or page.indirect %}
+### In This Passage
+{% endif %}
+
+{% if page.direct %}
+#### Directly
+<ol>
+{% for slug in page.direct %}
+  {% assign person =  site.characters | where:"slug", slug | first %}
+  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
+{% endfor %}
+</ol>
+{% endif %}
+
+{% if page.direct %}
+#### Indirectly
+<ol>
+{% for slug in page.indirect %}
+  {% assign person =  site.characters | where:"slug", slug | first %}
+  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
+{% endfor %}
+</ol>
+{% endif %}
+
 
 ### Upcoming Proclamations
 

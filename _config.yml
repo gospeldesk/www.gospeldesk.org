@@ -29,6 +29,9 @@ defaults:
 collections:
   posts:
     permalink: "/:year/:title/"
+  characters:
+    permalink: "/characters/:slug/"
+    output: true
 
 plugins:
   - jekyll-feed

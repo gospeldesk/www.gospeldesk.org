@@ -8,6 +8,30 @@ noindex: true
 <div class="reading">
 <p><span class="v">38</span>After these things, Joseph of Arimathaea, being a disciple of Jesus, but secretly for fear of the Jews, asked of Pilate that he might take away Jesus’ body. Pilate gave him permission. He came therefore and took away his body.  <span class="v">39</span>Nicodemus, who at first came to Jesus by night, also came bringing a mixture of myrrh and aloes, about a hundred Roman pounds.  <span class="v">40</span>So they took Jesus’ body, and bound it in linen cloths with the spices, as the custom of the Jews is to bury.  <span class="v">41</span>Now in the place where he was crucified there was a garden. In the garden was a new tomb in which no man had ever yet been laid.  <span class="v">42</span>Then because of the Jews’ Preparation Day (for the tomb was near at hand) they laid Jesus there. </p>
 </div>
+{% if page.direct or page.indirect %}
+### In This Passage
+{% endif %}
+
+{% if page.direct %}
+#### Directly
+<ol>
+{% for slug in page.direct %}
+  {% assign person =  site.characters | where:"slug", slug | first %}
+  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
+{% endfor %}
+</ol>
+{% endif %}
+
+{% if page.direct %}
+#### Indirectly
+<ol>
+{% for slug in page.indirect %}
+  {% assign person =  site.characters | where:"slug", slug | first %}
+  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
+{% endfor %}
+</ol>
+{% endif %}
+
 
 ### Upcoming Proclamations
 

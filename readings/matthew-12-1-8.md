@@ -8,6 +8,30 @@ noindex: true
 <div class="reading">
 <p><span class="v">1</span>At that time, Jesus went on the Sabbath day through the grain fields. His disciples were hungry and began to pluck heads of grain and to eat.  <span class="v">2</span>But the Pharisees, when they saw it, said to him, “Behold, your disciples do what is not lawful to do on the Sabbath.”  <span class="v">3</span>But he said to them, “Haven’t you read what David did, when he was hungry, and those who were with him;  <span class="v">4</span>how he entered into God’s house, and ate the show bread, which was not lawful for him to eat, neither for those who were with him, but only for the priests?  <span class="v">5</span>Or have you not read in the law, that on the Sabbath day, the priests in the temple profane the Sabbath, and are guiltless?  <span class="v">6</span>But I tell you that one greater than the temple is here.  <span class="v">7</span>But if you had known what this means, ‘I desire mercy, and not sacrifice,’ you wouldn’t have condemned the guiltless.  <span class="v">8</span>For the Son of Man is Lord of the Sabbath.” </p>
 </div>
+{% if page.direct or page.indirect %}
+### In This Passage
+{% endif %}
+
+{% if page.direct %}
+#### Directly
+<ol>
+{% for slug in page.direct %}
+  {% assign person =  site.characters | where:"slug", slug | first %}
+  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
+{% endfor %}
+</ol>
+{% endif %}
+
+{% if page.direct %}
+#### Indirectly
+<ol>
+{% for slug in page.indirect %}
+  {% assign person =  site.characters | where:"slug", slug | first %}
+  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
+{% endfor %}
+</ol>
+{% endif %}
+
 
 ### Upcoming Proclamations
 

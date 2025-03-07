@@ -8,6 +8,30 @@ noindex: true
 <div class="reading">
 <p><span class="v">9</span>Don’t take any gold, silver, or brass in your money belts.  <span class="v">10</span>Take no bag for your journey, neither two coats, nor shoes, nor staff: for the laborer is worthy of his food.  <span class="v">11</span>Into whatever city or village you enter, find out who in it is worthy; and stay there until you go on.  <span class="v">12</span>As you enter into the household, greet it.  <span class="v">13</span>If the household is worthy, let your peace come on it, but if it isn’t worthy, let your peace return to you.  <span class="v">14</span>Whoever doesn’t receive you, nor hear your words, as you go out of that house or that city, shake the dust off your feet.  <span class="v">15</span>Most certainly I tell you, it will be more tolerable for the land of Sodom and Gomorrah in the day of judgment than for that city. </p>
 </div>
+{% if page.direct or page.indirect %}
+### In This Passage
+{% endif %}
+
+{% if page.direct %}
+#### Directly
+<ol>
+{% for slug in page.direct %}
+  {% assign person =  site.characters | where:"slug", slug | first %}
+  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
+{% endfor %}
+</ol>
+{% endif %}
+
+{% if page.direct %}
+#### Indirectly
+<ol>
+{% for slug in page.indirect %}
+  {% assign person =  site.characters | where:"slug", slug | first %}
+  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
+{% endfor %}
+</ol>
+{% endif %}
+
 
 ### Upcoming Proclamations
 

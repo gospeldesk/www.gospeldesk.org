@@ -3,6 +3,8 @@ title: "Genealogy and Birth of Christ"
 pk: "1"
 permalink: "/readings/genealogy-and-birth-of-christ/"
 noindex: true
+direct: [jesus, mary, joseph, holy-spirit, dream-angel]
+indirect: [ancestors, jews, prophets, god]
 ---
 
 <div class="reading">
@@ -18,6 +20,30 @@ noindex: true
 <p><span class="v">22</span>Now all this has happened, that it might be fulfilled which was spoken by the Lord through the prophet, saying,  <span class="v">23</span>“Behold, the virgin shall be with child, and shall give birth to a son. They shall call his name Immanuel”; which is, being interpreted, “God with us.” </p>
 <p><span class="v">24</span>Joseph arose from his sleep, and did as the angel of the Lord commanded him, and took his wife to himself;  <span class="v">25</span>and didn’t know her sexually until she had given birth to her firstborn son. He named him Jesus. </p>
 </div>
+{% if page.direct or page.indirect %}
+### In This Passage
+{% endif %}
+
+{% if page.direct %}
+#### Directly
+<ol>
+{% for slug in page.direct %}
+  {% assign person =  site.characters | where:"slug", slug | first %}
+  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
+{% endfor %}
+</ol>
+{% endif %}
+
+{% if page.direct %}
+#### Indirectly
+<ol>
+{% for slug in page.indirect %}
+  {% assign person =  site.characters | where:"slug", slug | first %}
+  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
+{% endfor %}
+</ol>
+{% endif %}
+
 
 ### Upcoming Proclamations
 

@@ -1,4 +1,5 @@
 ---- Genealogy and Birth of Christ
+| jesus mary joseph holy-spirit dream-angel * ancestors jews prophets god
 Matt  1:1   1
 
 Matt  1:2   1
@@ -243,14 +244,19 @@ Matt  8:2   25
 Matt  8:3   25
 Matt  8:4   25
 ---- Centurion
+| jesus centurion
 Matt  8:5   26
 Matt  8:6   26
 Matt  8:7   26
+
 Matt  8:8   26
+
 Matt  8:9   26
 Matt  8:10  26
+
 Matt  8:11  26
 Matt  8:12  26
+
 Matt  8:13  26
 ----
 Matt  8:14  27
