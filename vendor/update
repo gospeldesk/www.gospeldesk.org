@@ -1,5 +1,5 @@
 #!/usr/bin/env zsh
 ./usfx-to-csv
-rm ../readings/*.md
-./build-pages.py
-cp index.md ../readings/
+rm ../_readings/*.md
+rm ../_characters/*.md
+./build-collections.py

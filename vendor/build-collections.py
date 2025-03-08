@@ -7,8 +7,6 @@ from collections import defaultdict
 
 LETTERS_NUMBERS = string.ascii_letters + string.digits
 GOSPELS = 'Matthew Mark Luke John'.split()
-nav = csv.writer(open('../_data/readings.csv', 'w+'))
-nav.writerow(('slug', 'title', 'ref'))
 dates_csv = csv.reader(open('dates.csv'))
 next(dates_csv) # skip headers
 gospels_csv = csv.reader(open('gospels.csv'))
@@ -140,8 +138,6 @@ class Pericope(object):
         slug = '-'.join(''.join(slug).split())
         assert slug not in self.__slugs, slug
         self.__slugs.add(slug)
-
-        nav.writerow((slug, title, ref))
 
         fp = open(f'../_readings/{slug}.md', 'w+')
         pk = ''
