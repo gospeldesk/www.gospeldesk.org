@@ -11,6 +11,7 @@ exclude:
   - "vendor"
   - "explore/readings.py"
   - "explore/verses.txt"
+  - "email.md"
 defaults:
   -
     scope:
@@ -26,6 +27,12 @@ defaults:
     values:
       layout: "post"
       clip_bottom: false
+  -
+    scope:
+      path: ""
+      type: "characters"
+    values:
+      layout: "character"
 collections:
   posts:
     permalink: "/:year/:title/"

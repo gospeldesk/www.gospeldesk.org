@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<header>
+  <h2>{{ page.name }}</h2>
+</header>
+<section>
+{{ content }}
+
+<h3>Appears In</h3>
+<ol>
+{% assign readings = site.readings | where_exp: "r",  "r.characters contains page.slug" %}
+{% for reading in readings %}
+  <li><a href="{{ reading.url }}">{{ reading.title }}</a></li>
+{% endfor %}
+<ol>
+</section>

@@ -1,4 +1,4 @@
----- Genealogy and Birth of Christ
+---- Genealogy and Birth
 | jesus mary joseph holy-spirit dream-angel * ancestors jews prophets god
 Matt  1:1   1
 
@@ -51,7 +51,7 @@ Matt  2:10  3
 Matt  2:11  3
 
 Matt  2:12  3
----- Slaughter of the Holy Innocents
+---- Holy Innocents
 Matt  2:13  4
 Matt  2:14  4
 Matt  2:15  4
@@ -63,7 +63,7 @@ Matt  2:20  4
 Matt  2:21  4
 Matt  2:22  4
 Matt  2:23  4
----- Preaching of John the Forerunner
+---- John the Forerunner
 Matt  3:1   5, 90001
 Matt  3:2   5, 90001
 Matt  3:3   5, 90001
@@ -76,13 +76,13 @@ Matt  3:9   5, 90001
 Matt  3:10  5, 90001
 Matt  3:11  5, 90001
 Matt  3:12     90001
----- Baptism of Christ
+---- Baptism
 Matt  3:13  6
 Matt  3:14  6
 Matt  3:15  6
 Matt  3:16  6
 Matt  3:17  6
----- Temptation of Christ
+---- Temptation
 Matt  4:1   7
 Matt  4:2   7
 Matt  4:3   7
@@ -101,7 +101,7 @@ Matt  4:14  8
 Matt  4:15  8
 Matt  4:16  8
 Matt  4:17  8
----- Calling of the First Apostles
+---- Calling of the Apostles
 Matt  4:18  9, 90002
 Matt  4:19  9, 90002
 Matt  4:20  9, 90002

@@ -25,7 +25,9 @@ indirect: [ancestors, jews, prophets, god]
 {% endif %}
 
 {% if page.direct %}
+{% if page.indirect %}
 #### Directly
+{% endif %}
 <ol>
 {% for slug in page.direct %}
   {% assign person =  site.characters | where:"slug", slug | first %}
@@ -34,8 +36,10 @@ indirect: [ancestors, jews, prophets, god]
 </ol>
 {% endif %}
 
+{% if page.indirect %}
 {% if page.direct %}
 #### Indirectly
+{% endif %}
 <ol>
 {% for slug in page.indirect %}
   {% assign person =  site.characters | where:"slug", slug | first %}
