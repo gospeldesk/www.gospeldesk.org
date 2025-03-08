@@ -10,12 +10,12 @@ layout: default
 {% assign direct = site.readings | where_exp: "r", "r.direct contains page.slug" | sort: "num" %}
 {% assign indirect = site.readings | where_exp: "r", "r.indirect contains page.slug" | sort: "num"  %}
 
-{% if direct != empty or indirect != empty %}
+{% if direct.first or indirect.first %}
 <h3>Appears In</h3>
 {% endif %}
 
-{% if direct != empty %}
-{% if indirect != empty %}
+{% if direct.first %}
+{% if indirect.first %}
 <h4>Directly</h4>
 {% endif %}
 <ol>
@@ -27,8 +27,8 @@ layout: default
 </ol>
 {% endif %}
 
-{% if indirect != empty %}
-{% if direct != empty %}
+{% if indirect.first %}
+{% if direct.first %}
 <h4>Indirectly</h4>
 {% endif %}
 <ol>

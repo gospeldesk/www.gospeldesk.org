@@ -10,12 +10,12 @@ layout: default
 {{ content }}
 </div>
 
-{% if page.direct != empty or page.indirect != empty %}
+{% if page.direct.first or page.indirect.first %}
 <h3>In This Reading</h3>
 {% endif %}
 
-{% if page.direct != empty %}
-{% if page.indirect != empty %}
+{% if page.direct.first %}
+{% if page.indirect.first %}
 <h4>Directly</h4>
 {% endif %}
 <ol>
@@ -26,8 +26,8 @@ layout: default
 </ol>
 {% endif %}
 
-{% if page.indirect != empty %}
-{% if page.direct != empty %}
+{% if page.indirect.first %}
+{% if page.direct.first %}
 <h4>Indirectly</h4>
 {% endif %}
 <ol>
