@@ -9,7 +9,7 @@ layout: default
 
 <h3>Appears In</h3>
 <ol>
-{% assign readings = site.readings | where_exp: "r",  "r.characters contains page.slug" %}
+{% assign readings = site.readings | where_exp: "r", "r.characters contains page.slug" %}
 {% for reading in readings %}
   <li><a href="{{ reading.url }}">{{ reading.title }}</a></li>
 {% endfor %}

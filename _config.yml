@@ -33,6 +33,12 @@ defaults:
       type: "characters"
     values:
       layout: "character"
+  -
+    scope:
+      path: ""
+      type: "readings"
+    values:
+      layout: "reading"
 collections:
   posts:
     permalink: "/:year/:title/"

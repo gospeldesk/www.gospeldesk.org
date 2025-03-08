@@ -141,7 +141,7 @@ class Pericope(object):
 
         nav.writerow((slug, title, ref))
 
-        fp = open(f'../readings/{slug}.md', 'w+')
+        fp = open(f'../_readings/{slug}.md', 'w+')
         pk = ''
         dates = None
         if self.pks:
