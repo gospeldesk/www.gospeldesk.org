@@ -7,14 +7,37 @@ layout: default
 <section>
 {{ content }}
 
+{% assign direct = site.readings | where_exp: "r", "r.direct contains page.slug" | sort: "num" %}
+{% assign indirect = site.readings | where_exp: "r", "r.indirect contains page.slug" | sort: "num"  %}
+
+{% if direct != empty or indirect != empty %}
 <h3>Appears In</h3>
+{% endif %}
+
+{% if direct != empty %}
+{% if indirect != empty %}
+<h4>Directly</h4>
+{% endif %}
 <ol>
-{% assign readings = site.readings | where_exp: "r", "r.direct contains page.slug" %}
-{% assign sorted = readings | sort: "num" %}
-{% for reading in sorted %}
+{% for reading in direct %}
   <li>
     <a href="{{ reading.url }}">{{ reading.title }}</a>{% if reading.ref %}<span class="ref">{{ reading.ref }}</span>{% endif %}
   </li>
 {% endfor %}
+</ol>
+{% endif %}
+
+{% if indirect != empty %}
+{% if direct != empty %}
+<h4>Indirectly</h4>
+{% endif %}
 <ol>
+{% for reading in indirect %}
+  <li>
+    <a href="{{ reading.url }}">{{ reading.title }}</a>{% if reading.ref %}<span class="ref">{{ reading.ref }}</span>{% endif %}
+  </li>
+{% endfor %}
+</ol>
+{% endif %}
+
 </section>
