@@ -1,5 +1,4 @@
 #!/usr/bin/env zsh
 ./usfx-to-csv
 rm ../_readings/*.md
-rm ../_characters/*.md
 ./build-collections.py

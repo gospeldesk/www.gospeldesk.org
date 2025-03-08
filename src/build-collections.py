@@ -10,7 +10,7 @@ GOSPELS = 'Matthew Mark Luke John'.split()
 dates_csv = csv.reader(open('dates.csv'))
 next(dates_csv) # skip headers
 gospels_csv = csv.reader(open('gospels.csv'))
-readings = open('readings.txt')
+readings = open('data.txt')
 
 dates_by_pericope_id = defaultdict(list)
 for pericope_id, date in dates_csv:
