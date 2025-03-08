@@ -10,7 +10,7 @@ GOSPELS = 'Matthew Mark Luke John'.split()
 dates_csv = csv.reader(open('dates.csv'))
 next(dates_csv) # skip headers
 gospels_csv = csv.reader(open('gospels.csv'))
-readings = open('data.txt')
+readings = open('master.txt')
 
 dates_by_pericope_id = defaultdict(list)
 for pericope_id, date in dates_csv:
@@ -89,12 +89,12 @@ class Pericope(object):
             c, v = map(int, cv.split(':'))
             for pk in pks.split():
                 self.pks.add(pk.replace(',', ''))
-            self.verse_buffer.append((b,c,v))
+            text = WEB[b][c][v]
+            self.verse_buffer.append((b,c,v, text))
 
     @property
     def text(self):
-        def make_verse(b,c,v):
-            text = WEB[b][c][v]
+        def make_verse(b,c,v, text):
             return f'<span class="v">{v}</span>{text}'
 
         fragments = []
@@ -102,14 +102,14 @@ class Pericope(object):
             if type(el) is str:     # section heading
                 fragments.append(f'<h3>{el.strip()}</h3>')
             elif type(el) is list:  # paragraph
-                text =  ' '.join([make_verse(b,c,v) for b,c,v in el])
+                text =  ' '.join([make_verse(*a) for a in el])
                 fragments.append(f'<p>{text}</p>')
         return '\n'.join(fragments)
 
     @property
     def ref(self):
-        sb,sc,sv = self.elements[0][0]
-        eb,ec,ev = self.elements[-1][-1]
+        sb,sc,sv,st = self.elements[0][0]
+        eb,ec,ev,et = self.elements[-1][-1]
         sb = 'Matthew' if sb == 'Matt' else sb
         eb = 'Matthew' if eb == 'Matt' else eb
         # TODO make this fully robust
