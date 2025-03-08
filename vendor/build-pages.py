@@ -36,6 +36,7 @@ def flerp(date):
 
 def main():
     cur = None
+    i = 0
 
     for line in readings:
         line = line.rstrip()
@@ -43,7 +44,8 @@ def main():
             continue
         elif line.startswith('----'):
             if cur:
-                cur.flush()
+                i += 1
+                cur.flush(i)
             if line.endswith('----'):
                 title = ''
             else:
@@ -124,7 +126,7 @@ class Pericope(object):
         self.elements.append(self.verse_buffer)
         self.verse_buffer = []
 
-    def flush(self):
+    def flush(self, i):
         self.flush_paragraph()
 
         if self.title:
@@ -175,40 +177,12 @@ God willing, the Church will proclaim this Gospel on <u><b><a class="next-procla
 ---
 title: "{title}"
 pk: "{pk}"
-permalink: "/readings/{slug}/"
+num: {i}
+ref: "{ref}"
 noindex: true
 {frontmatter}---
 
-<div class="reading">
 {self.text}
-</div>
-{{% if page.direct or page.indirect %}}
-### In This Passage
-{{% endif %}}
-
-{{% if page.direct %}}
-{{% if page.indirect %}}
-#### Directly
-{{% endif %}}
-<ol>
-{{% for slug in page.direct %}}
-  {{% assign person =  site.characters | where:"slug", slug | first %}}
-  <li>{{% if person != nil %}}<a href="{{{{person.id}}}}">{{{{ person.name }}}}</a>{{% else %}}MISSING: {{{{ slug }}}}{{% endif %}}</li>
-{{% endfor %}}
-</ol>
-{{% endif %}}
-
-{{% if page.indirect %}}
-{{% if page.direct %}}
-#### Indirectly
-{{% endif %}}
-<ol>
-{{% for slug in page.indirect %}}
-  {{% assign person =  site.characters | where:"slug", slug | first %}}
-  <li>{{% if person != nil %}}<a href="{{{{person.id}}}}">{{{{ person.name }}}}</a>{{% else %}}MISSING: {{{{ slug }}}}{{% endif %}}</li>
-{{% endfor %}}
-</ol>
-{{% endif %}}
 
 {upcoming}''', file=fp)
 

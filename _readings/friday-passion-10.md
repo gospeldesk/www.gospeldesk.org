@@ -1,40 +1,12 @@
 ---
 title: "Friday Passion 10"
 pk: "198"
-permalink: "/readings/friday-passion-10/"
+num: 353
+ref: "Mark 15:43–47"
 noindex: true
 ---
 
-<div class="reading">
 <p><span class="v">43</span>Joseph of Arimathaea, a prominent council member who also himself was looking for God’s Kingdom, came. He boldly went in to Pilate, and asked for Jesus’ body.  <span class="v">44</span>Pilate marveled if he were already dead; and summoning the centurion, he asked him whether he had been dead long.  <span class="v">45</span>When he found out from the centurion, he granted the body to Joseph.  <span class="v">46</span>He bought a linen cloth, and taking him down, wound him in the linen cloth, and laid him in a tomb which had been cut out of a rock. He rolled a stone against the door of the tomb.  <span class="v">47</span>Mary Magdalene and Mary, the mother of Joses, saw where he was laid. </p>
-</div>
-{% if page.direct or page.indirect %}
-### In This Passage
-{% endif %}
-
-{% if page.direct %}
-{% if page.indirect %}
-#### Directly
-{% endif %}
-<ol>
-{% for slug in page.direct %}
-  {% assign person =  site.characters | where:"slug", slug | first %}
-  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
-{% endfor %}
-</ol>
-{% endif %}
-
-{% if page.indirect %}
-{% if page.direct %}
-#### Indirectly
-{% endif %}
-<ol>
-{% for slug in page.indirect %}
-  {% assign person =  site.characters | where:"slug", slug | first %}
-  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
-{% endfor %}
-</ol>
-{% endif %}
 
 
 ### Upcoming Proclamations

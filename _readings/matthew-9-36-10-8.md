@@ -1,40 +1,12 @@
 ---
 title: "Matthew 9:36–10:8"
 pk: "35"
-permalink: "/readings/matthew-9-36-10-8/"
+num: 31
+ref: ""
 noindex: true
 ---
 
-<div class="reading">
 <p><span class="v">36</span>But when he saw the multitudes, he was moved with compassion for them, because they were harassed and scattered, like sheep without a shepherd.  <span class="v">37</span>Then he said to his disciples, “The harvest indeed is plentiful, but the laborers are few.  <span class="v">38</span>Pray therefore that the Lord of the harvest will send out laborers into his harvest.”  <span class="v">1</span>He called to himself his twelve disciples, and gave them authority over unclean spirits, to cast them out, and to heal every disease and every sickness.  <span class="v">2</span>Now the names of the twelve apostles are these. The first, Simon, who is called Peter; Andrew, his brother; James the son of Zebedee; John, his brother;  <span class="v">3</span>Philip; Bartholomew; Thomas; Matthew the tax collector; James the son of Alphaeus; Lebbaeus, who was also called Thaddaeus;  <span class="v">4</span>Simon the Canaanite; and Judas Iscariot, who also betrayed him.  <span class="v">5</span>Jesus sent these twelve out, and commanded them, saying, “Don’t go among the Gentiles, and don’t enter into any city of the Samaritans.  <span class="v">6</span>Rather, go to the lost sheep of the house of Israel.  <span class="v">7</span>As you go, preach, saying, ‘The Kingdom of Heaven is at hand!’  <span class="v">8</span>Heal the sick, cleanse the lepers, and cast out demons. Freely you received, so freely give. </p>
-</div>
-{% if page.direct or page.indirect %}
-### In This Passage
-{% endif %}
-
-{% if page.direct %}
-{% if page.indirect %}
-#### Directly
-{% endif %}
-<ol>
-{% for slug in page.direct %}
-  {% assign person =  site.characters | where:"slug", slug | first %}
-  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
-{% endfor %}
-</ol>
-{% endif %}
-
-{% if page.indirect %}
-{% if page.direct %}
-#### Indirectly
-{% endif %}
-<ol>
-{% for slug in page.indirect %}
-  {% assign person =  site.characters | where:"slug", slug | first %}
-  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
-{% endfor %}
-</ol>
-{% endif %}
 
 
 ### Upcoming Proclamations

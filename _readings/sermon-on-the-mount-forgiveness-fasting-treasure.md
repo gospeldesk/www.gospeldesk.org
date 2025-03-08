@@ -1,42 +1,14 @@
 ---
 title: "Sermon on the Mount: Forgiveness; Fasting; Treasure"
 pk: "18"
-permalink: "/readings/sermon-on-the-mount-forgiveness-fasting-treasure/"
+num: 16
+ref: "Matthew 6:14–21"
 noindex: true
 ---
 
-<div class="reading">
 <p><span class="v">14</span>“For if you forgive men their trespasses, your heavenly Father will also forgive you.  <span class="v">15</span>But if you don’t forgive men their trespasses, neither will your Father forgive your trespasses. </p>
 <p><span class="v">16</span>“Moreover when you fast, don’t be like the hypocrites, with sad faces. For they disfigure their faces, that they may be seen by men to be fasting. Most certainly I tell you, they have received their reward.  <span class="v">17</span>But you, when you fast, anoint your head, and wash your face;  <span class="v">18</span>so that you are not seen by men to be fasting, but by your Father who is in secret, and your Father, who sees in secret, will reward you. </p>
 <p><span class="v">19</span>“Don’t lay up treasures for yourselves on the earth, where moth and rust consume, and where thieves break through and steal;  <span class="v">20</span>but lay up for yourselves treasures in heaven, where neither moth nor rust consume, and where thieves don’t break through and steal;  <span class="v">21</span>for where your treasure is, there your heart will be also. </p>
-</div>
-{% if page.direct or page.indirect %}
-### In This Passage
-{% endif %}
-
-{% if page.direct %}
-{% if page.indirect %}
-#### Directly
-{% endif %}
-<ol>
-{% for slug in page.direct %}
-  {% assign person =  site.characters | where:"slug", slug | first %}
-  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
-{% endfor %}
-</ol>
-{% endif %}
-
-{% if page.indirect %}
-{% if page.direct %}
-#### Indirectly
-{% endif %}
-<ol>
-{% for slug in page.indirect %}
-  {% assign person =  site.characters | where:"slug", slug | first %}
-  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
-{% endfor %}
-</ol>
-{% endif %}
 
 
 ### Upcoming Proclamations

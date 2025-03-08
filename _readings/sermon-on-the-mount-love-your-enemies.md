@@ -1,40 +1,12 @@
 ---
 title: "Sermon on the Mount: Love Your Enemies"
 pk: "16"
-permalink: "/readings/sermon-on-the-mount-love-your-enemies/"
+num: 14
+ref: "Matthew 5:42–48"
 noindex: true
 ---
 
-<div class="reading">
 <p><span class="v">42</span>Give to him who asks you, and don’t turn away him who desires to borrow from you.  <span class="v">43</span>“You have heard that it was said, ‘You shall love your neighbor and hate your enemy.’  <span class="v">44</span>But I tell you, love your enemies, bless those who curse you, do good to those who hate you, and pray for those who mistreat you and persecute you,  <span class="v">45</span>that you may be children of your Father who is in heaven. For he makes his sun to rise on the evil and the good, and sends rain on the just and the unjust.  <span class="v">46</span>For if you love those who love you, what reward do you have? Don’t even the tax collectors do the same?  <span class="v">47</span>If you only greet your friends, what more do you do than others? Don’t even the tax collectors do the same?  <span class="v">48</span>Therefore you shall be perfect, just as your Father in heaven is perfect. </p>
-</div>
-{% if page.direct or page.indirect %}
-### In This Passage
-{% endif %}
-
-{% if page.direct %}
-{% if page.indirect %}
-#### Directly
-{% endif %}
-<ol>
-{% for slug in page.direct %}
-  {% assign person =  site.characters | where:"slug", slug | first %}
-  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
-{% endfor %}
-</ol>
-{% endif %}
-
-{% if page.indirect %}
-{% if page.direct %}
-#### Indirectly
-{% endif %}
-<ol>
-{% for slug in page.indirect %}
-  {% assign person =  site.characters | where:"slug", slug | first %}
-  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
-{% endfor %}
-</ol>
-{% endif %}
 
 
 ### Upcoming Proclamations

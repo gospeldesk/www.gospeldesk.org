@@ -1,40 +1,12 @@
 ---
 title: "Jesus Begins to Preach"
 pk: "8"
-permalink: "/readings/jesus-begins-to-preach/"
+num: 7
+ref: "Matthew 4:12–17"
 noindex: true
 ---
 
-<div class="reading">
 <p><span class="v">12</span>Now when Jesus heard that John was delivered up, he withdrew into Galilee.  <span class="v">13</span>Leaving Nazareth, he came and lived in Capernaum, which is by the sea, in the region of Zebulun and Naphtali,  <span class="v">14</span>that it might be fulfilled which was spoken through Isaiah the prophet, saying,  <span class="v">15</span>“The land of Zebulun and the land of Naphtali, toward the sea, beyond the Jordan, Galilee of the Gentiles,  <span class="v">16</span>the people who sat in darkness saw a great light, to those who sat in the region and shadow of death, to them light has dawned.”  <span class="v">17</span>From that time, Jesus began to preach, and to say, “Repent! For the Kingdom of Heaven is at hand.” </p>
-</div>
-{% if page.direct or page.indirect %}
-### In This Passage
-{% endif %}
-
-{% if page.direct %}
-{% if page.indirect %}
-#### Directly
-{% endif %}
-<ol>
-{% for slug in page.direct %}
-  {% assign person =  site.characters | where:"slug", slug | first %}
-  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
-{% endfor %}
-</ol>
-{% endif %}
-
-{% if page.indirect %}
-{% if page.direct %}
-#### Indirectly
-{% endif %}
-<ol>
-{% for slug in page.indirect %}
-  {% assign person =  site.characters | where:"slug", slug | first %}
-  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
-{% endfor %}
-</ol>
-{% endif %}
 
 
 ### Upcoming Proclamations

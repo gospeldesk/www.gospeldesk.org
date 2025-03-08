@@ -1,40 +1,12 @@
 ---
 title: "Matthew 11:27–30"
 pk: "46"
-permalink: "/readings/matthew-11-27-30/"
+num: 39
+ref: ""
 noindex: true
 ---
 
-<div class="reading">
 <p><span class="v">27</span>All things have been delivered to me by my Father. No one knows the Son, except the Father; neither does anyone know the Father, except the Son, and he to whom the Son desires to reveal him.  <span class="v">28</span>“Come to me, all you who labor and are heavily burdened, and I will give you rest.  <span class="v">29</span>Take my yoke upon you, and learn from me, for I am gentle and humble in heart; and you will find rest for your souls.  <span class="v">30</span>For my yoke is easy, and my burden is light.” </p>
-</div>
-{% if page.direct or page.indirect %}
-### In This Passage
-{% endif %}
-
-{% if page.direct %}
-{% if page.indirect %}
-#### Directly
-{% endif %}
-<ol>
-{% for slug in page.direct %}
-  {% assign person =  site.characters | where:"slug", slug | first %}
-  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
-{% endfor %}
-</ol>
-{% endif %}
-
-{% if page.indirect %}
-{% if page.direct %}
-#### Indirectly
-{% endif %}
-<ol>
-{% for slug in page.indirect %}
-  {% assign person =  site.characters | where:"slug", slug | first %}
-  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
-{% endfor %}
-</ol>
-{% endif %}
 
 
 ### Upcoming Proclamations

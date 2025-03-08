@@ -1,40 +1,12 @@
 ---
 title: "Matthew 24:1–51"
 pk: "106"
-permalink: "/readings/matthew-24-1-51/"
+num: 88
+ref: ""
 noindex: true
 ---
 
-<div class="reading">
 <p><span class="v">1</span>Jesus went out from the temple, and was going on his way. His disciples came to him to show him the buildings of the temple.  <span class="v">2</span>But he answered them, “You see all of these things, don’t you? Most certainly I tell you, there will not be left here one stone on another, that will not be thrown down.”  <span class="v">3</span>As he sat on the Mount of Olives, the disciples came to him privately, saying, “Tell us, when will these things be? What is the sign of your coming, and of the end of the age?”  <span class="v">4</span>Jesus answered them, “Be careful that no one leads you astray.  <span class="v">5</span>For many will come in my name, saying, ‘I am the Christ,’ and will lead many astray.  <span class="v">6</span>You will hear of wars and rumors of wars. See that you aren’t troubled, for all this must happen, but the end is not yet.  <span class="v">7</span>For nation will rise against nation, and kingdom against kingdom; and there will be famines, plagues, and earthquakes in various places.  <span class="v">8</span>But all these things are the beginning of birth pains.  <span class="v">9</span>Then they will deliver you up to oppression, and will kill you. You will be hated by all of the nations for my name’s sake.  <span class="v">10</span>Then many will stumble, and will deliver up one another, and will hate one another.  <span class="v">11</span>Many false prophets will arise, and will lead many astray.  <span class="v">12</span>Because iniquity will be multiplied, the love of many will grow cold.  <span class="v">13</span>But he who endures to the end, the same will be saved.  <span class="v">14</span>This Good News of the Kingdom will be preached in the whole world for a testimony to all the nations, and then the end will come.  <span class="v">15</span>“When, therefore, you see the abomination of desolation, which was spoken of through Daniel the prophet, standing in the holy place (let the reader understand),  <span class="v">16</span>then let those who are in Judea flee to the mountains.  <span class="v">17</span>Let him who is on the housetop not go down to take out the things that are in his house.  <span class="v">18</span>Let him who is in the field not return back to get his clothes.  <span class="v">19</span>But woe to those who are with child and to nursing mothers in those days!  <span class="v">20</span>Pray that your flight will not be in the winter, nor on a Sabbath,  <span class="v">21</span>for then there will be great oppression, such as has not been from the beginning of the world until now, no, nor ever will be.  <span class="v">22</span>Unless those days had been shortened, no flesh would have been saved. But for the sake of the chosen ones, those days will be shortened.  <span class="v">23</span>“Then if any man tells you, ‘Behold, here is the Christ,’ or, ‘There,’ don’t believe it.  <span class="v">24</span>For there will arise false christs, and false prophets, and they will show great signs and wonders, so as to lead astray, if possible, even the chosen ones.  <span class="v">25</span>“Behold, I have told you beforehand.  <span class="v">26</span>If therefore they tell you, ‘Behold, he is in the wilderness,’ don’t go out; ‘Behold, he is in the inner rooms,’ don’t believe it.  <span class="v">27</span>For as the lightning flashes from the east, and is seen even to the west, so will be the coming of the Son of Man.  <span class="v">28</span>For wherever the carcass is, that is where the vultures gather together.  <span class="v">29</span>But immediately after the oppression of those days, the sun will be darkened, the moon will not give its light, the stars will fall from the sky, and the powers of the heavens will be shaken;  <span class="v">30</span>and then the sign of the Son of Man will appear in the sky. Then all the tribes of the earth will mourn, and they will see the Son of Man coming on the clouds of the sky with power and great glory.  <span class="v">31</span>He will send out his angels with a great sound of a trumpet, and they will gather together his chosen ones from the four winds, from one end of the sky to the other.  <span class="v">32</span>“Now from the fig tree learn this parable. When its branch has now become tender, and produces its leaves, you know that the summer is near.  <span class="v">33</span>Even so you also, when you see all these things, know that it is near, even at the doors.  <span class="v">34</span>Most certainly I tell you, this generation will not pass away, until all these things are accomplished.  <span class="v">35</span>Heaven and earth will pass away, but my words will not pass away.  <span class="v">36</span>But no one knows of that day and hour, not even the angels of heaven, but my Father only.  <span class="v">37</span>“As the days of Noah were, so will be the coming of the Son of Man.  <span class="v">38</span>For as in those days which were before the flood they were eating and drinking, marrying and giving in marriage, until the day that Noah entered into the ship,  <span class="v">39</span>and they didn’t know until the flood came, and took them all away, so will be the coming of the Son of Man.  <span class="v">40</span>Then two men will be in the field: one will be taken and one will be left.  <span class="v">41</span>Two women will be grinding at the mill: one will be taken and one will be left.  <span class="v">42</span>Watch therefore, for you don’t know in what hour your Lord comes.  <span class="v">43</span>But know this, that if the master of the house had known in what watch of the night the thief was coming, he would have watched, and would not have allowed his house to be broken into.  <span class="v">44</span>Therefore also be ready, for in an hour that you don’t expect, the Son of Man will come.  <span class="v">45</span>“Who then is the faithful and wise servant, whom his lord has set over his household, to give them their food in due season?  <span class="v">46</span>Blessed is that servant whom his lord finds doing so when he comes.  <span class="v">47</span>Most certainly I tell you that he will set him over all that he has.  <span class="v">48</span>But if that evil servant should say in his heart, ‘My lord is delaying his coming,’  <span class="v">49</span>and begins to beat his fellow servants, and eat and drink with the drunkards,  <span class="v">50</span>the lord of that servant will come in a day when he doesn’t expect it, and in an hour when he doesn’t know it,  <span class="v">51</span>and will cut him in pieces, and appoint his portion with the hypocrites. That is where the weeping and grinding of teeth will be. </p>
-</div>
-{% if page.direct or page.indirect %}
-### In This Passage
-{% endif %}
-
-{% if page.direct %}
-{% if page.indirect %}
-#### Directly
-{% endif %}
-<ol>
-{% for slug in page.direct %}
-  {% assign person =  site.characters | where:"slug", slug | first %}
-  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
-{% endfor %}
-</ol>
-{% endif %}
-
-{% if page.indirect %}
-{% if page.direct %}
-#### Indirectly
-{% endif %}
-<ol>
-{% for slug in page.indirect %}
-  {% assign person =  site.characters | where:"slug", slug | first %}
-  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
-{% endfor %}
-</ol>
-{% endif %}
 
 
 ### Upcoming Proclamations

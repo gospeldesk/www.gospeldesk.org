@@ -1,40 +1,12 @@
 ---
 title: "Matthew 9:14–17"
 pk: "32"
-permalink: "/readings/matthew-9-14-17/"
+num: 28
+ref: ""
 noindex: true
 ---
 
-<div class="reading">
 <p><span class="v">14</span>Then John’s disciples came to him, saying, “Why do we and the Pharisees fast often, but your disciples don’t fast?”  <span class="v">15</span>Jesus said to them, “Can the friends of the bridegroom mourn, as long as the bridegroom is with them? But the days will come when the bridegroom will be taken away from them, and then they will fast.  <span class="v">16</span>No one puts a piece of unshrunk cloth on an old garment; for the patch would tear away from the garment, and a worse hole is made.  <span class="v">17</span>Neither do people put new wine into old wine skins, or else the skins would burst, and the wine be spilled, and the skins ruined. No, they put new wine into fresh wine skins, and both are preserved.” </p>
-</div>
-{% if page.direct or page.indirect %}
-### In This Passage
-{% endif %}
-
-{% if page.direct %}
-{% if page.indirect %}
-#### Directly
-{% endif %}
-<ol>
-{% for slug in page.direct %}
-  {% assign person =  site.characters | where:"slug", slug | first %}
-  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
-{% endfor %}
-</ol>
-{% endif %}
-
-{% if page.indirect %}
-{% if page.direct %}
-#### Indirectly
-{% endif %}
-<ol>
-{% for slug in page.indirect %}
-  {% assign person =  site.characters | where:"slug", slug | first %}
-  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
-{% endfor %}
-</ol>
-{% endif %}
 
 
 ### Upcoming Proclamations

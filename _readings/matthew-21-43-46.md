@@ -1,40 +1,12 @@
 ---
 title: "Matthew 21:43–46"
 pk: "96"
-permalink: "/readings/matthew-21-43-46/"
+num: 79
+ref: ""
 noindex: true
 ---
 
-<div class="reading">
 <p><span class="v">43</span>“Therefore I tell you, God’s Kingdom will be taken away from you, and will be given to a nation producing its fruit.  <span class="v">44</span>He who falls on this stone will be broken to pieces, but on whomever it will fall, it will scatter him as dust.”  <span class="v">45</span>When the chief priests and the Pharisees heard his parables, they perceived that he spoke about them.  <span class="v">46</span>When they sought to seize him, they feared the multitudes, because they considered him to be a prophet. </p>
-</div>
-{% if page.direct or page.indirect %}
-### In This Passage
-{% endif %}
-
-{% if page.direct %}
-{% if page.indirect %}
-#### Directly
-{% endif %}
-<ol>
-{% for slug in page.direct %}
-  {% assign person =  site.characters | where:"slug", slug | first %}
-  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
-{% endfor %}
-</ol>
-{% endif %}
-
-{% if page.indirect %}
-{% if page.direct %}
-#### Indirectly
-{% endif %}
-<ol>
-{% for slug in page.indirect %}
-  {% assign person =  site.characters | where:"slug", slug | first %}
-  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
-{% endfor %}
-</ol>
-{% endif %}
 
 
 ### Upcoming Proclamations

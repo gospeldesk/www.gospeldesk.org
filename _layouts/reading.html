@@ -5,13 +5,35 @@ layout: default
   <h2>{{ page.title }}</h2>
 </header>
 <section>
-{{ content }}
 
-<h3>Appears In</h3>
+<div class="reading">
+{{ content }}
+</div>
+
+{% if page.direct or page.indirect %}
+### In This Passage
+{% endif %}
+
+{% if page.direct %}
+{% if page.indirect %}
+#### Directly
+{% endif %}
 <ol>
-{% assign readings = site.readings | where_exp: "r", "r.characters contains page.slug" %}
-{% for reading in readings %}
-  <li><a href="{{ reading.url }}">{{ reading.title }}</a></li>
+{% for slug in page.direct %}
+  {% assign person =  site.characters | where:"slug", slug | first %}
+  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
 {% endfor %}
+</ol>
+{% endif %}
+
+{% if page.indirect %}
+{% if page.direct %}
+#### Indirectly
+{% endif %}
 <ol>
-</section>
+{% for slug in page.indirect %}
+  {% assign person =  site.characters | where:"slug", slug | first %}
+  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
+{% endfor %}
+</ol>
+{% endif %}

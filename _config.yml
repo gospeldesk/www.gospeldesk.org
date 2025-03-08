@@ -42,6 +42,9 @@ defaults:
 collections:
   posts:
     permalink: "/:year/:title/"
+  readings:
+    permalink: "/readings/:slug/"
+    output: true
   characters:
     permalink: "/characters/:slug/"
     output: true

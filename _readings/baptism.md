@@ -1,40 +1,12 @@
 ---
 title: "Baptism"
 pk: "6"
-permalink: "/readings/baptism/"
+num: 5
+ref: "Matthew 3:13–17"
 noindex: true
 ---
 
-<div class="reading">
 <p><span class="v">13</span>Then Jesus came from Galilee to the Jordan to John, to be baptized by him.  <span class="v">14</span>But John would have hindered him, saying, “I need to be baptized by you, and you come to me?”  <span class="v">15</span>But Jesus, answering, said to him, “Allow it now, for this is the fitting way for us to fulfill all righteousness.” Then he allowed him.  <span class="v">16</span>Jesus, when he was baptized, went up directly from the water: and behold, the heavens were opened to him. He saw the Spirit of God descending as a dove, and coming on him.  <span class="v">17</span>Behold, a voice out of the heavens said, “This is my beloved Son, with whom I am well pleased.” </p>
-</div>
-{% if page.direct or page.indirect %}
-### In This Passage
-{% endif %}
-
-{% if page.direct %}
-{% if page.indirect %}
-#### Directly
-{% endif %}
-<ol>
-{% for slug in page.direct %}
-  {% assign person =  site.characters | where:"slug", slug | first %}
-  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
-{% endfor %}
-</ol>
-{% endif %}
-
-{% if page.indirect %}
-{% if page.direct %}
-#### Indirectly
-{% endif %}
-<ol>
-{% for slug in page.indirect %}
-  {% assign person =  site.characters | where:"slug", slug | first %}
-  <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
-{% endfor %}
-</ol>
-{% endif %}
 
 
 ### Upcoming Proclamations
