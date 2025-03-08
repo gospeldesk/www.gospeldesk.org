@@ -11,12 +11,12 @@ layout: default
 </div>
 
 {% if page.direct or page.indirect %}
-### In This Passage
+<h3>In This Passage</h3>
 {% endif %}
 
 {% if page.direct %}
 {% if page.indirect %}
-#### Directly
+<h4>Directly</h4>
 {% endif %}
 <ol>
 {% for slug in page.direct %}
@@ -28,7 +28,7 @@ layout: default
 
 {% if page.indirect %}
 {% if page.direct %}
-#### Indirectly
+<h4>Indirectly</h4>
 {% endif %}
 <ol>
 {% for slug in page.indirect %}

@@ -3,6 +3,7 @@ title: "Matthew 20:29–34"
 pk: "88"
 num: 73
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

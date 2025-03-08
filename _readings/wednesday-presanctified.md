@@ -3,6 +3,7 @@ title: "Wednesday Presanctified"
 pk: "117"
 num: 341
 ref: "Matthew 26:6–16"
+excerpt: "Matthew 26:6–16"
 noindex: true
 ---
 

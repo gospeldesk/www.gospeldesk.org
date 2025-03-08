@@ -3,6 +3,7 @@ title: "Matthew 13:44–54"
 pk: "60"
 num: 49
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

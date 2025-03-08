@@ -3,6 +3,7 @@ title: "Matthew 15:12–21"
 pk: "66"
 num: 55
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

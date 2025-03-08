@@ -3,6 +3,7 @@ title: "Matthew 16:1–6"
 pk: "70"
 num: 59
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

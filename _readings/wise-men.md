@@ -3,6 +3,7 @@ title: "Wise Men"
 pk: "3"
 num: 2
 ref: "Matthew 2:1–12"
+excerpt: "Matthew 2:1–12"
 noindex: true
 ---
 

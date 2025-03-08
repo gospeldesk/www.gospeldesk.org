@@ -3,6 +3,7 @@ title: "John the Forerunner"
 pk: "5"
 num: 4
 ref: "Matthew 3:1–12"
+excerpt: "Matthew 3:1–12"
 noindex: true
 ---
 

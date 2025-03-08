@@ -3,6 +3,7 @@ title: "Friday Passion 10"
 pk: "198"
 num: 353
 ref: "Mark 15:43–47"
+excerpt: "Mark 15:43–47"
 noindex: true
 ---
 

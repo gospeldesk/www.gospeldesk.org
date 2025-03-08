@@ -3,6 +3,7 @@ title: "Matthew 18:23–35"
 pk: "83"
 num: 68
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

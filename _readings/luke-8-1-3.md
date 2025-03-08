@@ -3,6 +3,7 @@ title: "Luke 8:1–3"
 pk: "237"
 num: 194
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

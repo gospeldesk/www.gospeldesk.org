@@ -3,6 +3,7 @@ title: "Friday Passion 9"
 pk: "388"
 num: 352
 ref: "John 19:25–37"
+excerpt: "John 19:25–37"
 noindex: true
 ---
 

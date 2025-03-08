@@ -3,6 +3,7 @@ title: "Matthew 23:13–22"
 pk: "103"
 num: 85
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

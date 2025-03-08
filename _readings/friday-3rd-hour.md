@@ -3,6 +3,7 @@ title: "Friday 3rd Hour"
 pk: "196"
 num: 357
 ref: "Mark 15:16–41"
+excerpt: "Mark 15:16–41"
 noindex: true
 ---
 

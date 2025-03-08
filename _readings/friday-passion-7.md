@@ -3,6 +3,7 @@ title: "Friday Passion 7"
 pk: "123"
 num: 350
 ref: "Matthew 27:33–54"
+excerpt: "Matthew 27:33–54"
 noindex: true
 ---
 

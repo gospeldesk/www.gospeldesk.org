@@ -3,6 +3,7 @@ title: "Sermon on the Mount: Love Your Enemies"
 pk: "16"
 num: 14
 ref: "Matthew 5:42–48"
+excerpt: "Matthew 5:42–48"
 noindex: true
 ---
 

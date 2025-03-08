@@ -3,6 +3,7 @@ title: "Matthew 27:27–32"
 pk: "122"
 num: 96
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

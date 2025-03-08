@@ -3,6 +3,7 @@ title: "Sermon on the Mount: Left Hand and Right; The Lord's Prayer"
 pk: "17"
 num: 15
 ref: "Matthew 6:1–13"
+excerpt: "Matthew 6:1–13"
 noindex: true
 ---
 

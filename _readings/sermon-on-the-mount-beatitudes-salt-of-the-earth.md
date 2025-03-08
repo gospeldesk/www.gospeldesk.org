@@ -3,6 +3,7 @@ title: "Sermon on the Mount: Beatitudes; Salt of the Earth"
 pk: "10"
 num: 9
 ref: "Matthew 4:25–5:13"
+excerpt: "Matthew 4:25–5:13"
 noindex: true
 ---
 

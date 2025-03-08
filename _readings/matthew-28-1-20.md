@@ -3,6 +3,7 @@ title: "Matthew 28:1–20"
 pk: "125"
 num: 100
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

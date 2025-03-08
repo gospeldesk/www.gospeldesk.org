@@ -3,6 +3,7 @@ title: "Tuesday Bridegroom"
 pk: "99"
 num: 338
 ref: "Matthew 22:15–23:39"
+excerpt: "Matthew 22:15–23:39"
 noindex: true
 ---
 

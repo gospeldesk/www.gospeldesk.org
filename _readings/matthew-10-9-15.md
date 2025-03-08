@@ -3,6 +3,7 @@ title: "Matthew 10:9–15"
 pk: "37"
 num: 32
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

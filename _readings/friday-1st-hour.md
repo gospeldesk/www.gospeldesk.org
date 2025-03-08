@@ -3,6 +3,7 @@ title: "Friday 1st Hour"
 pk: "119"
 num: 356
 ref: "Matthew 27:1–56"
+excerpt: "Matthew 27:1–56"
 noindex: true
 ---
 

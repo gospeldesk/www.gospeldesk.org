@@ -3,6 +3,7 @@ title: "Friday Passion 12"
 pk: "124"
 num: 355
 ref: "Matthew 27:62–66"
+excerpt: "Matthew 27:62–66"
 noindex: true
 ---
 

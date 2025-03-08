@@ -179,6 +179,7 @@ title: "{title}"
 pk: "{pk}"
 num: {i}
 ref: "{ref}"
+excerpt: "{ref}"
 noindex: true
 {frontmatter}---
 

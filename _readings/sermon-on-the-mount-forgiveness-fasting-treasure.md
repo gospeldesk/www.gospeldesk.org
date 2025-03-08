@@ -3,6 +3,7 @@ title: "Sermon on the Mount: Forgiveness; Fasting; Treasure"
 pk: "18"
 num: 16
 ref: "Matthew 6:14–21"
+excerpt: "Matthew 6:14–21"
 noindex: true
 ---
 

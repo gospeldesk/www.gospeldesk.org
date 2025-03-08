@@ -3,6 +3,7 @@ title: "Matthew 9:36–10:8"
 pk: "35"
 num: 31
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

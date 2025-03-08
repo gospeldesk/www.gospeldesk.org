@@ -3,6 +3,7 @@ title: "Matthew 10:16–22"
 pk: "38"
 num: 33
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

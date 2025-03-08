@@ -3,6 +3,7 @@ title: "Friday 9th Hour"
 pk: "386"
 num: 359
 ref: "John 18:28–19:37"
+excerpt: "John 18:28–19:37"
 noindex: true
 ---
 

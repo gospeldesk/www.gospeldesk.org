@@ -3,6 +3,7 @@ title: "Matthew 26:17–56"
 pk: ""
 num: 93
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

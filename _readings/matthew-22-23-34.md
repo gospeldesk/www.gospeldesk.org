@@ -3,6 +3,7 @@ title: "Matthew 22:23–34"
 pk: "100"
 num: 82
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

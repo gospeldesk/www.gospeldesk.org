@@ -3,6 +3,7 @@ title: "Tuesday Presanctified"
 pk: "111"
 num: 339
 ref: "Matthew 24:36–26:2"
+excerpt: "Matthew 24:36–26:2"
 noindex: true
 ---
 

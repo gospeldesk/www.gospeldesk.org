@@ -3,6 +3,7 @@ title: "Matthew 15:21–28"
 pk: "67"
 num: 56
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

@@ -3,6 +3,7 @@ title: "Friday Passion 5"
 pk: "121"
 num: 348
 ref: "Matthew 27:3–32"
+excerpt: "Matthew 27:3–32"
 noindex: true
 ---
 

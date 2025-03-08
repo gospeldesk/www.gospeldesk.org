@@ -3,6 +3,7 @@ title: "Monday Bridegroom"
 pk: "92"
 num: 336
 ref: "Matthew 21:18–43"
+excerpt: "Matthew 21:18–43"
 noindex: true
 ---
 

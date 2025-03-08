@@ -3,6 +3,7 @@ title: "Friday Passion 1"
 pk: "371"
 num: 344
 ref: "John 13:31–18:1"
+excerpt: "John 13:31–18:1"
 noindex: true
 ---
 

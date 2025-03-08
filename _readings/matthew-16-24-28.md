@@ -3,6 +3,7 @@ title: "Matthew 16:24–28"
 pk: "75"
 num: 63
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

@@ -3,6 +3,7 @@ title: "Matthew 8:23–27"
 pk: "28"
 num: 24
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

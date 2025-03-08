@@ -3,6 +3,7 @@ title: "Calling of the Apostles"
 pk: "9"
 num: 8
 ref: "Matthew 4:18–24"
+excerpt: "Matthew 4:18–24"
 noindex: true
 ---
 

@@ -3,6 +3,7 @@ title: "Friday Passion 11"
 pk: "390"
 num: 354
 ref: "John 19:38–42"
+excerpt: "John 19:38–42"
 noindex: true
 ---
 

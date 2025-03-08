@@ -3,6 +3,7 @@ title: "Sermon on the Mount: Light of the World; Law and Prophets"
 pk: "12"
 num: 10
 ref: "Matthew 5:14–19"
+excerpt: "Matthew 5:14–19"
 noindex: true
 ---
 

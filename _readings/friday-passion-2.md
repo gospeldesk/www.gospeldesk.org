@@ -3,6 +3,7 @@ title: "Friday Passion 2"
 pk: "384"
 num: 345
 ref: "John 18:1–28"
+excerpt: "John 18:1–28"
 noindex: true
 ---
 

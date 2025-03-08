@@ -3,6 +3,7 @@ title: "Matthew 21:33–42"
 pk: "95"
 num: 78
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

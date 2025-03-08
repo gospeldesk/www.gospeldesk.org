@@ -3,6 +3,7 @@ title: "Matthew 16:13–19"
 pk: "72"
 num: 61
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

@@ -3,6 +3,7 @@ title: "Friday 6th Hour"
 pk: "317"
 num: 358
 ref: "Luke 23:32–49"
+excerpt: "Luke 23:32–49"
 noindex: true
 ---
 

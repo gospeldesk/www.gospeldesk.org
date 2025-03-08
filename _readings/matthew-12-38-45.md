@@ -3,6 +3,7 @@ title: "Matthew 12:38–45"
 pk: "52"
 num: 44
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

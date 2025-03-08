@@ -3,6 +3,7 @@ title: "Sermon on the Mount: Righteousness Exceeding the Pharisees"
 pk: "13"
 num: 11
 ref: "Matthew 5:20–26"
+excerpt: "Matthew 5:20–26"
 noindex: true
 ---
 

@@ -3,6 +3,7 @@ title: "Sermon on the Mount: Don't Be Anxious"
 pk: "20"
 num: 18
 ref: "Matthew 6:31–7:11"
+excerpt: "Matthew 6:31–7:11"
 noindex: true
 ---
 

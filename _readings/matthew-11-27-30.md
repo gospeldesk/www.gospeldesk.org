@@ -3,6 +3,7 @@ title: "Matthew 11:27–30"
 pk: "46"
 num: 39
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

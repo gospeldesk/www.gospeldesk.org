@@ -3,6 +3,7 @@ title: "Sermon on the Mount: Swearing; Resistance"
 pk: "15"
 num: 13
 ref: "Matthew 5:33–41"
+excerpt: "Matthew 5:33–41"
 noindex: true
 ---
 

@@ -3,6 +3,7 @@ title: "Sermon on the Mount: Adultery; Divorce"
 pk: "14"
 num: 12
 ref: "Matthew 5:27–32"
+excerpt: "Matthew 5:27–32"
 noindex: true
 ---
 

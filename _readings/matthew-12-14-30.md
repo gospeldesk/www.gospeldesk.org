@@ -3,6 +3,7 @@ title: "Matthew 12:14–30"
 pk: "49"
 num: 42
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

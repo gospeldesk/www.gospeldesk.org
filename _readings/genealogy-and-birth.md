@@ -3,6 +3,7 @@ title: "Genealogy and Birth"
 pk: "1"
 num: 1
 ref: "Matthew 1:1–25"
+excerpt: "Matthew 1:1–25"
 noindex: true
 direct: [jesus, mary, joseph, holy-spirit, dream-angel]
 indirect: [ancestors, jews, prophets, god]

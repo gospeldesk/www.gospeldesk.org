@@ -3,6 +3,7 @@ title: "Sermon on the Mount: Don't Judge"
 pk: "21"
 num: 19
 ref: "Matthew 7:1–8"
+excerpt: "Matthew 7:1–8"
 noindex: true
 ---
 

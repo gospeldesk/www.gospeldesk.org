@@ -3,6 +3,7 @@ title: "Matthew 19:3–12"
 pk: "84"
 num: 69
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

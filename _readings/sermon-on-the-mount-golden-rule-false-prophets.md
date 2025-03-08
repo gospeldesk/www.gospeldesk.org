@@ -3,6 +3,7 @@ title: "Sermon on the Mount: Golden Rule; False Prophets"
 pk: "22"
 num: 20
 ref: "Matthew 7:12–23"
+excerpt: "Matthew 7:12–23"
 noindex: true
 ---
 

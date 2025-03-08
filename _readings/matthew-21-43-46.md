@@ -3,6 +3,7 @@ title: "Matthew 21:43–46"
 pk: "96"
 num: 79
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

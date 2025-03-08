@@ -3,6 +3,7 @@ title: "Thursday Bridegroom"
 pk: "314"
 num: 342
 ref: "Luke 22:1–39"
+excerpt: "Luke 22:1–39"
 noindex: true
 ---
 

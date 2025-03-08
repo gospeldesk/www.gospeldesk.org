@@ -3,6 +3,7 @@ title: "Matthew 13:3–9"
 pk: "54"
 num: 46
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

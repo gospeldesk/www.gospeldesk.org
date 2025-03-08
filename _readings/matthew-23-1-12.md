@@ -3,6 +3,7 @@ title: "Matthew 23:1–12"
 pk: "102"
 num: 84
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

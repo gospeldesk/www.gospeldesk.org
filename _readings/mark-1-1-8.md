@@ -3,6 +3,7 @@ title: "Mark 1:1–8"
 pk: "127"
 num: 101
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

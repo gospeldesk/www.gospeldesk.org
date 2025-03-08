@@ -3,6 +3,7 @@ title: "Friday Passion 6"
 pk: "195"
 num: 349
 ref: "Mark 15:16–32"
+excerpt: "Mark 15:16–32"
 noindex: true
 ---
 

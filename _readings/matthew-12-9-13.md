@@ -3,6 +3,7 @@ title: "Matthew 12:9–13"
 pk: "48"
 num: 41
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

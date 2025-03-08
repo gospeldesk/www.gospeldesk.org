@@ -3,6 +3,7 @@ title: "Sermon on the Mount: Rock and Sand; Healing a Leper"
 pk: "25"
 num: 21
 ref: "Matthew 7:24–8:4"
+excerpt: "Matthew 7:24–8:4"
 noindex: true
 ---
 

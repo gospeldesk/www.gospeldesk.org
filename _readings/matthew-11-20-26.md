@@ -3,6 +3,7 @@ title: "Matthew 11:20–26"
 pk: "45"
 num: 38
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

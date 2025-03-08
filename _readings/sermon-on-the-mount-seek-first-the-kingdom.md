@@ -3,6 +3,7 @@ title: "Sermon on the Mount: Seek First the Kingdom"
 pk: "19"
 num: 17
 ref: "Matthew 6:22–33"
+excerpt: "Matthew 6:22–33"
 noindex: true
 ---
 

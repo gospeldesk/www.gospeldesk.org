@@ -3,6 +3,7 @@ title: "Matthew 21:28–32"
 pk: "94"
 num: 77
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

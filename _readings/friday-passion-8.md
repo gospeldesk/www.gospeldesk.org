@@ -3,6 +3,7 @@ title: "Friday Passion 8"
 pk: "317"
 num: 351
 ref: "Luke 23:32–49"
+excerpt: "Luke 23:32–49"
 noindex: true
 ---
 

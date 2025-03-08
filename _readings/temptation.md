@@ -3,6 +3,7 @@ title: "Temptation"
 pk: "7"
 num: 6
 ref: "Matthew 4:1–11"
+excerpt: "Matthew 4:1–11"
 noindex: true
 ---
 

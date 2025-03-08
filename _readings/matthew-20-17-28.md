@@ -3,6 +3,7 @@ title: "Matthew 20:17–28"
 pk: "87"
 num: 72
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

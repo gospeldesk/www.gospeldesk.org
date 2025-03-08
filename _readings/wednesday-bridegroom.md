@@ -3,6 +3,7 @@ title: "Wednesday Bridegroom"
 pk: "365"
 num: 340
 ref: "John 12:17–50"
+excerpt: "John 12:17–50"
 noindex: true
 ---
 

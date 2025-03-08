@@ -3,6 +3,7 @@ title: "Matthew 22:35–46"
 pk: "101"
 num: 83
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

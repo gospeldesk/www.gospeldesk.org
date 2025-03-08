@@ -3,6 +3,7 @@ title: "Matthew 20:1–16"
 pk: "86"
 num: 71
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

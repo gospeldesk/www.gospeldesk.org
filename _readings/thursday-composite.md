@@ -3,6 +3,7 @@ title: "Thursday Composite"
 pk: "116"
 num: 343
 ref: "Matthew 26:2–27:2"
+excerpt: "Matthew 26:2–27:2"
 noindex: true
 ---
 

@@ -3,6 +3,7 @@ title: "Matthew 12:1–8"
 pk: "47"
 num: 40
 ref: ""
+excerpt: ""
 noindex: true
 ---
 

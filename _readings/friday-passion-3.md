@@ -3,6 +3,7 @@ title: "Friday Passion 3"
 pk: "118"
 num: 346
 ref: "Matthew 26:57–75"
+excerpt: "Matthew 26:57–75"
 noindex: true
 ---
 

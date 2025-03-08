@@ -3,6 +3,7 @@ title: "Matthew 9:14–17"
 pk: "32"
 num: 28
 ref: ""
+excerpt: ""
 noindex: true
 ---
 
