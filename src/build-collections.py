@@ -80,8 +80,14 @@ class Pericope(object):
             self.direct = direct.strip().split()
             self.indirect = indirect.strip().split()
         elif line.startswith(' '):
+            splitter = line.strip()
+            h, t = splitter.split()
+            head, tail = self.verse_buffer[-1][3].split(splitter)
+            head += h
+            tail = t + tail
+            self.verse_buffer[-1][3] = head
             self.flush_paragraph()
-            #line, split_on = line.split('|')[0].strip()
+            self.verse_buffer.append([None, None, None, tail])
         else:
             bcv = line[:10]
             pks = line[10:].strip()
@@ -90,12 +96,15 @@ class Pericope(object):
             for pk in pks.split():
                 self.pks.add(pk.replace(',', ''))
             text = WEB[b][c][v]
-            self.verse_buffer.append((b,c,v, text))
+            self.verse_buffer.append([b,c,v, text])
 
     @property
     def text(self):
         def make_verse(b,c,v, text):
-            return f'<span class="v">{v}</span>{text}'
+            if v:
+                return f'<span class="v">{v}</span>{text}'
+            else:
+                return text
 
         fragments = []
         for el in self.elements:
