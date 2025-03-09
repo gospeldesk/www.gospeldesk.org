@@ -598,7 +598,8 @@ Matt 15:18  66
 Matt 15:19  66
 Matt 15:20  66
 Matt 15:21  66
-----
+---- Canaanite Woman
+> syrophoenician-woman
 Matt 15:21  67
 Matt 15:22  67
 Matt 15:23  67
@@ -1512,7 +1513,9 @@ Mark  7:21            156
 Mark  7:22            156
 Mark  7:23            156
 Mark  7:24            156
-----
+---- Syrophoenician Woman
+> canaanite-woman
+|
 Mark  7:24  157
 Mark  7:25  157
 Mark  7:26  157

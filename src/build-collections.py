@@ -63,6 +63,7 @@ class Pericope(object):
         self.elements = []
         self.direct = []
         self.indirect = []
+        self.related = []
 
     def add(self, line):
         if line.startswith('#'):
@@ -71,6 +72,8 @@ class Pericope(object):
                 self.elements.append(line[1:])
         elif not line:
             self.flush_paragraph()
+        elif line.startswith('>'):
+            self.related = line[1:].strip().split()
         elif line.startswith('|'):
             if '*' in line:
                 direct, indirect = line[1:].split('*')
@@ -173,10 +176,13 @@ class Pericope(object):
 God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="{url}">{d}</a></b></u>, and then again on <a class="next-next-proclamation" href="{url2}">{d2}</a>.
 '''
         frontmatter = ''
+        if self.related:
+            frontmatter += 'related: [' + ', '.join(self.related) + ']\n'
         if self.direct:
             frontmatter += 'direct: [' + ', '.join(self.direct) + ']\n'
         if self.indirect:
             frontmatter += 'indirect: [' + ', '.join(self.indirect) + ']\n'
+
 
         print(f'''\
 ---
