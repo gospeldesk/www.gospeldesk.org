@@ -2,9 +2,9 @@
 title: "Canaanite Woman"
 pk: "67"
 num: 56
-ref: "Matthew 15:21–28"
 excerpt: "Matthew 15:21–28"
 noindex: true
+ref: "Matthew 15:21–28"
 related: [syrophoenician-woman]
 ---
 

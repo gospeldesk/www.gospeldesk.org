@@ -2,7 +2,6 @@
 title: "Matthew 21:23–27"
 pk: "93"
 num: 76
-ref: ""
 excerpt: ""
 noindex: true
 ---

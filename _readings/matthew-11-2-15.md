@@ -2,7 +2,6 @@
 title: "Matthew 11:2–15"
 pk: "43"
 num: 36
-ref: ""
 excerpt: ""
 noindex: true
 ---

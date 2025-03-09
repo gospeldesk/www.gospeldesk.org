@@ -2,7 +2,6 @@
 title: "Matthew 25:14–30"
 pk: "114"
 num: 90
-ref: ""
 excerpt: ""
 noindex: true
 ---

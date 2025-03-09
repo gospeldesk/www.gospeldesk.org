@@ -2,7 +2,6 @@
 title: "Matthew 26:57–75"
 pk: ""
 num: 94
-ref: ""
 excerpt: ""
 noindex: true
 ---

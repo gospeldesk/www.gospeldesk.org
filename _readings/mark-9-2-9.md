@@ -2,7 +2,6 @@
 title: "Mark 9:2–9"
 pk: "165"
 num: 135
-ref: ""
 excerpt: ""
 noindex: true
 ---

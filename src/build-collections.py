@@ -46,18 +46,25 @@ def main():
                 cur.flush(i)
             if line.endswith('----'):
                 title = ''
+                subtitle = ''
             else:
                 title = line.split(None, 1)[1]
-            cur = Pericope(title)
+                subtitle = ''
+                if ':' in title:
+                    title, subtitle = title.split(':')
+                    subtitle = subtitle.strip()
+            cur = Pericope(title, subtitle)
         else:
             cur.add(line)
+    cur.flush(i+1)
 
 class Pericope(object):
 
     __slugs = set()
 
-    def __init__(self, title):
+    def __init__(self, title, subtitle):
         self.title = title
+        self.subtitle = subtitle
         self.pks = set()
         self.verse_buffer = []
         self.elements = []
@@ -141,12 +148,15 @@ class Pericope(object):
 
         if self.title:
             title = self.title
+            slug_base = self.title
+            if self.subtitle:
+                slug_base += ': ' + self.subtitle
             ref = self.ref
         else:
-            title = self.ref
+            title = slug_base = self.ref
             ref = ''
 
-        slug = [c if c in LETTERS_NUMBERS else ' ' for c in title.lower()]
+        slug = [c if c in LETTERS_NUMBERS else ' ' for c in slug_base.lower()]
         slug = '-'.join(''.join(slug).split())
         assert slug not in self.__slugs, slug
         self.__slugs.add(slug)
@@ -176,6 +186,10 @@ class Pericope(object):
 God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="{url}">{d}</a></b></u>, and then again on <a class="next-next-proclamation" href="{url2}">{d2}</a>.
 '''
         frontmatter = ''
+        if ref:
+            frontmatter += 'ref: "' + ref + '"\n'
+        if self.subtitle :
+            frontmatter += 'subtitle: "' + self.subtitle + '"\n'
         if self.related:
             frontmatter += 'related: [' + ', '.join(self.related) + ']\n'
         if self.direct:
@@ -183,13 +197,11 @@ God willing, the Church will proclaim this Gospel on <u><b><a class="next-procla
         if self.indirect:
             frontmatter += 'indirect: [' + ', '.join(self.indirect) + ']\n'
 
-
         print(f'''\
 ---
 title: "{title}"
 pk: "{pk}"
 num: {i}
-ref: "{ref}"
 excerpt: "{ref}"
 noindex: true
 {frontmatter}---

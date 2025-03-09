@@ -2,7 +2,6 @@
 title: "Matthew 9:9–13"
 pk: "31"
 num: 27
-ref: ""
 excerpt: ""
 noindex: true
 ---

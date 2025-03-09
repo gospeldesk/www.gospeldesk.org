@@ -2,9 +2,9 @@
 title: "Centurion"
 pk: "26"
 num: 22
-ref: "Matthew 8:5–13"
 excerpt: "Matthew 8:5–13"
 noindex: true
+ref: "Matthew 8:5–13"
 direct: [jesus, centurion]
 ---
 

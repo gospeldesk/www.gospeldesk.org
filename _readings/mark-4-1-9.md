@@ -2,7 +2,6 @@
 title: "Mark 4:1–9"
 pk: "142"
 num: 115
-ref: ""
 excerpt: ""
 noindex: true
 ---

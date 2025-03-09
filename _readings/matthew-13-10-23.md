@@ -2,7 +2,6 @@
 title: "Matthew 13:10–23"
 pk: "55"
 num: 47
-ref: ""
 excerpt: ""
 noindex: true
 ---

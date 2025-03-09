@@ -2,7 +2,6 @@
 title: "Matthew 15:32–39"
 pk: "69"
 num: 58
-ref: ""
 excerpt: ""
 noindex: true
 ---

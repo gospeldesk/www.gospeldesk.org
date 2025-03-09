@@ -2,7 +2,6 @@
 title: "Matthew 16:20–24"
 pk: "74"
 num: 62
-ref: ""
 excerpt: ""
 noindex: true
 ---

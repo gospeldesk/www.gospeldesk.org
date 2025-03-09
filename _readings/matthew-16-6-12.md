@@ -2,7 +2,6 @@
 title: "Matthew 16:6–12"
 pk: "71"
 num: 60
-ref: ""
 excerpt: ""
 noindex: true
 ---

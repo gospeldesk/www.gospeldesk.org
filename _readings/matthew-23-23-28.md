@@ -2,7 +2,6 @@
 title: "Matthew 23:23–28"
 pk: "104"
 num: 86
-ref: ""
 excerpt: ""
 noindex: true
 ---

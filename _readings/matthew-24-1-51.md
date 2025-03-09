@@ -2,7 +2,6 @@
 title: "Matthew 24:1–51"
 pk: "106"
 num: 88
-ref: ""
 excerpt: ""
 noindex: true
 ---

@@ -2,7 +2,6 @@
 title: "Matthew 15:29–31"
 pk: "68"
 num: 57
-ref: ""
 excerpt: ""
 noindex: true
 ---

@@ -2,7 +2,6 @@
 title: "Matthew 22:1–14"
 pk: "97"
 num: 80
-ref: ""
 excerpt: ""
 noindex: true
 ---

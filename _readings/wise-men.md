@@ -2,9 +2,9 @@
 title: "Wise Men"
 pk: "3"
 num: 2
-ref: "Matthew 2:1–12"
 excerpt: "Matthew 2:1–12"
 noindex: true
+ref: "Matthew 2:1–12"
 ---
 
 <p><span class="v">1</span>Now when Jesus was born in Bethlehem of Judea in the days of King Herod, behold, wise men from the east came to Jerusalem, saying,  <span class="v">2</span>“Where is he who is born King of the Jews? For we saw his star in the east, and have come to worship him.” </p>

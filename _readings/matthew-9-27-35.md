@@ -2,7 +2,6 @@
 title: "Matthew 9:27–35"
 pk: "34"
 num: 30
-ref: ""
 excerpt: ""
 noindex: true
 ---

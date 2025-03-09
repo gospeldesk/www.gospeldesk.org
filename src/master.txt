@@ -4213,8 +4213,7 @@ John 21:22  397
 John 21:23  397
 John 21:24  397
 John 21:25  397
-====
----- Monday Bridegroom
+---- Holy Week: Monday, Bridegroom Matins
 Matt 21:18  92
 Matt 21:19  92
 Matt 21:20  92
@@ -4241,7 +4240,7 @@ Matt 21:40  92
 Matt 21:41  92
 Matt 21:42  92
 Matt 21:43  92
----- Monday Presanctified
+---- Holy Week: Monday, Presanctified Liturgy
 Matt 24:3   107
 Matt 24:4   107
 Matt 24:5   107
@@ -4275,7 +4274,7 @@ Matt 24:32  107
 Matt 24:33  107
 Matt 24:34  107
 Matt 24:35  107
----- Tuesday Bridegroom
+---- Holy Week: Tuesday, Bridegroom Matins
 Matt 22:15  99
 Matt 22:16  99
 Matt 22:17  99
@@ -4347,7 +4346,7 @@ Matt 23:36  99
 Matt 23:37  99
 Matt 23:38  99
 Matt 23:39  99
----- Tuesday Presanctified
+---- Holy Week: Tuesday, Presanctified Liturgy
 Matt 24:36 111
 Matt 24:37 111
 Matt 24:38 111
@@ -4412,7 +4411,7 @@ Matt 25:45 111
 Matt 25:46 111
 Matt 26:1  111
 Matt 26:2  111
----- Wednesday Bridegroom
+---- Holy Week: Wednesday, Bridegroom Matins
 John 12:17  365
 John 12:18  365
 John 12:19  365
@@ -4447,7 +4446,7 @@ John 12:47  365
 John 12:48  365
 John 12:49  365
 John 12:50  365
----- Wednesday Presanctified
+---- Holy Week: Wednesday, Presanctified Liturgy
 Matt 26:6   117
 Matt 26:7   117
 Matt 26:8   117
@@ -4459,7 +4458,7 @@ Matt 26:13  117
 Matt 26:14  117
 Matt 26:15  117
 Matt 26:16  117
----- Thursday Bridegroom
+---- Holy Week: Thursday, Bridegroom Matins
 Luke 22:1   314
 Luke 22:2   314
 Luke 22:3   314
@@ -4499,7 +4498,7 @@ Luke 22:36  314
 Luke 22:37  314
 Luke 22:38  314
 Luke 22:39  314
----- Thursday Composite
+---- Holy Week: Thursday, Composite
 Matt 26:2   116
 Matt 26:3   116
 Matt 26:4   116
@@ -4594,7 +4593,7 @@ Matt 26:74  116
 Matt 26:75  116
 Matt 27:1   116
 Matt 27:2   116
----- Friday Passion 1
+---- Holy Week: Friday, Passion Gospels № 1
 John 13:31  371
 John 13:32  371
 John 13:33  371
@@ -4721,7 +4720,7 @@ John 17:24  371
 John 17:25  371
 John 17:26  371
 John 18:1   371
----- Friday Passion 2
+---- Holy Week: Friday, Passion Gospels № 2
 John 18:1   384
 John 18:2   384
 John 18:3   384
@@ -4750,7 +4749,7 @@ John 18:25  384
 John 18:26  384
 John 18:27  384
 John 18:28  384
----- Friday Passion 3
+---- Holy Week: Friday, Passion Gospels № 3
 Matt 26:57  118
 Matt 26:58  118
 Matt 26:59  118
@@ -4770,7 +4769,7 @@ Matt 26:72  118
 Matt 26:73  118
 Matt 26:74  118
 Matt 26:75  118
----- Friday Passion 4
+---- Holy Week: Friday, Passion Gospels № 4
 John 18:28  385
 John 18:29  385
 John 18:30  385
@@ -4800,7 +4799,7 @@ John 19:13  385
 John 19:14  385
 John 19:15  385
 John 19:16  385
----- Friday Passion 5
+---- Holy Week: Friday, Passion Gospels № 5
 Matt 27:3   121
 Matt 27:4   121
 Matt 27:5   121
@@ -4831,7 +4830,7 @@ Matt 27:29  121
 Matt 27:30  121
 Matt 27:31  121
 Matt 27:32  121
----- Friday Passion 6
+---- Holy Week: Friday, Passion Gospels № 6
 Mark 15:16  195
 Mark 15:17  195
 Mark 15:18  195
@@ -4849,7 +4848,7 @@ Mark 15:29  195
 Mark 15:30  195
 Mark 15:31  195
 Mark 15:32  195
----- Friday Passion 7
+---- Holy Week: Friday, Passion Gospels № 7
 Matt 27:33  123
 Matt 27:34  123
 Matt 27:35  123
@@ -4872,7 +4871,7 @@ Matt 27:51  123
 Matt 27:52  123
 Matt 27:53  123
 Matt 27:54  123
----- Friday Passion 8
+---- Holy Week: Friday, Passion Gospels № 8
 Luke 23:32  317
 Luke 23:33  317
 Luke 23:34  317
@@ -4891,7 +4890,7 @@ Luke 23:46  317
 Luke 23:47  317
 Luke 23:48  317
 Luke 23:49  317
----- Friday Passion 9
+---- Holy Week: Friday, Passion Gospels № 9
 John 19:25  388
 John 19:26  388
 John 19:27  388
@@ -4905,25 +4904,25 @@ John 19:34  388
 John 19:35  388
 John 19:36  388
 John 19:37  388
----- Friday Passion 10
+---- Holy Week: Friday, Passion Gospels № 10
 Mark 15:43  198
 Mark 15:44  198
 Mark 15:45  198
 Mark 15:46  198
 Mark 15:47  198
----- Friday Passion 11
+---- Holy Week: Friday, Passion Gospels № 11
 John 19:38  390
 John 19:39  390
 John 19:40  390
 John 19:41  390
 John 19:42  390
----- Friday Passion 12
+---- Holy Week: Friday, Passion Gospels № 12
 Matt 27:62  124
 Matt 27:63  124
 Matt 27:64  124
 Matt 27:65  124
 Matt 27:66  124
----- Friday 1st Hour
+---- Holy Week: Friday, 1st Hour
 Matt 27:1   119
 Matt 27:2   119
 Matt 27:3   119
@@ -4980,7 +4979,7 @@ Matt 27:53  119
 Matt 27:54  119
 Matt 27:55  119
 Matt 27:56  119
----- Friday 3rd Hour
+---- Holy Week: Friday, 3rd Hour
 Mark 15:16  196
 Mark 15:17  196
 Mark 15:18  196
@@ -5007,7 +5006,7 @@ Mark 15:38  196
 Mark 15:39  196
 Mark 15:40  196
 Mark 15:41  196
----- Friday 6th Hour
+---- Holy Week: Friday, 6th Hour
 Luke 23:32  317
 Luke 23:33  317
 Luke 23:34  317
@@ -5026,7 +5025,7 @@ Luke 23:46  317
 Luke 23:47  317
 Luke 23:48  317
 Luke 23:49  317
----- Friday 9th Hour
+---- Holy Week: Friday, 9th Hour
 John 18:28  386
 John 18:29  386
 John 18:30  386
@@ -5077,7 +5076,7 @@ John 19:34  386
 John 19:35  386
 John 19:36  386
 John 19:37  386
----- Friday Composite
+---- Holy Week: Friday, Composite
 Matt 27:1   120
 Matt 27:2   120
 Matt 27:3   120

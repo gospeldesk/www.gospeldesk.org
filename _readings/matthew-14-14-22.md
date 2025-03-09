@@ -2,7 +2,6 @@
 title: "Matthew 14:14–22"
 pk: "63"
 num: 52
-ref: ""
 excerpt: ""
 noindex: true
 ---

@@ -2,7 +2,6 @@
 title: "Matthew 21:1–17"
 pk: "89"
 num: 74
-ref: ""
 excerpt: ""
 noindex: true
 ---

@@ -2,7 +2,6 @@
 title: "Matthew 12:30–37"
 pk: "51"
 num: 43
-ref: ""
 excerpt: ""
 noindex: true
 ---

@@ -2,7 +2,6 @@
 title: "Matthew 17:10–23"
 pk: "77"
 num: 65
-ref: ""
 excerpt: ""
 noindex: true
 ---

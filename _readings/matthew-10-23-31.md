@@ -2,7 +2,6 @@
 title: "Matthew 10:23–31"
 pk: "39"
 num: 34
-ref: ""
 excerpt: ""
 noindex: true
 ---

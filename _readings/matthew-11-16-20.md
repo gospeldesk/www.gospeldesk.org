@@ -2,7 +2,6 @@
 title: "Matthew 11:16–20"
 pk: "44"
 num: 37
-ref: ""
 excerpt: ""
 noindex: true
 ---

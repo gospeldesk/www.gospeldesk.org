@@ -2,7 +2,6 @@
 title: "Matthew 8:28–9:1"
 pk: "29"
 num: 25
-ref: ""
 excerpt: ""
 noindex: true
 ---

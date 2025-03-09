@@ -9,8 +9,6 @@ exclude:
   - "README.md"
   - "bin"
   - "src"
-  - "explore/readings.py"
-  - "explore/verses.txt"
   - "email.md"
 defaults:
   -

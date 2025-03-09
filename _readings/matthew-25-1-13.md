@@ -2,7 +2,6 @@
 title: "Matthew 25:1–13"
 pk: "113"
 num: 89
-ref: ""
 excerpt: ""
 noindex: true
 ---

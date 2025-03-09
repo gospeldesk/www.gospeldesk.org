@@ -2,7 +2,6 @@
 title: "Matthew 13:24–43"
 pk: "56"
 num: 48
-ref: ""
 excerpt: ""
 noindex: true
 ---

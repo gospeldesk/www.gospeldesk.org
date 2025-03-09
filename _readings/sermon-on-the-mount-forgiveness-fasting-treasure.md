@@ -1,10 +1,11 @@
 ---
-title: "Sermon on the Mount: Forgiveness; Fasting; Treasure"
+title: "Sermon on the Mount"
 pk: "18"
 num: 16
-ref: "Matthew 6:14–21"
 excerpt: "Matthew 6:14–21"
 noindex: true
+ref: "Matthew 6:14–21"
+subtitle: "Forgiveness; Fasting; Treasure"
 ---
 
 <p><span class="v">14</span>“For if you forgive men their trespasses, your heavenly Father will also forgive you.  <span class="v">15</span>But if you don’t forgive men their trespasses, neither will your Father forgive your trespasses. </p>

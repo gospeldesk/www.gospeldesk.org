@@ -2,7 +2,6 @@
 title: "Matthew 23:29–39"
 pk: "105"
 num: 87
-ref: ""
 excerpt: ""
 noindex: true
 ---

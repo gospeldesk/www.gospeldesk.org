@@ -2,7 +2,6 @@
 title: "Matthew 22:15–22"
 pk: "98"
 num: 81
-ref: ""
 excerpt: ""
 noindex: true
 ---

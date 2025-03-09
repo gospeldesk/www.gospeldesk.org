@@ -2,7 +2,6 @@
 title: "Matthew 19:16–26"
 pk: "85"
 num: 70
-ref: ""
 excerpt: ""
 noindex: true
 ---

@@ -2,7 +2,6 @@
 title: "Matthew 21:12–22"
 pk: "90"
 num: 75
-ref: ""
 excerpt: ""
 noindex: true
 ---

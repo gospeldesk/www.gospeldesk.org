@@ -2,7 +2,6 @@
 title: "Luke 9:1–6"
 pk: "243"
 num: 200
-ref: ""
 excerpt: ""
 noindex: true
 ---
