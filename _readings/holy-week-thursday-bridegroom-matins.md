@@ -14,4 +14,3 @@ subtitle: "Thursday, Bridegroom Matins"
 ### Upcoming Proclamations
 
 God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://orthocal.info/readings/gregorian/2025/04/17/">April 17, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://orthocal.info/readings/gregorian/2026/04/09/">April  9, 2026</a>.
-

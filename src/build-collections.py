@@ -74,21 +74,17 @@ class Pericope(object):
 
     def add(self, line):
         if line.startswith('#'):
-            self.flush_paragraph()
             if line[1:]:
+                self.flush_paragraph()
                 self.elements.append(line[1:])
         elif not line:
             self.flush_paragraph()
         elif line.startswith('>'):
             self.related = line[1:].strip().split()
+        elif line.startswith('||'):
+            self.indirect = line[2:].strip().split()
         elif line.startswith('|'):
-            if '*' in line:
-                direct, indirect = line[1:].split('*')
-            else:
-                direct = line[1:]
-                indirect = ''
-            self.direct = direct.strip().split()
-            self.indirect = indirect.strip().split()
+            self.direct = line[1:].strip().split()
         elif line.startswith(' '):
             splitter = line.strip()
             h, t = splitter.split()
@@ -161,7 +157,8 @@ class Pericope(object):
         assert slug not in self.__slugs, slug
         self.__slugs.add(slug)
 
-        fp = open(f'../_readings/{slug}.md', 'w+')
+
+        old = fp = open(f'../_readings/{slug}.md').read()
         pk = ''
         dates = None
         if self.pks:
@@ -197,7 +194,7 @@ God willing, the Church will proclaim this Gospel on <u><b><a class="next-procla
         if self.indirect:
             frontmatter += 'indirect: [' + ', '.join(self.indirect) + ']\n'
 
-        print(f'''\
+        new = f'''\
 ---
 title: "{title}"
 pk: "{pk}"
@@ -208,7 +205,10 @@ noindex: true
 
 {self.text}
 
-{upcoming}''', file=fp)
+{upcoming}'''
+
+        if new != old:
+            open(f'../_readings/{slug}.md', 'w+').write(new)
 
 if __name__ == '__main__':
     main()

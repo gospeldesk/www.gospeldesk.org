@@ -14,4 +14,3 @@ subtitle: "Love Your Enemies"
 ### Upcoming Proclamations
 
 God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://orthocal.info/readings/gregorian/2025/06/14/">June 14, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://orthocal.info/readings/gregorian/2026/06/06/">June  6, 2026</a>.
-

@@ -14,4 +14,3 @@ subtitle: "Light of the World; Law and Prophets"
 ### Upcoming Proclamations
 
 God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://orthocal.info/readings/gregorian/2025/05/11/">May 11, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://orthocal.info/readings/gregorian/2025/08/13/">August 13, 2025</a>.
-

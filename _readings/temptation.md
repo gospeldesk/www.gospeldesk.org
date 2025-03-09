@@ -13,4 +13,3 @@ ref: "Matthew 4:1–11"
 ### Upcoming Proclamations
 
 God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://orthocal.info/readings/gregorian/2026/01/10/">January 10, 2026</a></b></u>, and then again on <a class="next-next-proclamation" href="https://orthocal.info/readings/gregorian/2027/01/09/">January  9, 2027</a>.
-

@@ -14,4 +14,3 @@ subtitle: "Monday, Presanctified Liturgy"
 ### Upcoming Proclamations
 
 God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://orthocal.info/readings/gregorian/2025/04/14/">April 14, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://orthocal.info/readings/gregorian/2026/04/06/">April  6, 2026</a>.
-

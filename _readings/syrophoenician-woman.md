@@ -14,4 +14,3 @@ related: [canaanite-woman]
 ### Upcoming Proclamations
 
 God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://orthocal.info/readings/gregorian/2026/09/17/">September 17, 2026</a></b></u>, and then again on <a class="next-next-proclamation" href="https://orthocal.info/readings/gregorian/2029/09/13/">September 13, 2029</a>.
-

@@ -14,4 +14,3 @@ related: [syrophoenician-woman]
 ### Upcoming Proclamations
 
 God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://orthocal.info/readings/gregorian/2027/02/07/">February  7, 2027</a></b></u>, and then again on <a class="next-next-proclamation" href="https://orthocal.info/readings/gregorian/2030/02/03/">February  3, 2030</a>.
-

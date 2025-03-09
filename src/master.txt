@@ -1,5 +1,6 @@
 ---- Genealogy and Birth
-| jesus mary joseph holy-spirit dream-angel * ancestors jews prophets god
+| jesus mary joseph holy-spirit dream-angel
+|| ancestors jews prophets god
 Matt  1:1   1
 
 Matt  1:2   1
@@ -35,6 +36,8 @@ Matt  1:23  1, 2
 Matt  1:24  1, 2
 Matt  1:25  1, 2
 ---- Wise Men
+| jesus herod wise-men star jerusalem chief-priests scribes mary dream-angel
+|| jesus wise-men jews star isaiah bethlehem princes-judah jesus
 Matt  2:1   3
 Matt  2:2   3
 
@@ -52,14 +55,20 @@ Matt  2:11  3
 
 Matt  2:12  3
 ---- Holy Innocents
+| joseph mary jesus dream-angel herod wise-men holy-innocents
+|| joseph jesus mary dream-angel herod god isaiah jesus jeremish rachel archelaus
 Matt  2:13  4
+
 Matt  2:14  4
 Matt  2:15  4
+
 Matt  2:16  4
 Matt  2:17  4
 Matt  2:18  4
+
 Matt  2:19  4
 Matt  2:20  4
+
 Matt  2:21  4
 Matt  2:22  4
 Matt  2:23  4

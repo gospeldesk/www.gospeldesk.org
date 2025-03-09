@@ -14,4 +14,3 @@ subtitle: "Left Hand and Right; The Lord's Prayer"
 ### Upcoming Proclamations
 
 God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://orthocal.info/readings/gregorian/2026/02/21/">February 21, 2026</a></b></u>, and then again on <a class="next-next-proclamation" href="https://orthocal.info/readings/gregorian/2027/03/13/">March 13, 2027</a>.
-

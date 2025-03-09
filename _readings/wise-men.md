@@ -5,6 +5,8 @@ num: 2
 excerpt: "Matthew 2:1–12"
 noindex: true
 ref: "Matthew 2:1–12"
+direct: [jesus, herod, wise-men, star, jerusalem, chief-priests, scribes, mary, dream-angel]
+indirect: [jesus, wise-men, jews, star, isaiah, bethlehem, princes-judah, jesus]
 ---
 
 <p><span class="v">1</span>Now when Jesus was born in Bethlehem of Judea in the days of King Herod, behold, wise men from the east came to Jerusalem, saying,  <span class="v">2</span>“Where is he who is born King of the Jews? For we saw his star in the east, and have come to worship him.” </p>
@@ -17,4 +19,3 @@ ref: "Matthew 2:1–12"
 ### Upcoming Proclamations
 
 God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://orthocal.info/readings/gregorian/2025/12/24/">December 24, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://orthocal.info/readings/gregorian/2025/12/25/">December 25, 2025</a>.
-

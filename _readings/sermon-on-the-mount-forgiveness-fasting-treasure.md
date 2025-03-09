@@ -16,4 +16,3 @@ subtitle: "Forgiveness; Fasting; Treasure"
 ### Upcoming Proclamations
 
 God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://orthocal.info/readings/gregorian/2026/02/22/">February 22, 2026</a></b></u>, and then again on <a class="next-next-proclamation" href="https://orthocal.info/readings/gregorian/2027/03/14/">March 14, 2027</a>.
-
