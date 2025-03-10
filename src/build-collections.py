@@ -46,7 +46,7 @@ def main():
             continue
         elif line.startswith('----'):
             if cur:
-                cur.flush_paragraph()
+                cur.flush()
             if line.endswith('----'):
                 title = ''
                 subtitle = ''
@@ -61,7 +61,7 @@ def main():
             pericopes.append(cur)
         else:
             cur.add(line)
-    cur.flush_paragraph()
+    cur.flush()
 
     for pericope in pericopes:
         pericope.write()
@@ -150,27 +150,32 @@ class Pericope(object):
         self.elements.append(self.verse_buffer)
         self.verse_buffer = []
 
+    def flush(self):
+        self.flush_paragraph()
+
+        # create slug - done late so ref is available
+        if not self.title:
+            self.title = self.ref
+        slug_base = self.title
+        if self.subtitle:
+            slug_base += ': ' + self.subtitle
+        slug = sluggize(slug_base)
+        assert slug not in self.__slugs, slug
+        self.__slugs.add(slug)
+        self.slug = slug
+
     def write(self):
-        if self.title:
-            title = self.title
-            slug_base = self.title
-            if self.subtitle:
-                slug_base += ': ' + self.subtitle
-            ref = self.ref
+        if self.title == self.ref:
+            excerpt = ''
+        else:
+            excerpt = self.ref
             try:
                 os.unlink(f'../_readings/{sluggize(self.ref)}.md')
             except FileNotFoundError:
                 pass
-        else:
-            title = slug_base = self.ref
-            ref = ''
-
-        slug = sluggize(slug_base)
-        assert slug not in self.__slugs, slug
-        self.__slugs.add(slug)
 
         try:
-            old = fp = open(f'../_readings/{slug}.md').read()
+            old = fp = open(f'../_readings/{self.slug}.md').read()
         except FileNotFoundError:
             old = ''
         pk = ''
@@ -197,8 +202,8 @@ class Pericope(object):
 God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="{url}">{d}</a></b></u>, and then again on <a class="next-next-proclamation" href="{url2}">{d2}</a>.
 '''
         frontmatter = ''
-        if ref:
-            frontmatter += 'ref: "' + ref + '"\n'
+        if self.title != self.ref:
+            frontmatter += 'ref: "' + self.ref + '"\n'
         if self.subtitle :
             frontmatter += 'subtitle: "' + self.subtitle + '"\n'
         if self.related:
@@ -214,10 +219,10 @@ God willing, the Church will proclaim this Gospel on <u><b><a class="next-procla
 
         new = f'''\
 ---
-title: "{title}"
+title: "{self.title}"
 pk: "{pk}"
 num: {self.i}
-excerpt: "{ref}"
+excerpt: "{excerpt}"
 noindex: true
 {frontmatter}---
 
@@ -226,7 +231,7 @@ noindex: true
 {upcoming}'''
 
         if new != old:
-            open(f'../_readings/{slug}.md', 'w+').write(new)
+            open(f'../_readings/{self.slug}.md', 'w+').write(new)
 
 if __name__ == '__main__':
     main()
