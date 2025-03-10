@@ -217,9 +217,9 @@ God willing, the Church will proclaim this Gospel on <u><b><a class="next-procla
         if self.indirect:
             frontmatter += 'indirect: [' + ', '.join(self.indirect) + ']\n'
         if self.prev:
-            frontmatter += 'prev: "' + self.prev + '"\n'
+            frontmatter += 'prev_slug: "' + self.prev + '"\n'
         if self.next:
-            frontmatter += 'next: "' + self.next + '"\n'
+            frontmatter += 'next_slug: "' + self.next + '"\n'
 
         new = f'''\
 ---

@@ -4,8 +4,8 @@ pk: "93"
 num: 76
 excerpt: ""
 noindex: true
-prev: "matthew-21-12-22"
-next: "matthew-21-28-32"
+prev_slug: "matthew-21-12-22"
+next_slug: "matthew-21-28-32"
 ---
 
 <p><span class="v">23</span>When he had come into the temple, the chief priests and the elders of the people came to him as he was teaching, and said, “By what authority do you do these things? Who gave you this authority?”  <span class="v">24</span>Jesus answered them, “I also will ask you one question, which if you tell me, I likewise will tell you by what authority I do these things.  <span class="v">25</span>The baptism of John, where was it from? From heaven or from men?” They reasoned with themselves, saying, “If we say, ‘From heaven,’ he will ask us, ‘Why then did you not believe him?’  <span class="v">26</span>But if we say, ‘From men,’ we fear the multitude, for all hold John as a prophet.”  <span class="v">27</span>They answered Jesus, and said, “We don’t know.” He also said to them, “Neither will I tell you by what authority I do these things. </p>

@@ -6,8 +6,8 @@ excerpt: "Matthew 6:14–21"
 noindex: true
 ref: "Matthew 6:14–21"
 subtitle: "Forgiveness; Fasting; Treasure"
-prev: "sermon-on-the-mount-left-hand-and-right-the-lord-s-prayer"
-next: "sermon-on-the-mount-seek-first-the-kingdom"
+prev_slug: "sermon-on-the-mount-left-hand-and-right-the-lord-s-prayer"
+next_slug: "sermon-on-the-mount-seek-first-the-kingdom"
 ---
 
 <p><span class="v">14</span>“For if you forgive men their trespasses, your heavenly Father will also forgive you.  <span class="v">15</span>But if you don’t forgive men their trespasses, neither will your Father forgive your trespasses. </p>

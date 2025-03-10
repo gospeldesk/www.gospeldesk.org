@@ -47,3 +47,26 @@ layout: default
 {% endfor %}
 </ol>
 {% endif %}
+
+<script>
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowLeft' || e.key === 'h') {
+      window.location.href = '../{{ page.prev_slug }}/';
+    }
+    if (e.key === 'ArrowRight' || e.key === 'l') {
+      window.location.href = '../{{ page.next_slug }}/';
+    }
+    if (e.key === 'j') {
+      window.scrollBy({
+        top: 30,
+        behavior: 'smooth'
+      });
+    }
+    if (e.key === 'k') {
+      window.scrollBy({
+        top: -30,
+        behavior: 'smooth'
+      });
+    }
+  });
+</script>

@@ -7,8 +7,8 @@ noindex: true
 ref: "Matthew 2:1–12"
 direct: [jesus, herod, wise-men, star, jerusalem, chief-priests, scribes, mary, dream-angel]
 indirect: [jesus, wise-men, jews, star, isaiah, bethlehem, princes-judah, jesus]
-prev: "genealogy-and-birth"
-next: "holy-innocents"
+prev_slug: "genealogy-and-birth"
+next_slug: "holy-innocents"
 ---
 
 <p><span class="v">1</span>Now when Jesus was born in Bethlehem of Judea in the days of King Herod, behold, wise men from the east came to Jerusalem, saying,  <span class="v">2</span>“Where is he who is born King of the Jews? For we saw his star in the east, and have come to worship him.” </p>

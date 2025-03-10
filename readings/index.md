@@ -3,6 +3,7 @@ layout: default
 title: Gospel Readings
 noindex: true
 ---
+{% assign sorted = site.readings | sort: "num" %}
 <header>
   <h2>{{ page.title }}</h2>
     <div class="meta">
@@ -11,7 +12,6 @@ noindex: true
 </header>
 <section class="readings">
   <ol>
-  {% assign sorted = site.readings | sort: "num" %}
   {% for reading in sorted %}
     <li>
       <a href="{{ reading.url }}">{{ reading.title }}{% if reading.subtitle %}<br><span class="subtitle">{{ reading.subtitle }}</span>{% endif %}</a>{% if reading.ref %}<span class="ref">{{ reading.ref }}</span>{% endif %}
@@ -19,3 +19,16 @@ noindex: true
   {% endfor %}
   </ol>
 </section>
+
+{% assign first_reading = sorted | first %}
+{% assign last_reading = sorted | last %}
+<script>
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowRight' || e.key === 'l') {
+      window.location.href = '{{ first_reading.url }}';
+    }
+    if (e.key === 'ArrowLeft' || e.key === 'h') {
+      window.location.href = '{{ last_reading.url }}';
+    }
+  });
+</script>

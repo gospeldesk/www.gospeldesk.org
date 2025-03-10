@@ -4,8 +4,8 @@ pk: "48"
 num: 41
 excerpt: ""
 noindex: true
-prev: "matthew-12-1-8"
-next: "matthew-12-14-30"
+prev_slug: "matthew-12-1-8"
+next_slug: "matthew-12-14-30"
 ---
 
 <p><span class="v">9</span>He departed there, and went into their synagogue.  <span class="v">10</span>And behold there was a man with a withered hand. They asked him, “Is it lawful to heal on the Sabbath day?” that they might accuse him.  <span class="v">11</span>He said to them, “What man is there among you, who has one sheep, and if this one falls into a pit on the Sabbath day, won’t he grab on to it, and lift it out?  <span class="v">12</span>Of how much more value then is a man than a sheep! Therefore it is lawful to do good on the Sabbath day.”  <span class="v">13</span>Then he told the man, “Stretch out your hand.” He stretched it out; and it was restored whole, just like the other. </p>

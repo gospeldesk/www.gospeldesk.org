@@ -7,8 +7,8 @@ noindex: true
 ref: "Matthew 2:13–23"
 direct: [joseph, mary, jesus, dream-angel, herod, wise-men, holy-innocents]
 indirect: [joseph, jesus, mary, dream-angel, herod, god, isaiah, jesus, jeremish, rachel, archelaus]
-prev: "wise-men"
-next: "john-the-forerunner"
+prev_slug: "wise-men"
+next_slug: "john-the-forerunner"
 ---
 
 <p><span class="v">13</span>Now when they had departed, behold, an angel of the Lord appeared to Joseph in a dream, saying, “Arise and take the young child and his mother, and flee into Egypt, and stay there until I tell you, for Herod will seek the young child to destroy him.” </p>

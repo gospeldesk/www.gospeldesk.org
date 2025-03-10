@@ -5,8 +5,8 @@ num: 30
 excerpt: "Matthew 9:27–35"
 noindex: true
 ref: "Matthew 9:27–35"
-prev: "hem-of-his-garment"
-next: "instructions-to-the-twelve-freely-give"
+prev_slug: "hem-of-his-garment"
+next_slug: "instructions-to-the-twelve-freely-give"
 ---
 
 <p><span class="v">27</span>As Jesus passed by from there, two blind men followed him, calling out and saying, “Have mercy on us, son of David!”  <span class="v">28</span>When he had come into the house, the blind men came to him. Jesus said to them, “Do you believe that I am able to do this?” They told him, “Yes, Lord.”  <span class="v">29</span>Then he touched their eyes, saying, “According to your faith be it done to you.”  <span class="v">30</span>Their eyes were opened. Jesus strictly commanded them, saying, “See that no one knows about this.”  <span class="v">31</span>But they went out and spread abroad his fame in all that land. </p>

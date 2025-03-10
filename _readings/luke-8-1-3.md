@@ -4,8 +4,8 @@ pk: "237"
 num: 188
 excerpt: ""
 noindex: true
-prev: "luke-7-36-50"
-next: "luke-8-4-15"
+prev_slug: "luke-7-36-50"
+next_slug: "luke-8-4-15"
 ---
 
 <p><span class="v">1</span>Soon afterwards, he went about through cities and villages, preaching and bringing the good news of God’s Kingdom. With him were the twelve,  <span class="v">2</span>and certain women who had been healed of evil spirits and infirmities: Mary who was called Magdalene, from whom seven demons had gone out;  <span class="v">3</span>and Joanna, the wife of Chuzas, Herod’s steward; Susanna; and many others; who served them from their possessions. </p>
