@@ -14,7 +14,7 @@ noindex: true
   {% assign sorted = site.readings | sort: "num" %}
   {% for reading in sorted %}
     <li>
-      <a href="{{ reading.url }}"><b style="font-weight: 500;">{{ reading.title }}</b>{% if reading.subtitle %}<br><span class="subtitle">{{ reading.subtitle }}</span>{% endif %}</a>{% if reading.ref %}<span class="ref">{{ reading.ref }}</span>{% endif %}
+      <a href="{{ reading.url }}">{{ reading.title }}{% if reading.subtitle %}<br><span class="subtitle">{{ reading.subtitle }}</span>{% endif %}</a>{% if reading.ref %}<span class="ref">{{ reading.ref }}</span>{% endif %}
     </li>
   {% endfor %}
   </ol>
