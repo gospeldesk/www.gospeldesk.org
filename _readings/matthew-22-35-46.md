@@ -4,7 +4,7 @@ pk: "101"
 num: 83
 excerpt: ""
 noindex: true
-prev: "matthew-22-23-34"
+prev: "matthew-22-23-33"
 next: "matthew-23-1-12"
 ---
 

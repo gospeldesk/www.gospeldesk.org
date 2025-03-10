@@ -1,10 +1,10 @@
 ---
 title: "Matthew 27:27–32"
 pk: "122"
-num: 96
+num: 92
 excerpt: ""
 noindex: true
-prev: "matthew-27-1-26"
+prev: "matthew-25-31-46"
 next: "matthew-27-33-54"
 ---
 

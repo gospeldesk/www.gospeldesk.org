@@ -1,7 +1,7 @@
 ---
 title: "Mark 1:1–8"
 pk: "127"
-num: 101
+num: 95
 excerpt: ""
 noindex: true
 prev: "matthew-28-1-20"

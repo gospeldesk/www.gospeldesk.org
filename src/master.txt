@@ -900,7 +900,6 @@ Matt 22:30  100
 Matt 22:31  100
 Matt 22:32  100
 Matt 22:33  100
-Matt 22:34
 ----
 Matt 22:35  101
 Matt 22:36  101
@@ -1058,111 +1057,6 @@ Matt 25:43  115
 Matt 25:44  115
 Matt 25:45  115
 Matt 25:46  115
-Matt 26:1
-Matt 26:2
-----
-Matt 26:3
-Matt 26:4
-Matt 26:5
-Matt 26:6
-Matt 26:7
-Matt 26:8
-Matt 26:9
-Matt 26:10
-Matt 26:11
-Matt 26:12
-Matt 26:13
-Matt 26:14
-Matt 26:15
-Matt 26:16
-----
-Matt 26:17
-Matt 26:18
-Matt 26:19
-Matt 26:20
-Matt 26:21
-Matt 26:22
-Matt 26:23
-Matt 26:24
-Matt 26:25
-Matt 26:26
-Matt 26:27
-Matt 26:28
-Matt 26:29
-Matt 26:30
-Matt 26:31
-Matt 26:32
-Matt 26:33
-Matt 26:34
-Matt 26:35
-Matt 26:36
-Matt 26:37
-Matt 26:38
-Matt 26:39
-Matt 26:40
-Matt 26:41
-Matt 26:42
-Matt 26:43
-Matt 26:44
-Matt 26:45
-Matt 26:46
-Matt 26:47
-Matt 26:48
-Matt 26:49
-Matt 26:50
-Matt 26:51
-Matt 26:52
-Matt 26:53
-Matt 26:54
-Matt 26:55
-Matt 26:56
-----
-Matt 26:57
-Matt 26:58
-Matt 26:59
-Matt 26:60
-Matt 26:61
-Matt 26:62
-Matt 26:63
-Matt 26:64
-Matt 26:65
-Matt 26:66
-Matt 26:67
-Matt 26:68
-Matt 26:69
-Matt 26:70
-Matt 26:71
-Matt 26:72
-Matt 26:73
-Matt 26:74
-Matt 26:75
-----
-Matt 27:1
-Matt 27:2
-Matt 27:3
-Matt 27:4
-Matt 27:5
-Matt 27:6
-Matt 27:7
-Matt 27:8
-Matt 27:9
-Matt 27:10
-Matt 27:11
-Matt 27:12
-Matt 27:13
-Matt 27:14
-Matt 27:15
-Matt 27:16
-Matt 27:17
-Matt 27:18
-Matt 27:19
-Matt 27:20
-Matt 27:21
-Matt 27:22
-Matt 27:23
-Matt 27:24
-Matt 27:25
-Matt 27:26
 ----
 Matt 27:27  122
 Matt 27:28  122
@@ -1193,20 +1087,6 @@ Matt 27:51  123
 Matt 27:52  123
 Matt 27:53  123
 Matt 27:54  123
-----
-Matt 27:55
-Matt 27:56
-Matt 27:57
-Matt 27:58
-Matt 27:59
-Matt 27:60
-Matt 27:61
-----
-Matt 27:62
-Matt 27:63
-Matt 27:64
-Matt 27:65
-Matt 27:66
 ----
 Matt 28:1   125
 Matt 28:2   125
@@ -1933,23 +1813,8 @@ Mark 15:13  194
 Mark 15:14  194
 Mark 15:15  194
 ----
-Mark 15:16
-Mark 15:17
-Mark 15:18
-Mark 15:19
-Mark 15:20
-Mark 15:21
 Mark 15:22  197
-Mark 15:23
-Mark 15:24
 Mark 15:25  197
-Mark 15:26
-Mark 15:27
-Mark 15:28
-Mark 15:29
-Mark 15:30
-Mark 15:31
-Mark 15:32
 Mark 15:33  197
 Mark 15:34  197
 Mark 15:35  197
@@ -3132,8 +2997,6 @@ Luke 22:39  315
 Luke 22:40  315
 Luke 22:41  315
 Luke 22:42  315
-Luke 22:43
-Luke 22:44
 Luke 22:45  315
 Luke 22:46  315
 Luke 22:47  315
@@ -3196,15 +3059,6 @@ Luke 23:31  316
 Luke 23:32  316
 Luke 23:33  316
 Luke 23:34  316
-Luke 23:35
-Luke 23:36
-Luke 23:37
-Luke 23:38
-Luke 23:39
-Luke 23:40
-Luke 23:41
-Luke 23:42
-Luke 23:43
 Luke 23:44  316
 Luke 23:45  316
 Luke 23:46  316
@@ -3907,9 +3761,6 @@ John 12:44  368
 John 12:45  368
 John 12:46  368
 John 12:47  368
-John 12:48
-John 12:49
-John 12:50
 ----
 John 13:1   369
 John 13:2   369
@@ -3944,15 +3795,6 @@ John 13:28  90034
 John 13:29  90034
 John 13:30  90034
 ----
-John 13:31
-John 13:32
-John 13:33
-John 13:34
-John 13:35
-John 13:36
-John 13:37
-John 13:38
-----
 John 14:1   372
 John 14:2   372
 John 14:3   372
@@ -3982,8 +3824,6 @@ John 14:21  374
 John 14:22  374
 John 14:23  374
 John 14:24  374
-John 14:25
-John 14:26
 ----
 John 14:27  375
 John 14:28  375
@@ -3998,7 +3838,6 @@ John 15:5   375, 376
 John 15:6   375, 376
 John 15:7   375, 376
 ----
-John 15:8
 John 15:9   377
 John 15:10  377
 John 15:11  377
@@ -4034,7 +3873,6 @@ John 16:10  379
 John 16:11  379
 John 16:12  379
 John 16:13  379
-John 16:14
 ----
 John 16:15  380
 John 16:16  380
@@ -4071,10 +3909,6 @@ John 17:10  382
 John 17:11  382
 John 17:12  382
 John 17:13  382
-John 17:14
-John 17:15
-John 17:16
-John 17:17
 ----
 John 17:18  383
 John 17:19  383
@@ -4086,60 +3920,12 @@ John 17:24  383
 John 17:25  383
 John 17:26  383
 ----
-John 18:1
-John 18:2
-John 18:3
-John 18:4
-John 18:5
-John 18:6
-John 18:7
-John 18:8
-John 18:9
-John 18:10
-John 18:11
-John 18:12
-John 18:13
-John 18:14
-John 18:15
-John 18:16
-John 18:17
-John 18:18
-John 18:19
-John 18:20
-John 18:21
-John 18:22
-John 18:23
-John 18:24
-John 18:25
-John 18:26
-John 18:27
-John 18:28
-----
-John 18:28
-John 18:29
-John 18:30
-John 18:31
-John 18:32
-John 18:33
-John 18:34
-John 18:35
-John 18:36
-John 18:37
-John 18:38
-John 18:39
-John 18:40
-John 19:1
-John 19:2
-John 19:3
-John 19:4
-John 19:5
 John 19:6   387
 John 19:7   387
 John 19:8   387
 John 19:9   387
 John 19:10  387
 John 19:11  387
-John 19:12
 John 19:13  387
 John 19:14  387
 John 19:15  387
@@ -4148,31 +3934,16 @@ John 19:17  387
 John 19:18  387
 John 19:19  387
 John 19:20  387
-John 19:21
-John 19:22
-John 19:23
-John 19:24
 John 19:25  387, 389
 John 19:26  387, 389
 John 19:27  387, 389
 John 19:28  387
-John 19:29
 John 19:30  387
 John 19:31  387
 John 19:32  387
 John 19:33  387
 John 19:34  387
 John 19:35  387
-John 19:36
-John 19:37
-John 21:24
-John 21:25
-----
-John 19:38
-John 19:39
-John 19:40
-John 19:41
-John 19:42
 ----
 John 20:1   391
 John 20:2   391

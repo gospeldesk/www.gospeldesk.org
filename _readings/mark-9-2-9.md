@@ -1,7 +1,7 @@
 ---
 title: "Mark 9:2–9"
 pk: "165"
-num: 135
+num: 129
 excerpt: ""
 noindex: true
 prev: "mark-8-34-9-1"

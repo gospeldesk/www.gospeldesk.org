@@ -1,10 +1,10 @@
 ---
 title: "Matthew 28:1–20"
 pk: "125"
-num: 100
+num: 94
 excerpt: ""
 noindex: true
-prev: "matthew-27-62-66"
+prev: "matthew-27-33-54"
 next: "mark-1-1-8"
 ---
 
