@@ -2,6 +2,7 @@
 import csv
 import datetime
 import json
+import os
 import string
 from collections import defaultdict
 
@@ -32,9 +33,12 @@ def flerp(date):
     url = f'https://orthocal.info/readings/gregorian/{d.strftime("%Y/%m/%d")}/'
     return (d.strftime("%B %e, %Y"), url)
 
+def sluggize(base):
+    chars = [char if char in LETTERS_NUMBERS else ' ' for char in base.lower()]
+    return  '-'.join(''.join(chars).split())
+
 def main():
-    cur = None
-    i = 0
+    i, cur, pericopes = 0, None, []
 
     for line in readings:
         line = line.rstrip()
@@ -42,8 +46,7 @@ def main():
             continue
         elif line.startswith('----'):
             if cur:
-                i += 1
-                cur.flush(i)
+                cur.flush_paragraph()
             if line.endswith('----'):
                 title = ''
                 subtitle = ''
@@ -53,16 +56,22 @@ def main():
                 if ':' in title:
                     title, subtitle = title.split(':')
                     subtitle = subtitle.strip()
-            cur = Pericope(title, subtitle)
+            i += 1
+            cur = Pericope(i, title, subtitle)
+            pericopes.append(cur)
         else:
             cur.add(line)
-    cur.flush(i+1)
+    cur.flush_paragraph()
+
+    for pericope in pericopes:
+        pericope.write()
 
 class Pericope(object):
 
     __slugs = set()
 
-    def __init__(self, title, subtitle):
+    def __init__(self, i, title, subtitle):
+        self.i = i
         self.title = title
         self.subtitle = subtitle
         self.pks = set()
@@ -71,6 +80,8 @@ class Pericope(object):
         self.direct = []
         self.indirect = []
         self.related = []
+        self.prev = ''
+        self.next = ''
 
     def add(self, line):
         if line.startswith('#'):
@@ -139,26 +150,29 @@ class Pericope(object):
         self.elements.append(self.verse_buffer)
         self.verse_buffer = []
 
-    def flush(self, i):
-        self.flush_paragraph()
-
+    def write(self):
         if self.title:
             title = self.title
             slug_base = self.title
             if self.subtitle:
                 slug_base += ': ' + self.subtitle
             ref = self.ref
+            try:
+                os.unlink(f'../_readings/{sluggize(self.ref)}.md')
+            except FileNotFoundError:
+                pass
         else:
             title = slug_base = self.ref
             ref = ''
 
-        slug = [c if c in LETTERS_NUMBERS else ' ' for c in slug_base.lower()]
-        slug = '-'.join(''.join(slug).split())
+        slug = sluggize(slug_base)
         assert slug not in self.__slugs, slug
         self.__slugs.add(slug)
 
-
-        old = fp = open(f'../_readings/{slug}.md').read()
+        try:
+            old = fp = open(f'../_readings/{slug}.md').read()
+        except FileNotFoundError:
+            old = ''
         pk = ''
         dates = None
         if self.pks:
@@ -193,12 +207,16 @@ God willing, the Church will proclaim this Gospel on <u><b><a class="next-procla
             frontmatter += 'direct: [' + ', '.join(self.direct) + ']\n'
         if self.indirect:
             frontmatter += 'indirect: [' + ', '.join(self.indirect) + ']\n'
+        if self.prev:
+            frontmatter += 'prev: "' + self.prev + '"\n'
+        if self.next:
+            frontmatter += 'next: "' + self.next + '"\n'
 
         new = f'''\
 ---
 title: "{title}"
 pk: "{pk}"
-num: {i}
+num: {self.i}
 excerpt: "{ref}"
 noindex: true
 {frontmatter}---

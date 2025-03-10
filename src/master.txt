@@ -267,24 +267,29 @@ Matt  8:11  26
 Matt  8:12  26
 
 Matt  8:13  26
-----
+---- Peter's Mother-in-law
 Matt  8:14  27
 Matt  8:15  27
+
 Matt  8:16  27
 Matt  8:17  27
+
 Matt  8:18  27
+
 Matt  8:19  27
 Matt  8:20  27
+
 Matt  8:21  27
 Matt  8:22  27
+
 Matt  8:23  27
-----
+---- Rebuking the Storm
 Matt  8:23  28
 Matt  8:24  28
 Matt  8:25  28
 Matt  8:26  28
 Matt  8:27  28
-----
+---- Gergesene Demoniacs
 Matt  8:28  29
 Matt  8:29  29
 Matt  8:30  29
@@ -293,7 +298,7 @@ Matt  8:32  29
 Matt  8:33  29
 Matt  8:34  29
 Matt  9:1   29
-----
+---- Take Up Your Mat
 Matt  9:1   30
 Matt  9:2   30
 Matt  9:3   30
@@ -302,18 +307,18 @@ Matt  9:5   30
 Matt  9:6   30
 Matt  9:7   30
 Matt  9:8   30
-----
+---- Calling of Matthew
 Matt  9:9   31
 Matt  9:10  31
 Matt  9:11  31
 Matt  9:12  31
 Matt  9:13  31
-----
+---- New Wineskins
 Matt  9:14  32
 Matt  9:15  32
 Matt  9:16  32
 Matt  9:17  32
-----
+---- Hem of His Garment
 Matt  9:18  33
 Matt  9:19  33
 Matt  9:20  33
@@ -323,17 +328,19 @@ Matt  9:23  33
 Matt  9:24  33
 Matt  9:25  33
 Matt  9:26  33
-----
+---- Two Blind Men; Mute Man
 Matt  9:27  34
 Matt  9:28  34
 Matt  9:29  34
 Matt  9:30  34
 Matt  9:31  34
+
 Matt  9:32  34
 Matt  9:33  34
 Matt  9:34  34
+
 Matt  9:35  34
-----
+---- Instructions to the Twelve: Freely Give
 Matt  9:36  35
 Matt  9:37  35
 Matt  9:38  35
@@ -345,7 +352,7 @@ Matt 10:5   35, 36
 Matt 10:6   35, 36
 Matt 10:7   35, 36
 Matt 10:8   35, 36
-----
+---- Instructions to the Twelve: Shake the Dust
 Matt 10:9   37
 Matt 10:10  37
 Matt 10:11  37
@@ -353,7 +360,7 @@ Matt 10:12  37
 Matt 10:13  37
 Matt 10:14  37
 Matt 10:15  37
-----
+---- Instructions to the Twelve: Endure to the End 
 Matt 10:16  38
 Matt 10:17  38
 Matt 10:18  38
@@ -361,7 +368,7 @@ Matt 10:19  38
 Matt 10:20  38
 Matt 10:21  38
 Matt 10:22  38
-----
+---- Instructions to the Twelve: Don't Be Afraid
 Matt 10:23  39
 Matt 10:24  39
 Matt 10:25  39
@@ -371,7 +378,7 @@ Matt 10:28  39
 Matt 10:29  39
 Matt 10:30  39
 Matt 10:31  39
-----
+---- Instructions to the Twelve: Not Peace But a Sword
 Matt 10:32  40, 41
 Matt 10:33  40, 41
 Matt 10:34  40
@@ -383,12 +390,14 @@ Matt 10:39          42
 Matt 10:40          42
 Matt 10:41          42
 Matt 10:42          42
+
 Matt 11:1   40,     42
+
 Matt 19:27      41
 Matt 19:28      41
 Matt 19:29      41
 Matt 19:30      41
-----
+---- John is Elijah
 Matt 11:2   43
 Matt 11:3   43
 Matt 11:4   43
@@ -403,7 +412,7 @@ Matt 11:12  43
 Matt 11:13  43
 Matt 11:14  43
 Matt 11:15  43
-----
+---- Friend of Sinners
 Matt 11:16  44
 Matt 11:17  44
 Matt 11:18  44
@@ -609,8 +618,11 @@ Matt 15:20  66
 Matt 15:21  66
 ---- Canaanite Woman
 > syrophoenician-woman
+| jesus justa
+|| justa-daughter
 Matt 15:21  67
 Matt 15:22  67
+
 Matt 15:23  67
 Matt 15:24  67
 Matt 15:25  67
