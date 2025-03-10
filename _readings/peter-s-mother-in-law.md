@@ -5,6 +5,8 @@ num: 23
 excerpt: "Matthew 8:14–23"
 noindex: true
 ref: "Matthew 8:14–23"
+prev: "centurion"
+next: "rebuking-the-storm"
 ---
 
 <p><span class="v">14</span>When Jesus came into Peter’s house, he saw his wife’s mother lying sick with a fever.  <span class="v">15</span>He touched her hand, and the fever left her. She got up and served him. </p>

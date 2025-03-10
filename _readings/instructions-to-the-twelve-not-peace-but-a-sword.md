@@ -6,6 +6,8 @@ excerpt: "Matthew 10:32–19:30"
 noindex: true
 ref: "Matthew 10:32–19:30"
 subtitle: "Not Peace But a Sword"
+prev: "instructions-to-the-twelve-don-t-be-afraid"
+next: "john-is-elijah"
 ---
 
 <p><span class="v">32</span>Everyone therefore who confesses me before men, him I will also confess before my Father who is in heaven.  <span class="v">33</span>But whoever denies me before men, him I will also deny before my Father who is in heaven.  <span class="v">34</span>“Don’t think that I came to send peace on the earth. I didn’t come to send peace, but a sword.  <span class="v">35</span>For I came to set a man at odds against his father, and a daughter against her mother, and a daughter-in-law against her mother-in-law.  <span class="v">36</span>A man’s foes will be those of his own household.  <span class="v">37</span>He who loves father or mother more than me is not worthy of me; and he who loves son or daughter more than me isn’t worthy of me.  <span class="v">38</span>He who doesn’t take his cross and follow after me, isn’t worthy of me.  <span class="v">39</span>He who seeks his life will lose it; and he who loses his life for my sake will find it.  <span class="v">40</span>He who receives you receives me, and he who receives me receives him who sent me.  <span class="v">41</span>He who receives a prophet in the name of a prophet will receive a prophet’s reward. He who receives a righteous man in the name of a righteous man will receive a righteous man’s reward.  <span class="v">42</span>Whoever gives one of these little ones just a cup of cold water to drink in the name of a disciple, most certainly I tell you he will in no way lose his reward.” </p>

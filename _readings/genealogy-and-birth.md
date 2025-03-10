@@ -7,6 +7,7 @@ noindex: true
 ref: "Matthew 1:1–25"
 direct: [jesus, mary, joseph, holy-spirit, dream-angel]
 indirect: [ancestors, jews, prophets, god]
+next: "wise-men"
 ---
 
 <p><span class="v">1</span>The book of the genealogy of Jesus Christ, the son of David, the son of Abraham. </p>

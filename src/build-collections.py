@@ -42,9 +42,7 @@ def main():
 
     for line in readings:
         line = line.rstrip()
-        if line == '====':
-            continue
-        elif line.startswith('----'):
+        if line.startswith('----'):
             if cur:
                 cur.flush()
             if line.endswith('----'):
@@ -63,7 +61,13 @@ def main():
             cur.add(line)
     cur.flush()
 
-    for pericope in pericopes:
+    N = len(pericopes)
+    for i in range(N):
+        pericope = pericopes[i]
+        prev = '' if i == 0 else pericopes[i-1].slug
+        next_ = '' if i == N-1 else pericopes[i+1].slug
+        pericope.prev = prev
+        pericope.next = next_
         pericope.write()
 
 class Pericope(object):
