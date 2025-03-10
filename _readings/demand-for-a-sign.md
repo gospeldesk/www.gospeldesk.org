@@ -1,5 +1,5 @@
 ---
-title: "Sign of Jonah"
+title: "Demand for a Sign"
 pk: "52"
 num: 44
 excerpt: "Matthew 12:38–45"

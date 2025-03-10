@@ -9,7 +9,7 @@ related: [syrophoenician-woman]
 direct: [jesus, justa]
 indirect: [justa-daughter]
 prev_slug: "out-of-the-heart"
-next_slug: "matthew-15-29-31"
+next_slug: "healing-great-multitudes"
 ---
 
 <p><span class="v">21</span>Jesus went out from there, and withdrew into the region of Tyre and Sidon.  <span class="v">22</span>Behold, a Canaanite woman came out from those borders, and cried, saying, “Have mercy on me, Lord, you son of David! My daughter is severely possessed by a demon!” </p>

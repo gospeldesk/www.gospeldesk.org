@@ -1,11 +1,12 @@
 ---
-title: "Matthew 15:32–39"
+title: "Feeding of the Seven Thousand"
 pk: "69"
 num: 58
-excerpt: ""
+excerpt: "Matthew 15:32–39"
 noindex: true
-prev_slug: "matthew-15-29-31"
-next_slug: "matthew-16-1-6"
+ref: "Matthew 15:32–39"
+prev_slug: "healing-great-multitudes"
+next_slug: "second-demand-for-a-sign"
 ---
 
 <p><span class="v">32</span>Jesus summoned his disciples and said, “I have compassion on the multitude, because they continue with me now three days and have nothing to eat. I don’t want to send them away fasting, or they might faint on the way.”  <span class="v">33</span>The disciples said to him, “Where should we get so many loaves in a deserted place as to satisfy so great a multitude?”  <span class="v">34</span>Jesus said to them, “How many loaves do you have?” They said, “Seven, and a few small fish.”  <span class="v">35</span>He commanded the multitude to sit down on the ground;  <span class="v">36</span>and he took the seven loaves and the fish. He gave thanks and broke them, and gave to the disciples, and the disciples to the multitudes.  <span class="v">37</span>They all ate, and were filled. They took up seven baskets full of the broken pieces that were left over.  <span class="v">38</span>Those who ate were four thousand men, besides women and children.  <span class="v">39</span>Then he sent away the multitudes, got into the boat, and came into the borders of Magdala. </p>

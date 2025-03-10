@@ -1,10 +1,11 @@
 ---
-title: "Matthew 16:24–28"
+title: "Take Up Your Cross"
 pk: "75"
 num: 63
-excerpt: ""
+excerpt: "Matthew 16:24–28"
 noindex: true
-prev_slug: "matthew-16-20-24"
+ref: "Matthew 16:24–28"
+prev_slug: "get-behind-me"
 next_slug: "matthew-17-1-9"
 ---
 

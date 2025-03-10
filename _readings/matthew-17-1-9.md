@@ -4,7 +4,7 @@ pk: "76"
 num: 64
 excerpt: ""
 noindex: true
-prev_slug: "matthew-16-24-28"
+prev_slug: "take-up-your-cross"
 next_slug: "matthew-17-10-23"
 ---
 
