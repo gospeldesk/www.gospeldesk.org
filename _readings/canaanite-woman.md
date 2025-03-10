@@ -8,7 +8,7 @@ ref: "Matthew 15:21–28"
 related: [syrophoenician-woman]
 direct: [jesus, justa]
 indirect: [justa-daughter]
-prev_slug: "matthew-15-12-21"
+prev_slug: "out-of-the-heart"
 next_slug: "matthew-15-29-31"
 ---
 

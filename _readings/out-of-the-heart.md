@@ -1,10 +1,11 @@
 ---
-title: "Matthew 15:12–21"
+title: "Out of the Heart"
 pk: "66"
 num: 55
-excerpt: ""
+excerpt: "Matthew 15:12–21"
 noindex: true
-prev_slug: "matthew-14-35-15-11"
+ref: "Matthew 15:12–21"
+prev_slug: "denouncing-the-pharisees"
 next_slug: "canaanite-woman"
 ---
 

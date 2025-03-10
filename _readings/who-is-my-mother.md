@@ -1,11 +1,12 @@
 ---
-title: "Matthew 12:46–13:3"
+title: "Who Is My Mother?"
 pk: "53"
 num: 45
-excerpt: ""
+excerpt: "Matthew 12:46–13:3"
 noindex: true
-prev_slug: "matthew-12-38-45"
-next_slug: "matthew-13-3-9"
+ref: "Matthew 12:46–13:3"
+prev_slug: "sign-of-jonah"
+next_slug: "parables-sower"
 ---
 
 <p><span class="v">46</span>While he was yet speaking to the multitudes, behold, his mother and his brothers stood outside, seeking to speak to him.  <span class="v">47</span>One said to him, “Behold, your mother and your brothers stand outside, seeking to speak to you.”  <span class="v">48</span>But he answered him who spoke to him, “Who is my mother? Who are my brothers?”  <span class="v">49</span>He stretched out his hand towards his disciples, and said, “Behold, my mother and my brothers!  <span class="v">50</span>For whoever does the will of my Father who is in heaven, he is my brother, and sister, and mother.”  <span class="v">1</span>On that day Jesus went out of the house, and sat by the seaside.  <span class="v">2</span>Great multitudes gathered to him, so that he entered into a boat, and sat, and all the multitude stood on the beach.  <span class="v">3</span>He spoke to them many things in parables, saying, “Behold, a farmer went out to sow. </p>
