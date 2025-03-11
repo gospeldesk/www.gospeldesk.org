@@ -1,7 +1,7 @@
 ---
 title: "Mark 4:1–9"
 pk: "142"
-num: 109
+num: 108
 excerpt: ""
 noindex: true
 prev_slug: "mark-3-28-35"

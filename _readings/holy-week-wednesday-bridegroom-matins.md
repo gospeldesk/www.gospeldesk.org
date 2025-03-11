@@ -1,7 +1,7 @@
 ---
 title: "Holy Week"
 pk: "365"
-num: 331
+num: 330
 excerpt: "John 12:17–50"
 noindex: true
 ref: "John 12:17–50"

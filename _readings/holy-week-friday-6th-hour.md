@@ -1,7 +1,7 @@
 ---
 title: "Holy Week"
 pk: "317"
-num: 349
+num: 348
 excerpt: "Luke 23:32–49"
 noindex: true
 ref: "Luke 23:32–49"

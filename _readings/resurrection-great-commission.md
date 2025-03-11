@@ -1,10 +1,11 @@
 ---
-title: "Matthew 28:1–20"
+title: "Resurrection; Great Commission"
 pk: "125"
-num: 94
-excerpt: ""
+num: 93
+excerpt: "Matthew 28:1–20"
 noindex: true
-prev_slug: "matthew-27-33-54"
+ref: "Matthew 28:1–20"
+prev_slug: "mocked"
 next_slug: "mark-1-1-8"
 ---
 

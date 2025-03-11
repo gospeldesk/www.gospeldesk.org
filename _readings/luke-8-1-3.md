@@ -1,7 +1,7 @@
 ---
 title: "Luke 8:1–3"
 pk: "237"
-num: 188
+num: 187
 excerpt: ""
 noindex: true
 prev_slug: "luke-7-36-50"

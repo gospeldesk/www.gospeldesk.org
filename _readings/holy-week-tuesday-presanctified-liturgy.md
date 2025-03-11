@@ -1,7 +1,7 @@
 ---
 title: "Holy Week"
 pk: "111"
-num: 330
+num: 329
 excerpt: "Matthew 24:36–26:2"
 noindex: true
 ref: "Matthew 24:36–26:2"

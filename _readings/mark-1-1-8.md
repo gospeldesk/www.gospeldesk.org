@@ -1,10 +1,10 @@
 ---
 title: "Mark 1:1–8"
 pk: "127"
-num: 95
+num: 94
 excerpt: ""
 noindex: true
-prev_slug: "matthew-28-1-20"
+prev_slug: "resurrection-great-commission"
 next_slug: "mark-1-9-15"
 ---
 

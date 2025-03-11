@@ -1,7 +1,7 @@
 ---
 title: "Luke 9:1–6"
 pk: "243"
-num: 194
+num: 193
 excerpt: ""
 noindex: true
 prev_slug: "luke-8-41-56"
