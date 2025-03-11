@@ -86,12 +86,14 @@ Matt  3:10  5, 90001
 Matt  3:11  5, 90001
 Matt  3:12     90001
 ---- Baptism
+> baptism
 Matt  3:13  6
 Matt  3:14  6
 Matt  3:15  6
 Matt  3:16  6
 Matt  3:17  6
 ---- Temptation
+> temptation
 Matt  4:1   7
 Matt  4:2   7
 Matt  4:3   7
@@ -110,7 +112,8 @@ Matt  4:14  8
 Matt  4:15  8
 Matt  4:16  8
 Matt  4:17  8
----- Calling of the Apostles
+---- Fishers of Men (Matthew)
+> fishers-of-men-mark
 Matt  4:18  9, 90002
 Matt  4:19  9, 90002
 Matt  4:20  9, 90002
@@ -198,7 +201,7 @@ Matt  6:18  18
 Matt  6:19  18
 Matt  6:20  18
 Matt  6:21  18
----- Sermon on the Mount: Seek First the Kingdom 
+---- Sermon on the Mount: Seek First the Kingdom
 Matt  6:22  19
 Matt  6:23  19
 Matt  6:24  19
@@ -267,7 +270,8 @@ Matt  8:11  26
 Matt  8:12  26
 
 Matt  8:13  26
----- Peter's Mother-in-law
+---- Peter's Mother-in-law (Matthew)
+> peters-mother-in-law-mark
 Matt  8:14  27
 Matt  8:15  27
 
@@ -369,7 +373,7 @@ Matt 10:12  37
 Matt 10:13  37
 Matt 10:14  37
 Matt 10:15  37
----- Instructions to the Twelve: Endure to the End 
+---- Instructions to the Twelve: Endure to the End
 Matt 10:16  38
 Matt 10:17  38
 Matt 10:18  38
@@ -710,7 +714,7 @@ Matt 17:7   76
 
 Matt 17:8   76
 Matt 17:9   76
----- Faithless and Perverse Generation 
+---- Faithless and Perverse Generation
 Matt 17:10  77
 Matt 17:11  77
 Matt 17:12  77
@@ -741,7 +745,7 @@ Matt 18:8   80
 Matt 18:9   80
 Matt 18:10  80
 Matt 18:11  80
----- Where Two or Three Are Gathered 
+---- Where Two or Three Are Gathered
 Matt 18:10  81
 Matt 18:11  81
 Matt 18:12  81
@@ -814,7 +818,7 @@ Matt 20:13  86
 Matt 20:14  86
 Matt 20:15  86
 Matt 20:16  86
----- Servant of All 
+---- Servant of All
 Matt 20:17  87
 Matt 20:18  87
 Matt 20:19  87
@@ -1081,7 +1085,7 @@ Matt 25:43  115
 Matt 25:44  115
 Matt 25:45  115
 Matt 25:46  115
----- Mocked 
+---- Mocked
 Matt 27:27  122
 Matt 27:28  122
 Matt 27:29  122
@@ -1109,7 +1113,7 @@ Matt 28:17  125, 126
 Matt 28:18  125, 126
 Matt 28:19  125, 126
 Matt 28:20  125, 126
-----
+---- John the Forerunner Appears
 Mark  1:1   127
 Mark  1:2   127
 Mark  1:3   127
@@ -1118,7 +1122,8 @@ Mark  1:5   127
 Mark  1:6   127
 Mark  1:7   127
 Mark  1:8   127
-----
+---- Baptism; Temptation
+> baptism temptation
 Mark  1:9   128, 129
 Mark  1:10  128, 129
 Mark  1:11  128, 129
@@ -1126,7 +1131,8 @@ Mark  1:12       129
 Mark  1:13       129
 Mark  1:14       129
 Mark  1:15       129
-----
+---- Fishers of Men (Mark)
+> fishers-of-men-matthew
 Mark  1:16  130
 Mark  1:17  130
 Mark  1:18  130
@@ -1134,14 +1140,15 @@ Mark  1:19  130
 Mark  1:20  130
 Mark  1:21  130
 Mark  1:22  130
-----
+---- Unclean Spirit
 Mark  1:23  131
 Mark  1:24  131
 Mark  1:25  131
 Mark  1:26  131
 Mark  1:27  131
 Mark  1:28  131
-----
+---- Peter's Mother-in-law (Mark)
+> peters-mother-in-law-matthew
 Mark  1:29  132
 Mark  1:30  132
 Mark  1:31  132
@@ -3398,13 +3405,13 @@ John  6:31  341, 90025
 John  6:32  341, 90025
 John  6:33  341, 90025
 John  6:34       90025
-----             
+----
 John  6:35  342
 John  6:36  342
 John  6:37  342
 John  6:38  342
 John  6:39  342
-----             
+----
 John  6:40  343, 90026
 John  6:41  343, 90026
 John  6:42  343, 90026

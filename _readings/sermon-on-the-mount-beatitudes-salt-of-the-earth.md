@@ -6,7 +6,7 @@ excerpt: "Matthew 4:25–5:13"
 noindex: true
 ref: "Matthew 4:25–5:13"
 subtitle: "Beatitudes; Salt of the Earth"
-prev_slug: "calling-of-the-apostles"
+prev_slug: "fishers-of-men-matthew"
 next_slug: "sermon-on-the-mount-light-of-the-world-law-and-prophets"
 ---
 

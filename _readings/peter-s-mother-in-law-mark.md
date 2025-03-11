@@ -1,10 +1,12 @@
 ---
-title: "Mark 1:29–35"
+title: "Peter's Mother-in-law (Mark)"
 pk: "132"
 num: 98
-excerpt: ""
+excerpt: "Mark 1:29–35"
 noindex: true
-prev_slug: "mark-1-23-28"
+ref: "Mark 1:29–35"
+related: [peters-mother-in-law-matthew]
+prev_slug: "unclean-spirit"
 next_slug: "mark-1-35-45"
 ---
 

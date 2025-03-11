@@ -169,7 +169,6 @@ class Pericope(object):
         self.slug = slug
 
     def write(self):
-        print(self.ref)
         if self.title == self.ref:
             excerpt = ''
         else:

@@ -1,11 +1,12 @@
 ---
-title: "Mark 1:23–28"
+title: "Unclean Spirit"
 pk: "131"
 num: 97
-excerpt: ""
+excerpt: "Mark 1:23–28"
 noindex: true
-prev_slug: "mark-1-16-22"
-next_slug: "mark-1-29-35"
+ref: "Mark 1:23–28"
+prev_slug: "fishers-of-men-mark"
+next_slug: "peter-s-mother-in-law-mark"
 ---
 
 <p><span class="v">23</span>Immediately there was in their synagogue a man with an unclean spirit, and he cried out,  <span class="v">24</span>saying, “Ha! What do we have to do with you, Jesus, you Nazarene? Have you come to destroy us? I know you who you are: the Holy One of God!”  <span class="v">25</span>Jesus rebuked him, saying, “Be quiet, and come out of him!”  <span class="v">26</span>The unclean spirit, convulsing him and crying with a loud voice, came out of him.  <span class="v">27</span>They were all amazed, so that they questioned among themselves, saying, “What is this? A new teaching? For with authority he commands even the unclean spirits, and they obey him!”  <span class="v">28</span>The report of him went out immediately everywhere into all the region of Galilee and its surrounding area. </p>

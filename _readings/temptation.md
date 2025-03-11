@@ -5,6 +5,7 @@ num: 6
 excerpt: "Matthew 4:1–11"
 noindex: true
 ref: "Matthew 4:1–11"
+related: [temptation]
 prev_slug: "baptism"
 next_slug: "jesus-begins-to-preach"
 ---

@@ -1,11 +1,13 @@
 ---
-title: "Mark 1:9–15"
+title: "Baptism; Temptation"
 pk: "128"
 num: 95
-excerpt: ""
+excerpt: "Mark 1:9–15"
 noindex: true
-prev_slug: "mark-1-1-8"
-next_slug: "mark-1-16-22"
+ref: "Mark 1:9–15"
+related: [baptism, temptation]
+prev_slug: "john-the-forerunner-appears"
+next_slug: "fishers-of-men-mark"
 ---
 
 <p><span class="v">9</span>In those days, Jesus came from Nazareth of Galilee, and was baptized by John in the Jordan.  <span class="v">10</span>Immediately coming up from the water, he saw the heavens parting, and the Spirit descending on him like a dove.  <span class="v">11</span>A voice came out of the sky, “You are my beloved Son, in whom I am well pleased.”  <span class="v">12</span>Immediately the Spirit drove him out into the wilderness.  <span class="v">13</span>He was there in the wilderness forty days tempted by Satan. He was with the wild animals; and the angels were serving him.  <span class="v">14</span>Now after John was taken into custody, Jesus came into Galilee, preaching the Good News of God’s Kingdom,  <span class="v">15</span>and saying, “The time is fulfilled, and God’s Kingdom is at hand! Repent, and believe in the Good News.” </p>

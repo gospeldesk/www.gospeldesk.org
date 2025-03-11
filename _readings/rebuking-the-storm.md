@@ -5,7 +5,7 @@ num: 24
 excerpt: "Matthew 8:23–27"
 noindex: true
 ref: "Matthew 8:23–27"
-prev_slug: "peter-s-mother-in-law"
+prev_slug: "peter-s-mother-in-law-matthew"
 next_slug: "gergesene-demoniacs"
 ---
 

@@ -6,7 +6,7 @@ excerpt: "Matthew 4:12–17"
 noindex: true
 ref: "Matthew 4:12–17"
 prev_slug: "temptation"
-next_slug: "calling-of-the-apostles"
+next_slug: "fishers-of-men-matthew"
 ---
 
 <p><span class="v">12</span>Now when Jesus heard that John was delivered up, he withdrew into Galilee.  <span class="v">13</span>Leaving Nazareth, he came and lived in Capernaum, which is by the sea, in the region of Zebulun and Naphtali,  <span class="v">14</span>that it might be fulfilled which was spoken through Isaiah the prophet, saying,  <span class="v">15</span>“The land of Zebulun and the land of Naphtali, toward the sea, beyond the Jordan, Galilee of the Gentiles,  <span class="v">16</span>the people who sat in darkness saw a great light, to those who sat in the region and shadow of death, to them light has dawned.”  <span class="v">17</span>From that time, Jesus began to preach, and to say, “Repent! For the Kingdom of Heaven is at hand.” </p>
