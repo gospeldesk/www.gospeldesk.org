@@ -686,14 +686,19 @@ Matt 16:25  75
 Matt 16:26  75
 Matt 16:27  75
 Matt 16:28  75
-----
+---- Transfiguration
 Matt 17:1   76
 Matt 17:2   76
+
 Matt 17:3   76
 Matt 17:4   76
+
 Matt 17:5   76
+
 Matt 17:6   76
+
 Matt 17:7   76
+
 Matt 17:8   76
 Matt 17:9   76
 ----

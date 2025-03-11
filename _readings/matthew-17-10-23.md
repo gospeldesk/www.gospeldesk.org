@@ -4,7 +4,7 @@ pk: "77"
 num: 65
 excerpt: ""
 noindex: true
-prev_slug: "matthew-17-1-9"
+prev_slug: "transfiguration"
 next_slug: "matthew-17-24-18-11"
 ---
 
