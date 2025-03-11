@@ -6,7 +6,7 @@ excerpt: "Matthew 17:1–9"
 noindex: true
 ref: "Matthew 17:1–9"
 prev_slug: "take-up-your-cross"
-next_slug: "matthew-17-10-23"
+next_slug: "faithless-and-perverse-generation"
 ---
 
 <p><span class="v">1</span>After six days, Jesus took with him Peter, James, and John his brother, and brought them up into a high mountain by themselves.  <span class="v">2</span>He was transfigured before them. His face shone like the sun, and his garments became as white as the light. </p>

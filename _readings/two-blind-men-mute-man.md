@@ -5,12 +5,20 @@ num: 30
 excerpt: "Matthew 9:27–35"
 noindex: true
 ref: "Matthew 9:27–35"
+related: [two-blind-men]
 prev_slug: "hem-of-his-garment"
 next_slug: "instructions-to-the-twelve-freely-give"
 ---
 
-<p><span class="v">27</span>As Jesus passed by from there, two blind men followed him, calling out and saying, “Have mercy on us, son of David!”  <span class="v">28</span>When he had come into the house, the blind men came to him. Jesus said to them, “Do you believe that I am able to do this?” They told him, “Yes, Lord.”  <span class="v">29</span>Then he touched their eyes, saying, “According to your faith be it done to you.”  <span class="v">30</span>Their eyes were opened. Jesus strictly commanded them, saying, “See that no one knows about this.”  <span class="v">31</span>But they went out and spread abroad his fame in all that land. </p>
-<p><span class="v">32</span>As they went out, behold, a mute man who was demon possessed was brought to him.  <span class="v">33</span>When the demon was cast out, the mute man spoke. The multitudes marveled, saying, “Nothing like this has ever been seen in Israel!”  <span class="v">34</span>But the Pharisees said, “By the prince of the demons, he casts out demons.” </p>
+<p><span class="v">27</span>As Jesus passed by from there, two blind men followed him, calling out and saying, “Have mercy on us, son of David!” </p>
+<p><span class="v">28</span>When he had come into the house, the blind men came to him. Jesus said to them, “Do you believe that I am able to do this?”</p>
+<p>They told him, “Yes, Lord.” </p>
+<p><span class="v">29</span>Then he touched their eyes, saying, “According to your faith be it done to you.” </p>
+<p><span class="v">30</span>Their eyes were opened. Jesus strictly commanded them, saying, “See that no one knows about this.” </p>
+<p><span class="v">31</span>But they went out and spread abroad his fame in all that land. </p>
+<h3>A Mute Man</h3>
+<p><span class="v">32</span>As they went out, behold, a mute man who was demon possessed was brought to him.  <span class="v">33</span>When the demon was cast out, the mute man spoke. The multitudes marveled, saying, “Nothing like this has ever been seen in Israel!” </p>
+<p><span class="v">34</span>But the Pharisees said, “By the prince of the demons, he casts out demons.” </p>
 <p><span class="v">35</span>Jesus went about all the cities and the villages, teaching in their synagogues, and preaching the Good News of the Kingdom, and healing every disease and every sickness among the people. </p>
 
 

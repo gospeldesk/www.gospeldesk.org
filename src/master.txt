@@ -329,14 +329,23 @@ Matt  9:24  33
 Matt  9:25  33
 Matt  9:26  33
 ---- Two Blind Men; Mute Man
+> two-blind-men
 Matt  9:27  34
-Matt  9:28  34
-Matt  9:29  34
-Matt  9:30  34
-Matt  9:31  34
 
+Matt  9:28  34
+  this?” They
+
+Matt  9:29  34
+
+Matt  9:30  34
+
+Matt  9:31  34
+#
+# A Mute Man
+#
 Matt  9:32  34
 Matt  9:33  34
+
 Matt  9:34  34
 
 Matt  9:35  34
@@ -701,7 +710,7 @@ Matt 17:7   76
 
 Matt 17:8   76
 Matt 17:9   76
-----
+---- Faithless and Perverse Generation 
 Matt 17:10  77
 Matt 17:11  77
 Matt 17:12  77
@@ -716,7 +725,7 @@ Matt 17:20      78
 Matt 17:21      78
 Matt 17:22      78
 Matt 17:23      78
-----
+---- Fish Coin
 Matt 17:24      79
 Matt 17:25      79
 Matt 17:26      79
@@ -732,7 +741,7 @@ Matt 18:8   80
 Matt 18:9   80
 Matt 18:10  80
 Matt 18:11  80
-----
+---- Where Two or Three Are Gathered 
 Matt 18:10  81
 Matt 18:11  81
 Matt 18:12  81
@@ -751,7 +760,7 @@ Matt 19:2       82
 Matt 19:13      82
 Matt 19:14      82
 Matt 19:15      82
-----
+---- Parable of the Ungrateful Servant
 Matt 18:23  83
 Matt 18:24  83
 Matt 18:25  83
@@ -765,7 +774,7 @@ Matt 18:32  83
 Matt 18:33  83
 Matt 18:34  83
 Matt 18:35  83
-----
+---- Divorce
 Matt 19:3   84
 Matt 19:4   84
 Matt 19:5   84
@@ -776,7 +785,7 @@ Matt 19:9   84
 Matt 19:10  84
 Matt 19:11  84
 Matt 19:12  84
-----
+---- Rich Young Ruler
 Matt 19:16  85
 Matt 19:17  85
 Matt 19:18  85
@@ -788,7 +797,7 @@ Matt 19:23  85
 Matt 19:24  85
 Matt 19:25  85
 Matt 19:26  85
-----
+---- Eleventh Hour
 Matt 20:1   86
 Matt 20:2   86
 Matt 20:3   86
@@ -805,7 +814,7 @@ Matt 20:13  86
 Matt 20:14  86
 Matt 20:15  86
 Matt 20:16  86
-----
+---- Servant of All 
 Matt 20:17  87
 Matt 20:18  87
 Matt 20:19  87
@@ -818,14 +827,15 @@ Matt 20:25  87
 Matt 20:26  87
 Matt 20:27  87
 Matt 20:28  87
-----
+---- Two Blind Men
+> two-blind-men-mute-man
 Matt 20:29  88
 Matt 20:30  88
 Matt 20:31  88
 Matt 20:32  88
 Matt 20:33  88
 Matt 20:34  88
-----
+---- Triumphal Entry
 Matt 21:1   89
 Matt 21:2   89
 Matt 21:3   89
@@ -840,7 +850,7 @@ Matt 21:11  89
 Matt 21:15  89
 Matt 21:16  89
 Matt 21:17  89
-----
+---- Moneychangers
 Matt 21:12  90
 Matt 21:13  90
 Matt 21:14  90
@@ -850,19 +860,19 @@ Matt 21:19  90, 91
 Matt 21:20  90, 91
 Matt 21:21      91
 Matt 21:22      91
-----
+---- Conflict Over Authority
 Matt 21:23  93
 Matt 21:24  93
 Matt 21:25  93
 Matt 21:26  93
 Matt 21:27  93
-----
+---- Which of the Two
 Matt 21:28  94
 Matt 21:29  94
 Matt 21:30  94
 Matt 21:31  94
 Matt 21:32  94
-----
+---- Parable of the Wicked Tenants
 Matt 21:33  95
 Matt 21:34  95
 Matt 21:35  95
@@ -873,12 +883,12 @@ Matt 21:39  95
 Matt 21:40  95
 Matt 21:41  95
 Matt 21:42  95
-----
+---- Falling, Stone
 Matt 21:43  96
 Matt 21:44  96
 Matt 21:45  96
 Matt 21:46  96
-----
+---- Highways and Byways
 Matt 22:1   97
 Matt 22:2   97
 Matt 22:3   97
@@ -893,7 +903,7 @@ Matt 22:11  97
 Matt 22:12  97
 Matt 22:13  97
 Matt 22:14  97
-----
+---- Taxes to Caesar
 Matt 22:15  98
 Matt 22:16  98
 Matt 22:17  98
@@ -902,7 +912,7 @@ Matt 22:19  98
 Matt 22:20  98
 Matt 22:21  98
 Matt 22:22  98
-----
+---- Marriage in the Resurrection
 Matt 22:23  100
 Matt 22:24  100
 Matt 22:25  100
@@ -914,7 +924,7 @@ Matt 22:30  100
 Matt 22:31  100
 Matt 22:32  100
 Matt 22:33  100
-----
+---- Daring to Question
 Matt 22:35  101
 Matt 22:36  101
 Matt 22:37  101
@@ -927,7 +937,7 @@ Matt 22:43  101
 Matt 22:44  101
 Matt 22:45  101
 Matt 22:46  101
-----
+---- Call No Man Father
 Matt 23:1   102
 Matt 23:2   102
 Matt 23:3   102
@@ -940,7 +950,7 @@ Matt 23:9   102
 Matt 23:10  102
 Matt 23:11  102
 Matt 23:12  102
-----
+---- Woe! Blind Fools!
 Matt 23:13  103
 Matt 23:14  103
 Matt 23:15  103
@@ -951,14 +961,14 @@ Matt 23:19  103
 Matt 23:20  103
 Matt 23:21  103
 Matt 23:22  103
-----
+---- Woe! Blind Guides!
 Matt 23:23  104
 Matt 23:24  104
 Matt 23:25  104
 Matt 23:26  104
 Matt 23:27  104
 Matt 23:28  104
-----
+---- Woe! Serpents!
 Matt 23:29  105
 Matt 23:30  105
 Matt 23:31  105
@@ -970,7 +980,7 @@ Matt 23:36  105
 Matt 23:37  105
 Matt 23:38  105
 Matt 23:39  105
-----
+---- Little Apocalypse
 Matt 24:1   106
 Matt 24:2   106
 Matt 24:3   106
@@ -1022,7 +1032,7 @@ Matt 24:48            109
 Matt 24:49            109
 Matt 24:50            109
 Matt 24:51            109
-----
+---- Parable of the Ten Virgins
 Matt 25:1   113
 Matt 25:2   113
 Matt 25:3   113
@@ -1036,7 +1046,7 @@ Matt 25:10  113
 Matt 25:11  113
 Matt 25:12  113
 Matt 25:13  113
-----
+---- Parable of the Talents
 Matt 25:14  114
 Matt 25:15  114
 Matt 25:16  114
@@ -1054,7 +1064,7 @@ Matt 25:27  114
 Matt 25:28  114
 Matt 25:29  114
 Matt 25:30  114
-----
+---- Last Judgment
 Matt 25:31  115
 Matt 25:32  115
 Matt 25:33  115
@@ -1071,7 +1081,7 @@ Matt 25:43  115
 Matt 25:44  115
 Matt 25:45  115
 Matt 25:46  115
-----
+---- Mocked 
 Matt 27:27  122
 Matt 27:28  122
 Matt 27:29  122

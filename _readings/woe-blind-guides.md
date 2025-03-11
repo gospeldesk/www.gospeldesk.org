@@ -1,11 +1,12 @@
 ---
-title: "Matthew 23:23–28"
+title: "Woe! Blind Guides!"
 pk: "104"
 num: 86
-excerpt: ""
+excerpt: "Matthew 23:23–28"
 noindex: true
-prev_slug: "matthew-23-13-22"
-next_slug: "matthew-23-29-39"
+ref: "Matthew 23:23–28"
+prev_slug: "woe-blind-fools"
+next_slug: "woe-serpents"
 ---
 
 <p><span class="v">23</span>“Woe to you, scribes and Pharisees, hypocrites! For you tithe mint, dill, and cumin, and have left undone the weightier matters of the law: justice, mercy, and faith. But you ought to have done these, and not to have left the other undone.  <span class="v">24</span>You blind guides, who strain out a gnat, and swallow a camel!  <span class="v">25</span>“Woe to you, scribes and Pharisees, hypocrites! For you clean the outside of the cup and of the platter, but within they are full of extortion and unrighteousness.  <span class="v">26</span>You blind Pharisee, first clean the inside of the cup and of the platter, that its outside may become clean also.  <span class="v">27</span>“Woe to you, scribes and Pharisees, hypocrites! For you are like whitened tombs, which outwardly appear beautiful, but inwardly are full of dead men’s bones, and of all uncleanness.  <span class="v">28</span>Even so you also outwardly appear righteous to men, but inwardly you are full of hypocrisy and iniquity. </p>

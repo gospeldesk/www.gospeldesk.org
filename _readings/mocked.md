@@ -1,10 +1,11 @@
 ---
-title: "Matthew 27:27–32"
+title: "Mocked"
 pk: "122"
 num: 92
-excerpt: ""
+excerpt: "Matthew 27:27–32"
 noindex: true
-prev_slug: "matthew-25-31-46"
+ref: "Matthew 27:27–32"
+prev_slug: "last-judgment"
 next_slug: "matthew-27-33-54"
 ---
 
