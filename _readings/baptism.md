@@ -5,7 +5,7 @@ num: 5
 excerpt: "Matthew 3:13–17"
 noindex: true
 ref: "Matthew 3:13–17"
-related: [baptism]
+related: ["baptism"]
 prev_slug: "john-the-forerunner"
 next_slug: "temptation"
 ---

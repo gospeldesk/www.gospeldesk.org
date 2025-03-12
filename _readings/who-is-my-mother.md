@@ -5,6 +5,7 @@ num: 45
 excerpt: "Matthew 12:46–13:3"
 noindex: true
 ref: "Matthew 12:46–13:3"
+related: ["blasphemy-mother-brothers"]
 prev_slug: "demand-for-a-sign"
 next_slug: "parables-sower"
 ---

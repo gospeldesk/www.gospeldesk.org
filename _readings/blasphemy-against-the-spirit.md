@@ -5,6 +5,7 @@ num: 43
 excerpt: "Matthew 12:30–37"
 noindex: true
 ref: "Matthew 12:30–37"
+related: ["blasphemy-mother-brothers"]
 prev_slug: "by-beelzebul"
 next_slug: "demand-for-a-sign"
 ---

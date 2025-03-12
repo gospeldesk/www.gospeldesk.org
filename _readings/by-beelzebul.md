@@ -5,6 +5,7 @@ num: 42
 excerpt: "Matthew 12:14–30"
 noindex: true
 ref: "Matthew 12:14–30"
+related: ["a-great-multitude"]
 prev_slug: "withered-hand"
 next_slug: "blasphemy-against-the-spirit"
 ---

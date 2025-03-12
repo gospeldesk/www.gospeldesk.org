@@ -24,10 +24,10 @@ noindex: true
 {% assign last_reading = sorted | last %}
 <script>
   document.addEventListener('keydown', function(e) {
-    if (e.key === 'ArrowRight' || e.key === 'l') {
+    if (e.key === 'l') {
       window.location.href = '{{ first_reading.url }}';
     }
-    if (e.key === 'ArrowLeft' || e.key === 'h') {
+    if (e.key === 'h') {
       window.location.href = '{{ last_reading.url }}';
     }
   });

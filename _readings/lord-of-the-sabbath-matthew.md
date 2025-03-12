@@ -1,10 +1,11 @@
 ---
-title: "Lord of the Sabbath"
+title: "Lord of the Sabbath (Matthew)"
 pk: "47"
 num: 40
 excerpt: "Matthew 12:1–8"
 noindex: true
 ref: "Matthew 12:1–8"
+related: ["lord-of-the-sabbath-mark"]
 prev_slug: "take-my-yoke"
 next_slug: "withered-hand"
 ---

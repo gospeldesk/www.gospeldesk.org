@@ -50,10 +50,10 @@ layout: default
 
 <script>
   document.addEventListener('keydown', function(e) {
-    if (e.key === 'ArrowLeft' || e.key === 'h') {
+    if (e.key === 'h') {
       window.location.href = '../{{ page.prev_slug }}/';
     }
-    if (e.key === 'ArrowRight' || e.key === 'l') {
+    if (e.key === 'l') {
       window.location.href = '../{{ page.next_slug }}/';
     }
     if (e.key === 'j') {

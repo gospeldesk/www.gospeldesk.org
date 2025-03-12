@@ -4,7 +4,7 @@ pk: "142"
 num: 108
 excerpt: ""
 noindex: true
-prev_slug: "mark-3-28-35"
+prev_slug: "blasphemy-mother-brothers"
 next_slug: "mark-4-10-23"
 ---
 

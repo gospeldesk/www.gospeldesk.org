@@ -5,7 +5,7 @@ num: 8
 excerpt: "Matthew 4:18–24"
 noindex: true
 ref: "Matthew 4:18–24"
-related: [fishers-of-men-mark]
+related: ["fishers-of-men-mark"]
 prev_slug: "jesus-begins-to-preach"
 next_slug: "sermon-on-the-mount-beatitudes-salt-of-the-earth"
 ---

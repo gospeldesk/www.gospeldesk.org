@@ -1,11 +1,13 @@
 ---
-title: "Mark 3:6–12"
+title: "A Great Multitude"
 pk: "138"
 num: 104
-excerpt: ""
+excerpt: "Mark 3:6–12"
 noindex: true
-prev_slug: "mark-2-23-3-5"
-next_slug: "mark-3-13-19"
+ref: "Mark 3:6–12"
+related: ["by-beelzebul"]
+prev_slug: "lord-of-the-sabbath-mark"
+next_slug: "appointing-the-twelve"
 ---
 
 <p><span class="v">6</span>The Pharisees went out, and immediately conspired with the Herodians against him, how they might destroy him.  <span class="v">7</span>Jesus withdrew to the sea with his disciples, and a great multitude followed him from Galilee, from Judea,  <span class="v">8</span>from Jerusalem, from Idumaea, beyond the Jordan, and those from around Tyre and Sidon. A great multitude, hearing what great things he did, came to him.  <span class="v">9</span>He spoke to his disciples that a little boat should stay near him because of the crowd, so that they wouldn’t press on him.  <span class="v">10</span>For he had healed many, so that as many as had diseases pressed on him that they might touch him.  <span class="v">11</span>The unclean spirits, whenever they saw him, fell down before him, and cried, “You are the Son of God!”  <span class="v">12</span>He sternly warned them that they should not make him known. </p>

@@ -5,7 +5,7 @@ num: 41
 excerpt: "Matthew 12:9–13"
 noindex: true
 ref: "Matthew 12:9–13"
-prev_slug: "lord-of-the-sabbath"
+prev_slug: "lord-of-the-sabbath-matthew"
 next_slug: "by-beelzebul"
 ---
 

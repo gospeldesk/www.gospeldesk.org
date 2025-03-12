@@ -1,11 +1,13 @@
 ---
-title: "Mark 2:18–22"
+title: "Can the Groomsmen Fast?"
 pk: "136"
 num: 102
-excerpt: ""
+excerpt: "Mark 2:18–22"
 noindex: true
-prev_slug: "mark-2-13-17"
-next_slug: "mark-2-23-3-5"
+ref: "Mark 2:18–22"
+related: ["new-wineskins"]
+prev_slug: "calling-of-levi"
+next_slug: "lord-of-the-sabbath-mark"
 ---
 
 <p><span class="v">18</span>John’s disciples and the Pharisees were fasting, and they came and asked him, “Why do John’s disciples and the disciples of the Pharisees fast, but your disciples don’t fast?”  <span class="v">19</span>Jesus said to them, “Can the groomsmen fast while the bridegroom is with them? As long as they have the bridegroom with them, they can’t fast.  <span class="v">20</span>But the days will come when the bridegroom will be taken away from them, and then will they fast in that day.  <span class="v">21</span>No one sews a piece of unshrunk cloth on an old garment, or else the patch shrinks and the new tears away from the old, and a worse hole is made.  <span class="v">22</span>No one puts new wine into old wineskins, or else the new wine will burst the skins, and the wine pours out, and the skins will be destroyed; but they put new wine into fresh wineskins.” </p>

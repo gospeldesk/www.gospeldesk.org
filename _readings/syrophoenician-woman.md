@@ -5,7 +5,7 @@ num: 121
 excerpt: "Mark 7:24–30"
 noindex: true
 ref: "Mark 7:24–30"
-related: [canaanite-woman]
+related: ["canaanite-woman"]
 prev_slug: "mark-6-54-7-24"
 next_slug: "mark-7-31-37"
 ---

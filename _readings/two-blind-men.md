@@ -5,7 +5,7 @@ num: 73
 excerpt: "Matthew 20:29–34"
 noindex: true
 ref: "Matthew 20:29–34"
-related: [two-blind-men-mute-man]
+related: ["two-blind-men-mute-man"]
 prev_slug: "servant-of-all"
 next_slug: "triumphal-entry"
 ---

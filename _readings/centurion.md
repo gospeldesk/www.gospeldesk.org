@@ -5,7 +5,7 @@ num: 22
 excerpt: "Matthew 8:5–13"
 noindex: true
 ref: "Matthew 8:5–13"
-direct: [jesus, centurion]
+direct: ["jesus", "centurion"]
 prev_slug: "sermon-on-the-mount-rock-and-sand-healing-a-leper"
 next_slug: "peter-s-mother-in-law-matthew"
 ---

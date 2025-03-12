@@ -5,7 +5,7 @@ num: 95
 excerpt: "Mark 1:9–15"
 noindex: true
 ref: "Mark 1:9–15"
-related: [baptism, temptation]
+related: ["baptism", "temptation"]
 prev_slug: "john-the-forerunner-appears"
 next_slug: "fishers-of-men-mark"
 ---

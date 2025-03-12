@@ -6,6 +6,7 @@ excerpt: "Matthew 9:36–10:8"
 noindex: true
 ref: "Matthew 9:36–10:8"
 subtitle: "Freely Give"
+related: ["appointing-the-twelve"]
 prev_slug: "two-blind-men-mute-man"
 next_slug: "instructions-to-the-twelve-shake-the-dust"
 ---

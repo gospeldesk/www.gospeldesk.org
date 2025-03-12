@@ -5,9 +5,9 @@ num: 56
 excerpt: "Matthew 15:21–28"
 noindex: true
 ref: "Matthew 15:21–28"
-related: [syrophoenician-woman]
-direct: [jesus, justa]
-indirect: [justa-daughter]
+related: ["syrophoenician-woman"]
+direct: ["jesus", "justa"]
+indirect: ["justa-daughter"]
 prev_slug: "out-of-the-heart"
 next_slug: "healing-great-multitudes"
 ---

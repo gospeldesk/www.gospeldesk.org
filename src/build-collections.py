@@ -42,6 +42,8 @@ def main():
 
     for line in readings:
         line = line.rstrip()
+        if line.startswith('-- '):
+            continue  # comment
         if line.startswith('----'):
             if cur:
                 cur.flush()
@@ -130,7 +132,7 @@ class Pericope(object):
         fragments = []
         for el in self.elements:
             if type(el) is str:     # section heading
-                fragments.append(f'<h3>{el.strip()}</h3>')
+                fragments.append(f'<h4>{el.strip()}</h4>')
             elif type(el) is list:  # paragraph
                 text =  ' '.join([make_verse(*a) for a in el])
                 fragments.append(f'<p>{text}</p>')
@@ -211,11 +213,11 @@ God willing, the Church will proclaim this Gospel on <u><b><a class="next-procla
         if self.subtitle :
             frontmatter += 'subtitle: "' + self.subtitle + '"\n'
         if self.related:
-            frontmatter += 'related: [' + ', '.join(self.related) + ']\n'
+            frontmatter += 'related: ["' + '", "'.join(self.related) + '"]\n'
         if self.direct:
-            frontmatter += 'direct: [' + ', '.join(self.direct) + ']\n'
+            frontmatter += 'direct: ["' + '", "'.join(self.direct) + '"]\n'
         if self.indirect:
-            frontmatter += 'indirect: [' + ', '.join(self.indirect) + ']\n'
+            frontmatter += 'indirect: ["' + '", "'.join(self.indirect) + '"]\n'
         if self.prev:
             frontmatter += 'prev_slug: "' + self.prev + '"\n'
         if self.next:

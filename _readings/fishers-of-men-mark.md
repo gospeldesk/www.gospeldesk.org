@@ -5,7 +5,7 @@ num: 96
 excerpt: "Mark 1:16–22"
 noindex: true
 ref: "Mark 1:16–22"
-related: [fishers-of-men-matthew]
+related: ["fishers-of-men-matthew"]
 prev_slug: "baptism-temptation"
 next_slug: "unclean-spirit"
 ---

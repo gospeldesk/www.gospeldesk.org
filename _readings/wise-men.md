@@ -5,8 +5,8 @@ num: 2
 excerpt: "Matthew 2:1–12"
 noindex: true
 ref: "Matthew 2:1–12"
-direct: [jesus, herod, wise-men, star, jerusalem, chief-priests, scribes, mary, dream-angel]
-indirect: [jesus, wise-men, jews, star, isaiah, bethlehem, princes-judah, jesus]
+direct: ["jesus", "herod", "wise-men", "star", "jerusalem", "chief-priests", "scribes", "mary", "dream-angel"]
+indirect: ["jesus", "wise-men", "jews", "star", "isaiah", "bethlehem", "princes-judah", "jesus"]
 prev_slug: "genealogy-and-birth"
 next_slug: "holy-innocents"
 ---

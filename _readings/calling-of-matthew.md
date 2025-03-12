@@ -5,6 +5,7 @@ num: 27
 excerpt: "Matthew 9:9–13"
 noindex: true
 ref: "Matthew 9:9–13"
+related: ["calling-of-levi"]
 prev_slug: "take-up-your-mat"
 next_slug: "new-wineskins"
 ---

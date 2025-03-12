@@ -5,8 +5,8 @@ num: 3
 excerpt: "Matthew 2:13–23"
 noindex: true
 ref: "Matthew 2:13–23"
-direct: [joseph, mary, jesus, dream-angel, herod, wise-men, holy-innocents]
-indirect: [joseph, jesus, mary, dream-angel, herod, god, isaiah, jesus, jeremish, rachel, archelaus]
+direct: ["joseph", "mary", "jesus", "dream-angel", "herod", "wise-men", "holy-innocents"]
+indirect: ["joseph", "jesus", "mary", "dream-angel", "herod", "god", "isaiah", "jesus", "jeremish", "rachel", "archelaus"]
 prev_slug: "wise-men"
 next_slug: "john-the-forerunner"
 ---
