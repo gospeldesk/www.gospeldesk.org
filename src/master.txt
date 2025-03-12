@@ -76,49 +76,64 @@ Matt  2:23  4
 Matt  3:1   5, 90001
 Matt  3:2   5, 90001
 Matt  3:3   5, 90001
+
 Matt  3:4   5, 90001
 Matt  3:5   5, 90001
 Matt  3:6   5, 90001
+
 Matt  3:7   5, 90001
 Matt  3:8   5, 90001
 Matt  3:9   5, 90001
+
 Matt  3:10  5, 90001
 Matt  3:11  5, 90001
 Matt  3:12     90001
 ---- Baptism
-> baptism
+> baptism-temptation-preaching
 Matt  3:13  6
 Matt  3:14  6
+
 Matt  3:15  6
+  ness.” Then
 Matt  3:16  6
 Matt  3:17  6
 ---- Temptation
-> temptation
+> baptism-temptation-preaching
 Matt  4:1   7
 Matt  4:2   7
 Matt  4:3   7
+
 Matt  4:4   7
+
 Matt  4:5   7
 Matt  4:6   7
+
 Matt  4:7   7
+
 Matt  4:8   7
 Matt  4:9   7
+
 Matt  4:10  7
+
 Matt  4:11  7
 ---- Jesus Begins to Preach
+> baptism-temptation-preaching
 Matt  4:12  8
 Matt  4:13  8
 Matt  4:14  8
 Matt  4:15  8
 Matt  4:16  8
+
 Matt  4:17  8
 ---- Fishers of Men (Matthew)
 > fishers-of-men-mark
 Matt  4:18  9, 90002
 Matt  4:19  9, 90002
 Matt  4:20  9, 90002
+
 Matt  4:21  9, 90002
 Matt  4:22  9, 90002
+
 Matt  4:23  9, 90002
 Matt  4:24     90002
 ---- Sermon on the Mount: Beatitudes; Salt of the Earth
@@ -1132,13 +1147,15 @@ Mark  1:5   127
 Mark  1:6   127
 Mark  1:7   127
 Mark  1:8   127
----- Baptism; Temptation
-> baptism temptation
+---- Baptism; Temptation; Preaching
+> baptism temptation jesus-begins-to-preach
 Mark  1:9   128, 129
 Mark  1:10  128, 129
 Mark  1:11  128, 129
+
 Mark  1:12       129
 Mark  1:13       129
+
 Mark  1:14       129
 Mark  1:15       129
 ---- Fishers of Men (Mark)
@@ -1146,8 +1163,10 @@ Mark  1:15       129
 Mark  1:16  130
 Mark  1:17  130
 Mark  1:18  130
+
 Mark  1:19  130
 Mark  1:20  130
+
 Mark  1:21  130
 Mark  1:22  130
 ---- Unclean Spirit

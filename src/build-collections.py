@@ -3,20 +3,22 @@ import csv
 import datetime
 import json
 import os
+import sys
 import string
 from collections import defaultdict
 
 LETTERS_NUMBERS = string.ascii_letters + string.digits
 GOSPELS = 'Matthew Mark Luke John'.split()
+
+# Load dates.
 dates_csv = csv.reader(open('dates.csv'))
 next(dates_csv) # skip headers
-gospels_csv = csv.reader(open('gospels.csv'))
-readings = open('master.txt')
-
 dates_by_pericope_id = defaultdict(list)
 for pericope_id, date in dates_csv:
     dates_by_pericope_id[int(pericope_id)].append(date)
 
+# Load verses.
+gospels_csv = csv.reader(open('gospels.csv'))
 WEB = defaultdict(lambda: defaultdict(dict))
 for b,c,v,text in gospels_csv:
     WEB[b][int(c)][int(v)] = text
@@ -39,8 +41,9 @@ def sluggize(base):
 
 def main():
     i, cur, pericopes = 0, None, []
+    Pericope._reset()
 
-    for line in readings:
+    for line in open('master.txt'):
         line = line.rstrip()
         if line.startswith('-- '):
             continue  # comment
@@ -72,9 +75,17 @@ def main():
         pericope.next = next_
         pericope.write()
 
+    old = {fn.split('.')[0] for fn in os.listdir('../_readings')}
+    new = Pericope._slugs
+    for slug in old - Pericope._slugs:
+        print('pruning', slug)
+        os.unlink(f'../_readings/{slug}.md')
+
 class Pericope(object):
 
-    __slugs = set()
+    @classmethod
+    def _reset(cls):
+        cls._slugs = set()
 
     def __init__(self, i, title, subtitle):
         self.i = i
@@ -166,8 +177,8 @@ class Pericope(object):
         if self.subtitle:
             slug_base += ': ' + self.subtitle
         slug = sluggize(slug_base)
-        assert slug not in self.__slugs, slug
-        self.__slugs.add(slug)
+        assert slug not in self._slugs, slug
+        self._slugs.add(slug)
         self.slug = slug
 
     def write(self):
@@ -240,4 +251,9 @@ noindex: true
             open(f'../_readings/{self.slug}.md', 'w+').write(new)
 
 if __name__ == '__main__':
-    main()
+    if '-d' in sys.argv:
+        for line in sys.stdin:
+            sys.stdout.write(line)
+            main()
+    else:
+        main()
