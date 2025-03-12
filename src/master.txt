@@ -487,6 +487,7 @@ Matt 12:30  49
 Matt 12:30  51
 Matt 12:31  51
 Matt 12:32  51
+
 Matt 12:33  51
 Matt 12:34  51
 Matt 12:35  51
@@ -505,9 +506,11 @@ Matt 12:45  52
 > blasphemy-mother-brothers
 Matt 12:46  53
 Matt 12:47  53
+
 Matt 12:48  53
 Matt 12:49  53
 Matt 12:50  53
+
 Matt 13:1   53
 Matt 13:2   53
 Matt 13:3   53
