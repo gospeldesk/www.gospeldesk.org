@@ -229,13 +229,16 @@ Matt  6:21  18
 ---- Sermon on the Mount: Seek First the Kingdom
 Matt  6:22  19
 Matt  6:23  19
+
 Matt  6:24  19
 Matt  6:25  19
 Matt  6:26  19
+
 Matt  6:27  19
 Matt  6:28  19
 Matt  6:29  19
 Matt  6:30  19
+
 Matt  6:31  19
 Matt  6:32  19
 Matt  6:33  19
@@ -244,6 +247,7 @@ Matt  6:31  20
 Matt  6:32  20
 Matt  6:33  20
 Matt  6:34  20
+
 Matt  7:9   20
 Matt  7:10  20
 Matt  7:11  20
@@ -253,19 +257,24 @@ Matt  7:2   21
 Matt  7:3   21
 Matt  7:4   21
 Matt  7:5   21
+
 Matt  7:6   21
+
 Matt  7:7   21
 Matt  7:8   21
 ---- Sermon on the Mount: Golden Rule; False Prophets
 Matt  7:12      22
+
 Matt  7:13      22
 Matt  7:14      22
+
 Matt  7:15      22, 23
 Matt  7:16      22, 23
 Matt  7:17      22, 23
 Matt  7:18      22, 23
 Matt  7:19      22, 23
 Matt  7:20      22, 23
+
 Matt  7:21  24, 22, 23
 Matt  7:22  24
 Matt  7:23  24
@@ -274,10 +283,13 @@ Matt  7:24  25
 Matt  7:25  25
 Matt  7:26  25
 Matt  7:27  25
+
 Matt  7:28  25
 Matt  7:29  25
+
 Matt  8:1   25
 Matt  8:2   25
+
 Matt  8:3   25
 Matt  8:4   25
 ---- Centurion
@@ -316,14 +328,20 @@ Matt  8:23  27
 Matt  8:23  28
 Matt  8:24  28
 Matt  8:25  28
+
 Matt  8:26  28
+
 Matt  8:27  28
 ---- Gergesene Demoniacs
 Matt  8:28  29
 Matt  8:29  29
+
 Matt  8:30  29
 Matt  8:31  29
+
 Matt  8:32  29
+  “Go!” They
+
 Matt  8:33  29
 Matt  8:34  29
 Matt  9:1   29
