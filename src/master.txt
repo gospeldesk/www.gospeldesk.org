@@ -139,6 +139,7 @@ Matt  4:24     90002
 ---- Sermon on the Mount: Beatitudes; Salt of the Earth
 Matt  4:25  10, 11
 Matt  5:1   10, 11
+
 Matt  5:2   10, 11
 Matt  5:3   10, 11
 Matt  5:4   10, 11
@@ -148,20 +149,25 @@ Matt  5:7   10, 11
 Matt  5:8   10, 11
 Matt  5:9   10, 11
 Matt  5:10  10, 11
+
 Matt  5:11  10, 11
 Matt  5:12  10, 11
+
 Matt  5:13  10
 ---- Sermon on the Mount: Light of the World; Law and Prophets
 Matt  5:14  12
 Matt  5:15  12
 Matt  5:16  12
+
 Matt  5:17  12
 Matt  5:18  12
 Matt  5:19  12
 ---- Sermon on the Mount: Righteousness Exceeding the Pharisees
 Matt  5:20  13
+
 Matt  5:21  13
 Matt  5:22  13
+
 Matt  5:23  13
 Matt  5:24  13
 Matt  5:25  13
@@ -171,6 +177,7 @@ Matt  5:27  14
 Matt  5:28  14
 Matt  5:29  14
 Matt  5:30  14
+
 Matt  5:31  14
 Matt  5:32  14
 ---- Sermon on the Mount: Swearing; Resistance
@@ -179,12 +186,14 @@ Matt  5:34  15
 Matt  5:35  15
 Matt  5:36  15
 Matt  5:37  15
+
 Matt  5:38  15
 Matt  5:39  15
 Matt  5:40  15
 Matt  5:41  15
 ---- Sermon on the Mount: Love Your Enemies
 Matt  5:42  16
+
 Matt  5:43  16
 Matt  5:44  16
 Matt  5:45  16
@@ -196,6 +205,7 @@ Matt  6:1   17
 Matt  6:2   17
 Matt  6:3   17
 Matt  6:4   17
+
 Matt  6:5   17
 Matt  6:6   17
 Matt  6:7   17
