@@ -18,4 +18,4 @@ next_slug: "sermon-on-the-mount-beatitudes-salt-of-the-earth"
 
 ### Upcoming Proclamations
 
-God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://orthocal.info/readings/gregorian/2025/06/22/">June 22, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://orthocal.info/readings/gregorian/2026/06/14/">June 14, 2026</a>.
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/06/22">June 22, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/06/14">June 14, 2026</a>.

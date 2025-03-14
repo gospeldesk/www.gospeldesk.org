@@ -24,4 +24,4 @@ next_slug: "wise-men"
 
 ### Upcoming Proclamations
 
-God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://orthocal.info/readings/gregorian/2025/12/21/">December 21, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://orthocal.info/readings/gregorian/2026/12/20/">December 20, 2026</a>.
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/12/21">December 21, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/12/20">December 20, 2026</a>.

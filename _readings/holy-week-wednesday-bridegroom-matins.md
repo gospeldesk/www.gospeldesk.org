@@ -16,4 +16,4 @@ next_slug: "holy-week-wednesday-presanctified-liturgy"
 
 ### Upcoming Proclamations
 
-God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://orthocal.info/readings/gregorian/2025/04/16/">April 16, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://orthocal.info/readings/gregorian/2026/04/08/">April  8, 2026</a>.
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/04/16">April 16, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/04/08">April  8, 2026</a>.

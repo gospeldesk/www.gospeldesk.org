@@ -7,7 +7,7 @@ excerpt: "Matthew 13:44–54"
 noindex: true
 ref: "Matthew 13:44–54"
 subtitle: "Treasure; Pearl; Net"
-prev_slug: "parables-wheat-and-chaff"
+prev_slug: "parables-weeds"
 next_slug: "a-prophet-without-honor"
 ---
 
@@ -16,4 +16,4 @@ next_slug: "a-prophet-without-honor"
 
 ### Upcoming Proclamations
 
-God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://orthocal.info/readings/gregorian/2025/07/18/">July 18, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://orthocal.info/readings/gregorian/2026/07/10/">July 10, 2026</a>.
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/07/18">July 18, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/07/10">July 10, 2026</a>.

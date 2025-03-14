@@ -33,7 +33,7 @@ BK = {
 
 def flerp(date):
     d = datetime.date(*map(int, date.split('-')))
-    url = f'https://orthocal.info/readings/gregorian/{d.strftime("%Y/%m/%d")}/'
+    url = f'https://www.oca.org/readings/daily/{d.strftime("%Y/%m/%d")}'
     return (d.strftime("%B %e, %Y"), url)
 
 def sluggize(base):
@@ -152,7 +152,9 @@ class Pericope(object):
             c, v = map(int, cv.split(':'))
             for pk in pks.split():
                 self.pks.add(pk.replace(',', ''))
-            text = open_quote + WEB[b][c][v] + close_quote
+            text = open_quote + WEB[b][c][v]
+            if close_quote:
+                text = text.rstrip() + close_quote
             if sub:
                 frm, to = sub.split('/')
                 text = text.replace(frm, to)
