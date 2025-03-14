@@ -94,7 +94,7 @@ Matt  3:13  6
 Matt  3:14  6
 
 Matt  3:15  6
-  ness.” Then
+  ness." Then
 Matt  3:16  6
 Matt  3:17  6
 ---- Temptation
@@ -136,7 +136,7 @@ Matt  4:22  9, 90002
 
 Matt  4:23  9, 90002
 Matt  4:24     90002
----- Sermon on the Mount: Beatitudes; Salt of the Earth
+---- Sermon on the Mount: Beatitudes; Salt of the Earth"
 Matt  4:25  10, 11
 Matt  5:1   10, 11
 
@@ -154,7 +154,7 @@ Matt  5:11  10, 11
 Matt  5:12  10, 11
 
 Matt  5:13  10
----- Sermon on the Mount: Light of the World; Law and Prophets
+---- "Sermon on the Mount: Light of the World; Law and Prophets"
 Matt  5:14  12
 Matt  5:15  12
 Matt  5:16  12
@@ -162,7 +162,7 @@ Matt  5:16  12
 Matt  5:17  12
 Matt  5:18  12
 Matt  5:19  12
----- Sermon on the Mount: Righteousness Exceeding the Pharisees
+---- "Sermon on the Mount: Righteousness Exceeding the Pharisees"
 Matt  5:20  13
 
 Matt  5:21  13
@@ -172,7 +172,7 @@ Matt  5:23  13
 Matt  5:24  13
 Matt  5:25  13
 Matt  5:26  13
----- Sermon on the Mount: Adultery; Divorce
+---- Sermon on the Mount: Adultery; Divorce"
 Matt  5:27  14
 Matt  5:28  14
 Matt  5:29  14
@@ -180,7 +180,7 @@ Matt  5:30  14
 
 Matt  5:31  14
 Matt  5:32  14
----- Sermon on the Mount: Swearing; Resistance
+---- Sermon on the Mount: Swearing; Resistance"
 Matt  5:33  15
 Matt  5:34  15
 Matt  5:35  15
@@ -191,7 +191,7 @@ Matt  5:38  15
 Matt  5:39  15
 Matt  5:40  15
 Matt  5:41  15
----- Sermon on the Mount: Love Your Enemies
+---- "Sermon on the Mount: Love Your Enemies"
 Matt  5:42  16
 
 Matt  5:43  16
@@ -200,7 +200,7 @@ Matt  5:45  16
 Matt  5:46  16
 Matt  5:47  16
 Matt  5:48  16
----- Sermon on the Mount: Left Hand and Right; The Lord's Prayer
+---- Sermon on the Mount: Almsgiving; Prayer"
 Matt  6:1   17
 Matt  6:2   17
 Matt  6:3   17
@@ -215,7 +215,7 @@ Matt  6:10  17
 Matt  6:11  17
 Matt  6:12  17
 Matt  6:13  17
----- Sermon on the Mount: Forgiveness; Fasting; Treasure
+---- Sermon on the Mount: Forgiveness; Fasting; Treasure"
 Matt  6:14  18
 Matt  6:15  18
 
@@ -226,7 +226,7 @@ Matt  6:18  18
 Matt  6:19  18
 Matt  6:20  18
 Matt  6:21  18
----- Sermon on the Mount: Seek First the Kingdom
+---- Sermon on the Mount: Seek First the Kingdom"
 Matt  6:22  19
 Matt  6:23  19
 
@@ -242,7 +242,7 @@ Matt  6:30  19
 Matt  6:31  19
 Matt  6:32  19
 Matt  6:33  19
----- Sermon on the Mount: Don't Be Anxious
+---- Sermon on the Mount: Don't Be Anxious"
 Matt  6:31  20
 Matt  6:32  20
 Matt  6:33  20
@@ -251,7 +251,7 @@ Matt  6:34  20
 Matt  7:9   20
 Matt  7:10  20
 Matt  7:11  20
----- Sermon on the Mount: Don't Judge
+---- Sermon on the Mount: Don't Judge"
 Matt  7:1   21
 Matt  7:2   21
 Matt  7:3   21
@@ -262,7 +262,7 @@ Matt  7:6   21
 
 Matt  7:7   21
 Matt  7:8   21
----- Sermon on the Mount: Golden Rule; False Prophets
+---- "Sermon on the Mount: Golden Rule; Narrow Gate; False Prophets"
 Matt  7:12      22
 
 Matt  7:13      22
@@ -340,7 +340,7 @@ Matt  8:30  29
 Matt  8:31  29
 
 Matt  8:32  29
-  “Go!” They
+  Go!" They
 
 Matt  8:33  29
 Matt  8:34  29
@@ -348,33 +348,45 @@ Matt  9:1   29
 ---- Take Up Your Mat
 Matt  9:1   30
 Matt  9:2   30
+
 Matt  9:3   30
+
 Matt  9:4   30
 Matt  9:5   30
 Matt  9:6   30
+
 Matt  9:7   30
 Matt  9:8   30
 ---- Calling of Matthew
 > calling-of-levi
 Matt  9:9   31
+  me." He
+
 Matt  9:10  31
 Matt  9:11  31
+
 Matt  9:12  31
 Matt  9:13  31
 ---- New Wineskins
 > can-the-groomsmen-fast
 Matt  9:14  32
+
 Matt  9:15  32
 Matt  9:16  32
 Matt  9:17  32
 ---- Hem of His Garment
 Matt  9:18  33
+
 Matt  9:19  33
+
 Matt  9:20  33
 Matt  9:21  33
+
 Matt  9:22  33
+
 Matt  9:23  33
 Matt  9:24  33
+  sleeping." They
 Matt  9:25  33
 Matt  9:26  33
 ---- Two Blind Men; Mute Man
@@ -382,7 +394,7 @@ Matt  9:26  33
 Matt  9:27  34
 
 Matt  9:28  34
-  this?” They
+  this?" They
 
 Matt  9:29  34
 
@@ -398,20 +410,22 @@ Matt  9:33  34
 Matt  9:34  34
 
 Matt  9:35  34
----- Instructions to the Twelve: Freely Give
+---- Instructions to the Twelve: Freely Give"
 > appointing-the-twelve
 Matt  9:36  35
 Matt  9:37  35
 Matt  9:38  35
+
 Matt 10:1   35, 36
 Matt 10:2   35
 Matt 10:3   35
 Matt 10:4   35
+
 Matt 10:5   35, 36
 Matt 10:6   35, 36
 Matt 10:7   35, 36
 Matt 10:8   35, 36
----- Instructions to the Twelve: Shake the Dust
+---- "Instructions to the Twelve: Shake the Dust"
 Matt 10:9   37
 Matt 10:10  37
 Matt 10:11  37
@@ -419,27 +433,31 @@ Matt 10:12  37
 Matt 10:13  37
 Matt 10:14  37
 Matt 10:15  37
----- Instructions to the Twelve: Endure to the End
+---- Instructions to the Twelve: Endure to the End"
 Matt 10:16  38
 Matt 10:17  38
 Matt 10:18  38
 Matt 10:19  38
 Matt 10:20  38
+
 Matt 10:21  38
 Matt 10:22  38
----- Instructions to the Twelve: Don't Be Afraid
+---- "Instructions to the Twelve: Don't Be Afraid"
 Matt 10:23  39
+
 Matt 10:24  39
 Matt 10:25  39
 Matt 10:26  39
 Matt 10:27  39
 Matt 10:28  39
+
 Matt 10:29  39
 Matt 10:30  39
 Matt 10:31  39
----- Instructions to the Twelve: Not Peace But a Sword
+---- "Instructions to the Twelve: Not Peace But a Sword"
 Matt 10:32  40, 41
 Matt 10:33  40, 41
+
 Matt 10:34  40
 Matt 10:35  40
 Matt 10:36  40
@@ -453,6 +471,7 @@ Matt 10:42          42
 Matt 11:1   40,     42
 
 Matt 19:27      41
+
 Matt 19:28      41
 Matt 19:29      41
 Matt 19:30      41

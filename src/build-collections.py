@@ -41,7 +41,7 @@ def sluggize(base):
 
 def main():
     i, cur, pericopes = 0, None, []
-    Pericope._reset()
+    Pericope.reset()
 
     for line in open('master.txt'):
         line = line.rstrip()
@@ -56,11 +56,18 @@ def main():
             else:
                 title = line.split(None, 1)[1]
                 subtitle = ''
+                open_quote = close_quote = False
+                if title.startswith('"'):
+                    title = title[1:]
+                    open_quote = True
+                if title.endswith('"'):
+                    title = title[:-1]
+                    close_quote = True
                 if ':' in title:
                     title, subtitle = title.split(':')
                     subtitle = subtitle.strip()
             i += 1
-            cur = Pericope(i, title, subtitle)
+            cur = Pericope(i, title, subtitle, open_quote, close_quote)
             pericopes.append(cur)
         else:
             cur.add(line)
@@ -76,21 +83,23 @@ def main():
         pericope.write()
 
     old = {fn.split('.')[0] for fn in os.listdir('../_readings')}
-    new = Pericope._slugs
-    for slug in old - Pericope._slugs:
+    new = Pericope.slugs
+    for slug in old - Pericope.slugs:
         print('pruning', slug)
         os.unlink(f'../_readings/{slug}.md')
 
 class Pericope(object):
 
     @classmethod
-    def _reset(cls):
-        cls._slugs = set()
+    def reset(cls):
+        cls.slugs = set()
 
-    def __init__(self, i, title, subtitle):
+    def __init__(self, i, title, subtitle, open_quote, close_quote):
         self.i = i
         self.title = title
         self.subtitle = subtitle
+        self.open_quote = open_quote
+        self.close_quote = close_quote
         self.pks = set()
         self.verse_buffer = []
         self.elements = []
@@ -114,7 +123,7 @@ class Pericope(object):
         elif line.startswith('|'):
             self.direct = line[1:].strip().split()
         elif line.startswith(' '):
-            splitter = line.strip()
+            splitter = line.strip().replace('"', '”')
             h, t = splitter.split()
             head, tail = self.verse_buffer[-1][3].split(splitter)
             head += h
@@ -141,11 +150,20 @@ class Pericope(object):
                 return text
 
         fragments = []
-        for el in self.elements:
+        i_last = len(self.elements) - 1
+        for i, el in enumerate(self.elements):
             if type(el) is str:     # section heading
                 fragments.append(f'<h4>{el.strip()}</h4>')
             elif type(el) is list:  # paragraph
                 text =  ' '.join([make_verse(*a) for a in el])
+                if self.open_quote and i == 0:
+                    v = ''
+                    if text.startswith('<span class="v">'):
+                        v, text = text.split('</span>', 1)
+                        v += '</span>'
+                    text = v + '“' + text
+                if self.close_quote and i == i_last:
+                    text = text.rstrip() + '”'
                 fragments.append(f'<p>{text}</p>')
         return '\n'.join(fragments)
 
@@ -177,8 +195,8 @@ class Pericope(object):
         if self.subtitle:
             slug_base += ': ' + self.subtitle
         slug = sluggize(slug_base)
-        assert slug not in self._slugs, slug
-        self._slugs.add(slug)
+        assert slug not in self.slugs, slug
+        self.slugs.add(slug)
         self.slug = slug
 
     def write(self):
