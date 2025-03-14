@@ -2,6 +2,7 @@
 title: "Feeding of the Seven Thousand"
 pk: "69"
 num: 58
+book: "Matthew"
 excerpt: "Matthew 15:32–39"
 noindex: true
 ref: "Matthew 15:32–39"

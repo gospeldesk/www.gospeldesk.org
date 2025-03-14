@@ -2,11 +2,12 @@
 title: "Parables"
 pk: "56"
 num: 48
+book: "Matthew"
 excerpt: "Matthew 13:24–43"
 noindex: true
 ref: "Matthew 13:24–43"
 subtitle: "Wheat and Chaff"
-prev_slug: "parables-sower-explained"
+prev_slug: "parables-farmer-explained"
 next_slug: "parables-treasure-pearl-net"
 ---
 

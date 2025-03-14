@@ -2,6 +2,7 @@
 title: "John the Forerunner Appears"
 pk: "127"
 num: 94
+book: "Mark"
 excerpt: "Mark 1:1–8"
 noindex: true
 ref: "Mark 1:1–8"

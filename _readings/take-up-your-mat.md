@@ -2,6 +2,7 @@
 title: "Take Up Your Mat"
 pk: "30"
 num: 26
+book: "Matthew"
 excerpt: "Matthew 9:1–8"
 noindex: true
 ref: "Matthew 9:1–8"

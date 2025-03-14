@@ -2,6 +2,7 @@
 title: "Holy Innocents"
 pk: "4"
 num: 3
+book: "Matthew"
 excerpt: "Matthew 2:13–23"
 noindex: true
 ref: "Matthew 2:13–23"

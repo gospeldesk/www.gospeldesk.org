@@ -2,6 +2,7 @@
 title: "Servant of All"
 pk: "87"
 num: 72
+book: "Matthew"
 excerpt: "Matthew 20:17–28"
 noindex: true
 ref: "Matthew 20:17–28"

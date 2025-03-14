@@ -2,6 +2,7 @@
 title: "Last Judgment"
 pk: "115"
 num: 91
+book: "Matthew"
 excerpt: "Matthew 25:31–46"
 noindex: true
 ref: "Matthew 25:31–46"

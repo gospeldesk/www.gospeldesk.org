@@ -2,6 +2,7 @@
 title: "Peter's Mother-in-law (Matthew)"
 pk: "27"
 num: 23
+book: "Matthew"
 excerpt: "Matthew 8:14–23"
 noindex: true
 ref: "Matthew 8:14–23"

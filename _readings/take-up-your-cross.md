@@ -2,6 +2,7 @@
 title: "Take Up Your Cross"
 pk: "75"
 num: 63
+book: "Matthew"
 excerpt: "Matthew 16:24–28"
 noindex: true
 ref: "Matthew 16:24–28"

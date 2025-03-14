@@ -2,6 +2,7 @@
 title: "Sermon on the Mount"
 pk: "25"
 num: 21
+book: "Matthew"
 excerpt: "Matthew 7:24–8:4"
 noindex: true
 ref: "Matthew 7:24–8:4"

@@ -2,6 +2,7 @@
 title: "Call No Man Father"
 pk: "102"
 num: 84
+book: "Matthew"
 excerpt: "Matthew 23:1–12"
 noindex: true
 ref: "Matthew 23:1–12"

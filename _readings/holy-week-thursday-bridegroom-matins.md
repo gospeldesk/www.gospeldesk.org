@@ -2,6 +2,7 @@
 title: "Holy Week"
 pk: "314"
 num: 332
+book: "Luke"
 excerpt: "Luke 22:1–39"
 noindex: true
 ref: "Luke 22:1–39"

@@ -2,6 +2,7 @@
 title: "Little Apocalypse"
 pk: "106"
 num: 88
+book: "Matthew"
 excerpt: "Matthew 24:1–51"
 noindex: true
 ref: "Matthew 24:1–51"

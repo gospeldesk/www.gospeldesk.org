@@ -2,6 +2,7 @@
 title: "Fish Coin"
 pk: "79"
 num: 66
+book: "Matthew"
 excerpt: "Matthew 17:24–18:11"
 noindex: true
 ref: "Matthew 17:24–18:11"

@@ -2,6 +2,7 @@
 title: "Healing Great Multitudes"
 pk: "68"
 num: 57
+book: "Matthew"
 excerpt: "Matthew 15:29–31"
 noindex: true
 ref: "Matthew 15:29–31"

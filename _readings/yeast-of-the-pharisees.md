@@ -2,6 +2,7 @@
 title: "Yeast of the Pharisees"
 pk: "71"
 num: 60
+book: "Matthew"
 excerpt: "Matthew 16:6–12"
 noindex: true
 ref: "Matthew 16:6–12"

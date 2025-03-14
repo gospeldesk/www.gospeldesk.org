@@ -2,6 +2,7 @@
 title: "Appointing the Twelve"
 pk: "139"
 num: 105
+book: "Mark"
 excerpt: "Mark 3:13–19"
 noindex: true
 ref: "Mark 3:13–19"

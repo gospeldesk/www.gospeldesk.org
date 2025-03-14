@@ -2,6 +2,7 @@
 title: "Out of the Heart"
 pk: "66"
 num: 55
+book: "Matthew"
 excerpt: "Matthew 15:12–21"
 noindex: true
 ref: "Matthew 15:12–21"

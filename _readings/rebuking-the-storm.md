@@ -2,6 +2,7 @@
 title: "Rebuking the Storm"
 pk: "28"
 num: 24
+book: "Matthew"
 excerpt: "Matthew 8:23–27"
 noindex: true
 ref: "Matthew 8:23–27"

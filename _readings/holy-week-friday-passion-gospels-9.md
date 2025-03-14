@@ -2,6 +2,7 @@
 title: "Holy Week"
 pk: "388"
 num: 342
+book: "John"
 excerpt: "John 19:25–37"
 noindex: true
 ref: "John 19:25–37"

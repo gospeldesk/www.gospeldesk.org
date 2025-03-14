@@ -2,6 +2,7 @@
 title: "Parable of the Talents"
 pk: "114"
 num: 90
+book: "Matthew"
 excerpt: "Matthew 25:14–30"
 noindex: true
 ref: "Matthew 25:14–30"

@@ -2,6 +2,7 @@
 title: "Rich Young Ruler"
 pk: "85"
 num: 70
+book: "Matthew"
 excerpt: "Matthew 19:16–26"
 noindex: true
 ref: "Matthew 19:16–26"

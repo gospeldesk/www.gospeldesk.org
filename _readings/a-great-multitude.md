@@ -2,6 +2,7 @@
 title: "A Great Multitude"
 pk: "138"
 num: 104
+book: "Mark"
 excerpt: "Mark 3:6–12"
 noindex: true
 ref: "Mark 3:6–12"

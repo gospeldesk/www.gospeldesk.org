@@ -2,12 +2,13 @@
 title: "Calling of Matthew"
 pk: "31"
 num: 27
+book: "Matthew"
 excerpt: "Matthew 9:9–13"
 noindex: true
 ref: "Matthew 9:9–13"
 related: ["calling-of-levi"]
 prev_slug: "take-up-your-mat"
-next_slug: "new-wineskins"
+next_slug: "new-wineskins-matthew"
 ---
 
 <p><span class="v">9</span>As Jesus passed by from there, he saw a man called Matthew sitting at the tax collection office. He said to him, “Follow me.”</p>

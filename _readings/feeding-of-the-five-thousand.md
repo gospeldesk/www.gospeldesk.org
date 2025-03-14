@@ -2,6 +2,7 @@
 title: "Feeding of the Five Thousand"
 pk: "63"
 num: 52
+book: "Matthew"
 excerpt: "Matthew 14:14–22"
 noindex: true
 ref: "Matthew 14:14–22"

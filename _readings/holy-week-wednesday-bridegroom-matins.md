@@ -2,6 +2,7 @@
 title: "Holy Week"
 pk: "365"
 num: 330
+book: "John"
 excerpt: "John 12:17–50"
 noindex: true
 ref: "John 12:17–50"

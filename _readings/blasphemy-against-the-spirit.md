@@ -2,6 +2,7 @@
 title: "Blasphemy Against the Spirit"
 pk: "51"
 num: 43
+book: "Matthew"
 excerpt: "Matthew 12:30–37"
 noindex: true
 ref: "Matthew 12:30–37"

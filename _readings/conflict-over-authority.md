@@ -2,6 +2,7 @@
 title: "Conflict Over Authority"
 pk: "93"
 num: 76
+book: "Matthew"
 excerpt: "Matthew 21:23–27"
 noindex: true
 ref: "Matthew 21:23–27"

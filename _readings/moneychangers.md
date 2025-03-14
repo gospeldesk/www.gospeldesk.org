@@ -2,6 +2,7 @@
 title: "Moneychangers"
 pk: "90"
 num: 75
+book: "Matthew"
 excerpt: "Matthew 21:12–22"
 noindex: true
 ref: "Matthew 21:12–22"

@@ -2,6 +2,7 @@
 title: "Baptism"
 pk: "6"
 num: 5
+book: "Matthew"
 excerpt: "Matthew 3:13–17"
 noindex: true
 ref: "Matthew 3:13–17"

@@ -2,6 +2,7 @@
 title: "Where Two or Three Are Gathered"
 pk: "81"
 num: 67
+book: "Matthew"
 excerpt: "Matthew 18:10–19:15"
 noindex: true
 ref: "Matthew 18:10–19:15"

@@ -2,10 +2,11 @@
 title: "Hem of His Garment"
 pk: "33"
 num: 29
+book: "Matthew"
 excerpt: "Matthew 9:18–26"
 noindex: true
 ref: "Matthew 9:18–26"
-prev_slug: "new-wineskins"
+prev_slug: "new-wineskins-matthew"
 next_slug: "two-blind-men-mute-man"
 ---
 

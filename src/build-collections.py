@@ -5,6 +5,7 @@ import json
 import os
 import sys
 import string
+import traceback
 from collections import defaultdict
 
 LETTERS_NUMBERS = string.ascii_letters + string.digits
@@ -39,6 +40,14 @@ def sluggize(base):
     chars = [char if char in LETTERS_NUMBERS else ' ' for char in base.lower()]
     return  '-'.join(''.join(chars).split())
 
+def check_quote(s):
+    open_quote = close_quote = ''
+    if s.startswith('"'):
+        s, open_quote = s[1:], '“'
+    if s.endswith('"'):
+        s, close_quote = s[:-1], '”'
+    return s, open_quote, close_quote
+
 def main():
     i, cur, pericopes = 0, None, []
     Pericope.reset()
@@ -56,18 +65,11 @@ def main():
             else:
                 title = line.split(None, 1)[1]
                 subtitle = ''
-                open_quote = close_quote = False
-                if title.startswith('"'):
-                    title = title[1:]
-                    open_quote = True
-                if title.endswith('"'):
-                    title = title[:-1]
-                    close_quote = True
                 if ':' in title:
                     title, subtitle = title.split(':')
                     subtitle = subtitle.strip()
             i += 1
-            cur = Pericope(i, title, subtitle, open_quote, close_quote)
+            cur = Pericope(i, title, subtitle)
             pericopes.append(cur)
         else:
             cur.add(line)
@@ -93,13 +95,12 @@ class Pericope(object):
     @classmethod
     def reset(cls):
         cls.slugs = set()
+        cls.book = ''
 
-    def __init__(self, i, title, subtitle, open_quote, close_quote):
+    def __init__(self, i, title, subtitle):
         self.i = i
         self.title = title
         self.subtitle = subtitle
-        self.open_quote = open_quote
-        self.close_quote = close_quote
         self.pks = set()
         self.verse_buffer = []
         self.elements = []
@@ -132,13 +133,29 @@ class Pericope(object):
             self.flush_paragraph()
             self.verse_buffer.append([None, None, None, tail])
         else:
+            line, open_quote, close_quote = check_quote(line)
             bcv = line[:10]
-            pks = line[10:].strip()
+            pks_sub = line[10:].strip()
+            if 's/' in pks_sub:
+                pks, sub = pks_sub.split('s/')
+                pks = pks.rstrip()
+            else:
+                pks = pks_sub
+                sub = ''
             b, cv = bcv.split()
+            book = 'Matthew' if b == 'Matt' else b
+            if self.book:
+                if self.book != book:
+                    self.book = 'Composite'
+            else:
+                self.book = book
             c, v = map(int, cv.split(':'))
             for pk in pks.split():
                 self.pks.add(pk.replace(',', ''))
-            text = WEB[b][c][v]
+            text = open_quote + WEB[b][c][v] + close_quote
+            if sub:
+                frm, to = sub.split('/')
+                text = text.replace(frm, to)
             self.verse_buffer.append([b,c,v, text])
 
     @property
@@ -150,20 +167,11 @@ class Pericope(object):
                 return text
 
         fragments = []
-        i_last = len(self.elements) - 1
-        for i, el in enumerate(self.elements):
+        for el in self.elements:
             if type(el) is str:     # section heading
                 fragments.append(f'<h4>{el.strip()}</h4>')
             elif type(el) is list:  # paragraph
                 text =  ' '.join([make_verse(*a) for a in el])
-                if self.open_quote and i == 0:
-                    v = ''
-                    if text.startswith('<span class="v">'):
-                        v, text = text.split('</span>', 1)
-                        v += '</span>'
-                    text = v + '“' + text
-                if self.close_quote and i == i_last:
-                    text = text.rstrip() + '”'
                 fragments.append(f'<p>{text}</p>')
         return '\n'.join(fragments)
 
@@ -257,6 +265,7 @@ God willing, the Church will proclaim this Gospel on <u><b><a class="next-procla
 title: "{self.title}"
 pk: "{pk}"
 num: {self.i}
+book: "{self.book}"
 excerpt: "{excerpt}"
 noindex: true
 {frontmatter}---
@@ -272,6 +281,13 @@ if __name__ == '__main__':
     if '-d' in sys.argv:
         for line in sys.stdin:
             sys.stdout.write(line)
-            main()
+            try:
+                main()
+            except KeyboardInterrupt:
+                raise
+            except:
+                print()
+                traceback.print_exc()
+                print()
     else:
         main()

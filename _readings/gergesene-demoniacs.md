@@ -2,6 +2,7 @@
 title: "Gergesene Demoniacs"
 pk: "29"
 num: 25
+book: "Matthew"
 excerpt: "Matthew 8:28–9:1"
 noindex: true
 ref: "Matthew 8:28–9:1"

@@ -1,11 +1,12 @@
 ---
-title: "New Wineskins"
+title: "New Wineskins (Matthew)"
 pk: "32"
 num: 28
+book: "Matthew"
 excerpt: "Matthew 9:14–17"
 noindex: true
 ref: "Matthew 9:14–17"
-related: ["can-the-groomsmen-fast"]
+related: ["new-wineskins-mark"]
 prev_slug: "calling-of-matthew"
 next_slug: "hem-of-his-garment"
 ---

@@ -2,6 +2,7 @@
 title: "Parables"
 pk: "60"
 num: 49
+book: "Matthew"
 excerpt: "Matthew 13:44–54"
 noindex: true
 ref: "Matthew 13:44–54"

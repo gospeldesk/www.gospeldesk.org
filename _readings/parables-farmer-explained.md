@@ -1,0 +1,23 @@
+---
+title: "Parables"
+pk: "55"
+num: 47
+book: "Matthew"
+excerpt: "Matthew 13:10–23"
+noindex: true
+ref: "Matthew 13:10–23"
+subtitle: "Farmer Explained"
+prev_slug: "parables-farmer"
+next_slug: "parables-wheat-and-chaff"
+---
+
+<p><span class="v">10</span>The disciples came, and said to him, “Why do you speak to them in parables?” </p>
+<p><span class="v">11</span>He answered them, “To you it is given to know the mysteries of the Kingdom of Heaven, but it is not given to them.  <span class="v">12</span>For whoever has, to him will be given, and he will have abundance, but whoever doesn’t have, from him will be taken away even that which he has.  <span class="v">13</span>Therefore I speak to them in parables, because seeing they don’t see, and hearing, they don’t hear, neither do they understand.  <span class="v">14</span>In them the prophecy of Isaiah is fulfilled, which says, ‘By hearing you will hear, and will in no way understand; Seeing you will see, and will in no way perceive:  <span class="v">15</span>for this people’s heart has grown callous, their ears are dull of hearing, they have closed their eyes; or else perhaps they might perceive with their eyes, hear with their ears, understand with their heart, and would turn again; and I would heal them.’ </p>
+<p><span class="v">16</span>“But blessed are your eyes, for they see; and your ears, for they hear.  <span class="v">17</span>For most certainly I tell you that many prophets and righteous men desired to see the things which you see, and didn’t see them; and to hear the things which you hear, and didn’t hear them. ”</p>
+<h4>Explanation</h4>
+<p><span class="v">18</span>“Hear, then, the parable of the farmer.  <span class="v">19</span>When anyone hears the word of the Kingdom, and doesn’t understand it, the evil one comes, and snatches away that which has been sown in his heart. This is what was sown by the roadside.  <span class="v">20</span>What was sown on the rocky places, this is he who hears the word, and immediately with joy receives it;  <span class="v">21</span>yet he has no root in himself, but endures for a while. When oppression or persecution arises because of the word, immediately he stumbles.  <span class="v">22</span>What was sown among the thorns, this is he who hears the word, but the cares of this age and the deceitfulness of riches choke the word, and he becomes unfruitful.  <span class="v">23</span>What was sown on the good ground, this is he who hears the word, and understands it, who most certainly bears fruit, and produces, some one hundred times as much, some sixty, and some thirty.” </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://orthocal.info/readings/gregorian/2025/07/14/">July 14, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://orthocal.info/readings/gregorian/2026/07/06/">July  6, 2026</a>.

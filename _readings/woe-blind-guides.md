@@ -2,6 +2,7 @@
 title: "Woe! Blind Guides!"
 pk: "104"
 num: 86
+book: "Matthew"
 excerpt: "Matthew 23:23–28"
 noindex: true
 ref: "Matthew 23:23–28"

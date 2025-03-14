@@ -2,6 +2,7 @@
 title: "Holy Week"
 pk: "99"
 num: 328
+book: "Matthew"
 excerpt: "Matthew 22:15–23:39"
 noindex: true
 ref: "Matthew 22:15–23:39"

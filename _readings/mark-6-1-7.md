@@ -2,6 +2,7 @@
 title: "Mark 6:1–7"
 pk: "149"
 num: 115
+book: "Mark"
 excerpt: ""
 noindex: true
 prev_slug: "mark-5-24-34"

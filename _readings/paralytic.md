@@ -2,6 +2,7 @@
 title: "Paralytic"
 pk: "134"
 num: 100
+book: "Mark"
 excerpt: "Mark 2:1–12"
 noindex: true
 ref: "Mark 2:1–12"

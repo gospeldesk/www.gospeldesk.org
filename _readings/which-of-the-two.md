@@ -2,6 +2,7 @@
 title: "Which of the Two"
 pk: "94"
 num: 77
+book: "Matthew"
 excerpt: "Matthew 21:28–32"
 noindex: true
 ref: "Matthew 21:28–32"

@@ -2,6 +2,7 @@
 title: "Parable of the Ungrateful Servant"
 pk: "83"
 num: 68
+book: "Matthew"
 excerpt: "Matthew 18:23–35"
 noindex: true
 ref: "Matthew 18:23–35"

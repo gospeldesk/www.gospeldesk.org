@@ -2,6 +2,7 @@
 title: "Woe! Serpents!"
 pk: "105"
 num: 87
+book: "Matthew"
 excerpt: "Matthew 23:29–39"
 noindex: true
 ref: "Matthew 23:29–39"

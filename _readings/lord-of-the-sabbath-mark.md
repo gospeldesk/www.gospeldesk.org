@@ -2,11 +2,12 @@
 title: "Lord of the Sabbath (Mark)"
 pk: "137"
 num: 103
+book: "Mark"
 excerpt: "Mark 2:23–3:5"
 noindex: true
 ref: "Mark 2:23–3:5"
 related: ["lord-of-the-sabbath-matthew"]
-prev_slug: "can-the-groomsmen-fast"
+prev_slug: "new-wineskins-mark"
 next_slug: "a-great-multitude"
 ---
 

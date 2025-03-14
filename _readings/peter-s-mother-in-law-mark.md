@@ -2,6 +2,7 @@
 title: "Peter's Mother-in-law (Mark)"
 pk: "132"
 num: 98
+book: "Mark"
 excerpt: "Mark 1:29–35"
 noindex: true
 ref: "Mark 1:29–35"

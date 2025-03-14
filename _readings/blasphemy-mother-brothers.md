@@ -2,6 +2,7 @@
 title: "Blasphemy; Mother & Brothers"
 pk: "141"
 num: 107
+book: "Mark"
 excerpt: "Mark 3:28–35"
 noindex: true
 ref: "Mark 3:28–35"

@@ -2,6 +2,7 @@
 title: "Two Blind Men; Mute Man"
 pk: "34"
 num: 30
+book: "Matthew"
 excerpt: "Matthew 9:27–35"
 noindex: true
 ref: "Matthew 9:27–35"

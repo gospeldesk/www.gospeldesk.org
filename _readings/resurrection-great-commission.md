@@ -2,6 +2,7 @@
 title: "Resurrection; Great Commission"
 pk: "125"
 num: 93
+book: "Matthew"
 excerpt: "Matthew 28:1–20"
 noindex: true
 ref: "Matthew 28:1–20"

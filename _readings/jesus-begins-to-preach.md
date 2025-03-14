@@ -2,6 +2,7 @@
 title: "Jesus Begins to Preach"
 pk: "8"
 num: 7
+book: "Matthew"
 excerpt: "Matthew 4:12–17"
 noindex: true
 ref: "Matthew 4:12–17"

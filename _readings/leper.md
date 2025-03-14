@@ -2,6 +2,7 @@
 title: "Leper"
 pk: "133"
 num: 99
+book: "Mark"
 excerpt: "Mark 1:35–45"
 noindex: true
 ref: "Mark 1:35–45"

@@ -2,6 +2,7 @@
 title: "Daring to Question"
 pk: "101"
 num: 83
+book: "Matthew"
 excerpt: "Matthew 22:35–46"
 noindex: true
 ref: "Matthew 22:35–46"

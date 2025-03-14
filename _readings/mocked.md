@@ -2,6 +2,7 @@
 title: "Mocked"
 pk: "122"
 num: 92
+book: "Matthew"
 excerpt: "Matthew 27:27–32"
 noindex: true
 ref: "Matthew 27:27–32"

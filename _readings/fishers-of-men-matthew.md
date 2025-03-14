@@ -2,6 +2,7 @@
 title: "Fishers of Men (Matthew)"
 pk: "9"
 num: 8
+book: "Matthew"
 excerpt: "Matthew 4:18–24"
 noindex: true
 ref: "Matthew 4:18–24"

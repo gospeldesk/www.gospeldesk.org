@@ -2,6 +2,7 @@
 title: "Parable of the Wicked Tenants"
 pk: "95"
 num: 78
+book: "Matthew"
 excerpt: "Matthew 21:33–42"
 noindex: true
 ref: "Matthew 21:33–42"

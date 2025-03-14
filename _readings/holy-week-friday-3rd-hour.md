@@ -2,6 +2,7 @@
 title: "Holy Week"
 pk: "196"
 num: 347
+book: "Mark"
 excerpt: "Mark 15:16–41"
 noindex: true
 ref: "Mark 15:16–41"

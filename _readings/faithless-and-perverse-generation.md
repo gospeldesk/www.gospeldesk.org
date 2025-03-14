@@ -2,6 +2,7 @@
 title: "Faithless and Perverse Generation"
 pk: "77"
 num: 65
+book: "Matthew"
 excerpt: "Matthew 17:10–23"
 noindex: true
 ref: "Matthew 17:10–23"

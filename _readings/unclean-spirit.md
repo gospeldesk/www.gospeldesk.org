@@ -2,6 +2,7 @@
 title: "Unclean Spirit"
 pk: "131"
 num: 97
+book: "Mark"
 excerpt: "Mark 1:23–28"
 noindex: true
 ref: "Mark 1:23–28"

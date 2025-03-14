@@ -2,6 +2,7 @@
 title: "Genealogy and Birth"
 pk: "1"
 num: 1
+book: "Matthew"
 excerpt: "Matthew 1:1–25"
 noindex: true
 ref: "Matthew 1:1–25"

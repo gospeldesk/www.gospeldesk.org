@@ -2,6 +2,7 @@
 title: "Eleventh Hour"
 pk: "86"
 num: 71
+book: "Matthew"
 excerpt: "Matthew 20:1–16"
 noindex: true
 ref: "Matthew 20:1–16"

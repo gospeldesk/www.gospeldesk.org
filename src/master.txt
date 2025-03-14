@@ -136,7 +136,7 @@ Matt  4:22  9, 90002
 
 Matt  4:23  9, 90002
 Matt  4:24     90002
----- Sermon on the Mount: Beatitudes; Salt of the Earth"
+---- Sermon on the Mount: Beatitudes; Salt of the Earth
 Matt  4:25  10, 11
 Matt  5:1   10, 11
 
@@ -153,17 +153,17 @@ Matt  5:10  10, 11
 Matt  5:11  10, 11
 Matt  5:12  10, 11
 
-Matt  5:13  10
----- "Sermon on the Mount: Light of the World; Law and Prophets"
-Matt  5:14  12
+Matt  5:13  10"
+---- Sermon on the Mount: Light of the World; Law and Prophets
+"Matt  5:14  12
 Matt  5:15  12
 Matt  5:16  12
 
 Matt  5:17  12
 Matt  5:18  12
-Matt  5:19  12
----- "Sermon on the Mount: Righteousness Exceeding the Pharisees"
-Matt  5:20  13
+Matt  5:19  12"
+---- Sermon on the Mount: Righteousness Exceeding the Pharisees
+"Matt  5:20  13
 
 Matt  5:21  13
 Matt  5:22  13
@@ -171,16 +171,16 @@ Matt  5:22  13
 Matt  5:23  13
 Matt  5:24  13
 Matt  5:25  13
-Matt  5:26  13
----- Sermon on the Mount: Adultery; Divorce"
+Matt  5:26  13"
+---- Sermon on the Mount: Adultery; Divorce
 Matt  5:27  14
 Matt  5:28  14
 Matt  5:29  14
 Matt  5:30  14
 
 Matt  5:31  14
-Matt  5:32  14
----- Sermon on the Mount: Swearing; Resistance"
+Matt  5:32  14"
+---- Sermon on the Mount: Swearing; Resistance
 Matt  5:33  15
 Matt  5:34  15
 Matt  5:35  15
@@ -190,17 +190,17 @@ Matt  5:37  15
 Matt  5:38  15
 Matt  5:39  15
 Matt  5:40  15
-Matt  5:41  15
----- "Sermon on the Mount: Love Your Enemies"
-Matt  5:42  16
+Matt  5:41  15"
+---- Sermon on the Mount: Love Your Enemies
+"Matt  5:42  16
 
 Matt  5:43  16
 Matt  5:44  16
 Matt  5:45  16
 Matt  5:46  16
 Matt  5:47  16
-Matt  5:48  16
----- Sermon on the Mount: Almsgiving; Prayer"
+Matt  5:48  16"
+---- Sermon on the Mount: Almsgiving; Prayer
 Matt  6:1   17
 Matt  6:2   17
 Matt  6:3   17
@@ -214,8 +214,8 @@ Matt  6:9   17
 Matt  6:10  17
 Matt  6:11  17
 Matt  6:12  17
-Matt  6:13  17
----- Sermon on the Mount: Forgiveness; Fasting; Treasure"
+Matt  6:13  17"
+---- Sermon on the Mount: Forgiveness; Fasting; Treasure
 Matt  6:14  18
 Matt  6:15  18
 
@@ -225,8 +225,8 @@ Matt  6:18  18
 
 Matt  6:19  18
 Matt  6:20  18
-Matt  6:21  18
----- Sermon on the Mount: Seek First the Kingdom"
+Matt  6:21  18"
+---- Sermon on the Mount: Seek First the Kingdom
 Matt  6:22  19
 Matt  6:23  19
 
@@ -241,8 +241,8 @@ Matt  6:30  19
 
 Matt  6:31  19
 Matt  6:32  19
-Matt  6:33  19
----- Sermon on the Mount: Don't Be Anxious"
+Matt  6:33  19"
+---- Sermon on the Mount: Don't Be Anxious
 Matt  6:31  20
 Matt  6:32  20
 Matt  6:33  20
@@ -250,8 +250,8 @@ Matt  6:34  20
 
 Matt  7:9   20
 Matt  7:10  20
-Matt  7:11  20
----- Sermon on the Mount: Don't Judge"
+Matt  7:11  20"
+---- Sermon on the Mount: Don't Judge
 Matt  7:1   21
 Matt  7:2   21
 Matt  7:3   21
@@ -261,9 +261,9 @@ Matt  7:5   21
 Matt  7:6   21
 
 Matt  7:7   21
-Matt  7:8   21
----- "Sermon on the Mount: Golden Rule; Narrow Gate; False Prophets"
-Matt  7:12      22
+Matt  7:8   21"
+---- Sermon on the Mount: Golden Rule; Narrow Gate; False Prophets
+"Matt  7:12      22
 
 Matt  7:13      22
 Matt  7:14      22
@@ -277,7 +277,7 @@ Matt  7:20      22, 23
 
 Matt  7:21  24, 22, 23
 Matt  7:22  24
-Matt  7:23  24
+Matt  7:23  24"
 ---- Sermon on the Mount: Rock and Sand; Healing a Leper
 Matt  7:24  25
 Matt  7:25  25
@@ -367,8 +367,8 @@ Matt  9:11  31
 
 Matt  9:12  31
 Matt  9:13  31
----- New Wineskins
-> can-the-groomsmen-fast
+---- New Wineskins (Matthew)
+> new-wineskins-mark
 Matt  9:14  32
 
 Matt  9:15  32
@@ -410,7 +410,7 @@ Matt  9:33  34
 Matt  9:34  34
 
 Matt  9:35  34
----- Instructions to the Twelve: Freely Give"
+---- Instructions to the Twelve: Freely Give
 > appointing-the-twelve
 Matt  9:36  35
 Matt  9:37  35
@@ -424,16 +424,16 @@ Matt 10:4   35
 Matt 10:5   35, 36
 Matt 10:6   35, 36
 Matt 10:7   35, 36
-Matt 10:8   35, 36
----- "Instructions to the Twelve: Shake the Dust"
-Matt 10:9   37
+Matt 10:8   35, 36"
+---- Instructions to the Twelve: Shake the Dust
+"Matt 10:9   37
 Matt 10:10  37
 Matt 10:11  37
 Matt 10:12  37
 Matt 10:13  37
 Matt 10:14  37
-Matt 10:15  37
----- Instructions to the Twelve: Endure to the End"
+Matt 10:15  37"
+---- Instructions to the Twelve: Endure to the End
 Matt 10:16  38
 Matt 10:17  38
 Matt 10:18  38
@@ -441,9 +441,9 @@ Matt 10:19  38
 Matt 10:20  38
 
 Matt 10:21  38
-Matt 10:22  38
----- "Instructions to the Twelve: Don't Be Afraid"
-Matt 10:23  39
+Matt 10:22  38"
+---- Instructions to the Twelve: Don't Be Afraid
+"Matt 10:23  39
 
 Matt 10:24  39
 Matt 10:25  39
@@ -453,9 +453,9 @@ Matt 10:28  39
 
 Matt 10:29  39
 Matt 10:30  39
-Matt 10:31  39
----- "Instructions to the Twelve: Not Peace But a Sword"
-Matt 10:32  40, 41
+Matt 10:31  39"
+---- Instructions to the Twelve: Not Peace But a Sword
+"Matt 10:32  40, 41
 Matt 10:33  40, 41
 
 Matt 10:34  40
@@ -474,13 +474,15 @@ Matt 19:27      41
 
 Matt 19:28      41
 Matt 19:29      41
-Matt 19:30      41
+Matt 19:30      41"
 ---- John is Elijah
 Matt 11:2   43
 Matt 11:3   43
+
 Matt 11:4   43
 Matt 11:5   43
 Matt 11:6   43
+
 Matt 11:7   43
 Matt 11:8   43
 Matt 11:9   43
@@ -489,23 +491,27 @@ Matt 11:11  43
 Matt 11:12  43
 Matt 11:13  43
 Matt 11:14  43
-Matt 11:15  43
+Matt 11:15  43"
 ---- Friend of Sinners
 Matt 11:16  44
 Matt 11:17  44
 Matt 11:18  44
 Matt 11:19  44
+
 Matt 11:20  44
 ---- Woe to Chorazin
 Matt 11:20  45
+
 Matt 11:21  45
 Matt 11:22  45
 Matt 11:23  45
 Matt 11:24  45
+
 Matt 11:25  45
-Matt 11:26  45
----- Take My Yoke
-Matt 11:27  46
+Matt 11:26  45"
+---- Easy Yoke
+"Matt 11:27  46
+
 Matt 11:28  46
 Matt 11:29  46
 Matt 11:30  46
@@ -513,6 +519,7 @@ Matt 11:30  46
 > lord-of-the-sabbath-mark
 Matt 12:1   47
 Matt 12:2   47
+
 Matt 12:3   47
 Matt 12:4   47
 Matt 12:5   47
@@ -522,12 +529,15 @@ Matt 12:8   47
 ---- Withered Hand
 Matt 12:9   48
 Matt 12:10  48
+
 Matt 12:11  48
 Matt 12:12  48
 Matt 12:13  48
+  hand." He
 ---- By Beelzebul
 > a-great-multitude
 Matt 12:14  49
+
 Matt 12:15  49, 50
 Matt 12:16  49, 50
 Matt 12:17      50
@@ -535,15 +545,19 @@ Matt 12:18      50
 Matt 12:19      50
 Matt 12:20      50
 Matt 12:21      50
+
 Matt 12:22  49
 Matt 12:23  49
+
 Matt 12:24  49
+
 Matt 12:25  49
 Matt 12:26  49
 Matt 12:27  49
 Matt 12:28  49
 Matt 12:29  49
-Matt 12:30  49
+
+Matt 12:30  49"
 ---- Blasphemy Against the Spirit
 > blasphemy-mother-brothers
 Matt 12:30  51
@@ -557,6 +571,7 @@ Matt 12:36  51
 Matt 12:37  51
 ---- Demand for a Sign
 Matt 12:38  52
+
 Matt 12:39  52
 Matt 12:40  52
 Matt 12:41  52
@@ -575,8 +590,8 @@ Matt 12:50  53
 
 Matt 13:1   53
 Matt 13:2   53
-Matt 13:3   53
----- Parables: Sower
+Matt 13:3   53 s/, saying, “Behold, a farmer went out to sow./.
+---- Parables: Farmer
 Matt 13:3   54
 Matt 13:4   54
 Matt 13:5   54
@@ -584,15 +599,20 @@ Matt 13:6   54
 Matt 13:7   54
 Matt 13:8   54
 Matt 13:9   54
----- Parables: Sower Explained
+---- Parables: Farmer Explained
 Matt 13:10  55
+
 Matt 13:11  55
 Matt 13:12  55
 Matt 13:13  55
 Matt 13:14  55
 Matt 13:15  55
+
 Matt 13:16  55
-Matt 13:17  55
+Matt 13:17  55"
+#
+# Explanation
+#
 Matt 13:18  55
 Matt 13:19  55
 Matt 13:20  55
@@ -907,9 +927,13 @@ Matt 20:28  87
 > two-blind-men-mute-man
 Matt 20:29  88
 Matt 20:30  88
+
 Matt 20:31  88
+
 Matt 20:32  88
+
 Matt 20:33  88
+
 Matt 20:34  88
 ---- Triumphal Entry
 Matt 21:1   89
@@ -1268,9 +1292,10 @@ Mark  2:14  90004, 135
 Mark  2:15  90004, 135
 Mark  2:16  90004, 135
 Mark  2:17  90004, 135
----- Can the Groomsmen Fast?
-> new-wineskins
+---- New Wineskins (Mark)
+> new-wineskins-matthew
 Mark  2:18  136
+
 Mark  2:19  136
 Mark  2:20  136
 Mark  2:21  136

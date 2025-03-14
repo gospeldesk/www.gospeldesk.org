@@ -2,6 +2,7 @@
 title: "Beheading of John"
 pk: "62"
 num: 51
+book: "Matthew"
 excerpt: "Matthew 14:1–13"
 noindex: true
 ref: "Matthew 14:1–13"

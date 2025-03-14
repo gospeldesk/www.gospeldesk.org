@@ -2,6 +2,7 @@
 title: "Mark 4:1–9"
 pk: "142"
 num: 108
+book: "Mark"
 excerpt: ""
 noindex: true
 prev_slug: "blasphemy-mother-brothers"

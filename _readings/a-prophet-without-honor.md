@@ -2,6 +2,7 @@
 title: "A Prophet Without Honor"
 pk: "61"
 num: 50
+book: "Matthew"
 excerpt: "Matthew 13:54–58"
 noindex: true
 ref: "Matthew 13:54–58"

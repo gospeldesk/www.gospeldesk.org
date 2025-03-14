@@ -2,6 +2,7 @@
 title: "Marriage in the Resurrection"
 pk: "100"
 num: 82
+book: "Matthew"
 excerpt: "Matthew 22:23–33"
 noindex: true
 ref: "Matthew 22:23–33"

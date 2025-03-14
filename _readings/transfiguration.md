@@ -2,6 +2,7 @@
 title: "Transfiguration"
 pk: "76"
 num: 64
+book: "Matthew"
 excerpt: "Matthew 17:1–9"
 noindex: true
 ref: "Matthew 17:1–9"
