@@ -3,9 +3,9 @@ title: "Withered Hand"
 pk: "48"
 num: 41
 book: "Matthew"
-excerpt: "Composite"
+excerpt: "Matthew 12:9–13"
 noindex: true
-ref: "Composite"
+ref: "Matthew 12:9–13"
 prev_slug: "lord-of-the-sabbath-matthew"
 next_slug: "by-beelzebul"
 ---

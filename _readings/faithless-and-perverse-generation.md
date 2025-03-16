@@ -3,9 +3,9 @@ title: "Faithless and Perverse Generation"
 pk: "77"
 num: 65
 book: "Matthew"
-excerpt: "Composite"
+excerpt: "Matthew 17:10–23"
 noindex: true
-ref: "Composite"
+ref: "Matthew 17:10–23"
 prev_slug: "transfiguration"
 next_slug: "fish-coin-greatest"
 ---

@@ -3,9 +3,9 @@ title: "By What Authority"
 pk: "93"
 num: 76
 book: "Matthew"
-excerpt: "Composite"
+excerpt: "Matthew 21:23–27"
 noindex: true
-ref: "Composite"
+ref: "Matthew 21:23–27"
 prev_slug: "moneychangers-fig-tree"
 next_slug: "parable-of-the-two-brothers"
 ---

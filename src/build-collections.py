@@ -126,12 +126,13 @@ class Pericope(object):
         elif line.startswith(' '):
             splitter = line.strip().replace('"', '”')
             h, t = splitter.split()
-            head, tail = self.verse_buffer[-1][3].split(splitter)
+            b,c,v, inc, text = self.verse_buffer[-1]
+            head, tail = text.split(splitter)
             head += h
             tail = t + tail
-            self.verse_buffer[-1][3] = head
+            self.verse_buffer[-1][4] = head
             self.flush_paragraph()
-            self.verse_buffer.append([None, None, None, tail])
+            self.verse_buffer.append([b,c,v, False, tail])
         else:
             line, open_quote, close_quote = check_quote(line)
             bcv = line[:10]
@@ -158,12 +159,12 @@ class Pericope(object):
             if sub:
                 frm, to = sub.split('/')
                 text = text.replace(frm, to)
-            self.verse_buffer.append([b,c,v, text])
+            self.verse_buffer.append([b,c,v, True, text])
 
     @property
     def text(self):
-        def make_verse(b,c,v, text):
-            if v:
+        def make_verse(b,c,v, inc, text):
+            if inc:
                 return f'<span class="v">{v}</span>{text}'
             else:
                 return text
@@ -179,8 +180,8 @@ class Pericope(object):
 
     @property
     def ref(self):
-        sb,sc,sv,st = self.elements[0][0]
-        eb,ec,ev,et = self.elements[-1][-1]
+        sb,sc,sv,_,st = self.elements[0][0]
+        eb,ec,ev,_,et = self.elements[-1][-1]
         sb = 'Matthew' if sb == 'Matt' else sb
         eb = 'Matthew' if eb == 'Matt' else eb
         # TODO make this fully robust
