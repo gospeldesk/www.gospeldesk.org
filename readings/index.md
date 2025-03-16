@@ -24,11 +24,15 @@ noindex: true
 {% assign last_reading = sorted | last %}
 <script>
   document.addEventListener('keydown', function(e) {
-    if (e.key === 'l') {
-      window.location.href = '{{ first_reading.url }}';
-    }
-    if (e.key === 'h') {
-      window.location.href = '{{ last_reading.url }}';
+    if (event.shiftKey || event.ctrlKey || event.altKey || event.metaKey) {
+      return; // no-op
+    } else {
+      if (e.key === 'l') {
+        window.location.href = '{{ first_reading.url }}';
+      }
+      if (e.key === 'h') {
+        window.location.href = '{{ last_reading.url }}';
+      }
     }
   });
 </script>

@@ -73,6 +73,7 @@ Matt  2:21  4
 Matt  2:22  4
 Matt  2:23  4
 ---- John the Forerunner
+> john-came-baptizing
 Matt  3:1   5, 90001
 Matt  3:2   5, 90001
 Matt  3:3   5, 90001
@@ -89,7 +90,7 @@ Matt  3:10  5, 90001
 Matt  3:11  5, 90001
 Matt  3:12     90001
 ---- Baptism
-> baptism-temptation-preaching
+> jesus-begins-his-ministry
 Matt  3:13  6
 Matt  3:14  6
 
@@ -98,7 +99,7 @@ Matt  3:15  6
 Matt  3:16  6
 Matt  3:17  6
 ---- Temptation
-> baptism-temptation-preaching
+> jesus-begins-his-ministry
 Matt  4:1   7
 Matt  4:2   7
 Matt  4:3   7
@@ -117,7 +118,7 @@ Matt  4:10  7
 
 Matt  4:11  7
 ---- Jesus Begins to Preach
-> baptism-temptation-preaching
+> jesus-begins-his-ministry
 Matt  4:12  8
 Matt  4:13  8
 Matt  4:14  8
@@ -279,6 +280,7 @@ Matt  7:21  24, 22, 23
 Matt  7:22  24
 Matt  7:23  24"
 ---- Sermon on the Mount: Rock and Sand; Healing a Leper
+> leper
 Matt  7:24  25
 Matt  7:25  25
 Matt  7:26  25
@@ -286,7 +288,9 @@ Matt  7:27  25
 
 Matt  7:28  25
 Matt  7:29  25
-
+#
+# Healing a Leper
+#
 Matt  8:1   25
 Matt  8:2   25
 
@@ -346,6 +350,7 @@ Matt  8:33  29
 Matt  8:34  29
 Matt  9:1   29
 ---- Take Up Your Mat
+> paralytic
 Matt  9:1   30
 Matt  9:2   30
 
@@ -411,7 +416,7 @@ Matt  9:34  34
 
 Matt  9:35  34
 ---- Instructions to the Twelve: Freely Give
-> appointing-the-twelve
+> twelve-apostles
 Matt  9:36  35
 Matt  9:37  35
 Matt  9:38  35
@@ -535,7 +540,7 @@ Matt 12:12  48
 Matt 12:13  48
   hand." He
 ---- By Beelzebul
-> a-great-multitude
+> a-great-multitude a-house-divided
 Matt 12:14  49
 
 Matt 12:15  49, 50
@@ -1352,16 +1357,19 @@ Matt 25:44  115
 
 Matt 25:45  115
 Matt 25:46  115
----- John the Forerunner Appears
+---- John Came Baptizing
+> john-the-forerunner
 Mark  1:1   127
+
 Mark  1:2   127
 Mark  1:3   127
+
 Mark  1:4   127
 Mark  1:5   127
 Mark  1:6   127
 Mark  1:7   127
 Mark  1:8   127
----- Baptism; Temptation; Preaching
+---- Jesus Begins His Ministry
 > baptism temptation jesus-begins-to-preach
 Mark  1:9   128, 129
 Mark  1:10  128, 129
@@ -1404,36 +1412,52 @@ Mark  1:34  132
 
 Mark  1:35  132
 ---- Leper
+> sermon-on-the-mount-rock-and-sand-healing-a-leper
 Mark  1:35  90003, 133
 Mark  1:36  90003, 133
 Mark  1:37  90003, 133
+
 Mark  1:38  90003, 133
 Mark  1:39  90003, 133
+#
+# Healing a Leper
+#
 Mark  1:40  90003, 133
+
 Mark  1:41  90003, 133
+
 Mark  1:42  90003, 133
 Mark  1:43  90003, 133
 Mark  1:44  90003, 133
+
 Mark  1:45  90003
 ---- Paralytic
+> take-up-your-mat
 Mark  2:1   134
 Mark  2:2   134
+
 Mark  2:3   134
 Mark  2:4   134
 Mark  2:5   134
+
 Mark  2:6   134
 Mark  2:7   134
+
 Mark  2:8   134
 Mark  2:9   134
 Mark  2:10  134
 Mark  2:11  134
+
 Mark  2:12  134
 ---- Calling of Levi
 > calling-of-matthew
 Mark  2:13  90004
 Mark  2:14  90004, 135
+  me." And
+
 Mark  2:15  90004, 135
 Mark  2:16  90004, 135
+
 Mark  2:17  90004, 135
 ---- New Wineskins (Mark)
 > new-wineskins-matthew
@@ -1447,27 +1471,36 @@ Mark  2:22  136
 > lord-of-the-sabbath-matthew
 Mark  2:23  137
 Mark  2:24  137
+
 Mark  2:25  137
 Mark  2:26  137
 Mark  2:27  137
 Mark  2:28  137
+
 Mark  3:1   137
 Mark  3:2   137
 Mark  3:3   137
 Mark  3:4   137
+  kill?" But
+
 Mark  3:5   137
+  hand." He
 ---- A Great Multitude
 > by-beelzebul
 Mark  3:6   138
+
 Mark  3:7   138
 Mark  3:8   138
 Mark  3:9   138
 Mark  3:10  138
+
 Mark  3:11  138
+
 Mark  3:12  138
----- Appointing the Twelve
+---- Twelve Apostles
 > instructions-to-the-twelve-freely-give
 Mark  3:13  139
+
 Mark  3:14  139
 Mark  3:15  139
 Mark  3:16  139
@@ -1475,6 +1508,7 @@ Mark  3:17  139
 Mark  3:18  139
 Mark  3:19  139 s/ Then he came into a house./
 ---- A House Divided
+> by-beelzebul
 Mark  3:19  140 s/and Judas Iscariot, who also betrayed him. /
 Mark  3:20  140
 Mark  3:21  140

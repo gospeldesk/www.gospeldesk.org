@@ -280,6 +280,14 @@ noindex: true
         if new != old:
             open(f'../_readings/{self.slug}.md', 'w+').write(new)
 
+        if '--csv' in sys.argv:
+            csv_ref = self.ref
+            csv_slug = self.slug
+            csv_title = self.title
+            if self.subtitle:
+                csv_title += ': ' + self.subtitle
+            print(f'"{csv_ref}","=HYPERLINK(""https://www.gospeldesk.org/readings/{csv_slug}/"", ""{csv_title}"")"')
+
 if __name__ == '__main__':
     if '-d' in sys.argv:
         for line in sys.stdin:

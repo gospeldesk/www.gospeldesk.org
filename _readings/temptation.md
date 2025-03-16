@@ -6,7 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 4:1–11"
 noindex: true
 ref: "Matthew 4:1–11"
-related: ["baptism-temptation-preaching"]
+related: ["jesus-begins-his-ministry"]
 prev_slug: "baptism"
 next_slug: "jesus-begins-to-preach"
 ---

@@ -9,7 +9,7 @@ layout: default
     {{ page.ref }}
     {% if page.related.first %}
     {% assign related = site.readings | where_exp: "r", "r.related contains page.slug" | sort: "num" %}
-    ❧ {% for reading in related %}<a href="{{ reading.url }}">{{ reading.title }}</a> {% unless reading.title contains '(' %}({{ reading.book }}){% endunless %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+    ❧ {% for reading in related %}<a href="{{ reading.url }}">{% if reading.subtitle %}{{ reading.subtitle }}{% else %}{{ reading.title }}{% endif %}</a> {% unless reading.title contains '(' %}({{ reading.book }}){% endunless %}{% unless forloop.last %}, {% endunless %}{% endfor %}
     {% endif %}
   </div>
   {% endif %}
@@ -50,23 +50,27 @@ layout: default
 
 <script>
   document.addEventListener('keydown', function(e) {
-    if (e.key === 'h') {
-      window.location.href = '../{{ page.prev_slug }}/';
-    }
-    if (e.key === 'l') {
-      window.location.href = '../{{ page.next_slug }}/';
-    }
-    if (e.key === 'j') {
-      window.scrollBy({
-        top: 30,
-        behavior: 'smooth'
-      });
-    }
-    if (e.key === 'k') {
-      window.scrollBy({
-        top: -30,
-        behavior: 'smooth'
-      });
+    if (event.shiftKey || event.ctrlKey || event.altKey || event.metaKey) {
+      return; // no-op
+    } else {
+      if (e.key === 'h') {
+        window.location.href = '../{{ page.prev_slug }}/';
+      }
+      if (e.key === 'l') {
+        window.location.href = '../{{ page.next_slug }}/';
+      }
+      if (e.key === 'j') {
+        window.scrollBy({
+          top: 30,
+          behavior: 'smooth'
+        });
+      }
+      if (e.key === 'k') {
+        window.scrollBy({
+          top: -30,
+          behavior: 'smooth'
+        });
+      }
     }
   });
 </script>

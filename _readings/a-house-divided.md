@@ -6,7 +6,8 @@ book: "Mark"
 excerpt: "Mark 3:19–27"
 noindex: true
 ref: "Mark 3:19–27"
-prev_slug: "appointing-the-twelve"
+related: ["by-beelzebul"]
+prev_slug: "twelve-apostles"
 next_slug: "blasphemy-mother-brothers"
 ---
 

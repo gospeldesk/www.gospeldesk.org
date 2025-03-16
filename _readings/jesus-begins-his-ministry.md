@@ -1,5 +1,5 @@
 ---
-title: "Baptism; Temptation; Preaching"
+title: "Jesus Begins His Ministry"
 pk: "128"
 num: 93
 book: "Mark"
@@ -7,7 +7,7 @@ excerpt: "Mark 1:9–15"
 noindex: true
 ref: "Mark 1:9–15"
 related: ["baptism", "temptation", "jesus-begins-to-preach"]
-prev_slug: "john-the-forerunner-appears"
+prev_slug: "john-came-baptizing"
 next_slug: "fishers-of-men-mark"
 ---
 

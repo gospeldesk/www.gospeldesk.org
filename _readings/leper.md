@@ -6,11 +6,18 @@ book: "Mark"
 excerpt: "Mark 1:35–45"
 noindex: true
 ref: "Mark 1:35–45"
+related: ["sermon-on-the-mount-rock-and-sand-healing-a-leper"]
 prev_slug: "peter-s-mother-in-law-mark"
 next_slug: "paralytic"
 ---
 
-<p><span class="v">35</span>Early in the morning, while it was still dark, he rose up and went out, and departed into a deserted place, and prayed there.  <span class="v">36</span>Simon and those who were with him followed after him;  <span class="v">37</span>and they found him, and told him, “Everyone is looking for you.”  <span class="v">38</span>He said to them, “Let’s go elsewhere into the next towns, that I may preach there also, because I came out for this reason.”  <span class="v">39</span>He went into their synagogues throughout all Galilee, preaching and casting out demons.  <span class="v">40</span>A leper came to him, begging him, kneeling down to him, and saying to him, “If you want to, you can make me clean.”  <span class="v">41</span>Being moved with compassion, he stretched out his hand, and touched him, and said to him, “I want to. Be made clean.”  <span class="v">42</span>When he had said this, immediately the leprosy departed from him, and he was made clean.  <span class="v">43</span>He strictly warned him, and immediately sent him out,  <span class="v">44</span>and said to him, “See you say nothing to anybody, but go show yourself to the priest, and offer for your cleansing the things which Moses commanded, for a testimony to them.”  <span class="v">45</span>But he went out, and began to proclaim it much, and to spread about the matter, so that Jesus could no more openly enter into a city, but was outside in desert places: and they came to him from everywhere. </p>
+<p><span class="v">35</span>Early in the morning, while it was still dark, he rose up and went out, and departed into a deserted place, and prayed there.  <span class="v">36</span>Simon and those who were with him followed after him;  <span class="v">37</span>and they found him, and told him, “Everyone is looking for you.” </p>
+<p><span class="v">38</span>He said to them, “Let’s go elsewhere into the next towns, that I may preach there also, because I came out for this reason.”  <span class="v">39</span>He went into their synagogues throughout all Galilee, preaching and casting out demons. </p>
+<h4>Healing a Leper</h4>
+<p><span class="v">40</span>A leper came to him, begging him, kneeling down to him, and saying to him, “If you want to, you can make me clean.” </p>
+<p><span class="v">41</span>Being moved with compassion, he stretched out his hand, and touched him, and said to him, “I want to. Be made clean.” </p>
+<p><span class="v">42</span>When he had said this, immediately the leprosy departed from him, and he was made clean.  <span class="v">43</span>He strictly warned him, and immediately sent him out,  <span class="v">44</span>and said to him, “See you say nothing to anybody, but go show yourself to the priest, and offer for your cleansing the things which Moses commanded, for a testimony to them.” </p>
+<p><span class="v">45</span>But he went out, and began to proclaim it much, and to spread about the matter, so that Jesus could no more openly enter into a city, but was outside in desert places: and they came to him from everywhere. </p>
 
 
 ### Upcoming Proclamations

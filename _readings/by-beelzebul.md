@@ -6,7 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 12:14–30"
 noindex: true
 ref: "Matthew 12:14–30"
-related: ["a-great-multitude"]
+related: ["a-great-multitude", "a-house-divided"]
 prev_slug: "withered-hand"
 next_slug: "blasphemy-against-the-spirit"
 ---

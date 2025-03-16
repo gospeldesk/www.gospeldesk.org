@@ -6,6 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 9:1–8"
 noindex: true
 ref: "Matthew 9:1–8"
+related: ["paralytic"]
 prev_slug: "gergesene-demoniacs"
 next_slug: "calling-of-matthew"
 ---

@@ -6,7 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 4:12–17"
 noindex: true
 ref: "Matthew 4:12–17"
-related: ["baptism-temptation-preaching"]
+related: ["jesus-begins-his-ministry"]
 prev_slug: "temptation"
 next_slug: "fishers-of-men-matthew"
 ---
