@@ -1,7 +1,7 @@
 ---
 title: "Lord of the Sabbath (Mark)"
 pk: "137"
-num: 103
+num: 101
 book: "Mark"
 excerpt: "Mark 2:23–3:5"
 noindex: true

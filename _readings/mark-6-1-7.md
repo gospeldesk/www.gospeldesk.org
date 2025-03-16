@@ -1,7 +1,7 @@
 ---
 title: "Mark 6:1–7"
 pk: "149"
-num: 115
+num: 113
 book: "Mark"
 excerpt: ""
 noindex: true

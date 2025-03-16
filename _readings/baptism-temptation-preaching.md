@@ -1,7 +1,7 @@
 ---
 title: "Baptism; Temptation; Preaching"
 pk: "128"
-num: 95
+num: 93
 book: "Mark"
 excerpt: "Mark 1:9–15"
 noindex: true

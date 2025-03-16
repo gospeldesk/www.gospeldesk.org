@@ -1,13 +1,12 @@
 ---
-title: "Parables"
+title: "Parable of the Weeds"
 pk: "56"
 num: 48
 book: "Matthew"
 excerpt: "Matthew 13:24–43"
 noindex: true
 ref: "Matthew 13:24–43"
-subtitle: "Weeds"
-prev_slug: "parables-farmer-explained"
+prev_slug: "parable-of-the-farmer-explained"
 next_slug: "parables-treasure-pearl-net"
 ---
 

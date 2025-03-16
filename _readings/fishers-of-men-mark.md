@@ -1,7 +1,7 @@
 ---
 title: "Fishers of Men (Mark)"
 pk: "130"
-num: 96
+num: 94
 book: "Mark"
 excerpt: "Mark 1:16–22"
 noindex: true

@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 12:46–13:3"
 related: ["blasphemy-mother-brothers"]
 prev_slug: "demand-for-a-sign"
-next_slug: "parables-farmer"
+next_slug: "parable-of-the-farmer"
 ---
 
 <p><span class="v">46</span>While he was yet speaking to the multitudes, behold, his mother and his brothers stood outside, seeking to speak to him.  <span class="v">47</span>One said to him, “Behold, your mother and your brothers stand outside, seeking to speak to you.” </p>

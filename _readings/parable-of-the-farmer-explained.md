@@ -1,14 +1,13 @@
 ---
-title: "Parables"
+title: "Parable of the Farmer Explained"
 pk: "55"
 num: 47
 book: "Matthew"
 excerpt: "Matthew 13:10–23"
 noindex: true
 ref: "Matthew 13:10–23"
-subtitle: "Farmer Explained"
-prev_slug: "parables-farmer"
-next_slug: "parables-weeds"
+prev_slug: "parable-of-the-farmer"
+next_slug: "parable-of-the-weeds"
 ---
 
 <p><span class="v">10</span>The disciples came, and said to him, “Why do you speak to them in parables?” </p>

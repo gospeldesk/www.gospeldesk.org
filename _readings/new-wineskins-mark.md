@@ -1,7 +1,7 @@
 ---
 title: "New Wineskins (Mark)"
 pk: "136"
-num: 102
+num: 100
 book: "Mark"
 excerpt: "Mark 2:18–22"
 noindex: true

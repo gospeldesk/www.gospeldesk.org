@@ -1,7 +1,7 @@
 ---
 title: "Calling of Levi"
 pk: "135"
-num: 101
+num: 99
 book: "Mark"
 excerpt: "Mark 2:13–17"
 noindex: true

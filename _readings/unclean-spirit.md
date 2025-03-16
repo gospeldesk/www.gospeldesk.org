@@ -1,7 +1,7 @@
 ---
 title: "Unclean Spirit"
 pk: "131"
-num: 97
+num: 95
 book: "Mark"
 excerpt: "Mark 1:23–28"
 noindex: true

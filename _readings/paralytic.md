@@ -1,7 +1,7 @@
 ---
 title: "Paralytic"
 pk: "134"
-num: 100
+num: 98
 book: "Mark"
 excerpt: "Mark 2:1–12"
 noindex: true

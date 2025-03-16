@@ -1,7 +1,7 @@
 ---
 title: "Luke 8:1–3"
 pk: "237"
-num: 187
+num: 185
 book: "Luke"
 excerpt: ""
 noindex: true

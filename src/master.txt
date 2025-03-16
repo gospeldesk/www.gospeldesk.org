@@ -591,7 +591,7 @@ Matt 12:50  53
 Matt 13:1   53
 Matt 13:2   53
 Matt 13:3   53 s/, saying, “Behold, a farmer went out to sow./.
----- Parables: Farmer
+---- Parable of the Farmer
 Matt 13:3   54
 Matt 13:4   54
 Matt 13:5   54
@@ -599,7 +599,7 @@ Matt 13:6   54
 Matt 13:7   54
 Matt 13:8   54
 Matt 13:9   54
----- Parables: Farmer Explained
+---- Parable of the Farmer Explained
 Matt 13:10  55
 
 Matt 13:11  55
@@ -619,7 +619,7 @@ Matt 13:20  55
 Matt 13:21  55
 Matt 13:22  55
 Matt 13:23  55
----- Parables: Weeds 
+---- Parable of the Weeds 
 Matt 13:24  56, 57
 Matt 13:25  56, 57
 Matt 13:26  56, 57
@@ -957,40 +957,56 @@ Matt 18:34  83
 Matt 18:35  83
 ---- Divorce
 Matt 19:3   84
+
 Matt 19:4   84
 Matt 19:5   84
 Matt 19:6   84
+
 Matt 19:7   84
+
 Matt 19:8   84
 Matt 19:9   84
+
 Matt 19:10  84
+
 Matt 19:11  84
 Matt 19:12  84
 ---- Rich Young Ruler
 Matt 19:16  85
+
 Matt 19:17  85
+
 Matt 19:18  85
 Matt 19:19  85
+
 Matt 19:20  85
+
 Matt 19:21  85
+
 Matt 19:22  85
+
 Matt 19:23  85
 Matt 19:24  85
+
 Matt 19:25  85
+
 Matt 19:26  85
----- Eleventh Hour
+---- Parable of the Eleventh Hour 
 Matt 20:1   86
 Matt 20:2   86
 Matt 20:3   86
 Matt 20:4   86
 Matt 20:5   86
 Matt 20:6   86
+
 Matt 20:7   86
 Matt 20:8   86
+
 Matt 20:9   86
 Matt 20:10  86
 Matt 20:11  86
 Matt 20:12  86
+
 Matt 20:13  86
 Matt 20:14  86
 Matt 20:15  86
@@ -999,10 +1015,17 @@ Matt 20:16  86
 Matt 20:17  87
 Matt 20:18  87
 Matt 20:19  87
+
 Matt 20:20  87
+
 Matt 20:21  87
+  want?" She
+
 Matt 20:22  87
+  with?" They
+
 Matt 20:23  87
+
 Matt 20:24  87
 Matt 20:25  87
 Matt 20:26  87
@@ -1024,39 +1047,55 @@ Matt 20:34  88
 Matt 21:1   89
 Matt 21:2   89
 Matt 21:3   89
+
 Matt 21:4   89
 Matt 21:5   89
+
 Matt 21:6   89
 Matt 21:7   89
 Matt 21:8   89
 Matt 21:9   89
+
 Matt 21:10  89
 Matt 21:11  89
+
 Matt 21:15  89
 Matt 21:16  89
+  saying?" Jesus
 Matt 21:17  89
----- Moneychangers
+---- Moneychangers; Fig Tree
 Matt 21:12  90
 Matt 21:13  90
+
 Matt 21:14  90
+#
+# Fruitless Fig Tree
+#
 Matt 21:17  90
 Matt 21:18  90, 91
 Matt 21:19  90, 91
+  forever!" Immediately
 Matt 21:20  90, 91
+
 Matt 21:21      91
 Matt 21:22      91
----- Conflict Over Authority
+---- By What Authority
 Matt 21:23  93
+
 Matt 21:24  93
 Matt 21:25  93
+  men?" They
 Matt 21:26  93
-Matt 21:27  93
----- Which of the Two
-Matt 21:28  94
+Matt 21:27  93"
+  know." He
+---- Parable of the Two Brothers
+"Matt 21:28  94
 Matt 21:29  94
 Matt 21:30  94
 Matt 21:31  94
-Matt 21:32  94
+  father?" They
+  first." Jesus
+Matt 21:32  94"
 ---- Parable of the Wicked Tenants
 Matt 21:33  95
 Matt 21:34  95
@@ -1066,14 +1105,17 @@ Matt 21:37  95
 Matt 21:38  95
 Matt 21:39  95
 Matt 21:40  95
+
 Matt 21:41  95
-Matt 21:42  95
----- Falling, Stone
+
+Matt 21:42  95"
+---- Cornerstone 
 Matt 21:43  96
 Matt 21:44  96
+
 Matt 21:45  96
 Matt 21:46  96
----- Highways and Byways
+---- Parable of the Marriage Feast 
 Matt 22:1   97
 Matt 22:2   97
 Matt 22:3   97
@@ -1081,6 +1123,7 @@ Matt 22:4   97
 Matt 22:5   97
 Matt 22:6   97
 Matt 22:7   97
+
 Matt 22:8   97
 Matt 22:9   97
 Matt 22:10  97
@@ -1092,10 +1135,16 @@ Matt 22:14  97
 Matt 22:15  98
 Matt 22:16  98
 Matt 22:17  98
+
 Matt 22:18  98
 Matt 22:19  98
+  money." They
+
 Matt 22:20  98
+
 Matt 22:21  98
+  s." Then
+
 Matt 22:22  98
 ---- Marriage in the Resurrection
 Matt 22:23  100
@@ -1104,23 +1153,32 @@ Matt 22:25  100
 Matt 22:26  100
 Matt 22:27  100
 Matt 22:28  100
+
 Matt 22:29  100
 Matt 22:30  100
 Matt 22:31  100
 Matt 22:32  100
+
 Matt 22:33  100
 ---- Daring to Question
 Matt 22:35  101
 Matt 22:36  101
+
 Matt 22:37  101
 Matt 22:38  101
 Matt 22:39  101
 Matt 22:40  101
+#
+# Whose Son Is the Christ?
+#
 Matt 22:41  101
 Matt 22:42  101
+  he?" They
+
 Matt 22:43  101
 Matt 22:44  101
-Matt 22:45  101
+Matt 22:45  101 s/“If then David/If then David
+
 Matt 22:46  101
 ---- Call No Man Father
 Matt 23:1   102
@@ -1130,45 +1188,55 @@ Matt 23:4   102
 Matt 23:5   102
 Matt 23:6   102
 Matt 23:7   102
-Matt 23:8   102
+
+"Matt 23:8   102
 Matt 23:9   102
 Matt 23:10  102
 Matt 23:11  102
-Matt 23:12  102
+Matt 23:12  102"
 ---- Woe! Blind Fools!
 Matt 23:13  103
+
 Matt 23:14  103
 Matt 23:15  103
+
 Matt 23:16  103
 Matt 23:17  103
 Matt 23:18  103
 Matt 23:19  103
 Matt 23:20  103
 Matt 23:21  103
-Matt 23:22  103
+Matt 23:22  103"
 ---- Woe! Blind Guides!
 Matt 23:23  104
 Matt 23:24  104
+
 Matt 23:25  104
 Matt 23:26  104
+
 Matt 23:27  104
-Matt 23:28  104
+Matt 23:28  104"
 ---- Woe! Serpents!
 Matt 23:29  105
 Matt 23:30  105
 Matt 23:31  105
 Matt 23:32  105
 Matt 23:33  105
-Matt 23:34  105
+
+"Matt 23:34  105
 Matt 23:35  105
 Matt 23:36  105
+
 Matt 23:37  105
 Matt 23:38  105
 Matt 23:39  105
 ---- Little Apocalypse
 Matt 24:1   106
+
 Matt 24:2   106
+
 Matt 24:3   106
+
 Matt 24:4   106
 Matt 24:5   106
 Matt 24:6   106
@@ -1180,6 +1248,7 @@ Matt 24:11  106
 Matt 24:12  106
 Matt 24:13  106, 108
 Matt 24:14       108
+
 Matt 24:15       108
 Matt 24:16       108
 Matt 24:17       108
@@ -1188,20 +1257,24 @@ Matt 24:19       108
 Matt 24:20       108
 Matt 24:21       108
 Matt 24:22       108
+
 Matt 24:23       108
 Matt 24:24       108
-Matt 24:25       108
+Matt 24:25       108 s/“Behold/Behold
 Matt 24:26       108
 Matt 24:27       108, 109
 Matt 24:28       108, 109
-Matt 24:29            109
+
+"Matt 24:29            109
 Matt 24:30            109
 Matt 24:31            109
+
 Matt 24:32            109
 Matt 24:33            109
 Matt 24:34                 110
 Matt 24:35                 110
 Matt 24:36                 110
+
 Matt 24:37                 110
 Matt 24:38                 110
 Matt 24:39                 110
@@ -1210,19 +1283,21 @@ Matt 24:41                 110
 Matt 24:42            109, 110, 112
 Matt 24:43            109, 110, 112
 Matt 24:44            109, 110, 112
+
 Matt 24:45            109,      112
 Matt 24:46            109,      112
 Matt 24:47            109,      112
 Matt 24:48            109
 Matt 24:49            109
 Matt 24:50            109
-Matt 24:51            109
+Matt 24:51            109"
 ---- Parable of the Ten Virgins
 Matt 25:1   113
 Matt 25:2   113
 Matt 25:3   113
 Matt 25:4   113
-Matt 25:5   113
+
+"Matt 25:5   113
 Matt 25:6   113
 Matt 25:7   113
 Matt 25:8   113
@@ -1230,70 +1305,53 @@ Matt 25:9   113
 Matt 25:10  113
 Matt 25:11  113
 Matt 25:12  113
-Matt 25:13  113
+
+"Matt 25:13  113"
 ---- Parable of the Talents
 Matt 25:14  114
 Matt 25:15  114
-Matt 25:16  114
+
+"Matt 25:16  114
 Matt 25:17  114
 Matt 25:18  114
+
 Matt 25:19  114
 Matt 25:20  114
-Matt 25:21  114
+Matt 25:21  114 s/“His lord/His lord
+
 Matt 25:22  114
-Matt 25:23  114
+Matt 25:23  114 s/“His lord/His lord
+
 Matt 25:24  114
 Matt 25:25  114
+
 Matt 25:26  114
 Matt 25:27  114
 Matt 25:28  114
 Matt 25:29  114
-Matt 25:30  114
+Matt 25:30  114"
 ---- Last Judgment
 Matt 25:31  115
 Matt 25:32  115
 Matt 25:33  115
-Matt 25:34  115
+
+"Matt 25:34  115
 Matt 25:35  115
 Matt 25:36  115
+
 Matt 25:37  115
 Matt 25:38  115
 Matt 25:39  115
+
 Matt 25:40  115
 Matt 25:41  115
 Matt 25:42  115
 Matt 25:43  115
+
 Matt 25:44  115
+
 Matt 25:45  115
 Matt 25:46  115
----- Mocked
-Matt 27:27  122
-Matt 27:28  122
-Matt 27:29  122
-Matt 27:30  122
-Matt 27:31  122
-Matt 27:32  122
----- Resurrection; Great Commission
-Matt 28:1   125
-Matt 28:2   125
-Matt 28:3   125
-Matt 28:4   125
-Matt 28:5   125
-Matt 28:6   125
-Matt 28:7   125
-Matt 28:8   125
-Matt 28:9   125
-Matt 28:10  125
-Matt 28:11  125
-Matt 28:12  125
-Matt 28:13  125
-Matt 28:14  125
-Matt 28:15  125
-Matt 28:16  125, 126
-Matt 28:17  125, 126
-Matt 28:18  125, 126
-Matt 28:19  125, 126
-Matt 28:20  125, 126
 ---- John the Forerunner Appears
 Mark  1:1   127
 Mark  1:2   127
@@ -1415,22 +1473,22 @@ Mark  3:15  139
 Mark  3:16  139
 Mark  3:17  139
 Mark  3:18  139
-Mark  3:19  139
---  him. Then
+Mark  3:19  139 s/ Then he came into a house./
 ---- A House Divided
---  him. Then
-Mark  3:19  140
+Mark  3:19  140 s/and Judas Iscariot, who also betrayed him. /
 Mark  3:20  140
 Mark  3:21  140
+
 Mark  3:22  140
+
 Mark  3:23  140
 Mark  3:24  140
 Mark  3:25  140
 Mark  3:26  140
-Mark  3:27  140
+Mark  3:27  140"
 ---- Blasphemy; Mother & Brothers
 > blasphemy-against-the-spirit who-is-my-mother
-Mark  3:28  141
+"Mark  3:28  141
 Mark  3:29  141
 Mark  3:30  141
 #
@@ -5156,3 +5214,24 @@ Matt 27:58  120
 Matt 27:59  120
 Matt 27:60  120
 Matt 27:61  120
+---- Holy Week: Great and Holy Saturday
+Matt 28:1   125
+Matt 28:2   125
+Matt 28:3   125
+Matt 28:4   125
+Matt 28:5   125
+Matt 28:6   125
+Matt 28:7   125
+Matt 28:8   125
+Matt 28:9   125
+Matt 28:10  125
+Matt 28:11  125
+Matt 28:12  125
+Matt 28:13  125
+Matt 28:14  125
+Matt 28:15  125
+Matt 28:16  125, 126
+Matt 28:17  125, 126
+Matt 28:18  125, 126
+Matt 28:19  125, 126
+Matt 28:20  125, 126

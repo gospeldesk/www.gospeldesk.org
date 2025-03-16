@@ -1,7 +1,7 @@
 ---
 title: "Blasphemy; Mother & Brothers"
 pk: "141"
-num: 107
+num: 105
 book: "Mark"
 excerpt: "Mark 3:28–35"
 noindex: true
@@ -11,7 +11,7 @@ prev_slug: "a-house-divided"
 next_slug: "mark-4-1-9"
 ---
 
-<p><span class="v">28</span>Most certainly I tell you, all sins of the descendants of man will be forgiven, including their blasphemies with which they may blaspheme;  <span class="v">29</span>but whoever may blaspheme against the Holy Spirit never has forgiveness, but is subject to eternal condemnation.”  <span class="v">30</span>—because they said, “He has an unclean spirit.” </p>
+<p><span class="v">28</span>“Most certainly I tell you, all sins of the descendants of man will be forgiven, including their blasphemies with which they may blaspheme;  <span class="v">29</span>but whoever may blaspheme against the Holy Spirit never has forgiveness, but is subject to eternal condemnation.”  <span class="v">30</span>—because they said, “He has an unclean spirit.” </p>
 <h4>Mother and Brothers</h4>
 <p><span class="v">31</span>His mother and his brothers came, and standing outside, they sent to him, calling him.  <span class="v">32</span>A multitude was sitting around him, and they told him, “Behold, your mother, your brothers, and your sisters are outside looking for you.” </p>
 <p><span class="v">33</span>He answered them, “Who are my mother and my brothers?”  <span class="v">34</span>Looking around at those who sat around him, he said, “Behold, my mother and my brothers!  <span class="v">35</span>For whoever does the will of God, the same is my brother, and my sister, and mother.” </p>

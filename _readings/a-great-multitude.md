@@ -1,7 +1,7 @@
 ---
 title: "A Great Multitude"
 pk: "138"
-num: 104
+num: 102
 book: "Mark"
 excerpt: "Mark 3:6–12"
 noindex: true

@@ -1,12 +1,12 @@
 ---
 title: "John the Forerunner Appears"
 pk: "127"
-num: 94
+num: 92
 book: "Mark"
 excerpt: "Mark 1:1–8"
 noindex: true
 ref: "Mark 1:1–8"
-prev_slug: "resurrection-great-commission"
+prev_slug: "last-judgment"
 next_slug: "baptism-temptation-preaching"
 ---
 
