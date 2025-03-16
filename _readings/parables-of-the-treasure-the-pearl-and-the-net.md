@@ -1,12 +1,11 @@
 ---
-title: "Parables"
+title: "Parables of the Treasure, the Pearl, and the Net"
 pk: "60"
 num: 49
 book: "Matthew"
 excerpt: "Matthew 13:44–54"
 noindex: true
 ref: "Matthew 13:44–54"
-subtitle: "Treasure; Pearl; Net"
 prev_slug: "parable-of-the-weeds"
 next_slug: "a-prophet-without-honor"
 ---

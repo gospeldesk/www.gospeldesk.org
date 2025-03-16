@@ -652,7 +652,7 @@ Matt 13:40      57,     59
 Matt 13:41      57,     59
 Matt 13:42      57,     59
 Matt 13:43      57,     59"
----- Parables: Treasure; Pearl; Net
+---- Parables of the Treasure, the Pearl, and the Net
 Matt 13:44  60
 
 Matt 13:45  60

@@ -7,7 +7,7 @@ excerpt: "Matthew 13:24–43"
 noindex: true
 ref: "Matthew 13:24–43"
 prev_slug: "parable-of-the-farmer-explained"
-next_slug: "parables-treasure-pearl-net"
+next_slug: "parables-of-the-treasure-the-pearl-and-the-net"
 ---
 
 <p><span class="v">24</span>He set another parable before them, saying, “The Kingdom of Heaven is like a man who sowed good seed in his field,  <span class="v">25</span>but while people slept, his enemy came and sowed darnel weeds also among the wheat, and went away.  <span class="v">26</span>But when the blade sprang up and produced fruit, then the darnel weeds appeared also.  <span class="v">27</span>The servants of the householder came and said to him, ‘Sir, didn’t you sow good seed in your field? Where did these darnel weeds come from?’ </p>

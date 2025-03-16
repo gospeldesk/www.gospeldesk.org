@@ -2,6 +2,7 @@ url: "https://www.gospeldesk.org"
 sass:
   sass_dir: .
 exclude:
+  - "TODO"
   - "CNAME"
   - "Gemfile"
   - "Gemfile.lock"

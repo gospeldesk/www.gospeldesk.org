@@ -6,7 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 13:54–58"
 noindex: true
 ref: "Matthew 13:54–58"
-prev_slug: "parables-treasure-pearl-net"
+prev_slug: "parables-of-the-treasure-the-pearl-and-the-net"
 next_slug: "beheading-of-john"
 ---
 
