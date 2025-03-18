@@ -6,6 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 15:12–21"
 noindex: true
 ref: "Matthew 15:12–21"
+related: ["conflict-with-the-pharisees"]
 prev_slug: "denouncing-the-pharisees"
 next_slug: "canaanite-woman"
 ---

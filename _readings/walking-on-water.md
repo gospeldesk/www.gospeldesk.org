@@ -6,6 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 14:22–34"
 noindex: true
 ref: "Matthew 14:22–34"
+related: ["walking-on-water-mark"]
 prev_slug: "feeding-of-the-five-thousand"
 next_slug: "denouncing-the-pharisees"
 ---

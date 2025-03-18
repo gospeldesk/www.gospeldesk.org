@@ -1,0 +1,20 @@
+---
+title: "Healing a Deaf Mute"
+pk: "158"
+num: 120
+book: "Mark"
+excerpt: "Mark 7:31–37"
+noindex: true
+ref: "Mark 7:31–37"
+prev_slug: "syrophoenician-woman"
+next_slug: "feeding-of-the-four-thousand-mark"
+---
+
+<p><span class="v">31</span>Again he departed from the borders of Tyre and Sidon, and came to the sea of Galilee, through the middle of the region of Decapolis. </p>
+<p><span class="v">32</span>They brought to him one who was deaf and had an impediment in his speech. They begged him to lay his hand on him.  <span class="v">33</span>He took him aside from the multitude, privately, and put his fingers into his ears, and he spat, and touched his tongue.  <span class="v">34</span>Looking up to heaven, he sighed, and said to him, “Ephphatha!” that is, “Be opened!” </p>
+<p><span class="v">35</span>Immediately his ears were opened, and the impediment of his tongue was released, and he spoke clearly.  <span class="v">36</span>He commanded them that they should tell no one, but the more he commanded them, so much the more widely they proclaimed it.  <span class="v">37</span>They were astonished beyond measure, saying, “He has done all things well. He makes even the deaf hear, and the mute speak!” </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/03/29">March 29, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/03/21">March 21, 2026</a>.

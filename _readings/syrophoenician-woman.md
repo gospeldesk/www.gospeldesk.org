@@ -7,8 +7,8 @@ excerpt: "Mark 7:24–30"
 noindex: true
 ref: "Mark 7:24–30"
 related: ["canaanite-woman"]
-prev_slug: "mark-6-54-7-24"
-next_slug: "mark-7-31-37"
+prev_slug: "conflict-with-the-pharisees"
+next_slug: "healing-a-deaf-mute"
 ---
 
 <p><span class="v">24</span>From there he arose, and went away into the borders of Tyre and Sidon. He entered into a house, and didn’t want anyone to know it, but he couldn’t escape notice.  <span class="v">25</span>For a woman, whose little daughter had an unclean spirit, having heard of him, came and fell down at his feet.  <span class="v">26</span>Now the woman was a Greek, a Syrophoenician by race. She begged him that he would cast the demon out of her daughter. </p>

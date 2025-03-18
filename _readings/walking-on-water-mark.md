@@ -1,0 +1,22 @@
+---
+title: "Walking on Water (Mark)"
+pk: "153"
+num: 117
+book: "Mark"
+excerpt: "Mark 6:45–53"
+noindex: true
+ref: "Mark 6:45–53"
+related: ["walking-on-water"]
+prev_slug: "feeding-of-the-five-thousand-mark"
+next_slug: "conflict-with-the-pharisees"
+---
+
+<p><span class="v">45</span>Immediately he made his disciples get into the boat, and to go ahead to the other side, to Bethsaida, while he himself sent the multitude away.  <span class="v">46</span>After he had taken leave of them, he went up the mountain to pray. </p>
+<p><span class="v">47</span>When evening had come, the boat was in the middle of the sea, and he was alone on the land.  <span class="v">48</span>Seeing them distressed in rowing, for the wind was contrary to them, about the fourth watch of the night he came to them, walking on the sea, and he would have passed by them,  <span class="v">49</span>but they, when they saw him walking on the sea, supposed that it was a ghost, and cried out;  <span class="v">50</span>for they all saw him, and were troubled.</p>
+<p>But he immediately spoke with them, and said to them, “Cheer up! It is I! Don’t be afraid.”  <span class="v">51</span>He got into the boat with them; and the wind ceased, and they were very amazed among themselves, and marveled;  <span class="v">52</span>for they hadn’t understood about the loaves, but their hearts were hardened. </p>
+<p><span class="v">53</span>When they had crossed over, they came to land at Gennesaret, and moored to the shore. </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/09/19">September 19, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/09/11">September 11, 2026</a>.

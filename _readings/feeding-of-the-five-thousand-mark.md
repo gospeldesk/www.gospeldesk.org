@@ -8,7 +8,7 @@ noindex: true
 ref: "Mark 6:30–45"
 related: ["feeding-of-the-five-thousand"]
 prev_slug: "beheading-of-john-mark"
-next_slug: "mark-6-45-53"
+next_slug: "walking-on-water-mark"
 ---
 
 <p><span class="v">30</span>The apostles gathered themselves together to Jesus, and they told him all things, whatever they had done, and whatever they had taught.  <span class="v">31</span>He said to them, “You come apart into a deserted place, and rest awhile.” For there were many coming and going, and they had no leisure so much as to eat. </p>

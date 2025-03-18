@@ -726,6 +726,7 @@ Matt 14:21  63
 
 Matt 14:22  63
 ---- Walking on Water
+> walking-on-water-mark
 Matt 14:22  64
 Matt 14:23  64
 Matt 14:24  64
@@ -747,6 +748,7 @@ Matt 14:32  64
 Matt 14:33  64
 Matt 14:34  64
 ---- Denouncing the Pharisees
+> conflict-with-the-pharisees
 Matt 14:35  65
 Matt 14:36  65
 
@@ -764,6 +766,7 @@ Matt 15:9   65
 Matt 15:10  65
 Matt 15:11  65
 ---- Out of the Heart
+> conflict-with-the-pharisees
 Matt 15:12  66
 
 Matt 15:13  66
@@ -801,6 +804,7 @@ Matt 15:29  68
 Matt 15:30  68
 Matt 15:31  68
 ---- Feeding of the Four Thousand
+> feeding-of-the-four-thousand-mark
 Matt 15:32  69
 
 Matt 15:33  69
@@ -824,6 +828,7 @@ Matt 16:5   70
 
 Matt 16:6   70
 ---- Yeast of the Pharisees
+> yeast-of-the-pharisees-mark
 Matt 16:6   71
 
 Matt 16:7   71
@@ -1753,43 +1758,60 @@ Mark  6:43  152
 Mark  6:44  152
 
 Mark  6:45  152
-----
+---- Walking on Water (Mark) 
+> walking-on-water
 Mark  6:45  153
 Mark  6:46  153
+
 Mark  6:47  153
 Mark  6:48  153
 Mark  6:49  153
 Mark  6:50  153
+  troubled. But
 Mark  6:51  153
 Mark  6:52  153
+
 Mark  6:53  153
-----
+---- Conflict With the Pharisees
+> denouncing-the-pharisees out-of-the-heart
 Mark  6:54  154
 Mark  6:55  154
 Mark  6:56  154
+#
+# Conflict
+#
 Mark  7:1   154
 Mark  7:2   154
 Mark  7:3   154
 Mark  7:4   154
 Mark  7:5   154, 155
+
 Mark  7:6   154, 155
 Mark  7:7   154, 155
-Mark  7:8   154, 155
+Mark  7:8   154, 155 s/“For/For
+
 Mark  7:9        155
 Mark  7:10       155
 Mark  7:11       155
 Mark  7:12       155
 Mark  7:13       155
+
 Mark  7:14       155, 156
 Mark  7:15       155, 156
 Mark  7:16       155, 156
+#
+# Explanation
+#
 Mark  7:17            156
+
 Mark  7:18            156
-Mark  7:19            156
+Mark  7:19            156 s/foods ?/foods?
+
 Mark  7:20            156
 Mark  7:21            156
 Mark  7:22            156
 Mark  7:23            156
+
 Mark  7:24            156
 ---- Syrophoenician Woman
 > canaanite-woman
@@ -1805,41 +1827,59 @@ Mark  7:28  157
 Mark  7:29  157
 
 Mark  7:30  157
-----
+---- Healing a Deaf Mute
 Mark  7:31  158
+
 Mark  7:32  158
 Mark  7:33  158
 Mark  7:34  158
+
 Mark  7:35  158
 Mark  7:36  158
 Mark  7:37  158
-----
+---- Feeding of the Four Thousand (Mark)
+> feeding-of-the-four-thousand
 Mark  8:1   159
 Mark  8:2   159
 Mark  8:3   159
+
 Mark  8:4   159
 Mark  8:5   159
+  have?" They
+
 Mark  8:6   159
 Mark  8:7   159
 Mark  8:8   159
 Mark  8:9   159
+
 Mark  8:10  159
-----
+---- Yeast of the Pharisees (Mark)
 Mark  8:11  160
+
 Mark  8:12  160
+
 Mark  8:13  160
 Mark  8:14  160
 Mark  8:15  160
+
 Mark  8:16  160
+
 Mark  8:17  160
 Mark  8:18  160
 Mark  8:19  160
+  up?" They
+
 Mark  8:20  160
+  up?" They
+
 Mark  8:21  160
-----
+---- Healing a Blind Man
 Mark  8:22  161
+
 Mark  8:23  161
+
 Mark  8:24  161
+
 Mark  8:25  161
 Mark  8:26  161
 ----

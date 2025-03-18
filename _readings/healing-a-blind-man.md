@@ -1,0 +1,21 @@
+---
+title: "Healing a Blind Man"
+pk: "161"
+num: 123
+book: "Mark"
+excerpt: "Mark 8:22–26"
+noindex: true
+ref: "Mark 8:22–26"
+prev_slug: "yeast-of-the-pharisees-mark"
+next_slug: "mark-8-27-34"
+---
+
+<p><span class="v">22</span>He came to Bethsaida. They brought a blind man to him, and begged him to touch him. </p>
+<p><span class="v">23</span>He took hold of the blind man by the hand, and brought him out of the village. When he had spat on his eyes, and laid his hands on him, he asked him if he saw anything. </p>
+<p><span class="v">24</span>He looked up, and said, “I see men; for I see them like trees walking.” </p>
+<p><span class="v">25</span>Then again he laid his hands on his eyes. He looked intently, and was restored, and saw everyone clearly.  <span class="v">26</span>He sent him away to his house, saying, “Don’t enter into the village, nor tell anyone in the village.” </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/12/16">December 16, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/12/15">December 15, 2026</a>.
