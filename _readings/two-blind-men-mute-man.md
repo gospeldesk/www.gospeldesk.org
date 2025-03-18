@@ -7,7 +7,7 @@ excerpt: "Matthew 9:27–35"
 noindex: true
 ref: "Matthew 9:27–35"
 related: ["two-blind-men"]
-prev_slug: "hem-of-his-garment"
+prev_slug: "two-healings"
 next_slug: "instructions-to-the-twelve-freely-give"
 ---
 

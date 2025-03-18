@@ -6,6 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 8:23–27"
 noindex: true
 ref: "Matthew 8:23–27"
+related: ["rebuking-the-storm-mark"]
 prev_slug: "peter-s-mother-in-law-matthew"
 next_slug: "gergesene-demoniacs"
 ---

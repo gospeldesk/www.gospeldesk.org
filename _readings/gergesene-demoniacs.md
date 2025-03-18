@@ -6,6 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 8:28–9:1"
 noindex: true
 ref: "Matthew 8:28–9:1"
+related: ["gadarene-demoniac"]
 prev_slug: "rebuking-the-storm"
 next_slug: "take-up-your-mat"
 ---

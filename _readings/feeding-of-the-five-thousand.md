@@ -6,6 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 14:14–22"
 noindex: true
 ref: "Matthew 14:14–22"
+related: ["feeeding-of-the-five-thousand-mark"]
 prev_slug: "beheading-of-john"
 next_slug: "walking-on-water"
 ---

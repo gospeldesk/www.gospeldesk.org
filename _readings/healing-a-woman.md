@@ -1,0 +1,25 @@
+---
+title: "Healing a Woman"
+pk: "148"
+num: 112
+book: "Mark"
+excerpt: "Mark 5:24–34"
+noindex: true
+ref: "Mark 5:24–34"
+related: ["two-healings"]
+prev_slug: "healing-jairus-daughter"
+next_slug: "a-prophet-without-honor-mark"
+---
+
+<p><span class="v">24</span>He went with him, and a great multitude followed him, and they pressed upon him on all sides. </p>
+<p><span class="v">25</span>A certain woman, who had an issue of blood for twelve years,  <span class="v">26</span>and had suffered many things by many physicians, and had spent all that she had, and was no better, but rather grew worse,  <span class="v">27</span>having heard the things concerning Jesus, came up behind him in the crowd, and touched his clothes.  <span class="v">28</span>For she said, “If I just touch his clothes, I will be made well.”  <span class="v">29</span>Immediately the flow of her blood was dried up, and she felt in her body that she was healed of her affliction. </p>
+<p><span class="v">30</span>Immediately Jesus, perceiving in himself that the power had gone out from him, turned around in the crowd, and asked, “Who touched my clothes?” </p>
+<p><span class="v">31</span>His disciples said to him, “You see the multitude pressing against you, and you say, ‘Who touched me?’” </p>
+<p><span class="v">32</span>He looked around to see her who had done this thing. </p>
+<p><span class="v">33</span>But the woman, fearing and trembling, knowing what had been done to her, came and fell down before him, and told him all the truth. </p>
+<p><span class="v">34</span>He said to her, “Daughter, your faith has made you well. Go in peace, and be cured of your disease.” </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/09/15">September 15, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/09/07">September  7, 2026</a>.

@@ -329,6 +329,7 @@ Matt  8:22  27
 
 Matt  8:23  27
 ---- Rebuking the Storm
+> rebuking-the-storm-mark
 Matt  8:23  28
 Matt  8:24  28
 Matt  8:25  28
@@ -337,6 +338,7 @@ Matt  8:26  28
 
 Matt  8:27  28
 ---- Gergesene Demoniacs
+> gadarene-demoniac
 Matt  8:28  29
 Matt  8:29  29
 
@@ -379,7 +381,8 @@ Matt  9:14  32
 Matt  9:15  32
 Matt  9:16  32
 Matt  9:17  32
----- Hem of His Garment
+---- Two Healings 
+> healing-jairus-daughter healing-a-woman
 Matt  9:18  33
 
 Matt  9:19  33
@@ -416,7 +419,7 @@ Matt  9:34  34
 
 Matt  9:35  34
 ---- Instructions to the Twelve: Freely Give
-> twelve-apostles
+> twelve-apostles sending-the-twelve
 Matt  9:36  35
 Matt  9:37  35
 Matt  9:38  35
@@ -431,6 +434,7 @@ Matt 10:6   35, 36
 Matt 10:7   35, 36
 Matt 10:8   35, 36"
 ---- Instructions to the Twelve: Shake the Dust
+> sending-the-twelve
 "Matt 10:9   37
 Matt 10:10  37
 Matt 10:11  37
@@ -597,6 +601,7 @@ Matt 13:1   53
 Matt 13:2   53
 Matt 13:3   53 s/, saying, “Behold, a farmer went out to sow./.
 ---- Parable of the Farmer
+> parable-of-the-farmer-mark
 Matt 13:3   54
 Matt 13:4   54
 Matt 13:5   54
@@ -605,6 +610,7 @@ Matt 13:7   54
 Matt 13:8   54
 Matt 13:9   54
 ---- Parable of the Farmer Explained
+> parable-of-the-farmer-explained-mark
 Matt 13:10  55
 
 Matt 13:11  55
@@ -676,6 +682,7 @@ Matt 13:52  60
 Matt 13:53  60
 Matt 13:54  60
 ---- A Prophet Without Honor
+> a-prophet-without-honor-mark
 Matt 13:54  61
 Matt 13:55  61
 Matt 13:56  61
@@ -683,8 +690,10 @@ Matt 13:56  61
 Matt 13:57  61
 Matt 13:58  61
 ---- Beheading of John
+> beheading-of-john-mark
 Matt 14:1   62
 Matt 14:2   62
+
 Matt 14:3   62
 Matt 14:4   62
 
@@ -701,6 +710,7 @@ Matt 14:12  62
 
 Matt 14:13  62
 ---- Feeding of the Five Thousand
+> feeeding-of-the-five-thousand-mark
 Matt 14:14  63
 Matt 14:15  63
 
@@ -1534,8 +1544,10 @@ Mark  3:32  141
 Mark  3:33  141
 Mark  3:34  141
 Mark  3:35  141
-----
+---- Parable of the Farmer (Mark)
+> parable-of-the-farmer
 Mark  4:1   142
+
 Mark  4:2   142
 Mark  4:3   142
 Mark  4:4   142
@@ -1544,10 +1556,13 @@ Mark  4:6   142
 Mark  4:7   142
 Mark  4:8   142
 Mark  4:9   142
-----
+---- Parable of the Farmer Explained (Mark)
+> parable-of-the-farmer-explained
 Mark  4:10  143
+
 Mark  4:11  143
 Mark  4:12  143
+
 Mark  4:13  143
 Mark  4:14  143
 Mark  4:15  143
@@ -1556,127 +1571,187 @@ Mark  4:17  143
 Mark  4:18  143
 Mark  4:19  143
 Mark  4:20  143
+
 Mark  4:21  143
 Mark  4:22  143
 Mark  4:23  143
-----
+---- Parable of the Mustard Seed
 Mark  4:24  144
 Mark  4:25  144
+
 Mark  4:26  144
 Mark  4:27  144
 Mark  4:28  144
 Mark  4:29  144
+
 Mark  4:30  144
 Mark  4:31  144
 Mark  4:32  144
+
 Mark  4:33  144
 Mark  4:34  144
-----
+---- Rebuking the Storm (Mark)
+> rebuking-the-storm
 Mark  4:35  145
+
 Mark  4:36  145
 Mark  4:37  145
 Mark  4:38  145
+
 Mark  4:39  145
 Mark  4:40  145
+
 Mark  4:41  145
-----
+---- Gadarene Demoniac
+> gergesene-demoniacs
 Mark  5:1   146
 Mark  5:2   146
 Mark  5:3   146
 Mark  5:4   146
 Mark  5:5   146
+
 Mark  5:6   146
 Mark  5:7   146
+
 Mark  5:8   146
 Mark  5:9   146
+  name?" He
 Mark  5:10  146
 Mark  5:11  146
 Mark  5:12  146
+
 Mark  5:13  146
+  ssion. The
 Mark  5:14  146
+  country. The
 Mark  5:15  146
 Mark  5:16  146
+
 Mark  5:17  146
 Mark  5:18  146
 Mark  5:19  146
+
 Mark  5:20  146
-----
+---- Healing Jairus' Daughter
+> two-healings
 Mark  5:21       90005
 Mark  5:22  147, 90005
 Mark  5:23  147, 90005
+
 Mark  5:24  147, 90005
 Mark  5:35  147, 90005
+
 Mark  5:36  147, 90005
 Mark  5:37  147, 90005
+
 Mark  5:38  147, 90005
 Mark  5:39  147, 90005
+
 Mark  5:40  147, 90005
 Mark  5:41  147, 90005
+
 Mark  5:42  147, 90005
 Mark  5:43  147, 90005
+
 Mark  6:1   147, 90005
-----
+---- Healing a Woman
+> two-healings
 Mark  5:24  148
+
 Mark  5:25  148
 Mark  5:26  148
 Mark  5:27  148
 Mark  5:28  148
 Mark  5:29  148
+
 Mark  5:30  148
+
 Mark  5:31  148
+
 Mark  5:32  148
+
 Mark  5:33  148
+
 Mark  5:34  148
-----
+---- A Prophet Without Honor (Mark)
+> a-prophet-without-honor
 Mark  6:1   149
 Mark  6:2   149
 Mark  6:3   149
+
 Mark  6:4   149
 Mark  6:5   149
 Mark  6:6   149
+
 Mark  6:7   149
-----
+---- Sending the Twelve
+> instructions-to-the-twelve-freely-give instructions-to-the-twelve-shake-the-dust
 Mark  6:7   150
 Mark  6:8   150
 Mark  6:9   150
+
 Mark  6:10  150
 Mark  6:11  150
+
 Mark  6:12  150
 Mark  6:13  150
-----
+---- Beheading of John (Mark)
+> beheading-of-john
 Mark  6:14  151
+
 Mark  6:15  151
+  Elijah." Others
+
 Mark  6:16  151
+
 Mark  6:17  151
 Mark  6:18  151
+
 Mark  6:19  151
 Mark  6:20  151
+
 Mark  6:21  151
 Mark  6:22  151
+
 Mark  6:23  151
+
 Mark  6:24  151
+
 Mark  6:25  151
+
 Mark  6:26  151
 Mark  6:27  151
 Mark  6:28  151
+
 Mark  6:29  151
+
 Mark  6:30  151
-----
+---- Feeding of the Five Thousand (Mark)
+> feeding-of-the-five-thousand
 Mark  6:30  152
 Mark  6:31  152
+
 Mark  6:32  152
 Mark  6:33  152
+
 Mark  6:34  152
+
 Mark  6:35  152
 Mark  6:36  152
+
 Mark  6:37  152
+  eat." They
+
 Mark  6:38  152
+  see." When
+
 Mark  6:39  152
 Mark  6:40  152
 Mark  6:41  152
 Mark  6:42  152
 Mark  6:43  152
 Mark  6:44  152
+
 Mark  6:45  152
 ----
 Mark  6:45  153

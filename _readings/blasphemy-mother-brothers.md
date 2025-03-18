@@ -8,7 +8,7 @@ noindex: true
 ref: "Mark 3:28–35"
 related: ["blasphemy-against-the-spirit", "who-is-my-mother"]
 prev_slug: "a-house-divided"
-next_slug: "mark-4-1-9"
+next_slug: "parable-of-the-farmer-mark"
 ---
 
 <p><span class="v">28</span>“Most certainly I tell you, all sins of the descendants of man will be forgiven, including their blasphemies with which they may blaspheme;  <span class="v">29</span>but whoever may blaspheme against the Holy Spirit never has forgiveness, but is subject to eternal condemnation.”  <span class="v">30</span>—because they said, “He has an unclean spirit.” </p>

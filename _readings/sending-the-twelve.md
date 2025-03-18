@@ -1,0 +1,21 @@
+---
+title: "Sending the Twelve"
+pk: "150"
+num: 114
+book: "Mark"
+excerpt: "Mark 6:7–13"
+noindex: true
+ref: "Mark 6:7–13"
+related: ["instructions-to-the-twelve-freely-give", "instructions-to-the-twelve-shake-the-dust"]
+prev_slug: "a-prophet-without-honor-mark"
+next_slug: "beheading-of-john-mark"
+---
+
+<p><span class="v">7</span>He called to himself the twelve, and began to send them out two by two; and he gave them authority over the unclean spirits.  <span class="v">8</span>He commanded them that they should take nothing for their journey, except a staff only: no bread, no wallet, no money in their purse,  <span class="v">9</span>but to wear sandals, and not put on two tunics. </p>
+<p><span class="v">10</span>He said to them, “Wherever you enter into a house, stay there until you depart from there.  <span class="v">11</span>Whoever will not receive you nor hear you, as you depart from there, shake off the dust that is under your feet for a testimony against them. Assuredly, I tell you, it will be more tolerable for Sodom and Gomorrah in the day of judgment than for that city!” </p>
+<p><span class="v">12</span>They went out and preached that people should repent.  <span class="v">13</span>They cast out many demons, and anointed many with oil who were sick, and healed them. </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/04/25">April 25, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2025/09/17">September 17, 2025</a>.

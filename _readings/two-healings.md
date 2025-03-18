@@ -1,11 +1,12 @@
 ---
-title: "Hem of His Garment"
+title: "Two Healings"
 pk: "33"
 num: 29
 book: "Matthew"
 excerpt: "Matthew 9:18–26"
 noindex: true
 ref: "Matthew 9:18–26"
+related: ["healing-jairus-daughter", "healing-a-woman"]
 prev_slug: "new-wineskins-matthew"
 next_slug: "two-blind-men-mute-man"
 ---

@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 9:14–17"
 related: ["new-wineskins-mark"]
 prev_slug: "calling-of-matthew"
-next_slug: "hem-of-his-garment"
+next_slug: "two-healings"
 ---
 
 <p><span class="v">14</span>Then John’s disciples came to him, saying, “Why do we and the Pharisees fast often, but your disciples don’t fast?” </p>

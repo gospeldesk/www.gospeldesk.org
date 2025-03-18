@@ -7,6 +7,7 @@ excerpt: "Matthew 10:9–15"
 noindex: true
 ref: "Matthew 10:9–15"
 subtitle: "Shake the Dust"
+related: ["sending-the-twelve"]
 prev_slug: "instructions-to-the-twelve-freely-give"
 next_slug: "instructions-to-the-twelve-endure-to-the-end"
 ---
