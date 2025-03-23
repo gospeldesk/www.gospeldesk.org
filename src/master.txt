@@ -1,4 +1,5 @@
 ---- Genealogy and Birth
+> genealogy
 | jesus mary joseph holy-spirit dream-angel
 || ancestors jews prophets god
 Matt  1:1   1
@@ -2475,7 +2476,8 @@ Luke  3:19  213
 Luke  3:20  213
 Luke  3:21  213
 Luke  3:22  213
-----
+---- Genealogy
+> genealogy-and-birth
 Luke  3:23  214
 Luke  3:24  214
 Luke  3:25  214
@@ -2492,6 +2494,7 @@ Luke  3:35  214
 Luke  3:36  214
 Luke  3:37  214
 Luke  3:38  214
+
 Luke  4:1   214
 ----
 Luke  4:1   215

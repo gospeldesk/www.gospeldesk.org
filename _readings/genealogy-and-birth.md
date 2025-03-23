@@ -6,6 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 1:1–25"
 noindex: true
 ref: "Matthew 1:1–25"
+related: ["genealogy"]
 direct: ["jesus", "mary", "joseph", "holy-spirit", "dream-angel"]
 indirect: ["ancestors", "jews", "prophets", "god"]
 next_slug: "wise-men"
