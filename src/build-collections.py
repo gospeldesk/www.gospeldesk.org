@@ -123,7 +123,7 @@ class Pericope(object):
             self.indirect = line[2:].strip().split()
         elif line.startswith('|'):
             self.direct = line[1:].strip().split()
-        elif line.startswith(' '):
+        elif line.startswith('  '):
             splitter = line.strip().replace('"', '”')
             h, t = splitter.split()
             b,c,v, inc, text = self.verse_buffer[-1]

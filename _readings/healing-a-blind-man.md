@@ -7,7 +7,7 @@ excerpt: "Mark 8:22–26"
 noindex: true
 ref: "Mark 8:22–26"
 prev_slug: "yeast-of-the-pharisees-mark"
-next_slug: "mark-8-27-34"
+next_slug: "rebuke-of-peter"
 ---
 
 <p><span class="v">22</span>He came to Bethsaida. They brought a blind man to him, and begged him to touch him. </p>

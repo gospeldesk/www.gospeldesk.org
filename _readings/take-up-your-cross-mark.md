@@ -1,0 +1,20 @@
+---
+title: "Take Up Your Cross (Mark)"
+pk: "164"
+num: 125
+book: "Mark"
+excerpt: "Mark 8:34–9:1"
+noindex: true
+ref: "Mark 8:34–9:1"
+related: ["take-up-your-cross"]
+prev_slug: "rebuke-of-peter"
+next_slug: "transfiguration-mark"
+---
+
+<p><span class="v">34</span>He called the multitude to himself with his disciples, and said to them, “Whoever wants to come after me, let him deny himself, and take up his cross, and follow me.  <span class="v">35</span>For whoever wants to save his life will lose it; and whoever will lose his life for my sake and the sake of the Good News will save it.  <span class="v">36</span>For what does it profit a man, to gain the whole world, and forfeit his life?  <span class="v">37</span>For what will a man give in exchange for his life?  <span class="v">38</span>For whoever will be ashamed of me and of my words in this adulterous and sinful generation, the Son of Man also will be ashamed of him, when he comes in his Father’s glory, with the holy angels.” </p>
+<p><span class="v">1</span>He said to them, “Most certainly I tell you, there are some standing here who will in no way taste death until they see God’s Kingdom come with power.” </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/03/23">March 23, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2025/09/21">September 21, 2025</a>.

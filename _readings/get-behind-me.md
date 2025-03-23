@@ -6,6 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 16:20–24"
 noindex: true
 ref: "Matthew 16:20–24"
+related: ["rebuke-of-peter"]
 prev_slug: "confession-of-peter"
 next_slug: "take-up-your-cross"
 ---

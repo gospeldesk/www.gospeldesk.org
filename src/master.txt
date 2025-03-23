@@ -485,6 +485,7 @@ Matt 19:28      41
 Matt 19:29      41
 Matt 19:30      41"
 ---- John is Elijah
+> john-is-elijah-mark
 Matt 11:2   43
 Matt 11:3   43
 
@@ -840,6 +841,7 @@ Matt 16:11  71
 
 Matt 16:12  71
 ---- Confession of Peter
+> rebuke-of-peter 
 Matt 16:13  72, 73
 
 Matt 16:14  72, 73
@@ -852,6 +854,7 @@ Matt 16:17  72, 73
 Matt 16:18  72, 73
 Matt 16:19  72
 ---- Get Behind Me
+> rebuke-of-peter
 Matt 16:20  74
 
 Matt 16:21  74
@@ -861,12 +864,14 @@ Matt 16:22  74
 Matt 16:23  74
 Matt 16:24  74"
 ---- Take Up Your Cross
+> take-up-your-cross-mark
 Matt 16:24  75
 Matt 16:25  75
 Matt 16:26  75
 Matt 16:27  75
 Matt 16:28  75
 ---- Transfiguration
+> transfiguration-mark
 Matt 17:1   76
 Matt 17:2   76
 
@@ -882,6 +887,7 @@ Matt 17:7   76
 Matt 17:8   76
 Matt 17:9   76
 ---- Faithless and Perverse Generation
+> unbelieving-generation
 Matt 17:10  77
 
 Matt 17:11  77
@@ -1882,66 +1888,100 @@ Mark  8:24  161
 
 Mark  8:25  161
 Mark  8:26  161
-----
+---- Rebuke of Peter
+> confession-of-peter get-behind-me
 Mark  8:27  162
+
 Mark  8:28  162
+
 Mark  8:29  162
+  am?" Peter
+
 Mark  8:30  162, 163
 Mark  8:31  162, 163
 Mark  8:32       163
+  openly. Peter
 Mark  8:33       163
-Mark  8:34       163
-----
+
+Mark  8:34       163"
+---- Take Up Your Cross (Mark)
+> take-up-your-cross
 Mark  8:34  164
 Mark  8:35  164
 Mark  8:36  164
 Mark  8:37  164
 Mark  8:38  164
+
 Mark  9:1   164
-----
+---- Transfiguration (Mark)
+> transfiguration
 Mark  9:2   165
 Mark  9:3   165
 Mark  9:4   165
+
 Mark  9:5   165
 Mark  9:6   165
+
 Mark  9:7   165
+
 Mark  9:8   165
 Mark  9:9   165
-----
+---- John is Elijah (Mark)
+> john-is-elijah
 Mark  9:10  166
 Mark  9:11  166
+
 Mark  9:12  166
 Mark  9:13  166
+
 Mark  9:14  166
 Mark  9:15  166
 Mark  9:16  166
-----
+---- Unbelieving Generation
+> faithless-and-perverse-generation
 Mark  9:17  90006, 167
 Mark  9:18  90006, 167
+
 Mark  9:19  90006, 167
+
 Mark  9:20  90006, 167
+
 Mark  9:21  90006, 167
+  him?" He
 Mark  9:22  90006, 167
+
 Mark  9:23  90006, 167
+
 Mark  9:24  90006, 167
+
 Mark  9:25  90006, 167
+
 Mark  9:26  90006, 167
 Mark  9:27  90006, 167
+
 Mark  9:28  90006, 167
+
 Mark  9:29  90006, 167
+
 Mark  9:30  90006, 167
 Mark  9:31  90006, 167
+
 Mark  9:32  90006
-----
+---- Servant of All (Mark)
+> fish-coin-greatest
 Mark  9:33  168
+
 Mark  9:34  168
+
 Mark  9:35  168
 Mark  9:36  168
 Mark  9:37  168
+
 Mark  9:38  168
+
 Mark  9:39  168
 Mark  9:40  168
-Mark  9:41  168
+Mark  9:41  168"
 ----
 Mark  9:42  169
 Mark  9:43  169

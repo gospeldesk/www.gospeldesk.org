@@ -6,6 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 17:10–23"
 noindex: true
 ref: "Matthew 17:10–23"
+related: ["unbelieving-generation"]
 prev_slug: "transfiguration"
 next_slug: "fish-coin-greatest"
 ---

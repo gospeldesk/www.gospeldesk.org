@@ -6,6 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 16:13–19"
 noindex: true
 ref: "Matthew 16:13–19"
+related: ["rebuke-of-peter"]
 prev_slug: "yeast-of-the-pharisees"
 next_slug: "get-behind-me"
 ---

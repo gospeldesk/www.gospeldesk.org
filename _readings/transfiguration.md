@@ -6,6 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 17:1–9"
 noindex: true
 ref: "Matthew 17:1–9"
+related: ["transfiguration-mark"]
 prev_slug: "take-up-your-cross"
 next_slug: "faithless-and-perverse-generation"
 ---

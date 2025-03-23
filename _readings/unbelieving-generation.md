@@ -1,0 +1,31 @@
+---
+title: "Unbelieving Generation"
+pk: "167"
+num: 128
+book: "Mark"
+excerpt: "Mark 9:17–32"
+noindex: true
+ref: "Mark 9:17–32"
+related: ["faithless-and-perverse-generation"]
+prev_slug: "john-is-elijah-mark"
+next_slug: "servant-of-all-mark"
+---
+
+<p><span class="v">17</span>One of the multitude answered, “Teacher, I brought to you my son, who has a mute spirit;  <span class="v">18</span>and wherever it seizes him, it throws him down, and he foams at the mouth, and grinds his teeth, and wastes away. I asked your disciples to cast it out, and they weren’t able.” </p>
+<p><span class="v">19</span>He answered him, “Unbelieving generation, how long shall I be with you? How long shall I bear with you? Bring him to me.” </p>
+<p><span class="v">20</span>They brought him to him, and when he saw him, immediately the spirit convulsed him, and he fell on the ground, wallowing and foaming at the mouth. </p>
+<p><span class="v">21</span>He asked his father, “How long has it been since this has come to him?”</p>
+<p>He said, “From childhood.  <span class="v">22</span>Often it has cast him both into the fire and into the water, to destroy him. But if you can do anything, have compassion on us, and help us.” </p>
+<p><span class="v">23</span>Jesus said to him, “If you can believe, all things are possible to him who believes.” </p>
+<p><span class="v">24</span>Immediately the father of the child cried out with tears, “I believe. Help my unbelief!” </p>
+<p><span class="v">25</span>When Jesus saw that a multitude came running together, he rebuked the unclean spirit, saying to him, “You mute and deaf spirit, I command you, come out of him, and never enter him again!” </p>
+<p><span class="v">26</span>After crying out and convulsing him greatly, it came out of him. The boy became like one dead; so much that most of them said, “He is dead.”  <span class="v">27</span>But Jesus took him by the hand, and raised him up; and he arose. </p>
+<p><span class="v">28</span>When he had come into the house, his disciples asked him privately, “Why couldn’t we cast it out?” </p>
+<p><span class="v">29</span>He said to them, “This kind can come out by nothing, except by prayer and fasting.” </p>
+<p><span class="v">30</span>They went out from there, and passed through Galilee. He didn’t want anyone to know it.  <span class="v">31</span>For he was teaching his disciples, and said to them, “The Son of Man is being handed over to the hands of men, and they will kill him; and when he is killed, on the third day he will rise again.” </p>
+<p><span class="v">32</span>But they didn’t understand the saying, and were afraid to ask him. </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/03/30">March 30, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/03/22">March 22, 2026</a>.

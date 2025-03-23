@@ -6,6 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 16:24–28"
 noindex: true
 ref: "Matthew 16:24–28"
+related: ["take-up-your-cross-mark"]
 prev_slug: "get-behind-me"
 next_slug: "transfiguration"
 ---
