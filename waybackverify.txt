@@ -1,0 +1,32 @@
+> What type of URL are you wishing to have excluded?
+
+Website/Domain/Account (Not An Account)
+
+
+> Enter the URL (Account/Domain/Subdomain) you wish to have excluded (Non-Valid
+> URLs will be ignored and void the request): 
+
+gospeldesk.org
+
+
+> If you are the owner/controller of the domain - are you wishing to have the
+> entire domain excluded, or just specific subdirectories/subdomain?
+
+Entire Domain
+
+
+> Did you own the domain for all periods shown in the Wayback Machine archives?
+> (We will verify the WHOIS history against the history of the archives)
+
+Yes
+
+
+> I registered and held the domain name through a registrar from:
+
+2020-06-20 to present, through iwantmyname (1API GmbH reseller)
+
+
+> I am wishing to have the mentioned URL(s)/Domain excluded from the period(s)
+> of:*
+
+Beginning of time to today. It's okay to start indexing again today. Thanks.
