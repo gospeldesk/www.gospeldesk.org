@@ -3,8 +3,6 @@ title: About Gospel Desk
 excerpt: Workinʼ on a building.
 ---
 
-<a href="chadwhitacre.jpg"><img src="chadwhitacre.small.jpg" style="float: right; margin: 0 0 20px 20px; width: 33%;"></a>
-
 <p style="text-indent: 0;">Greetings, friend! My name is Chad Whitacre. I am a
 member of <a href="https://orthodoxpittsburgh.org">St. Nicholas Orthodox
 Church</a> (OCA) outside of Pittsburgh.</p>
