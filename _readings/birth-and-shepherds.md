@@ -1,10 +1,12 @@
 ---
-title: "Luke 2:1–20"
+title: "Birth and Shepherds"
 pk: "207"
 num: 157
 book: "Luke"
-excerpt: ""
+excerpt: "Luke 2:1–20"
 noindex: true
+ref: "Luke 2:1–20"
+related: ["genealogy-and-birth"]
 prev_slug: "luke-1-1-80"
 next_slug: "luke-2-22-40"
 ---

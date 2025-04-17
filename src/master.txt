@@ -1,5 +1,5 @@
 ---- Genealogy and Birth
-> genealogy
+> genealogy birth-and-shepherds
 | jesus mary joseph holy-spirit dream-angel
 || ancestors jews prophets god
 Matt  1:1   1
@@ -741,7 +741,7 @@ Matt 14:27  64
 Matt 14:28  64
 
 Matt 14:29  64
- Come!" Peter
+  Come!" Peter
 Matt 14:30  64
 
 Matt 14:31  64
@@ -915,7 +915,7 @@ Matt 17:23      78
 Matt 17:24      79
 
 Matt 17:25      79
- Yes." When
+  Yes." When
 
 Matt 17:26      79
   strangers." Jesus
@@ -2395,7 +2395,8 @@ Luke  1:77  90008
 Luke  1:78  90008
 Luke  1:79  90008
 Luke  1:80  90008, 202,          205
-----
+---- Birth and Shepherds
+> genealogy-and-birth
 Luke  2:1   207
 Luke  2:2   207
 Luke  2:3   207
