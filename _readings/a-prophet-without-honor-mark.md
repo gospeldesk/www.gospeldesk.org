@@ -1,5 +1,5 @@
 ---
-title: "A Prophet Without Honor (Mark)"
+title: "A Prophet Without Honor"
 pk: "149"
 num: 113
 book: "Mark"

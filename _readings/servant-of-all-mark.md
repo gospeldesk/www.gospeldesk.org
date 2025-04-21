@@ -1,5 +1,5 @@
 ---
-title: "Servant of All (Mark)"
+title: "Servant of All"
 pk: "168"
 num: 129
 book: "Mark"

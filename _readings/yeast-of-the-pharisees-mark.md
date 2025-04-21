@@ -1,5 +1,5 @@
 ---
-title: "Yeast of the Pharisees (Mark)"
+title: "Yeast of the Pharisees"
 pk: "160"
 num: 122
 book: "Mark"

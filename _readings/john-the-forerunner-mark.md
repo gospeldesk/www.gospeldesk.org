@@ -1,5 +1,5 @@
 ---
-title: "John the Forerunner (Mark)"
+title: "John the Forerunner"
 pk: "127"
 num: 92
 book: "Mark"

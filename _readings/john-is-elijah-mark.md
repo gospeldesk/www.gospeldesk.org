@@ -1,5 +1,5 @@
 ---
-title: "John is Elijah (Mark)"
+title: "John is Elijah"
 pk: "166"
 num: 127
 book: "Mark"

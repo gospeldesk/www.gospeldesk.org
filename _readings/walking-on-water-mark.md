@@ -1,5 +1,5 @@
 ---
-title: "Walking on Water (Mark)"
+title: "Walking on Water"
 pk: "153"
 num: 117
 book: "Mark"

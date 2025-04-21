@@ -1,5 +1,5 @@
 ---
-title: "Transfiguration (Mark)"
+title: "Transfiguration"
 pk: "165"
 num: 126
 book: "Mark"

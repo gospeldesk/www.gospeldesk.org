@@ -1,5 +1,5 @@
 ---
-title: "Fishers of Men (Mark)"
+title: "Fishers of Men"
 pk: "130"
 num: 94
 book: "Mark"

@@ -1,5 +1,5 @@
 ---
-title: "Feeding of the Five Thousand (Mark)"
+title: "Feeding of the Five Thousand"
 pk: "152"
 num: 116
 book: "Mark"

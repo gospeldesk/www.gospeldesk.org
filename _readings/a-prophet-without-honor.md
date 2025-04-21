@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 13:54–58"
 related: ["a-prophet-without-honor-mark"]
 prev_slug: "parables-of-the-treasure-the-pearl-and-the-net"
-next_slug: "beheading-of-john"
+next_slug: "beheading-of-john-matthew"
 ---
 
 <p><span class="v">54</span>Coming into his own country, he taught them in their synagogue, so that they were astonished, and said, “Where did this man get this wisdom, and these mighty works?  <span class="v">55</span>Isn’t this the carpenter’s son? Isn’t his mother called Mary, and his brothers, James, Joses, Simon, and Judas?  <span class="v">56</span>Aren’t all of his sisters with us? Where then did this man get all of these things?” </p>

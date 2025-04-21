@@ -1,5 +1,5 @@
 ---
-title: "Peter's Mother-in-law (Mark)"
+title: "Peter's Mother-in-law"
 pk: "132"
 num: 96
 book: "Mark"

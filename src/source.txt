@@ -90,7 +90,7 @@ Matt  3:9   5, 90001
 Matt  3:10  5, 90001
 Matt  3:11  5, 90001
 Matt  3:12     90001
----- Baptism
+---- Baptism (Matthew)
 > jesus-begins-his-ministry
 Matt  3:13  6
 Matt  3:14  6
@@ -691,8 +691,8 @@ Matt 13:56  61
 
 Matt 13:57  61
 Matt 13:58  61
----- Beheading of John
-> beheading-of-john-mark
+---- Beheading of John (Matthew)
+> beheading-of-john-mark baptism-luke
 Matt 14:1   62
 Matt 14:2   62
 
@@ -1708,7 +1708,7 @@ Mark  6:11  150
 Mark  6:12  150
 Mark  6:13  150
 ---- Beheading of John (Mark)
-> beheading-of-john
+> beheading-of-john-matthew baptism-luke
 Mark  6:14  151
 
 Mark  6:15  151
@@ -2482,9 +2482,11 @@ Luke  3:15  212
 Luke  3:16  212
 Luke  3:17  212
 Luke  3:18  212 s/people,/people.
-----
-Luke  3:19  213
+---- Baptism (Luke)
+> baptism beheading-of-john-mark beheading-of-john-matthew
+Luke  3:19  213 s/but/But
 Luke  3:20  213
+
 Luke  3:21  213
 Luke  3:22  213
 ---- Genealogy

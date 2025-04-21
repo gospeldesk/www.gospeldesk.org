@@ -1,5 +1,5 @@
 ---
-title: "Feeding of the Four Thousand (Mark)"
+title: "Feeding of the Four Thousand"
 pk: "159"
 num: 121
 book: "Mark"

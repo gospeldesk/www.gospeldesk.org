@@ -1,5 +1,5 @@
 ---
-title: "John the Forerunner (Matthew)"
+title: "John the Forerunner"
 pk: "5"
 num: 4
 book: "Matthew"
@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 3:1–12"
 related: ["john-the-forerunner-mark", "john-the-forerunner-luke"]
 prev_slug: "holy-innocents"
-next_slug: "baptism"
+next_slug: "baptism-matthew"
 ---
 
 <p><span class="v">1</span>In those days, John the Baptizer came, preaching in the wilderness of Judea, saying,  <span class="v">2</span>“Repent, for the Kingdom of Heaven is at hand!”  <span class="v">3</span>For this is he who was spoken of by Isaiah the prophet, saying, “The voice of one crying in the wilderness, make ready the way of the Lord. Make his paths straight.” </p>

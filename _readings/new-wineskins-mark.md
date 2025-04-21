@@ -1,5 +1,5 @@
 ---
-title: "New Wineskins (Mark)"
+title: "New Wineskins"
 pk: "136"
 num: 100
 book: "Mark"

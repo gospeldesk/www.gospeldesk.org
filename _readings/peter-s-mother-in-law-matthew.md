@@ -1,5 +1,5 @@
 ---
-title: "Peter's Mother-in-law (Matthew)"
+title: "Peter's Mother-in-law"
 pk: "27"
 num: 23
 book: "Matthew"

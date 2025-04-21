@@ -6,7 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 14:1–13"
 noindex: true
 ref: "Matthew 14:1–13"
-related: ["beheading-of-john-mark"]
+related: ["beheading-of-john-mark", "baptism-luke"]
 prev_slug: "a-prophet-without-honor"
 next_slug: "feeding-of-the-five-thousand"
 ---

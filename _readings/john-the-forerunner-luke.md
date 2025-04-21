@@ -1,5 +1,5 @@
 ---
-title: "John the Forerunner (Luke)"
+title: "John the Forerunner"
 pk: "212"
 num: 160
 book: "Luke"
@@ -8,7 +8,7 @@ noindex: true
 ref: "Luke 3:1–18"
 related: ["john-the-forerunner-matthew", "john-the-forerunner-mark"]
 prev_slug: "luke-2-20-52"
-next_slug: "luke-3-19-22"
+next_slug: "baptism-luke"
 ---
 
 <p><span class="v">1</span>Now in the fifteenth year of the reign of Tiberius Caesar, Pontius Pilate being governor of Judea, and Herod being tetrarch of Galilee, and his brother Philip tetrarch of the region of Ituraea and Trachonitis, and Lysanias tetrarch of Abilene,  <span class="v">2</span>in the high priesthood of Annas and Caiaphas, the word of God came to John, the son of Zacharias, in the wilderness. </p>

@@ -1,5 +1,5 @@
 ---
-title: "Lord of the Sabbath (Matthew)"
+title: "Lord of the Sabbath"
 pk: "47"
 num: 40
 book: "Matthew"

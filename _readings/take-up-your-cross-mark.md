@@ -1,5 +1,5 @@
 ---
-title: "Take Up Your Cross (Mark)"
+title: "Take Up Your Cross"
 pk: "164"
 num: 125
 book: "Mark"

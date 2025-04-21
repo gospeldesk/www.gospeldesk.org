@@ -1,5 +1,5 @@
 ---
-title: "Lord of the Sabbath (Mark)"
+title: "Lord of the Sabbath"
 pk: "137"
 num: 101
 book: "Mark"

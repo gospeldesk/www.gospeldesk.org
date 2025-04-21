@@ -1,12 +1,12 @@
 ---
-title: "Beheading of John (Mark)"
+title: "Beheading of John"
 pk: "151"
 num: 115
 book: "Mark"
 excerpt: "Mark 6:14–30"
 noindex: true
 ref: "Mark 6:14–30"
-related: ["beheading-of-john"]
+related: ["beheading-of-john-matthew", "baptism-luke"]
 prev_slug: "sending-the-twelve"
 next_slug: "feeding-of-the-five-thousand-mark"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Rebuking the Storm (Mark)"
+title: "Rebuking the Storm"
 pk: "145"
 num: 109
 book: "Mark"

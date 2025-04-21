@@ -1,5 +1,5 @@
 ---
-title: "New Wineskins (Matthew)"
+title: "New Wineskins"
 pk: "32"
 num: 28
 book: "Matthew"
