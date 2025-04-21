@@ -1,12 +1,12 @@
 ---
-title: "John Came Baptizing"
+title: "John the Forerunner (Mark)"
 pk: "127"
 num: 92
 book: "Mark"
 excerpt: "Mark 1:1–8"
 noindex: true
 ref: "Mark 1:1–8"
-related: ["john-the-forerunner"]
+related: ["john-the-forerunner-matthew", "john-the-forerunner-luke"]
 prev_slug: "last-judgment"
 next_slug: "jesus-begins-his-ministry"
 ---

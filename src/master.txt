@@ -73,8 +73,8 @@ Matt  2:20  4
 Matt  2:21  4
 Matt  2:22  4
 Matt  2:23  4
----- John the Forerunner
-> john-came-baptizing
+---- John the Forerunner (Matthew)
+> john-the-forerunner-mark john-the-forerunner-luke
 Matt  3:1   5, 90001
 Matt  3:2   5, 90001
 Matt  3:3   5, 90001
@@ -1379,8 +1379,8 @@ Matt 25:44  115
 
 Matt 25:45  115
 Matt 25:46  115
----- John Came Baptizing
-> john-the-forerunner
+---- John the Forerunner (Mark)
+> john-the-forerunner-matthew john-the-forerunner-luke
 Mark  1:1   127
 
 Mark  1:2   127
@@ -2453,25 +2453,35 @@ Luke  2:49  208
 Luke  2:50  208
 Luke  2:51  208
 Luke  2:52  208
-----
+---- John the Forerunner (Luke)
+> john-the-forerunner-matthew john-the-forerunner-mark
 Luke  3:1   212
 Luke  3:2   212
+
 Luke  3:3   212
 Luke  3:4   212
 Luke  3:5   212
 Luke  3:6   212
+
 Luke  3:7   212
 Luke  3:8   212
 Luke  3:9   212
+
 Luke  3:10  212
+
 Luke  3:11  212
+
 Luke  3:12  212
+
 Luke  3:13  212
+
 Luke  3:14  212
+  do?" He
+
 Luke  3:15  212
 Luke  3:16  212
 Luke  3:17  212
-Luke  3:18  212
+Luke  3:18  212 s/people,/people.
 ----
 Luke  3:19  213
 Luke  3:20  213

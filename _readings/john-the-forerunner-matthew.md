@@ -1,12 +1,12 @@
 ---
-title: "John the Forerunner"
+title: "John the Forerunner (Matthew)"
 pk: "5"
 num: 4
 book: "Matthew"
 excerpt: "Matthew 3:1–12"
 noindex: true
 ref: "Matthew 3:1–12"
-related: ["john-came-baptizing"]
+related: ["john-the-forerunner-mark", "john-the-forerunner-luke"]
 prev_slug: "holy-innocents"
 next_slug: "baptism"
 ---

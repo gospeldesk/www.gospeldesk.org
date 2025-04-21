@@ -7,7 +7,7 @@ excerpt: "Matthew 25:31–46"
 noindex: true
 ref: "Matthew 25:31–46"
 prev_slug: "parable-of-the-talents"
-next_slug: "john-came-baptizing"
+next_slug: "john-the-forerunner-mark"
 ---
 
 <p><span class="v">31</span>“But when the Son of Man comes in his glory, and all the holy angels with him, then he will sit on the throne of his glory.  <span class="v">32</span>Before him all the nations will be gathered, and he will separate them one from another, as a shepherd separates the sheep from the goats.  <span class="v">33</span>He will set the sheep on his right hand, but the goats on the left. </p>
