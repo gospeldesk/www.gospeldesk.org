@@ -209,6 +209,8 @@ class Pericope(object):
         assert slug not in self.slugs, slug
         self.slugs.add(slug)
         self.slug = slug
+        if '(' in self.title:
+            self.title = self.title.split('(')[0].rstrip()
 
     def write(self):
         if self.title == self.ref:
