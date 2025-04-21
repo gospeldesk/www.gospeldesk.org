@@ -52,7 +52,7 @@ def main():
     i, cur, pericopes = 0, None, []
     Pericope.reset()
 
-    for line in open('master.txt'):
+    for line in open('source.txt'):
         line = line.rstrip()
         if line.startswith('-- '):
             continue  # comment
