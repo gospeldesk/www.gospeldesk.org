@@ -7,7 +7,7 @@ excerpt: "Luke 2:1–20"
 noindex: true
 ref: "Luke 2:1–20"
 related: ["genealogy-and-birth"]
-prev_slug: "luke-1-1-80"
+prev_slug: "birth-of-john-annunciation"
 next_slug: "luke-2-22-40"
 ---
 
