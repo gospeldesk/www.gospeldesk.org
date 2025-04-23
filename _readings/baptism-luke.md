@@ -6,7 +6,7 @@ book: "Luke"
 excerpt: "Luke 3:19–22"
 noindex: true
 ref: "Luke 3:19–22"
-related: ["baptism", "beheading-of-john-mark", "beheading-of-john-matthew"]
+related: ["beheading-of-john-matthew", "beheading-of-john-mark", "baptism-matthew"]
 prev_slug: "john-the-forerunner-luke"
 next_slug: "genealogy"
 ---

@@ -6,7 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 3:13–17"
 noindex: true
 ref: "Matthew 3:13–17"
-related: ["jesus-begins-his-ministry"]
+related: ["baptism-luke", "jesus-begins-his-ministry"]
 prev_slug: "john-the-forerunner-matthew"
 next_slug: "temptation"
 ---

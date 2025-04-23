@@ -6,7 +6,7 @@ book: "Mark"
 excerpt: "Mark 1:9–15"
 noindex: true
 ref: "Mark 1:9–15"
-related: ["baptism", "temptation", "jesus-begins-to-preach"]
+related: ["baptism-matthew", "temptation", "jesus-begins-to-preach"]
 prev_slug: "john-the-forerunner-mark"
 next_slug: "fishers-of-men-mark"
 ---

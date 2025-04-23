@@ -91,7 +91,7 @@ Matt  3:10  5, 90001
 Matt  3:11  5, 90001
 Matt  3:12     90001
 ---- Baptism (Matthew)
-> jesus-begins-his-ministry
+> baptism-luke jesus-begins-his-ministry
 Matt  3:13  6
 Matt  3:14  6
 
@@ -1392,7 +1392,7 @@ Mark  1:6   127
 Mark  1:7   127
 Mark  1:8   127
 ---- Jesus Begins His Ministry
-> baptism temptation jesus-begins-to-preach
+> baptism-matthew temptation jesus-begins-to-preach
 Mark  1:9   128, 129
 Mark  1:10  128, 129
 Mark  1:11  128, 129
@@ -2514,7 +2514,7 @@ Luke  3:16  212
 Luke  3:17  212
 Luke  3:18  212 s/people,/people.
 ---- Baptism (Luke)
-> baptism beheading-of-john-mark beheading-of-john-matthew
+> beheading-of-john-matthew beheading-of-john-mark baptism-matthew
 Luke  3:19  213 s/but/But
 Luke  3:20  213
 
