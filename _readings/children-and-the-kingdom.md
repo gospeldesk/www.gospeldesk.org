@@ -1,0 +1,24 @@
+---
+title: "Children and the Kingdom"
+pk: "295"
+num: 240
+book: "Luke"
+excerpt: "Luke 18:15–30"
+noindex: true
+ref: "Luke 18:15–30"
+related: ["parable-of-the-lost-sheep", "divorce-and-children"]
+prev_slug: "luke-18-9-14"
+next_slug: "rich-young-ruler-luke"
+---
+
+<p><span class="v">15</span>They were also bringing their babies to him, that he might touch them. But when the disciples saw it, they rebuked them. </p>
+<p><span class="v">16</span>Jesus summoned them, saying, “Allow the little children to come to me, and don’t hinder them, for God’s Kingdom belongs to such as these.  <span class="v">17</span>Most certainly, I tell you, whoever doesn’t receive God’s Kingdom like a little child, he will in no way enter into it.” </p>
+<p><span class="v">26</span>Those who heard it said, “Then who can be saved?” </p>
+<p><span class="v">27</span>But he said, “The things which are impossible with men are possible with God.” </p>
+<p><span class="v">28</span>Peter said, “Look, we have left everything, and followed you.” </p>
+<p><span class="v">29</span>He said to them, “Most certainly I tell you, there is no one who has left house, or wife, or brothers, or parents, or children, for God’s Kingdom’s sake,  <span class="v">30</span>who will not receive many times more in this time, and in the world to come, eternal life.” </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/11/26">November 26, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/11/25">November 25, 2026</a>.

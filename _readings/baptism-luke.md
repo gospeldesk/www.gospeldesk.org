@@ -1,12 +1,12 @@
 ---
 title: "Baptism"
 pk: "213"
-num: 161
+num: 162
 book: "Luke"
 excerpt: "Luke 3:19–22"
 noindex: true
 ref: "Luke 3:19–22"
-related: ["beheading-of-john-matthew", "beheading-of-john-mark", "baptism-matthew"]
+related: ["beheading-of-john-matthew", "beheading-of-john-mark", "baptism-matthew", "jesus-begins-his-ministry"]
 prev_slug: "john-the-forerunner-luke"
 next_slug: "genealogy"
 ---

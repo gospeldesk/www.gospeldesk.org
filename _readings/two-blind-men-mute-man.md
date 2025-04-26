@@ -6,7 +6,8 @@ book: "Matthew"
 excerpt: "Matthew 9:27–35"
 noindex: true
 ref: "Matthew 9:27–35"
-related: ["two-blind-men"]
+related: ["two-blind-men", "blind-bartimaeus", "a-certain-blind-man"]
+direct: ["bartimaeus"]
 prev_slug: "two-healings"
 next_slug: "instructions-to-the-twelve-freely-give"
 ---

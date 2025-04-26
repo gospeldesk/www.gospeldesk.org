@@ -1,0 +1,22 @@
+---
+title: "Presentation"
+pk: "209"
+num: 159
+book: "Luke"
+excerpt: "Luke 2:22–40"
+noindex: true
+ref: "Luke 2:22–40"
+prev_slug: "birth-and-shepherds"
+next_slug: "finding"
+---
+
+<p><span class="v">22</span>When the days of their purification according to the law of Moses were fulfilled, they brought him up to Jerusalem, to present him to the Lord  <span class="v">23</span>(as it is written in the law of the Lord, “Every male who opens the womb shall be called holy to the Lord”),  <span class="v">24</span>and to offer a sacrifice according to that which is said in the law of the Lord, “A pair of turtledoves, or two young pigeons.” </p>
+<p><span class="v">25</span>Behold, there was a man in Jerusalem whose name was Simeon. This man was righteous and devout, looking for the consolation of Israel, and the Holy Spirit was on him.  <span class="v">26</span>It had been revealed to him by the Holy Spirit that he should not see death before he had seen the Lord’s Christ.  <span class="v">27</span>He came in the Spirit into the temple. When the parents brought in the child, Jesus, that they might do concerning him according to the custom of the law,  <span class="v">28</span>then he received him into his arms, and blessed God, and said,  <span class="v">29</span>“Now you are releasing your servant, Master, according to your word, in peace;  <span class="v">30</span>for my eyes have seen your salvation,  <span class="v">31</span>which you have prepared before the face of all peoples;  <span class="v">32</span>a light for revelation to the nations, and the glory of your people Israel.” </p>
+<p><span class="v">33</span>Joseph and his mother were marveling at the things which were spoken concerning him,  <span class="v">34</span>and Simeon blessed them, and said to Mary, his mother, “Behold, this child is set for the falling and the rising of many in Israel, and for a sign which is spoken against.  <span class="v">35</span>Yes, a sword will pierce through your own soul, that the thoughts of many hearts may be revealed.” </p>
+<p><span class="v">36</span>There was one Anna, a prophetess, the daughter of Phanuel, of the tribe of Asher (she was of a great age, having lived with a husband seven years from her virginity,  <span class="v">37</span>and she had been a widow for about eighty-four years), who didn’t depart from the temple, worshiping with fastings and petitions night and day.  <span class="v">38</span>Coming up at that very hour, she gave thanks to the Lord, and spoke of him to all those who were looking for redemption in Jerusalem. </p>
+<p><span class="v">39</span>When they had accomplished all things that were according to the law of the Lord, they returned into Galilee, to their own city, Nazareth.  <span class="v">40</span>The child was growing, and was becoming strong in spirit, being filled with wisdom, and the grace of God was upon him. </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2026/02/02">February  2, 2026</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/02/09">February  9, 2026</a>.

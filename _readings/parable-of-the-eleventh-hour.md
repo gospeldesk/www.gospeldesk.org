@@ -6,8 +6,8 @@ book: "Matthew"
 excerpt: "Matthew 20:1–16"
 noindex: true
 ref: "Matthew 20:1–16"
-prev_slug: "rich-young-ruler"
-next_slug: "servant-of-all"
+prev_slug: "rich-young-ruler-matthew"
+next_slug: "servant-of-all-matthew"
 ---
 
 <p><span class="v">1</span>“For the Kingdom of Heaven is like a man who was the master of a household, who went out early in the morning to hire laborers for his vineyard.  <span class="v">2</span>When he had agreed with the laborers for a denarius a day, he sent them into his vineyard.  <span class="v">3</span>He went out about the third hour, and saw others standing idle in the marketplace.  <span class="v">4</span>He said to them, ‘You also go into the vineyard, and whatever is right I will give you.’ So they went their way.  <span class="v">5</span>Again he went out about the sixth and the ninth hour, and did likewise.  <span class="v">6</span>About the eleventh hour he went out, and found others standing idle. He said to them, ‘Why do you stand here all day idle?’ </p>

@@ -1,10 +1,12 @@
 ---
-title: "Luke 4:1–15"
+title: "Temptation"
 pk: "215"
-num: 163
+num: 164
 book: "Luke"
-excerpt: ""
+excerpt: "Luke 4:1–15"
 noindex: true
+ref: "Luke 4:1–15"
+related: ["temptation-matthew", "jesus-begins-his-ministry"]
 prev_slug: "genealogy"
 next_slug: "luke-4-16-22"
 ---

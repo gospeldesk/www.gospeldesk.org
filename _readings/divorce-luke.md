@@ -1,0 +1,22 @@
+---
+title: "Divorce"
+pk: "287"
+num: 232
+book: "Luke"
+excerpt: "Luke 16:15–17:4"
+noindex: true
+ref: "Luke 16:15–17:4"
+related: ["divorce-matthew", "divorce-mark", "fish-coin-greatest", "stumbling"]
+prev_slug: "luke-16-10-15"
+next_slug: "luke-16-19-31"
+---
+
+<p><span class="v">15</span>He said to them, “You are those who justify yourselves in the sight of men, but God knows your hearts. For that which is exalted among men is an abomination in the sight of God.  <span class="v">16</span>The law and the prophets were until John. From that time the Good News of God’s Kingdom is preached, and everyone is forcing his way into it.  <span class="v">17</span>But it is easier for heaven and earth to pass away, than for one tiny stroke of a pen in the law to fall. </p>
+<p><span class="v">18</span>“Everyone who divorces his wife, and marries another, commits adultery. He who marries one who is divorced from a husband commits adultery.”</p>
+<p><span class="v">1</span>He said to the disciples, “It is impossible that no occasions of stumbling should come, but woe to him through whom they come!  <span class="v">2</span>It would be better for him if a millstone were hung around his neck, and he were thrown into the sea, rather than that he should cause one of these little ones to stumble. </p>
+<p><span class="v">3</span>“Be careful. If your brother sins against you, rebuke him. If he repents, forgive him.  <span class="v">4</span>If he sins against you seven times in the day, and seven times returns, saying, ‘I repent,’ you shall forgive him.” </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/11/21">November 21, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/11/20">November 20, 2026</a>.

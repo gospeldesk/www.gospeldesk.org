@@ -7,7 +7,7 @@ excerpt: "Matthew 18:23–35"
 noindex: true
 ref: "Matthew 18:23–35"
 prev_slug: "parable-of-the-lost-sheep"
-next_slug: "divorce"
+next_slug: "divorce-matthew"
 ---
 
 <p><span class="v">23</span>Therefore the Kingdom of Heaven is like a certain king, who wanted to reconcile accounts with his servants.  <span class="v">24</span>When he had begun to reconcile, one was brought to him who owed him ten thousand talents.  <span class="v">25</span>But because he couldn’t pay, his lord commanded him to be sold, with his wife, his children, and all that he had, and payment to be made.  <span class="v">26</span>The servant therefore fell down and knelt before him, saying, ‘Lord, have patience with me, and I will repay you all!’  <span class="v">27</span>The lord of that servant, being moved with compassion, released him, and forgave him the debt. </p>

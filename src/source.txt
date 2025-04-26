@@ -99,8 +99,8 @@ Matt  3:15  6
   ness." Then
 Matt  3:16  6
 Matt  3:17  6
----- Temptation
-> jesus-begins-his-ministry
+---- Temptation (Matthew)
+> jesus-begins-his-ministry temptation-luke
 Matt  4:1   7
 Matt  4:2   7
 Matt  4:3   7
@@ -399,7 +399,8 @@ Matt  9:24  33
 Matt  9:25  33
 Matt  9:26  33
 ---- Two Blind Men; Mute Man
-> two-blind-men
+> two-blind-men blind-bartimaeus a-certain-blind-man
+| bartimaeus
 Matt  9:27  34
 
 Matt  9:28  34
@@ -912,6 +913,7 @@ Matt 17:22      78
 Matt 17:23      78
   up." They
 ---- Fish Coin; Greatest
+> servant-of-all-mark stumbling
 Matt 17:24      79
 
 Matt 17:25      79
@@ -937,6 +939,7 @@ Matt 18:9   80
 Matt 18:10  80
 Matt 18:11  80"
 ---- Parable of the Lost Sheep
+> divorce-and-children children-and-the-kingdom
 "Matt 18:10  81
 Matt 18:11  81
 
@@ -982,7 +985,8 @@ Matt 18:32  83
 Matt 18:33  83
 Matt 18:34  83
 Matt 18:35  83
----- Divorce
+---- Divorce (Matthew)
+> divorce-mark
 Matt 19:3   84
 
 Matt 19:4   84
@@ -998,7 +1002,8 @@ Matt 19:10  84
 
 Matt 19:11  84
 Matt 19:12  84
----- Rich Young Ruler
+---- Rich Young Ruler (Matthew)
+> rich-young-ruler-mark rich-young-ruler-luke
 Matt 19:16  85
 
 Matt 19:17  85
@@ -1038,7 +1043,8 @@ Matt 20:13  86
 Matt 20:14  86
 Matt 20:15  86
 Matt 20:16  86
----- Servant of All
+---- Servant of All (Matthew)
+> cost-of-discipleship
 Matt 20:17  87
 Matt 20:18  87
 Matt 20:19  87
@@ -1059,7 +1065,8 @@ Matt 20:26  87
 Matt 20:27  87
 Matt 20:28  87
 ---- Two Blind Men
-> two-blind-men-mute-man
+> two-blind-men-mute-man blind-bartimaeus a-certain-blind-man
+| bartimaeus
 Matt 20:29  88
 Matt 20:30  88
 
@@ -1392,7 +1399,7 @@ Mark  1:6   127
 Mark  1:7   127
 Mark  1:8   127
 ---- Jesus Begins His Ministry
-> baptism-matthew temptation jesus-begins-to-preach
+> baptism-matthew temptation-matthew jesus-begins-to-preach baptism-luke temptation-luke
 Mark  1:9   128, 129
 Mark  1:10  128, 129
 Mark  1:11  128, 129
@@ -1983,73 +1990,135 @@ Mark  9:38  168
 Mark  9:39  168
 Mark  9:40  168
 Mark  9:41  168"
-----
+---- Stumbling
+> fish-coin-greatest
 Mark  9:42  169
+
 Mark  9:43  169
 Mark  9:44  169
+
 Mark  9:45  169
 Mark  9:46  169
+
 Mark  9:47  169
 Mark  9:48  169
 Mark  9:49  169
 Mark  9:50  169
+
 Mark 10:1   169
-----
+---- Divorce (Mark)
+> divorce-matthew
 Mark 10:2   170
+
 Mark 10:3   170
+
 Mark 10:4   170
+
 Mark 10:5   170
 Mark 10:6   170
 Mark 10:7   170
 Mark 10:8   170
 Mark 10:9   170
+
 Mark 10:10  170
+
 Mark 10:11  170
 Mark 10:12  170
-----
+---- Divorce and Children
+> parable-of-the-lost-sheep children-and-the-kingdom
 Mark 10:11  171
+Mark 10:12  171
+
 Mark 10:13  171
+
 Mark 10:14  171
 Mark 10:15  171
 Mark 10:16  171
-----
+---- Rich Young Ruler (Mark)
+> rich-young-ruler-matthew rich-young-ruler-luke
 Mark 10:17  172
+
 Mark 10:18  172
 Mark 10:19  172
+
 Mark 10:20  172
+
 Mark 10:21  172
+
 Mark 10:22  172
-Mark 10:23  172, 173
-Mark 10:24  172, 173
-Mark 10:25  172, 173
-Mark 10:26  172, 173
-Mark 10:27  172, 173
-Mark 10:28       173
-Mark 10:29       173, 174
-Mark 10:30       173, 174
-Mark 10:31       173, 174
-Mark 10:32       173,      175
-Mark 10:33                 175
-Mark 10:34                 175
-Mark 10:35                 175
-Mark 10:36                 175
-Mark 10:37                 175
-Mark 10:38                 175
-Mark 10:39                 175
-Mark 10:40                 175
-Mark 10:41                 175
-Mark 10:42            174, 175
-Mark 10:43            174, 175
-Mark 10:44            174, 175
-Mark 10:45            174, 175
-----
+
+Mark 10:23  172
+
+Mark 10:24  172
+  words. But
+Mark 10:25  172
+
+Mark 10:26  172
+
+Mark 10:27  172
+---- Cost of Discipleship
+> servant-of-all-matthew
+Mark 10:23  173
+
+Mark 10:24  173
+  words. But
+Mark 10:25  173
+
+Mark 10:26  173
+
+Mark 10:27  173
+
+Mark 10:28  173
+
+Mark 10:29  173, 174
+Mark 10:30  173, 174
+Mark 10:31  173, 174
+#
+# Jesus Prophesies His Death
+#
+Mark 10:32  173,      175
+  afraid. He
+Mark 10:33            175
+Mark 10:34            175
+#
+# Servant Leadership
+#
+Mark 10:35            175
+
+Mark 10:36            175
+
+Mark 10:37            175
+
+Mark 10:38            175
+
+Mark 10:39            175
+  able." Jes
+Mark 10:40            175
+
+Mark 10:41            175
+
+Mark 10:42       174, 175
+Mark 10:43       174, 175
+Mark 10:44       174, 175
+Mark 10:45       174, 175
+---- Blind Bartimaeus
+> two-blind-men two-blind-men-mute-man
+| bartimaeus
 Mark 10:46  176
 Mark 10:47  176
+
 Mark 10:48  176
+
 Mark 10:49  176
+  him." They
+
 Mark 10:50  176
+
 Mark 10:51  176
+  you?" The
+
 Mark 10:52  176
+  well." Immediately
 ----
 Mark 11:1   177
 Mark 11:2   177
@@ -2448,10 +2517,11 @@ Luke  2:17  207
 Luke  2:18  207
 Luke  2:19  207
 Luke  2:20  207
-----
+---- Presentation
 Luke  2:22  209
 Luke  2:23  209
 Luke  2:24  209
+
 Luke  2:25  209, 210, 211
 Luke  2:26  209, 210, 211
 Luke  2:27  209, 210, 211
@@ -2460,17 +2530,21 @@ Luke  2:29  209, 210, 211
 Luke  2:30  209, 210, 211
 Luke  2:31  209, 210, 211
 Luke  2:32  209, 210, 211
+
 Luke  2:33  209,      211
 Luke  2:34  209,      211
 Luke  2:35  209,      211
+
 Luke  2:36  209,      211
 Luke  2:37  209,      211
 Luke  2:38  209,      211
+
 Luke  2:39  209
 Luke  2:40  209
-----
+---- Finding
 Luke  2:20  208
 Luke  2:21  208
+
 Luke  2:40  208
 Luke  2:41  208
 Luke  2:42  208
@@ -2514,7 +2588,7 @@ Luke  3:16  212
 Luke  3:17  212
 Luke  3:18  212 s/people,/people.
 ---- Baptism (Luke)
-> beheading-of-john-matthew beheading-of-john-mark baptism-matthew
+> beheading-of-john-matthew beheading-of-john-mark baptism-matthew jesus-begins-his-ministry
 Luke  3:19  213 s/but/But
 Luke  3:20  213
 
@@ -2540,7 +2614,8 @@ Luke  3:37  214
 Luke  3:38  214
 
 Luke  4:1   214
-----
+---- Temptation (Luke)
+> temptation-matthew jesus-begins-his-ministry
 Luke  4:1   215
 Luke  4:2   215
 Luke  4:3   215
@@ -3192,14 +3267,18 @@ Luke 16:12  286
 Luke 16:13  286
 Luke 16:14  286
 Luke 16:15  286
-----
+---- Divorce (Luke)
+> divorce-matthew divorce-mark fish-coin-greatest stumbling
 Luke 16:15  287
 Luke 16:16  287
 Luke 16:17  287
-Luke 16:18  287
+
+"Luke 16:18  287 "
+
 Luke 17:1   287
 Luke 17:2   287
-Luke 17:3   287
+
+"Luke 17:3   287
 Luke 17:4   287
 ----
 Luke 16:19  288
@@ -3270,40 +3349,62 @@ Luke 18:11  294, 90016
 Luke 18:12  294, 90016
 Luke 18:13  294, 90016
 Luke 18:14  294, 90016
-----
+---- Children and the Kingdom
+> parable-of-the-lost-sheep divorce-and-children
 Luke 18:15  295
+
 Luke 18:16  295
 Luke 18:17  295
+
 Luke 18:26  295
+
 Luke 18:27  295
+
 Luke 18:28  295
+
 Luke 18:29  295
 Luke 18:30  295
-----
+---- Rich Young Ruler (Luke)
+> rich-young-ruler-matthew rich-young-ruler-mark
 Luke 18:18  296
+
 Luke 18:19  296
 Luke 18:20  296
+
 Luke 18:21  296
+
 Luke 18:22  296
+
 Luke 18:23  296
+
 Luke 18:24  296
 Luke 18:25  296
+
 Luke 18:26  296
+
 Luke 18:27  296
-----
+---- Prophesy of the Passion
 Luke 18:31  297
 Luke 18:32  297
 Luke 18:33  297
+
 Luke 18:34  297
-----
+---- A Certain Blind Man
+> two-blind-men-mute-man two-blind-men blind-bartimaeus
+| bartimaeus
 Luke 18:35  298
 Luke 18:36  298
 Luke 18:37  298
 Luke 18:38  298
+
 Luke 18:39  298
+
 Luke 18:40  298
 Luke 18:41  298
+  do?" He
+
 Luke 18:42  298
+
 Luke 18:43  298
 ----
 Luke 19:1   299

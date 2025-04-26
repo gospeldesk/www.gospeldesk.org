@@ -6,8 +6,9 @@ book: "Matthew"
 excerpt: "Matthew 19:3–12"
 noindex: true
 ref: "Matthew 19:3–12"
+related: ["divorce-mark"]
 prev_slug: "parable-of-the-ungrateful-servant"
-next_slug: "rich-young-ruler"
+next_slug: "rich-young-ruler-matthew"
 ---
 
 <p><span class="v">3</span>Pharisees came to him, testing him, and saying, “Is it lawful for a man to divorce his wife for any reason?” </p>

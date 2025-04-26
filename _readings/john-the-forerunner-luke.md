@@ -1,13 +1,13 @@
 ---
 title: "John the Forerunner"
 pk: "212"
-num: 160
+num: 161
 book: "Luke"
 excerpt: "Luke 3:1–18"
 noindex: true
 ref: "Luke 3:1–18"
 related: ["john-the-forerunner-matthew", "john-the-forerunner-mark"]
-prev_slug: "luke-2-20-52"
+prev_slug: "finding"
 next_slug: "baptism-luke"
 ---
 

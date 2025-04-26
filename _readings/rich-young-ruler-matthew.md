@@ -6,7 +6,8 @@ book: "Matthew"
 excerpt: "Matthew 19:16–26"
 noindex: true
 ref: "Matthew 19:16–26"
-prev_slug: "divorce"
+related: ["rich-young-ruler-mark", "rich-young-ruler-luke"]
+prev_slug: "divorce-matthew"
 next_slug: "parable-of-the-eleventh-hour"
 ---
 

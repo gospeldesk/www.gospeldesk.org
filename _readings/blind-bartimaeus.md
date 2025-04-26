@@ -1,0 +1,28 @@
+---
+title: "Blind Bartimaeus"
+pk: "176"
+num: 135
+book: "Mark"
+excerpt: "Mark 10:46–52"
+noindex: true
+ref: "Mark 10:46–52"
+related: ["two-blind-men", "two-blind-men-mute-man"]
+direct: ["bartimaeus"]
+prev_slug: "cost-of-discipleship"
+next_slug: "mark-11-1-11"
+---
+
+<p><span class="v">46</span>They came to Jericho. As he went out from Jericho, with his disciples and a great multitude, the son of Timaeus, Bartimaeus, a blind beggar, was sitting by the road.  <span class="v">47</span>When he heard that it was Jesus the Nazarene, he began to cry out, and say, “Jesus, you son of David, have mercy on me!” </p>
+<p><span class="v">48</span>Many rebuked him, that he should be quiet, but he cried out much more, “You son of David, have mercy on me!” </p>
+<p><span class="v">49</span>Jesus stood still, and said, “Call him.”</p>
+<p>They called the blind man, saying to him, “Cheer up! Get up. He is calling you!” </p>
+<p><span class="v">50</span>He, casting away his cloak, sprang up, and came to Jesus. </p>
+<p><span class="v">51</span>Jesus asked him, “What do you want me to do for you?”</p>
+<p>The blind man said to him, “Rabboni, that I may see again.” </p>
+<p><span class="v">52</span>Jesus said to him, “Go your way. Your faith has made you well.”</p>
+<p>Immediately he received his sight, and followed Jesus on the way. </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/12/29">December 29, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/01/19">January 19, 2026</a>.

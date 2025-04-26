@@ -6,8 +6,9 @@ book: "Matthew"
 excerpt: "Matthew 20:29–34"
 noindex: true
 ref: "Matthew 20:29–34"
-related: ["two-blind-men-mute-man"]
-prev_slug: "servant-of-all"
+related: ["two-blind-men-mute-man", "blind-bartimaeus", "a-certain-blind-man"]
+direct: ["bartimaeus"]
+prev_slug: "servant-of-all-matthew"
 next_slug: "triumphal-entry"
 ---
 

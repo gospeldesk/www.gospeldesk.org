@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 3:13–17"
 related: ["baptism-luke", "jesus-begins-his-ministry"]
 prev_slug: "john-the-forerunner-matthew"
-next_slug: "temptation"
+next_slug: "temptation-matthew"
 ---
 
 <p><span class="v">13</span>Then Jesus came from Galilee to the Jordan to John, to be baptized by him.  <span class="v">14</span>But John would have hindered him, saying, “I need to be baptized by you, and you come to me?” </p>

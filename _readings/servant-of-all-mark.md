@@ -8,7 +8,7 @@ noindex: true
 ref: "Mark 9:33–41"
 related: ["fish-coin-greatest"]
 prev_slug: "unbelieving-generation"
-next_slug: "mark-9-42-10-1"
+next_slug: "stumbling"
 ---
 
 <p><span class="v">33</span>He came to Capernaum, and when he was in the house he asked them, “What were you arguing among yourselves on the way?” </p>
