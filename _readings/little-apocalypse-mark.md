@@ -8,7 +8,7 @@ noindex: true
 ref: "Mark 13:1–14:2"
 related: ["little-apocalypse-matthew", "little-apocalypse-luke"]
 prev_slug: "widows-mite-mark"
-next_slug: "mark-14-3-9"
+next_slug: "annointing-by-mary-of-bethany"
 ---
 
 <p><span class="v">1</span>As he went out of the temple, one of his disciples said to him, “Teacher, see what kind of stones and what kind of buildings!”  <span class="v">2</span>Jesus said to him, “Do you see these great buildings? There will not be left here one stone on another, which will not be thrown down.” </p>

@@ -7,6 +7,7 @@ excerpt: "Matthew 26:2–27:2"
 noindex: true
 ref: "Matthew 26:2–27:2"
 subtitle: "Thursday, Composite"
+related: ["last-supper-mark"]
 prev_slug: "holy-week-thursday-bridegroom-matins"
 next_slug: "holy-week-friday-passion-gospels-1"
 ---

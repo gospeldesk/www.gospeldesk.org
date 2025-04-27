@@ -1,0 +1,23 @@
+---
+title: "Ascension"
+pk: "201"
+num: 152
+book: "Mark"
+excerpt: "Mark 16:9–20"
+noindex: true
+ref: "Mark 16:9–20"
+prev_slug: "resurrection"
+next_slug: "birth-of-john-annunciation"
+---
+
+<p><span class="v">9</span>Now when he had risen early on the first day of the week, he appeared first to Mary Magdalene, from whom he had cast out seven demons.  <span class="v">10</span>She went and told those who had been with him, as they mourned and wept.  <span class="v">11</span>When they heard that he was alive, and had been seen by her, they disbelieved. </p>
+<p><span class="v">12</span>After these things he was revealed in another form to two of them, as they walked, on their way into the country.  <span class="v">13</span>They went away and told it to the rest. They didn’t believe them, either. </p>
+<p><span class="v">14</span>Afterward he was revealed to the eleven themselves as they sat at the table, and he rebuked them for their unbelief and hardness of heart, because they didn’t believe those who had seen him after he had risen. </p>
+<p><span class="v">15</span>He said to them, “Go into all the world, and preach the Good News to the whole creation.  <span class="v">16</span>He who believes and is baptized will be saved; but he who disbelieves will be condemned.  <span class="v">17</span>These signs will accompany those who believe: in my name they will cast out demons; they will speak with new languages;  <span class="v">18</span>they will take up serpents; and if they drink any deadly thing, it will in no way hurt them; they will lay hands on the sick, and they will recover.” </p>
+<p><span class="v">19</span>So then the Lord, after he had spoken to them, was received up into heaven, and sat down at the right hand of God. </p>
+<p><span class="v">20</span>They went out, and preached everywhere, the Lord working with them, and confirming the word by the signs that followed. Amen. </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/05/04">May  4, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2025/05/29">May 29, 2025</a>.

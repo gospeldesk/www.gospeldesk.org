@@ -6,7 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 21:1–17"
 noindex: true
 ref: "Matthew 21:1–17"
-related: ["triumphal-entry-mark", "triumphal-entry-luke", "annointed-triumphal-entry"]
+related: ["triumphal-entry-mark", "triumphal-entry-luke", "annointing-triumphal-entry"]
 prev_slug: "two-blind-men"
 next_slug: "cleansing-the-temple-matthew"
 ---

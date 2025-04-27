@@ -1078,7 +1078,7 @@ Matt 20:33  88
 
 Matt 20:34  88
 ---- Triumphal Entry (Matthew)
-> triumphal-entry-mark triumphal-entry-luke annointed-triumphal-entry
+> triumphal-entry-mark triumphal-entry-luke annointing-triumphal-entry
 Matt 21:1   89
 Matt 21:2   89
 Matt 21:3   89
@@ -2130,7 +2130,7 @@ Mark 10:51  176
 Mark 10:52  176
   well." Immediately
 ---- Triumphal Entry (Mark)
-> triumphal-entry-matthew triumphal-entry-luke annointed-triumphal-entry
+> triumphal-entry-matthew triumphal-entry-luke annointing-triumphal-entry
 Mark 11:1   177
 Mark 11:2   177
 Mark 11:3   177
@@ -2311,135 +2311,203 @@ Mark 13:37                      190
 
 Mark 14:1                       190
 Mark 14:2                       190
-----
+---- Annointing by Mary of Bethany
+> holy-week-wednesday-presanctified-liturgy annointing-triumphal-entry
+| mary-of-bethany
 Mark 14:3   191
+
 Mark 14:4   191
 Mark 14:5   191
+
 Mark 14:6   191
 Mark 14:7   191
 Mark 14:8   191
 Mark 14:9   191
-----
+---- Last Supper (Mark)
+> holy-week-thursday-composite
 Mark 14:10  192
 Mark 14:11  192
+
 Mark 14:12  192
+
 Mark 14:13  192
 Mark 14:14  192
 Mark 14:15  192
+
 Mark 14:16  192
+
 Mark 14:17  192
 Mark 14:18  192
+
 Mark 14:19  192
+
 Mark 14:20  192
 Mark 14:21  192
+
 Mark 14:22  192
 Mark 14:23  192
 Mark 14:24  192
 Mark 14:25  192
+
 Mark 14:26  192
 Mark 14:27  192
 Mark 14:28  192
+
 Mark 14:29  192
+
 Mark 14:30  192
+
 Mark 14:31  192
+
 Mark 14:32  192
 Mark 14:33  192
 Mark 14:34  192
+
 Mark 14:35  192
 Mark 14:36  192
+
 Mark 14:37  192
 Mark 14:38  192
+
 Mark 14:39  192
 Mark 14:40  192
+
 Mark 14:41  192
 Mark 14:42  192
-----
+---- Betrayal
 Mark 14:43  193
 Mark 14:44  193
+
 Mark 14:45  193
 Mark 14:46  193
+
 Mark 14:47  193
+
 Mark 14:48  193
 Mark 14:49  193
+
 Mark 14:50  193
+
 Mark 14:51  193
 Mark 14:52  193
+
 Mark 14:53  193
+
 Mark 14:54  193
+
 Mark 14:55  193
 Mark 14:56  193
 Mark 14:57  193
 Mark 14:58  193
 Mark 14:59  193
+
 Mark 14:60  193
+
 Mark 14:61  193
+  nothing. Again
+
 Mark 14:62  193
+
 Mark 14:63  193
 Mark 14:64  193
+  think?" They
 Mark 14:65  193
+
 Mark 14:66  193
 Mark 14:67  193
+
 Mark 14:68  193
+
 Mark 14:69  193
+
 Mark 14:70  193
+  it. After
+
 Mark 14:71  193
+
 Mark 14:72  193
+
 Mark 15:1   193
-----
+---- Handing Over
 Mark 15:1   194
+
 Mark 15:2   194
+  Jews?" He
+
 Mark 15:3   194
+
 Mark 15:4   194
+
 Mark 15:5   194
+
 Mark 15:6   194
 Mark 15:7   194
 Mark 15:8   194
+
 Mark 15:9   194
 Mark 15:10  194
+
 Mark 15:11  194
+
 Mark 15:12  194
+
 Mark 15:13  194
+
 Mark 15:14  194
+  done?" But
+
 Mark 15:15  194
-----
+---- Crucifixion
 Mark 15:22  197
 Mark 15:25  197
 Mark 15:33  197
 Mark 15:34  197
+
 Mark 15:35  197
 Mark 15:36  197
+
 Mark 15:37  197
 Mark 15:38  197
 Mark 15:39  197
+
 Mark 15:40  197
 Mark 15:41  197
-----
+---- Resurrection
 Mark 15:42  90007
 Mark 15:43  90007, 199
 Mark 15:44  90007, 199
 Mark 15:45  90007, 199
+
 Mark 15:46  90007, 199
 Mark 15:47  90007, 199
+
 Mark 16:1   90007, 199, 200
 Mark 16:2   90007, 199, 200
 Mark 16:3   90007, 199, 200
 Mark 16:4   90007, 199, 200
+
 Mark 16:5   90007, 199, 200
 Mark 16:6   90007, 199, 200
 Mark 16:7   90007, 199, 200
+
 Mark 16:8   90007, 199, 200
-----
+---- Ascension
 Mark 16:9   201
 Mark 16:10  201
 Mark 16:11  201
+
 Mark 16:12  201
 Mark 16:13  201
+
 Mark 16:14  201
+
 Mark 16:15  201
 Mark 16:16  201
 Mark 16:17  201
 Mark 16:18  201
+
 Mark 16:19  201
+
 Mark 16:20  201
 ---- Birth of John; Annunciation
 Luke  1:1   90008, 202
@@ -3508,7 +3576,7 @@ Luke 19:26  300, 90017
 Luke 19:27  300, 90017
 Luke 19:28  300, 90017
 ---- Triumphal Entry (Luke)
-> triumphal-entry-matthew triumphal-entry-mark annointed-triumphal-entry
+> triumphal-entry-matthew triumphal-entry-mark annointing-triumphal-entry
 Luke 19:29  301
 Luke 19:30  301
 Luke 19:31  301
@@ -4421,8 +4489,9 @@ John 11:54  363
 John 11:55  363
 John 11:56  363
 John 11:57  363
----- Annointed; Triumphal Entry
-> triumphal-entry-matthew triumphal-entry-mark triumphal-entry-luke
+---- Annointing; Triumphal Entry
+> triumphal-entry-matthew triumphal-entry-mark triumphal-entry-luke holy-week-wednesday-presanctified-liturgy annointing-by-mary-of-bethany
+| mary-of-bethany
 John 12:1   364
 John 12:2   364
 
@@ -4962,6 +5031,8 @@ John 12:48  365
 John 12:49  365
 John 12:50  365
 ---- Holy Week: Wednesday, Presanctified Liturgy
+> annointing-by-mary-of-bethany annointing-triumphal-entry
+| mary-of-bethany
 Matt 26:6   117
 Matt 26:7   117
 Matt 26:8   117
@@ -5014,6 +5085,7 @@ Luke 22:37  314
 Luke 22:38  314
 Luke 22:39  314
 ---- Holy Week: Thursday, Composite
+> last-supper-mark
 Matt 26:2   116
 Matt 26:3   116
 Matt 26:4   116

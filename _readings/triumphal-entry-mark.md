@@ -6,7 +6,7 @@ book: "Mark"
 excerpt: "Mark 11:1–11"
 noindex: true
 ref: "Mark 11:1–11"
-related: ["triumphal-entry-matthew", "triumphal-entry-luke", "annointed-triumphal-entry"]
+related: ["triumphal-entry-matthew", "triumphal-entry-luke", "annointing-triumphal-entry"]
 prev_slug: "blind-bartimaeus"
 next_slug: "cleansing-the-temple-mark"
 ---
