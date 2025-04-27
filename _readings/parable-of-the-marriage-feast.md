@@ -7,7 +7,7 @@ excerpt: "Matthew 22:1–14"
 noindex: true
 ref: "Matthew 22:1–14"
 prev_slug: "cornerstone"
-next_slug: "taxes-to-caesar"
+next_slug: "taxes-to-caesar-matthew"
 ---
 
 <p><span class="v">1</span>Jesus answered and spoke to them again in parables, saying,  <span class="v">2</span>“The Kingdom of Heaven is like a certain king, who made a marriage feast for his son,  <span class="v">3</span>and sent out his servants to call those who were invited to the marriage feast, but they would not come.  <span class="v">4</span>Again he sent out other servants, saying, ‘Tell those who are invited, “Behold, I have prepared my dinner. My cattle and my fatlings are killed, and all things are ready. Come to the marriage feast!”’  <span class="v">5</span>But they made light of it, and went their ways, one to his own farm, another to his merchandise,  <span class="v">6</span>and the rest grabbed his servants, and treated them shamefully, and killed them.  <span class="v">7</span>When the king heard that, he was angry, and sent his armies, destroyed those murderers, and burned their city. </p>

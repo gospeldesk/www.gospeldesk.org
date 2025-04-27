@@ -1,0 +1,23 @@
+---
+title: "Triumphal Entry"
+pk: "177"
+num: 136
+book: "Mark"
+excerpt: "Mark 11:1–11"
+noindex: true
+ref: "Mark 11:1–11"
+related: ["triumphal-entry-matthew", "triumphal-entry-luke", "annointed-triumphal-entry"]
+prev_slug: "blind-bartimaeus"
+next_slug: "cleansing-the-temple-mark"
+---
+
+<p><span class="v">1</span>When they came near to Jerusalem, to Bethsphage and Bethany, at the Mount of Olives, he sent two of his disciples,  <span class="v">2</span>and said to them, “Go your way into the village that is opposite you. Immediately as you enter into it, you will find a young donkey tied, on which no one has sat. Untie him, and bring him.  <span class="v">3</span>If anyone asks you, ‘Why are you doing this?’ say, ‘The Lord needs him;’ and immediately he will send him back here.” </p>
+<p><span class="v">4</span>They went away, and found a young donkey tied at the door outside in the open street, and they untied him.  <span class="v">5</span>Some of those who stood there asked them, “What are you doing, untying the young donkey?” </p>
+<p><span class="v">6</span>They said to them just as Jesus had said, and they let them go.  <span class="v">7</span>They brought the young donkey to Jesus, and threw their garments on it, and Jesus sat on it. </p>
+<p><span class="v">8</span>Many spread their garments on the way, and others were cutting down branches from the trees, and spreading them on the road.  <span class="v">9</span>Those who went in front, and those who followed, cried out, “Hosanna! Blessed is he who comes in the name of the Lord!  <span class="v">10</span>Blessed is the kingdom of our father David that is coming in the name of the Lord! Hosanna in the highest!” </p>
+<p><span class="v">11</span>Jesus entered into the temple in Jerusalem. When he had looked around at everything, it being now evening, he went out to Bethany with the twelve. </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2026/02/09">February  9, 2026</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2027/03/01">March  1, 2027</a>.

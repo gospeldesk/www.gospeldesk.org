@@ -6,7 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 21:43–46"
 noindex: true
 ref: "Matthew 21:43–46"
-prev_slug: "parable-of-the-wicked-tenants"
+prev_slug: "parable-of-the-wicked-tenants-matthew"
 next_slug: "parable-of-the-marriage-feast"
 ---
 

@@ -1077,7 +1077,8 @@ Matt 20:32  88
 Matt 20:33  88
 
 Matt 20:34  88
----- Triumphal Entry
+---- Triumphal Entry (Matthew)
+> triumphal-entry-mark triumphal-entry-luke annointed-triumphal-entry
 Matt 21:1   89
 Matt 21:2   89
 Matt 21:3   89
@@ -1097,7 +1098,8 @@ Matt 21:15  89
 Matt 21:16  89
   saying?" Jesus
 Matt 21:17  89
----- Moneychangers; Fig Tree
+---- Cleansing the Temple (Matthew)
+> cleansing-the-temple-mark cleansing-the-temple-luke
 Matt 21:12  90
 Matt 21:13  90
 
@@ -1113,7 +1115,8 @@ Matt 21:20  90, 91
 
 Matt 21:21      91
 Matt 21:22      91
----- By What Authority
+---- By What Authority (Matthew)
+> by-what-authority-mark by-what-authority-luke
 Matt 21:23  93
 
 Matt 21:24  93
@@ -1130,15 +1133,19 @@ Matt 21:31  94
   father?" They
   first." Jesus
 Matt 21:32  94"
----- Parable of the Wicked Tenants
+---- Parable of the Wicked Tenants (Matthew)
+> parable-of-the-wicked-tenants-mark parable-of-the-wicked-tenants-luke
 Matt 21:33  95
-Matt 21:34  95
+
+"Matt 21:34  95
 Matt 21:35  95
 Matt 21:36  95
-Matt 21:37  95
+
+"Matt 21:37  95
 Matt 21:38  95
 Matt 21:39  95
-Matt 21:40  95
+
+"Matt 21:40  95
 
 Matt 21:41  95
 
@@ -1165,7 +1172,8 @@ Matt 22:11  97
 Matt 22:12  97
 Matt 22:13  97
 Matt 22:14  97
----- Taxes to Caesar
+---- Taxes to Caesar (Matthew)
+> taxes-to-caesar-mark taxes-to-caesar-luke
 Matt 22:15  98
 Matt 22:16  98
 Matt 22:17  98
@@ -2119,65 +2127,93 @@ Mark 10:51  176
 
 Mark 10:52  176
   well." Immediately
-----
+---- Triumphal Entry (Mark)
+> triumphal-entry-matthew triumphal-entry-luke annointed-triumphal-entry
 Mark 11:1   177
 Mark 11:2   177
 Mark 11:3   177
+
 Mark 11:4   177
 Mark 11:5   177
+
 Mark 11:6   177
 Mark 11:7   177
+
 Mark 11:8   177
 Mark 11:9   177
 Mark 11:10  177
+
 Mark 11:11  177
-----
+---- Cleansing the Temple (Mark)
+> cleansing-the-temple-matthew cleansing-the-temple-luke
 Mark 11:11  178
+
 Mark 11:12  178
 Mark 11:13  178
 Mark 11:14  178
+
 Mark 11:15  178
 Mark 11:16  178
 Mark 11:17  178
+
 Mark 11:18  178
 Mark 11:19  178
+
 Mark 11:20  178
 Mark 11:21  178
+
 Mark 11:22  178
-Mark 11:23  178
-----
+Mark 11:23  178"
+---- Faith, Forgiveness, Prayer
 Mark 11:22  179
 Mark 11:23  179
 Mark 11:24  179
-Mark 11:25  179
+
+"Mark 11:25  179
 Mark 11:26  179
-----
+---- By What Authority (Mark)
+> by-what-authority-matthew by-what-authority-luke
 Mark 11:27  180
 Mark 11:28  180
+
 Mark 11:29  180
 Mark 11:30  180
+
 Mark 11:31  180
 Mark 11:32  180
 Mark 11:33  180
-----
+  know." Jesus
+---- Parable of the Wicked Tenants (Mark)
+> parable-of-the-wicked-tenants-matthew parable-of-the-wicked-tenants-luke
 Mark 12:1   181
-Mark 12:2   181
+
+"Mark 12:2   181
 Mark 12:3   181
 Mark 12:4   181
 Mark 12:5   181
-Mark 12:6   181
+
+"Mark 12:6   181
 Mark 12:7   181
 Mark 12:8   181
-Mark 12:9   181
-Mark 12:10  181
+
+"Mark 12:9   181
+
+"Mark 12:10  181
 Mark 12:11  181
+
 Mark 12:12  181
-----
+---- Taxes to Caesar (Mark)
+> taxes-to-caesar-matthew taxes-to-caesar-luke
 Mark 12:13  182
 Mark 12:14  182
 Mark 12:15  182
+  give?" But
+
 Mark 12:16  182
+  it. He
+
 Mark 12:17  182
+  s." They
 ----
 Mark 12:18  183
 Mark 12:19  183
@@ -3436,18 +3472,24 @@ Luke 19:25  300, 90017
 Luke 19:26  300, 90017
 Luke 19:27  300, 90017
 Luke 19:28  300, 90017
-----
+---- Triumphal Entry (Luke)
+> triumphal-entry-matthew triumphal-entry-mark annointed-triumphal-entry
 Luke 19:29  301
 Luke 19:30  301
 Luke 19:31  301
+
 Luke 19:32  301
 Luke 19:33  301
+
 Luke 19:34  301
 Luke 19:35  301
 Luke 19:36  301
+
 Luke 19:37  301
 Luke 19:38  301
+
 Luke 19:39  301
+
 Luke 19:40  301
 ----
 Luke 19:37  302
@@ -3458,39 +3500,56 @@ Luke 19:41  302
 Luke 19:42  302
 Luke 19:43  302
 Luke 19:44  302
-----
+---- Cleansing the Temple (Luke)
+> cleansing-the-temple-matthew cleansing-the-temple-mark
 Luke 19:45  303
 Luke 19:46  303
 Luke 19:47  303
 Luke 19:48  303
-----
+---- By What Authority (Luke)
+> by-what-authority-matthew by-what-authority-mark
 Luke 20:1   304
 Luke 20:2   304
+
 Luke 20:3   304
 Luke 20:4   304
+
 Luke 20:5   304
 Luke 20:6   304
 Luke 20:7   304
+
 Luke 20:8   304
-----
+---- Parable of the Wicked Tenants (Luke)
+> parable-of-the-wicked-tenants-matthew parable-of-the-wicked-tenants-mark
 Luke 20:9   305
-Luke 20:10  305
+
+"Luke 20:10  305
 Luke 20:11  305
 Luke 20:12  305
-Luke 20:13  305
+
+"Luke 20:13  305
+
 Luke 20:14  305
 Luke 20:15  305
 Luke 20:16  305
+  others." When
+
 Luke 20:17  305
 Luke 20:18  305
-----
+---- Taxes to Caesar (Luke)
+> taxes-to-caesar-matthew taxes-to-caesar-mark
 Luke 20:19  306
 Luke 20:20  306
+
 Luke 20:21  306
 Luke 20:22  306
+
 Luke 20:23  306
 Luke 20:24  306
+  it?" They
+
 Luke 20:25  306
+
 Luke 20:26  306
 ----
 Luke 20:27  307
@@ -4319,23 +4378,35 @@ John 11:54  363
 John 11:55  363
 John 11:56  363
 John 11:57  363
-----
+---- Annointed; Triumphal Entry
+> triumphal-entry-matthew triumphal-entry-mark triumphal-entry-luke
 John 12:1   364
 John 12:2   364
+
 John 12:3   364
+
 John 12:4   364
 John 12:5   364
+
 John 12:6   364
+
 John 12:7   364
 John 12:8   364
+
 John 12:9   364
+
 John 12:10  364
 John 12:11  364
+#
+# The Triumphal Entry
+#
 John 12:12  364
 John 12:13  364
+
 John 12:14  364
 John 12:15  364
 John 12:16  364
+
 John 12:17  364
 John 12:18  364
 ----

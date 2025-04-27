@@ -6,8 +6,9 @@ book: "Matthew"
 excerpt: "Matthew 21:1–17"
 noindex: true
 ref: "Matthew 21:1–17"
+related: ["triumphal-entry-mark", "triumphal-entry-luke", "annointed-triumphal-entry"]
 prev_slug: "two-blind-men"
-next_slug: "moneychangers-fig-tree"
+next_slug: "cleansing-the-temple-matthew"
 ---
 
 <p><span class="v">1</span>When they came near to Jerusalem, and came to Bethsphage, to the Mount of Olives, then Jesus sent two disciples,  <span class="v">2</span>saying to them, “Go into the village that is opposite you, and immediately you will find a donkey tied, and a colt with her. Untie them, and bring them to me.  <span class="v">3</span>If anyone says anything to you, you shall say, ‘The Lord needs them,’ and immediately he will send them.” </p>

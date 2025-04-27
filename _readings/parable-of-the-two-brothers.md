@@ -6,8 +6,8 @@ book: "Matthew"
 excerpt: "Matthew 21:28–32"
 noindex: true
 ref: "Matthew 21:28–32"
-prev_slug: "by-what-authority"
-next_slug: "parable-of-the-wicked-tenants"
+prev_slug: "by-what-authority-matthew"
+next_slug: "parable-of-the-wicked-tenants-matthew"
 ---
 
 <p><span class="v">28</span>“But what do you think? A man had two sons, and he came to the first, and said, ‘Son, go work today in my vineyard.’  <span class="v">29</span>He answered, ‘I will not,’ but afterward he changed his mind, and went.  <span class="v">30</span>He came to the second, and said the same thing. He answered, ‘I’ m going, sir,’ but he didn’t go.  <span class="v">31</span>Which of the two did the will of his father?”</p>

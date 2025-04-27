@@ -9,7 +9,7 @@ ref: "Matthew 20:29–34"
 related: ["two-blind-men-mute-man", "blind-bartimaeus", "a-certain-blind-man"]
 direct: ["bartimaeus"]
 prev_slug: "servant-of-all-matthew"
-next_slug: "triumphal-entry"
+next_slug: "triumphal-entry-matthew"
 ---
 
 <p><span class="v">29</span>As they went out from Jericho, a great multitude followed him.  <span class="v">30</span>Behold, two blind men sitting by the road, when they heard that Jesus was passing by, cried out, “Lord, have mercy on us, you son of David!” </p>

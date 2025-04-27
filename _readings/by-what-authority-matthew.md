@@ -6,7 +6,8 @@ book: "Matthew"
 excerpt: "Matthew 21:23–27"
 noindex: true
 ref: "Matthew 21:23–27"
-prev_slug: "moneychangers-fig-tree"
+related: ["by-what-authority-mark", "by-what-authority-luke"]
+prev_slug: "cleansing-the-temple-matthew"
 next_slug: "parable-of-the-two-brothers"
 ---
 

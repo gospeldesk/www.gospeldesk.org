@@ -9,7 +9,7 @@ ref: "Mark 10:46–52"
 related: ["two-blind-men", "two-blind-men-mute-man"]
 direct: ["bartimaeus"]
 prev_slug: "cost-of-discipleship"
-next_slug: "mark-11-1-11"
+next_slug: "triumphal-entry-mark"
 ---
 
 <p><span class="v">46</span>They came to Jericho. As he went out from Jericho, with his disciples and a great multitude, the son of Timaeus, Bartimaeus, a blind beggar, was sitting by the road.  <span class="v">47</span>When he heard that it was Jesus the Nazarene, he began to cry out, and say, “Jesus, you son of David, have mercy on me!” </p>

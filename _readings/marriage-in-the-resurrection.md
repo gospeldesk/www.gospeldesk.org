@@ -6,7 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 22:23–33"
 noindex: true
 ref: "Matthew 22:23–33"
-prev_slug: "taxes-to-caesar"
+prev_slug: "taxes-to-caesar-matthew"
 next_slug: "daring-to-question"
 ---
 

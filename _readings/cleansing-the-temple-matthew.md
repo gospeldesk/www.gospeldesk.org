@@ -1,13 +1,14 @@
 ---
-title: "Moneychangers; Fig Tree"
+title: "Cleansing the Temple"
 pk: "90"
 num: 75
 book: "Matthew"
 excerpt: "Matthew 21:12–22"
 noindex: true
 ref: "Matthew 21:12–22"
-prev_slug: "triumphal-entry"
-next_slug: "by-what-authority"
+related: ["cleansing-the-temple-mark", "cleansing-the-temple-luke"]
+prev_slug: "triumphal-entry-matthew"
+next_slug: "by-what-authority-matthew"
 ---
 
 <p><span class="v">12</span>Jesus entered into the temple of God, and drove out all of those who sold and bought in the temple, and overthrew the money changers’ tables and the seats of those who sold the doves.  <span class="v">13</span>He said to them, “It is written, ‘My house shall be called a house of prayer,’ but you have made it a den of robbers!” </p>
