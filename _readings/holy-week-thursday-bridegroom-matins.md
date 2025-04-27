@@ -1,7 +1,7 @@
 ---
 title: "Holy Week"
 pk: "314"
-num: 331
+num: 323
 book: "Luke"
 excerpt: "Luke 22:1–39"
 noindex: true

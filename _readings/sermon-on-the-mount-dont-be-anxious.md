@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 6:31–7:11"
 subtitle: "Don't Be Anxious"
 prev_slug: "sermon-on-the-mount-seek-first-the-kingdom"
-next_slug: "sermon-on-the-mount-don-t-judge"
+next_slug: "sermon-on-the-mount-dont-judge"
 ---
 
 <p><span class="v">31</span>“Therefore don’t be anxious, saying, ‘What will we eat?’, ‘What will we drink?’ or, ‘With what will we be clothed?’  <span class="v">32</span>For the Gentiles seek after all these things; for your heavenly Father knows that you need all these things.  <span class="v">33</span>But seek first God’s Kingdom, and his righteousness; and all these things will be given to you as well.  <span class="v">34</span>Therefore don’t be anxious for tomorrow, for tomorrow will be anxious for itself. Each day’s own evil is sufficient. </p>

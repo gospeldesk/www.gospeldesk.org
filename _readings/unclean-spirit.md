@@ -7,7 +7,7 @@ excerpt: "Mark 1:23–28"
 noindex: true
 ref: "Mark 1:23–28"
 prev_slug: "fishers-of-men-mark"
-next_slug: "peter-s-mother-in-law-mark"
+next_slug: "peters-mother-in-law-mark"
 ---
 
 <p><span class="v">23</span>Immediately there was in their synagogue a man with an unclean spirit, and he cried out,  <span class="v">24</span>saying, “Ha! What do we have to do with you, Jesus, you Nazarene? Have you come to destroy us? I know you who you are: the Holy One of God!” </p>

@@ -1,14 +1,14 @@
 ---
 title: "Taxes to Caesar"
 pk: "306"
-num: 251
+num: 246
 book: "Luke"
 excerpt: "Luke 20:19–26"
 noindex: true
 ref: "Luke 20:19–26"
 related: ["taxes-to-caesar-matthew", "taxes-to-caesar-mark"]
 prev_slug: "parable-of-the-wicked-tenants-luke"
-next_slug: "luke-20-27-44"
+next_slug: "marriage-in-the-resurrection-luke"
 ---
 
 <p><span class="v">19</span>The chief priests and the scribes sought to lay hands on him that very hour, but they feared the people—for they knew he had spoken this parable against them.  <span class="v">20</span>They watched him, and sent out spies, who pretended to be righteous, that they might trap him in something he said, so as to deliver him up to the power and authority of the governor. </p>

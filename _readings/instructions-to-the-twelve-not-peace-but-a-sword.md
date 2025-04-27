@@ -7,7 +7,7 @@ excerpt: "Matthew 10:32–19:30"
 noindex: true
 ref: "Matthew 10:32–19:30"
 subtitle: "Not Peace But a Sword"
-prev_slug: "instructions-to-the-twelve-don-t-be-afraid"
+prev_slug: "instructions-to-the-twelve-dont-be-afraid"
 next_slug: "john-is-elijah"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Prophesy of the Passion"
 pk: "297"
-num: 242
+num: 238
 book: "Luke"
 excerpt: "Luke 18:31–34"
 noindex: true

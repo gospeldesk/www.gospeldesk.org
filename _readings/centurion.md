@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 8:5–13"
 direct: ["jesus", "centurion"]
 prev_slug: "sermon-on-the-mount-rock-and-sand-healing-a-leper"
-next_slug: "peter-s-mother-in-law-matthew"
+next_slug: "peters-mother-in-law-matthew"
 ---
 
 <p><span class="v">5</span>When he came into Capernaum, a centurion came to him, asking him,  <span class="v">6</span>and saying, “Lord, my servant lies in the house paralyzed, grievously tormented.”  <span class="v">7</span>Jesus said to him, “I will come and heal him.” </p>

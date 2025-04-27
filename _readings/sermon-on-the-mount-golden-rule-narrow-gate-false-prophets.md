@@ -7,7 +7,7 @@ excerpt: "Matthew 7:12–23"
 noindex: true
 ref: "Matthew 7:12–23"
 subtitle: "Golden Rule; Narrow Gate; False Prophets"
-prev_slug: "sermon-on-the-mount-don-t-judge"
+prev_slug: "sermon-on-the-mount-dont-judge"
 next_slug: "sermon-on-the-mount-rock-and-sand-healing-a-leper"
 ---
 

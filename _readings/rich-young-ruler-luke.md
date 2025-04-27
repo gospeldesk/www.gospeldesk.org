@@ -1,7 +1,7 @@
 ---
 title: "Rich Young Ruler"
 pk: "296"
-num: 241
+num: 237
 book: "Luke"
 excerpt: "Luke 18:18–27"
 noindex: true

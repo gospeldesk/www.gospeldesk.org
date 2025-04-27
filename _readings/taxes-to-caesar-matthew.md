@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 22:15–22"
 related: ["taxes-to-caesar-mark", "taxes-to-caesar-luke"]
 prev_slug: "parable-of-the-marriage-feast"
-next_slug: "marriage-in-the-resurrection"
+next_slug: "marriage-in-the-resurrection-matthew"
 ---
 
 <p><span class="v">15</span>Then the Pharisees went and took counsel how they might entrap him in his talk.  <span class="v">16</span>They sent their disciples to him, along with the Herodians, saying, “Teacher, we know that you are honest, and teach the way of God in truth, no matter whom you teach, for you aren’t partial to anyone.  <span class="v">17</span>Tell us therefore, what do you think? Is it lawful to pay taxes to Caesar, or not?” </p>

@@ -6,7 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 23:1–12"
 noindex: true
 ref: "Matthew 23:1–12"
-prev_slug: "daring-to-question"
+prev_slug: "wise-scribe-matthew"
 next_slug: "woe-blind-fools"
 ---
 

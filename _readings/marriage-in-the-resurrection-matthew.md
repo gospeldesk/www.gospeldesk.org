@@ -6,8 +6,9 @@ book: "Matthew"
 excerpt: "Matthew 22:23–33"
 noindex: true
 ref: "Matthew 22:23–33"
+related: ["marriage-in-the-resurrection-mark", "marriage-in-the-resurrection-luke"]
 prev_slug: "taxes-to-caesar-matthew"
-next_slug: "daring-to-question"
+next_slug: "wise-scribe-matthew"
 ---
 
 <p><span class="v">23</span>On that day Sadducees (those who say that there is no resurrection) came to him. They asked him,  <span class="v">24</span>saying, “Teacher, Moses said, ‘If a man dies, having no children, his brother shall marry his wife, and raise up offspring for his brother.’  <span class="v">25</span>Now there were with us seven brothers. The first married and died, and having no offspring left his wife to his brother.  <span class="v">26</span>In the same way, the second also, and the third, to the seventh.  <span class="v">27</span>After them all, the woman died.  <span class="v">28</span>In the resurrection therefore, whose wife will she be of the seven? For they all had her.” </p>

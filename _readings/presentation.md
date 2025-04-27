@@ -1,7 +1,7 @@
 ---
 title: "Presentation"
 pk: "209"
-num: 159
+num: 155
 book: "Luke"
 excerpt: "Luke 2:22–40"
 noindex: true

@@ -1,12 +1,13 @@
 ---
-title: "Daring to Question"
+title: "Wise Scribe"
 pk: "101"
 num: 83
 book: "Matthew"
 excerpt: "Matthew 22:35–46"
 noindex: true
 ref: "Matthew 22:35–46"
-prev_slug: "marriage-in-the-resurrection"
+related: ["wise-scribe-mark"]
+prev_slug: "marriage-in-the-resurrection-matthew"
 next_slug: "call-no-man-father"
 ---
 

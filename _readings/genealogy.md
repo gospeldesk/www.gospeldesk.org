@@ -1,7 +1,7 @@
 ---
 title: "Genealogy"
 pk: "214"
-num: 163
+num: 159
 book: "Luke"
 excerpt: "Luke 3:23–4:1"
 noindex: true

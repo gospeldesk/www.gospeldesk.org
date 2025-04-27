@@ -1,0 +1,20 @@
+---
+title: "Widow's Mite"
+pk: "308"
+num: 248
+book: "Luke"
+excerpt: "Luke 20:45–21:4"
+noindex: true
+ref: "Luke 20:45–21:4"
+related: ["widows-mite-mark"]
+prev_slug: "marriage-in-the-resurrection-luke"
+next_slug: "little-apocalypse-luke"
+---
+
+<p><span class="v">45</span>In the hearing of all the people, he said to his disciples,  <span class="v">46</span>“Beware of those scribes who like to walk in long robes, and love greetings in the marketplaces, the best seats in the synagogues, and the best places at feasts;  <span class="v">47</span>who devour widows’ houses, and for a pretense make long prayers: these will receive greater condemnation.” </p>
+<p><span class="v">1</span>He looked up, and saw the rich people who were putting their gifts into the treasury.  <span class="v">2</span>He saw a certain poor widow casting in two small brass coins.  <span class="v">3</span>He said, “Truly I tell you, this poor widow put in more than all of them,  <span class="v">4</span>for all these put in gifts for God from their abundance, but she, out of her poverty, put in all that she had to live on.” </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2026/02/07">February  7, 2026</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2027/02/27">February 27, 2027</a>.

@@ -8,7 +8,7 @@ noindex: true
 ref: "Mark 12:13–17"
 related: ["taxes-to-caesar-matthew", "taxes-to-caesar-luke"]
 prev_slug: "parable-of-the-wicked-tenants-mark"
-next_slug: "mark-12-18-27"
+next_slug: "marriage-in-the-resurrection-mark"
 ---
 
 <p><span class="v">13</span>They sent some of the Pharisees and the Herodians to him, that they might trap him with words.  <span class="v">14</span>When they had come, they asked him, “Teacher, we know that you are honest, and don’t defer to anyone; for you aren’t partial to anyone, but truly teach the way of God. Is it lawful to pay taxes to Caesar, or not?  <span class="v">15</span>Shall we give, or shall we not give?”</p>

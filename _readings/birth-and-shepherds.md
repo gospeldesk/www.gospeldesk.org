@@ -1,7 +1,7 @@
 ---
 title: "Birth and Shepherds"
 pk: "207"
-num: 158
+num: 154
 book: "Luke"
 excerpt: "Luke 2:1–20"
 noindex: true

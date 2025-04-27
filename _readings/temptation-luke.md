@@ -1,7 +1,7 @@
 ---
 title: "Temptation"
 pk: "215"
-num: 164
+num: 160
 book: "Luke"
 excerpt: "Luke 4:1–15"
 noindex: true

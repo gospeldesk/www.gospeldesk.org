@@ -7,7 +7,7 @@ excerpt: "Matthew 23:29–39"
 noindex: true
 ref: "Matthew 23:29–39"
 prev_slug: "woe-blind-guides"
-next_slug: "little-apocalypse"
+next_slug: "little-apocalypse-matthew"
 ---
 
 <p><span class="v">29</span>“Woe to you, scribes and Pharisees, hypocrites! For you build the tombs of the prophets, and decorate the tombs of the righteous,  <span class="v">30</span>and say, ‘If we had lived in the days of our fathers, we wouldn’t have been partakers with them in the blood of the prophets.’  <span class="v">31</span>Therefore you testify to yourselves that you are children of those who killed the prophets.  <span class="v">32</span>Fill up, then, the measure of your fathers.  <span class="v">33</span>You serpents, you offspring of vipers, how will you escape the judgment of Gehenna? </p>

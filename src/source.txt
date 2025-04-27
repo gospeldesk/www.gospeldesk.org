@@ -1188,7 +1188,8 @@ Matt 22:21  98
   s." Then
 
 Matt 22:22  98
----- Marriage in the Resurrection
+---- Marriage in the Resurrection (Matthew)
+> marriage-in-the-resurrection-mark marriage-in-the-resurrection-luke
 Matt 22:23  100
 Matt 22:24  100
 Matt 22:25  100
@@ -1202,7 +1203,8 @@ Matt 22:31  100
 Matt 22:32  100
 
 Matt 22:33  100
----- Daring to Question
+---- Wise Scribe (Matthew)
+> wise-scribe-mark
 Matt 22:35  101
 Matt 22:36  101
 
@@ -1272,9 +1274,9 @@ Matt 23:36  105
 Matt 23:37  105
 Matt 23:38  105
 Matt 23:39  105
----- Little Apocalypse
+---- Little Apocalypse (Matthew)
+> little-apocalypse-mark little-apocalypse-luke
 Matt 24:1   106
-
 Matt 24:2   106
 
 Matt 24:3   106
@@ -2214,81 +2216,101 @@ Mark 12:16  182
 
 Mark 12:17  182
   s." They
-----
+---- Marriage in the Resurrection (Mark)
+> marriage-in-the-resurrection-matthew marriage-in-the-resurrection-luke
 Mark 12:18  183
 Mark 12:19  183
 Mark 12:20  183
 Mark 12:21  183
 Mark 12:22  183
 Mark 12:23  183
+
 Mark 12:24  183
 Mark 12:25  183
 Mark 12:26  183
 Mark 12:27  183
-----
+---- Wise Scribe (Mark)
+> wise-scribe-matthew
 Mark 12:28  184
+
 Mark 12:29  184
 Mark 12:30  184
 Mark 12:31  184
+
 Mark 12:32  184
 Mark 12:33  184
+
 Mark 12:34  184
+  Kingdom." No
+#
+# Whose Son Is the Christ?
+#
 Mark 12:35  184
 Mark 12:36  184
 Mark 12:37  184
-----
+  son?" The
+---- Widow's Mite (Mark)
+> widows-mite-luke
 Mark 12:38  185
 Mark 12:39  185
 Mark 12:40  185
+
 Mark 12:41  185
 Mark 12:42  185
 Mark 12:43  185
 Mark 12:44  185
-----
+---- Little Apocalypse (Mark)
+> little-apocalypse-matthew little-apocalypse-luke
 Mark 13:1   186
 Mark 13:2   186
+
 Mark 13:3   186
 Mark 13:4   186
+
 Mark 13:5   186
 Mark 13:6   186
+
 Mark 13:7   186
 Mark 13:8   186
-----
-Mark 13:9   187
-Mark 13:10  187
-Mark 13:11  187
-Mark 13:12  187
-Mark 13:13  187
-----
-Mark 13:14  188
-Mark 13:15  188
-Mark 13:16  188
-Mark 13:17  188
-Mark 13:18  188
-Mark 13:19  188
-Mark 13:20  188
-Mark 13:21  188
-Mark 13:22  188
-Mark 13:23  188
-----
-Mark 13:24  189
-Mark 13:25  189
-Mark 13:26  189
-Mark 13:27  189
-Mark 13:28  189
-Mark 13:29  189
-Mark 13:30  189
-Mark 13:31  189
-----
-Mark 13:31  190
-Mark 13:32  190
-Mark 13:33  190
-Mark 13:34  190
-Mark 13:35  190
-Mark 13:36  190
-Mark 13:37  190
-Mark 14:1   190
-Mark 14:2   190
+
+"Mark 13:9        187
+Mark 13:10       187
+Mark 13:11       187
+
+Mark 13:12       187
+Mark 13:13       187
+Mark 13:14            188
+Mark 13:15            188
+Mark 13:16            188
+
+"Mark 13:17            188
+Mark 13:18            188
+Mark 13:19            188
+Mark 13:20            188
+
+"Mark 13:21            188
+Mark 13:22            188
+Mark 13:23            188
+
+"Mark 13:24                 189
+Mark 13:25                 189
+Mark 13:26                 189
+Mark 13:27                 189
+
+Mark 13:28                 189
+Mark 13:29                 189
+Mark 13:30                 189
+Mark 13:31                 189, 190
+Mark 13:32                      190
+Mark 13:33                      190
+
+Mark 13:34                      190
+Mark 13:35                      190
+Mark 13:36                      190
+Mark 13:37                      190
+
+Mark 14:1                       190
+Mark 14:2                       190
 ----
 Mark 14:3   191
 Mark 14:4   191
@@ -3023,12 +3045,17 @@ Luke 10:18  255
 Luke 10:19  255, 256
 Luke 10:20  255, 256
 Luke 10:21  255, 256
-----
+---- Good Samaritan
 Luke 10:25  258
+
 Luke 10:26  258
+
 Luke 10:27  258
+
 Luke 10:28  258
+
 Luke 10:29  258
+
 Luke 10:30  258
 Luke 10:31  258
 Luke 10:32  258
@@ -3036,7 +3063,9 @@ Luke 10:33  258
 Luke 10:34  258
 Luke 10:35  258
 Luke 10:36  258
+
 Luke 10:37  258
+  him." Then
 ----
 Luke 10:38  259
 Luke 10:39  259
@@ -3442,15 +3471,21 @@ Luke 18:41  298
 Luke 18:42  298
 
 Luke 18:43  298
-----
+---- Zacchaeus
+| zacchaeus
 Luke 19:1   299
 Luke 19:2   299
 Luke 19:3   299
 Luke 19:4   299
+
 Luke 19:5   299
+
 Luke 19:6   299
+
 Luke 19:7   299
+
 Luke 19:8   299
+
 Luke 19:9   299
 Luke 19:10  299
 ----
@@ -3485,25 +3520,22 @@ Luke 19:34  301
 Luke 19:35  301
 Luke 19:36  301
 
-Luke 19:37  301
-Luke 19:38  301
+Luke 19:37  301, 302
+Luke 19:38  301, 302
 
-Luke 19:39  301
+Luke 19:39  301, 302
 
-Luke 19:40  301
-----
-Luke 19:37  302
-Luke 19:38  302
-Luke 19:39  302
-Luke 19:40  302
-Luke 19:41  302
-Luke 19:42  302
-Luke 19:43  302
-Luke 19:44  302
+Luke 19:40  301, 302
+
+Luke 19:41       302
+Luke 19:42       302
+Luke 19:43       302
+Luke 19:44       302
 ---- Cleansing the Temple (Luke)
 > cleansing-the-temple-matthew cleansing-the-temple-mark
 Luke 19:45  303
 Luke 19:46  303
+
 Luke 19:47  303
 Luke 19:48  303
 ---- By What Authority (Luke)
@@ -3551,7 +3583,8 @@ Luke 20:24  306
 Luke 20:25  306
 
 Luke 20:26  306
-----
+---- Marriage in the Resurrection (Luke)
+> marriage-in-the-resurrection-matthew marriage-in-the-resurrection-mark
 Luke 20:27  307
 Luke 20:28  307
 Luke 20:29  307
@@ -3559,62 +3592,72 @@ Luke 20:30  307
 Luke 20:31  307
 Luke 20:32  307
 Luke 20:33  307
+
 Luke 20:34  307
 Luke 20:35  307
 Luke 20:36  307
 Luke 20:37  307
 Luke 20:38  307
+
 Luke 20:39  307
 Luke 20:40  307
+
 Luke 20:41  307
 Luke 20:42  307
 Luke 20:43  307
+
 Luke 20:44  307
-----
+---- Widow's Mite (Luke)
+> widows-mite-mark
 Luke 20:45       90018
 Luke 20:46  308, 90018
 Luke 20:47  308, 90018
+
 Luke 21:1   308, 90018
 Luke 21:2   308, 90018
 Luke 21:3   308, 90018
 Luke 21:4   308, 90018
-----
+---- Little Apocalypse (Luke)
+> little-apocalypse-matthew little-apocalypse-mark
 Luke 21:5   309
 Luke 21:6   309
+
 Luke 21:7   309
+
+Luke 21:8        310
+Luke 21:9        310
+
 Luke 21:10  309
 Luke 21:11  309
+Luke 21:12            311
+Luke 21:13            311
+Luke 21:14            311
+Luke 21:15            311
+Luke 21:16            311
+Luke 21:17            311
+Luke 21:18            311
+Luke 21:19            311
+
 Luke 21:20  309
 Luke 21:21  309
 Luke 21:22  309
 Luke 21:23  309
 Luke 21:24  309
-----
-Luke 21:8   310
-Luke 21:9   310
-Luke 21:25  310
-Luke 21:26  310
-Luke 21:27  310
-Luke 21:33  310
+Luke 21:25       310
+Luke 21:26       310
+Luke 21:27       310
+Luke 21:28                 312
+
+Luke 21:29                 312
+Luke 21:30                 312
+Luke 21:31                 312
+Luke 21:32                 312
+Luke 21:33                 310
+Luke 21:33                 312
+
 Luke 21:34  310
 Luke 21:35  310
 Luke 21:36  310
-----
-Luke 21:12  311
-Luke 21:13  311
-Luke 21:14  311
-Luke 21:15  311
-Luke 21:16  311
-Luke 21:17  311
-Luke 21:18  311
-Luke 21:19  311
-----
-Luke 21:28  312
-Luke 21:29  312
-Luke 21:30  312
-Luke 21:31  312
-Luke 21:32  312
-Luke 21:33  312
 ----
 Luke 21:37  313
 Luke 21:38  313

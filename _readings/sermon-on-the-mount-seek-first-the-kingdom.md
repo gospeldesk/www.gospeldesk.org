@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 6:22–33"
 subtitle: "Seek First the Kingdom"
 prev_slug: "sermon-on-the-mount-forgiveness-fasting-treasure"
-next_slug: "sermon-on-the-mount-don-t-be-anxious"
+next_slug: "sermon-on-the-mount-dont-be-anxious"
 ---
 
 <p><span class="v">22</span>“The lamp of the body is the eye. If therefore your eye is sound, your whole body will be full of light.  <span class="v">23</span>But if your eye is evil, your whole body will be full of darkness. If therefore the light that is in you is darkness, how great is the darkness! </p>

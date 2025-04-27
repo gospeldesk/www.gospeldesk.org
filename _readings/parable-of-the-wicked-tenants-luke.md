@@ -1,7 +1,7 @@
 ---
 title: "Parable of the Wicked Tenants"
 pk: "305"
-num: 250
+num: 245
 book: "Luke"
 excerpt: "Luke 20:9–18"
 noindex: true

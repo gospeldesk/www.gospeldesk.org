@@ -1,7 +1,7 @@
 ---
 title: "A Certain Blind Man"
 pk: "298"
-num: 243
+num: 239
 book: "Luke"
 excerpt: "Luke 18:35–43"
 noindex: true
@@ -9,7 +9,7 @@ ref: "Luke 18:35–43"
 related: ["two-blind-men-mute-man", "two-blind-men", "blind-bartimaeus"]
 direct: ["bartimaeus"]
 prev_slug: "prophesy-of-the-passion"
-next_slug: "luke-19-1-10"
+next_slug: "zacchaeus"
 ---
 
 <p><span class="v">35</span>As he came near Jericho, a certain blind man sat by the road, begging.  <span class="v">36</span>Hearing a multitude going by, he asked what this meant.  <span class="v">37</span>They told him that Jesus of Nazareth was passing by.  <span class="v">38</span>He cried out, “Jesus, you son of David, have mercy on me!” </p>

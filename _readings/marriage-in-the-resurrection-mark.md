@@ -1,0 +1,20 @@
+---
+title: "Marriage in the Resurrection"
+pk: "183"
+num: 142
+book: "Mark"
+excerpt: "Mark 12:18–27"
+noindex: true
+ref: "Mark 12:18–27"
+related: ["marriage-in-the-resurrection-matthew", "marriage-in-the-resurrection-luke"]
+prev_slug: "taxes-to-caesar-mark"
+next_slug: "wise-scribe-mark"
+---
+
+<p><span class="v">18</span>There came to him Sadducees, who say that there is no resurrection. They asked him, saying,  <span class="v">19</span>“Teacher, Moses wrote to us, ‘If a man’s brother dies, and leaves a wife behind him, and leaves no children, that his brother should take his wife, and raise up offspring for his brother.’  <span class="v">20</span>There were seven brothers. The first took a wife, and dying left no offspring.  <span class="v">21</span>The second took her, and died, leaving no children behind him. The third likewise;  <span class="v">22</span>and the seven took her and left no children. Last of all the woman also died.  <span class="v">23</span>In the resurrection, when they rise, whose wife will she be of them? For the seven had her as a wife.” </p>
+<p><span class="v">24</span>Jesus answered them, “Isn’t this because you are mistaken, not knowing the Scriptures, nor the power of God?  <span class="v">25</span>For when they will rise from the dead, they neither marry, nor are given in marriage, but are like angels in heaven.  <span class="v">26</span>But about the dead, that they are raised; haven’t you read in the book of Moses, about the Bush, how God spoke to him, saying, ‘I am the God of Abraham, the God of Isaac, and the God of Jacob’?  <span class="v">27</span>He is not the God of the dead, but of the living. You are therefore badly mistaken.” </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2026/01/27">January 27, 2026</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2027/02/16">February 16, 2027</a>.

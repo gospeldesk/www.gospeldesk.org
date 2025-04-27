@@ -37,7 +37,15 @@ def flerp(date):
     return (d.strftime("%B %e, %Y"), url)
 
 def sluggize(base):
-    chars = [char if char in LETTERS_NUMBERS else ' ' for char in base.lower()]
+    chars = []
+    for char in base.lower():
+        if char in LETTERS_NUMBERS:
+            pass
+        elif char in "'":
+            char = ""
+        else:
+            char = " "
+        chars.append(char)
     return  '-'.join(''.join(chars).split())
 
 def check_quote(s):
