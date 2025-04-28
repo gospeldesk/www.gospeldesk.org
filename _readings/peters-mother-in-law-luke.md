@@ -1,12 +1,14 @@
 ---
-title: "Luke 4:37–44"
+title: "Peter's Mother-in-Law"
 pk: "219"
-num: 164
+num: 162
 book: "Luke"
-excerpt: ""
+excerpt: "Luke 4:37–44"
 noindex: true
-prev_slug: "luke-4-31-36"
-next_slug: "luke-5-1-11"
+ref: "Luke 4:37–44"
+related: ["peters-mother-in-law-matthew", "peters-mother-in-law-mark"]
+prev_slug: "unclean-spirit-luke"
+next_slug: "miraculous-catch"
 ---
 
 <p><span class="v">37</span>News about him went out into every place of the surrounding region.  <span class="v">38</span>He rose up from the synagogue, and entered into Simon’s house. Simon’s mother-in-law was afflicted with a great fever, and they begged him for her.  <span class="v">39</span>He stood over her, and rebuked the fever; and it left her. Immediately she rose up and served them.  <span class="v">40</span>When the sun was setting, all those who had any sick with various diseases brought them to him; and he laid his hands on every one of them, and healed them.  <span class="v">41</span>Demons also came out of many, crying out, and saying, “You are the Christ, the Son of God!” Rebuking them, he didn’t allow them to speak, because they knew that he was the Christ.  <span class="v">42</span>When it was day, he departed and went into an uninhabited place, and the multitudes looked for him, and came to him, and held on to him, so that he wouldn’t go away from them.  <span class="v">43</span>But he said to them, “I must preach the good news of God’s Kingdom to the other cities also. For this reason I have been sent.”  <span class="v">44</span>He was preaching in the synagogues of Galilee. </p>

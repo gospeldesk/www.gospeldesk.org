@@ -1,13 +1,13 @@
 ---
 title: "Beheading of John"
 pk: "62"
-num: 51
+num: 50
 book: "Matthew"
 excerpt: "Matthew 14:1–13"
 noindex: true
 ref: "Matthew 14:1–13"
 related: ["beheading-of-john-mark", "baptism-luke"]
-prev_slug: "a-prophet-without-honor"
+prev_slug: "a-prophet-without-honor-matthew"
 next_slug: "feeding-of-the-five-thousand"
 ---
 

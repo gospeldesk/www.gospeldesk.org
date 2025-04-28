@@ -6,7 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 8:14–23"
 noindex: true
 ref: "Matthew 8:14–23"
-related: ["peter-s-mother-in-law-mark"]
+related: ["peters-mother-in-law-mark", "peters-mother-in-law-luke"]
 prev_slug: "centurion"
 next_slug: "rebuking-the-storm"
 ---

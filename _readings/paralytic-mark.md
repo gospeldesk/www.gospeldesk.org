@@ -1,14 +1,14 @@
 ---
 title: "Paralytic"
 pk: "134"
-num: 98
+num: 97
 book: "Mark"
 excerpt: "Mark 2:1–12"
 noindex: true
 ref: "Mark 2:1–12"
-related: ["take-up-your-mat"]
-prev_slug: "leper"
-next_slug: "calling-of-levi"
+related: ["paralytic-matthew", "paralytic-luke"]
+prev_slug: "leper-mark"
+next_slug: "levi-mark"
 ---
 
 <p><span class="v">1</span>When he entered again into Capernaum after some days, it was heard that he was in the house.  <span class="v">2</span>Immediately many were gathered together, so that there was no more room, not even around the door; and he spoke the word to them. </p>

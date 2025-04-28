@@ -1,7 +1,7 @@
 ---
 title: "Two Blind Men"
 pk: "88"
-num: 73
+num: 72
 book: "Matthew"
 excerpt: "Matthew 20:29–34"
 noindex: true

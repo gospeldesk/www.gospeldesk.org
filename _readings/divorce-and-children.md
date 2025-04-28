@@ -1,7 +1,7 @@
 ---
 title: "Divorce and Children"
 pk: "171"
-num: 132
+num: 131
 book: "Mark"
 excerpt: "Mark 10:11–16"
 noindex: true

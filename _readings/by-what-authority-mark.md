@@ -1,7 +1,7 @@
 ---
 title: "By What Authority"
 pk: "180"
-num: 139
+num: 138
 book: "Mark"
 excerpt: "Mark 11:27–33"
 noindex: true

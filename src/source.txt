@@ -281,7 +281,7 @@ Matt  7:21  24, 22, 23
 Matt  7:22  24
 Matt  7:23  24"
 ---- Sermon on the Mount: Rock and Sand; Healing a Leper
-> leper
+> leper-mark leper-luke
 Matt  7:24  25
 Matt  7:25  25
 Matt  7:26  25
@@ -313,7 +313,7 @@ Matt  8:12  26
 
 Matt  8:13  26
 ---- Peter's Mother-in-law (Matthew)
-> peter-s-mother-in-law-mark
+> peters-mother-in-law-mark peters-mother-in-law-luke
 Matt  8:14  27
 Matt  8:15  27
 
@@ -352,8 +352,8 @@ Matt  8:32  29
 Matt  8:33  29
 Matt  8:34  29
 Matt  9:1   29
----- Take Up Your Mat
-> paralytic
+---- Paralytic (Matthew)
+> paralytic-mark paralytic-luke
 Matt  9:1   30
 Matt  9:2   30
 
@@ -365,8 +365,8 @@ Matt  9:6   30
 
 Matt  9:7   30
 Matt  9:8   30
----- Calling of Matthew
-> calling-of-levi
+---- Levi (Matthew) 
+> levi-mark levi-luke 
 Matt  9:9   31
   me." He
 
@@ -376,7 +376,7 @@ Matt  9:11  31
 Matt  9:12  31
 Matt  9:13  31
 ---- New Wineskins (Matthew)
-> new-wineskins-mark
+> new-wineskins-mark new-wineskins-luke
 Matt  9:14  32
 
 Matt  9:15  32
@@ -421,7 +421,7 @@ Matt  9:34  34
 
 Matt  9:35  34
 ---- Instructions to the Twelve: Freely Give
-> twelve-apostles sending-the-twelve
+> twelve-apostles-matthew sending-the-twelve twelve-apostles-luke
 Matt  9:36  35
 Matt  9:37  35
 Matt  9:38  35
@@ -528,7 +528,7 @@ Matt 11:28  46
 Matt 11:29  46
 Matt 11:30  46
 ---- Lord of the Sabbath (Matthew)
-> lord-of-the-sabbath-mark
+> lord-of-the-sabbath-mark lord-of-the-sabbath-luke
 Matt 12:1   47
 Matt 12:2   47
 
@@ -538,7 +538,9 @@ Matt 12:5   47
 Matt 12:6   47
 Matt 12:7   47
 Matt 12:8   47
----- Withered Hand
+#
+# A Man With a Withered Hand
+#
 Matt 12:9   48
 Matt 12:10  48
 
@@ -684,8 +686,8 @@ Matt 13:52  60
 
 Matt 13:53  60
 Matt 13:54  60
----- A Prophet Without Honor
-> a-prophet-without-honor-mark
+---- A Prophet Without Honor (Matthew)
+> a-prophet-without-honor-mark a-prophet-without-honor-luke
 Matt 13:54  61
 Matt 13:55  61
 Matt 13:56  61
@@ -1430,7 +1432,8 @@ Mark  1:20  130
 
 Mark  1:21  130
 Mark  1:22  130
----- Unclean Spirit
+---- Unclean Spirit (Mark)
+> unclean-spirit-luke
 Mark  1:23  131
 Mark  1:24  131
 
@@ -1440,7 +1443,7 @@ Mark  1:26  131
 Mark  1:27  131
 Mark  1:28  131
 ---- Peter's Mother-in-law (Mark)
-> peter-s-mother-in-law-matthew
+> peters-mother-in-law-matthew peters-mother-in-law-luke
 Mark  1:29  132
 Mark  1:30  132
 Mark  1:31  132
@@ -1450,8 +1453,8 @@ Mark  1:33  132
 Mark  1:34  132
 
 Mark  1:35  132
----- Leper
-> sermon-on-the-mount-rock-and-sand-healing-a-leper
+---- Leper (Mark)
+> sermon-on-the-mount-rock-and-sand-healing-a-leper leper-luke
 Mark  1:35  90003, 133
 Mark  1:36  90003, 133
 Mark  1:37  90003, 133
@@ -1470,8 +1473,8 @@ Mark  1:43  90003, 133
 Mark  1:44  90003, 133
 
 Mark  1:45  90003
----- Paralytic
-> take-up-your-mat
+---- Paralytic (Mark)
+> paralytic-matthew paralytic-luke 
 Mark  2:1   134
 Mark  2:2   134
 
@@ -1488,8 +1491,8 @@ Mark  2:10  134
 Mark  2:11  134
 
 Mark  2:12  134
----- Calling of Levi
-> calling-of-matthew
+---- Levi (Mark)
+> levi-matthew levi-luke 
 Mark  2:13  90004
 Mark  2:14  90004, 135
   me." And
@@ -1499,7 +1502,7 @@ Mark  2:16  90004, 135
 
 Mark  2:17  90004, 135
 ---- New Wineskins (Mark)
-> new-wineskins-matthew
+> new-wineskins-matthew new-wineskins-luke
 Mark  2:18  136
 
 Mark  2:19  136
@@ -1507,7 +1510,7 @@ Mark  2:20  136
 Mark  2:21  136
 Mark  2:22  136
 ---- Lord of the Sabbath (Mark)
-> lord-of-the-sabbath-matthew
+> lord-of-the-sabbath-matthew lord-of-the-sabbath-luke
 Mark  2:23  137
 Mark  2:24  137
 
@@ -1515,7 +1518,9 @@ Mark  2:25  137
 Mark  2:26  137
 Mark  2:27  137
 Mark  2:28  137
-
+#
+# A Man With a Withered Hand
+#
 Mark  3:1   137
 Mark  3:2   137
 Mark  3:3   137
@@ -1536,8 +1541,8 @@ Mark  3:10  138
 Mark  3:11  138
 
 Mark  3:12  138
----- Twelve Apostles
-> instructions-to-the-twelve-freely-give
+---- Twelve Apostles (Mark)
+> instructions-to-the-twelve-freely-give twelve-apostles-luke
 Mark  3:13  139
 
 Mark  3:14  139
@@ -1703,7 +1708,7 @@ Mark  5:33  148
 
 Mark  5:34  148
 ---- A Prophet Without Honor (Mark)
-> a-prophet-without-honor
+> a-prophet-without-honor-matthew a-prophet-without-honor-luke
 Mark  6:1   149
 Mark  6:2   149
 Mark  6:3   149
@@ -2739,7 +2744,7 @@ Luke  3:36  214
 Luke  3:37  214
 Luke  3:38  214
 
-Luke  4:1   214
+Luke  4:1   214 s/wilderness/wilderness.
 ---- Temptation (Luke)
 > temptation-matthew jesus-begins-his-ministry
 Luke  4:1   215
@@ -2757,32 +2762,33 @@ Luke  4:12  215
 Luke  4:13  215
 Luke  4:14  215
 Luke  4:15  215
-----
+---- A Prophet Without Honor (Luke)
+> a-prophet-without-honor-matthew a-prophet-without-honor-mark
 Luke  4:16  216
 Luke  4:17  216
 Luke  4:18  216
 Luke  4:19  216
 Luke  4:20  216
 Luke  4:21  216
-Luke  4:22  216
-----
-Luke  4:22  217
-Luke  4:23  217
-Luke  4:24  217
-Luke  4:25  217
-Luke  4:26  217
-Luke  4:27  217
-Luke  4:28  217
-Luke  4:29  217
-Luke  4:30  217
-----
+Luke  4:22  216, 217
+Luke  4:23       217
+Luke  4:24       217
+Luke  4:25       217
+Luke  4:26       217
+Luke  4:27       217
+Luke  4:28       217
+Luke  4:29       217
+Luke  4:30       217
+---- Unclean Spirit (Luke)
+> unclean-spirit-mark
 Luke  4:31  218
 Luke  4:32  218
 Luke  4:33  218
 Luke  4:34  218
 Luke  4:35  218
 Luke  4:36  218
-----
+---- Peter's Mother-in-Law (Luke)
+> peters-mother-in-law-matthew peters-mother-in-law-mark
 Luke  4:37  219
 Luke  4:38  219
 Luke  4:39  219
@@ -2791,7 +2797,7 @@ Luke  4:41  219
 Luke  4:42  219
 Luke  4:43  219
 Luke  4:44  219
-----
+---- Miraculous Catch
 Luke  5:1   220
 Luke  5:2   220
 Luke  5:3   220
@@ -2803,13 +2809,15 @@ Luke  5:8   220
 Luke  5:9   220
 Luke  5:10  220
 Luke  5:11  220
-----
+---- Leper (Luke)
+> sermon-on-the-mount-rock-and-sand-healing-a-leper leper-mark
 Luke  5:12  221
 Luke  5:13  221
 Luke  5:14  221
 Luke  5:15  221
 Luke  5:16  221
-----
+---- Paralytic (Luke)
+> paralytic-matthew paralytic-mark
 Luke  5:17  222
 Luke  5:18  222
 Luke  5:19  222
@@ -2820,14 +2828,16 @@ Luke  5:23  222
 Luke  5:24  222
 Luke  5:25  222
 Luke  5:26  222
-----
+---- Levi (Luke)
+> levi-matthew levi-mark
 Luke  5:27  223
 Luke  5:28  223
 Luke  5:29  223
 Luke  5:30  223
 Luke  5:31  223
 Luke  5:32  223
-----
+---- New Wineskins (Luke)
+> new-wineskins-matthew new-wineskins-mark
 Luke  5:33  224
 Luke  5:34  224
 Luke  5:35  224
@@ -2835,19 +2845,24 @@ Luke  5:36  224
 Luke  5:37  224
 Luke  5:38  224
 Luke  5:39  224
-----
+---- Lord of the Sabbath (Luke)
+> lord-of-the-sabbath-matthew lord-of-the-sabbath-mark
 Luke  6:1   225, 90009
 Luke  6:2   225, 90009
 Luke  6:3   225, 90009
 Luke  6:4   225, 90009
 Luke  6:5   225, 90009
+#
+# A Man With a Withered Hand
+#
 Luke  6:6   225, 90009
 Luke  6:7   225, 90009
 Luke  6:8   225, 90009
 Luke  6:9   225, 90009
 Luke  6:10  225, 90009
 Luke  6:11       90009
-----
+---- Twelve Apostles (Luke)
+> instructions-to-the-twelve-freely-give twelve-apostles-mark
 Luke  6:12  226
 Luke  6:13  226
 Luke  6:14  226

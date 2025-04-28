@@ -1,7 +1,7 @@
 ---
 title: "John the Forerunner"
 pk: "127"
-num: 92
+num: 91
 book: "Mark"
 excerpt: "Mark 1:1–8"
 noindex: true

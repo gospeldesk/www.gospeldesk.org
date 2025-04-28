@@ -1,7 +1,7 @@
 ---
 title: "Cleansing the Temple"
 pk: "178"
-num: 137
+num: 136
 book: "Mark"
 excerpt: "Mark 11:11–23"
 noindex: true

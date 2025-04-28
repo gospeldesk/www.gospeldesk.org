@@ -1,7 +1,7 @@
 ---
 title: "Triumphal Entry"
 pk: "177"
-num: 136
+num: 135
 book: "Mark"
 excerpt: "Mark 11:1–11"
 noindex: true

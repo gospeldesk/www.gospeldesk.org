@@ -1,18 +1,19 @@
 ---
 title: "Lord of the Sabbath"
 pk: "137"
-num: 101
+num: 100
 book: "Mark"
 excerpt: "Mark 2:23–3:5"
 noindex: true
 ref: "Mark 2:23–3:5"
-related: ["lord-of-the-sabbath-matthew"]
+related: ["lord-of-the-sabbath-matthew", "lord-of-the-sabbath-luke"]
 prev_slug: "new-wineskins-mark"
 next_slug: "a-great-multitude"
 ---
 
 <p><span class="v">23</span>He was going on the Sabbath day through the grain fields, and his disciples began, as they went, to pluck the ears of grain.  <span class="v">24</span>The Pharisees said to him, “Behold, why do they do that which is not lawful on the Sabbath day?” </p>
 <p><span class="v">25</span>He said to them, “Did you never read what David did, when he had need, and was hungry—he, and those who were with him?  <span class="v">26</span>How he entered into God’s house at the time of Abiathar the high priest, and ate the show bread, which is not lawful to eat except for the priests, and gave also to those who were with him?”  <span class="v">27</span>He said to them, “The Sabbath was made for man, not man for the Sabbath.  <span class="v">28</span>Therefore the Son of Man is lord even of the Sabbath.” </p>
+<h4>A Man With a Withered Hand</h4>
 <p><span class="v">1</span>He entered again into the synagogue, and there was a man there who had his hand withered.  <span class="v">2</span>They watched him, whether he would heal him on the Sabbath day, that they might accuse him.  <span class="v">3</span>He said to the man who had his hand withered, “Stand up.”  <span class="v">4</span>He said to them, “Is it lawful on the Sabbath day to do good, or to do harm? To save a life, or to kill?”</p>
 <p>But they were silent. </p>
 <p><span class="v">5</span>When he had looked around at them with anger, being grieved at the hardening of their hearts, he said to the man, “Stretch out your hand.”</p>

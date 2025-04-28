@@ -1,7 +1,7 @@
 ---
 title: "Wise Scribe"
 pk: "184"
-num: 143
+num: 142
 book: "Mark"
 excerpt: "Mark 12:28–37"
 noindex: true

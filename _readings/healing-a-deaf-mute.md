@@ -1,7 +1,7 @@
 ---
 title: "Healing a Deaf Mute"
 pk: "158"
-num: 120
+num: 119
 book: "Mark"
 excerpt: "Mark 7:31–37"
 noindex: true

@@ -1,7 +1,7 @@
 ---
 title: "Unbelieving Generation"
 pk: "167"
-num: 128
+num: 127
 book: "Mark"
 excerpt: "Mark 9:17–32"
 noindex: true

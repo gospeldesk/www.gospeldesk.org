@@ -9,6 +9,7 @@ import traceback
 from collections import defaultdict
 
 LETTERS_NUMBERS = string.ascii_letters + string.digits
+SKIP = "'"
 GOSPELS = 'Matthew Mark Luke John'.split()
 
 # Load dates.
@@ -41,11 +42,12 @@ def sluggize(base):
     for char in base.lower():
         if char in LETTERS_NUMBERS:
             pass
-        elif char in "'":
+        elif char in SKIP:
             char = ""
         else:
             char = " "
         chars.append(char)
+    # '  foo bar   '.split() == ['foo', 'bar'] 👍
     return  '-'.join(''.join(chars).split())
 
 def check_quote(s):
@@ -146,7 +148,7 @@ class Pericope(object):
             bcv = line[:10]
             pks_sub = line[10:].strip()
             if 's/' in pks_sub:
-                pks, sub = pks_sub.split('s/')
+                pks, sub = pks_sub.split('s/', 1)
                 pks = pks.rstrip()
             else:
                 pks = pks_sub

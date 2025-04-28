@@ -1,7 +1,7 @@
 ---
 title: "Cost of Discipleship"
 pk: "173"
-num: 134
+num: 133
 book: "Mark"
 excerpt: "Mark 10:23–45"
 noindex: true

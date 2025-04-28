@@ -1,7 +1,7 @@
 ---
 title: "Little Apocalypse"
 pk: "186"
-num: 145
+num: 144
 book: "Mark"
 excerpt: "Mark 13:1–14:2"
 noindex: true

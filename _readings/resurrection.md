@@ -1,7 +1,7 @@
 ---
 title: "Resurrection"
 pk: "199"
-num: 151
+num: 150
 book: "Mark"
 excerpt: "Mark 15:42–16:8"
 noindex: true

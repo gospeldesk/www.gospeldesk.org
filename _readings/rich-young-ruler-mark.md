@@ -1,7 +1,7 @@
 ---
 title: "Rich Young Ruler"
 pk: "172"
-num: 133
+num: 132
 book: "Mark"
 excerpt: "Mark 10:17–27"
 noindex: true

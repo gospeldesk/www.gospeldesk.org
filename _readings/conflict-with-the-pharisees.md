@@ -1,7 +1,7 @@
 ---
 title: "Conflict With the Pharisees"
 pk: "154"
-num: 118
+num: 117
 book: "Mark"
 excerpt: "Mark 6:54–7:24"
 noindex: true

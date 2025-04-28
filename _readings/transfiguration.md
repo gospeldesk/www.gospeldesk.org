@@ -1,7 +1,7 @@
 ---
 title: "Transfiguration"
 pk: "76"
-num: 64
+num: 63
 book: "Matthew"
 excerpt: "Matthew 17:1–9"
 noindex: true

@@ -1,7 +1,7 @@
 ---
 title: "Who Is My Mother?"
 pk: "53"
-num: 45
+num: 44
 book: "Matthew"
 excerpt: "Matthew 12:46–13:3"
 noindex: true

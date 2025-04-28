@@ -1,11 +1,13 @@
 ---
-title: "Luke 6:12–19"
+title: "Twelve Apostles"
 pk: "226"
-num: 171
+num: 169
 book: "Luke"
-excerpt: ""
+excerpt: "Luke 6:12–19"
 noindex: true
-prev_slug: "luke-6-1-11"
+ref: "Luke 6:12–19"
+related: ["instructions-to-the-twelve-freely-give", "twelve-apostles-mark"]
+prev_slug: "lord-of-the-sabbath-luke"
 next_slug: "luke-6-17-23"
 ---
 

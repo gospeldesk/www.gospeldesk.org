@@ -1,7 +1,7 @@
 ---
 title: "Yeast of the Pharisees"
 pk: "160"
-num: 122
+num: 121
 book: "Mark"
 excerpt: "Mark 8:11–21"
 noindex: true

@@ -1,7 +1,7 @@
 ---
 title: "Healing a Woman"
 pk: "148"
-num: 112
+num: 111
 book: "Mark"
 excerpt: "Mark 5:24–34"
 noindex: true

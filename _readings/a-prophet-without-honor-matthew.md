@@ -1,12 +1,12 @@
 ---
 title: "A Prophet Without Honor"
 pk: "61"
-num: 50
+num: 49
 book: "Matthew"
 excerpt: "Matthew 13:54–58"
 noindex: true
 ref: "Matthew 13:54–58"
-related: ["a-prophet-without-honor-mark"]
+related: ["a-prophet-without-honor-mark", "a-prophet-without-honor-luke"]
 prev_slug: "parables-of-the-treasure-the-pearl-and-the-net"
 next_slug: "beheading-of-john-matthew"
 ---

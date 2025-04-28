@@ -1,13 +1,13 @@
 ---
-title: "Calling of Matthew"
+title: "Levi"
 pk: "31"
 num: 27
 book: "Matthew"
 excerpt: "Matthew 9:9–13"
 noindex: true
 ref: "Matthew 9:9–13"
-related: ["calling-of-levi"]
-prev_slug: "take-up-your-mat"
+related: ["levi-mark", "levi-luke"]
+prev_slug: "paralytic-matthew"
 next_slug: "new-wineskins-matthew"
 ---
 

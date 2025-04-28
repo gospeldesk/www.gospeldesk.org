@@ -1,7 +1,7 @@
 ---
 title: "Get Behind Me"
 pk: "74"
-num: 62
+num: 61
 book: "Matthew"
 excerpt: "Matthew 16:20–24"
 noindex: true

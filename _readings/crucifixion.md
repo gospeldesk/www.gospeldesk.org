@@ -1,7 +1,7 @@
 ---
 title: "Crucifixion"
 pk: "197"
-num: 150
+num: 149
 book: "Mark"
 excerpt: "Mark 15:22–41"
 noindex: true

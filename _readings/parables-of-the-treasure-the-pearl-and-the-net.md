@@ -1,13 +1,13 @@
 ---
 title: "Parables of the Treasure, the Pearl, and the Net"
 pk: "60"
-num: 49
+num: 48
 book: "Matthew"
 excerpt: "Matthew 13:44–54"
 noindex: true
 ref: "Matthew 13:44–54"
 prev_slug: "parable-of-the-weeds"
-next_slug: "a-prophet-without-honor"
+next_slug: "a-prophet-without-honor-matthew"
 ---
 
 <p><span class="v">44</span>“Again, the Kingdom of Heaven is like treasure hidden in the field, which a man found, and hid. In his joy, he goes and sells all that he has, and buys that field. </p>

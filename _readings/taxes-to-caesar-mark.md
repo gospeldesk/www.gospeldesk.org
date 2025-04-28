@@ -1,7 +1,7 @@
 ---
 title: "Taxes to Caesar"
 pk: "182"
-num: 141
+num: 140
 book: "Mark"
 excerpt: "Mark 12:13–17"
 noindex: true

@@ -1,7 +1,7 @@
 ---
 title: "Finding"
 pk: "208"
-num: 156
+num: 155
 book: "Luke"
 excerpt: "Luke 2:20–52"
 noindex: true

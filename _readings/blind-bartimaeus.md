@@ -1,7 +1,7 @@
 ---
 title: "Blind Bartimaeus"
 pk: "176"
-num: 135
+num: 134
 book: "Mark"
 excerpt: "Mark 10:46–52"
 noindex: true

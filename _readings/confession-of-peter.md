@@ -1,7 +1,7 @@
 ---
 title: "Confession of Peter"
 pk: "72"
-num: 61
+num: 60
 book: "Matthew"
 excerpt: "Matthew 16:13–19"
 noindex: true

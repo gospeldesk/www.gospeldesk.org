@@ -1,7 +1,7 @@
 ---
 title: "Parable of the Two Brothers"
 pk: "94"
-num: 77
+num: 76
 book: "Matthew"
 excerpt: "Matthew 21:28–32"
 noindex: true

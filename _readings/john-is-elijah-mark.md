@@ -1,7 +1,7 @@
 ---
 title: "John is Elijah"
 pk: "166"
-num: 127
+num: 126
 book: "Mark"
 excerpt: "Mark 9:10–16"
 noindex: true

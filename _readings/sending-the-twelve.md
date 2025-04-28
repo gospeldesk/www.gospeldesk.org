@@ -1,7 +1,7 @@
 ---
 title: "Sending the Twelve"
 pk: "150"
-num: 114
+num: 113
 book: "Mark"
 excerpt: "Mark 6:7–13"
 noindex: true

@@ -1,7 +1,7 @@
 ---
 title: "Widow's Mite"
 pk: "185"
-num: 144
+num: 143
 book: "Mark"
 excerpt: "Mark 12:38–44"
 noindex: true

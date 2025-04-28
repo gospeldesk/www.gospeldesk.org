@@ -1,7 +1,7 @@
 ---
 title: "Second Demand for a Sign"
 pk: "70"
-num: 59
+num: 58
 book: "Matthew"
 excerpt: "Matthew 16:1–6"
 noindex: true

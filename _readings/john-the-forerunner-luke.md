@@ -1,7 +1,7 @@
 ---
 title: "John the Forerunner"
 pk: "212"
-num: 157
+num: 156
 book: "Luke"
 excerpt: "Luke 3:1–18"
 noindex: true

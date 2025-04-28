@@ -1,7 +1,7 @@
 ---
 title: "Ascension"
 pk: "201"
-num: 152
+num: 151
 book: "Mark"
 excerpt: "Mark 16:9–20"
 noindex: true

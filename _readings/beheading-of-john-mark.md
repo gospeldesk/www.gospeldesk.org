@@ -1,7 +1,7 @@
 ---
 title: "Beheading of John"
 pk: "151"
-num: 115
+num: 114
 book: "Mark"
 excerpt: "Mark 6:14–30"
 noindex: true

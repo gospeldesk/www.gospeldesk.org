@@ -1,7 +1,7 @@
 ---
 title: "Divorce"
 pk: "84"
-num: 69
+num: 68
 book: "Matthew"
 excerpt: "Matthew 19:3–12"
 noindex: true

@@ -1,7 +1,7 @@
 ---
 title: "Woe! Blind Fools!"
 pk: "103"
-num: 85
+num: 84
 book: "Matthew"
 excerpt: "Matthew 23:13–22"
 noindex: true

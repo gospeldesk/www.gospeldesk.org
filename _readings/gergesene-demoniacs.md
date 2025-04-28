@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 8:28–9:1"
 related: ["gadarene-demoniac"]
 prev_slug: "rebuking-the-storm"
-next_slug: "take-up-your-mat"
+next_slug: "paralytic-matthew"
 ---
 
 <p><span class="v">28</span>When he came to the other side, into the country of the Gergesenes, two people possessed by demons met him there, coming out of the tombs, exceedingly fierce, so that nobody could pass that way.  <span class="v">29</span>Behold, they cried out, saying, “What do we have to do with you, Jesus, Son of God? Have you come here to torment us before the time?” </p>

@@ -1,14 +1,14 @@
 ---
 title: "Peter's Mother-in-law"
 pk: "132"
-num: 96
+num: 95
 book: "Mark"
 excerpt: "Mark 1:29–35"
 noindex: true
 ref: "Mark 1:29–35"
-related: ["peter-s-mother-in-law-matthew"]
-prev_slug: "unclean-spirit"
-next_slug: "leper"
+related: ["peters-mother-in-law-matthew", "peters-mother-in-law-luke"]
+prev_slug: "unclean-spirit-mark"
+next_slug: "leper-mark"
 ---
 
 <p><span class="v">29</span>Immediately, when they had come out of the synagogue, they came into the house of Simon and Andrew, with James and John.  <span class="v">30</span>Now Simon’s wife’s mother lay sick with a fever, and immediately they told him about her.  <span class="v">31</span>He came and took her by the hand, and raised her up. The fever left her, and she served them. </p>

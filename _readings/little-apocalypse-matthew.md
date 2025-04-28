@@ -1,7 +1,7 @@
 ---
 title: "Little Apocalypse"
 pk: "106"
-num: 88
+num: 87
 book: "Matthew"
 excerpt: "Matthew 24:1–51"
 noindex: true

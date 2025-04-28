@@ -1,7 +1,7 @@
 ---
 title: "Parable of the Farmer Explained"
 pk: "143"
-num: 107
+num: 106
 book: "Mark"
 excerpt: "Mark 4:10–23"
 noindex: true

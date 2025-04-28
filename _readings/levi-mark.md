@@ -1,13 +1,13 @@
 ---
-title: "Calling of Levi"
+title: "Levi"
 pk: "135"
-num: 99
+num: 98
 book: "Mark"
 excerpt: "Mark 2:13–17"
 noindex: true
 ref: "Mark 2:13–17"
-related: ["calling-of-matthew"]
-prev_slug: "paralytic"
+related: ["levi-matthew", "levi-luke"]
+prev_slug: "paralytic-mark"
 next_slug: "new-wineskins-mark"
 ---
 

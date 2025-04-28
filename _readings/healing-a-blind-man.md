@@ -1,7 +1,7 @@
 ---
 title: "Healing a Blind Man"
 pk: "161"
-num: 123
+num: 122
 book: "Mark"
 excerpt: "Mark 8:22–26"
 noindex: true

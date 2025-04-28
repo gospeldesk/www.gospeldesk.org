@@ -1,7 +1,7 @@
 ---
 title: "Feeding of the Four Thousand"
 pk: "159"
-num: 121
+num: 120
 book: "Mark"
 excerpt: "Mark 8:1–10"
 noindex: true

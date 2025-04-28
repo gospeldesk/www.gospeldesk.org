@@ -1,13 +1,13 @@
 ---
 title: "New Wineskins"
 pk: "136"
-num: 100
+num: 99
 book: "Mark"
 excerpt: "Mark 2:18–22"
 noindex: true
 ref: "Mark 2:18–22"
-related: ["new-wineskins-matthew"]
-prev_slug: "calling-of-levi"
+related: ["new-wineskins-matthew", "new-wineskins-luke"]
+prev_slug: "levi-mark"
 next_slug: "lord-of-the-sabbath-mark"
 ---
 

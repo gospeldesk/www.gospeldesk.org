@@ -1,7 +1,7 @@
 ---
 title: "Parable of the Marriage Feast"
 pk: "97"
-num: 80
+num: 79
 book: "Matthew"
 excerpt: "Matthew 22:1–14"
 noindex: true

@@ -1,7 +1,7 @@
 ---
 title: "Denouncing the Pharisees"
 pk: "65"
-num: 54
+num: 53
 book: "Matthew"
 excerpt: "Matthew 14:35–15:11"
 noindex: true

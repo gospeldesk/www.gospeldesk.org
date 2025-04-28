@@ -1,13 +1,13 @@
 ---
 title: "By Beelzebul"
 pk: "49"
-num: 42
+num: 41
 book: "Matthew"
 excerpt: "Matthew 12:14–30"
 noindex: true
 ref: "Matthew 12:14–30"
 related: ["a-great-multitude", "a-house-divided"]
-prev_slug: "withered-hand"
+prev_slug: "lord-of-the-sabbath-matthew"
 next_slug: "blasphemy-against-the-spirit"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Transfiguration"
 pk: "165"
-num: 126
+num: 125
 book: "Mark"
 excerpt: "Mark 9:2–9"
 noindex: true

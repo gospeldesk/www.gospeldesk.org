@@ -1,7 +1,7 @@
 ---
 title: "Blasphemy; Mother & Brothers"
 pk: "141"
-num: 105
+num: 104
 book: "Mark"
 excerpt: "Mark 3:28–35"
 noindex: true

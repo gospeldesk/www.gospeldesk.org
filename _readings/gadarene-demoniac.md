@@ -1,7 +1,7 @@
 ---
 title: "Gadarene Demoniac"
 pk: "146"
-num: 110
+num: 109
 book: "Mark"
 excerpt: "Mark 5:1–20"
 noindex: true

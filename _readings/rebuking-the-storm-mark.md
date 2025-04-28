@@ -1,7 +1,7 @@
 ---
 title: "Rebuking the Storm"
 pk: "145"
-num: 109
+num: 108
 book: "Mark"
 excerpt: "Mark 4:35–41"
 noindex: true

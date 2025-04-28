@@ -1,7 +1,7 @@
 ---
 title: "Syrophoenician Woman"
 pk: "157"
-num: 119
+num: 118
 book: "Mark"
 excerpt: "Mark 7:24–30"
 noindex: true

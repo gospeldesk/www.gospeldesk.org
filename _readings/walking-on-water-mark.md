@@ -1,7 +1,7 @@
 ---
 title: "Walking on Water"
 pk: "153"
-num: 117
+num: 116
 book: "Mark"
 excerpt: "Mark 6:45–53"
 noindex: true

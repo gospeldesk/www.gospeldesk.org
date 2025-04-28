@@ -1,12 +1,14 @@
 ---
-title: "Luke 5:17–26"
+title: "Paralytic"
 pk: "222"
-num: 167
+num: 165
 book: "Luke"
-excerpt: ""
+excerpt: "Luke 5:17–26"
 noindex: true
-prev_slug: "luke-5-12-16"
-next_slug: "luke-5-27-32"
+ref: "Luke 5:17–26"
+related: ["paralytic-matthew", "paralytic-mark"]
+prev_slug: "leper-luke"
+next_slug: "levi-luke"
 ---
 
 <p><span class="v">17</span>On one of those days, he was teaching; and there were Pharisees and teachers of the law sitting by, who had come out of every village of Galilee, Judea, and Jerusalem. The power of the Lord was with him to heal them.  <span class="v">18</span>Behold, men brought a paralyzed man on a cot, and they sought to bring him in to lay before Jesus.  <span class="v">19</span>Not finding a way to bring him in because of the multitude, they went up to the housetop, and let him down through the tiles with his cot into the middle before Jesus.  <span class="v">20</span>Seeing their faith, he said to him, “Man, your sins are forgiven you.”  <span class="v">21</span>The scribes and the Pharisees began to reason, saying, “Who is this that speaks blasphemies? Who can forgive sins, but God alone?”  <span class="v">22</span>But Jesus, perceiving their thoughts, answered them, “Why are you reasoning so in your hearts?  <span class="v">23</span>Which is easier to say, ‘Your sins are forgiven you;’ or to say, ‘Arise and walk?’  <span class="v">24</span>But that you may know that the Son of Man has authority on earth to forgive sins” (he said to the paralyzed man), “I tell you, arise, and take up your cot, and go to your house.”  <span class="v">25</span>Immediately he rose up before them, and took up that which he was laying on, and departed to his house, glorifying God.  <span class="v">26</span>Amazement took hold on all, and they glorified God. They were filled with fear, saying, “We have seen strange things today.” </p>

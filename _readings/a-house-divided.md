@@ -1,13 +1,13 @@
 ---
 title: "A House Divided"
 pk: "140"
-num: 104
+num: 103
 book: "Mark"
 excerpt: "Mark 3:19–27"
 noindex: true
 ref: "Mark 3:19–27"
 related: ["by-beelzebul"]
-prev_slug: "twelve-apostles"
+prev_slug: "twelve-apostles-mark"
 next_slug: "blasphemy-mother-brothers"
 ---
 

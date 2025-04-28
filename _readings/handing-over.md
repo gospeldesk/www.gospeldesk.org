@@ -1,7 +1,7 @@
 ---
 title: "Handing Over"
 pk: "194"
-num: 149
+num: 148
 book: "Mark"
 excerpt: "Mark 15:1–15"
 noindex: true

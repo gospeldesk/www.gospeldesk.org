@@ -1,12 +1,12 @@
 ---
 title: "Twelve Apostles"
 pk: "139"
-num: 103
+num: 102
 book: "Mark"
 excerpt: "Mark 3:13–19"
 noindex: true
 ref: "Mark 3:13–19"
-related: ["instructions-to-the-twelve-freely-give"]
+related: ["instructions-to-the-twelve-freely-give", "twelve-apostles-luke"]
 prev_slug: "a-great-multitude"
 next_slug: "a-house-divided"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Stumbling"
 pk: "169"
-num: 130
+num: 129
 book: "Mark"
 excerpt: "Mark 9:42–10:1"
 noindex: true

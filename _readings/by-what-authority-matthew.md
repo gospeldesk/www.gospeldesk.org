@@ -1,7 +1,7 @@
 ---
 title: "By What Authority"
 pk: "93"
-num: 76
+num: 75
 book: "Matthew"
 excerpt: "Matthew 21:23–27"
 noindex: true

@@ -1,7 +1,7 @@
 ---
 title: "Feeding of the Five Thousand"
 pk: "152"
-num: 116
+num: 115
 book: "Mark"
 excerpt: "Mark 6:30–45"
 noindex: true

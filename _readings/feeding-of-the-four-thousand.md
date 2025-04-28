@@ -1,7 +1,7 @@
 ---
 title: "Feeding of the Four Thousand"
 pk: "69"
-num: 58
+num: 57
 book: "Matthew"
 excerpt: "Matthew 15:32–39"
 noindex: true

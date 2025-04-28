@@ -1,14 +1,14 @@
 ---
 title: "Leper"
 pk: "133"
-num: 97
+num: 96
 book: "Mark"
 excerpt: "Mark 1:35–45"
 noindex: true
 ref: "Mark 1:35–45"
-related: ["sermon-on-the-mount-rock-and-sand-healing-a-leper"]
+related: ["sermon-on-the-mount-rock-and-sand-healing-a-leper", "leper-luke"]
 prev_slug: "peters-mother-in-law-mark"
-next_slug: "paralytic"
+next_slug: "paralytic-mark"
 ---
 
 <p><span class="v">35</span>Early in the morning, while it was still dark, he rose up and went out, and departed into a deserted place, and prayed there.  <span class="v">36</span>Simon and those who were with him followed after him;  <span class="v">37</span>and they found him, and told him, “Everyone is looking for you.” </p>

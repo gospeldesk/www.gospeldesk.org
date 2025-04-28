@@ -1,7 +1,7 @@
 ---
 title: "Parable of the Mustard Seed"
 pk: "144"
-num: 108
+num: 107
 book: "Mark"
 excerpt: "Mark 4:24–34"
 noindex: true

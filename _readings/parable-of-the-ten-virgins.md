@@ -1,7 +1,7 @@
 ---
 title: "Parable of the Ten Virgins"
 pk: "113"
-num: 89
+num: 88
 book: "Matthew"
 excerpt: "Matthew 25:1–13"
 noindex: true

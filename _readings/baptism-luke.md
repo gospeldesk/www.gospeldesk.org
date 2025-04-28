@@ -1,7 +1,7 @@
 ---
 title: "Baptism"
 pk: "213"
-num: 158
+num: 157
 book: "Luke"
 excerpt: "Luke 3:19–22"
 noindex: true

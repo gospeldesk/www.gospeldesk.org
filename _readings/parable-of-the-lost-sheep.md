@@ -1,7 +1,7 @@
 ---
 title: "Parable of the Lost Sheep"
 pk: "81"
-num: 67
+num: 66
 book: "Matthew"
 excerpt: "Matthew 18:10–19:15"
 noindex: true

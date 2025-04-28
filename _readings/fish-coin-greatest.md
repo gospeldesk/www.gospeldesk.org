@@ -1,7 +1,7 @@
 ---
 title: "Fish Coin; Greatest"
 pk: "79"
-num: 66
+num: 65
 book: "Matthew"
 excerpt: "Matthew 17:24–18:11"
 noindex: true

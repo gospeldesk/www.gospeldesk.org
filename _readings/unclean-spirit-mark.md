@@ -1,11 +1,12 @@
 ---
 title: "Unclean Spirit"
 pk: "131"
-num: 95
+num: 94
 book: "Mark"
 excerpt: "Mark 1:23–28"
 noindex: true
 ref: "Mark 1:23–28"
+related: ["unclean-spirit-luke"]
 prev_slug: "fishers-of-men-mark"
 next_slug: "peters-mother-in-law-mark"
 ---

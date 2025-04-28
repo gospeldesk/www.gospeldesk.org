@@ -1,7 +1,7 @@
 ---
 title: "Rich Young Ruler"
 pk: "85"
-num: 70
+num: 69
 book: "Matthew"
 excerpt: "Matthew 19:16–26"
 noindex: true

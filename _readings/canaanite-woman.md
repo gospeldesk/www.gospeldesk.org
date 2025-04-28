@@ -1,7 +1,7 @@
 ---
 title: "Canaanite Woman"
 pk: "67"
-num: 56
+num: 55
 book: "Matthew"
 excerpt: "Matthew 15:21–28"
 noindex: true

@@ -1,7 +1,7 @@
 ---
 title: "Take Up Your Cross"
 pk: "164"
-num: 125
+num: 124
 book: "Mark"
 excerpt: "Mark 8:34–9:1"
 noindex: true

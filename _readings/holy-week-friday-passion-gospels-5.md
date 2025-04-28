@@ -1,7 +1,7 @@
 ---
 title: "Holy Week"
 pk: "121"
-num: 329
+num: 327
 book: "Matthew"
 excerpt: "Matthew 27:3–32"
 noindex: true

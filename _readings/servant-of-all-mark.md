@@ -1,7 +1,7 @@
 ---
 title: "Servant of All"
 pk: "168"
-num: 129
+num: 128
 book: "Mark"
 excerpt: "Mark 9:33–41"
 noindex: true

@@ -1,7 +1,7 @@
 ---
 title: "Marriage in the Resurrection"
 pk: "183"
-num: 142
+num: 141
 book: "Mark"
 excerpt: "Mark 12:18–27"
 noindex: true

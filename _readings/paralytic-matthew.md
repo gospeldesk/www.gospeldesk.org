@@ -1,14 +1,14 @@
 ---
-title: "Take Up Your Mat"
+title: "Paralytic"
 pk: "30"
 num: 26
 book: "Matthew"
 excerpt: "Matthew 9:1–8"
 noindex: true
 ref: "Matthew 9:1–8"
-related: ["paralytic"]
+related: ["paralytic-mark", "paralytic-luke"]
 prev_slug: "gergesene-demoniacs"
-next_slug: "calling-of-matthew"
+next_slug: "levi-matthew"
 ---
 
 <p><span class="v">1</span>He entered into a boat, and crossed over, and came into his own city.  <span class="v">2</span>Behold, they brought to him a man who was paralyzed, lying on a bed. Jesus, seeing their faith, said to the paralytic, “Son, cheer up! Your sins are forgiven you.” </p>

@@ -1,7 +1,7 @@
 ---
 title: "Jesus Begins His Ministry"
 pk: "128"
-num: 93
+num: 92
 book: "Mark"
 excerpt: "Mark 1:9–15"
 noindex: true

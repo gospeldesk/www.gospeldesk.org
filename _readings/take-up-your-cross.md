@@ -1,7 +1,7 @@
 ---
 title: "Take Up Your Cross"
 pk: "75"
-num: 63
+num: 62
 book: "Matthew"
 excerpt: "Matthew 16:24–28"
 noindex: true

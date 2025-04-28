@@ -1,7 +1,7 @@
 ---
 title: "Walking on Water"
 pk: "64"
-num: 53
+num: 52
 book: "Matthew"
 excerpt: "Matthew 14:22–34"
 noindex: true

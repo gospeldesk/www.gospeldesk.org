@@ -1,7 +1,7 @@
 ---
 title: "Wise Scribe"
 pk: "101"
-num: 83
+num: 82
 book: "Matthew"
 excerpt: "Matthew 22:35–46"
 noindex: true

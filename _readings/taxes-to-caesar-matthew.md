@@ -1,7 +1,7 @@
 ---
 title: "Taxes to Caesar"
 pk: "98"
-num: 81
+num: 80
 book: "Matthew"
 excerpt: "Matthew 22:15–22"
 noindex: true

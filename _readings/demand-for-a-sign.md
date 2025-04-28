@@ -1,7 +1,7 @@
 ---
 title: "Demand for a Sign"
 pk: "52"
-num: 44
+num: 43
 book: "Matthew"
 excerpt: "Matthew 12:38–45"
 noindex: true

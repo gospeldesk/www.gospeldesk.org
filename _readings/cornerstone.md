@@ -1,7 +1,7 @@
 ---
 title: "Cornerstone"
 pk: "96"
-num: 79
+num: 78
 book: "Matthew"
 excerpt: "Matthew 21:43–46"
 noindex: true

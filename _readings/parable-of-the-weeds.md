@@ -1,7 +1,7 @@
 ---
 title: "Parable of the Weeds"
 pk: "56"
-num: 48
+num: 47
 book: "Matthew"
 excerpt: "Matthew 13:24–43"
 noindex: true

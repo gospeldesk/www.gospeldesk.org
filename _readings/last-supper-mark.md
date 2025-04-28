@@ -1,7 +1,7 @@
 ---
 title: "Last Supper"
 pk: "192"
-num: 147
+num: 146
 book: "Mark"
 excerpt: "Mark 14:10–42"
 noindex: true

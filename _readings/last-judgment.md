@@ -1,7 +1,7 @@
 ---
 title: "Last Judgment"
 pk: "115"
-num: 91
+num: 90
 book: "Matthew"
 excerpt: "Matthew 25:31–46"
 noindex: true

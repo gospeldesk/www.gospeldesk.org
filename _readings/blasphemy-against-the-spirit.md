@@ -1,7 +1,7 @@
 ---
 title: "Blasphemy Against the Spirit"
 pk: "51"
-num: 43
+num: 42
 book: "Matthew"
 excerpt: "Matthew 12:30–37"
 noindex: true

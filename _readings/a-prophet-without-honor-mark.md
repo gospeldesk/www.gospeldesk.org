@@ -1,12 +1,12 @@
 ---
 title: "A Prophet Without Honor"
 pk: "149"
-num: 113
+num: 112
 book: "Mark"
 excerpt: "Mark 6:1–7"
 noindex: true
 ref: "Mark 6:1–7"
-related: ["a-prophet-without-honor"]
+related: ["a-prophet-without-honor-matthew", "a-prophet-without-honor-luke"]
 prev_slug: "healing-a-woman"
 next_slug: "sending-the-twelve"
 ---

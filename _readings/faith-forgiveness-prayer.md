@@ -1,7 +1,7 @@
 ---
 title: "Faith, Forgiveness, Prayer"
 pk: "179"
-num: 138
+num: 137
 book: "Mark"
 excerpt: "Mark 11:22–26"
 noindex: true

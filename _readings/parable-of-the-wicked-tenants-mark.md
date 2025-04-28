@@ -1,7 +1,7 @@
 ---
 title: "Parable of the Wicked Tenants"
 pk: "181"
-num: 140
+num: 139
 book: "Mark"
 excerpt: "Mark 12:1–12"
 noindex: true

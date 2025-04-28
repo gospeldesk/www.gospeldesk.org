@@ -1,14 +1,14 @@
 ---
 title: "A Great Multitude"
 pk: "138"
-num: 102
+num: 101
 book: "Mark"
 excerpt: "Mark 3:6–12"
 noindex: true
 ref: "Mark 3:6–12"
 related: ["by-beelzebul"]
 prev_slug: "lord-of-the-sabbath-mark"
-next_slug: "twelve-apostles"
+next_slug: "twelve-apostles-mark"
 ---
 
 <p><span class="v">6</span>The Pharisees went out, and immediately conspired with the Herodians against him, how they might destroy him. </p>

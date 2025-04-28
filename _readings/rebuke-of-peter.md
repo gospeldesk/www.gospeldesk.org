@@ -1,7 +1,7 @@
 ---
 title: "Rebuke of Peter"
 pk: "162"
-num: 124
+num: 123
 book: "Mark"
 excerpt: "Mark 8:27–34"
 noindex: true

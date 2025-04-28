@@ -1,7 +1,7 @@
 ---
 title: "Woe! Serpents!"
 pk: "105"
-num: 87
+num: 86
 book: "Matthew"
 excerpt: "Matthew 23:29–39"
 noindex: true

@@ -1,7 +1,7 @@
 ---
 title: "Healing Jairus' Daughter"
 pk: "147"
-num: 111
+num: 110
 book: "Mark"
 excerpt: "Mark 5:21–6:1"
 noindex: true

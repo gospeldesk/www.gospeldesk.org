@@ -1,14 +1,14 @@
 ---
 title: "Fishers of Men"
 pk: "130"
-num: 94
+num: 93
 book: "Mark"
 excerpt: "Mark 1:16–22"
 noindex: true
 ref: "Mark 1:16–22"
 related: ["fishers-of-men-matthew"]
 prev_slug: "jesus-begins-his-ministry"
-next_slug: "unclean-spirit"
+next_slug: "unclean-spirit-mark"
 ---
 
 <p><span class="v">16</span>Passing along by the sea of Galilee, he saw Simon and Andrew the brother of Simon casting a net into the sea, for they were fishermen.  <span class="v">17</span>Jesus said to them, “Come after me, and I will make you into fishers for men.”  <span class="v">18</span>Immediately they left their nets, and followed him. </p>

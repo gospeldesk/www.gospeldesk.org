@@ -1,7 +1,7 @@
 ---
 title: "Triumphal Entry"
 pk: "89"
-num: 74
+num: 73
 book: "Matthew"
 excerpt: "Matthew 21:1–17"
 noindex: true

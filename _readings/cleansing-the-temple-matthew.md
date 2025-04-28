@@ -1,7 +1,7 @@
 ---
 title: "Cleansing the Temple"
 pk: "90"
-num: 75
+num: 74
 book: "Matthew"
 excerpt: "Matthew 21:12–22"
 noindex: true

@@ -1,7 +1,7 @@
 ---
 title: "Cleansing the Temple"
 pk: "303"
-num: 243
+num: 241
 book: "Luke"
 excerpt: "Luke 19:45–48"
 noindex: true

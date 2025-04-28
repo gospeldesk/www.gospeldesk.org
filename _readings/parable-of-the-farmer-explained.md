@@ -1,7 +1,7 @@
 ---
 title: "Parable of the Farmer Explained"
 pk: "55"
-num: 47
+num: 46
 book: "Matthew"
 excerpt: "Matthew 13:10–23"
 noindex: true

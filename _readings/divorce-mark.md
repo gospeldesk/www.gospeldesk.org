@@ -1,7 +1,7 @@
 ---
 title: "Divorce"
 pk: "170"
-num: 131
+num: 130
 book: "Mark"
 excerpt: "Mark 10:2–12"
 noindex: true

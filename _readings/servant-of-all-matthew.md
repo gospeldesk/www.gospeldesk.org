@@ -1,7 +1,7 @@
 ---
 title: "Servant of All"
 pk: "87"
-num: 72
+num: 71
 book: "Matthew"
 excerpt: "Matthew 20:17–28"
 noindex: true

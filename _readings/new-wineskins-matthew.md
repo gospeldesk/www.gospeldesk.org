@@ -6,8 +6,8 @@ book: "Matthew"
 excerpt: "Matthew 9:14–17"
 noindex: true
 ref: "Matthew 9:14–17"
-related: ["new-wineskins-mark"]
-prev_slug: "calling-of-matthew"
+related: ["new-wineskins-mark", "new-wineskins-luke"]
+prev_slug: "levi-matthew"
 next_slug: "two-healings"
 ---
 

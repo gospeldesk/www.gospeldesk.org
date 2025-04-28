@@ -1,7 +1,7 @@
 ---
 title: "Betrayal"
 pk: "193"
-num: 148
+num: 147
 book: "Mark"
 excerpt: "Mark 14:43–15:1"
 noindex: true

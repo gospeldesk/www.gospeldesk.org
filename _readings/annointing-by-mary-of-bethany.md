@@ -1,7 +1,7 @@
 ---
 title: "Annointing by Mary of Bethany"
 pk: "191"
-num: 146
+num: 145
 book: "Mark"
 excerpt: "Mark 14:3–9"
 noindex: true
