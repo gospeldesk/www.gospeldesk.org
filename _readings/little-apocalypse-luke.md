@@ -1,7 +1,7 @@
 ---
 title: "Little Apocalypse"
 pk: "309"
-num: 247
+num: 246
 book: "Luke"
 excerpt: "Luke 21:5–36"
 noindex: true

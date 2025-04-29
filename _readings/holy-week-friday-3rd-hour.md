@@ -1,7 +1,7 @@
 ---
 title: "Holy Week"
 pk: "196"
-num: 336
+num: 335
 book: "Mark"
 excerpt: "Mark 15:16–41"
 noindex: true

@@ -1,7 +1,7 @@
 ---
 title: "A Certain Blind Man"
 pk: "298"
-num: 237
+num: 236
 book: "Luke"
 excerpt: "Luke 18:35–43"
 noindex: true

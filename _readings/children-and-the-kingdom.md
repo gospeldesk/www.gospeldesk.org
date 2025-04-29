@@ -1,7 +1,7 @@
 ---
 title: "Children and the Kingdom"
 pk: "295"
-num: 234
+num: 233
 book: "Luke"
 excerpt: "Luke 18:15–30"
 noindex: true

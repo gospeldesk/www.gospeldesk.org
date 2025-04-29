@@ -2861,24 +2861,22 @@ Luke  6:8   225, 90009
 Luke  6:9   225, 90009
 Luke  6:10  225, 90009
 Luke  6:11       90009
----- Twelve Apostles (Luke)
+---- Twelve Apostles; Beatitudes (Luke)
 > instructions-to-the-twelve-freely-give twelve-apostles-mark
 Luke  6:12  226
 Luke  6:13  226
 Luke  6:14  226
 Luke  6:15  226
 Luke  6:16  226
-Luke  6:17  226
-Luke  6:18  226
-Luke  6:19  226
-----
-Luke  6:17  227
-Luke  6:18  227
-Luke  6:19  227
-Luke  6:20  227
-Luke  6:21  227
-Luke  6:22  227
-Luke  6:23  227
+
+Luke  6:17  226, 227
+Luke  6:18  226, 227
+Luke  6:19  226, 227
+
+Luke  6:20       227
+Luke  6:21       227
+Luke  6:22       227
+Luke  6:23       227"
 ----
 Luke  6:24  228
 Luke  6:25  228

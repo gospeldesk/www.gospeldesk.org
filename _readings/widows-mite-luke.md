@@ -1,7 +1,7 @@
 ---
 title: "Widow's Mite"
 pk: "308"
-num: 246
+num: 245
 book: "Luke"
 excerpt: "Luke 20:45–21:4"
 noindex: true

@@ -8,7 +8,7 @@ noindex: true
 ref: "Luke 6:1–11"
 related: ["lord-of-the-sabbath-matthew", "lord-of-the-sabbath-mark"]
 prev_slug: "new-wineskins-luke"
-next_slug: "twelve-apostles-luke"
+next_slug: "twelve-apostles-beatitudes-luke"
 ---
 
 <p><span class="v">1</span>Now on the second Sabbath after the first, he was going through the grain fields. His disciples plucked the heads of grain and ate, rubbing them in their hands.  <span class="v">2</span>But some of the Pharisees said to them, “Why do you do that which is not lawful to do on the Sabbath day?”  <span class="v">3</span>Jesus, answering them, said, “Haven’t you read what David did when he was hungry, he, and those who were with him;  <span class="v">4</span>how he entered into God’s house, and took and ate the show bread, and gave also to those who were with him, which is not lawful to eat except for the priests alone?”  <span class="v">5</span>He said to them, “The Son of Man is lord of the Sabbath.” </p>
