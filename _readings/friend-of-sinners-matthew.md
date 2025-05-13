@@ -6,7 +6,8 @@ book: "Matthew"
 excerpt: "Matthew 11:16–20"
 noindex: true
 ref: "Matthew 11:16–20"
-prev_slug: "john-is-elijah"
+related: ["friend-of-sinners-luke"]
+prev_slug: "john-is-elijah-matthew"
 next_slug: "woe-to-chorazin"
 ---
 

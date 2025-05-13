@@ -6,7 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 11:20–26"
 noindex: true
 ref: "Matthew 11:20–26"
-prev_slug: "friend-of-sinners"
+prev_slug: "friend-of-sinners-matthew"
 next_slug: "easy-yoke"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Zacchaeus"
 pk: "299"
-num: 237
+num: 238
 book: "Luke"
 excerpt: "Luke 19:1–10"
 noindex: true

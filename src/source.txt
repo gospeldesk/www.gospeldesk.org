@@ -139,6 +139,7 @@ Matt  4:22  9, 90002
 Matt  4:23  9, 90002
 Matt  4:24     90002
 ---- Sermon on the Mount: Beatitudes; Salt of the Earth
+> sermon-on-the-plain-beatitudes
 Matt  4:25  10, 11
 Matt  5:1   10, 11
 
@@ -194,6 +195,7 @@ Matt  5:39  15
 Matt  5:40  15
 Matt  5:41  15"
 ---- Sermon on the Mount: Love Your Enemies
+> sermon-on-the-plain-woes sermon-on-the-plain-love-your-enemies
 "Matt  5:42  16
 
 Matt  5:43  16
@@ -254,6 +256,7 @@ Matt  7:9   20
 Matt  7:10  20
 Matt  7:11  20"
 ---- Sermon on the Mount: Don't Judge
+> sermon-on-the-plain-dont-judge
 Matt  7:1   21
 Matt  7:2   21
 Matt  7:3   21
@@ -281,7 +284,7 @@ Matt  7:21  24, 22, 23
 Matt  7:22  24
 Matt  7:23  24"
 ---- Sermon on the Mount: Rock and Sand; Healing a Leper
-> leper-mark leper-luke
+> leper-mark sermon-on-the-plain-rock-and-sand leper-luke
 Matt  7:24  25
 Matt  7:25  25
 Matt  7:26  25
@@ -297,7 +300,8 @@ Matt  8:2   25
 
 Matt  8:3   25
 Matt  8:4   25
----- Centurion
+---- Centurion (Matthew)
+> centurion-luke
 | jesus centurion
 Matt  8:5   26
 Matt  8:6   26
@@ -486,15 +490,17 @@ Matt 19:27      41
 Matt 19:28      41
 Matt 19:29      41
 Matt 19:30      41"
----- John is Elijah
-> john-is-elijah-mark
+---- John Is Elijah (Matthew)
+> john-is-elijah-mark john-is-more-than-a-prophet
 Matt 11:2   43
 Matt 11:3   43
 
 Matt 11:4   43
 Matt 11:5   43
 Matt 11:6   43
-
+#
+# Jesus' Witness About John
+#
 Matt 11:7   43
 Matt 11:8   43
 Matt 11:9   43
@@ -504,7 +510,8 @@ Matt 11:12  43
 Matt 11:13  43
 Matt 11:14  43
 Matt 11:15  43"
----- Friend of Sinners
+---- Friend of Sinners (Matthew)
+> friend-of-sinners-luke
 Matt 11:16  44
 Matt 11:17  44
 Matt 11:18  44
@@ -1949,8 +1956,8 @@ Mark  9:7   165
 
 Mark  9:8   165
 Mark  9:9   165
----- John is Elijah (Mark)
-> john-is-elijah
+---- John Is Elijah (Mark)
+> john-is-elijah-matthew john-is-more-than-a-prophet
 Mark  9:10  166
 Mark  9:11  166
 
@@ -2861,109 +2868,153 @@ Luke  6:8   225, 90009
 Luke  6:9   225, 90009
 Luke  6:10  225, 90009
 Luke  6:11       90009
----- Twelve Apostles; Beatitudes (Luke)
+---- Twelve Apostles (Luke)
 > instructions-to-the-twelve-freely-give twelve-apostles-mark
-Luke  6:12  226
+Luke  5:12  226
 Luke  6:13  226
 Luke  6:14  226
 Luke  6:15  226
 Luke  6:16  226
 
-Luke  6:17  226, 227
-Luke  6:18  226, 227
-Luke  6:19  226, 227
+Luke  6:17  226
+Luke  6:18  226
+Luke  6:19  226
+---- Sermon on the Plain: Beatitudes
+> sermon-on-the-mount-beatitudes-salt-of-the-earth
+Luke  6:17  227
+Luke  6:18  227
+Luke  6:19  227
 
-Luke  6:20       227
-Luke  6:21       227
-Luke  6:22       227
-Luke  6:23       227"
-----
+Luke  6:20  227
+Luke  6:21  227
+Luke  6:22  227
+Luke  6:23  227"
+---- Sermon on the Plain: Woes
+> sermon-on-the-mount-love-your-enemies
 Luke  6:24  228
 Luke  6:25  228
 Luke  6:26  228
+
 Luke  6:27  228
 Luke  6:28  228
 Luke  6:29  228
-Luke  6:30  228
-----
+Luke  6:30  228"
+---- Sermon on the Plain: Love Your Enemies
+> sermon-on-the-mount-love-your-enemies
 Luke  6:31  229
 Luke  6:32  229
 Luke  6:33  229
 Luke  6:34  229
 Luke  6:35  229
+
 Luke  6:36  229
-----
-Luke  6:37  230
+---- Sermon on the Plain: Don't Judge
+> sermon-on-the-mount-dont-judge
+"Luke  6:37  230
+
 Luke  6:38  230
+
 Luke  6:39  230
 Luke  6:40  230
 Luke  6:41  230
 Luke  6:42  230
-Luke  6:43  230
+
+"Luke  6:43  230
 Luke  6:44  230
-Luke  6:45  230
-----
+Luke  6:45  230"
+---- Sermon on the Plain: Rock and Sand
+> sermon-on-the-mount-rock-and-sand-healing-a-leper
 Luke  6:46  231
 Luke  6:47  231
 Luke  6:48  231
 Luke  6:49  231
+
 Luke  7:1   231
-----
+---- Centurion (Luke)
+> centurion-matthew
+| jesus centurion
 Luke  7:1   232
 Luke  7:2   232
 Luke  7:3   232
+
 Luke  7:4   232
 Luke  7:5   232
+
 Luke  7:6   232
 Luke  7:7   232
 Luke  7:8   232
+
 Luke  7:9   232
+
 Luke  7:10  232
-----
+---- Widow of Nain
 Luke  7:11  233
 Luke  7:12  233
+
 Luke  7:13  233
+
 Luke  7:14  233
+
 Luke  7:15  233
+
 Luke  7:16  233
-----
+---- John Is More Than a Prophet
+> john-is-elijah-matthew john-is-elijah-mark
 Luke  7:17  234
 Luke  7:18  234
 Luke  7:19  234
+
 Luke  7:20  234
+
 Luke  7:21  234
 Luke  7:22  234
 Luke  7:23  234
+#
+# Jesus' Witness About John
+#
 Luke  7:24  234
 Luke  7:25  234
 Luke  7:26  234
 Luke  7:27  234
+
 Luke  7:28  234
 Luke  7:29  234
 Luke  7:30  234
-----
+---- Friend of Sinners (Luke)
+> friend-of-sinners-matthew
 Luke  7:31  235
 Luke  7:32  235
 Luke  7:33  235
 Luke  7:34  235
 Luke  7:35  235
-----
+---- Sinful Woman Forgiven
 Luke  7:36  236
+
 Luke  7:37  236
 Luke  7:38  236
+
 Luke  7:39  236
+
 Luke  7:40  236
+  you." He
+
 Luke  7:41  236
 Luke  7:42  236
+
 Luke  7:43  236
+  most." He
+
 Luke  7:44  236
 Luke  7:45  236
 Luke  7:46  236
 Luke  7:47  236
+
 Luke  7:48  236
+
 Luke  7:49  236
+
 Luke  7:50  236
-----
+---- Women Disciples
 Luke  8:1   237
 Luke  8:2   237
 Luke  8:3   237

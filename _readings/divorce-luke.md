@@ -1,7 +1,7 @@
 ---
 title: "Divorce"
 pk: "287"
-num: 225
+num: 226
 book: "Luke"
 excerpt: "Luke 16:15–17:4"
 noindex: true

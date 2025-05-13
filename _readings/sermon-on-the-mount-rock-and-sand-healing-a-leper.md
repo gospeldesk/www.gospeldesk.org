@@ -7,9 +7,9 @@ excerpt: "Matthew 7:24–8:4"
 noindex: true
 ref: "Matthew 7:24–8:4"
 subtitle: "Rock and Sand; Healing a Leper"
-related: ["leper-mark", "leper-luke"]
+related: ["leper-mark", "sermon-on-the-plain-rock-and-sand", "leper-luke"]
 prev_slug: "sermon-on-the-mount-golden-rule-narrow-gate-false-prophets"
-next_slug: "centurion"
+next_slug: "centurion-matthew"
 ---
 
 <p><span class="v">24</span>“Everyone therefore who hears these words of mine, and does them, I will liken him to a wise man, who built his house on a rock.  <span class="v">25</span>The rain came down, the floods came, and the winds blew, and beat on that house; and it didn’t fall, for it was founded on the rock.  <span class="v">26</span>Everyone who hears these words of mine, and doesn’t do them will be like a foolish man, who built his house on the sand.  <span class="v">27</span>The rain came down, the floods came, and the winds blew, and beat on that house; and it fell—and great was its fall.” </p>

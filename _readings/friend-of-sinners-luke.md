@@ -1,12 +1,14 @@
 ---
-title: "Luke 7:31–35"
+title: "Friend of Sinners"
 pk: "235"
-num: 177
+num: 178
 book: "Luke"
-excerpt: ""
+excerpt: "Luke 7:31–35"
 noindex: true
-prev_slug: "luke-7-17-30"
-next_slug: "luke-7-36-50"
+ref: "Luke 7:31–35"
+related: ["friend-of-sinners-matthew"]
+prev_slug: "john-is-more-than-a-prophet"
+next_slug: "sinful-woman-forgiven"
 ---
 
 <p><span class="v">31</span>“To what then will I liken the people of this generation? What are they like?  <span class="v">32</span>They are like children who sit in the marketplace, and call to one another, saying, ‘We piped to you, and you didn’t dance. We mourned, and you didn’t weep.’  <span class="v">33</span>For John the Baptizer came neither eating bread nor drinking wine, and you say, ‘He has a demon.’  <span class="v">34</span>The Son of Man has come eating and drinking, and you say, ‘Behold, a gluttonous man, and a drunkard; a friend of tax collectors and sinners!’  <span class="v">35</span>Wisdom is justified by all her children.” </p>

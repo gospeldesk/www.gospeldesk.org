@@ -1,0 +1,21 @@
+---
+title: "Sermon on the Plain"
+pk: "228"
+num: 171
+book: "Luke"
+excerpt: "Luke 6:24–30"
+noindex: true
+ref: "Luke 6:24–30"
+subtitle: "Woes"
+related: ["sermon-on-the-mount-love-your-enemies"]
+prev_slug: "sermon-on-the-plain-beatitudes"
+next_slug: "sermon-on-the-plain-love-your-enemies"
+---
+
+<p><span class="v">24</span>“But woe to you who are rich! For you have received your consolation.  <span class="v">25</span>Woe to you, you who are full now, for you will be hungry. Woe to you who laugh now, for you will mourn and weep.  <span class="v">26</span>Woe, when men speak well of you, for their fathers did the same thing to the false prophets. </p>
+<p><span class="v">27</span>“But I tell you who hear: love your enemies, do good to those who hate you,  <span class="v">28</span>bless those who curse you, and pray for those who mistreat you.  <span class="v">29</span>To him who strikes you on the cheek, offer also the other; and from him who takes away your cloak, don’t withhold your coat also.  <span class="v">30</span>Give to everyone who asks you, and don’t ask him who takes away your goods to give them back again.”</p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/10/06">October  6, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/10/05">October  5, 2026</a>.

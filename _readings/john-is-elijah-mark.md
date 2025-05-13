@@ -1,12 +1,12 @@
 ---
-title: "John is Elijah"
+title: "John Is Elijah"
 pk: "166"
 num: 126
 book: "Mark"
 excerpt: "Mark 9:10–16"
 noindex: true
 ref: "Mark 9:10–16"
-related: ["john-is-elijah"]
+related: ["john-is-elijah-matthew", "john-is-more-than-a-prophet"]
 prev_slug: "transfiguration-mark"
 next_slug: "unbelieving-generation"
 ---

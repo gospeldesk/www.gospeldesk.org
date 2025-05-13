@@ -6,6 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 8:5–13"
 noindex: true
 ref: "Matthew 8:5–13"
+related: ["centurion-luke"]
 direct: ["jesus", "centurion"]
 prev_slug: "sermon-on-the-mount-rock-and-sand-healing-a-leper"
 next_slug: "peters-mother-in-law-matthew"

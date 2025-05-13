@@ -1,7 +1,7 @@
 ---
 title: "Triumphal Entry"
 pk: "301"
-num: 239
+num: 240
 book: "Luke"
 excerpt: "Luke 19:29–44"
 noindex: true

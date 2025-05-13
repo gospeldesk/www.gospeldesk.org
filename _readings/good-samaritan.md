@@ -1,7 +1,7 @@
 ---
 title: "Good Samaritan"
 pk: "258"
-num: 197
+num: 198
 book: "Luke"
 excerpt: "Luke 10:25–37"
 noindex: true

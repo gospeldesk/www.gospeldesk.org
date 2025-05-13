@@ -1,11 +1,12 @@
 ---
-title: "Luke 8:1–3"
+title: "Women Disciples"
 pk: "237"
-num: 179
+num: 180
 book: "Luke"
-excerpt: ""
+excerpt: "Luke 8:1–3"
 noindex: true
-prev_slug: "luke-7-36-50"
+ref: "Luke 8:1–3"
+prev_slug: "sinful-woman-forgiven"
 next_slug: "luke-8-4-15"
 ---
 

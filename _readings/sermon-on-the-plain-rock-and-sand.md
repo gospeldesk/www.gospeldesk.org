@@ -1,0 +1,21 @@
+---
+title: "Sermon on the Plain"
+pk: "231"
+num: 174
+book: "Luke"
+excerpt: "Luke 6:46–7:1"
+noindex: true
+ref: "Luke 6:46–7:1"
+subtitle: "Rock and Sand"
+related: ["sermon-on-the-mount-rock-and-sand-healing-a-leper"]
+prev_slug: "sermon-on-the-plain-dont-judge"
+next_slug: "centurion-luke"
+---
+
+<p><span class="v">46</span>“Why do you call me, ‘Lord, Lord,’ and don’t do the things which I say?  <span class="v">47</span>Everyone who comes to me, and hears my words, and does them, I will show you who he is like.  <span class="v">48</span>He is like a man building a house, who dug and went deep, and laid a foundation on the rock. When a flood arose, the stream broke against that house, and could not shake it, because it was founded on the rock.  <span class="v">49</span>But he who hears, and doesn’t do, is like a man who built a house on the earth without a foundation, against which the stream broke, and immediately it fell, and the ruin of that house was great.” </p>
+<p><span class="v">1</span>After he had finished speaking in the hearing of the people, he entered into Capernaum. </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/10/08">October  8, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/10/07">October  7, 2026</a>.

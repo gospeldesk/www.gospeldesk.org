@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 10:32–19:30"
 subtitle: "Not Peace But a Sword"
 prev_slug: "instructions-to-the-twelve-dont-be-afraid"
-next_slug: "john-is-elijah"
+next_slug: "john-is-elijah-matthew"
 ---
 
 <p><span class="v">32</span>“Everyone therefore who confesses me before men, him I will also confess before my Father who is in heaven.  <span class="v">33</span>But whoever denies me before men, him I will also deny before my Father who is in heaven. </p>
