@@ -1,0 +1,23 @@
+---
+title: "Parable of the Farmer"
+pk: "238"
+num: 181
+book: "Luke"
+excerpt: "Luke 8:4–15"
+noindex: true
+ref: "Luke 8:4–15"
+related: ["parable-of-the-farmer-matthew", "parable-of-the-farmer-explained-matthew", "parable-of-the-farmer-mark", "parable-of-the-farmer-explained-mark"]
+prev_slug: "women-disciples"
+next_slug: "lamp-mother-brothers"
+---
+
+<p><span class="v">4</span>When a great multitude came together, and people from every city were coming to him, he spoke by a parable.  <span class="v">5</span>“The farmer went out to sow his seed. As he sowed, some fell along the road, and it was trampled under foot, and the birds of the sky devoured it.  <span class="v">6</span>Other seed fell on the rock, and as soon as it grew, it withered away, because it had no moisture.  <span class="v">7</span>Other fell amid the thorns, and the thorns grew with it, and choked it.  <span class="v">8</span>Other fell into the good ground, and grew, and produced one hundred times as much fruit.”</p>
+<p>As he said these things, he called out, “He who has ears to hear, let him hear!” </p>
+<h4>Explanation</h4>
+<p><span class="v">9</span>Then his disciples asked him, “What does this parable mean?” </p>
+<p><span class="v">10</span>He said, “To you it is given to know the mysteries of God’s Kingdom, but to the rest in parables; that ‘seeing they may not see, and hearing they may not understand.’  <span class="v">11</span>Now the parable is this: The seed is the word of God.  <span class="v">12</span>Those along the road are those who hear, then the devil comes, and takes away the word from their heart, that they may not believe and be saved.  <span class="v">13</span>Those on the rock are they who, when they hear, receive the word with joy; but these have no root, who believe for a while, then fall away in time of temptation.  <span class="v">14</span>That which fell among the thorns, these are those who have heard, and as they go on their way they are choked with cares, riches, and pleasures of life, and bring no fruit to maturity.  <span class="v">15</span>Those in the good ground, these are those who with an honest and good heart, having heard the word, hold it tightly, and produce fruit with perseverance.”</p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/10/19">October 19, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/10/18">October 18, 2026</a>.

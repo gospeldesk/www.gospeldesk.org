@@ -6,7 +6,7 @@ book: "Mark"
 excerpt: "Mark 4:1–9"
 noindex: true
 ref: "Mark 4:1–9"
-related: ["parable-of-the-farmer"]
+related: ["parable-of-the-farmer-matthew", "parable-of-the-farmer-luke"]
 prev_slug: "blasphemy-mother-brothers"
 next_slug: "parable-of-the-farmer-explained-mark"
 ---

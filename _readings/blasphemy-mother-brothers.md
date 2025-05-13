@@ -6,7 +6,7 @@ book: "Mark"
 excerpt: "Mark 3:28–35"
 noindex: true
 ref: "Mark 3:28–35"
-related: ["blasphemy-against-the-spirit", "who-is-my-mother"]
+related: ["blasphemy-against-the-spirit", "who-is-my-mother", "lamp-mother-brothers"]
 prev_slug: "a-house-divided"
 next_slug: "parable-of-the-farmer-mark"
 ---

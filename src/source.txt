@@ -158,6 +158,7 @@ Matt  5:12  10, 11
 
 Matt  5:13  10"
 ---- Sermon on the Mount: Light of the World; Law and Prophets
+> parable-of-the-farmer-explained-mark lamp-mother-brothers
 "Matt  5:14  12
 Matt  5:15  12
 Matt  5:16  12
@@ -601,7 +602,7 @@ Matt 12:43  52
 Matt 12:44  52
 Matt 12:45  52
 ---- Who Is My Mother?
-> blasphemy-mother-brothers
+> blasphemy-mother-brothers lamp-mother-brothers
 Matt 12:46  53
 Matt 12:47  53
 
@@ -612,8 +613,8 @@ Matt 12:50  53
 Matt 13:1   53
 Matt 13:2   53
 Matt 13:3   53 s/, saying, “Behold, a farmer went out to sow./.
----- Parable of the Farmer
-> parable-of-the-farmer-mark
+---- Parable of the Farmer (Matthew)
+> parable-of-the-farmer-mark parable-of-the-farmer-luke
 Matt 13:3   54
 Matt 13:4   54
 Matt 13:5   54
@@ -621,8 +622,8 @@ Matt 13:6   54
 Matt 13:7   54
 Matt 13:8   54
 Matt 13:9   54
----- Parable of the Farmer Explained
-> parable-of-the-farmer-explained-mark
+---- Parable of the Farmer Explained (Matthew)
+> parable-of-the-farmer-explained-mark parable-of-the-farmer-luke
 Matt 13:10  55
 
 Matt 13:11  55
@@ -1572,7 +1573,7 @@ Mark  3:25  140
 Mark  3:26  140
 Mark  3:27  140"
 ---- Blasphemy; Mother & Brothers
-> blasphemy-against-the-spirit who-is-my-mother
+> blasphemy-against-the-spirit who-is-my-mother lamp-mother-brothers
 "Mark  3:28  141
 Mark  3:29  141
 Mark  3:30  141
@@ -1586,7 +1587,7 @@ Mark  3:33  141
 Mark  3:34  141
 Mark  3:35  141
 ---- Parable of the Farmer (Mark)
-> parable-of-the-farmer
+> parable-of-the-farmer-matthew parable-of-the-farmer-luke
 Mark  4:1   142
 
 Mark  4:2   142
@@ -1598,7 +1599,7 @@ Mark  4:7   142
 Mark  4:8   142
 Mark  4:9   142
 ---- Parable of the Farmer Explained (Mark)
-> parable-of-the-farmer-explained
+> parable-of-the-farmer-explained-matthew sermon-on-the-mount-light-of-the-world-law-and-prophets parable-of-the-farmer-luke lamp-mother-brothers
 Mark  4:10  143
 
 Mark  4:11  143
@@ -1612,7 +1613,9 @@ Mark  4:17  143
 Mark  4:18  143
 Mark  4:19  143
 Mark  4:20  143
-
+#
+# The Lamp
+#
 Mark  4:21  143
 Mark  4:22  143
 Mark  4:23  143
@@ -3018,25 +3021,36 @@ Luke  7:50  236
 Luke  8:1   237
 Luke  8:2   237
 Luke  8:3   237
-----
+---- Parable of the Farmer (luke)
+> parable-of-the-farmer-matthew parable-of-the-farmer-explained-matthew parable-of-the-farmer-mark parable-of-the-farmer-explained-mark
 Luke  8:4   90010
 Luke  8:5   90010, 238
 Luke  8:6   90010, 238
 Luke  8:7   90010, 238
 Luke  8:8   90010, 238
+  fruit." As
+#
+# Explanation
+#
 Luke  8:9   90010, 238
+
 Luke  8:10  90010, 238
 Luke  8:11  90010, 238
 Luke  8:12  90010, 238
 Luke  8:13  90010, 238
 Luke  8:14  90010, 238
-Luke  8:15  90010, 238
-----
+Luke  8:15  90010, 238"
+---- Lamp; Mother & Brothers
+> sermon-on-the-mount-light-of-the-world-law-and-prophets who-is-my-mother blasphemy-mother-brothers parable-of-the-farmer-explained-mark
 Luke  8:16  239
 Luke  8:17  239
 Luke  8:18  239
+#
+# Mother & Brothers
+#
 Luke  8:19  239
 Luke  8:20  239
+
 Luke  8:21  239
 ----
 Luke  8:22  240

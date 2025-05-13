@@ -153,7 +153,11 @@ class Pericope(object):
             else:
                 pks = pks_sub
                 sub = ''
-            b, cv = bcv.split()
+            try:
+                b, cv = bcv.split()
+            except:
+                print("choked on", bcv)
+                raise
             book = 'Matthew' if b == 'Matt' else b
             if self.book:
                 if self.book != book:

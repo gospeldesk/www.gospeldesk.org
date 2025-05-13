@@ -6,7 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 13:24–43"
 noindex: true
 ref: "Matthew 13:24–43"
-prev_slug: "parable-of-the-farmer-explained"
+prev_slug: "parable-of-the-farmer-explained-matthew"
 next_slug: "parables-of-the-treasure-the-pearl-and-the-net"
 ---
 

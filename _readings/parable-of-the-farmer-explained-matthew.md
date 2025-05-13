@@ -6,8 +6,8 @@ book: "Matthew"
 excerpt: "Matthew 13:10–23"
 noindex: true
 ref: "Matthew 13:10–23"
-related: ["parable-of-the-farmer-explained-mark"]
-prev_slug: "parable-of-the-farmer"
+related: ["parable-of-the-farmer-explained-mark", "parable-of-the-farmer-luke"]
+prev_slug: "parable-of-the-farmer-matthew"
 next_slug: "parable-of-the-weeds"
 ---
 
