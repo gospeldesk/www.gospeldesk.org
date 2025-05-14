@@ -1,5 +1,5 @@
 ---
-title: "Parable of the Farmer Explained"
+title: "Farmer Explained; Lamp"
 pk: "143"
 num: 106
 book: "Mark"

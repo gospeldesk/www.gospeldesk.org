@@ -1,0 +1,22 @@
+---
+title: "Rebuking the Storm"
+pk: "240"
+num: 183
+book: "Luke"
+excerpt: "Luke 8:22–25"
+noindex: true
+ref: "Luke 8:22–25"
+related: ["rebuking-the-storm-matthew", "rebuking-the-storm-mark"]
+prev_slug: "lamp-mother-brothers"
+next_slug: "gadarene-demoniac-luke"
+---
+
+<p><span class="v">22</span>Now on one of those days, he entered into a boat, himself and his disciples, and he said to them, “Let’s go over to the other side of the lake.”</p>
+<p>So they launched out.  <span class="v">23</span>But as they sailed, he fell asleep. A wind storm came down on the lake, and they were taking on dangerous amounts of water.  <span class="v">24</span>They came to him, and awoke him, saying, “Master, master, we are dying!”</p>
+<p>He awoke, and rebuked the wind and the raging of the water, and they ceased, and it was calm.  <span class="v">25</span>He said to them, “Where is your faith?”</p>
+<p>Being afraid they marveled, saying to one another, “Who is this then, that he commands even the winds and the water, and they obey him?” </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/10/15">October 15, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/10/14">October 14, 2026</a>.

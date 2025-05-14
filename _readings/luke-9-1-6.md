@@ -5,7 +5,7 @@ num: 186
 book: "Luke"
 excerpt: ""
 noindex: true
-prev_slug: "luke-8-41-56"
+prev_slug: "two-healings-luke"
 next_slug: "luke-9-7-11"
 ---
 

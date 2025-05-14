@@ -6,9 +6,9 @@ book: "Luke"
 excerpt: "Luke 8:16–21"
 noindex: true
 ref: "Luke 8:16–21"
-related: ["sermon-on-the-mount-light-of-the-world-law-and-prophets", "who-is-my-mother", "blasphemy-mother-brothers", "parable-of-the-farmer-explained-mark"]
+related: ["sermon-on-the-mount-light-of-the-world-law-and-prophets", "who-is-my-mother", "blasphemy-mother-brothers", "farmer-explained-lamp"]
 prev_slug: "parable-of-the-farmer-luke"
-next_slug: "luke-8-22-25"
+next_slug: "rebuking-the-storm-luke"
 ---
 
 <p><span class="v">16</span>“No one, when he has lit a lamp, covers it with a container, or puts it under a bed; but puts it on a stand, that those who enter in may see the light.  <span class="v">17</span>For nothing is hidden, that will not be revealed; nor anything secret, that will not be known and come to light.  <span class="v">18</span>Be careful therefore how you hear. For whoever has, to him will be given; and whoever doesn’t have, from him will be taken away even that which he thinks he has.” </p>

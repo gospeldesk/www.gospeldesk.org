@@ -82,7 +82,11 @@ def main():
             cur = Pericope(i, title, subtitle)
             pericopes.append(cur)
         else:
-            cur.add(line)
+            try:
+                cur.add(line)
+            except:
+                print("choked on: \x1b[1;31m", line, "\x1b[0m")
+                raise
     cur.flush()
 
     N = len(pericopes)
@@ -153,11 +157,7 @@ class Pericope(object):
             else:
                 pks = pks_sub
                 sub = ''
-            try:
-                b, cv = bcv.split()
-            except:
-                print("choked on", bcv)
-                raise
+            b, cv = bcv.split()
             book = 'Matthew' if b == 'Matt' else b
             if self.book:
                 if self.book != book:

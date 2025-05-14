@@ -8,7 +8,7 @@ noindex: true
 ref: "Mark 4:1–9"
 related: ["parable-of-the-farmer-matthew", "parable-of-the-farmer-luke"]
 prev_slug: "blasphemy-mother-brothers"
-next_slug: "parable-of-the-farmer-explained-mark"
+next_slug: "farmer-explained-lamp"
 ---
 
 <p><span class="v">1</span>Again he began to teach by the seaside. A great multitude was gathered to him, so that he entered into a boat in the sea, and sat down. All the multitude were on the land by the sea. </p>

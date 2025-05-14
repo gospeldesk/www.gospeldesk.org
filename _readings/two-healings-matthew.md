@@ -6,7 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 9:18–26"
 noindex: true
 ref: "Matthew 9:18–26"
-related: ["healing-jairus-daughter", "healing-a-woman"]
+related: ["healing-jairus-daughter", "healing-a-woman", "two-healings-luke"]
 prev_slug: "new-wineskins-matthew"
 next_slug: "two-blind-men-mute-man"
 ---

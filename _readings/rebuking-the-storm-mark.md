@@ -6,9 +6,9 @@ book: "Mark"
 excerpt: "Mark 4:35–41"
 noindex: true
 ref: "Mark 4:35–41"
-related: ["rebuking-the-storm"]
+related: ["rebuking-the-storm-matthew", "rebuking-the-storm-luke"]
 prev_slug: "parable-of-the-mustard-seed"
-next_slug: "gadarene-demoniac"
+next_slug: "gadarene-demoniac-mark"
 ---
 
 <p><span class="v">35</span>On that day, when evening had come, he said to them, “Let’s go over to the other side.” </p>

@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 9:14–17"
 related: ["new-wineskins-mark", "new-wineskins-luke"]
 prev_slug: "levi-matthew"
-next_slug: "two-healings"
+next_slug: "two-healings-matthew"
 ---
 
 <p><span class="v">14</span>Then John’s disciples came to him, saying, “Why do we and the Pharisees fast often, but your disciples don’t fast?” </p>

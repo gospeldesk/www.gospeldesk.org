@@ -6,8 +6,8 @@ book: "Matthew"
 excerpt: "Matthew 8:28–9:1"
 noindex: true
 ref: "Matthew 8:28–9:1"
-related: ["gadarene-demoniac"]
-prev_slug: "rebuking-the-storm"
+related: ["gadarene-demoniac-mark", "gadarene-demoniac-luke"]
+prev_slug: "rebuking-the-storm-matthew"
 next_slug: "paralytic-matthew"
 ---
 

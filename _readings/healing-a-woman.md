@@ -6,7 +6,7 @@ book: "Mark"
 excerpt: "Mark 5:24–34"
 noindex: true
 ref: "Mark 5:24–34"
-related: ["two-healings"]
+related: ["two-healings-matthew", "two-healings-luke"]
 prev_slug: "healing-jairus-daughter"
 next_slug: "a-prophet-without-honor-mark"
 ---
