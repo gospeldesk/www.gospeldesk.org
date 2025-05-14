@@ -7,7 +7,7 @@ excerpt: "Matthew 4:1–11"
 noindex: true
 ref: "Matthew 4:1–11"
 related: ["jesus-begins-his-ministry", "temptation-luke"]
-prev_slug: "baptism-matthew"
+prev_slug: "baptism"
 next_slug: "jesus-begins-to-preach"
 ---
 

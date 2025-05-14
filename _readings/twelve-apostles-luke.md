@@ -3,15 +3,15 @@ title: "Twelve Apostles"
 pk: "226"
 num: 169
 book: "Luke"
-excerpt: "Luke 5:12–6:19"
+excerpt: "Luke 6:12–19"
 noindex: true
-ref: "Luke 5:12–6:19"
+ref: "Luke 6:12–19"
 related: ["instructions-to-the-twelve-freely-give", "twelve-apostles-mark"]
 prev_slug: "lord-of-the-sabbath-luke"
 next_slug: "sermon-on-the-plain-beatitudes"
 ---
 
-<p><span class="v">12</span>While he was in one of the cities, behold, there was a man full of leprosy. When he saw Jesus, he fell on his face, and begged him, saying, “Lord, if you want to, you can make me clean.”  <span class="v">13</span>When it was day, he called his disciples, and from them he chose twelve, whom he also named apostles:  <span class="v">14</span>Simon, whom he also named Peter; Andrew, his brother; James; John; Philip; Bartholomew;  <span class="v">15</span>Matthew; Thomas; James, the son of Alphaeus; Simon, who was called the Zealot;  <span class="v">16</span>Judas the son of James; and Judas Iscariot, who also became a traitor. </p>
+<p><span class="v">12</span>In these days, he went out to the mountain to pray, and he continued all night in prayer to God.  <span class="v">13</span>When it was day, he called his disciples, and from them he chose twelve, whom he also named apostles:  <span class="v">14</span>Simon, whom he also named Peter; Andrew, his brother; James; John; Philip; Bartholomew;  <span class="v">15</span>Matthew; Thomas; James, the son of Alphaeus; Simon, who was called the Zealot;  <span class="v">16</span>Judas the son of James; and Judas Iscariot, who also became a traitor. </p>
 <p><span class="v">17</span>He came down with them, and stood on a level place, with a crowd of his disciples, and a great number of the people from all Judea and Jerusalem, and the sea coast of Tyre and Sidon, who came to hear him and to be healed of their diseases;  <span class="v">18</span>as well as those who were troubled by unclean spirits, and they were being healed.  <span class="v">19</span>All the multitude sought to touch him, for power came out of him and healed them all. </p>
 
 

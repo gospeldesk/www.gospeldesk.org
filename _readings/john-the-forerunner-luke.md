@@ -8,7 +8,7 @@ noindex: true
 ref: "Luke 3:1–18"
 related: ["john-the-forerunner-matthew", "john-the-forerunner-mark"]
 prev_slug: "finding"
-next_slug: "baptism-luke"
+next_slug: "john-imprisoned-baptism"
 ---
 
 <p><span class="v">1</span>Now in the fifteenth year of the reign of Tiberius Caesar, Pontius Pilate being governor of Judea, and Herod being tetrarch of Galilee, and his brother Philip tetrarch of the region of Ituraea and Trachonitis, and Lysanias tetrarch of Abilene,  <span class="v">2</span>in the high priesthood of Annas and Caiaphas, the word of God came to John, the son of Zacharias, in the wilderness. </p>

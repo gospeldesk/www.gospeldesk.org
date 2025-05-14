@@ -6,9 +6,9 @@ book: "Matthew"
 excerpt: "Matthew 16:13–19"
 noindex: true
 ref: "Matthew 16:13–19"
-related: ["rebuke-of-peter"]
+related: ["confession-and-rebuke-of-peter-mark", "confession-of-peter-luke"]
 prev_slug: "yeast-of-the-pharisees"
-next_slug: "get-behind-me"
+next_slug: "rebuke-of-peter"
 ---
 
 <p><span class="v">13</span>Now when Jesus came into the parts of Caesarea Philippi, he asked his disciples, saying, “Who do men say that I, the Son of Man, am?” </p>

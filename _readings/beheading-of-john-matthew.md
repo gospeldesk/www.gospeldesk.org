@@ -6,9 +6,9 @@ book: "Matthew"
 excerpt: "Matthew 14:1–13"
 noindex: true
 ref: "Matthew 14:1–13"
-related: ["beheading-of-john-mark", "baptism-luke"]
+related: ["beheading-of-john-mark", "john-imprisoned-baptism", "herod-perplexed-apostles-return"]
 prev_slug: "a-prophet-without-honor-matthew"
-next_slug: "feeding-of-the-five-thousand"
+next_slug: "feeding-of-the-five-thousand-matthew"
 ---
 
 <p><span class="v">1</span>At that time, Herod the tetrarch heard the report concerning Jesus,  <span class="v">2</span>and said to his servants, “This is John the Baptizer. He is risen from the dead. That is why these powers work in him.” </p>

@@ -7,7 +7,7 @@ excerpt: "Luke 3:23–4:1"
 noindex: true
 ref: "Luke 3:23–4:1"
 related: ["genealogy-and-birth"]
-prev_slug: "baptism-luke"
+prev_slug: "john-imprisoned-baptism"
 next_slug: "temptation-luke"
 ---
 

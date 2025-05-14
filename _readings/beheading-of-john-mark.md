@@ -6,8 +6,8 @@ book: "Mark"
 excerpt: "Mark 6:14–30"
 noindex: true
 ref: "Mark 6:14–30"
-related: ["beheading-of-john-matthew", "baptism-luke"]
-prev_slug: "sending-the-twelve"
+related: ["beheading-of-john-matthew", "john-imprisoned-baptism", "herod-perplexed-apostles-return"]
+prev_slug: "sending-the-twelve-mark"
 next_slug: "feeding-of-the-five-thousand-mark"
 ---
 

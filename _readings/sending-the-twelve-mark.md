@@ -6,7 +6,7 @@ book: "Mark"
 excerpt: "Mark 6:7–13"
 noindex: true
 ref: "Mark 6:7–13"
-related: ["instructions-to-the-twelve-freely-give", "instructions-to-the-twelve-shake-the-dust"]
+related: ["instructions-to-the-twelve-freely-give", "instructions-to-the-twelve-shake-the-dust", "sending-the-twelve-luke"]
 prev_slug: "a-prophet-without-honor-mark"
 next_slug: "beheading-of-john-mark"
 ---

@@ -1,25 +1,22 @@
 ---
 title: "Rebuke of Peter"
-pk: "162"
-num: 123
-book: "Mark"
-excerpt: "Mark 8:27–34"
+pk: "74"
+num: 61
+book: "Matthew"
+excerpt: "Matthew 16:20–24"
 noindex: true
-ref: "Mark 8:27–34"
-related: ["confession-of-peter", "get-behind-me"]
-prev_slug: "healing-a-blind-man"
-next_slug: "take-up-your-cross-mark"
+ref: "Matthew 16:20–24"
+related: ["confession-and-rebuke-of-peter-mark"]
+prev_slug: "confession-of-peter"
+next_slug: "take-up-your-cross-matthew"
 ---
 
-<p><span class="v">27</span>Jesus went out, with his disciples, into the villages of Caesarea Philippi. On the way he asked his disciples, “Who do men say that I am?” </p>
-<p><span class="v">28</span>They told him, “John the Baptizer, and others say Elijah, but others: one of the prophets.” </p>
-<p><span class="v">29</span>He said to them, “But who do you say that I am?”</p>
-<p>Peter answered, “You are the Christ.” </p>
-<p><span class="v">30</span>He commanded them that they should tell no one about him.  <span class="v">31</span>He began to teach them that the Son of Man must suffer many things, and be rejected by the elders, the chief priests, and the scribes, and be killed, and after three days rise again.  <span class="v">32</span>He spoke to them openly.</p>
-<p>Peter took him, and began to rebuke him.  <span class="v">33</span>But he, turning around, and seeing his disciples, rebuked Peter, and said, “Get behind me, Satan! For you have in mind not the things of God, but the things of men.” </p>
-<p><span class="v">34</span>He called the multitude to himself with his disciples, and said to them, “Whoever wants to come after me, let him deny himself, and take up his cross, and follow me.”</p>
+<p><span class="v">20</span>Then he commanded the disciples that they should tell no one that he was Jesus the Christ. </p>
+<p><span class="v">21</span>From that time, Jesus began to show his disciples that he must go to Jerusalem and suffer many things from the elders, chief priests, and scribes, and be killed, and the third day be raised up. </p>
+<p><span class="v">22</span>Peter took him aside, and began to rebuke him, saying, “Far be it from you, Lord! This will never be done to you.” </p>
+<p><span class="v">23</span>But he turned, and said to Peter, “Get behind me, Satan! You are a stumbling block to me, for you are not setting your mind on the things of God, but on the things of men.”  <span class="v">24</span>Then Jesus said to his disciples, “If anyone desires to come after me, let him deny himself, and take up his cross, and follow me.”</p>
 
 
 ### Upcoming Proclamations
 
-God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/04/05">April  5, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/03/28">March 28, 2026</a>.
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/07/30">July 30, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/07/22">July 22, 2026</a>.

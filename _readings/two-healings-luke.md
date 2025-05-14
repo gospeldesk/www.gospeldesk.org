@@ -8,7 +8,7 @@ noindex: true
 ref: "Luke 8:41–56"
 related: ["two-healings-matthew", "healing-jairus-daughter", "healing-a-woman"]
 prev_slug: "gadarene-demoniac-luke"
-next_slug: "luke-9-1-6"
+next_slug: "sending-the-twelve-luke"
 ---
 
 <p><span class="v">41</span>Behold, there came a man named Jairus, and he was a ruler of the synagogue. He fell down at Jesus’ feet, and begged him to come into his house,  <span class="v">42</span>for he had an only daughter, about twelve years of age, and she was dying.</p>
