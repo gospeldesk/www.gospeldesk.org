@@ -7,7 +7,7 @@ excerpt: "Luke 10:25–37"
 noindex: true
 ref: "Luke 10:25–37"
 prev_slug: "return-of-the-seventy"
-next_slug: "luke-10-38-11-28"
+next_slug: "mary-and-martha"
 ---
 
 <p><span class="v">25</span>Behold, a certain lawyer stood up and tested him, saying, “Teacher, what shall I do to inherit eternal life?” </p>

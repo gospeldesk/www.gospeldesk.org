@@ -1,0 +1,21 @@
+---
+title: "Mary and Martha"
+pk: "259"
+num: 199
+book: "Luke"
+excerpt: "Luke 10:38–11:28"
+noindex: true
+ref: "Luke 10:38–11:28"
+prev_slug: "good-samaritan"
+next_slug: "luke-11-1-10"
+---
+
+<p><span class="v">38</span>As they went on their way, he entered into a certain village, and a certain woman named Martha received him into her house.  <span class="v">39</span>She had a sister called Mary, who also sat at Jesus’ feet, and heard his word.  <span class="v">40</span>But Martha was distracted with much serving, and she came up to him, and said, “Lord, don’t you care that my sister left me to serve alone? Ask her therefore to help me.” </p>
+<p><span class="v">41</span>Jesus answered her, “Martha, Martha, you are anxious and troubled about many things,  <span class="v">42</span>but one thing is needed. Mary has chosen the good part, which will not be taken away from her.” </p>
+<p><span class="v">27</span>It came to pass, as he said these things, a certain woman out of the multitude lifted up her voice, and said to him, “Blessed is the womb that bore you, and the breasts which nursed you!” </p>
+<p><span class="v">28</span>But he said, “On the contrary, blessed are those who hear the word of God, and keep it.” </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/04/05">April  5, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2025/04/25">April 25, 2025</a>.
