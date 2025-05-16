@@ -1,12 +1,12 @@
 ---
-title: "Faithless and Perverse Generation"
+title: "Faithless Generation"
 pk: "77"
 num: 64
 book: "Matthew"
 excerpt: "Matthew 17:10–23"
 noindex: true
 ref: "Matthew 17:10–23"
-related: ["unbelieving-generation"]
+related: ["faithless-generation-mark", "faithless-generation-luke"]
 prev_slug: "transfiguration-matthew"
 next_slug: "fish-coin-greatest"
 ---

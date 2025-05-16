@@ -7,7 +7,7 @@ excerpt: "Matthew 17:24–18:11"
 noindex: true
 ref: "Matthew 17:24–18:11"
 related: ["servant-of-all-mark", "stumbling"]
-prev_slug: "faithless-and-perverse-generation"
+prev_slug: "faithless-generation-matthew"
 next_slug: "parable-of-the-lost-sheep"
 ---
 

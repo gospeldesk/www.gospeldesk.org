@@ -8,7 +8,7 @@ noindex: true
 ref: "Luke 9:28–36"
 related: ["transfiguration-matthew", "transfiguration-mark"]
 prev_slug: "take-up-your-cross-luke"
-next_slug: "luke-9-37-43"
+next_slug: "faithless-generation-luke"
 ---
 
 <p><span class="v">28</span>About eight days after these sayings, he took with him Peter, John, and James, and went up onto the mountain to pray.  <span class="v">29</span>As he was praying, the appearance of his face was altered, and his clothing became white and dazzling.  <span class="v">30</span>Behold, two men were talking with him, who were Moses and Elijah,  <span class="v">31</span>who appeared in glory, and spoke of his departure, which he was about to accomplish at Jerusalem. </p>

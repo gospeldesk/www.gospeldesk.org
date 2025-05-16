@@ -898,8 +898,8 @@ Matt 17:7   76
 
 Matt 17:8   76
 Matt 17:9   76
----- Faithless and Perverse Generation
-> unbelieving-generation
+---- Faithless Generation (Matthew)
+> faithless-generation-mark faithless-generation-luke
 Matt 17:10  77
 
 Matt 17:11  77
@@ -1970,8 +1970,8 @@ Mark  9:13  166
 Mark  9:14  166
 Mark  9:15  166
 Mark  9:16  166
----- Unbelieving Generation
-> faithless-and-perverse-generation
+---- Faithless Generation (Mark)
+> faithless-generation-matthew faithless-generation-luke
 Mark  9:17  90006, 167
 Mark  9:18  90006, 167
 
@@ -3176,14 +3176,17 @@ Luke  9:34  248
 Luke  9:35  248
 
 Luke  9:36  248
-----
+---- Faithless Generation (Luke)
+> faithless-generation-matthew faithless-generation-mark
 Luke  9:37  249
 Luke  9:38  249
 Luke  9:39  249
 Luke  9:40  249
+
 Luke  9:41  249
+
 Luke  9:42  249
-Luke  9:43  249
+Luke  9:43  249 s/ But while all were marveling at all the things which Jesus did, he said to his disciples,/
 ----
 Luke  9:44  250
 Luke  9:45  250

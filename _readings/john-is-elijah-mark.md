@@ -8,7 +8,7 @@ noindex: true
 ref: "Mark 9:10–16"
 related: ["john-is-elijah-matthew", "john-is-more-than-a-prophet"]
 prev_slug: "transfiguration-mark"
-next_slug: "unbelieving-generation"
+next_slug: "faithless-generation-mark"
 ---
 
 <p><span class="v">10</span>They kept this saying to themselves, questioning what the “rising from the dead” meant.  <span class="v">11</span>They asked him, saying, “Why do the scribes say that Elijah must come first?” </p>

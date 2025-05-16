@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 17:1–9"
 related: ["transfiguration-mark", "transfiguration-luke"]
 prev_slug: "take-up-your-cross-matthew"
-next_slug: "faithless-and-perverse-generation"
+next_slug: "faithless-generation-matthew"
 ---
 
 <p><span class="v">1</span>After six days, Jesus took with him Peter, James, and John his brother, and brought them up into a high mountain by themselves.  <span class="v">2</span>He was transfigured before them. His face shone like the sun, and his garments became as white as the light. </p>

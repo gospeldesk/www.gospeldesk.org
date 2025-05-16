@@ -1,12 +1,12 @@
 ---
-title: "Unbelieving Generation"
+title: "Faithless Generation"
 pk: "167"
 num: 127
 book: "Mark"
 excerpt: "Mark 9:17–32"
 noindex: true
 ref: "Mark 9:17–32"
-related: ["faithless-and-perverse-generation"]
+related: ["faithless-generation-matthew", "faithless-generation-luke"]
 prev_slug: "john-is-elijah-mark"
 next_slug: "servant-of-all-mark"
 ---
