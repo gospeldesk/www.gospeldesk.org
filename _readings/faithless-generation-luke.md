@@ -8,7 +8,7 @@ noindex: true
 ref: "Luke 9:37–43"
 related: ["faithless-generation-matthew", "faithless-generation-mark"]
 prev_slug: "transfiguration-luke"
-next_slug: "luke-9-44-49"
+next_slug: "greatest-in-the-kingdom"
 ---
 
 <p><span class="v">37</span>On the next day, when they had come down from the mountain, a great multitude met him.  <span class="v">38</span>Behold, a man from the crowd called out, saying, “Teacher, I beg you to look at my son, for he is my only child.  <span class="v">39</span>Behold, a spirit takes him, he suddenly cries out, and it convulses him so that he foams, and it hardly departs from him, bruising him severely.  <span class="v">40</span>I begged your disciples to cast it out, and they couldn’t.” </p>

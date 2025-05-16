@@ -1,5 +1,5 @@
 ---
-title: "Divorce"
+title: "Divorce; Stumbling"
 pk: "287"
 num: 226
 book: "Luke"

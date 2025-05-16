@@ -6,7 +6,7 @@ book: "Luke"
 excerpt: "Luke 10:25–37"
 noindex: true
 ref: "Luke 10:25–37"
-prev_slug: "luke-10-16-21"
+prev_slug: "return-of-the-seventy"
 next_slug: "luke-10-38-11-28"
 ---
 

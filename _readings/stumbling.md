@@ -6,7 +6,7 @@ book: "Mark"
 excerpt: "Mark 9:42–10:1"
 noindex: true
 ref: "Mark 9:42–10:1"
-related: ["fish-coin-greatest"]
+related: ["fish-coin-greatest", "divorce-stumbling"]
 prev_slug: "servant-of-all-mark"
 next_slug: "divorce-mark"
 ---

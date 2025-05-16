@@ -6,7 +6,7 @@ book: "Mark"
 excerpt: "Mark 10:2–12"
 noindex: true
 ref: "Mark 10:2–12"
-related: ["divorce-matthew"]
+related: ["divorce-matthew", "divorce-stumbling"]
 prev_slug: "stumbling"
 next_slug: "divorce-and-children"
 ---

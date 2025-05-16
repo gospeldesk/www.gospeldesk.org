@@ -318,7 +318,7 @@ Matt  8:12  26
 
 Matt  8:13  26
 ---- Peter's Mother-in-law (Matthew)
-> peters-mother-in-law-mark peters-mother-in-law-luke
+> peters-mother-in-law-mark peters-mother-in-law-luke foxes-have-holes
 Matt  8:14  27
 Matt  8:15  27
 
@@ -923,7 +923,7 @@ Matt 17:22      78
 Matt 17:23      78
   up." They
 ---- Fish Coin; Greatest
-> servant-of-all-mark stumbling
+> servant-of-all-mark stumbling greatest-in-the-kingdom divorce-stumbling
 Matt 17:24      79
 
 Matt 17:25      79
@@ -996,7 +996,7 @@ Matt 18:33  83
 Matt 18:34  83
 Matt 18:35  83
 ---- Divorce (Matthew)
-> divorce-mark
+> divorce-mark divorce-stumbling
 Matt 19:3   84
 
 Matt 19:4   84
@@ -2001,7 +2001,7 @@ Mark  9:31  90006, 167
 
 Mark  9:32  90006
 ---- Servant of All (Mark)
-> fish-coin-greatest
+> fish-coin-greatest greatest-in-the-kingdom
 Mark  9:33  168
 
 Mark  9:34  168
@@ -2016,7 +2016,7 @@ Mark  9:39  168
 Mark  9:40  168
 Mark  9:41  168"
 ---- Stumbling
-> fish-coin-greatest
+> fish-coin-greatest divorce-stumbling
 Mark  9:42  169
 
 Mark  9:43  169
@@ -2032,7 +2032,7 @@ Mark  9:50  169
 
 Mark 10:1   169
 ---- Divorce (Mark)
-> divorce-matthew
+> divorce-matthew divorce-stumbling
 Mark 10:2   170
 
 Mark 10:3   170
@@ -3187,55 +3187,77 @@ Luke  9:41  249
 
 Luke  9:42  249
 Luke  9:43  249 s/ But while all were marveling at all the things which Jesus did, he said to his disciples,/
-----
+---- Greatest in the Kingdom
+> fish-coin-greatest servant-of-all
 Luke  9:44  250
+
 Luke  9:45  250
+
 Luke  9:46  250
 Luke  9:47  250
 Luke  9:48  250
+
 Luke  9:49  250
-Luke  9:49  250
-----
+Luke  9:50  250
+---- Rebuke of James and John
+Luke  9:49  251
+
 Luke  9:50  251
-Luke  9:50  251
+
 Luke  9:51  251, 252
 Luke  9:52  251, 252
 Luke  9:53  251, 252
+
 Luke  9:54  251, 252
 Luke  9:55  251, 252
 Luke  9:56  251, 252
+  them." They
 Luke 10:22       252, 257
 Luke 10:23       252, 257
 Luke 10:24       252, 257
-----
+---- Foxes Have Holes
+> peters-mother-in-law-matthew
 Luke  9:57  253
+
 Luke  9:58  253
+
 Luke  9:59  253
+  me!" But
+
 Luke  9:60  253
+
 Luke  9:61  253
+
 Luke  9:62  253
-----
+---- Sending the Seventy
 Luke 10:1   254
+
 Luke 10:2   254
 Luke 10:3   254
 Luke 10:4   254
-Luke 10:5   254
+
+"Luke 10:5   254
 Luke 10:6   254
 Luke 10:7   254
-Luke 10:8   254
+
+"Luke 10:8   254
 Luke 10:9   254
 Luke 10:10  254
 Luke 10:11  254
-Luke 10:12  254
+
+"Luke 10:12  254
 Luke 10:13  254
 Luke 10:14  254
-Luke 10:15  254
-----
-Luke 10:16  255
+Luke 10:15  254"
+---- Return of the Seventy
+"Luke 10:16  255
+
 Luke 10:17  255
+
 Luke 10:18  255
 Luke 10:19  255, 256
 Luke 10:20  255, 256
+
 Luke 10:21  255, 256
 ---- Good Samaritan
 Luke 10:25  258
@@ -3524,7 +3546,7 @@ Luke 16:12  286
 Luke 16:13  286
 Luke 16:14  286
 Luke 16:15  286
----- Divorce (Luke)
+---- Divorce; Stumbling
 > divorce-matthew divorce-mark fish-coin-greatest stumbling
 Luke 16:15  287
 Luke 16:16  287
