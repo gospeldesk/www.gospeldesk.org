@@ -8,7 +8,7 @@ noindex: true
 ref: "Luke 16:15–17:4"
 related: ["divorce-matthew", "divorce-mark", "fish-coin-greatest", "stumbling"]
 prev_slug: "mammon"
-next_slug: "luke-16-19-31"
+next_slug: "parable-of-the-rich-man-and-lazarus"
 ---
 
 <p><span class="v">15</span>He said to them, “You are those who justify yourselves in the sight of men, but God knows your hearts. For that which is exalted among men is an abomination in the sight of God.  <span class="v">16</span>The law and the prophets were until John. From that time the Good News of God’s Kingdom is preached, and everyone is forcing his way into it.  <span class="v">17</span>But it is easier for heaven and earth to pass away, than for one tiny stroke of a pen in the law to fall. </p>

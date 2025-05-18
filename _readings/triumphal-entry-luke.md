@@ -7,7 +7,7 @@ excerpt: "Luke 19:29–44"
 noindex: true
 ref: "Luke 19:29–44"
 related: ["triumphal-entry-matthew", "triumphal-entry-mark", "annointing-triumphal-entry"]
-prev_slug: "luke-19-11-28"
+prev_slug: "parable-of-the-minas"
 next_slug: "cleansing-the-temple-luke"
 ---
 

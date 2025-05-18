@@ -8,7 +8,7 @@ noindex: true
 ref: "Luke 21:5–36"
 related: ["little-apocalypse-matthew", "little-apocalypse-mark"]
 prev_slug: "widows-mite-luke"
-next_slug: "luke-21-37-22-8"
+next_slug: "satan-enters-judas"
 ---
 
 <p><span class="v">5</span>As some were talking about the temple and how it was decorated with beautiful stones and gifts, he said,  <span class="v">6</span>“As for these things which you see, the days will come, in which there will not be left here one stone on another that will not be thrown down.” </p>

@@ -7,7 +7,7 @@ excerpt: "Luke 18:15–30"
 noindex: true
 ref: "Luke 18:15–30"
 related: ["parable-of-the-lost-sheep", "divorce-and-children"]
-prev_slug: "luke-18-9-14"
+prev_slug: "parable-of-the-publican-and-the-pharisee"
 next_slug: "rich-young-ruler-luke"
 ---
 

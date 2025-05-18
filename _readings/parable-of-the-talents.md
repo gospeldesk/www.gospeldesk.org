@@ -6,6 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 25:14–30"
 noindex: true
 ref: "Matthew 25:14–30"
+related: ["parable-of-the-minas"]
 prev_slug: "parable-of-the-ten-virgins"
 next_slug: "last-judgment"
 ---

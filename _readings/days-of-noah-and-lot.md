@@ -1,0 +1,21 @@
+---
+title: "Days of Noah and Lot"
+pk: "292"
+num: 229
+book: "Luke"
+excerpt: "Luke 17:26–37"
+noindex: true
+ref: "Luke 17:26–37"
+prev_slug: "time-of-the-kingdom"
+next_slug: "parable-of-the-unjust-judge"
+---
+
+<p><span class="v">26</span>“As it was in the days of Noah, even so will it be also in the days of the Son of Man.  <span class="v">27</span>They ate, they drank, they married, they were given in marriage, until the day that Noah entered into the ship, and the flood came, and destroyed them all.  <span class="v">28</span>Likewise, even as it was in the days of Lot: they ate, they drank, they bought, they sold, they planted, they built;  <span class="v">29</span>but in the day that Lot went out from Sodom, it rained fire and sulfur from the sky, and destroyed them all. </p>
+<p><span class="v">30</span>“It will be the same way in the day that the Son of Man is revealed.  <span class="v">31</span>In that day, he who will be on the housetop, and his goods in the house, let him not go down to take them away. Let him who is in the field likewise not turn back.  <span class="v">32</span>Remember Lot’s wife!  <span class="v">33</span>Whoever seeks to save his life loses it, but whoever loses his life preserves it. </p>
+<p><span class="v">34</span>I tell you, in that night there will be two people in one bed. The one will be taken, and the other will be left.  <span class="v">35</span>There will be two grinding grain together. One will be taken, and the other will be left.  <span class="v">36</span>Two will be in the field: the one taken, and the other left.” </p>
+<p><span class="v">37</span>They, answering, asked him, “Where, Lord?” He said to them, “Where the body is, there will the vultures also be gathered together.” </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/11/25">November 25, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/11/24">November 24, 2026</a>.

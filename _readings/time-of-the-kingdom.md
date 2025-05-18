@@ -1,0 +1,19 @@
+---
+title: "Time of the Kingdom"
+pk: "291"
+num: 228
+book: "Luke"
+excerpt: "Luke 17:20–25"
+noindex: true
+ref: "Luke 17:20–25"
+prev_slug: "healing-of-ten-lepers"
+next_slug: "days-of-noah-and-lot"
+---
+
+<p><span class="v">20</span>Being asked by the Pharisees when God’s Kingdom would come, he answered them, “God’s Kingdom doesn’t come with observation;  <span class="v">21</span>neither will they say, ‘Look, here!’ or, ‘Look, there!’ for behold, God’s Kingdom is within you.” </p>
+<p><span class="v">22</span>He said to the disciples, “The days will come, when you will desire to see one of the days of the Son of Man, and you will not see it.  <span class="v">23</span>They will tell you, ‘Look, here!’ or ‘Look, there!’ Don’t go away, nor follow after them,  <span class="v">24</span>for as the lightning, when it flashes out of the one part under the sky, shines to the other part under the sky; so will the Son of Man be in his day.  <span class="v">25</span>But first, he must suffer many things and be rejected by this generation.”</p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/11/24">November 24, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/11/23">November 23, 2026</a>.

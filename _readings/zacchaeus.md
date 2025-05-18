@@ -8,7 +8,7 @@ noindex: true
 ref: "Luke 19:1–10"
 direct: ["zacchaeus"]
 prev_slug: "a-certain-blind-man"
-next_slug: "luke-19-11-28"
+next_slug: "parable-of-the-minas"
 ---
 
 <p><span class="v">1</span>He entered and was passing through Jericho.  <span class="v">2</span>There was a man named Zacchaeus. He was a chief tax collector, and he was rich.  <span class="v">3</span>He was trying to see who Jesus was, and couldn’t because of the crowd, because he was short.  <span class="v">4</span>He ran on ahead, and climbed up into a sycamore tree to see him, for he was going to pass that way. </p>

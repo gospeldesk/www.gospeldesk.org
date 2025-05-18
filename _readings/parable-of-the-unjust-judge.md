@@ -1,0 +1,19 @@
+---
+title: "Parable of the Unjust Judge"
+pk: "293"
+num: 230
+book: "Luke"
+excerpt: "Luke 18:1–8"
+noindex: true
+ref: "Luke 18:1–8"
+prev_slug: "days-of-noah-and-lot"
+next_slug: "parable-of-the-publican-and-the-pharisee"
+---
+
+<p><span class="v">1</span>He also spoke a parable to them that they must always pray, and not give up,  <span class="v">2</span>saying, “There was a judge in a certain city who didn’t fear God, and didn’t respect man.  <span class="v">3</span>A widow was in that city, and she often came to him, saying, ‘Defend me from my adversary!’  <span class="v">4</span>He wouldn’t for a while, but afterward he said to himself, ‘Though I neither fear God, nor respect man,  <span class="v">5</span>yet because this widow bothers me, I will defend her, or else she will wear me out by her continual coming.’” </p>
+<p><span class="v">6</span>The Lord said, “Listen to what the unrighteous judge says.  <span class="v">7</span>Won’t God avenge his chosen ones, who are crying out to him day and night, and yet he exercises patience with them?  <span class="v">8</span>I tell you that he will avenge them quickly. Nevertheless, when the Son of Man comes, will he find faith on the earth?” </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2026/01/31">January 31, 2026</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2027/02/20">February 20, 2027</a>.

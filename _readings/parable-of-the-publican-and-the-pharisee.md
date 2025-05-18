@@ -1,0 +1,19 @@
+---
+title: "Parable of the Publican and the Pharisee"
+pk: "294"
+num: 231
+book: "Luke"
+excerpt: "Luke 18:9–14"
+noindex: true
+ref: "Luke 18:9–14"
+prev_slug: "parable-of-the-unjust-judge"
+next_slug: "children-and-the-kingdom"
+---
+
+<p><span class="v">9</span>He spoke also this parable to certain people who were convinced of their own righteousness, and who despised all others. </p>
+<p><span class="v">10</span>“Two men went up into the temple to pray; one was a Pharisee, and the other was a tax collector.  <span class="v">11</span>The Pharisee stood and prayed to himself like this: ‘God, I thank you, that I am not like the rest of men, extortionists, unrighteous, adulterers, or even like this tax collector.  <span class="v">12</span>I fast twice a week. I give tithes of all that I get.’  <span class="v">13</span>But the tax collector, standing far away, wouldn’t even lift up his eyes to heaven, but beat his breast, saying, ‘God, be merciful to me, a sinner!’  <span class="v">14</span>I tell you, this man went down to his house justified rather than the other; for everyone who exalts himself will be humbled, but he who humbles himself will be exalted.” </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2026/02/01">February  1, 2026</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2027/02/21">February 21, 2027</a>.
