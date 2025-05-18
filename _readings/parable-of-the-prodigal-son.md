@@ -1,0 +1,23 @@
+---
+title: "Parable of the Prodigal Son"
+pk: "284"
+num: 221
+book: "Luke"
+excerpt: "Luke 15:11–32"
+noindex: true
+ref: "Luke 15:11–32"
+prev_slug: "lost-sheep-lost-coin"
+next_slug: "parable-of-the-shrewd-steward"
+---
+
+<p><span class="v">11</span>He said, “A certain man had two sons.  <span class="v">12</span>The younger of them said to his father, ‘Father, give me my share of your property.’ He divided his livelihood between them.  <span class="v">13</span>Not many days after, the younger son gathered all of this together and traveled into a far country. There he wasted his property with riotous living. </p>
+<p><span class="v">14</span>“When he had spent all of it, there arose a severe famine in that country, and he began to be in need.  <span class="v">15</span>He went and joined himself to one of the citizens of that country, and he sent him into his fields to feed pigs.  <span class="v">16</span>He wanted to fill his belly with the husks that the pigs ate, but no one gave him any.  <span class="v">17</span>But when he came to himself he said, ‘How many hired servants of my father’s have bread enough to spare, and I’m dying with hunger!  <span class="v">18</span>I will get up and go to my father, and will tell him, “Father, I have sinned against heaven, and in your sight.  <span class="v">19</span>I am no more worthy to be called your son. Make me as one of your hired servants.”’ </p>
+<p><span class="v">20</span>“He arose, and came to his father. But while he was still far off, his father saw him, and was moved with compassion, and ran, and fell on his neck, and kissed him.  <span class="v">21</span>The son said to him, ‘Father, I have sinned against heaven, and in your sight. I am no longer worthy to be called your son.’ </p>
+<p><span class="v">22</span>“But the father said to his servants, ‘Bring out the best robe, and put it on him. Put a ring on his hand, and shoes on his feet.  <span class="v">23</span>Bring the fattened calf, kill it, and let us eat, and celebrate;  <span class="v">24</span>for this, my son, was dead, and is alive again. He was lost, and is found.’ They began to celebrate. </p>
+<p><span class="v">25</span>“Now his elder son was in the field. As he came near to the house, he heard music and dancing.  <span class="v">26</span>He called one of the servants to him, and asked what was going on.  <span class="v">27</span>He said to him, ‘Your brother has come, and your father has killed the fattened calf, because he has received him back safe and healthy.’  <span class="v">28</span>But he was angry, and would not go in. Therefore his father came out, and begged him.  <span class="v">29</span>But he answered his father, ‘Behold, these many years I have served you, and I never disobeyed a commandment of yours, but you never gave me a goat, that I might celebrate with my friends.  <span class="v">30</span>But when this your son came, who has devoured your living with prostitutes, you killed the fattened calf for him.’ </p>
+<p><span class="v">31</span>“He said to him, ‘Son, you are always with me, and all that is mine is yours.  <span class="v">32</span>But it was appropriate to celebrate and be glad, for this, your brother, was dead, and is alive again. He was lost, and is found.’” </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2026/02/08">February  8, 2026</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2027/02/28">February 28, 2027</a>.

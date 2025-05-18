@@ -1,0 +1,20 @@
+---
+title: "Parable of the Shrewd Steward"
+pk: "285"
+num: 222
+book: "Luke"
+excerpt: "Luke 16:1–9"
+noindex: true
+ref: "Luke 16:1–9"
+prev_slug: "parable-of-the-prodigal-son"
+next_slug: "mammon"
+---
+
+<p><span class="v">1</span>He also said to his disciples, “There was a certain rich man who had a manager. An accusation was made to him that this man was wasting his possessions.  <span class="v">2</span>He called him, and said to him, ‘What is this that I hear about you? Give an accounting of your management, for you can no longer be manager.’ </p>
+<p><span class="v">3</span>“The manager said within himself, ‘What will I do, seeing that my lord is taking away the management position from me? I don’t have strength to dig. I am ashamed to beg.  <span class="v">4</span>I know what I will do, so that when I am removed from management, they may receive me into their houses.’  <span class="v">5</span>Calling each one of his lord’s debtors to him, he said to the first, ‘How much do you owe to my lord?’  <span class="v">6</span>He said, ‘A hundred batos of oil.’ He said to him, ‘Take your bill, and sit down quickly and write fifty.’  <span class="v">7</span>Then he said to another, ‘How much do you owe?’ He said, ‘A hundred cors of wheat.’ He said to him, ‘Take your bill, and write eighty.’ </p>
+<p><span class="v">8</span>“His lord commended the dishonest manager because he had done wisely, for the children of this world are, in their own generation, wiser than the children of the light.  <span class="v">9</span>I tell you, make for yourselves friends by means of unrighteous mammon, so that when you fail, they may receive you into the eternal tents.”</p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/11/20">November 20, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/11/19">November 19, 2026</a>.

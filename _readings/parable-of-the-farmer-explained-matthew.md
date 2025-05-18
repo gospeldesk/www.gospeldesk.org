@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 13:10–23"
 related: ["parable-of-the-farmer-explained-mark", "parable-of-the-farmer-luke"]
 prev_slug: "parable-of-the-farmer-matthew"
-next_slug: "parable-of-the-weeds"
+next_slug: "parable-of-the-weeds-etc"
 ---
 
 <p><span class="v">10</span>The disciples came, and said to him, “Why do you speak to them in parables?” </p>

@@ -649,7 +649,8 @@ Matt 13:20  55
 Matt 13:21  55
 Matt 13:22  55
 Matt 13:23  55
----- Parable of the Weeds 
+---- Parable of the Weeds, Etc.
+> parable-of-the-mustard-seed-mark mustard-seed-yeast-narrow-door
 Matt 13:24  56, 57
 Matt 13:25  56, 57
 Matt 13:26  56, 57
@@ -955,7 +956,7 @@ Matt 18:9   80
 Matt 18:10  80
 Matt 18:11  80"
 ---- Parable of the Lost Sheep
-> divorce-and-children children-and-the-kingdom
+> divorce-and-children children-and-the-kingdom lost-sheep-lost-coin
 "Matt 18:10  81
 Matt 18:11  81
 
@@ -1626,6 +1627,7 @@ Mark  4:21  143
 Mark  4:22  143
 Mark  4:23  143
 ---- Parable of the Mustard Seed
+> parable-of-the-weeds-etc mustard-seed-yeast-narrow-door
 Mark  4:24  144
 Mark  4:25  144
 
@@ -3427,7 +3429,7 @@ Luke 12:37  272
 Luke 12:38  272
 Luke 12:39  272
 Luke 12:40  272
-----  Faithful or Unfaithful Steward
+---- Faithful or Unfaithful Steward
 > little-apocalypse-matthew
 Luke 12:41       90012
 
@@ -3439,7 +3441,7 @@ Luke 12:44  273, 90012
 Luke 12:46  273, 90012
 Luke 12:47  273, 90012
 Luke 12:48  273, 90012"
-----
+---- Fire on the Earth
 "Luke 12:48  274 s/but he who .* few stripes. /
 
 Luke 12:49  274
@@ -3447,38 +3449,49 @@ Luke 12:50  274
 Luke 12:51  274
 Luke 12:52  274
 Luke 12:53  274
+
 Luke 12:54  274
 Luke 12:55  274
 Luke 12:56  274
 Luke 12:57  274
 Luke 12:58  274
 Luke 12:59  274
-----
+---- Repent or Perish
 Luke 13:1   275
+
 Luke 13:2   275
 Luke 13:3   275
 Luke 13:4   275
 Luke 13:5   275
+
 Luke 13:6   275
 Luke 13:7   275
 Luke 13:8   275
 Luke 13:9   275
-----
+---- Healing an Infirm Woman
 Luke 13:10  276
 Luke 13:11  276
+
 Luke 13:12  276
 Luke 13:13  276
+
 Luke 13:14  276
+
 Luke 13:15  276
 Luke 13:16  276
+
 Luke 13:17  276
-----
+---- Mustard Seed; Yeast; Narrow Door
+> parable-of-the-weeds-etc parable-of-the-mustard-seed
 Luke 13:18  277, 90013
 Luke 13:19  277, 90013
+
 Luke 13:20  277, 90013
 Luke 13:21  277, 90013
+
 Luke 13:22  277, 90013
 Luke 13:23  277, 90013
+  saved?" He
 Luke 13:24  277, 90013
 Luke 13:25  277, 90013
 Luke 13:26  277, 90013
@@ -3486,102 +3499,133 @@ Luke 13:27  277, 90013
 Luke 13:28  277, 90013
 Luke 13:29  277, 90013
 Luke 13:30       90013
-----
+---- Tell that Fox
 Luke 13:31  278
+
 Luke 13:32  278
 Luke 13:33  278
+
 Luke 13:34  278
 Luke 13:35  278
-----
+---- Healing of a Man with Dropsy
 Luke 14:1   279
 Luke 14:2   279
+
 Luke 14:3   279
+
 Luke 14:4   279
+  silent. He
 Luke 14:5   279
+
 Luke 14:6   279
+#
+# Parable of the Best Seat
+#
 Luke 14:7   279
 Luke 14:8   279
 Luke 14:9   279
 Luke 14:10  279
 Luke 14:11  279
-----
+---- Feasting in God's Kingdom
 Luke 14:12  280
 Luke 14:13  280
 Luke 14:14  280
+
 Luke 14:15  280
-----
+---- Parable of the Feast
 Luke 14:16  281
 Luke 14:17  281
 Luke 14:18  281
+  excuses. “The
+
 Luke 14:19  281
+
 Luke 14:20  281
+
 Luke 14:21  281
+
 Luke 14:22  281
+
 Luke 14:23  281
 Luke 14:24  281
-----
+---- Count the Cost
 Luke 14:25  282
 Luke 14:26  282
 Luke 14:27  282
-Luke 14:28  282
+
+"Luke 14:28  282
 Luke 14:29  282
 Luke 14:30  282
-Luke 14:31  282
+
+"Luke 14:31  282
 Luke 14:32  282
 Luke 14:33  282
-Luke 14:34  282
+
+"Luke 14:34  282
 Luke 14:35  282
-----
+---- Lost Sheep; Lost Coin
+> parable-of-the-lost-sheep
 Luke 15:1   283
 Luke 15:2   283
+
 Luke 15:3   283
 Luke 15:4   283
 Luke 15:5   283
 Luke 15:6   283
 Luke 15:7   283
-Luke 15:8   283
+
+"Luke 15:8   283
 Luke 15:9   283
 Luke 15:10  283
-----
+---- Parable of the Prodigal Son
 Luke 15:11  284
 Luke 15:12  284
 Luke 15:13  284
-Luke 15:14  284
+
+"Luke 15:14  284
 Luke 15:15  284
 Luke 15:16  284
 Luke 15:17  284
 Luke 15:18  284
 Luke 15:19  284
+
 Luke 15:20  284
 Luke 15:21  284
+
 Luke 15:22  284
 Luke 15:23  284
 Luke 15:24  284
+
 Luke 15:25  284
 Luke 15:26  284
 Luke 15:27  284
 Luke 15:28  284
 Luke 15:29  284
 Luke 15:30  284
+
 Luke 15:31  284
 Luke 15:32  284
-----
+---- Parable of the Shrewd Steward
 Luke 16:1   285
 Luke 16:2   285
+
 Luke 16:3   285
 Luke 16:4   285
 Luke 16:5   285
 Luke 16:6   285
 Luke 16:7   285
+
 Luke 16:8   285
-Luke 16:9   285
-----
-Luke 16:10  286
+Luke 16:9   285"
+---- Mammon
+"Luke 16:10  286
 Luke 16:11  286
 Luke 16:12  286
 Luke 16:13  286
+
 Luke 16:14  286
-Luke 16:15  286
+
+Luke 16:15  286"
 ---- Divorce; Stumbling
 > divorce-matthew divorce-mark fish-coin-greatest stumbling
 Luke 16:15  287

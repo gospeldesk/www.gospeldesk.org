@@ -6,7 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 13:44–54"
 noindex: true
 ref: "Matthew 13:44–54"
-prev_slug: "parable-of-the-weeds"
+prev_slug: "parable-of-the-weeds-etc"
 next_slug: "a-prophet-without-honor-matthew"
 ---
 

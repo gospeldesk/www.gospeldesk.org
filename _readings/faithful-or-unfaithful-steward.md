@@ -8,7 +8,7 @@ noindex: true
 ref: "Luke 12:41–48"
 related: ["little-apocalypse-matthew"]
 prev_slug: "treasure-watchfulness"
-next_slug: "luke-12-48-59"
+next_slug: "fire-on-the-earth"
 ---
 
 <p><span class="v">41</span>Peter said to him, “Lord, are you telling this parable to us, or to everybody?” </p>

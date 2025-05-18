@@ -1,11 +1,12 @@
 ---
-title: "Parable of the Weeds"
+title: "Parable of the Weeds, Etc."
 pk: "56"
 num: 47
 book: "Matthew"
 excerpt: "Matthew 13:24–43"
 noindex: true
 ref: "Matthew 13:24–43"
+related: ["parable-of-the-mustard-seed-mark", "mustard-seed-yeast-narrow-door"]
 prev_slug: "parable-of-the-farmer-explained-matthew"
 next_slug: "parables-of-the-treasure-the-pearl-and-the-net"
 ---

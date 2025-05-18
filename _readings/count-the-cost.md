@@ -1,0 +1,21 @@
+---
+title: "Count the Cost"
+pk: "282"
+num: 219
+book: "Luke"
+excerpt: "Luke 14:25–35"
+noindex: true
+ref: "Luke 14:25–35"
+prev_slug: "parable-of-the-feast"
+next_slug: "lost-sheep-lost-coin"
+---
+
+<p><span class="v">25</span>Now great multitudes were going with him. He turned and said to them,  <span class="v">26</span>“If anyone comes to me, and doesn’t disregard his own father, mother, wife, children, brothers, and sisters, yes, and his own life also, he can’t be my disciple.  <span class="v">27</span>Whoever doesn’t bear his own cross, and come after me, can’t be my disciple. </p>
+<p><span class="v">28</span>“For which of you, desiring to build a tower, doesn’t first sit down and count the cost, to see if he has enough to complete it?  <span class="v">29</span>Or perhaps, when he has laid a foundation, and is not able to finish, everyone who sees begins to mock him,  <span class="v">30</span>saying, ‘This man began to build, and wasn’t able to finish.’ </p>
+<p><span class="v">31</span>“Or what king, as he goes to encounter another king in war, will not sit down first and consider whether he is able with ten thousand to meet him who comes against him with twenty thousand?  <span class="v">32</span>Or else, while the other is yet a great way off, he sends an envoy, and asks for conditions of peace.  <span class="v">33</span>So therefore whoever of you who doesn’t renounce all that he has, he can’t be my disciple. </p>
+<p><span class="v">34</span>“Salt is good, but if the salt becomes flat and tasteless, with what do you season it?  <span class="v">35</span>It is fit neither for the soil nor for the manure pile. It is thrown out. He who has ears to hear, let him hear.” </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/11/18">November 18, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/11/17">November 17, 2026</a>.

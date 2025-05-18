@@ -7,7 +7,7 @@ excerpt: "Luke 16:15–17:4"
 noindex: true
 ref: "Luke 16:15–17:4"
 related: ["divorce-matthew", "divorce-mark", "fish-coin-greatest", "stumbling"]
-prev_slug: "luke-16-10-15"
+prev_slug: "mammon"
 next_slug: "luke-16-19-31"
 ---
 
