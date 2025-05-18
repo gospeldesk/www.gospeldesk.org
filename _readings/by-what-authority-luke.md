@@ -1,7 +1,7 @@
 ---
 title: "By What Authority"
 pk: "304"
-num: 242
+num: 240
 book: "Luke"
 excerpt: "Luke 20:1–8"
 noindex: true

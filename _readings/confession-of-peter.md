@@ -7,7 +7,7 @@ excerpt: "Matthew 16:13–19"
 noindex: true
 ref: "Matthew 16:13–19"
 related: ["confession-and-rebuke-of-peter-mark", "confession-of-peter-luke"]
-prev_slug: "yeast-of-the-pharisees"
+prev_slug: "yeast-of-the-pharisees-matthew"
 next_slug: "rebuke-of-peter"
 ---
 

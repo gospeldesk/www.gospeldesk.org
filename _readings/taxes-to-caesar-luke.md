@@ -1,7 +1,7 @@
 ---
 title: "Taxes to Caesar"
 pk: "306"
-num: 244
+num: 242
 book: "Luke"
 excerpt: "Luke 20:19–26"
 noindex: true

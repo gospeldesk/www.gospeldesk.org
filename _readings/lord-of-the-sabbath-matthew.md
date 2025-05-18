@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 12:1–13"
 related: ["lord-of-the-sabbath-mark", "lord-of-the-sabbath-luke"]
 prev_slug: "easy-yoke"
-next_slug: "by-beelzebul"
+next_slug: "by-beelzebul-matthew"
 ---
 
 <p><span class="v">1</span>At that time, Jesus went on the Sabbath day through the grain fields. His disciples were hungry and began to pluck heads of grain and to eat.  <span class="v">2</span>But the Pharisees, when they saw it, said to him, “Behold, your disciples do what is not lawful to do on the Sabbath.” </p>

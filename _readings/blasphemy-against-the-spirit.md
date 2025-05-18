@@ -7,8 +7,8 @@ excerpt: "Matthew 12:30–37"
 noindex: true
 ref: "Matthew 12:30–37"
 related: ["blasphemy-mother-brothers"]
-prev_slug: "by-beelzebul"
-next_slug: "demand-for-a-sign"
+prev_slug: "by-beelzebul-matthew"
+next_slug: "demand-for-a-sign-matthew"
 ---
 
 <p><span class="v">30</span>“He who is not with me is against me, and he who doesn’t gather with me, scatters.  <span class="v">31</span>Therefore I tell you, every sin and blasphemy will be forgiven men, but the blasphemy against the Spirit will not be forgiven men.  <span class="v">32</span>Whoever speaks a word against the Son of Man, it will be forgiven him; but whoever speaks against the Holy Spirit, it will not be forgiven him, neither in this age, nor in that which is to come. </p>

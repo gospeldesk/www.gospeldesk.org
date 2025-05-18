@@ -7,7 +7,7 @@ excerpt: "Matthew 16:1–6"
 noindex: true
 ref: "Matthew 16:1–6"
 prev_slug: "feeding-of-the-four-thousand"
-next_slug: "yeast-of-the-pharisees"
+next_slug: "yeast-of-the-pharisees-matthew"
 ---
 
 <p><span class="v">1</span>The Pharisees and Sadducees came, and testing him, asked him to show them a sign from heaven. </p>

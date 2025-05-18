@@ -1,7 +1,7 @@
 ---
 title: "Marriage in the Resurrection"
 pk: "307"
-num: 245
+num: 243
 book: "Luke"
 excerpt: "Luke 20:27–44"
 noindex: true

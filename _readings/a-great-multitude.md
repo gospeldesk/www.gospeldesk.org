@@ -6,7 +6,7 @@ book: "Mark"
 excerpt: "Mark 3:6–12"
 noindex: true
 ref: "Mark 3:6–12"
-related: ["by-beelzebul"]
+related: ["by-beelzebul-matthew"]
 prev_slug: "lord-of-the-sabbath-mark"
 next_slug: "twelve-apostles-mark"
 ---

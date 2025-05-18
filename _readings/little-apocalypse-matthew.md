@@ -6,7 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 24:1–51"
 noindex: true
 ref: "Matthew 24:1–51"
-related: ["little-apocalypse-mark", "little-apocalypse-luke"]
+related: ["little-apocalypse-mark", "little-apocalypse-luke", "treasure-watchfulness", "faithful-or-unfaithful-steward"]
 prev_slug: "woe-serpents"
 next_slug: "parable-of-the-ten-virgins"
 ---

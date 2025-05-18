@@ -6,7 +6,7 @@ book: "Mark"
 excerpt: "Mark 3:19–27"
 noindex: true
 ref: "Mark 3:19–27"
-related: ["by-beelzebul"]
+related: ["by-beelzebul-matthew", "by-beelzebul-luke"]
 prev_slug: "twelve-apostles-mark"
 next_slug: "blasphemy-mother-brothers"
 ---

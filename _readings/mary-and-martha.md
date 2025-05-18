@@ -7,7 +7,7 @@ excerpt: "Luke 10:38–11:28"
 noindex: true
 ref: "Luke 10:38–11:28"
 prev_slug: "good-samaritan"
-next_slug: "luke-11-1-10"
+next_slug: "prayer"
 ---
 
 <p><span class="v">38</span>As they went on their way, he entered into a certain village, and a certain woman named Martha received him into her house.  <span class="v">39</span>She had a sister called Mary, who also sat at Jesus’ feet, and heard his word.  <span class="v">40</span>But Martha was distracted with much serving, and she came up to him, and said, “Lord, don’t you care that my sister left me to serve alone? Ask her therefore to help me.” </p>

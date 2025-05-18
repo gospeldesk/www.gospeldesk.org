@@ -1,7 +1,7 @@
 ---
 title: "Divorce; Stumbling"
 pk: "287"
-num: 226
+num: 224
 book: "Luke"
 excerpt: "Luke 16:15–17:4"
 noindex: true

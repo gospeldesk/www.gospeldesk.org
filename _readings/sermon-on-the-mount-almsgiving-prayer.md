@@ -7,6 +7,7 @@ excerpt: "Matthew 6:1–13"
 noindex: true
 ref: "Matthew 6:1–13"
 subtitle: "Almsgiving; Prayer"
+related: ["prayer"]
 prev_slug: "sermon-on-the-mount-love-your-enemies"
 next_slug: "sermon-on-the-mount-forgiveness-fasting-treasure"
 ---

@@ -206,6 +206,7 @@ Matt  5:46  16
 Matt  5:47  16
 Matt  5:48  16"
 ---- Sermon on the Mount: Almsgiving; Prayer
+> prayer
 Matt  6:1   17
 Matt  6:2   17
 Matt  6:3   17
@@ -221,6 +222,7 @@ Matt  6:11  17
 Matt  6:12  17
 Matt  6:13  17"
 ---- Sermon on the Mount: Forgiveness; Fasting; Treasure
+> treasure-watchfulness
 Matt  6:14  18
 Matt  6:15  18
 
@@ -248,6 +250,7 @@ Matt  6:31  19
 Matt  6:32  19
 Matt  6:33  19"
 ---- Sermon on the Mount: Don't Be Anxious
+> dont-be-anxious
 Matt  6:31  20
 Matt  6:32  20
 Matt  6:33  20
@@ -459,6 +462,7 @@ Matt 10:20  38
 Matt 10:21  38
 Matt 10:22  38"
 ---- Instructions to the Twelve: Don't Be Afraid
+> dont-be-afraid
 "Matt 10:23  39
 
 Matt 10:24  39
@@ -556,8 +560,8 @@ Matt 12:11  48
 Matt 12:12  48
 Matt 12:13  48
   hand." He
----- By Beelzebul
-> a-great-multitude a-house-divided
+---- By Beelzebul (Matthew)
+> a-great-multitude a-house-divided by-beelzebul-luke
 Matt 12:14  49
 
 Matt 12:15  49, 50
@@ -591,14 +595,16 @@ Matt 12:34  51
 Matt 12:35  51
 Matt 12:36  51
 Matt 12:37  51
----- Demand for a Sign
+---- Demand for a Sign (Matthew)
+> demand-for-a-sign-luke yeast-of-the-pharisees-mark
 Matt 12:38  52
 
 Matt 12:39  52
 Matt 12:40  52
 Matt 12:41  52
 Matt 12:42  52
-Matt 12:43  52
+
+"Matt 12:43  52
 Matt 12:44  52
 Matt 12:45  52
 ---- Who Is My Mother?
@@ -840,7 +846,7 @@ Matt 16:4   70
 Matt 16:5   70
 
 Matt 16:6   70
----- Yeast of the Pharisees
+---- Yeast of the Pharisees (Matthew)
 > yeast-of-the-pharisees-mark
 Matt 16:6   71
 
@@ -1285,7 +1291,7 @@ Matt 23:37  105
 Matt 23:38  105
 Matt 23:39  105
 ---- Little Apocalypse (Matthew)
-> little-apocalypse-mark little-apocalypse-luke
+> little-apocalypse-mark little-apocalypse-luke treasure-watchfulness faithful-or-unfaithful-steward
 Matt 24:1   106
 Matt 24:2   106
 
@@ -1538,7 +1544,7 @@ Mark  3:4   137
 Mark  3:5   137
   hand." He
 ---- A Great Multitude
-> by-beelzebul
+> by-beelzebul-matthew
 Mark  3:6   138
 
 Mark  3:7   138
@@ -1560,7 +1566,7 @@ Mark  3:17  139
 Mark  3:18  139
 Mark  3:19  139 s/ Then he came into a house./
 ---- A House Divided
-> by-beelzebul
+> by-beelzebul-matthew by-beelzebul-luke
 Mark  3:19  140 s/and Judas Iscariot, who also betrayed him. /
 Mark  3:20  140
 Mark  3:21  140
@@ -1893,6 +1899,7 @@ Mark  8:9   159
 
 Mark  8:10  159
 ---- Yeast of the Pharisees (Mark)
+> yeast-of-the-pharisees-matthew demand-for-a-sign-matthew demand-for-a-sign-luke
 Mark  8:11  160
 
 Mark  8:12  160
@@ -3291,86 +3298,105 @@ Luke 10:42  259
 Luke 11:27  259
 
 Luke 11:28  259
-----
+---- Prayer
+> sermon-on-the-mount-almsgiving-prayer
 Luke 11:1   260
+
 Luke 11:2   260
 Luke 11:3   260
 Luke 11:4   260
+
 Luke 11:5   260
 Luke 11:6   260
 Luke 11:7   260
 Luke 11:8   260
-Luke 11:9   260
-Luke 11:10  260
-----
-Luke 11:9   261
-Luke 11:10  261
-Luke 11:11  261
-Luke 11:12  261
-Luke 11:13  261
-----
+
+Luke 11:9   260, 261
+Luke 11:10  260, 261
+
+Luke 11:11       261
+Luke 11:12       261
+Luke 11:13       261
+---- By Beelzebul (Luke)
+> by-beelzebul-matthew a-great-multitude a-house-divided
 Luke 11:14  262
 Luke 11:15  262
 Luke 11:16  262
+
 Luke 11:17  262
 Luke 11:18  262
 Luke 11:19  262
 Luke 11:20  262
+
 Luke 11:21  262
 Luke 11:22  262
-Luke 11:23  262
-----
-Luke 11:23  263
-Luke 11:24  263
-Luke 11:25  263
-Luke 11:26  263
-----
+
+Luke 11:23  262, 263
+Luke 11:24       263
+Luke 11:25       263
+Luke 11:26       263
+---- Demand for a Sign (Luke)
+> demand-for-a-sign-matthew yeast-of-the-pharisees-mark
 Luke 11:29  264
 Luke 11:30  264
 Luke 11:31  264
 Luke 11:32  264
+
 Luke 11:33  264
-----
-Luke 11:34  265
+---- Lamp of the Body; Washing
+"Luke 11:34  265
 Luke 11:35  265
 Luke 11:36  265
+
 Luke 11:37  265
 Luke 11:38  265
+
 Luke 11:39  265
 Luke 11:40  265
-Luke 11:41  265
-----
-Luke 11:42  266
+Luke 11:41  265"
+---- Woe to You Pharisees!
+"Luke 11:42  266
 Luke 11:43  266
 Luke 11:44  266
+
 Luke 11:45  266
-Luke 11:46  266
-----
-Luke 11:47  267
+
+Luke 11:46  266"
+---- Woe to You!
+"Luke 11:47  267
 Luke 11:48  267
 Luke 11:49  267
 Luke 11:50  267
 Luke 11:51  267
-Luke 11:52  267
+
+"Luke 11:52  267
+
 Luke 11:53  267
 Luke 11:54  267
-Luke 12:1   267
-----
-Luke 12:2   268
+Luke 12:1   267"
+---- Don't Be Afraid
+> instructions-to-the-twelve-dont-be-afraid
+"Luke 12:2   268
 Luke 12:3   268
+
 Luke 12:4   268
 Luke 12:5   268
+
 Luke 12:6   268
 Luke 12:7   268
+
 Luke 12:8   268, 269
 Luke 12:9   268, 269
 Luke 12:10  268, 269
 Luke 12:11  268, 269
 Luke 12:12  268, 269
-----
+---- Don't Be Anxious
+> sermon-on-the-mount-dont-be-anxious
 Luke 12:13  270
+
 Luke 12:14  270
 Luke 12:15  270
+
 Luke 12:22  270
 Luke 12:23  270
 Luke 12:24  270
@@ -3380,35 +3406,42 @@ Luke 12:27  270
 Luke 12:28  270
 Luke 12:29  270
 Luke 12:30  270
-Luke 12:31  270
-----
+Luke 12:31  270"
+---- Parable of the Rich Fool
 Luke 12:16  271
 Luke 12:17  271
 Luke 12:18  271
 Luke 12:19  271
+
 Luke 12:20  271
 Luke 12:21  271
-----
-Luke 12:32  272
+---- Treasure; Watchfulness
+> sermon-on-the-mount-forgiveness-fasting-treasure little-apocalypse-matthew
+"Luke 12:32  272
 Luke 12:33  272
 Luke 12:34  272
+
 Luke 12:35  272
 Luke 12:36  272
 Luke 12:37  272
 Luke 12:38  272
 Luke 12:39  272
 Luke 12:40  272
-----
+----  Faithful or Unfaithful Steward
+> little-apocalypse-matthew
 Luke 12:41       90012
+
 Luke 12:42  273, 90012
 Luke 12:43  273, 90012
 Luke 12:44  273, 90012
-Luke 12:45  273, 90012
+
+"Luke 12:45  273, 90012
 Luke 12:46  273, 90012
 Luke 12:47  273, 90012
-Luke 12:48  273, 90012
+Luke 12:48  273, 90012"
 ----
-Luke 12:48  274
+Luke 12:48  274 s/but he who didn't know, and did things worthy of stripes, will be beaten with few stripes./"
+
 Luke 12:49  274
 Luke 12:50  274
 Luke 12:51  274
