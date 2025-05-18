@@ -1850,7 +1850,7 @@ Mark  7:16       155, 156
 Mark  7:17            156
 
 Mark  7:18            156
-Mark  7:19            156 s/foods ?/foods?
+Mark  7:19            156 s/foods \?/foods?
 
 Mark  7:20            156
 Mark  7:21            156
@@ -3193,7 +3193,7 @@ Luke  9:40  249
 Luke  9:41  249
 
 Luke  9:42  249
-Luke  9:43  249 s/ But while all were marveling at all the things which Jesus did, he said to his disciples,/
+Luke  9:43  249 s/ But while all .* his disciples,/
 ---- Greatest in the Kingdom
 > fish-coin-greatest servant-of-all
 Luke  9:44  250
@@ -3440,7 +3440,7 @@ Luke 12:46  273, 90012
 Luke 12:47  273, 90012
 Luke 12:48  273, 90012"
 ----
-Luke 12:48  274 s/but he who didn't know, and did things worthy of stripes, will be beaten with few stripes./"
+"Luke 12:48  274 s/but he who .* few stripes. /
 
 Luke 12:49  274
 Luke 12:50  274

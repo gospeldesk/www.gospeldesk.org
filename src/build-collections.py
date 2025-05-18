@@ -3,6 +3,7 @@ import csv
 import datetime
 import json
 import os
+import re
 import sys
 import string
 import traceback
@@ -172,7 +173,7 @@ class Pericope(object):
                 text = text.rstrip() + close_quote
             if sub:
                 frm, to = sub.split('/')
-                text = text.replace(frm, to)
+                text = re.sub(frm, to, text)
             self.verse_buffer.append([b,c,v, True, text])
 
     @property
