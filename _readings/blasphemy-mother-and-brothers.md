@@ -1,5 +1,5 @@
 ---
-title: "Blasphemy; Mother & Brothers"
+title: "Blasphemy; Mother and Brothers"
 pk: "141"
 num: 104
 book: "Mark"

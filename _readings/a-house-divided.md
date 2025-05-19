@@ -8,7 +8,7 @@ noindex: true
 ref: "Mark 3:19–27"
 related: ["by-beelzebul-matthew", "by-beelzebul-luke"]
 prev_slug: "twelve-apostles-mark"
-next_slug: "blasphemy-mother-brothers"
+next_slug: "blasphemy-mother-and-brothers"
 ---
 
 <p><span class="v">19</span>Then he came into a house.  <span class="v">20</span>The multitude came together again, so that they could not so much as eat bread.  <span class="v">21</span>When his friends heard it, they went out to seize him: for they said, “He is insane.” </p>

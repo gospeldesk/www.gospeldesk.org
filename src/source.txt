@@ -1580,7 +1580,7 @@ Mark  3:24  140
 Mark  3:25  140
 Mark  3:26  140
 Mark  3:27  140"
----- Blasphemy; Mother & Brothers
+---- Blasphemy; Mother and Brothers
 > blasphemy-against-the-spirit who-is-my-mother lamp-mother-brothers
 "Mark  3:28  141
 Mark  3:29  141
@@ -2349,7 +2349,7 @@ Mark 14:7   191
 Mark 14:8   191
 Mark 14:9   191
 ---- Last Supper (Mark)
-> holy-week-thursday-composite
+> holy-week-thursday-composite last-supper-luke
 Mark 14:10  192
 Mark 14:11  192
 
@@ -2399,7 +2399,8 @@ Mark 14:40  192
 
 Mark 14:41  192
 Mark 14:42  192
----- Betrayal
+---- Betrayal (Mark)
+> holy-week-thursday-composite betrayal-luke
 Mark 14:43  193
 Mark 14:44  193
 
@@ -2454,6 +2455,7 @@ Mark 14:72  193
 
 Mark 15:1   193
 ---- Handing Over
+> handing-over-and-crucif-and-crucifixion
 Mark 15:1   194
 
 Mark 15:2   194
@@ -2483,6 +2485,7 @@ Mark 15:14  194
 
 Mark 15:15  194
 ---- Crucifixion
+> handing-over-and-crucifixion
 Mark 15:22  197
 Mark 15:25  197
 Mark 15:33  197
@@ -3050,13 +3053,13 @@ Luke  8:12  90010, 238
 Luke  8:13  90010, 238
 Luke  8:14  90010, 238
 Luke  8:15  90010, 238"
----- Lamp; Mother & Brothers
+---- Lamp; Mother and Brothers
 > sermon-on-the-mount-light-of-the-world-law-and-prophets who-is-my-mother blasphemy-mother-brothers farmer-explained-lamp
 Luke  8:16  239
 Luke  8:17  239
 Luke  8:18  239
 #
-# Mother & Brothers
+# Mother and Brothers
 #
 Luke  8:19  239
 Luke  8:20  239
@@ -3995,24 +3998,32 @@ Luke 22:6   313
 
 Luke 22:7   313
 Luke 22:8   313
-----
+---- Last Supper (Luke)
+> holy-week-thursday-composite last-supper-mark
 Luke 22:7   301
 Luke 22:8   301
 
 Luke 22:9   301
+
 Luke 22:10  301
 Luke 22:11  301
 Luke 22:12  301
+
 Luke 22:13  301
+
 Luke 22:14  301
 Luke 22:15  301
 Luke 22:16  301
+
 Luke 22:17  301
 Luke 22:18  301
+
 Luke 22:19  301
+
 Luke 22:20  301
 Luke 22:21  301
 Luke 22:22  301
+
 Luke 22:23  301
 Luke 22:24  301
 Luke 22:25  301
@@ -4021,51 +4032,83 @@ Luke 22:27  301
 Luke 22:28  301
 Luke 22:29  301
 Luke 22:30  301
+
 Luke 22:31  301
 Luke 22:32  301
+
 Luke 22:33  301
+
 Luke 22:34  301
+
 Luke 22:35  301
+  anything?" They
+
 Luke 22:36  301
 Luke 22:37  301
+
 Luke 22:38  301
+  swords." He
+
 Luke 22:39  301
-----
+---- Betrayal (Luke)
+> holy-week-thursday-composite betrayal-mark
 Luke 22:39  315
 Luke 22:40  315
+
 Luke 22:41  315
 Luke 22:42  315
+
 Luke 22:45  315
 Luke 22:46  315
+
 Luke 22:47  315
 Luke 22:48  315
+
 Luke 22:49  315
+
 Luke 22:50  315
+
 Luke 22:51  315
 Luke 22:52  315
 Luke 22:53  315
+
 Luke 22:54  315
 Luke 22:55  315
 Luke 22:56  315
+
 Luke 22:57  315
+
 Luke 22:58  315
+  them!" But
+
 Luke 22:59  315
+
 Luke 22:60  315
 Luke 22:61  315
 Luke 22:62  315
+
 Luke 22:63  315
 Luke 22:64  315
 Luke 22:65  315
+
 Luke 22:66  315
 Luke 22:67  315
+  us." But
 Luke 22:68  315
 Luke 22:69  315
+
 Luke 22:70  315
+  God?" He
+
 Luke 22:71  315
 Luke 23:1   315
-----
+---- Handing Over and Crucifixion
+> handing-over crucifixion
 Luke 23:2   316
+
 Luke 23:3   316
+  Jews?" He
+
 Luke 23:4   316
 Luke 23:5   316
 Luke 23:6   316
@@ -5344,7 +5387,7 @@ Luke 22:37  314
 Luke 22:38  314
 Luke 22:39  314
 ---- Holy Week: Thursday, Composite
-> last-supper-mark
+> last-supper-mark last-supper-luke betrayal-mark betrayal-luke
 Matt 26:2   116
 Matt 26:3   116
 Matt 26:4   116

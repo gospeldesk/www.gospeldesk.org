@@ -8,7 +8,7 @@ noindex: true
 ref: "Luke 8:4–15"
 related: ["parable-of-the-farmer-matthew", "parable-of-the-farmer-explained-matthew", "parable-of-the-farmer-mark", "farmer-explained-lamp"]
 prev_slug: "women-disciples"
-next_slug: "lamp-mother-brothers"
+next_slug: "lamp-mother-and-brothers"
 ---
 
 <p><span class="v">4</span>When a great multitude came together, and people from every city were coming to him, he spoke by a parable.  <span class="v">5</span>“The farmer went out to sow his seed. As he sowed, some fell along the road, and it was trampled under foot, and the birds of the sky devoured it.  <span class="v">6</span>Other seed fell on the rock, and as soon as it grew, it withered away, because it had no moisture.  <span class="v">7</span>Other fell amid the thorns, and the thorns grew with it, and choked it.  <span class="v">8</span>Other fell into the good ground, and grew, and produced one hundred times as much fruit.”</p>

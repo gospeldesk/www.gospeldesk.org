@@ -7,7 +7,7 @@ excerpt: "Mark 4:1–9"
 noindex: true
 ref: "Mark 4:1–9"
 related: ["parable-of-the-farmer-matthew", "parable-of-the-farmer-luke"]
-prev_slug: "blasphemy-mother-brothers"
+prev_slug: "blasphemy-mother-and-brothers"
 next_slug: "farmer-explained-lamp"
 ---
 

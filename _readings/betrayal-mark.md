@@ -6,6 +6,7 @@ book: "Mark"
 excerpt: "Mark 14:43–15:1"
 noindex: true
 ref: "Mark 14:43–15:1"
+related: ["holy-week-thursday-composite", "betrayal-luke"]
 prev_slug: "last-supper-mark"
 next_slug: "handing-over"
 ---

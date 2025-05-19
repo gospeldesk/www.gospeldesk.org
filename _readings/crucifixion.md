@@ -6,6 +6,7 @@ book: "Mark"
 excerpt: "Mark 15:22–41"
 noindex: true
 ref: "Mark 15:22–41"
+related: ["handing-over-and-crucifixion"]
 prev_slug: "handing-over"
 next_slug: "resurrection"
 ---

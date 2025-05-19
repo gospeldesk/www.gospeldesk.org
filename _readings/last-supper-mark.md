@@ -6,9 +6,9 @@ book: "Mark"
 excerpt: "Mark 14:10–42"
 noindex: true
 ref: "Mark 14:10–42"
-related: ["holy-week-thursday-composite"]
+related: ["holy-week-thursday-composite", "last-supper-luke"]
 prev_slug: "annointing-by-mary-of-bethany"
-next_slug: "betrayal"
+next_slug: "betrayal-mark"
 ---
 
 <p><span class="v">10</span>Judas Iscariot, who was one of the twelve, went away to the chief priests, that he might deliver him to them.  <span class="v">11</span>They, when they heard it, were glad, and promised to give him money. He sought how he might conveniently deliver him. </p>

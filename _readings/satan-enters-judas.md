@@ -7,7 +7,7 @@ excerpt: "Luke 21:37–22:8"
 noindex: true
 ref: "Luke 21:37–22:8"
 prev_slug: "little-apocalypse-luke"
-next_slug: "luke-22-7-39"
+next_slug: "last-supper-luke"
 ---
 
 <p><span class="v">37</span>Every day Jesus was teaching in the temple, and every night he would go out and spend the night on the mountain that is called Olivet.  <span class="v">38</span>All the people came early in the morning to him in the temple to hear him. </p>

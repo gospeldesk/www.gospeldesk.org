@@ -7,7 +7,7 @@ excerpt: "Luke 8:22–25"
 noindex: true
 ref: "Luke 8:22–25"
 related: ["rebuking-the-storm-matthew", "rebuking-the-storm-mark"]
-prev_slug: "lamp-mother-brothers"
+prev_slug: "lamp-mother-and-brothers"
 next_slug: "gadarene-demoniac-luke"
 ---
 
