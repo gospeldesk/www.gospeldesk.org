@@ -6,8 +6,9 @@ book: "Mark"
 excerpt: "Mark 15:42–16:8"
 noindex: true
 ref: "Mark 15:42–16:8"
+related: ["resurrection-luke"]
 prev_slug: "crucifixion"
-next_slug: "ascension"
+next_slug: "ascension-mark"
 ---
 
 <p><span class="v">42</span>When evening had now come, because it was the Preparation Day, that is, the day before the Sabbath,  <span class="v">43</span>Joseph of Arimathaea, a prominent council member who also himself was looking for God’s Kingdom, came. He boldly went in to Pilate, and asked for Jesus’ body.  <span class="v">44</span>Pilate marveled if he were already dead; and summoning the centurion, he asked him whether he had been dead long.  <span class="v">45</span>When he found out from the centurion, he granted the body to Joseph. </p>

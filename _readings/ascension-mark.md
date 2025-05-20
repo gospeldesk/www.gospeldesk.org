@@ -6,7 +6,8 @@ book: "Mark"
 excerpt: "Mark 16:9–20"
 noindex: true
 ref: "Mark 16:9–20"
-prev_slug: "resurrection"
+related: ["ascension-luke"]
+prev_slug: "resurrection-mark"
 next_slug: "birth-of-john-annunciation"
 ---
 

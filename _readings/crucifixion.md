@@ -8,7 +8,7 @@ noindex: true
 ref: "Mark 15:22–41"
 related: ["handing-over-and-crucifixion"]
 prev_slug: "handing-over"
-next_slug: "resurrection"
+next_slug: "resurrection-mark"
 ---
 
 <p><span class="v">22</span>They brought him to the place called Golgotha, which is, being interpreted, “The place of a skull.”  <span class="v">25</span>It was the third hour, and they crucified him.  <span class="v">33</span>When the sixth hour had come, there was darkness over the whole land until the ninth hour.  <span class="v">34</span>At the ninth hour Jesus cried with a loud voice, saying, “Eloi, Eloi, lama sabachthani?” which is, being interpreted, “My God, my God, why have you forsaken me?” </p>

@@ -2500,7 +2500,8 @@ Mark 15:39  197
 
 Mark 15:40  197
 Mark 15:41  197
----- Resurrection
+---- Resurrection (Mark)
+> resurrection-luke
 Mark 15:42  90007
 Mark 15:43  90007, 199
 Mark 15:44  90007, 199
@@ -2519,7 +2520,8 @@ Mark 16:6   90007, 199, 200
 Mark 16:7   90007, 199, 200
 
 Mark 16:8   90007, 199, 200
----- Ascension
+---- Ascension (Mark)
+> ascension-luke
 Mark 16:9   201
 Mark 16:10  201
 Mark 16:11  201
@@ -4110,102 +4112,136 @@ Luke 23:3   316
   Jews?" He
 
 Luke 23:4   316
+
 Luke 23:5   316
+
 Luke 23:6   316
 Luke 23:7   316
+
 Luke 23:8   316
 Luke 23:9   316
 Luke 23:10  316
 Luke 23:11  316
 Luke 23:12  316
+
 Luke 23:13  316
 Luke 23:14  316
 Luke 23:15  316
 Luke 23:16  316
+
 Luke 23:17  316
 Luke 23:18  316
 Luke 23:19  316
+
 Luke 23:20  316
 Luke 23:21  316
+
 Luke 23:22  316
+
 Luke 23:23  316
 Luke 23:24  316
 Luke 23:25  316
+
 Luke 23:26  316
+
 Luke 23:27  316
 Luke 23:28  316
 Luke 23:29  316
 Luke 23:30  316
 Luke 23:31  316
+
 Luke 23:32  316
 Luke 23:33  316
+
 Luke 23:34  316
+  doing." Dividing
 Luke 23:44  316
 Luke 23:45  316
 Luke 23:46  316
+
 Luke 23:47  316
+
 Luke 23:48  316
 Luke 23:49  316
+
 Luke 23:50  316
 Luke 23:51  316
 Luke 23:52  316
 Luke 23:53  316
 Luke 23:54  316
+
 Luke 23:55  316
 Luke 23:56  316
-----
+---- Resurrection (Luke)
+> resurrection-mark
 Luke 24:1   318
 Luke 24:2   318
 Luke 24:3   318
+
 Luke 24:4   318
 Luke 24:5   318
 Luke 24:6   318
 Luke 24:7   318
+
 Luke 24:8   318
 Luke 24:9   318
 Luke 24:10  318
 Luke 24:11  318
+
 Luke 24:12  318
-----
+---- Road to Emmaus
 Luke 24:12  319
+
 Luke 24:13  319
 Luke 24:14  319
 Luke 24:15  319
 Luke 24:16  319
 Luke 24:17  319
+
 Luke 24:18  319
+
 Luke 24:19  319
+  things?" They
 Luke 24:20  319
 Luke 24:21  319
 Luke 24:22  319
 Luke 24:23  319
 Luke 24:24  319
+
 Luke 24:25  319
 Luke 24:26  319
 Luke 24:27  319
+
 Luke 24:28  319
 Luke 24:29  319
+  over." He
 Luke 24:30  319
 Luke 24:31  319
+
 Luke 24:32  319
 Luke 24:33  319
 Luke 24:34  319
 Luke 24:35  319
-----
+---- Ascension (Luke)
+> ascension-mark
 Luke 24:36  320
 Luke 24:37  320
+
 Luke 24:38  320
 Luke 24:39  320
 Luke 24:40  320
+
 Luke 24:41  320
 Luke 24:42  320
 Luke 24:43  320
+
 Luke 24:44  320
 Luke 24:45  320
 Luke 24:46  320
 Luke 24:47  320
 Luke 24:48  320
 Luke 24:49  320
+
 Luke 24:50  320
 Luke 24:51  320
 Luke 24:52  320

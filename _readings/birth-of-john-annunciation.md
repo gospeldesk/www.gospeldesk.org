@@ -6,7 +6,7 @@ book: "Luke"
 excerpt: "Luke 1:1–80"
 noindex: true
 ref: "Luke 1:1–80"
-prev_slug: "ascension"
+prev_slug: "ascension-mark"
 next_slug: "birth-and-shepherds"
 ---
 
