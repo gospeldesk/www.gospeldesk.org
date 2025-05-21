@@ -1,0 +1,19 @@
+---
+title: "Lamb of God"
+pk: "323"
+num: 255
+book: "John"
+excerpt: "John 1:29–34"
+noindex: true
+ref: "John 1:29–34"
+prev_slug: "johns-testimony"
+next_slug: "calling-the-first-disciples"
+---
+
+<p><span class="v">29</span>The next day, he saw Jesus coming to him, and said, “Behold, the Lamb of God, who takes away the sin of the world!  <span class="v">30</span>This is he of whom I said, ‘After me comes a man who is preferred before me, for he was before me.’  <span class="v">31</span>I didn’t know him, but for this reason I came baptizing in water: that he would be revealed to Israel.” </p>
+<p><span class="v">32</span>John testified, saying, “I have seen the Spirit descending like a dove out of heaven, and it remained on him.  <span class="v">33</span>I didn’t recognize him, but he who sent me to baptize in water, he said to me, ‘On whomever you will see the Spirit descending, and remaining on him, the same is he who baptizes in the Holy Spirit.’  <span class="v">34</span>I have seen, and have testified that this is the Son of God.” </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2026/01/07">January  7, 2026</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2027/01/07">January  7, 2027</a>.

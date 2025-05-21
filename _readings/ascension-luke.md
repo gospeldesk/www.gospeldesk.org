@@ -8,7 +8,7 @@ noindex: true
 ref: "Luke 24:36–53"
 related: ["ascension-mark"]
 prev_slug: "road-to-emmaus"
-next_slug: "john-1-1-17"
+next_slug: "the-word"
 ---
 
 <p><span class="v">36</span>As they said these things, Jesus himself stood among them, and said to them, “Peace be to you.”  <span class="v">37</span>But they were terrified and filled with fear, and supposed that they had seen a spirit. </p>
