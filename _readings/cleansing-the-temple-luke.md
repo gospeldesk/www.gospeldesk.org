@@ -6,7 +6,7 @@ book: "Luke"
 excerpt: "Luke 19:45–48"
 noindex: true
 ref: "Luke 19:45–48"
-related: ["cleansing-the-temple-matthew", "cleansing-the-temple-mark"]
+related: ["cleansing-the-temple-matthew", "cleansing-the-temple-mark", "cleansing-the-temple-john"]
 prev_slug: "triumphal-entry-luke"
 next_slug: "by-what-authority-luke"
 ---

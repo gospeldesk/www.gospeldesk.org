@@ -7,7 +7,7 @@ excerpt: "John 1:35–51"
 noindex: true
 ref: "John 1:35–51"
 prev_slug: "lamb-of-god"
-next_slug: "john-2-1-11"
+next_slug: "wedding-at-cana"
 ---
 
 <p><span class="v">35</span>Again, the next day, John was standing with two of his disciples,  <span class="v">36</span>and he looked at Jesus as he walked, and said, “Behold, the Lamb of God!”  <span class="v">37</span>The two disciples heard him speak, and they followed Jesus. </p>

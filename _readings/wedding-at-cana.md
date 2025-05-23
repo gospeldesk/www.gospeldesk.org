@@ -1,0 +1,25 @@
+---
+title: "Wedding at Cana"
+pk: "326"
+num: 257
+book: "John"
+excerpt: "John 2:1–11"
+noindex: true
+ref: "John 2:1–11"
+prev_slug: "calling-the-first-disciples"
+next_slug: "cleansing-the-temple-john"
+---
+
+<p><span class="v">1</span>The third day, there was a marriage in Cana of Galilee. Jesus’ mother was there.  <span class="v">2</span>Jesus also was invited, with his disciples, to the marriage.  <span class="v">3</span>When the wine ran out, Jesus’ mother said to him, “They have no wine.” </p>
+<p><span class="v">4</span>Jesus said to her, “Woman, what does that have to do with you and me? My hour has not yet come.” </p>
+<p><span class="v">5</span>His mother said to the servants, “Whatever he says to you, do it.” </p>
+<p><span class="v">6</span>Now there were six water pots of stone set there after the Jews’ way of purifying, containing two or three metretes apiece.  <span class="v">7</span>Jesus said to them, “Fill the water pots with water.”</p>
+<p>They filled them up to the brim. </p>
+<p><span class="v">8</span>He said to them, “Now draw some out, and take it to the ruler of the feast.”</p>
+<p>So they took it.  <span class="v">9</span>When the ruler of the feast tasted the water now become wine, and didn’t know where it came from (but the servants who had drawn the water knew), the ruler of the feast called the bridegroom,  <span class="v">10</span>and said to him, “Everyone serves the good wine first, and when the guests have drunk freely, then that which is worse. You have kept the good wine until now!” </p>
+<p><span class="v">11</span>This beginning of his signs Jesus did in Cana of Galilee, and revealed his glory; and his disciples believed in him. </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/04/28">April 28, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/04/20">April 20, 2026</a>.
