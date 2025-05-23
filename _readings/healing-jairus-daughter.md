@@ -6,7 +6,7 @@ book: "Mark"
 excerpt: "Mark 5:21–6:1"
 noindex: true
 ref: "Mark 5:21–6:1"
-related: ["two-healings-matthew", "two-healings-luke"]
+related: ["two-healings-matthew", "two-healings-luke", "healing-a-noblemans-son"]
 prev_slug: "gadarene-demoniac-mark"
 next_slug: "healing-a-woman"
 ---

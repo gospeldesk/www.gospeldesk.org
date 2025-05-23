@@ -6,7 +6,7 @@ book: "Luke"
 excerpt: "Luke 8:41–56"
 noindex: true
 ref: "Luke 8:41–56"
-related: ["two-healings-matthew", "healing-jairus-daughter", "healing-a-woman"]
+related: ["two-healings-matthew", "healing-jairus-daughter", "healing-a-woman", "healing-a-noblemans-son"]
 prev_slug: "gadarene-demoniac-luke"
 next_slug: "sending-the-twelve-luke"
 ---

@@ -1,0 +1,26 @@
+---
+title: "Healing a Nobleman's Son"
+pk: "333"
+num: 262
+book: "John"
+excerpt: "John 4:43–54"
+noindex: true
+ref: "John 4:43–54"
+related: ["two-healings-matthew", "healing-jairus-daughter", "two-healings-luke"]
+prev_slug: "samaritan-woman"
+next_slug: "john-5-1-15"
+---
+
+<p><span class="v">43</span>After the two days he went out from there and went into Galilee.  <span class="v">44</span>For Jesus himself testified that a prophet has no honor in his own country.  <span class="v">45</span>So when he came into Galilee, the Galileans received him, having seen all the things that he did in Jerusalem at the feast, for they also went to the feast. </p>
+<p><span class="v">46</span>Jesus came therefore again to Cana of Galilee, where he made the water into wine. There was a certain nobleman whose son was sick at Capernaum.  <span class="v">47</span>When he heard that Jesus had come out of Judea into Galilee, he went to him, and begged him that he would come down and heal his son, for he was at the point of death. </p>
+<p><span class="v">48</span>Jesus therefore said to him, “Unless you see signs and wonders, you will in no way believe.” </p>
+<p><span class="v">49</span>The nobleman said to him, “Sir, come down before my child dies.” </p>
+<p><span class="v">50</span>Jesus said to him, “Go your way. Your son lives.”</p>
+<p>The man believed the word that Jesus spoke to him, and he went his way.  <span class="v">51</span>As he was now going down, his servants met him and reported, saying “Your child lives!” </p>
+<p><span class="v">52</span>So he inquired of them the hour when he began to get better. They said therefore to him, “Yesterday at the seventh hour, the fever left him.” </p>
+<p><span class="v">53</span>So the father knew that it was at that hour in which Jesus said to him, “Your son lives.” He believed, as did his whole house.  <span class="v">54</span>This is again the second sign that Jesus did, having come out of Judea into Galilee. </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/05/05">May  5, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/04/27">April 27, 2026</a>.

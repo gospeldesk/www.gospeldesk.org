@@ -391,7 +391,7 @@ Matt  9:15  32
 Matt  9:16  32
 Matt  9:17  32
 ---- Two Healings (Matthew)
-> healing-jairus-daughter healing-a-woman two-healings-luke
+> healing-jairus-daughter healing-a-woman two-healings-luke healing-a-noblemans-son
 Matt  9:18  33
 
 Matt  9:19  33
@@ -1686,7 +1686,7 @@ Mark  5:19  146
 
 Mark  5:20  146
 ---- Healing Jairus' Daughter
-> two-healings-matthew two-healings-luke
+> two-healings-matthew two-healings-luke healing-a-noblemans-son
 Mark  5:21       90005
 Mark  5:22  147, 90005
 Mark  5:23  147, 90005
@@ -3102,7 +3102,7 @@ Luke  8:39  241, 90011
 
 Luke  8:40       90011
 ---- Two Healings (Luke)
-> two-healings-matthew healing-jairus-daughter healing-a-woman
+> two-healings-matthew healing-jairus-daughter healing-a-woman healing-a-noblemans-son
 Luke  8:41  242
 Luke  8:42  242
   dying. But
@@ -4399,12 +4399,14 @@ John  3:18            330
 John  3:19            330
 John  3:20            330
 John  3:21            330
-----
+---- John's Witness
 John  3:22  331, 90020
 John  3:23  331, 90020
 John  3:24  331, 90020
+
 John  3:25  331, 90020
 John  3:26  331, 90020
+
 John  3:27  331, 90020
 John  3:28  331, 90020
 John  3:29  331, 90020
@@ -4415,60 +4417,91 @@ John  3:33  331, 90020
 John  3:34       90020
 John  3:35       90020
 John  3:36       90020
-----
+---- Samaritan Woman
 John  4:1        90021
 John  4:2        90021
 John  4:3        90021
+
 John  4:4        90021
 John  4:5   332, 90021
 John  4:6   332, 90021
+
 John  4:7   332, 90021
 John  4:8   332, 90021
+
 John  4:9   332, 90021
+
 John  4:10  332, 90021
+
 John  4:11  332, 90021
+
 John  4:12  332, 90021
+
 John  4:13  332, 90021
 John  4:14  332, 90021
+
 John  4:15  332, 90021
+
 John  4:16  332, 90021
+
 John  4:17  332, 90021
+  husband." Jesus
 John  4:18  332, 90021
+
 John  4:19  332, 90021
 John  4:20  332, 90021
+
 John  4:21  332, 90021
 John  4:22  332, 90021
 John  4:23  332, 90021
 John  4:24  332, 90021
+
 John  4:25  332, 90021
+
 John  4:26  332, 90021
+
 John  4:27  332, 90021
+
 John  4:28  332, 90021
 John  4:29  332, 90021
+
 John  4:30  332, 90021
 John  4:31  332, 90021
+
 John  4:32  332, 90021
+
 John  4:33  332, 90021
+
 John  4:34  332, 90021
 John  4:35  332, 90021
 John  4:36  332, 90021
 John  4:37  332, 90021
 John  4:38  332, 90021
+
 John  4:39  332, 90021
+
 John  4:40  332, 90021
 John  4:41  332, 90021
 John  4:42  332, 90021
-----
+---- Healing a Nobleman's Son
+> two-healings-matthew healing-jairus-daughter two-healings-luke
 John  4:43       90022
 John  4:44       90022
 John  4:45       90022
+
 John  4:46  333, 90022
 John  4:47  333, 90022
+
 John  4:48  333, 90022
+
 John  4:49  333, 90022
+
 John  4:50  333, 90022
+  lives." The
 John  4:51  333, 90022
+
 John  4:52  333, 90022
+
 John  4:53  333, 90022
 John  4:54  333, 90022
 ----

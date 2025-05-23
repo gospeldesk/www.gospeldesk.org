@@ -7,7 +7,7 @@ excerpt: "John 3:1–21"
 noindex: true
 ref: "John 3:1–21"
 prev_slug: "cleansing-the-temple-john"
-next_slug: "john-3-22-36"
+next_slug: "johns-witness"
 ---
 
 <p><span class="v">1</span>Now there was a man of the Pharisees named Nicodemus, a ruler of the Jews.  <span class="v">2</span>The same came to him by night, and said to him, “Rabbi, we know that you are a teacher come from God, for no one can do these signs that you do, unless God is with him.” </p>
