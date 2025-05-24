@@ -9,7 +9,7 @@ ref: "John 12:1–18"
 related: ["triumphal-entry-matthew", "triumphal-entry-mark", "triumphal-entry-luke", "holy-week-wednesday-presanctified-liturgy", "annointing-by-mary-of-bethany"]
 direct: ["mary-of-bethany"]
 prev_slug: "council"
-next_slug: "john-12-19-36"
+next_slug: "coming-of-the-hour"
 ---
 
 <p><span class="v">1</span>Then six days before the Passover, Jesus came to Bethany, where Lazarus was, who had been dead, whom he raised from the dead.  <span class="v">2</span>So they made him a supper there. Martha served, but Lazarus was one of those who sat at the table with him. </p>

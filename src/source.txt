@@ -2349,7 +2349,7 @@ Mark 14:7   191
 Mark 14:8   191
 Mark 14:9   191
 ---- Last Supper (Mark)
-> holy-week-thursday-composite last-supper-luke
+> holy-week-thursday-composite last-supper-luke 
 Mark 14:10  192
 Mark 14:11  192
 
@@ -4001,7 +4001,7 @@ Luke 22:6   313
 Luke 22:7   313
 Luke 22:8   313
 ---- Last Supper (Luke)
-> holy-week-thursday-composite last-supper-mark
+> holy-week-thursday-composite last-supper-mark 
 Luke 22:7   301
 Luke 22:8   301
 
@@ -5106,196 +5106,94 @@ John 12:16  364
 
 John 12:17  364
 John 12:18  364
-----
+---- Coming of the Hour
 John 12:19  366
+
 John 12:20  366
 John 12:21  366
+
 John 12:22  366
+
 John 12:23  366
 John 12:24  366
 John 12:25  366
 John 12:26  366
 John 12:27  366
 John 12:28  366, 367
+  name!" Then
+
 John 12:29  366, 367
+
 John 12:30  366, 367
 John 12:31  366, 367
 John 12:32  366, 367
 John 12:33  366, 367
+
 John 12:34  366, 367
+
 John 12:35  366, 367
 John 12:36  366, 367
-----
-John 12:36  368
+---- Belief and Disbelief
+"John 12:36  368
+
 John 12:37  368
 John 12:38  368
 John 12:39  368
 John 12:40  368
 John 12:41  368
+
 John 12:42  368
 John 12:43  368
+
 John 12:44  368
 John 12:45  368
 John 12:46  368
-John 12:47  368
-----
+John 12:47  368"
+---- Washing the Disciples' Feet
 John 13:1   369
+
 John 13:2   369
 John 13:3   369
 John 13:4   369
 John 13:5   369
+
 John 13:6   369
+
 John 13:7   369
+
 John 13:8   369
+  feet!" Jesus
+
 John 13:9   369
+
 John 13:10  369
 John 13:11  369
-----
+
 John 13:12  370
 John 13:13  370
 John 13:14  370
 John 13:15  370
 John 13:16  370
-John 13:17  370
-----
-John 13:18  90034
+John 13:17  370"
+---- Betrayer Revealed
+"John 13:18  90034
 John 13:19  90034
 John 13:20  90034
+
 John 13:21  90034
+
 John 13:22  90034
 John 13:23  90034
 John 13:24  90034
+
 John 13:25  90034
+
 John 13:26  90034
 John 13:27  90034
+
 John 13:28  90034
 John 13:29  90034
 John 13:30  90034
-----
-John 14:1   372
-John 14:2   372
-John 14:3   372
-John 14:4   372
-John 14:5   372
-John 14:6   372
-John 14:7   372
-John 14:8   372
-John 14:9   372
-John 14:10  372
-John 14:11  372
-----
-John 14:10  373
-John 14:11  373
-John 14:12  373
-John 14:13  373
-John 14:14  373
-John 14:15  373
-John 14:16  373
-John 14:17  373
-John 14:18  373
-John 14:19  373
-John 14:20  373
-John 14:21  373
-----
-John 14:21  374
-John 14:22  374
-John 14:23  374
-John 14:24  374
-----
-John 14:27  375
-John 14:28  375
-John 14:29  375
-John 14:30  375
-John 14:31  375
-John 15:1   375, 376
-John 15:2   375, 376
-John 15:3   375, 376
-John 15:4   375, 376
-John 15:5   375, 376
-John 15:6   375, 376
-John 15:7   375, 376
-----
-John 15:9   377
-John 15:10  377
-John 15:11  377
-John 15:12  377
-John 15:13  377
-John 15:14  377
-John 15:15  377
-John 15:16  377
-----
-John 15:17  378
-John 15:18  378
-John 15:19  378
-John 15:20  378
-John 15:21  378
-John 15:22  378
-John 15:23  378
-John 15:24  378
-John 15:25  378
-John 15:26  378
-John 15:27  378
-John 16:1   378
-John 16:2   378
-----
-John 16:2   379
-John 16:3   379
-John 16:4   379
-John 16:5   379
-John 16:6   379
-John 16:7   379
-John 16:8   379
-John 16:9   379
-John 16:10  379
-John 16:11  379
-John 16:12  379
-John 16:13  379
-----
-John 16:15  380
-John 16:16  380
-John 16:17  380
-John 16:18  380
-John 16:19  380
-John 16:20  380
-John 16:21  380
-John 16:22  380
-John 16:23  380
-----
-John 16:23  381
-John 16:24  381
-John 16:25  381
-John 16:26  381
-John 16:27  381
-John 16:28  381
-John 16:29  381
-John 16:30  381
-John 16:31  381
-John 16:32  381
-John 16:33  381
-----
-John 17:1   382
-John 17:2   382
-John 17:3   382
-John 17:4   382
-John 17:5   382
-John 17:6   382
-John 17:7   382
-John 17:8   382
-John 17:9   382
-John 17:10  382
-John 17:11  382
-John 17:12  382
-John 17:13  382
-----
-John 17:18  383
-John 17:19  383
-John 17:20  383
-John 17:21  383
-John 17:22  383
-John 17:23  383
-John 17:24  383
-John 17:25  383
-John 17:26  383
 ----
 John 19:6   387
 John 19:7   387
@@ -5769,156 +5667,204 @@ Matt 27:2   116
 John 13:31  371
 John 13:32  371
 John 13:33  371
-John 13:34  371
+
+"John 13:34  371
 John 13:35  371
+
 John 13:36  371
+  going?" Jesus
+
 John 13:37  371
+
 John 13:38  371
-John 14:1   371
-John 14:2   371
-John 14:3   371
-John 14:4   371
-John 14:5   371
-John 14:6   371
-John 14:7   371
-John 14:8   371
-John 14:9   371
-John 14:10  371
-John 14:11  371
-John 14:12  371
-John 14:13  371
-John 14:14  371
-John 14:15  371
-John 14:16  371
-John 14:17  371
-John 14:18  371
-John 14:19  371
-John 14:20  371
-John 14:21  371
-John 14:22  371
-John 14:23  371
-John 14:24  371
+
+John 14:1   371, 372
+John 14:2   371, 372 
+John 14:3   371, 372
+John 14:4   371, 372
+
+John 14:5   371, 372
+
+John 14:6   371, 372
+John 14:7   371, 372
+
+John 14:8   371, 372
+
+John 14:9   371, 372
+John 14:10  371, 372, 373
+John 14:11  371, 372, 373
+
+John 14:12  371, 373
+John 14:13  371, 373
+John 14:14  371, 373
+John 14:15  371, 373
+John 14:16  371, 373
+John 14:17  371, 373
+John 14:18  371, 373
+John 14:19  371, 373
+John 14:20  371, 373
+John 14:21  371, 373, 374
+
+John 14:22  371,      374
+
+John 14:23  371,      374
+John 14:24  371,      374
 John 14:25  371
 John 14:26  371
-John 14:27  371
-John 14:28  371
-John 14:29  371
-John 14:30  371
-John 14:31  371
-John 15:1   371
-John 15:2   371
-John 15:3   371
-John 15:4   371
-John 15:5   371
-John 15:6   371
-John 15:7   371
+John 14:27  371, 375
+John 14:28  371, 375
+John 14:29  371, 375
+John 14:30  371, 375
+John 14:31  371, 375
+
+John 15:1   371, 375, 376
+John 15:2   371, 375, 376
+John 15:3   371, 375, 376
+John 15:4   371, 375, 376
+John 15:5   371, 375, 376
+John 15:6   371, 375, 376
+John 15:7   371, 375, 376
+
 John 15:8   371
-John 15:9   371
-John 15:10  371
-John 15:11  371
-John 15:12  371
-John 15:13  371
-John 15:14  371
-John 15:15  371
-John 15:16  371
-John 15:17  371
-John 15:18  371
-John 15:19  371
-John 15:20  371
-John 15:21  371
-John 15:22  371
-John 15:23  371
-John 15:24  371
-John 15:25  371
-John 15:26  371
-John 15:27  371
-John 16:1   371
-John 16:2   371
-John 16:3   371
-John 16:4   371
-John 16:5   371
-John 16:6   371
-John 16:7   371
-John 16:8   371
-John 16:9   371
-John 16:10  371
-John 16:11  371
-John 16:12  371
-John 16:13  371
+John 15:9   371, 377
+John 15:10  371, 377
+John 15:11  371, 377
+
+John 15:12  371, 377
+John 15:13  371, 377
+John 15:14  371, 377
+John 15:15  371, 377
+John 15:16  371, 377
+
+John 15:17  371, 378
+John 15:18  371, 378
+John 15:19  371, 378
+John 15:20  371, 378
+John 15:21  371, 378
+John 15:22  371, 378
+John 15:23  371, 378
+John 15:24  371, 378
+John 15:25  371, 378
+
+John 15:26  371, 378
+John 15:27  371, 378
+
+John 16:1   371, 378
+John 16:2   371, 378, 379
+John 16:3   371,      379
+John 16:4   371,      379
+John 16:5   371,      379
+John 16:6   371,      379
+John 16:7   371,      379
+John 16:8   371,      379
+John 16:9   371,      379
+John 16:10  371,      379
+John 16:11  371,      379
+
+John 16:12  371,      379
+John 16:13  371,      379
 John 16:14  371
-John 16:15  371
-John 16:16  371
-John 16:17  371
-John 16:18  371
-John 16:19  371
-John 16:20  371
-John 16:21  371
-John 16:22  371
-John 16:23  371
-John 16:24  371
-John 16:25  371
-John 16:26  371
-John 16:27  371
-John 16:28  371
-John 16:29  371
-John 16:30  371
-John 16:31  371
-John 16:32  371
-John 16:33  371
-John 17:1   371
-John 17:2   371
-John 17:3   371
-John 17:4   371
-John 17:5   371
-John 17:6   371
-John 17:7   371
-John 17:8   371
-John 17:9   371
-John 17:10  371
-John 17:11  371
-John 17:12  371
-John 17:13  371
+John 16:15  371, 380 
+John 16:16  371, 380
+
+John 16:17  371, 380
+John 16:18  371, 380
+
+John 16:19  371, 380
+John 16:20  371, 380
+John 16:21  371, 380
+John 16:22  371, 380
+
+John 16:23  371, 380, 381 
+John 16:24  371,      381
+John 16:25  371,      381
+John 16:26  371,      381
+John 16:27  371,      381
+John 16:28  371,      381
+
+John 16:29  371,      381
+John 16:30  371,      381
+
+John 16:31  371,      381
+John 16:32  371,      381
+John 16:33  371,      381
+
+John 17:1   371, 382
+John 17:2   371, 382
+John 17:3   371, 382
+John 17:4   371, 382
+John 17:5   371, 382
+John 17:6   371, 382
+John 17:7   371, 382
+John 17:8   371, 382
+John 17:9   371, 382
+John 17:10  371, 382
+John 17:11  371, 382
+John 17:12  371, 382
+John 17:13  371, 382
 John 17:14  371
 John 17:15  371
 John 17:16  371
 John 17:17  371
-John 17:18  371
-John 17:19  371
-John 17:20  371
-John 17:21  371
-John 17:22  371
-John 17:23  371
-John 17:24  371
-John 17:25  371
-John 17:26  371
+John 17:18  371, 383 
+John 17:19  371, 383
+John 17:20  371, 383
+John 17:21  371, 383
+John 17:22  371, 383
+John 17:23  371, 383
+John 17:24  371, 383
+John 17:25  371, 383
+John 17:26  371, 383
+
 John 18:1   371
 ---- Holy Week: Friday, Passion Gospels № 2
 John 18:1   384
+
 John 18:2   384
 John 18:3   384
+
 John 18:4   384
+
 John 18:5   384
+  Nazareth." Jesus
+  he." Judas
 John 18:6   384
+  
 John 18:7   384
+  for?" They
+
 John 18:8   384
 John 18:9   384
+
 John 18:10  384
 John 18:11  384
+
 John 18:12  384
 John 18:13  384
 John 18:14  384
+
 John 18:15  384
 John 18:16  384
 John 18:17  384
+  disciples?" He
+
 John 18:18  384
 John 18:19  384
+
 John 18:20  384
 John 18:21  384
+
 John 18:22  384
+
 John 18:23  384
+
 John 18:24  384
+
 John 18:25  384
+  you?" He
+
 John 18:26  384
+
 John 18:27  384
 John 18:28  384
 ---- Holy Week: Friday, Passion Gospels № 3
