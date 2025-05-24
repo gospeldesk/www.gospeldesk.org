@@ -8,7 +8,7 @@ noindex: true
 ref: "John 4:43–54"
 related: ["two-healings-matthew", "healing-jairus-daughter", "two-healings-luke"]
 prev_slug: "samaritan-woman"
-next_slug: "john-5-1-15"
+next_slug: "healing-at-bethesda-pool"
 ---
 
 <p><span class="v">43</span>After the two days he went out from there and went into Galilee.  <span class="v">44</span>For Jesus himself testified that a prophet has no honor in his own country.  <span class="v">45</span>So when he came into Galilee, the Galileans received him, having seen all the things that he did in Jerusalem at the feast, for they also went to the feast. </p>

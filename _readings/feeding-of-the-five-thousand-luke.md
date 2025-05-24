@@ -6,7 +6,7 @@ book: "Luke"
 excerpt: "Luke 9:12–18"
 noindex: true
 ref: "Luke 9:12–18"
-related: ["feeeding-of-the-five-thousand-matthew", "feeding-of-the-five-thousand-mark"]
+related: ["feeding-of-the-five-thousand-matthew", "feeding-of-the-five-thousand-mark", "feeding-of-the-five-thousand-john"]
 prev_slug: "herod-perplexed-apostles-return"
 next_slug: "confession-of-peter-luke"
 ---

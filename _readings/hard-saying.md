@@ -1,0 +1,24 @@
+---
+title: "Hard Saying"
+pk: "345"
+num: 267
+book: "John"
+excerpt: "John 6:56–71"
+noindex: true
+ref: "John 6:56–71"
+prev_slug: "bread-of-life"
+next_slug: "john-7-1-13"
+---
+
+<p><span class="v">56</span>“He who eats my flesh and drinks my blood lives in me, and I in him.  <span class="v">57</span>As the living Father sent me, and I live because of the Father; so he who feeds on me, he will also live because of me.  <span class="v">58</span>This is the bread which came down out of heaven—not as our fathers ate the manna, and died. He who eats this bread will live forever.” </p>
+<p><span class="v">59</span>He said these things in the synagogue, as he taught in Capernaum.  <span class="v">60</span>Therefore many of his disciples, when they heard this, said, “This is a hard saying! Who can listen to it?” </p>
+<p><span class="v">61</span>But Jesus knowing in himself that his disciples murmured at this, said to them, “Does this cause you to stumble?  <span class="v">62</span>Then what if you would see the Son of Man ascending to where he was before?  <span class="v">63</span>It is the spirit who gives life. The flesh profits nothing. The words that I speak to you are spirit, and are life.  <span class="v">64</span>But there are some of you who don’t believe.” For Jesus knew from the beginning who they were who didn’t believe, and who it was who would betray him. </p>
+<p><span class="v">65</span>He said, “For this cause I have said to you that no one can come to me, unless it is given to him by my Father.” </p>
+<p><span class="v">66</span>At this, many of his disciples went back, and walked no more with him.  <span class="v">67</span>Jesus said therefore to the twelve, “You don’t also want to go away, do you?” </p>
+<p><span class="v">68</span>Simon Peter answered him, “Lord, to whom would we go? You have the words of eternal life.  <span class="v">69</span>We have come to believe and know that you are the Christ, the Son of the living God.” </p>
+<p><span class="v">70</span>Jesus answered them, “Didn’t I choose you, the twelve, and one of you is a devil?”  <span class="v">71</span>Now he spoke of Judas, the son of Simon Iscariot, for it was he who would betray him, being one of the twelve. </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/05/12">May 12, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/05/04">May  4, 2026</a>.

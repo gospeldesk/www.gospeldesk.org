@@ -730,7 +730,7 @@ Matt 14:12  62
 
 Matt 14:13  62
 ---- Feeding of the Five Thousand (Matthew)
-> feeeding-of-the-five-thousand-mark feeding-of-the-five-thousand-luke
+> feeding-of-the-five-thousand-mark feeding-of-the-five-thousand-luke feeding-of-the-five-thousand-john
 Matt 14:14  63
 Matt 14:15  63
 
@@ -745,8 +745,8 @@ Matt 14:20  63
 Matt 14:21  63
 
 Matt 14:22  63
----- Walking on Water
-> walking-on-water-mark
+---- Walking on Water (Matthew)
+> walking-on-water-mark walking-on-water-john
 Matt 14:22  64
 Matt 14:23  64
 Matt 14:24  64
@@ -1780,7 +1780,7 @@ Mark  6:29  151
 
 Mark  6:30  151
 ---- Feeding of the Five Thousand (Mark)
-> feeding-of-the-five-thousand-matthew feeding-of-the-five-thousand-luke
+> feeding-of-the-five-thousand-matthew feeding-of-the-five-thousand-luke feeding-of-the-five-thousand-john
 Mark  6:30  152
 Mark  6:31  152
 
@@ -1807,7 +1807,7 @@ Mark  6:44  152
 
 Mark  6:45  152
 ---- Walking on Water (Mark) 
-> walking-on-water
+> walking-on-water-matthew walking-on-water-john
 Mark  6:45  153
 Mark  6:46  153
 
@@ -3146,7 +3146,7 @@ Luke  9:9   244
 Luke  9:10  244
 Luke  9:11  244
 ---- Feeding of the Five Thousand (Luke)
-> feeeding-of-the-five-thousand-matthew feeding-of-the-five-thousand-mark
+> feeding-of-the-five-thousand-matthew feeding-of-the-five-thousand-mark feeding-of-the-five-thousand-john
 Luke  9:12  245
 
 Luke  9:13  245
@@ -4504,137 +4504,188 @@ John  4:52  333, 90022
 
 John  4:53  333, 90022
 John  4:54  333, 90022
-----
+---- Healing at Bethesda Pool
 John  5:1   334, 335
 John  5:2   334, 335
 John  5:3   334, 335
 John  5:4   334, 335
+
 John  5:5   334
 John  5:6   334
+
 John  5:7   334
+
 John  5:8   334
+
 John  5:9   334
 John  5:10  334
+
 John  5:11  334
+
 John  5:12  334
+
 John  5:13  334
+
 John  5:14  334
+
 John  5:15  334
-----
+#
+# Persecution
+#
 John  5:16       90023
 John  5:17  336, 90023
+
 John  5:18  336, 90023
+
 John  5:19  336, 90023
 John  5:20  336, 90023
 John  5:21  336, 90023
 John  5:22  336, 90023
 John  5:23  336, 90023
-John  5:24  336, 90023
-----
+
+John  5:24  336, 90023"
+#
+# On Judgement
+#
 John  5:24  337
 John  5:25  337
 John  5:26  337
 John  5:27  337
 John  5:28  337
 John  5:29  337
-John  5:30  337
-----
-John  5:30  338
+John  5:30  337"
+# 
+# On Testimony
+#
+"John  5:30  338
+
 John  5:31  338
 John  5:32  338
 John  5:33  338
 John  5:34  338
 John  5:35  338
-John  5:36  338
+
+"John  5:36  338
 John  5:37  338
 John  5:38  338
+
 John  5:39  338
 John  5:40  338
 John  5:41  338
 John  5:42  338
 John  5:43  338
 John  5:44  338
+
 John  5:45  338
 John  5:46  338
 John  5:47  338
+
 John  6:1   338
 John  6:2   338
-----
+---- Feeding of the Five Thousand (John)
+> feeding-of-the-five-thousand-matthew feeding-of-the-five-thousand-mark feeding-of-the-five-thousand-luke
 John  6:3        90024
 John  6:4        90024
 John  6:5   339, 90024
 John  6:6   339, 90024
+
 John  6:7   339, 90024
+
 John  6:8   339, 90024
 John  6:9   339, 90024
+
 John  6:10  339, 90024
+  down." Now
 John  6:11  339, 90024
 John  6:12  339, 90024
+
 John  6:13  339, 90024
 John  6:14  339, 90024
-----
+---- Walking on Water (John)
+> walking-on-water-matthew walking-on-water-mark
 John  6:14  340
+
 John  6:15  340
+
 John  6:16  340
 John  6:17  340
 John  6:18  340
+
 John  6:19  340
 John  6:20  340
+
 John  6:21  340
+
 John  6:22  340
 John  6:23  340
 John  6:24  340
 John  6:25  340
+
 John  6:26  340
 John  6:27  340
-----
-John  6:27  341, 90025
+---- Bread of Life
+"John  6:27  341, 90025
+
 John  6:28  341, 90025
+
 John  6:29  341, 90025
+
 John  6:30  341, 90025
 John  6:31  341, 90025
+
 John  6:32  341, 90025
 John  6:33  341, 90025
+
 John  6:34       90025
-----
+
 John  6:35  342
 John  6:36  342
 John  6:37  342
 John  6:38  342
 John  6:39  342
-----
 John  6:40  343, 90026
+
 John  6:41  343, 90026
+
 John  6:42  343, 90026
+
 John  6:43  343, 90026
 John  6:44  343, 90026
 John  6:45       90026
 John  6:46       90026
 John  6:47       90026
-----
-John  6:48  344, 90027
+
+"John  6:48  344, 90027
 John  6:49  344, 90027
 John  6:50  344, 90027
 John  6:51  344, 90027
+
 John  6:52  344, 90027
+
 John  6:53  344, 90027
 John  6:54  344, 90027
-John  6:55       90027
-----
-John  6:56  345, 90028
+John  6:55       90027"
+---- Hard Saying
+"John  6:56  345, 90028
 John  6:57  345, 90028
 John  6:58  345, 90028
+
 John  6:59  345, 90028
 John  6:60  345, 90028
+
 John  6:61  345, 90028
 John  6:62  345, 90028
 John  6:63  345, 90028
 John  6:64  345, 90028
+
 John  6:65  345, 90028
+
 John  6:66  345, 90028
 John  6:67  345, 90028
+
 John  6:68  345, 90028
 John  6:69  345, 90028
+
 John  6:70       90028
 John  6:71       90028
 ----

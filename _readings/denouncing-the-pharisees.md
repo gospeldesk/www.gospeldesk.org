@@ -7,7 +7,7 @@ excerpt: "Matthew 14:35–15:11"
 noindex: true
 ref: "Matthew 14:35–15:11"
 related: ["conflict-with-the-pharisees"]
-prev_slug: "walking-on-water"
+prev_slug: "walking-on-water-matthew"
 next_slug: "out-of-the-heart"
 ---
 

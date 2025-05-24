@@ -6,9 +6,9 @@ book: "Matthew"
 excerpt: "Matthew 14:14–22"
 noindex: true
 ref: "Matthew 14:14–22"
-related: ["feeeding-of-the-five-thousand-mark", "feeding-of-the-five-thousand-luke"]
+related: ["feeding-of-the-five-thousand-mark", "feeding-of-the-five-thousand-luke", "feeding-of-the-five-thousand-john"]
 prev_slug: "beheading-of-john-matthew"
-next_slug: "walking-on-water"
+next_slug: "walking-on-water-matthew"
 ---
 
 <p><span class="v">14</span>Jesus went out, and he saw a great multitude. He had compassion on them, and healed their sick.  <span class="v">15</span>When evening had come, his disciples came to him, saying, “This place is deserted, and the hour is already late. Send the multitudes away, that they may go into the villages, and buy themselves food.” </p>
