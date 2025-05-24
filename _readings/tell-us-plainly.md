@@ -1,0 +1,25 @@
+---
+title: "Tell Us Plainly"
+pk: "359"
+num: 280
+book: "John"
+excerpt: "John 10:17–42"
+noindex: true
+ref: "John 10:17–42"
+prev_slug: "good-shepherd"
+next_slug: "lazarus"
+---
+
+<p><span class="v">17</span>“Therefore the Father loves me, because I lay down my life, that I may take it again.  <span class="v">18</span>No one takes it away from me, but I lay it down by myself. I have power to lay it down, and I have power to take it again. I received this commandment from my Father.” </p>
+<p><span class="v">19</span>Therefore a division arose again among the Jews because of these words.  <span class="v">20</span>Many of them said, “He has a demon, and is insane! Why do you listen to him?”  <span class="v">21</span>Others said, “These are not the sayings of one possessed by a demon. It isn’t possible for a demon to open the eyes of the blind, is it?” </p>
+<p><span class="v">22</span>It was the Feast of the Dedication at Jerusalem.  <span class="v">23</span>It was winter, and Jesus was walking in the temple, in Solomon’s porch.  <span class="v">24</span>The Jews therefore came around him and said to him, “How long will you hold us in suspense? If you are the Christ, tell us plainly.” </p>
+<p><span class="v">25</span>Jesus answered them, “I told you, and you don’t believe. The works that I do in my Father’s name, these testify about me.  <span class="v">26</span>But you don’t believe, because you are not of my sheep, as I told you.  <span class="v">27</span>My sheep hear my voice, and I know them, and they follow me.  <span class="v">28</span>I give eternal life to them. They will never perish, and no one will snatch them out of my hand.  <span class="v">29</span>My Father, who has given them to me, is greater than all. No one is able to snatch them out of my Father’s hand.  <span class="v">30</span>I and the Father are one.” </p>
+<p><span class="v">31</span>Therefore Jews took up stones again to stone him.  <span class="v">32</span>Jesus answered them, “I have shown you many good works from my Father. For which of those works do you stone me?” </p>
+<p><span class="v">33</span>The Jews answered him, “We don’t stone you for a good work, but for blasphemy: because you, being a man, make yourself God.” </p>
+<p><span class="v">34</span>Jesus answered them, “Isn’t it written in your law, ‘I said, you are gods?’  <span class="v">35</span>If he called them gods, to whom the word of God came (and the Scripture can’t be broken),  <span class="v">36</span>do you say of him whom the Father sanctified and sent into the world, ‘You blaspheme,’ because I said, ‘I am the Son of God?’  <span class="v">37</span>If I don’t do the works of my Father, don’t believe me.  <span class="v">38</span>But if I do them, though you don’t believe me, believe the works; that you may know and believe that the Father is in me, and I in the Father.” </p>
+<p><span class="v">39</span>They sought again to seize him, and he went out of their hand.  <span class="v">40</span>He went away again beyond the Jordan into the place where John was baptizing at first, and there he stayed.  <span class="v">41</span>Many came to him. They said, “John indeed did no sign, but everything that John said about this man is true.”  <span class="v">42</span>Many believed in him there. </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/05/23">May 23, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2026/05/15">May 15, 2026</a>.

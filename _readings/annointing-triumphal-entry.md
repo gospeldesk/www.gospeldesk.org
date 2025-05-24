@@ -1,14 +1,14 @@
 ---
 title: "Annointing; Triumphal Entry"
 pk: "364"
-num: 284
+num: 283
 book: "John"
 excerpt: "John 12:1–18"
 noindex: true
 ref: "John 12:1–18"
 related: ["triumphal-entry-matthew", "triumphal-entry-mark", "triumphal-entry-luke", "holy-week-wednesday-presanctified-liturgy", "annointing-by-mary-of-bethany"]
 direct: ["mary-of-bethany"]
-prev_slug: "john-11-47-57"
+prev_slug: "council"
 next_slug: "john-12-19-36"
 ---
 

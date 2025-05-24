@@ -1,7 +1,7 @@
 ---
 title: "Holy Week"
 pk: "384"
-num: 316
+num: 315
 book: "John"
 excerpt: "John 18:1–28"
 noindex: true

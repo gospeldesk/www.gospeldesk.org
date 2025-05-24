@@ -4688,184 +4688,261 @@ John  6:69  345, 90028
 
 John  6:70       90028
 John  6:71       90028
-----
+---- Brothers
 John  7:1   346
+
 John  7:2   346
 John  7:3   346
 John  7:4   346
 John  7:5   346
+
 John  7:6   346
 John  7:7   346
 John  7:8   346
+
 John  7:9   346
 John  7:10  346
 John  7:11  346
+
 John  7:12  346
 John  7:13  346
-----
+---- Teaching in the Temple
 John  7:14  347
+
 John  7:15  347
+
 John  7:16  347
 John  7:17  347
 John  7:18  347
 John  7:19  347
+
 John  7:20  347
+
 John  7:21  347
 John  7:22  347
 John  7:23  347
 John  7:24  347
+
 John  7:25  347
 John  7:26  347
 John  7:27  347
+
 John  7:28  347
 John  7:29  347
+
 John  7:30  347
-----
+---- A While Longer
 John  7:31  90029
+
 John  7:32  90029
+
 John  7:33  90029
 John  7:34  90029
+
 John  7:35  90029
 John  7:36  90029
-----
+---- Come and Drink
 John  7:37  348, 90030
 John  7:38  348, 90030
+
 John  7:39  348, 90030
+
 John  7:40  348, 90030
 John  7:41  348, 90030
 John  7:42  348, 90030
+
 John  7:43  348, 90030
 John  7:44  348, 90030
 John  7:45  348, 90030
+
 John  7:46  348, 90030
+
 John  7:47  348, 90030
 John  7:48  348, 90030
 John  7:49  348, 90030
+
 John  7:50  348, 90030
 John  7:51  348, 90030
+
 John  7:52  348, 90030
+
 John  7:53       90030
 John  8:12  348, 90030
-----
-John  8:1        90031
+---- Woman Caught in Adultery
+John  8:1        90031 s/but /
 John  8:2        90031
+
 John  8:3   349, 90031
 John  8:4   349, 90031
 John  8:5   349, 90031
+
 John  8:6   349, 90031
 John  8:7   349, 90031
 John  8:8   349, 90031
+
 John  8:9   349, 90031
 John  8:10  349, 90031
+
 John  8:11  349, 90031
-----
+  Lord." Jesus
+---- Light of the World
 John  8:12  350
+
 John  8:13  350
+
 John  8:14  350
 John  8:15  350
 John  8:16  350
 John  8:17  350
 John  8:18  350
+
 John  8:19  350
+  Father?" Jesus
 John  8:20  350
-----
+---- Going Away
 John  8:21  351
+
 John  8:22  351
+
 John  8:23  351
 John  8:24  351
+
 John  8:25  351
+  you?" Jesus
 John  8:26  351
+
 John  8:27  351
 John  8:28  351
 John  8:29  351
+
 John  8:30  351
-----
+---- Abraham's Offspring
 John  8:31  352
 John  8:32  352
+
 John  8:33  352
+
 John  8:34  352
 John  8:35  352
 John  8:36  352
 John  8:37  352
 John  8:38  352
+
 John  8:39  352
+  Abraham." Jesus
 John  8:40  352
 John  8:41  352
-John  8:42  352
-----
+  father." They
+
+John  8:42  352"
+---- Father of Lies
 John  8:42  353
 John  8:43  353
 John  8:44  353
 John  8:45  353
 John  8:46  353
 John  8:47  353
+
 John  8:48  353
+
 John  8:49  353
 John  8:50  353
 John  8:51  353
-----
-John  8:51  354
+---- I AM
+"John  8:51  354
+
 John  8:52  354
 John  8:53  354
+
 John  8:54  354
 John  8:55  354
 John  8:56  354
+
 John  8:57  354
-John  8:58  354
+
+John  8:58  354 s/AM. ”/AM.”
+
 John  8:59  354
-----
+---- Blind From Birth
 John  9:1   355
 John  9:2   355
+
 John  9:3   355
 John  9:4   355
 John  9:5   355
+
 John  9:6   355
 John  9:7   355
+
 John  9:8   355
 John  9:9   355
+  him." He
+
 John  9:10  355
+
 John  9:11  355
+
 John  9:12  355
+  he?" He
+
 John  9:13  355
 John  9:14  355
 John  9:15  355
+
 John  9:16  355
 John  9:17  355
+  eyes?" He
+
 John  9:18  355
 John  9:19  355
+
 John  9:20  355
 John  9:21  355
 John  9:22  355
 John  9:23  355
+
 John  9:24  355
+
 John  9:25  355
+
 John  9:26  355
+
 John  9:27  355
+
 John  9:28  355
 John  9:29  355
+
 John  9:30  355
 John  9:31  355
 John  9:32  355
 John  9:33  355
+
 John  9:34  355
+
 John  9:35  355
+
 John  9:36  355
+
 John  9:37  355
+
 John  9:38  355
-----
+---- Good Shepherd
 John  9:39  356
+
 John  9:40  356
+
 John  9:41  356
+
 John 10:1   356, 357
 John 10:2   356, 357
 John 10:3   356, 357
 John 10:4   356, 357
 John 10:5   356, 357
+
 John 10:6   356, 357
 John 10:7   356, 357
 John 10:8   356, 357
 John 10:9   356, 357
-----
 John 10:9   358
 John 10:10  358
 John 10:11  358
@@ -4873,90 +4950,127 @@ John 10:12  358
 John 10:13  358
 John 10:14  358
 John 10:15  358
-John 10:16  358
-----
-John 10:17  359
+John 10:16  358"
+---- Tell Us Plainly
+"John 10:17  359
 John 10:18  359
+
 John 10:19  359
 John 10:20  359
 John 10:21  359
+
 John 10:22  359  360,
 John 10:23  359  360,
 John 10:24  359  360,
+
 John 10:25  359  360,
 John 10:26  359  360,
 John 10:27  359, 360, 361, 90032
 John 10:28  359, 360, 361, 90032
 John 10:29            361, 90032
 John 10:30            361, 90032
+
 John 10:31            361, 90032
 John 10:32            361, 90032
+
 John 10:33            361, 90032
+
 John 10:34            361, 90032
 John 10:35            361, 90032
 John 10:36            361, 90032
 John 10:37            361, 90032
 John 10:38            361, 90032
+
 John 10:39                 90032
 John 10:40                 90032
 John 10:41                 90032
 John 10:42                 90032
-----
+---- Lazarus
 John 11:1   362, 90033
 John 11:2   362, 90033
 John 11:3   362, 90033
+
 John 11:4   362, 90033
+
 John 11:5   362, 90033
 John 11:6   362, 90033
 John 11:7   362, 90033
+
 John 11:8   362, 90033
+
 John 11:9   362, 90033
 John 11:10  362, 90033
 John 11:11  362, 90033
+
 John 11:12  362, 90033
+
 John 11:13  362, 90033
 John 11:14  362, 90033
 John 11:15  362, 90033
+
 John 11:16  362, 90033
+
 John 11:17  362, 90033
 John 11:18  362, 90033
 John 11:19  362, 90033
 John 11:20  362, 90033
 John 11:21  362, 90033
 John 11:22  362, 90033
+
 John 11:23  362, 90033
+
 John 11:24  362, 90033
+
 John 11:25  362, 90033
 John 11:26  362, 90033
+
 John 11:27  362, 90033
+
 John 11:28  362, 90033
 John 11:29  362, 90033
+
 John 11:30  362, 90033
 John 11:31  362, 90033
+
 John 11:32  362, 90033
+
 John 11:33  362, 90033
 John 11:34  362, 90033
+  him?" They
+
 John 11:35  362, 90033
+
 John 11:36  362, 90033
 John 11:37  362, 90033
+
 John 11:38  362, 90033
 John 11:39  362, 90033
+  stone." Martha
+
 John 11:40  362, 90033
+
 John 11:41  362, 90033
 John 11:42  362, 90033
+
 John 11:43  362, 90033
+
 John 11:44  362, 90033
+
 John 11:45  362, 90033
 John 11:46       90033
-----
+---- Council
 John 11:47  363
 John 11:48  363
+
 John 11:49  363
 John 11:50  363
+
 John 11:51  363
 John 11:52  363
+
 John 11:53  363
 John 11:54  363
+
 John 11:55  363
 John 11:56  363
 John 11:57  363

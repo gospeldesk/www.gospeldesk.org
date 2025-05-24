@@ -7,7 +7,7 @@ excerpt: "John 6:56–71"
 noindex: true
 ref: "John 6:56–71"
 prev_slug: "bread-of-life"
-next_slug: "john-7-1-13"
+next_slug: "brothers"
 ---
 
 <p><span class="v">56</span>“He who eats my flesh and drinks my blood lives in me, and I in him.  <span class="v">57</span>As the living Father sent me, and I live because of the Father; so he who feeds on me, he will also live because of me.  <span class="v">58</span>This is the bread which came down out of heaven—not as our fathers ate the manna, and died. He who eats this bread will live forever.” </p>

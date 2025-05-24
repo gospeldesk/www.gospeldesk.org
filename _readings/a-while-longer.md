@@ -1,0 +1,17 @@
+---
+title: "A While Longer"
+pk: "90029"
+num: 270
+book: "John"
+excerpt: "John 7:31–36"
+noindex: true
+ref: "John 7:31–36"
+prev_slug: "teaching-in-the-temple"
+next_slug: "come-and-drink"
+---
+
+<p><span class="v">31</span>But of the multitude, many believed in him. They said, “When the Christ comes, he won’t do more signs than those which this man has done, will he?” </p>
+<p><span class="v">32</span>The Pharisees heard the multitude murmuring these things concerning him, and the chief priests and the Pharisees sent officers to arrest him. </p>
+<p><span class="v">33</span>Then Jesus said, “I will be with you a little while longer, then I go to him who sent me.  <span class="v">34</span>You will seek me, and won’t find me; and where I am, you can’t come.” </p>
+<p><span class="v">35</span>The Jews therefore said among themselves, “Where will this man go that we won’t find him? Will he go to the Dispersion among the Greeks, and teach the Greeks?  <span class="v">36</span>What is this word that he said, ‘You will seek me, and won’t find me; and where I am, you can’t come’ ?” </p>
+
