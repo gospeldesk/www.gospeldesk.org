@@ -6,7 +6,7 @@ book: "Mark"
 excerpt: "Mark 15:42–16:8"
 noindex: true
 ref: "Mark 15:42–16:8"
-related: ["resurrection-luke"]
+related: ["holy-week-great-and-holy-saturday", "resurrection-luke", "resurrection-john"]
 prev_slug: "crucifixion"
 next_slug: "ascension-mark"
 ---

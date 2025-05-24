@@ -1,0 +1,20 @@
+---
+title: "Resurrection"
+pk: "391"
+num: 288
+book: "John"
+excerpt: "John 20:1–10"
+noindex: true
+ref: "John 20:1–10"
+related: ["holy-week-great-and-holy-saturday", "resurrection-mark", "resurrection-luke"]
+prev_slug: "betrayer-revealed"
+next_slug: "gardener"
+---
+
+<p><span class="v">1</span>Now on the first day of the week, Mary Magdalene went early, while it was still dark, to the tomb, and saw the stone taken away from the tomb.  <span class="v">2</span>Therefore she ran and came to Simon Peter, and to the other disciple whom Jesus loved, and said to them, “They have taken away the Lord out of the tomb, and we don’t know where they have laid him!” </p>
+<p><span class="v">3</span>Therefore Peter and the other disciple went out, and they went toward the tomb.  <span class="v">4</span>They both ran together. The other disciple outran Peter, and came to the tomb first.  <span class="v">5</span>Stooping and looking in, he saw the linen cloths lying, yet he didn’t enter in.  <span class="v">6</span>Then Simon Peter came, following him, and entered into the tomb. He saw the linen cloths lying,  <span class="v">7</span>and the cloth that had been on his head, not lying with the linen cloths, but rolled up in a place by itself.  <span class="v">8</span>So then the other disciple who came first to the tomb also entered in, and he saw and believed.  <span class="v">9</span>For as yet they didn’t know the Scripture, that he must rise from the dead.  <span class="v">10</span>So the disciples went away again to their own homes. </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/03/30">March 30, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2025/04/21">April 21, 2025</a>.

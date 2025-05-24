@@ -7,7 +7,7 @@ excerpt: "John 8:51–59"
 noindex: true
 ref: "John 8:51–59"
 prev_slug: "father-of-lies"
-next_slug: "blind-from-birth"
+next_slug: "healing-of-a-man-blind-from-birth"
 ---
 
 <p><span class="v">51</span>“Most certainly, I tell you, if a person keeps my word, he will never see death.” </p>

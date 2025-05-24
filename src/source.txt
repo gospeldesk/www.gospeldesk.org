@@ -2455,7 +2455,7 @@ Mark 14:72  193
 
 Mark 15:1   193
 ---- Handing Over
-> handing-over-and-crucif-and-crucifixion
+> handing-over-and-crucifixion-luke handing-over-and-crucifixion-john
 Mark 15:1   194
 
 Mark 15:2   194
@@ -2485,7 +2485,7 @@ Mark 15:14  194
 
 Mark 15:15  194
 ---- Crucifixion
-> handing-over-and-crucifixion
+> handing-over-and-crucifixion-luke handing-over-and-crucifixion-john
 Mark 15:22  197
 Mark 15:25  197
 Mark 15:33  197
@@ -2501,7 +2501,7 @@ Mark 15:39  197
 Mark 15:40  197
 Mark 15:41  197
 ---- Resurrection (Mark)
-> resurrection-luke
+> holy-week-great-and-holy-saturday resurrection-luke resurrection-john
 Mark 15:42  90007
 Mark 15:43  90007, 199
 Mark 15:44  90007, 199
@@ -4104,8 +4104,8 @@ Luke 22:70  315
 
 Luke 22:71  315
 Luke 23:1   315
----- Handing Over and Crucifixion
-> handing-over crucifixion
+---- Handing Over and Crucifixion (Luke)
+> handing-over crucifixion handing-over-and-crucifixion-john
 Luke 23:2   316
 
 Luke 23:3   316
@@ -4173,7 +4173,7 @@ Luke 23:54  316
 Luke 23:55  316
 Luke 23:56  316
 ---- Resurrection (Luke)
-> resurrection-mark
+> holy-week-great-and-holy-saturday resurrection-mark resurrection-john
 Luke 24:1   318
 Luke 24:2   318
 Luke 24:3   318
@@ -4863,7 +4863,7 @@ John  8:57  354
 John  8:58  354 s/AM. ”/AM.”
 
 John  8:59  354
----- Blind From Birth
+---- Healing of a Man Blind From Birth
 John  9:1   355
 John  9:2   355
 
@@ -5194,34 +5194,11 @@ John 13:27  90034
 John 13:28  90034
 John 13:29  90034
 John 13:30  90034
-----
-John 19:6   387
-John 19:7   387
-John 19:8   387
-John 19:9   387
-John 19:10  387
-John 19:11  387
-John 19:13  387
-John 19:14  387
-John 19:15  387
-John 19:16  387
-John 19:17  387
-John 19:18  387
-John 19:19  387
-John 19:20  387
-John 19:25  387, 389
-John 19:26  387, 389
-John 19:27  387, 389
-John 19:28  387
-John 19:30  387
-John 19:31  387
-John 19:32  387
-John 19:33  387
-John 19:34  387
-John 19:35  387
-----
+---- Resurrection (John)
+> holy-week-great-and-holy-saturday resurrection-mark resurrection-luke
 John 20:1   391
 John 20:2   391
+
 John 20:3   391
 John 20:4   391
 John 20:5   391
@@ -5230,54 +5207,89 @@ John 20:7   391
 John 20:8   391
 John 20:9   391
 John 20:10  391
-----
+---- Gardener
 John 20:11  392
 John 20:12  392
 John 20:13  392
+  weeping?" She
+
 John 20:14  392
 John 20:15  392
+  for?" She
+
 John 20:16  392
+  Mary." She
+
 John 20:17  392
+
 John 20:18  392
-----
+---- Doubting Thomas
 John 20:19  393, 394, 395
 John 20:20  393, 394, 395
 John 20:21  393, 394, 395
 John 20:22  393, 394, 395
 John 20:23  393, 394, 395
+
 John 20:24  393,      395
 John 20:25  393,      395
+
 John 20:26  393
 John 20:27  393
+
 John 20:28  393
+
 John 20:29  393
+
 John 20:30  393
 John 20:31  393
-----
+---- Breakfast on the Beach
 John 21:1   396
 John 21:2   396
 John 21:3   396
+  fishing." They
+  you." They
 John 21:4   396
 John 21:5   396
+  eat?" They
+
 John 21:6   396
+  some." They
 John 21:7   396
+  Lord!" So
 John 21:8   396
+
 John 21:9   396
+
 John 21:10  396
+
 John 21:11  396
+
 John 21:12  396
 John 21:13  396
 John 21:14  396
-----
+---- Restoration of Peter
 John 21:15  397
+  these?" He
+  you." He
+
 John 21:16  397
+  me?" He
+  you." He
+
 John 21:17  397
+  me?" Peter
+  me?" He
+  you." Jesus
 John 21:18  397
+
 John 21:19  397
+
 John 21:20  397
 John 21:21  397
+
 John 21:22  397
 John 21:23  397
+
 John 21:24  397
 John 21:25  397
 ---- Holy Week: Monday, Bridegroom Matins
@@ -6162,36 +6174,42 @@ John 19:2   386
 John 19:3   386
 John 19:4   386
 John 19:5   386
-John 19:6   386
-John 19:7   386
-John 19:8   386
-John 19:9   386
-John 19:10  386
-John 19:11  386
+John 19:6   386, 387
+  !" Pilate
+
+John 19:7   386, 387
+
+John 19:8   386, 387
+John 19:9   386, 387
+  ?" But
+
+John 19:10  386, 387
+
+John 19:11  386, 387
 John 19:12  386
-John 19:13  386
-John 19:14  386
-John 19:15  386
-John 19:16  386
-John 19:17  386
-John 19:18  386
-John 19:19  386
-John 19:20  386
+
+John 19:13  386, 387
+John 19:14  386, 387
+John 19:15  386, 387
+John 19:16  386, 387
+John 19:17  386, 387
+John 19:18  386, 387
+John 19:19  386, 387
+John 19:20  386, 387
 John 19:21  386
 John 19:22  386
 John 19:23  386
 John 19:24  386
-John 19:25  386
-John 19:26  386
-John 19:27  386
-John 19:28  386
-John 19:29  386
-John 19:30  386
-John 19:31  386
-John 19:32  386
-John 19:33  386
-John 19:34  386
-John 19:35  386
+John 19:25  386, 387, 389
+John 19:26  386, 387, 389
+John 19:27  386, 387, 389
+John 19:28  386, 387
+John 19:30  386, 387
+John 19:31  386, 387
+John 19:32  386, 387
+John 19:33  386, 387
+John 19:34  386, 387
+John 19:35  386, 387
 John 19:36  386
 John 19:37  386
 ---- Holy Week: Friday, Composite
@@ -6269,6 +6287,7 @@ Matt 27:59  120
 Matt 27:60  120
 Matt 27:61  120
 ---- Holy Week: Great and Holy Saturday
+> resurrection-mark resurrection-luke resurrection-john
 Matt 28:1   125
 Matt 28:2   125
 Matt 28:3   125

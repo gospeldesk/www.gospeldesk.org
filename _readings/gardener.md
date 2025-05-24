@@ -1,0 +1,25 @@
+---
+title: "Gardener"
+pk: "392"
+num: 289
+book: "John"
+excerpt: "John 20:11–18"
+noindex: true
+ref: "John 20:11–18"
+prev_slug: "resurrection-john"
+next_slug: "doubting-thomas"
+---
+
+<p><span class="v">11</span>But Mary was standing outside at the tomb weeping. So, as she wept, she stooped and looked into the tomb,  <span class="v">12</span>and she saw two angels in white sitting, one at the head, and one at the feet, where the body of Jesus had lain.  <span class="v">13</span>They told her, “Woman, why are you weeping?”</p>
+<p>She said to them, “Because they have taken away my Lord, and I don’t know where they have laid him.” </p>
+<p><span class="v">14</span>When she had said this, she turned around and saw Jesus standing, and didn’t know that it was Jesus.  <span class="v">15</span>Jesus said to her, “Woman, why are you weeping? Who are you looking for?”</p>
+<p>She, supposing him to be the gardener, said to him, “Sir, if you have carried him away, tell me where you have laid him, and I will take him away.” </p>
+<p><span class="v">16</span>Jesus said to her, “Mary.”</p>
+<p>She turned and said to him, “Rabboni!” which is to say, “Teacher!” </p>
+<p><span class="v">17</span>Jesus said to her, “Don’t hold me, for I haven’t yet ascended to my Father; but go to my brothers, and tell them, ‘I am ascending to my Father and your Father, to my God and your God.’” </p>
+<p><span class="v">18</span>Mary Magdalene came and told the disciples that she had seen the Lord, and that he had said these things to her. </p>
+
+
+### Upcoming Proclamations
+
+God willing, the Church will proclaim this Gospel on <u><b><a class="next-proclamation" href="https://www.oca.org/readings/daily/2025/04/06">April  6, 2025</a></b></u>, and then again on <a class="next-next-proclamation" href="https://www.oca.org/readings/daily/2025/05/25">May 25, 2025</a>.

@@ -1,5 +1,5 @@
 ---
-title: "Blind From Birth"
+title: "Healing of a Man Blind From Birth"
 pk: "355"
 num: 278
 book: "John"

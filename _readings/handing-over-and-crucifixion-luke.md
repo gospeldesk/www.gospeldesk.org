@@ -6,7 +6,7 @@ book: "Luke"
 excerpt: "Luke 23:2–56"
 noindex: true
 ref: "Luke 23:2–56"
-related: ["handing-over", "crucifixion"]
+related: ["handing-over", "crucifixion", "handing-over-and-crucifixion-john"]
 prev_slug: "betrayal-luke"
 next_slug: "resurrection-luke"
 ---

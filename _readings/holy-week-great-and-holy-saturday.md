@@ -1,12 +1,13 @@
 ---
 title: "Holy Week"
 pk: "125"
-num: 319
+num: 318
 book: "Matthew"
 excerpt: "Matthew 28:1–20"
 noindex: true
 ref: "Matthew 28:1–20"
 subtitle: "Great and Holy Saturday"
+related: ["resurrection-mark", "resurrection-luke", "resurrection-john"]
 prev_slug: "holy-week-friday-composite"
 ---
 

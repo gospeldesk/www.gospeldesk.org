@@ -6,8 +6,8 @@ book: "Luke"
 excerpt: "Luke 24:1–12"
 noindex: true
 ref: "Luke 24:1–12"
-related: ["resurrection-mark"]
-prev_slug: "handing-over-and-crucifixion"
+related: ["holy-week-great-and-holy-saturday", "resurrection-mark", "resurrection-john"]
+prev_slug: "handing-over-and-crucifixion-luke"
 next_slug: "road-to-emmaus"
 ---
 

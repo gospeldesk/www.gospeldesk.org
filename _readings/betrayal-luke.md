@@ -8,7 +8,7 @@ noindex: true
 ref: "Luke 22:39–23:1"
 related: ["holy-week-thursday-composite", "betrayal-mark"]
 prev_slug: "last-supper-luke"
-next_slug: "handing-over-and-crucifixion"
+next_slug: "handing-over-and-crucifixion-luke"
 ---
 
 <p><span class="v">39</span>He came out, and went, as his custom was, to the Mount of Olives. His disciples also followed him.  <span class="v">40</span>When he was at the place, he said to them, “Pray that you don’t enter into temptation.” </p>

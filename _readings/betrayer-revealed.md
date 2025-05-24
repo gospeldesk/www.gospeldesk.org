@@ -7,7 +7,7 @@ excerpt: "John 13:18–30"
 noindex: true
 ref: "John 13:18–30"
 prev_slug: "washing-the-disciples-feet"
-next_slug: "john-19-6-35"
+next_slug: "resurrection-john"
 ---
 
 <p><span class="v">18</span>“I don’t speak concerning all of you. I know whom I have chosen. But that the Scripture may be fulfilled, ‘He who eats bread with me has lifted up his heel against me.’  <span class="v">19</span>From now on, I tell you before it happens, that when it happens, you may believe that I am he.  <span class="v">20</span>Most certainly I tell you, he who receives whomever I send, receives me; and he who receives me, receives him who sent me.” </p>

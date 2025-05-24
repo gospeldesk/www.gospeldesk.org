@@ -6,7 +6,7 @@ book: "Mark"
 excerpt: "Mark 15:1–15"
 noindex: true
 ref: "Mark 15:1–15"
-related: ["handing-over-and-crucif-and-crucifixion"]
+related: ["handing-over-and-crucifixion-luke", "handing-over-and-crucifixion-john"]
 prev_slug: "betrayal-mark"
 next_slug: "crucifixion"
 ---

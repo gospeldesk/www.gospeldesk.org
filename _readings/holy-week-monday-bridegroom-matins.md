@@ -1,13 +1,13 @@
 ---
 title: "Holy Week"
 pk: "92"
-num: 294
+num: 293
 book: "Matthew"
 excerpt: "Matthew 21:18–43"
 noindex: true
 ref: "Matthew 21:18–43"
 subtitle: "Monday, Bridegroom Matins"
-prev_slug: "john-21-15-25"
+prev_slug: "restoration-of-peter"
 next_slug: "holy-week-monday-presanctified-liturgy"
 ---
 
