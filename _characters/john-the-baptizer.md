@@ -1,3 +1,0 @@
----
-name: "John the Baptizer"
----

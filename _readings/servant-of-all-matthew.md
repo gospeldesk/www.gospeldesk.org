@@ -7,8 +7,6 @@ excerpt: "Matthew 20:17–28"
 noindex: true
 ref: "Matthew 20:17–28"
 related: ["cost-of-discipleship"]
-direct: ["jesus"]
-indirect: ["twelve-disciples", "son-of-man", "chief-priests"]
 prev_slug: "parable-of-the-eleventh-hour"
 next_slug: "two-blind-men"
 ---

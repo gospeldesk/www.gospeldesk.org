@@ -7,8 +7,6 @@ excerpt: "Mark 6:14–30"
 noindex: true
 ref: "Mark 6:14–30"
 related: ["beheading-of-john-matthew", "john-imprisoned-baptism", "herod-perplexed-apostles-return"]
-direct: ["john", "king-heron", "john-the-baptizer", "elijah", "herodias", "philip", "jesus"]
-indirect: ["prophet", "nobles", "high-officers", "chief-men-of-galilee", "daughter-of-herodias", "disciples", "apostles"]
 prev_slug: "sending-the-twelve-mark"
 next_slug: "feeding-of-the-five-thousand-mark"
 ---

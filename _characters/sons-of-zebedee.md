@@ -1,3 +1,0 @@
----
-name: "Sons of Zebedee"
----

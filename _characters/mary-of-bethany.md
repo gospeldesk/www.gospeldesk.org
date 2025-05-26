@@ -1,3 +1,0 @@
----
-name: "Mary of Bethany"
----

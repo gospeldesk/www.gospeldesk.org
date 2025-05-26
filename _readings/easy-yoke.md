@@ -6,7 +6,6 @@ book: "Matthew"
 excerpt: "Matthew 11:27–30"
 noindex: true
 ref: "Matthew 11:27–30"
-direct: ["father", "son"]
 prev_slug: "woe-to-chorazin"
 next_slug: "lord-of-the-sabbath-matthew"
 ---

@@ -7,8 +7,6 @@ excerpt: "Mark 15:42–16:8"
 noindex: true
 ref: "Mark 15:42–16:8"
 related: ["holy-week-great-and-holy-saturday", "resurrection-luke", "resurrection-john"]
-direct: ["joseph-of-aimathaea", "pilot", "jesus", "pilate", "joseph", "mary-magdalene", "mary-mother-of-joses", "mary-the-mother", "of", "james", "salome", "peter"]
-indirect: ["council-member", "centurion", "disciples"]
 prev_slug: "crucifixion"
 next_slug: "ascension-mark"
 ---

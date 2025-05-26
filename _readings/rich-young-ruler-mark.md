@@ -7,8 +7,6 @@ excerpt: "Mark 10:17–27"
 noindex: true
 ref: "Mark 10:17–27"
 related: ["rich-young-ruler-matthew", "rich-young-ruler-luke"]
-direct: ["jesus", "god"]
-indirect: ["good-teacher", "father", "mother", "teacher", "disciples", "children", "rich-man"]
 prev_slug: "divorce-and-children"
 next_slug: "cost-of-discipleship"
 ---

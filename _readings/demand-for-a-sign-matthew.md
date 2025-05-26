@@ -7,8 +7,6 @@ excerpt: "Matthew 12:38–45"
 noindex: true
 ref: "Matthew 12:38–45"
 related: ["demand-for-a-sign-luke", "yeast-of-the-pharisees-mark"]
-direct: ["jonah", "son-of-man", "solomon"]
-indirect: ["scribes", "pharisees", "teacher", "men-of-nineveh", "queen", "spirits"]
 prev_slug: "blasphemy-against-the-spirit"
 next_slug: "who-is-my-mother"
 ---

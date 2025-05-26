@@ -6,8 +6,6 @@ book: "Luke"
 excerpt: "Luke 1:1–80"
 noindex: true
 ref: "Luke 1:1–80"
-direct: ["john", "theophilus", "herod", "zacharias", "elizabeth", "god", "lord", "elijah", "gabriel", "joseph", "mary", "jesus", "son-fo-the-most-high", "abraham"]
-indirect: ["eyewitnesses", "servants", "herod", "the-king-of-judea", "wife", "daughters-of-aaron", "child", "priest", "multitude", "angel-of-the-lord", "son", "angel", "mother", "holy-spirit", "children-of-israel", "fathers", "children", "old-man", "wife", "virgin", "servent-of-the-lord", "baby", "princes", "the-hungry", "the-rich", "neighbors", "and", "relatives", "god-of-israel", "oly-prophets", "enemies"]
 prev_slug: "ascension-mark"
 next_slug: "birth-and-shepherds"
 ---

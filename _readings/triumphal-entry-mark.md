@@ -7,8 +7,6 @@ excerpt: "Mark 11:1–11"
 noindex: true
 ref: "Mark 11:1–11"
 related: ["triumphal-entry-matthew", "triumphal-entry-luke", "annointing-triumphal-entry"]
-direct: ["jesus-the-nazarene", "jesus", "rabboni"]
-indirect: ["son-of-david", "blind-man"]
 prev_slug: "blind-bartimaeus"
 next_slug: "cleansing-the-temple-mark"
 ---

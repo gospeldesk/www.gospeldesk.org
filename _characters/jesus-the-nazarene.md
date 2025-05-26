@@ -1,3 +1,0 @@
----
-name: "Jesus the Nazarene"
----

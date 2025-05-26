@@ -1,3 +1,0 @@
----
-name: "Men of Nineveh"
----

@@ -7,8 +7,6 @@ excerpt: "Mark 10:23–45"
 noindex: true
 ref: "Mark 10:23–45"
 related: ["servant-of-all-matthew"]
-direct: ["jesus", "god", "peter", "james", "and", "john"]
-indirect: ["disciples", "children", "brothers", "sisters", "father", "mother", "wife", "children", "son-of-man", "chief-priests", "scribes", "gentiles", "teacher", "sons-of-zebedee", "servant", "bondservant"]
 prev_slug: "rich-young-ruler-mark"
 next_slug: "blind-bartimaeus"
 ---

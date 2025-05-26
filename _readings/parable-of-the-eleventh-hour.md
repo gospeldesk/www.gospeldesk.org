@@ -6,7 +6,6 @@ book: "Matthew"
 excerpt: "Matthew 20:1–16"
 noindex: true
 ref: "Matthew 20:1–16"
-indirect: ["laborers", "man", "manager", "laborers"]
 prev_slug: "rich-young-ruler-matthew"
 next_slug: "servant-of-all-matthew"
 ---

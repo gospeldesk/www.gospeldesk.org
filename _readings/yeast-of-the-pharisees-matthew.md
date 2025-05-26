@@ -7,8 +7,6 @@ excerpt: "Matthew 16:6–12"
 noindex: true
 ref: "Matthew 16:6–12"
 related: ["yeast-of-the-pharisees-mark"]
-direct: ["jesus"]
-indirect: ["pharisees", "sadducees"]
 prev_slug: "second-demand-for-a-sign"
 next_slug: "confession-of-peter"
 ---

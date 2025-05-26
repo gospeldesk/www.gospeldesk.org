@@ -7,8 +7,6 @@ excerpt: "Mark 1:1–8"
 noindex: true
 ref: "Mark 1:1–8"
 related: ["john-the-forerunner-matthew", "john-the-forerunner-luke"]
-direct: ["john", "jesus-christ", "son-of-god", "lord", "holy-spirit"]
-indirect: ["prophets"]
 prev_slug: "last-judgment"
 next_slug: "jesus-begins-his-ministry"
 ---

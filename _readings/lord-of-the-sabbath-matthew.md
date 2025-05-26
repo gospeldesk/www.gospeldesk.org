@@ -7,8 +7,6 @@ excerpt: "Matthew 12:1–13"
 noindex: true
 ref: "Matthew 12:1–13"
 related: ["lord-of-the-sabbath-mark", "lord-of-the-sabbath-luke"]
-direct: ["jesus", "david", "god", "lord-of-the-sabbath", "son-of-man"]
-indirect: ["disciples", "pharisees", "priests"]
 prev_slug: "easy-yoke"
 next_slug: "by-beelzebul-matthew"
 ---

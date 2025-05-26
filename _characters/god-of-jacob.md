@@ -1,3 +1,0 @@
----
-name: "God of Jacob"
----

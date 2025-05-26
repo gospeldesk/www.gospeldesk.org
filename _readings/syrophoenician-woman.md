@@ -7,8 +7,6 @@ excerpt: "Mark 7:24–30"
 noindex: true
 ref: "Mark 7:24–30"
 related: ["canaanite-woman"]
-direct: ["jesus", "lord"]
-indirect: ["daughter", "woman", "demon", "children", "dogs", "child"]
 prev_slug: "conflict-with-the-pharisees"
 next_slug: "healing-a-deaf-mute"
 ---

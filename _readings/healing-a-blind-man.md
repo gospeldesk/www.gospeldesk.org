@@ -6,7 +6,6 @@ book: "Mark"
 excerpt: "Mark 8:22–26"
 noindex: true
 ref: "Mark 8:22–26"
-indirect: ["blind-man"]
 prev_slug: "yeast-of-the-pharisees-mark"
 next_slug: "confession-and-rebuke-of-peter-mark"
 ---

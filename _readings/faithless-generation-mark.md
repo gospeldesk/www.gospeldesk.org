@@ -7,8 +7,6 @@ excerpt: "Mark 9:17–32"
 noindex: true
 ref: "Mark 9:17–32"
 related: ["faithless-generation-matthew", "faithless-generation-luke"]
-direct: ["jesus"]
-indirect: ["multitude", "teacher", "son", "mute-spirit", "disciples", "father", "deaf-spirit"]
 prev_slug: "john-is-elijah-mark"
 next_slug: "servant-of-all-mark"
 ---

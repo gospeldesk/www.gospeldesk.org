@@ -7,8 +7,6 @@ excerpt: "Matthew 12:30–37"
 noindex: true
 ref: "Matthew 12:30–37"
 related: ["blasphemy-mother-brothers"]
-direct: ["son-of-man", "spirit", "holy-spirit"]
-indirect: ["evil-man"]
 prev_slug: "by-beelzebul-matthew"
 next_slug: "demand-for-a-sign-matthew"
 ---

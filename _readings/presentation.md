@@ -6,8 +6,6 @@ book: "Luke"
 excerpt: "Luke 2:22–40"
 noindex: true
 ref: "Luke 2:22–40"
-direct: ["moses", "lord", "simeon", "holy-spirit", "christ", "jesus", "joseph", "mary", "anna-a-prophetess", "god"]
-indirect: ["man", "parents", "child", "servant", "master", "people", "mother", "josephs-mother", "widow", "son"]
 prev_slug: "birth-and-shepherds"
 next_slug: "finding"
 ---

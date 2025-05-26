@@ -7,8 +7,6 @@ excerpt: "Matthew 21:33–42"
 noindex: true
 ref: "Matthew 21:33–42"
 related: ["parable-of-the-wicked-tenants-mark", "parable-of-the-wicked-tenants-luke"]
-direct: ["lord", "jesus"]
-indirect: ["servantfarmers", "miserablemen"]
 prev_slug: "parable-of-the-two-brothers"
 next_slug: "cornerstone"
 ---

@@ -7,8 +7,6 @@ excerpt: "Matthew 24:1–51"
 noindex: true
 ref: "Matthew 24:1–51"
 related: ["little-apocalypse-mark", "little-apocalypse-luke", "treasure-watchfulness", "faithful-or-unfaithful-steward"]
-direct: ["jesus", "christ", "daniel", "father", "christ", "noah", "lord"]
-indirect: ["disciples", "false-prophets", "child", "nursing-mothers", "false-christs", "son-of-man", "angels", "woman", "faithful-and-wise-servant", "drunkards", "hypocrites", "servants"]
 prev_slug: "woe-serpents"
 next_slug: "parable-of-the-ten-virgins"
 ---

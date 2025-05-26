@@ -1,3 +1,0 @@
----
-name: "Daught In Law"
----

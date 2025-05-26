@@ -7,8 +7,6 @@ excerpt: "Matthew 16:24–28"
 noindex: true
 ref: "Matthew 16:24–28"
 related: ["take-up-your-cross-mark", "take-up-your-cross-luke"]
-direct: ["jesus", "son-of-man", "father"]
-indirect: ["disciples", "angels"]
 prev_slug: "rebuke-of-peter"
 next_slug: "transfiguration-matthew"
 ---

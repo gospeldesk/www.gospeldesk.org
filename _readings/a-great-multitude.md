@@ -7,8 +7,6 @@ excerpt: "Mark 3:6–12"
 noindex: true
 ref: "Mark 3:6–12"
 related: ["by-beelzebul-matthew"]
-direct: ["jesus"]
-indirect: ["pharisees", "herodians", "disciples", "multitude", "disciples", "unclean-spirits", "son-of-god"]
 prev_slug: "lord-of-the-sabbath-mark"
 next_slug: "twelve-apostles-mark"
 ---

@@ -7,8 +7,6 @@ excerpt: "Matthew 14:22–34"
 noindex: true
 ref: "Matthew 14:22–34"
 related: ["walking-on-water-mark", "walking-on-water-john"]
-direct: ["jesus", "god", "isaiah"]
-indirect: ["scribes", "pharisees", "disciples", "elders", "multitude", "father", "mother"]
 prev_slug: "feeding-of-the-five-thousand-matthew"
 next_slug: "denouncing-the-pharisees"
 ---

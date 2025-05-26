@@ -7,8 +7,6 @@ excerpt: "Mark 1:29–35"
 noindex: true
 ref: "Mark 1:29–35"
 related: ["peters-mother-in-law-matthew", "peters-mother-in-law-luke"]
-direct: ["peter", "simon", "andrew", "james", "john"]
-indirect: ["simons-wife", "demons"]
 prev_slug: "unclean-spirit-mark"
 next_slug: "leper-mark"
 ---

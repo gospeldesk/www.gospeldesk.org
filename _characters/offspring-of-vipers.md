@@ -1,3 +1,0 @@
----
-name: "Offspring of Vipers"
----

@@ -7,8 +7,6 @@ excerpt: "Mark 14:3–9"
 noindex: true
 ref: "Mark 14:3–9"
 related: ["holy-week-wednesday-presanctified-liturgy", "annointing-triumphal-entry"]
-direct: ["mary-of-bethany", "simon-the-leaper", "jesus"]
-indirect: ["woman"]
 prev_slug: "little-apocalypse-mark"
 next_slug: "last-supper-mark"
 ---

@@ -7,8 +7,6 @@ excerpt: "Matthew 12:14–30"
 noindex: true
 ref: "Matthew 12:14–30"
 related: ["a-great-multitude", "a-house-divided", "by-beelzebul-luke"]
-direct: ["jesus"]
-indirect: ["pharisees", "multitudes"]
 prev_slug: "lord-of-the-sabbath-matthew"
 next_slug: "blasphemy-against-the-spirit"
 ---

@@ -1,3 +1,0 @@
----
-name: "Diciples of Pharisees"
----

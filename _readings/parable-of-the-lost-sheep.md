@@ -7,8 +7,6 @@ excerpt: "Matthew 18:10–19:15"
 noindex: true
 ref: "Matthew 18:10–19:15"
 related: ["divorce-and-children", "children-and-the-kingdom", "lost-sheep-lost-coin"]
-direct: ["father", "peter", "lord", "jesus"]
-indirect: ["angels", "son-of-man", "brother", "witnesses", "gentile", "tax-collector", "multitudes", "little-children", "disciples"]
 prev_slug: "fish-coin-greatest"
 next_slug: "parable-of-the-ungrateful-servant"
 ---

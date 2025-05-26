@@ -1,3 +1,0 @@
----
-name: "Righteous Man"
----

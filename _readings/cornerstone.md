@@ -6,7 +6,6 @@ book: "Matthew"
 excerpt: "Matthew 21:43–46"
 noindex: true
 ref: "Matthew 21:43–46"
-indirect: ["chief-priests", "pharisees", "multitudes", "prophet"]
 prev_slug: "parable-of-the-wicked-tenants-matthew"
 next_slug: "parable-of-the-marriage-feast"
 ---

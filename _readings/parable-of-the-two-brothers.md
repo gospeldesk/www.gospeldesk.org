@@ -6,8 +6,6 @@ book: "Matthew"
 excerpt: "Matthew 21:28–32"
 noindex: true
 ref: "Matthew 21:28–32"
-direct: ["john", "jesus", "god"]
-indirect: ["father", "man", "tax-collectors", "prostitutes"]
 prev_slug: "by-what-authority-matthew"
 next_slug: "parable-of-the-wicked-tenants-matthew"
 ---

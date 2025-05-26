@@ -313,6 +313,9 @@ characters_by_slug = defaultdict(lambda: [None, None])
 characters = set()
 for row in characters_csv:
     rec = dict(zip(characters_headers, row))
+    if not rec['✔']:
+        break
+
     slug = rec['Slug']
 
     direct = rec['Direct'].split()

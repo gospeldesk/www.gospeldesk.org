@@ -1,3 +1,0 @@
----
-name: "Children of Israel"
----

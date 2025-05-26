@@ -7,8 +7,6 @@ excerpt: "Mark 6:54–7:24"
 noindex: true
 ref: "Mark 6:54–7:24"
 related: ["denouncing-the-pharisees", "out-of-the-heart"]
-direct: ["isaish", "god", "moses"]
-indirect: ["pharisees", "scribes", "disciples", "jews", "elders", "hypocrites", "mother", "father", "multitude"]
 prev_slug: "walking-on-water-mark"
 next_slug: "syrophoenician-woman"
 ---

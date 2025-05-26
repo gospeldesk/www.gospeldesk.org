@@ -7,8 +7,6 @@ excerpt: "Luke 2:1–20"
 noindex: true
 ref: "Luke 2:1–20"
 related: ["genealogy-and-birth"]
-direct: ["caesar-augustus", "quirinius", "joseph", "david", "mary", "lord", "god"]
-indirect: ["wife", "firstborn-son", "shepherds", "angel-of-the-lord", "angel", "christ-the-lord", "people", "savior", "heavenly-army"]
 prev_slug: "birth-of-john-annunciation"
 next_slug: "presentation"
 ---

@@ -7,8 +7,6 @@ excerpt: "Mark 12:1–12"
 noindex: true
 ref: "Mark 12:1–12"
 related: ["parable-of-the-wicked-tenants-matthew", "parable-of-the-wicked-tenants-luke"]
-direct: ["lord"]
-indirect: ["farmer", "tenant", "servant", "son", "multitude"]
 prev_slug: "by-what-authority-mark"
 next_slug: "taxes-to-caesar-mark"
 ---

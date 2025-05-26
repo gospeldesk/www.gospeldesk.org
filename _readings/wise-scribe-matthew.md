@@ -7,8 +7,6 @@ excerpt: "Matthew 22:35–46"
 noindex: true
 ref: "Matthew 22:35–46"
 related: ["wise-scribe-mark"]
-direct: ["jesus", "god", "abraham", "isaac", "jacob"]
-indirect: ["sadducees", "children", "brother", "wife", "angels", "dead", "living", "multitudes"]
 prev_slug: "marriage-in-the-resurrection-matthew"
 next_slug: "call-no-man-father"
 ---

@@ -6,8 +6,6 @@ book: "Matthew"
 excerpt: "Matthew 25:31–46"
 noindex: true
 ref: "Matthew 25:31–46"
-direct: ["father", "lord"]
-indirect: ["son-of-man", "angels", "shepherd", "king", "brothers", "devil", "stranger"]
 prev_slug: "parable-of-the-talents"
 next_slug: "john-the-forerunner-mark"
 ---

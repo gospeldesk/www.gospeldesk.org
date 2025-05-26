@@ -8,8 +8,6 @@ noindex: true
 ref: "Matthew 9:36–10:8"
 subtitle: "Freely Give"
 related: ["twelve-apostles-matthew", "twelve-apostles-mark", "sending-the-twelve-mark", "twelve-apostles-luke", "sending-the-twelve-luke"]
-direct: ["simon", "peter", "andrew", "james", "john", "philip", "bartholomew", "thomas", "matthewjames-the-son-of-alphaeus", "lebbaeus", "thaddaeus", "simon", "the", "canaanite", "judas", "iscariot", "jesus"]
-indirect: ["multitudes", "shepherd", "laborers", "disciples", "lord-of-the-harvest", "twelve-disciples", "unclean-spirits", "twelve-apostles", "gentiles", "samaritans", "lepers", "sick", "demons"]
 prev_slug: "two-blind-men-mute-man"
 next_slug: "instructions-to-the-twelve-shake-the-dust"
 ---

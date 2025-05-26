@@ -7,8 +7,6 @@ excerpt: "Matthew 17:1–9"
 noindex: true
 ref: "Matthew 17:1–9"
 related: ["transfiguration-mark", "transfiguration-luke"]
-direct: ["jesus", "peter", "james", "john", "moses", "elijah", "son-of-man"]
-indirect: ["disciples"]
 prev_slug: "take-up-your-cross-matthew"
 next_slug: "faithless-generation-matthew"
 ---

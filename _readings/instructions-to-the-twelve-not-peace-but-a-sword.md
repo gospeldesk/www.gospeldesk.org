@@ -7,8 +7,6 @@ excerpt: "Matthew 10:32–19:30"
 noindex: true
 ref: "Matthew 10:32–19:30"
 subtitle: "Not Peace But a Sword"
-direct: ["father", "jesus", "peter"]
-indirect: ["men", "daughter", "daught-in-law", "mother", "mother-in-law", "prophet", "righteous-man", "twelve-disciples", "son-of-man"]
 prev_slug: "instructions-to-the-twelve-dont-be-afraid"
 next_slug: "john-is-elijah-matthew"
 ---

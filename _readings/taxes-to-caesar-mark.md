@@ -7,8 +7,6 @@ excerpt: "Mark 12:13–17"
 noindex: true
 ref: "Mark 12:13–17"
 related: ["taxes-to-caesar-matthew", "taxes-to-caesar-luke"]
-direct: ["god", "ceasar"]
-indirect: ["pharisees", "herodians", "teacher"]
 prev_slug: "parable-of-the-wicked-tenants-mark"
 next_slug: "marriage-in-the-resurrection-mark"
 ---

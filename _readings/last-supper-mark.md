@@ -7,8 +7,6 @@ excerpt: "Mark 14:10–42"
 noindex: true
 ref: "Mark 14:10–42"
 related: ["holy-week-thursday-composite", "last-supper-luke"]
-direct: ["juda-iiscariot", "jesus", "peter", "james", "john", "simon"]
-indirect: ["twelve", "chief-priests", "disciples", "master-of-the-house", "teacher", "twelve", "son-of-man", "shepard", "abba", "father", "the-spirit", "sinners"]
 prev_slug: "annointing-by-mary-of-bethany"
 next_slug: "betrayal-mark"
 ---

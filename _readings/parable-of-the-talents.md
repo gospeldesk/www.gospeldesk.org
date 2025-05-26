@@ -7,8 +7,6 @@ excerpt: "Matthew 25:14–30"
 noindex: true
 ref: "Matthew 25:14–30"
 related: ["parable-of-the-minas"]
-direct: ["lord"]
-indirect: ["servants", "man", "lord", "bankers"]
 prev_slug: "parable-of-the-ten-virgins"
 next_slug: "last-judgment"
 ---

@@ -1,3 +1,0 @@
----
-name: "Mary the Mother"
----

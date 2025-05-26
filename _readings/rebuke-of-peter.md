@@ -7,8 +7,6 @@ excerpt: "Matthew 16:20–24"
 noindex: true
 ref: "Matthew 16:20–24"
 related: ["confession-and-rebuke-of-peter-mark"]
-direct: ["jesus", "peter", "lord", "satan"]
-indirect: ["disciples", "elders", "chief-priests", "scribes"]
 prev_slug: "confession-of-peter"
 next_slug: "take-up-your-cross-matthew"
 ---

@@ -7,8 +7,6 @@ excerpt: "Mark 12:28–37"
 noindex: true
 ref: "Mark 12:28–37"
 related: ["wise-scribe-matthew"]
-direct: ["israel", "god", "lord", "christ", "david", "holy-spirit"]
-indirect: ["scribe", "neighbor", "son-of-david", "enemies", "son"]
 prev_slug: "marriage-in-the-resurrection-mark"
 next_slug: "widows-mite-mark"
 ---
