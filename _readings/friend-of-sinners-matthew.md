@@ -7,6 +7,8 @@ excerpt: "Matthew 11:16–20"
 noindex: true
 ref: "Matthew 11:16–20"
 related: ["friend-of-sinners-luke"]
+direct: ["john", "son-of-man"]
+indirect: ["children", "companions", "demon", "drunkard", "gluttonous-man", "tax-collectors", "sinners", "children"]
 prev_slug: "john-is-elijah-matthew"
 next_slug: "woe-to-chorazin"
 ---

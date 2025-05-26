@@ -7,6 +7,8 @@ excerpt: "Mark 11:27–33"
 noindex: true
 ref: "Mark 11:27–33"
 related: ["by-what-authority-matthew", "by-what-authority-luke"]
+direct: ["jesus", "john"]
+indirect: ["chief-priests", "scribes", "elders", "men", "people"]
 prev_slug: "faith-forgiveness-prayer"
 next_slug: "parable-of-the-wicked-tenants-mark"
 ---

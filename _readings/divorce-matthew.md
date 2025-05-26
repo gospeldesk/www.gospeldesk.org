@@ -7,6 +7,8 @@ excerpt: "Matthew 19:3–12"
 noindex: true
 ref: "Matthew 19:3–12"
 related: ["divorce-mark", "divorce-stumbling"]
+direct: ["god", "moses"]
+indirect: ["pharisees", "man", "woman", "father", "mother", "wife", "disciples", "wife", "man", "eunuchs", "mother", "lord"]
 prev_slug: "parable-of-the-ungrateful-servant"
 next_slug: "rich-young-ruler-matthew"
 ---

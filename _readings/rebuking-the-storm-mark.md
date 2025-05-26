@@ -7,6 +7,7 @@ excerpt: "Mark 4:35–41"
 noindex: true
 ref: "Mark 4:35–41"
 related: ["rebuking-the-storm-matthew", "rebuking-the-storm-luke"]
+indirect: ["multitude", "teacher"]
 prev_slug: "parable-of-the-mustard-seed"
 next_slug: "gadarene-demoniac-mark"
 ---

@@ -7,6 +7,8 @@ excerpt: "Mark 12:18–27"
 noindex: true
 ref: "Mark 12:18–27"
 related: ["marriage-in-the-resurrection-matthew", "marriage-in-the-resurrection-luke"]
+direct: ["moses", "god", "abraham"]
+indirect: ["teacher", "brother", "wife", "children", "offspring", "the-seven", "angels", "the-dead", "god-of-isaac", "god-of-jacob", "god-of-the-dead", "the-living"]
 prev_slug: "taxes-to-caesar-mark"
 next_slug: "wise-scribe-mark"
 ---

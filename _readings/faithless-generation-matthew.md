@@ -7,6 +7,8 @@ excerpt: "Matthew 17:10–23"
 noindex: true
 ref: "Matthew 17:10–23"
 related: ["faithless-generation-mark", "faithless-generation-luke"]
+direct: ["elijah", "john-the-baptizer", "lord"]
+indirect: ["disciples", "scribes", "son-of-man", "multitude"]
 prev_slug: "transfiguration-matthew"
 next_slug: "fish-coin-greatest"
 ---

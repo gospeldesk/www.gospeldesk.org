@@ -296,7 +296,7 @@ noindex: true
             csv_title = self.title
             if self.subtitle:
                 csv_title += ': ' + self.subtitle
-            print(f'"{csv_ref}","=HYPERLINK(""https://www.gospeldesk.org/readings/{csv_slug}/"", ""{csv_title}"")"')
+            print(f'"{csv_ref}","{csv_slug}","=HYPERLINK(""https://www.gospeldesk.org/readings/{csv_slug}/"", ""{csv_title}"")"')
 
 # Load dates.
 dates_csv = csv.reader(open('dates.csv'))
@@ -309,20 +309,13 @@ for pericope_id, date in dates_csv:
 characters_csv = csv.reader(open('characters.csv'))
 next(characters_csv) # skip headers
 characters_by_slug = defaultdict(lambda: [None, None])
-def clean(chars):
-    out = []
-    for c in chars.split():
-        out.append(c.lower())
-    return out
 characters = set()
-for passage, title, direct, indirect in characters_csv:
-    slug = sluggize(title)
-
-    direct = clean(direct)
+for passage, slug, title, direct, indirect in characters_csv:
+    direct = direct.split()
     characters |= set(direct)
     characters_by_slug[slug][0] = direct
 
-    indirect = clean(indirect)
+    indirect = indirect.split()
     characters |= set(indirect)
     characters_by_slug[slug][1] = indirect
 

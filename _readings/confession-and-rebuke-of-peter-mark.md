@@ -7,6 +7,8 @@ excerpt: "Mark 8:27–34"
 noindex: true
 ref: "Mark 8:27–34"
 related: ["confession-of-peter", "rebuke-of-peter", "confession-of-peter-luke"]
+direct: ["jesus", "peter", "john-the-baptizer", "elijah", "christ", "satan"]
+indirect: ["disciples", "prophets", "son-of-god", "elders,", "chief-priests,", "scribes", "multitude"]
 prev_slug: "healing-a-blind-man"
 next_slug: "take-up-your-cross-mark"
 ---

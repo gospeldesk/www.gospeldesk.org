@@ -7,6 +7,7 @@ excerpt: "Matthew 22:23–33"
 noindex: true
 ref: "Matthew 22:23–33"
 related: ["marriage-in-the-resurrection-mark", "marriage-in-the-resurrection-luke"]
+direct: ["moses"]
 prev_slug: "taxes-to-caesar-matthew"
 next_slug: "wise-scribe-matthew"
 ---

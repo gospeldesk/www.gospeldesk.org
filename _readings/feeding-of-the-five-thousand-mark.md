@@ -7,6 +7,8 @@ excerpt: "Mark 6:30–45"
 noindex: true
 ref: "Mark 6:30–45"
 related: ["feeding-of-the-five-thousand-matthew", "feeding-of-the-five-thousand-luke", "feeding-of-the-five-thousand-john"]
+direct: ["jesus"]
+indirect: ["apostles", "multitudes", "shepards", "disciples", "five-thousand-men"]
 prev_slug: "beheading-of-john-mark"
 next_slug: "walking-on-water-mark"
 ---

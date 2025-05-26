@@ -7,6 +7,8 @@ excerpt: "Matthew 3:1–12"
 noindex: true
 ref: "Matthew 3:1–12"
 related: ["john-the-forerunner-mark", "john-the-forerunner-luke"]
+direct: ["john-the-baptizer", "isaiah", "lord", "john", "abraham", "god", "holy-spirit"]
+indirect: ["people-from-jerusalem", "pharisees", "sadducees", "children"]
 prev_slug: "holy-innocents"
 next_slug: "baptism"
 ---

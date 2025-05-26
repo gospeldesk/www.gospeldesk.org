@@ -7,6 +7,8 @@ excerpt: "Mark 9:2–9"
 noindex: true
 ref: "Mark 9:2–9"
 related: ["transfiguration-matthew", "transfiguration-luke"]
+direct: ["jesus", "peter", "james", "john", "elijah", "moses"]
+indirect: ["rabbi", "son-of-man"]
 prev_slug: "take-up-your-cross-mark"
 next_slug: "john-is-elijah-mark"
 ---

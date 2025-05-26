@@ -7,6 +7,8 @@ excerpt: "Matthew 14:14–22"
 noindex: true
 ref: "Matthew 14:14–22"
 related: ["feeding-of-the-five-thousand-mark", "feeding-of-the-five-thousand-luke", "feeding-of-the-five-thousand-john"]
+direct: ["jesus"]
+indirect: ["multitudes", "disciples", "men", "women"]
 prev_slug: "beheading-of-john-matthew"
 next_slug: "walking-on-water-matthew"
 ---

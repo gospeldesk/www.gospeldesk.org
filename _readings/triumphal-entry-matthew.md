@@ -7,6 +7,8 @@ excerpt: "Matthew 21:1–17"
 noindex: true
 ref: "Matthew 21:1–17"
 related: ["triumphal-entry-mark", "triumphal-entry-luke", "annointing-triumphal-entry"]
+direct: ["lord", "son-of-david", "jesus"]
+indirect: ["disciples", "prophet", "daughter-of-zion", "king", "multitude", "chief-priests", "scribes", "children", "abes"]
 prev_slug: "two-blind-men"
 next_slug: "cleansing-the-temple-matthew"
 ---

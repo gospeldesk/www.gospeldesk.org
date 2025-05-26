@@ -7,6 +7,8 @@ excerpt: "Matthew 19:16–26"
 noindex: true
 ref: "Matthew 19:16–26"
 related: ["rich-young-ruler-mark", "rich-young-ruler-luke"]
+direct: ["god", "jesus"]
+indirect: ["father", "mother", "neighbor", "poor", "young-man", "disciples", "rich-man"]
 prev_slug: "divorce-matthew"
 next_slug: "parable-of-the-eleventh-hour"
 ---

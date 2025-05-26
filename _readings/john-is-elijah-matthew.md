@@ -7,6 +7,8 @@ excerpt: "Matthew 11:2–15"
 noindex: true
 ref: "Matthew 11:2–15"
 related: ["john-is-elijah-mark", "john-is-more-than-a-prophet"]
+direct: ["john", "christ", "jesus", "john-the-baptizer", "elijah"]
+indirect: ["disciples", "lepers", "multitudes", "king", "prophet", "messenger", "women", "suffers"]
 prev_slug: "instructions-to-the-twelve-not-peace-but-a-sword"
 next_slug: "friend-of-sinners-matthew"
 ---

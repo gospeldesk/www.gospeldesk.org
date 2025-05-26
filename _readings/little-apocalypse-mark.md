@@ -7,6 +7,8 @@ excerpt: "Mark 13:1–14:2"
 noindex: true
 ref: "Mark 13:1–14:2"
 related: ["little-apocalypse-matthew", "little-apocalypse-luke"]
+direct: ["jesus", "peter", "james", "john", "andrew", "holy-spirit", "daniel-the-prophet", "lord", "christ"]
+indirect: ["disciples", "teacher", "councils", "rulers", "kings", "brother", "children", "parents", "babies", "child", "false-christs", "false-prophets", "son-of-man", "doorman", "scribes", "chief-priests"]
 prev_slug: "widows-mite-mark"
 next_slug: "annointing-by-mary-of-bethany"
 ---
