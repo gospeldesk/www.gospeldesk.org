@@ -8,8 +8,8 @@ noindex: true
 ref: "Matthew 6:31–7:11"
 subtitle: "Don't Be Anxious"
 related: ["dont-be-anxious"]
-direct: ["gentiles", "father", "god"]
-indirect: ["son"]
+direct: ["jesus", "multitudes", "disciples"]
+indirect: ["god", "gentiles"]
 prev_slug: "sermon-on-the-mount-seek-first-the-kingdom"
 next_slug: "sermon-on-the-mount-dont-judge"
 ---

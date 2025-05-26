@@ -7,6 +7,7 @@ excerpt: "Matthew 5:27–32"
 noindex: true
 ref: "Matthew 5:27–32"
 subtitle: "Adultery; Divorce"
+direct: ["jesus", "multitudes", "disciples"]
 prev_slug: "sermon-on-the-mount-righteousness-exceeding-the-pharisees"
 next_slug: "sermon-on-the-mount-swearing-resistance"
 ---

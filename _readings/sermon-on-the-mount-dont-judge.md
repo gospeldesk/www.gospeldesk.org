@@ -8,6 +8,7 @@ noindex: true
 ref: "Matthew 7:1–8"
 subtitle: "Don't Judge"
 related: ["sermon-on-the-plain-dont-judge"]
+direct: ["jesus", "multitudes", "disciples"]
 prev_slug: "sermon-on-the-mount-dont-be-anxious"
 next_slug: "sermon-on-the-mount-golden-rule-narrow-gate-false-prophets"
 ---
