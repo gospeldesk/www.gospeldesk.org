@@ -1,3 +1,0 @@
----
-name: "Brothers of Jechoniah"
----

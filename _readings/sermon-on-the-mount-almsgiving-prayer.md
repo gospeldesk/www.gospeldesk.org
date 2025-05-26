@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 6:1–13"
 subtitle: "Almsgiving; Prayer"
 related: ["prayer"]
-direct: ["jesus", "multitudes", "disciples"]
+direct: ["jesus", "multitude", "disciples"]
 indirect: ["god", "hypocrites", "gentiles", "satan"]
 prev_slug: "sermon-on-the-mount-love-your-enemies"
 next_slug: "sermon-on-the-mount-forgiveness-fasting-treasure"

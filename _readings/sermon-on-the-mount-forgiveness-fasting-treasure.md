@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 6:14–21"
 subtitle: "Forgiveness; Fasting; Treasure"
 related: ["treasure-watchfulness"]
-direct: ["jesus", "multitudes", "disciples"]
+direct: ["jesus", "multitude", "disciples"]
 indirect: ["god", "hypocrites"]
 prev_slug: "sermon-on-the-mount-almsgiving-prayer"
 next_slug: "sermon-on-the-mount-seek-first-the-kingdom"

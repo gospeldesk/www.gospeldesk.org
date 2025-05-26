@@ -7,7 +7,7 @@ excerpt: "Matthew 5:33–41"
 noindex: true
 ref: "Matthew 5:33–41"
 subtitle: "Swearing; Resistance"
-direct: ["jesus", "multitudes", "disciples"]
+direct: ["jesus", "multitude", "disciples"]
 indirect: ["god", "jerusalem"]
 prev_slug: "sermon-on-the-mount-adultery-divorce"
 next_slug: "sermon-on-the-mount-love-your-enemies"

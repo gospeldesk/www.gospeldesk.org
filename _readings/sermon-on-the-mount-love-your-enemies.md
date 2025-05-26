@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 5:42–48"
 subtitle: "Love Your Enemies"
 related: ["sermon-on-the-plain-woes", "sermon-on-the-plain-love-your-enemies"]
-direct: ["jesus", "multitudes", "disciples"]
+direct: ["jesus", "multitude", "disciples"]
 indirect: ["god", "sinners"]
 prev_slug: "sermon-on-the-mount-swearing-resistance"
 next_slug: "sermon-on-the-mount-almsgiving-prayer"
