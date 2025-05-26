@@ -7,8 +7,7 @@ excerpt: "Matthew 8:23–27"
 noindex: true
 ref: "Matthew 8:23–27"
 related: ["rebuking-the-storm-mark", "rebuking-the-storm-luke"]
-direct: ["jesus", "peter", "lord"]
-indirect: ["demons", "spirits", "isaiah-the-prophet", "multitudes", "scribe", "son-of-man", "disciples"]
+direct: ["jesus", "disciples", "sea-of-galilee", "storm"]
 prev_slug: "peters-mother-in-law-matthew"
 next_slug: "gergesene-demoniacs"
 ---

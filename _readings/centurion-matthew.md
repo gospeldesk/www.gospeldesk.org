@@ -7,8 +7,8 @@ excerpt: "Matthew 8:5–13"
 noindex: true
 ref: "Matthew 8:5–13"
 related: ["centurion-luke"]
-direct: ["jesus", "capernaum", "centurion", "centurion-servant", "multitude", "disciples"]
-indirect: ["centurion-soldiers", "israel"]
+direct: ["jesus", "capernaum", "centurion", "centurion's-servant", "multitude", "disciples"]
+indirect: ["centurion's-soldiers", "israel"]
 prev_slug: "sermon-on-the-mount-rock-and-sand-healing-a-leper"
 next_slug: "peters-mother-in-law-matthew"
 ---

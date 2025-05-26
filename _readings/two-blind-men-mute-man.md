@@ -7,8 +7,8 @@ excerpt: "Matthew 9:27–35"
 noindex: true
 ref: "Matthew 9:27–35"
 related: ["two-blind-men", "blind-bartimaeus", "a-certain-blind-man"]
-direct: ["jesus", "lord"]
-indirect: ["blind-men", "son-of-david", "a-mute-man", "demon", "multitudes", "pharisees", "prince-of-the", "demons"]
+direct: ["jesus", "two-blind", "mute-man", "mute-man's-demon", "multitudes", "pharisees"]
+indirect: ["david", "satan", "diseases"]
 prev_slug: "two-healings-matthew"
 next_slug: "instructions-to-the-twelve-freely-give"
 ---

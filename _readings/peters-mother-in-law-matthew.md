@@ -7,8 +7,8 @@ excerpt: "Matthew 8:14–23"
 noindex: true
 ref: "Matthew 8:14–23"
 related: ["peters-mother-in-law-mark", "peters-mother-in-law-luke", "foxes-have-holes"]
-direct: ["jesus", "peter", "isaiah-the-prophet"]
-indirect: ["mother-in-law", "spirits", "scribe", "son-of-man", "disciples"]
+direct: ["jesus", "peter", "peter's-mother-in-law", "fever", "diseased", "diseases", "multitudes", "scribe", "disciple", "disciples"]
+indirect: ["isaiah"]
 prev_slug: "centurion-matthew"
 next_slug: "rebuking-the-storm-matthew"
 ---

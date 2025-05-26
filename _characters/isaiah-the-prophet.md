@@ -1,3 +1,0 @@
----
-name: "Isaiah the Prophet"
----

@@ -7,8 +7,7 @@ excerpt: "Matthew 9:9–13"
 noindex: true
 ref: "Matthew 9:9–13"
 related: ["levi-mark", "levi-luke"]
-direct: ["jesus", "matthew"]
-indirect: ["tax-collector", "pharisees", "disciples", "sinners", "physician", "righteous"]
+direct: ["jesus", "matthew", "sinners", "disciples", "pharisees"]
 prev_slug: "paralytic-matthew"
 next_slug: "new-wineskins-matthew"
 ---

@@ -7,8 +7,8 @@ excerpt: "Matthew 9:1–8"
 noindex: true
 ref: "Matthew 9:1–8"
 related: ["paralytic-mark", "paralytic-luke"]
-direct: ["jesus", "son-of-man"]
-indirect: ["paralytic", "scribes", "multitudes"]
+direct: ["jesus", "nazareth", "paralytic", "friends-of-the-paralytic", "scribes", "multitudes"]
+indirect: ["god"]
 prev_slug: "gergesene-demoniacs"
 next_slug: "levi-matthew"
 ---
