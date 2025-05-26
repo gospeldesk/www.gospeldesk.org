@@ -312,7 +312,7 @@ characters = set()
 for i, row in enumerate(characters_csv):
     rec = dict(zip(characters_headers, row))
     if not rec['✔']:
-        print(f'{i+1} / 318 = {((i+1) / 318) * 100:.01f}% done')
+        print(f'\x1b[1;33m{i+1} / 318 = {((i+1) / 318) * 100:.01f}% done\x1b[0m')
         break
 
     slug = rec['Slug']
