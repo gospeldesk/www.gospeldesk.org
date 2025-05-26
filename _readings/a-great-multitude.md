@@ -7,6 +7,7 @@ excerpt: "Mark 3:6–12"
 noindex: true
 ref: "Mark 3:6–12"
 related: ["by-beelzebul-matthew"]
+direct: ["jesus", "disciples", "pharisees", "herodians", "multitude", "galilee", "judea", "jerusalem", "idumea", "jordan", "tyre-and-sidon", "diseased", "demons"]
 prev_slug: "lord-of-the-sabbath-mark"
 next_slug: "twelve-apostles-mark"
 ---

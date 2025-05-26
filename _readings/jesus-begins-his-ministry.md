@@ -7,6 +7,7 @@ excerpt: "Mark 1:9–15"
 noindex: true
 ref: "Mark 1:9–15"
 related: ["baptism", "temptation-matthew", "jesus-begins-to-preach", "john-imprisoned-baptism", "temptation-luke"]
+direct: ["jesus", "john-the-forerunner", "holy-spirit", "god", "satan", "angels", "galilee"]
 prev_slug: "john-the-forerunner-mark"
 next_slug: "fishers-of-men-mark"
 ---

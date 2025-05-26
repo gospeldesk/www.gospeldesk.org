@@ -7,6 +7,8 @@ excerpt: "Mark 2:13–17"
 noindex: true
 ref: "Mark 2:13–17"
 related: ["levi-matthew", "levi-luke"]
+direct: ["jesus", "disciples", "multitude", "matthew", "sinners", "scribes", "pharisees"]
+indirect: ["alphaeus"]
 prev_slug: "paralytic-mark"
 next_slug: "new-wineskins-mark"
 ---

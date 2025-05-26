@@ -7,6 +7,8 @@ excerpt: "Mark 2:23–3:5"
 noindex: true
 ref: "Mark 2:23–3:5"
 related: ["lord-of-the-sabbath-matthew", "lord-of-the-sabbath-luke"]
+direct: ["jesus", "disciples", "pharisees", "man-with-a-withered-hand"]
+indirect: ["david", "abiathar", "god", "temple"]
 prev_slug: "new-wineskins-mark"
 next_slug: "a-great-multitude"
 ---

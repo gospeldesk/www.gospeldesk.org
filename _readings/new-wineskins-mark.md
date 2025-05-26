@@ -7,6 +7,8 @@ excerpt: "Mark 2:18–22"
 noindex: true
 ref: "Mark 2:18–22"
 related: ["new-wineskins-matthew", "new-wineskins-luke"]
+direct: ["jesus", "john-the-forerunner's-disciples", "pharisees"]
+indirect: ["disciples"]
 prev_slug: "levi-mark"
 next_slug: "lord-of-the-sabbath-mark"
 ---
