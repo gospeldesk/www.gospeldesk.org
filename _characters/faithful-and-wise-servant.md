@@ -1,3 +1,3 @@
 ---
-name: "Faithful-And-Wise-Servant"
+name: "Faithful And Wise Servant"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Good-Teacher"
+name: "Good Teacher"
 ---

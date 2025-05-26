@@ -1,3 +1,3 @@
 ---
-name: "Little-Children"
+name: "Little Children"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Caesar-Augustus"
+name: "Caesar Augustus"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "King-Heron"
+name: "King Heron"
 ---

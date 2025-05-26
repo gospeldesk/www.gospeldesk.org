@@ -1,3 +1,3 @@
 ---
-name: "Gluttonous-Man"
+name: "Gluttonous Man"
 ---

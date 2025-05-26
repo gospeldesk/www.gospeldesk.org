@@ -1,3 +1,3 @@
 ---
-name: "Young-Man"
+name: "Young Man"
 ---

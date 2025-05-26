@@ -1,3 +1,3 @@
 ---
-name: "Son-Of-David"
+name: "Son of David"
 ---

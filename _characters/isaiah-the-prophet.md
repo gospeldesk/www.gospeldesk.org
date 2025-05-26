@@ -1,3 +1,3 @@
 ---
-name: "Isaiah-The-Prophet"
+name: "Isaiah the Prophet"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "High-Officers"
+name: "High Officers"
 ---

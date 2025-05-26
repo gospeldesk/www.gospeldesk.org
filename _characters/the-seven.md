@@ -1,3 +1,3 @@
 ---
-name: "The-Seven"
+name: "The Seven"
 ---

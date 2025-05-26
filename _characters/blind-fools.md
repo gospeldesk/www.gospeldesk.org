@@ -1,3 +1,3 @@
 ---
-name: "Blind-Fools"
+name: "Blind Fools"
 ---

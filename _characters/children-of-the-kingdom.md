@@ -1,3 +1,3 @@
 ---
-name: "Children-Of-The-Kingdom"
+name: "Children of the Kingdom"
 ---

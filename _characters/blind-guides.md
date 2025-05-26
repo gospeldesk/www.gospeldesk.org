@@ -1,3 +1,3 @@
 ---
-name: "Blind-Guides"
+name: "Blind Guides"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "King-Of-The-Jews"
+name: "King of the Jews"
 ---

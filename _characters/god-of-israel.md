@@ -1,3 +1,3 @@
 ---
-name: "God-Of-Israel"
+name: "God of Israel"
 ---

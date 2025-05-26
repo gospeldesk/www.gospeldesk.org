@@ -1,3 +1,3 @@
 ---
-name: "Kings-Of-The-Earth"
+name: "Kings of the Earth"
 ---

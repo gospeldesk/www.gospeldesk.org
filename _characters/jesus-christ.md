@@ -1,3 +1,3 @@
 ---
-name: "Jesus-Christ"
+name: "Jesus Christ"
 ---

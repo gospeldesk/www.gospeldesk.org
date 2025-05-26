@@ -1,3 +1,3 @@
 ---
-name: "Ten-Virgins"
+name: "Ten Virgins"
 ---

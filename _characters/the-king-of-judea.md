@@ -1,3 +1,3 @@
 ---
-name: "The-King-Of-Judea"
+name: "The King of Judea"
 ---

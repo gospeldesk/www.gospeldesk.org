@@ -1,3 +1,3 @@
 ---
-name: "Daughter-Of-Zion"
+name: "Daughter of Zion"
 ---

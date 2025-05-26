@@ -1,3 +1,3 @@
 ---
-name: "Jechoniah-Brothers"
+name: "Jechoniah Brothers"
 ---

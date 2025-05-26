@@ -1,3 +1,3 @@
 ---
-name: "Judas-Iscariot"
+name: "Judas Iscariot"
 ---

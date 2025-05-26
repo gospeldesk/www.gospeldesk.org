@@ -1,3 +1,3 @@
 ---
-name: "Servent-Of-The-Lord"
+name: "Servent of the Lord"
 ---

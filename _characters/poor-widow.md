@@ -1,3 +1,3 @@
 ---
-name: "Poor-Widow"
+name: "Poor Widow"
 ---

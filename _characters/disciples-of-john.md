@@ -1,3 +1,3 @@
 ---
-name: "Disciples-Of-John"
+name: "Disciples of John"
 ---

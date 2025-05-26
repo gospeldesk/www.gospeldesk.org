@@ -1,4 +1,3 @@
 ---
-name: "Theotokos & Ever-Virgin Mary"
+name: "Mary"
 ---
-🙏

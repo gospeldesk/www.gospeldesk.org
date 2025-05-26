@@ -1,3 +1,3 @@
 ---
-name: "Five-Thousand"
+name: "Five Thousand"
 ---

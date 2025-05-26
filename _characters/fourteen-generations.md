@@ -1,3 +1,3 @@
 ---
-name: "Fourteen-Generations"
+name: "Fourteen Generations"
 ---

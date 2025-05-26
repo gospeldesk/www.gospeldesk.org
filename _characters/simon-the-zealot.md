@@ -1,3 +1,3 @@
 ---
-name: "Simon-The-Zealot"
+name: "Simon the Zealot"
 ---

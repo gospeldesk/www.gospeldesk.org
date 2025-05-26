@@ -1,3 +1,3 @@
 ---
-name: "Offspring-Of-Vipers"
+name: "Offspring of Vipers"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Deaf-Spirit"
+name: "Deaf Spirit"
 ---

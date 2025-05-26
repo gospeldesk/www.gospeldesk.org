@@ -1,3 +1,3 @@
 ---
-name: "Simons-Wife"
+name: "Simons Wife"
 ---

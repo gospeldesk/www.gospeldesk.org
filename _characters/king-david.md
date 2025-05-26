@@ -1,3 +1,3 @@
 ---
-name: "King-David"
+name: "King David"
 ---

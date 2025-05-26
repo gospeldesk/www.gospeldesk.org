@@ -1,3 +1,3 @@
 ---
-name: "The-Rich"
+name: "The Rich"
 ---

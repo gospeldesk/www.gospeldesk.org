@@ -1,3 +1,3 @@
 ---
-name: "Josephs-Mother"
+name: "Josephs Mother"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "A-Mute-Man"
+name: "A Mute Man"
 ---

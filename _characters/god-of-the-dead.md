@@ -1,3 +1,3 @@
 ---
-name: "God-Of-The-Dead"
+name: "God of the Dead"
 ---

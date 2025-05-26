@@ -1,3 +1,3 @@
 ---
-name: "Heavenly-Army"
+name: "Heavenly Army"
 ---

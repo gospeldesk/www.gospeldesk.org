@@ -1,3 +1,3 @@
 ---
-name: "False-Prophets"
+name: "False Prophets"
 ---

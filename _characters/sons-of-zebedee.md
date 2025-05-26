@@ -1,3 +1,3 @@
 ---
-name: "Sons-Of-Zebedee"
+name: "Sons of Zebedee"
 ---

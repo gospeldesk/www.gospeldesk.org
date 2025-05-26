@@ -1,3 +1,3 @@
 ---
-name: "Prince-Of-The"
+name: "Prince of The"
 ---

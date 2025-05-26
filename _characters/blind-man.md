@@ -1,3 +1,3 @@
 ---
-name: "Blind-Man"
+name: "Blind Man"
 ---

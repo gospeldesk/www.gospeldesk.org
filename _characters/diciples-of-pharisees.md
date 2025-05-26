@@ -1,3 +1,3 @@
 ---
-name: "Diciples-Of-Pharisees"
+name: "Diciples of Pharisees"
 ---

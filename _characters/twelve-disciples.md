@@ -1,3 +1,3 @@
 ---
-name: "Twelve-Disciples"
+name: "Twelve Disciples"
 ---

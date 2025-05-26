@@ -1,3 +1,3 @@
 ---
-name: "Lord-Of-Heaven-And-Earth"
+name: "Lord of Heaven And Earth"
 ---

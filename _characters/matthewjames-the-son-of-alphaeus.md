@@ -1,3 +1,3 @@
 ---
-name: "Matthewjames-The-Son-Of-Alphaeus"
+name: "Matthewjames the Son of Alphaeus"
 ---

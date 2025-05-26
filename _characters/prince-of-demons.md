@@ -1,3 +1,3 @@
 ---
-name: "Prince-Of-Demons"
+name: "Prince of Demons"
 ---

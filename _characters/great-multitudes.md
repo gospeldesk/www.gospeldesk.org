@@ -1,3 +1,3 @@
 ---
-name: "Great-Multitudes"
+name: "Great Multitudes"
 ---

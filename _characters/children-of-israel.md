@@ -1,3 +1,3 @@
 ---
-name: "Children-Of-Israel"
+name: "Children of Israel"
 ---

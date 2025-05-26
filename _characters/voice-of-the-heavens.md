@@ -1,3 +1,3 @@
 ---
-name: "Voice-Of-The-Heavens"
+name: "Voice of the Heavens"
 ---

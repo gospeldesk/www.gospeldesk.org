@@ -1,3 +1,3 @@
 ---
-name: "King-Herod"
+name: "King Herod"
 ---

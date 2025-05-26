@@ -1,3 +1,3 @@
 ---
-name: "Son-Of-God"
+name: "Son of God"
 ---

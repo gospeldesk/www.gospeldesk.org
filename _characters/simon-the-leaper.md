@@ -1,3 +1,3 @@
 ---
-name: "Simon-The-Leaper"
+name: "Simon the Leaper"
 ---

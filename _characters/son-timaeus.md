@@ -1,3 +1,3 @@
 ---
-name: "Son-Timaeus"
+name: "Son Timaeus"
 ---

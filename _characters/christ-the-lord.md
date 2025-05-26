@@ -1,3 +1,3 @@
 ---
-name: "Christ-The-Lord"
+name: "Christ the Lord"
 ---

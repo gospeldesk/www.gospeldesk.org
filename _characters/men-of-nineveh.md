@@ -1,3 +1,3 @@
 ---
-name: "Men-Of-Nineveh"
+name: "Men of Nineveh"
 ---

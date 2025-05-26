@@ -1,3 +1,3 @@
 ---
-name: "Firstborn-Son"
+name: "Firstborn Son"
 ---

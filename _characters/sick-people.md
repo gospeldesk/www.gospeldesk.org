@@ -1,3 +1,3 @@
 ---
-name: "Sick-People"
+name: "Sick People"
 ---

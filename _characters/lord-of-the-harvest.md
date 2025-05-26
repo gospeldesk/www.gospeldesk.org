@@ -1,3 +1,3 @@
 ---
-name: "Lord-Of-The-Harvest"
+name: "Lord of the Harvest"
 ---

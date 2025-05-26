@@ -1,3 +1,3 @@
 ---
-name: "False-Christs"
+name: "False Christs"
 ---

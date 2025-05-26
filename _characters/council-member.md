@@ -1,3 +1,3 @@
 ---
-name: "Council-Member"
+name: "Council Member"
 ---

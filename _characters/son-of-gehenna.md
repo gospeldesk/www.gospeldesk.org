@@ -1,3 +1,3 @@
 ---
-name: "Son-Of-Gehenna"
+name: "Son of Gehenna"
 ---

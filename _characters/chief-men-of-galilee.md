@@ -1,3 +1,3 @@
 ---
-name: "Chief-Men-Of-Galilee"
+name: "Chief Men of Galilee"
 ---

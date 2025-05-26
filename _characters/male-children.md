@@ -1,3 +1,3 @@
 ---
-name: "Male-Children"
+name: "Male Children"
 ---

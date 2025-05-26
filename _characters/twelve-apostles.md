@@ -1,3 +1,3 @@
 ---
-name: "Twelve-Apostles"
+name: "Twelve Apostles"
 ---

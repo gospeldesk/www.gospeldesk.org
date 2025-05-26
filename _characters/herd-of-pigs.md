@@ -1,3 +1,3 @@
 ---
-name: "Herd-Of-Pigs"
+name: "Herd of Pigs"
 ---

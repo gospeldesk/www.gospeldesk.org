@@ -1,3 +1,3 @@
 ---
-name: "Son-Of-Man"
+name: "Son of Man"
 ---

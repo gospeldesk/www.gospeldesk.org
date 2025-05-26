@@ -1,3 +1,3 @@
 ---
-name: "Anna-A-Prophetess"
+name: "Anna A Prophetess"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "The-Hungry"
+name: "The Hungry"
 ---

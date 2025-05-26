@@ -1,3 +1,3 @@
 ---
-name: "Blind-Beggar"
+name: "Blind Beggar"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Jesus-The-Nazarene"
+name: "Jesus the Nazarene"
 ---

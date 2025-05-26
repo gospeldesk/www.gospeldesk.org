@@ -1,3 +1,3 @@
 ---
-name: "Son-Of-Mary"
+name: "Son of Mary"
 ---

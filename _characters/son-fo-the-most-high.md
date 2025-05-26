@@ -1,3 +1,3 @@
 ---
-name: "Son-Fo-The-Most-High"
+name: "Son Fo the Most High"
 ---

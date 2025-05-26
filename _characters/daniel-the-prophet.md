@@ -1,3 +1,3 @@
 ---
-name: "Daniel-The-Prophet"
+name: "Daniel the Prophet"
 ---

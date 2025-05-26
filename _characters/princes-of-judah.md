@@ -1,3 +1,3 @@
 ---
-name: "Princes-Of-Judah"
+name: "Princes of Judah"
 ---

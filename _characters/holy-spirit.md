@@ -1,3 +1,3 @@
 ---
-name: "Holy-Spirit"
+name: "Holy Spirit"
 ---

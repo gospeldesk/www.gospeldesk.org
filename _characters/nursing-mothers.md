@@ -1,3 +1,3 @@
 ---
-name: "Nursing-Mothers"
+name: "Nursing Mothers"
 ---

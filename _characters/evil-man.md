@@ -1,3 +1,3 @@
 ---
-name: "Evil-Man"
+name: "Evil Man"
 ---

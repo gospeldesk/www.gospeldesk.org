@@ -1,3 +1,3 @@
 ---
-name: "Oly-Prophets"
+name: "Oly Prophets"
 ---

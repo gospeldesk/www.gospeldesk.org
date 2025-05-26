@@ -1,3 +1,3 @@
 ---
-name: "Righteous-Man"
+name: "Righteous Man"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Tax-Collector"
+name: "Tax Collector"
 ---

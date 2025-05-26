@@ -1,3 +1,3 @@
 ---
-name: "High-Priest"
+name: "High Priest"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "The-Living"
+name: "The Living"
 ---

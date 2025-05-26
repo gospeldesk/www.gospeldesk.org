@@ -1,3 +1,3 @@
 ---
-name: "Deaf-Mute"
+name: "Deaf Mute"
 ---

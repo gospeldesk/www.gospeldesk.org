@@ -1,3 +1,3 @@
 ---
-name: "Juda-Iiscariot"
+name: "Juda Iiscariot"
 ---

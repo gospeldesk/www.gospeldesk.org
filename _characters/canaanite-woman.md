@@ -1,3 +1,3 @@
 ---
-name: "Canaanite-Woman"
+name: "Canaanite Woman"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "John-The-Baptizer"
+name: "John the Baptizer"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "The-Tempter"
+name: "The Tempter"
 ---

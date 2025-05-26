@@ -1,3 +1,3 @@
 ---
-name: "Son-Of-Alphaeus"
+name: "Son of Alphaeus"
 ---

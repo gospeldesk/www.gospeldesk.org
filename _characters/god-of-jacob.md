@@ -1,3 +1,3 @@
 ---
-name: "God-Of-Jacob"
+name: "God of Jacob"
 ---

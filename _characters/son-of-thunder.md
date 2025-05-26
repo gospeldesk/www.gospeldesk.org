@@ -1,3 +1,3 @@
 ---
-name: "Son-Of-Thunder"
+name: "Son of Thunder"
 ---

@@ -89,9 +89,10 @@ def main():
 
     for char in characters:
         filepath = f'../_characters/{char}.md'
-        if os.path.exists(filepath):
-            continue
-        name = char.title()
+        name = char.title() \
+                   .replace('-', ' ') \
+                   .replace(' Of ', ' of ') \
+                   .replace(' The ', ' the ')
         open(filepath, 'w+').write(f'''\
 ---
 name: "{name}"

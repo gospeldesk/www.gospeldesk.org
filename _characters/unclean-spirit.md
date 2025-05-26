@@ -1,3 +1,3 @@
 ---
-name: "Unclean-Spirit"
+name: "Unclean Spirit"
 ---

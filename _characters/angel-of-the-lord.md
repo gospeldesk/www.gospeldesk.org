@@ -1,3 +1,3 @@
 ---
-name: "Angel-Of-The-Lord"
+name: "Angel of the Lord"
 ---

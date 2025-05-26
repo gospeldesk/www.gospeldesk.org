@@ -1,3 +1,3 @@
 ---
-name: "The-Twelve"
+name: "The Twelve"
 ---

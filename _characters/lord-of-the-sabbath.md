@@ -1,3 +1,3 @@
 ---
-name: "Lord-Of-The-Sabbath"
+name: "Lord of the Sabbath"
 ---
