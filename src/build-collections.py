@@ -82,11 +82,25 @@ def main():
         pericope.next = next_
         pericope.write()
 
-    old = {fn.split('.')[0] for fn in os.listdir('../_readings')}
-    new = Pericope.slugs
-    for slug in old - Pericope.slugs:
+    known = {fn.split('.')[0] for fn in os.listdir('../_readings')}
+    for slug in known - Pericope.slugs:
         print('pruning', slug)
         os.unlink(f'../_readings/{slug}.md')
+
+    for char in characters:
+        filepath = f'../_characters/{char}.md'
+        if os.path.exists(filepath):
+            continue
+        name = char.title()
+        open(filepath, 'w+').write(f'''\
+---
+name: "{name}"
+---
+''')
+    known = {fn.split('.')[0] for fn in os.listdir('../_characters')}
+    for char in known - characters:
+        print('pruning', char)
+        os.unlink(f'../_characters/{char}.md')
 
 class Pericope(object):
 
@@ -299,11 +313,18 @@ def clean(chars):
     for c in chars.split():
         out.append(c.lower())
     return out
-slugs_by_character = defaultdict(list)
+characters = set()
 for passage, title, direct, indirect in characters_csv:
     slug = sluggize(title)
-    characters_by_slug[slug][0] = clean(direct)
-    characters_by_slug[slug][1] = clean(indirect)
+
+    direct = clean(direct)
+    characters |= set(direct)
+    characters_by_slug[slug][0] = direct
+
+    indirect = clean(indirect)
+    characters |= set(indirect)
+    characters_by_slug[slug][1] = indirect
+
 
 # Load verses.
 gospels_csv = csv.reader(open('gospels.csv'))
