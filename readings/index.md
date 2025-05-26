@@ -10,15 +10,7 @@ noindex: true
     According to the <a href="https://www.oca.org/readings">usage</a> of the <a href="https://www.oca.org/">Orthodox Church in America</a>.
     </div>
 </header>
-<section class="readings">
-  <ol>
-  {% for reading in sorted %}
-    <li>
-      <a href="{{ reading.url }}">{{ reading.title }}{% if reading.subtitle %}<br><span class="subtitle">{{ reading.subtitle }}</span>{% endif %}</a>{% if reading.ref %}<span class="ref">{{ reading.ref }}</span>{% endif %}
-    </li>
-  {% endfor %}
-  </ol>
-</section>
+{% include readings-list.html readings=sorted %}
 
 {% assign first_reading = sorted | first %}
 {% assign last_reading = sorted | last %}

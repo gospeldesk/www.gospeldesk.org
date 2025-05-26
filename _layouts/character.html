@@ -18,26 +18,14 @@ layout: default
 {% if indirect.first %}
 <h4>Directly</h4>
 {% endif %}
-<ol>
-{% for reading in direct %}
-  <li>
-    <a href="{{ reading.url }}">{{ reading.title }}</a>{% if reading.ref %}<span class="ref">{{ reading.ref }}</span>{% endif %}
-  </li>
-{% endfor %}
-</ol>
+{% include readings-list.html readings=direct %}
 {% endif %}
 
 {% if indirect.first %}
 {% if direct.first %}
 <h4>Indirectly</h4>
 {% endif %}
-<ol>
-{% for reading in indirect %}
-  <li>
-    <a href="{{ reading.url }}">{{ reading.title }}</a>{% if reading.ref %}<span class="ref">{{ reading.ref }}</span>{% endif %}
-  </li>
-{% endfor %}
-</ol>
+{% include readings-list.html readings=indirect %}
 {% endif %}
 
 </section>
