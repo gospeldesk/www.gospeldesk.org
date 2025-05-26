@@ -8,7 +8,6 @@ noindex: true
 ref: "Matthew 26:6–16"
 subtitle: "Wednesday, Presanctified Liturgy"
 related: ["annointing-by-mary-of-bethany", "annointing-triumphal-entry"]
-direct: ["mary-of-bethany"]
 prev_slug: "holy-week-wednesday-bridegroom-matins"
 next_slug: "holy-week-thursday-bridegroom-matins"
 ---

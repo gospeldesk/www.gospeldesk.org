@@ -7,6 +7,8 @@ excerpt: "Matthew 4:12–17"
 noindex: true
 ref: "Matthew 4:12–17"
 related: ["jesus-begins-his-ministry"]
+direct: ["jesus", "john", "isaiah", "god"]
+indirect: ["the-prophet", "gentiles"]
 prev_slug: "temptation-matthew"
 next_slug: "fishers-of-men-matthew"
 ---

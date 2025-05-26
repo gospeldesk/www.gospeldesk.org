@@ -6,6 +6,8 @@ book: "Matthew"
 excerpt: "Matthew 18:23–35"
 noindex: true
 ref: "Matthew 18:23–35"
+direct: ["lord", "father"]
+indirect: ["king", "servants", "lord", "wife", "children", "tormentors"]
 prev_slug: "parable-of-the-lost-sheep"
 next_slug: "divorce-matthew"
 ---

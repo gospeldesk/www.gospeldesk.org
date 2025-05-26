@@ -8,6 +8,8 @@ noindex: true
 ref: "Matthew 7:24–8:4"
 subtitle: "Rock and Sand; Healing a Leper"
 related: ["leper-mark", "sermon-on-the-plain-rock-and-sand", "leper-luke"]
+direct: ["jesus", "lord", "moses"]
+indirect: ["scribes", "leper", "priest"]
 prev_slug: "sermon-on-the-mount-golden-rule-narrow-gate-false-prophets"
 next_slug: "centurion-matthew"
 ---

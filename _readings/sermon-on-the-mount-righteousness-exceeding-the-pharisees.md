@@ -7,6 +7,7 @@ excerpt: "Matthew 5:20–26"
 noindex: true
 ref: "Matthew 5:20–26"
 subtitle: "Righteousness Exceeding the Pharisees"
+indirect: ["scribes", "pharisees", "adversary", "brother", "prosecutor"]
 prev_slug: "sermon-on-the-mount-light-of-the-world-law-and-prophets"
 next_slug: "sermon-on-the-mount-adultery-divorce"
 ---

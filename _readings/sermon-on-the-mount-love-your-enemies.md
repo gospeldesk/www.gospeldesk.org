@@ -8,6 +8,8 @@ noindex: true
 ref: "Matthew 5:42–48"
 subtitle: "Love Your Enemies"
 related: ["sermon-on-the-plain-woes", "sermon-on-the-plain-love-your-enemies"]
+direct: ["father"]
+indirect: ["tax", "collectors"]
 prev_slug: "sermon-on-the-mount-swearing-resistance"
 next_slug: "sermon-on-the-mount-almsgiving-prayer"
 ---

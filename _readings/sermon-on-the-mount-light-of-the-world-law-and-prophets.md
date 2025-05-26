@@ -8,6 +8,8 @@ noindex: true
 ref: "Matthew 5:14–19"
 subtitle: "Light of the World; Law and Prophets"
 related: ["farmer-explained-lamp", "lamp-mother-brothers"]
+direct: ["father"]
+indirect: ["men", "prophets"]
 prev_slug: "sermon-on-the-mount-beatitudes-salt-of-the-earth"
 next_slug: "sermon-on-the-mount-righteousness-exceeding-the-pharisees"
 ---

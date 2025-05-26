@@ -6,6 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 23:23–28"
 noindex: true
 ref: "Matthew 23:23–28"
+indirect: ["scribes", "pharisees", "hypocrites", "blind-guides"]
 prev_slug: "woe-blind-fools"
 next_slug: "woe-serpents"
 ---

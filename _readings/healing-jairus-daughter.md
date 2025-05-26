@@ -7,6 +7,8 @@ excerpt: "Mark 5:21–6:1"
 noindex: true
 ref: "Mark 5:21–6:1"
 related: ["two-healings-matthew", "two-healings-luke", "healing-a-noblemans-son"]
+direct: ["jesus", "god", "legion", "demons", "lord"]
+indirect: ["man", "unclean-spirit", "people"]
 prev_slug: "gadarene-demoniac-mark"
 next_slug: "healing-a-woman"
 ---

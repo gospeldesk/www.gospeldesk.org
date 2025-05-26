@@ -7,6 +7,8 @@ excerpt: "Matthew 3:13–17"
 noindex: true
 ref: "Matthew 3:13–17"
 related: ["john-imprisoned-baptism", "jesus-begins-his-ministry"]
+direct: ["jesus", "john", "god"]
+indirect: ["voice-of-the-heavens"]
 prev_slug: "john-the-forerunner-matthew"
 next_slug: "temptation-matthew"
 ---

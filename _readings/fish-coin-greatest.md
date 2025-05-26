@@ -7,6 +7,8 @@ excerpt: "Matthew 17:24–18:11"
 noindex: true
 ref: "Matthew 17:24–18:11"
 related: ["servant-of-all-mark", "stumbling", "greatest-in-the-kingdom", "divorce-stumbling"]
+direct: ["peter", "jesus", "simon", "father"]
+indirect: ["kings-of-the-earth", "children", "strangers", "disciples", "angels", "son-of-man"]
 prev_slug: "faithless-generation-matthew"
 next_slug: "parable-of-the-lost-sheep"
 ---

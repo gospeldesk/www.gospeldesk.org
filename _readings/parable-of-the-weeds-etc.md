@@ -7,6 +7,8 @@ excerpt: "Matthew 13:24–43"
 noindex: true
 ref: "Matthew 13:24–43"
 related: ["parable-of-the-mustard-seed-mark", "mustard-seed-yeast-narrow-door"]
+direct: ["jesus", "son-of-man", "father"]
+indirect: ["servants", "reapers", "woman", "multitudes", "prophet", "disciples", "children-of-the-kingdom", "children", "devil", "reapers", "angels"]
 prev_slug: "parable-of-the-farmer-explained-matthew"
 next_slug: "parables-of-the-treasure-the-pearl-and-the-net"
 ---

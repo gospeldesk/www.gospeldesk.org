@@ -7,6 +7,7 @@ excerpt: "Mark 3:19–27"
 noindex: true
 ref: "Mark 3:19–27"
 related: ["by-beelzebul-matthew", "by-beelzebul-luke"]
+indirect: ["multitude", "friends", "scribes", "prince-of-demons", "demons", "satan"]
 prev_slug: "twelve-apostles-mark"
 next_slug: "blasphemy-mother-and-brothers"
 ---

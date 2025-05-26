@@ -6,6 +6,8 @@ book: "Matthew"
 excerpt: "Matthew 23:29–39"
 noindex: true
 ref: "Matthew 23:29–39"
+direct: ["abel", "zachariah", "barachiah", "lord"]
+indirect: ["scribes", "pharisees", "hypocrites", "prophets", "fathers", "children", "offspring-of-vipers", "serpents", "gehenna", "men", "children"]
 prev_slug: "woe-blind-guides"
 next_slug: "little-apocalypse-matthew"
 ---

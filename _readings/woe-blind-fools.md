@@ -6,6 +6,8 @@ book: "Matthew"
 excerpt: "Matthew 23:13–22"
 noindex: true
 ref: "Matthew 23:13–22"
+direct: ["god"]
+indirect: ["scribes", "pharisees", "hypocrites", "widows", "son-of-gehenna", "proselyte", "blind-guides", "blind-fools"]
 prev_slug: "call-no-man-father"
 next_slug: "woe-blind-guides"
 ---

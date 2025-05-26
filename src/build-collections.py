@@ -13,32 +13,15 @@ LETTERS_NUMBERS = string.ascii_letters + string.digits
 SKIP = "'"
 GOSPELS = 'Matthew Mark Luke John'.split()
 
-# Load dates.
-dates_csv = csv.reader(open('dates.csv'))
-next(dates_csv) # skip headers
-dates_by_pericope_id = defaultdict(list)
-for pericope_id, date in dates_csv:
-    dates_by_pericope_id[int(pericope_id)].append(date)
-
-# Load verses.
-gospels_csv = csv.reader(open('gospels.csv'))
-WEB = defaultdict(lambda: defaultdict(dict))
-for b,c,v,text in gospels_csv:
-    WEB[b][int(c)][int(v)] = text
-
-BK = {
-    'MAT': 'Matt',
-    'MRK': 'Mark',
-    'LUK': 'Luke',
-    'JHN': 'John'
-}
-
 def flerp(date):
     d = datetime.date(*map(int, date.split('-')))
     url = f'https://www.oca.org/readings/daily/{d.strftime("%Y/%m/%d")}'
     return (d.strftime("%B %e, %Y"), url)
 
-def sluggize(base):
+def sluggize(title, subtitle=''):
+    base = title
+    if subtitle:
+        base += ': ' + subtitle
     chars = []
     for char in base.lower():
         if char in LETTERS_NUMBERS:
@@ -113,14 +96,24 @@ class Pericope(object):
         cls.book = ''
 
     def __init__(self, i, title, subtitle):
+        if not title:
+            raise ValueError # they should all have titles by now
+
         self.i = i
         self.title = title
         self.subtitle = subtitle
+
+        slug = sluggize(title, subtitle)
+        assert slug not in self.slugs, slug
+        self.slugs.add(slug)
+        self.slug = slug
+        if '(' in self.title:
+            self.title = self.title.split('(')[0].rstrip()
+
         self.pks = set()
         self.verse_buffer = []
         self.elements = []
-        self.direct = []
-        self.indirect = []
+        self.direct, self.indirect = characters_by_slug[self.slug]
         self.related = []
         self.prev = ''
         self.next = ''
@@ -134,10 +127,6 @@ class Pericope(object):
             self.flush_paragraph()
         elif line.startswith('>'):
             self.related = line[1:].strip().split()
-        elif line.startswith('||'):
-            self.indirect = line[2:].strip().split()
-        elif line.startswith('|'):
-            self.direct = line[1:].strip().split()
         elif line.startswith('  '):
             splitter = line.strip()
             splitter = splitter.replace('" ', '” ')
@@ -216,19 +205,6 @@ class Pericope(object):
     def flush(self):
         self.flush_paragraph()
 
-        # create slug - done late so ref is available
-        if not self.title:
-            self.title = self.ref
-        slug_base = self.title
-        if self.subtitle:
-            slug_base += ': ' + self.subtitle
-        slug = sluggize(slug_base)
-        assert slug not in self.slugs, slug
-        self.slugs.add(slug)
-        self.slug = slug
-        if '(' in self.title:
-            self.title = self.title.split('(')[0].rstrip()
-
     def write(self):
         if self.title == self.ref:
             excerpt = ''
@@ -306,6 +282,42 @@ noindex: true
             if self.subtitle:
                 csv_title += ': ' + self.subtitle
             print(f'"{csv_ref}","=HYPERLINK(""https://www.gospeldesk.org/readings/{csv_slug}/"", ""{csv_title}"")"')
+
+# Load dates.
+dates_csv = csv.reader(open('dates.csv'))
+next(dates_csv) # skip headers
+dates_by_pericope_id = defaultdict(list)
+for pericope_id, date in dates_csv:
+    dates_by_pericope_id[int(pericope_id)].append(date)
+
+# Load characters.
+characters_csv = csv.reader(open('characters.csv'))
+next(characters_csv) # skip headers
+characters_by_slug = defaultdict(lambda: [None, None])
+def clean(chars):
+    out = []
+    for c in chars.split():
+        out.append(c.lower())
+    return out
+slugs_by_character = defaultdict(list)
+for passage, title, direct, indirect in characters_csv:
+    slug = sluggize(title)
+    characters_by_slug[slug][0] = clean(direct)
+    characters_by_slug[slug][1] = clean(indirect)
+
+# Load verses.
+gospels_csv = csv.reader(open('gospels.csv'))
+WEB = defaultdict(lambda: defaultdict(dict))
+for b,c,v,text in gospels_csv:
+    WEB[b][int(c)][int(v)] = text
+
+BK = {
+    'MAT': 'Matt',
+    'MRK': 'Mark',
+    'LUK': 'Luke',
+    'JHN': 'John'
+}
+
 
 if __name__ == '__main__':
     if '-d' in sys.argv:

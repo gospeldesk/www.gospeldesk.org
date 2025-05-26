@@ -7,7 +7,6 @@ excerpt: "John 12:1–18"
 noindex: true
 ref: "John 12:1–18"
 related: ["triumphal-entry-matthew", "triumphal-entry-mark", "triumphal-entry-luke", "holy-week-wednesday-presanctified-liturgy", "annointing-by-mary-of-bethany"]
-direct: ["mary-of-bethany"]
 prev_slug: "council"
 next_slug: "coming-of-the-hour"
 ---

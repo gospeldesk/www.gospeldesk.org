@@ -7,8 +7,8 @@ excerpt: "Matthew 15:21–28"
 noindex: true
 ref: "Matthew 15:21–28"
 related: ["syrophoenician-woman"]
-direct: ["jesus", "justa"]
-indirect: ["justa-daughter"]
+direct: ["jesus", "lord"]
+indirect: ["canaanite-woman", "son-of-david", "disciples", "children", "master", "woman"]
 prev_slug: "out-of-the-heart"
 next_slug: "healing-great-multitudes"
 ---

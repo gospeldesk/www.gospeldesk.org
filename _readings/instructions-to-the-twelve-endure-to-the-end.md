@@ -7,6 +7,8 @@ excerpt: "Matthew 10:16–22"
 noindex: true
 ref: "Matthew 10:16–22"
 subtitle: "Endure to the End"
+direct: ["father"]
+indirect: ["men", "governors", "and", "kings", "brother", "parents", "children"]
 prev_slug: "instructions-to-the-twelve-shake-the-dust"
 next_slug: "instructions-to-the-twelve-dont-be-afraid"
 ---

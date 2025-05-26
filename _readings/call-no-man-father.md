@@ -6,6 +6,8 @@ book: "Matthew"
 excerpt: "Matthew 23:1–12"
 noindex: true
 ref: "Matthew 23:1–12"
+direct: ["jesus", "mose", "christ", "father"]
+indirect: ["multitudes", "disciples", "scribes", "pharisees", "rabbi", "brothers", "father", "master", "servant"]
 prev_slug: "wise-scribe-matthew"
 next_slug: "woe-blind-fools"
 ---

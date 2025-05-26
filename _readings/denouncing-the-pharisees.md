@@ -7,6 +7,8 @@ excerpt: "Matthew 14:35–15:11"
 noindex: true
 ref: "Matthew 14:35–15:11"
 related: ["conflict-with-the-pharisees"]
+direct: ["jesus", "god"]
+indirect: ["scribes", "pharisees", "disciples", "elders", "multitude", "father", "mother"]
 prev_slug: "walking-on-water-matthew"
 next_slug: "out-of-the-heart"
 ---

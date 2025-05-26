@@ -8,6 +8,7 @@ noindex: true
 ref: "Matthew 4:25–5:13"
 subtitle: "Beatitudes; Salt of the Earth"
 related: ["sermon-on-the-plain-beatitudes"]
+indirect: ["jesus", "prophets"]
 prev_slug: "fishers-of-men-matthew"
 next_slug: "sermon-on-the-mount-light-of-the-world-law-and-prophets"
 ---
