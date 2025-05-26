@@ -8,7 +8,6 @@ noindex: true
 ref: "Matthew 17:1–9"
 related: ["transfiguration-mark", "transfiguration-luke"]
 direct: ["jesus", "peter", "james,-son-of-zebedee", "john-the-theologian", "moses", "elijah", "god"]
-indirect: ["zebedee"]
 prev_slug: "take-up-your-cross-matthew"
 next_slug: "faithless-generation-matthew"
 ---
