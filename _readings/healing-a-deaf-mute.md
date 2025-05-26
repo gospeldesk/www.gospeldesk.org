@@ -6,6 +6,7 @@ book: "Mark"
 excerpt: "Mark 7:31–37"
 noindex: true
 ref: "Mark 7:31–37"
+direct: ["jesus", "disciples", "multitude", "tyre-and-sidon", "galilee", "decapolis", "deaf-mute"]
 prev_slug: "syrophoenician-woman"
 next_slug: "feeding-of-the-four-thousand-mark"
 ---

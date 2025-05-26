@@ -7,6 +7,8 @@ excerpt: "Mark 8:11–21"
 noindex: true
 ref: "Mark 8:11–21"
 related: ["yeast-of-the-pharisees-matthew", "demand-for-a-sign-matthew", "demand-for-a-sign-luke"]
+direct: ["jesus", "disciples", "pharisees"]
+indirect: ["king-herod"]
 prev_slug: "feeding-of-the-four-thousand-mark"
 next_slug: "healing-a-blind-man"
 ---

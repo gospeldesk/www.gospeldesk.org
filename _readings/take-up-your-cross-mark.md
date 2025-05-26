@@ -7,6 +7,8 @@ excerpt: "Mark 8:34–9:1"
 noindex: true
 ref: "Mark 8:34–9:1"
 related: ["take-up-your-cross-matthew", "take-up-your-cross-luke"]
+direct: ["jesus", "disciples", "multitude"]
+indirect: ["god", "angels"]
 prev_slug: "confession-and-rebuke-of-peter-mark"
 next_slug: "transfiguration-mark"
 ---

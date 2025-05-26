@@ -1,3 +1,0 @@
----
-name: "Herd of Pigs"
----

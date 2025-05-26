@@ -7,6 +7,7 @@ excerpt: "Mark 5:1–20"
 noindex: true
 ref: "Mark 5:1–20"
 related: ["gergesene-demoniacs", "gadarene-demoniac-luke"]
+direct: ["jesus", "disciples", "gergasenes", "gergasene-demoniac", "legion", "swine", "swineherds", "decapolis"]
 prev_slug: "rebuking-the-storm-mark"
 next_slug: "healing-jairus-daughter"
 ---

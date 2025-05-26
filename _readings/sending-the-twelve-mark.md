@@ -7,6 +7,7 @@ excerpt: "Mark 6:7–13"
 noindex: true
 ref: "Mark 6:7–13"
 related: ["instructions-to-the-twelve-freely-give", "instructions-to-the-twelve-shake-the-dust", "sending-the-twelve-luke"]
+direct: ["jesus", "the-twelve", "sodom-and-gomorrah", "diseased", "demons"]
 prev_slug: "a-prophet-without-honor-mark"
 next_slug: "beheading-of-john-mark"
 ---

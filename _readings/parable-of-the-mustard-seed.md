@@ -7,6 +7,8 @@ excerpt: "Mark 4:24–34"
 noindex: true
 ref: "Mark 4:24–34"
 related: ["parable-of-the-weeds-etc", "mustard-seed-yeast-narrow-door"]
+direct: ["jesus", "disciples", "multitude"]
+indirect: ["god"]
 prev_slug: "farmer-explained-lamp"
 next_slug: "rebuking-the-storm-mark"
 ---

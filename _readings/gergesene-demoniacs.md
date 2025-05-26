@@ -7,7 +7,7 @@ excerpt: "Matthew 8:28–9:1"
 noindex: true
 ref: "Matthew 8:28–9:1"
 related: ["gadarene-demoniac-mark", "gadarene-demoniac-luke"]
-direct: ["jesus", "gergesenes", "gergesene-demoniac", "demons", "herd-of-pigs", "swineherds"]
+direct: ["jesus", "gergesenes", "gergesene-demoniac", "legion", "swine", "swineherds"]
 indirect: ["god"]
 prev_slug: "rebuking-the-storm-matthew"
 next_slug: "paralytic-matthew"

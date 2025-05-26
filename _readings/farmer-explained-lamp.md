@@ -7,6 +7,8 @@ excerpt: "Mark 4:10–23"
 noindex: true
 ref: "Mark 4:10–23"
 related: ["parable-of-the-farmer-explained-matthew", "sermon-on-the-mount-light-of-the-world-law-and-prophets", "parable-of-the-farmer-luke", "lamp-mother-brothers"]
+direct: ["jesus", "disciples", "the-twelve"]
+indirect: ["multitude"]
 prev_slug: "parable-of-the-farmer-mark"
 next_slug: "parable-of-the-mustard-seed"
 ---

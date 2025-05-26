@@ -7,6 +7,8 @@ excerpt: "Mark 6:1–7"
 noindex: true
 ref: "Mark 6:1–7"
 related: ["a-prophet-without-honor-matthew", "a-prophet-without-honor-luke"]
+direct: ["jesus", "disciples", "nazareth", "the-twelve"]
+indirect: ["mary", "james,-brother-of-the-lord", "joses,-brother-of-the-lord", "simon,-brother-of-the-lord", "judas,-brother-of-the-lord", "jesus'-sisters"]
 prev_slug: "healing-a-woman"
 next_slug: "sending-the-twelve-mark"
 ---

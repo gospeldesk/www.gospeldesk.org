@@ -7,6 +7,7 @@ excerpt: "Mark 6:45–53"
 noindex: true
 ref: "Mark 6:45–53"
 related: ["walking-on-water-matthew", "walking-on-water-john"]
+direct: ["jesus", "the-twelve", "bethsaida", "multitude", "sea-of-galilee", "gennesaret"]
 prev_slug: "feeding-of-the-five-thousand-mark"
 next_slug: "conflict-with-the-pharisees"
 ---

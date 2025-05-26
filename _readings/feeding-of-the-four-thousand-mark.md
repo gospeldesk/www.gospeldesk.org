@@ -7,6 +7,7 @@ excerpt: "Mark 8:1–10"
 noindex: true
 ref: "Mark 8:1–10"
 related: ["feeding-of-the-four-thousand"]
+direct: ["jesus", "disciples", "multitude", "dalmanutha"]
 prev_slug: "healing-a-deaf-mute"
 next_slug: "yeast-of-the-pharisees-mark"
 ---

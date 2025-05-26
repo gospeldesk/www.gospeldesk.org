@@ -1,3 +1,0 @@
----
-name: "Herod's Guests"
----
