@@ -6,6 +6,8 @@ book: "Mark"
 excerpt: "Mark 11:22–26"
 noindex: true
 ref: "Mark 11:22–26"
+direct: ["jesus", "disciples", "multitude"]
+indirect: ["god"]
 prev_slug: "cleansing-the-temple-mark"
 next_slug: "by-what-authority-mark"
 ---

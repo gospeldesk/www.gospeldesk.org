@@ -7,6 +7,8 @@ excerpt: "Mark 10:2–12"
 noindex: true
 ref: "Mark 10:2–12"
 related: ["divorce-matthew", "divorce-stumbling"]
+direct: ["jesus", "disciples", "multitude", "pharisees"]
+indirect: ["moses", "god"]
 prev_slug: "stumbling"
 next_slug: "divorce-and-children"
 ---

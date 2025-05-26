@@ -7,6 +7,8 @@ excerpt: "Mark 11:11–23"
 noindex: true
 ref: "Mark 11:11–23"
 related: ["cleansing-the-temple-matthew", "cleansing-the-temple-luke", "cleansing-the-temple-john"]
+direct: ["jesus", "disciples", "multitude", "the-twelve", "bethany", "jerusalem", "temple", "fig-tree", "chief-priests", "scribes", "peter"]
+indirect: ["god"]
 prev_slug: "triumphal-entry-mark"
 next_slug: "faith-forgiveness-prayer"
 ---

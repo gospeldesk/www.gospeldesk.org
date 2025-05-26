@@ -7,6 +7,8 @@ excerpt: "Mark 12:28–37"
 noindex: true
 ref: "Mark 12:28–37"
 related: ["wise-scribe-matthew"]
+direct: ["jesus", "disciples", "multitude", "temple", "wise-scribe"]
+indirect: ["israel", "god", "david"]
 prev_slug: "marriage-in-the-resurrection-mark"
 next_slug: "widows-mite-mark"
 ---

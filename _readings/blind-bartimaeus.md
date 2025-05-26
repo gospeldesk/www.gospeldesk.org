@@ -7,6 +7,8 @@ excerpt: "Mark 10:46–52"
 noindex: true
 ref: "Mark 10:46–52"
 related: ["two-blind-men", "two-blind-men-mute-man"]
+direct: ["jesus", "disciples", "multitude", "jericho", "bartimaeus"]
+indirect: ["david"]
 prev_slug: "cost-of-discipleship"
 next_slug: "triumphal-entry-mark"
 ---
