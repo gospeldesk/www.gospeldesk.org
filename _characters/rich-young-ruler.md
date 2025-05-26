@@ -1,0 +1,3 @@
+---
+name: "Rich Young Ruler"
+---
