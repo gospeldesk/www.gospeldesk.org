@@ -1,3 +1,3 @@
 ---
-name: "Sodom And Gomorrah"
+name: "Sodom and Gomorrah"
 ---

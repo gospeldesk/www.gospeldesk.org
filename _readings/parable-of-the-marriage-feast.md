@@ -6,6 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 22:1–14"
 noindex: true
 ref: "Matthew 22:1–14"
+direct: ["jesus", "temple", "chief-priests", "elders"]
 prev_slug: "cornerstone"
 next_slug: "taxes-to-caesar-matthew"
 ---

@@ -6,6 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 25:1–13"
 noindex: true
 ref: "Matthew 25:1–13"
+direct: ["jesus", "disciples"]
 prev_slug: "little-apocalypse-matthew"
 next_slug: "parable-of-the-talents"
 ---

@@ -7,6 +7,8 @@ excerpt: "Matthew 24:1–51"
 noindex: true
 ref: "Matthew 24:1–51"
 related: ["little-apocalypse-mark", "little-apocalypse-luke", "treasure-watchfulness", "faithful-or-unfaithful-steward"]
+direct: ["jesus", "disciples", "temple", "mount-of-olives"]
+indirect: ["false-prophets", "abomination-of-desolation", "daniel", "judea", "angels", "fig-tree", "god", "noah"]
 prev_slug: "woe-serpents"
 next_slug: "parable-of-the-ten-virgins"
 ---

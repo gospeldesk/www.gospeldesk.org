@@ -7,6 +7,8 @@ excerpt: "Matthew 21:23–27"
 noindex: true
 ref: "Matthew 21:23–27"
 related: ["by-what-authority-mark", "by-what-authority-luke"]
+direct: ["jesus", "temple", "chief-priests", "elders"]
+indirect: ["john-the-forerunner"]
 prev_slug: "cleansing-the-temple-matthew"
 next_slug: "parable-of-the-two-brothers"
 ---

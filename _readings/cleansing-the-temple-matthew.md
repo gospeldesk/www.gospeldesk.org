@@ -7,6 +7,7 @@ excerpt: "Matthew 21:12–22"
 noindex: true
 ref: "Matthew 21:12–22"
 related: ["cleansing-the-temple-mark", "cleansing-the-temple-luke", "cleansing-the-temple-john"]
+direct: ["jesus", "temple", "money-changers", "diseased", "bethany", "fig-tree", "disciples"]
 prev_slug: "triumphal-entry-matthew"
 next_slug: "by-what-authority-matthew"
 ---

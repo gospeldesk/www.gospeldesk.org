@@ -6,6 +6,8 @@ book: "Matthew"
 excerpt: "Matthew 23:29–39"
 noindex: true
 ref: "Matthew 23:29–39"
+direct: ["jesus", "temple"]
+indirect: ["scribes", "pharisees", "prophets", "abel", "zachariah", "bachariah"]
 prev_slug: "woe-blind-guides"
 next_slug: "little-apocalypse-matthew"
 ---

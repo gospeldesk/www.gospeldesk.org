@@ -6,6 +6,8 @@ book: "Matthew"
 excerpt: "Matthew 25:31–46"
 noindex: true
 ref: "Matthew 25:31–46"
+direct: ["jesus", "disciples"]
+indirect: ["angels", "god", "satan", "demons"]
 prev_slug: "parable-of-the-talents"
 next_slug: "john-the-forerunner-mark"
 ---

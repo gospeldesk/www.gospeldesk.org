@@ -6,6 +6,8 @@ book: "Matthew"
 excerpt: "Matthew 23:13–22"
 noindex: true
 ref: "Matthew 23:13–22"
+direct: ["jesus", "temple"]
+indirect: ["scribes", "pharisees", "god"]
 prev_slug: "call-no-man-father"
 next_slug: "woe-blind-guides"
 ---
