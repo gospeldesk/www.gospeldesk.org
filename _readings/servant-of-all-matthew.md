@@ -7,7 +7,7 @@ excerpt: "Matthew 20:17–28"
 noindex: true
 ref: "Matthew 20:17–28"
 related: ["cost-of-discipleship"]
-direct: ["jesus", "jerusalem", "twelve", "salome", "james,-son-of-zebedee", "john-the-theologian"]
+direct: ["jesus", "jerusalem", "the-twelve", "salome", "james,-son-of-zebedee", "john-the-theologian"]
 indirect: ["zebedee", "god"]
 prev_slug: "parable-of-the-eleventh-hour"
 next_slug: "two-blind-men"
