@@ -89,12 +89,9 @@ def main():
 
     for char in characters:
         filepath = f'../_characters/{char}.md'
-        name = char.title() \
-                   .replace('-', ' ') \
-                   .replace(' Of ', ' of ') \
-                   .replace(' The ', ' the ') \
-                   .replace(' From ', ' from ') \
-                   .replace("'S ", "'s ")
+        name = char.title().replace('-', ' ').replace("'S ", "'s ")
+        for word in 'Of The From And'.split():
+            name = name.replace(f' {word} ', f' {word.lower()} ')
         open(filepath, 'w+').write(f'''\
 ---
 name: "{name}"
