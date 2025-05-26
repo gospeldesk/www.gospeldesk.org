@@ -1,3 +1,3 @@
 ---
-name: "People From Jerusalem"
+name: "People from Jerusalem"
 ---

@@ -29,7 +29,8 @@ layout: default
 <h4>Directly</h4>
 {% endif %}
 <ol>
-{% for slug in page.direct %}
+{% assign direct = page.direct | sort %}
+{% for slug in direct %}
   {% assign person =  site.characters | where:"slug", slug | first %}
   <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
 {% endfor %}
@@ -41,7 +42,8 @@ layout: default
 <h4>Indirectly</h4>
 {% endif %}
 <ol>
-{% for slug in page.indirect %}
+{% assign indirect = page.indirect | sort %}
+{% for slug in indirect %}
   {% assign person =  site.characters | where:"slug", slug | first %}
   <li>{% if person != nil %}<a href="{{person.id}}">{{ person.name }}</a>{% else %}MISSING: {{ slug }}{% endif %}</li>
 {% endfor %}

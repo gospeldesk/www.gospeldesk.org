@@ -92,7 +92,8 @@ def main():
         name = char.title() \
                    .replace('-', ' ') \
                    .replace(' Of ', ' of ') \
-                   .replace(' The ', ' the ')
+                   .replace(' The ', ' the ') \
+                   .replace(' From ', ' from ')
         open(filepath, 'w+').write(f'''\
 ---
 name: "{name}"
@@ -310,12 +311,14 @@ characters_csv = csv.reader(open('characters.csv'))
 next(characters_csv) # skip headers
 characters_by_slug = defaultdict(lambda: [None, None])
 characters = set()
-for passage, slug, title, direct, indirect in characters_csv:
-    direct = direct.split()
+for row in characters_csv:
+    slug = row[1]
+
+    direct = row[3].split()
     characters |= set(direct)
     characters_by_slug[slug][0] = direct
 
-    indirect = indirect.split()
+    indirect = row[4].split()
     characters |= set(indirect)
     characters_by_slug[slug][1] = indirect
 
