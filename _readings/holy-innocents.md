@@ -6,8 +6,8 @@ book: "Matthew"
 excerpt: "Matthew 2:13–23"
 noindex: true
 ref: "Matthew 2:13–23"
-direct: ["joseph", "herod", "jeremiah", "rachel", "mary", "archelau", "nazarene"]
-indirect: ["angel", "young-child", "prophet", "male-children"]
+direct: ["dream-angel", "joseph", "jesus", "mary", "egypt", "herod", "holy-innocents", "bethlehem", "israel", "galilee", "nazareth"]
+indirect: ["wise-men", "jesus", "mary", "egypt", "herod", "god", "isaiah", "jeremiah", "ramah", "rachel", "archelaus"]
 prev_slug: "wise-men"
 next_slug: "john-the-forerunner-matthew"
 ---

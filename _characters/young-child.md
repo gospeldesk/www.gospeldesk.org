@@ -1,3 +1,0 @@
----
-name: "Young Child"
----

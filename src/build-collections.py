@@ -308,17 +308,18 @@ for pericope_id, date in dates_csv:
 
 # Load characters.
 characters_csv = csv.reader(open('characters.csv'))
-next(characters_csv) # skip headers
+characters_headers = next(characters_csv) # skip headers
 characters_by_slug = defaultdict(lambda: [None, None])
 characters = set()
 for row in characters_csv:
-    slug = row[1]
+    rec = dict(zip(characters_headers, row))
+    slug = rec['Slug']
 
-    direct = row[3].split()
+    direct = rec['Direct'].split()
     characters |= set(direct)
     characters_by_slug[slug][0] = direct
 
-    indirect = row[4].split()
+    indirect = rec['Indirect'].split()
     characters |= set(indirect)
     characters_by_slug[slug][1] = indirect
 
