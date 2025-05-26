@@ -7,6 +7,7 @@ excerpt: "Matthew 13:3–9"
 noindex: true
 ref: "Matthew 13:3–9"
 related: ["parable-of-the-farmer-mark", "parable-of-the-farmer-luke"]
+direct: ["jesus", "multitude"]
 prev_slug: "who-is-my-mother"
 next_slug: "parable-of-the-farmer-explained-matthew"
 ---

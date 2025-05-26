@@ -7,6 +7,7 @@ excerpt: "Matthew 15:32–39"
 noindex: true
 ref: "Matthew 15:32–39"
 related: ["feeding-of-the-four-thousand-mark"]
+direct: ["jesus", "disciples", "multitude"]
 prev_slug: "healing-great-multitudes"
 next_slug: "second-demand-for-a-sign"
 ---

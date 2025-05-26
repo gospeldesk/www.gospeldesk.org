@@ -7,6 +7,8 @@ excerpt: "Matthew 16:13–19"
 noindex: true
 ref: "Matthew 16:13–19"
 related: ["confession-and-rebuke-of-peter-mark", "confession-of-peter-luke"]
+direct: ["jesus", "caesarea-philippi", "disciples", "peter"]
+indirect: ["john-the-forerunner", "elijah", "jeremiah", "prophets", "god"]
 prev_slug: "yeast-of-the-pharisees-matthew"
 next_slug: "rebuke-of-peter"
 ---

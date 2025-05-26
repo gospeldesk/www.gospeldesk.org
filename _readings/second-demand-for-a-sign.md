@@ -6,6 +6,8 @@ book: "Matthew"
 excerpt: "Matthew 16:1–6"
 noindex: true
 ref: "Matthew 16:1–6"
+direct: ["jesus", "disciples", "pharisees", "sadducees"]
+indirect: ["jonah"]
 prev_slug: "feeding-of-the-four-thousand"
 next_slug: "yeast-of-the-pharisees-matthew"
 ---

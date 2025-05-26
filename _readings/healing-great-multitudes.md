@@ -6,6 +6,8 @@ book: "Matthew"
 excerpt: "Matthew 15:29–31"
 noindex: true
 ref: "Matthew 15:29–31"
+direct: ["jesus", "galilee", "multitude", "diseased"]
+indirect: ["god", "israel"]
 prev_slug: "canaanite-woman"
 next_slug: "feeding-of-the-four-thousand"
 ---

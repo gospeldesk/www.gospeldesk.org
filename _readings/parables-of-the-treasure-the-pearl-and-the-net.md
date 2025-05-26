@@ -6,6 +6,8 @@ book: "Matthew"
 excerpt: "Matthew 13:44–54"
 noindex: true
 ref: "Matthew 13:44–54"
+direct: ["jesus", "disciples"]
+indirect: ["angels", "wicked", "righteous"]
 prev_slug: "parable-of-the-weeds-etc"
 next_slug: "a-prophet-without-honor-matthew"
 ---
