@@ -7,6 +7,8 @@ excerpt: "Matthew 12:14–30"
 noindex: true
 ref: "Matthew 12:14–30"
 related: ["a-great-multitude", "a-house-divided", "by-beelzebul-luke"]
+direct: ["jesus", "pharisees", "multitude", "blind-and-mute-man", "blind-and-mute-man's-demon"]
+indirect: ["isaiah", "holy-spirit", "satan"]
 prev_slug: "lord-of-the-sabbath-matthew"
 next_slug: "blasphemy-against-the-spirit"
 ---

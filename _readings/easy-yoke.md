@@ -6,6 +6,8 @@ book: "Matthew"
 excerpt: "Matthew 11:27–30"
 noindex: true
 ref: "Matthew 11:27–30"
+direct: ["jesus"]
+indirect: ["god"]
 prev_slug: "woe-to-chorazin"
 next_slug: "lord-of-the-sabbath-matthew"
 ---
