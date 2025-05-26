@@ -7,6 +7,7 @@ excerpt: "Matthew 4:18–24"
 noindex: true
 ref: "Matthew 4:18–24"
 related: ["fishers-of-men-mark"]
+direct: ["jesus", "sea-of-galilee", "peter", "andrew", "james-son-of-zebedee", "john-the-theologian", "zebedee", "galilee", "syria", "diseases", "diseased"]
 prev_slug: "jesus-begins-to-preach"
 next_slug: "sermon-on-the-mount-beatitudes-salt-of-the-earth"
 ---

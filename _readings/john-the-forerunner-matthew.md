@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 3:1–12"
 related: ["john-the-forerunner-mark", "john-the-forerunner-luke"]
 direct: ["john-the-forerunner", "judea", "jerusalem", "jordan", "pharisees", "sadducees"]
-indirect: ["isaiah", "god", "pharisees", "sadducees", "abraham", "stones", "jesus", "holy-spirit"]
+indirect: ["isaiah", "god", "abraham", "stones", "jesus", "holy-spirit"]
 prev_slug: "holy-innocents"
 next_slug: "baptism"
 ---

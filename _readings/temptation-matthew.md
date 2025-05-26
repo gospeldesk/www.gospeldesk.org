@@ -7,8 +7,8 @@ excerpt: "Matthew 4:1–11"
 noindex: true
 ref: "Matthew 4:1–11"
 related: ["jesus-begins-his-ministry", "temptation-luke"]
-direct: ["jesus", "spirit", "devil", "son-of-god", "lord", "satan"]
-indirect: ["the-tempter", "man", "angels"]
+direct: ["jesus", "holy-spirit", "satan", "jerusalem", "temple", "angels"]
+indirect: ["stones", "god"]
 prev_slug: "baptism"
 next_slug: "jesus-begins-to-preach"
 ---
