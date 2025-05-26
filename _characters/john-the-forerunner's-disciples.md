@@ -1,3 +1,3 @@
 ---
-name: "John the Forerunner'S Disciples"
+name: "John the Forerunner's Disciples"
 ---

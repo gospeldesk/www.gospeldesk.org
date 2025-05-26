@@ -93,7 +93,8 @@ def main():
                    .replace('-', ' ') \
                    .replace(' Of ', ' of ') \
                    .replace(' The ', ' the ') \
-                   .replace(' From ', ' from ')
+                   .replace(' From ', ' from ') \
+                   .replace("'S ", "'s ")
         open(filepath, 'w+').write(f'''\
 ---
 name: "{name}"
