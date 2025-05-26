@@ -309,9 +309,10 @@ characters_csv = csv.reader(open('characters.csv'))
 characters_headers = next(characters_csv) # skip headers
 characters_by_slug = defaultdict(lambda: [None, None])
 characters = set()
-for row in characters_csv:
+for i, row in enumerate(characters_csv):
     rec = dict(zip(characters_headers, row))
     if not rec['✔']:
+        print(f'{i+1} / 318 = {((i+1) / 318) * 100:.01f}% done')
         break
 
     slug = rec['Slug']

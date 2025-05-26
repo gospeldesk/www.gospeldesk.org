@@ -7,6 +7,8 @@ excerpt: "Mark 9:33–41"
 noindex: true
 ref: "Mark 9:33–41"
 related: ["fish-coin-greatest", "greatest-in-the-kingdom"]
+direct: ["jesus", "disciples", "capernaum", "the-twelve", "ignatius", "john-the-theologian"]
+indirect: ["one-not-against"]
 prev_slug: "faithless-generation-mark"
 next_slug: "stumbling"
 ---
