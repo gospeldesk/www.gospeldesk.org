@@ -8,6 +8,7 @@ noindex: true
 ref: "Mark 1:29–35"
 related: ["peters-mother-in-law-matthew", "peters-mother-in-law-luke"]
 direct: ["jesus", "capernaum", "peter", "andrew", "james,-son-of-zebedee", "john-the-theologian", "peter's-mother-in-law", "peter's-mother-in-law's-fever", "diseased", "demons"]
+indirect: ["zebedee"]
 prev_slug: "unclean-spirit-mark"
 next_slug: "leper-mark"
 ---

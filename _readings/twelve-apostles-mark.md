@@ -8,7 +8,7 @@ noindex: true
 ref: "Mark 3:13–19"
 related: ["instructions-to-the-twelve-freely-give", "twelve-apostles-luke"]
 direct: ["jesus", "disciples", "the-twelve", "peter", "andrew", "james,-son-of-zebedee", "john-the-theologian", "philip", "bartholomew", "matthew", "thomas", "james,-son-of-alphaeus", "thaddaeus", "simon-the-zealot", "judas-iscariot"]
-indirect: ["demons"]
+indirect: ["demons", "alphaeus", "zebedee"]
 prev_slug: "a-great-multitude"
 next_slug: "a-house-divided"
 ---
