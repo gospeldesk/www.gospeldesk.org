@@ -7,6 +7,8 @@ excerpt: "Mark 16:9–20"
 noindex: true
 ref: "Mark 16:9–20"
 related: ["ascension-luke"]
+direct: ["jesus", "mary-magdalene", "disciples", "cleopas", "luke", "the-twelve", "god"]
+indirect: ["mary-magdalene's-demons"]
 prev_slug: "resurrection-mark"
 next_slug: "birth-of-john-annunciation"
 ---

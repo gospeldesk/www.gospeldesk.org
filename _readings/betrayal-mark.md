@@ -7,6 +7,8 @@ excerpt: "Mark 14:43–15:1"
 noindex: true
 ref: "Mark 14:43–15:1"
 related: ["holy-week-thursday-composite", "betrayal-luke"]
+direct: ["jesus", "peter", "james,-son-of-zebedee", "john-the-theologian", "judas-iscariot", "officers", "malchus", "mark", "high-priest", "chief-priests", "elders", "scribes", "officers", "sanhedrin", "false-witnesses", "high-priest's-maid", "rooster", "high-priest's-household", "pilate"]
+indirect: ["temple", "god"]
 prev_slug: "last-supper-mark"
 next_slug: "handing-over"
 ---

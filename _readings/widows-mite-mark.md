@@ -7,6 +7,8 @@ excerpt: "Mark 12:38–44"
 noindex: true
 ref: "Mark 12:38–44"
 related: ["widows-mite-luke"]
+direct: ["jesus", "disciples", "multitude", "temple", "widow"]
+indirect: ["scribes"]
 prev_slug: "wise-scribe-mark"
 next_slug: "little-apocalypse-mark"
 ---

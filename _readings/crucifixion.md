@@ -7,6 +7,8 @@ excerpt: "Mark 15:22–41"
 noindex: true
 ref: "Mark 15:22–41"
 related: ["handing-over-and-crucifixion-luke", "handing-over-and-crucifixion-john"]
+direct: ["jesus", "officers", "multitude", "longinus", "women-disciples", "mary-magdalene", "mary", "salome", "galilee", "jerusalem"]
+indirect: ["elijah", "james,-brother-of-the-lord", "joses,-brother-of-the-lord"]
 prev_slug: "handing-over"
 next_slug: "resurrection-mark"
 ---

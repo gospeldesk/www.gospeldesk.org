@@ -7,6 +7,8 @@ excerpt: "Mark 15:1–15"
 noindex: true
 ref: "Mark 15:1–15"
 related: ["handing-over-and-crucifixion-luke", "handing-over-and-crucifixion-john"]
+direct: ["jesus", "chief-priests", "elders", "scribes", "sanhedrin", "pilate", "multitude", "barabbas"]
+indirect: ["barabbas'-insurgents"]
 prev_slug: "betrayal-mark"
 next_slug: "crucifixion"
 ---
