@@ -7,6 +7,8 @@ excerpt: "Luke 3:23–4:1"
 noindex: true
 ref: "Luke 3:23–4:1"
 related: ["genealogy-and-birth"]
+direct: ["jesus"]
+indirect: ["heli", "matthat", "levi", "melchi", "jannai", "joseph", "mattathias", "amos", "nahum", "esli", "naggai", "maath", "mattathias", "semein", "joseph", "judah", "joanan", "rhesa", "zerubbabel", "shealtiel", "neri", "melchi", "addi", "cosam", "elmodam", "er", "jose", "eliezer", "jorim", "matthat", "levi", "simeon", "judah", "joseph", "jonan", "eliakim", "melea", "menan", "mattatha", "nathan", "david", "jesse", "obed", "boaz", "salmon", "nahshon", "amminadab", "aram", "hezron", "perez", "judah", "jacob", "isaac", "abraham", "terah", "nahor", "serug", "reu", "peleg", "eber", "shelah", "cainan", "arphaxad", "shem", "noah", "lamech", "methuselah", "enoch", "jared", "mahalaleel", "cainan", "enos", "seth", "adam", "god"]
 prev_slug: "john-imprisoned-baptism"
 next_slug: "temptation-luke"
 ---

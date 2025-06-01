@@ -7,6 +7,8 @@ excerpt: "Luke 3:19–22"
 noindex: true
 ref: "Luke 3:19–22"
 related: ["beheading-of-john-matthew", "beheading-of-john-mark", "baptism", "jesus-begins-his-ministry"]
+direct: ["herod", "john-the-forerunner", "multitude", "jesus", "sky", "holy-spirit", "god"]
+indirect: ["herodias"]
 prev_slug: "john-the-forerunner-luke"
 next_slug: "genealogy"
 ---
