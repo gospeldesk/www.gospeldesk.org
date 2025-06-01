@@ -11,7 +11,9 @@ prev_slug: "levi-luke"
 next_slug: "lord-of-the-sabbath-luke"
 ---
 
-<p><span class="v">33</span>They said to him, “Why do John’s disciples often fast and pray, likewise also the disciples of the Pharisees, but yours eat and drink?”  <span class="v">34</span>He said to them, “Can you make the friends of the bridegroom fast, while the bridegroom is with them?  <span class="v">35</span>But the days will come when the bridegroom will be taken away from them. Then they will fast in those days.”  <span class="v">36</span>He also told a parable to them. “No one puts a piece from a new garment on an old garment, or else he will tear the new, and also the piece from the new will not match the old.  <span class="v">37</span>No one puts new wine into old wine skins, or else the new wine will burst the skins, and it will be spilled, and the skins will be destroyed.  <span class="v">38</span>But new wine must be put into fresh wine skins, and both are preserved.  <span class="v">39</span>No man having drunk old wine immediately desires new, for he says, ‘The old is better.’” </p>
+<p><span class="v">33</span>They said to him, “Why do John’s disciples often fast and pray, likewise also the disciples of the Pharisees, but yours eat and drink?” </p>
+<p><span class="v">34</span>He said to them, “Can you make the friends of the bridegroom fast, while the bridegroom is with them?  <span class="v">35</span>But the days will come when the bridegroom will be taken away from them. Then they will fast in those days.” </p>
+<p><span class="v">36</span>He also told a parable to them. “No one puts a piece from a new garment on an old garment, or else he will tear the new, and also the piece from the new will not match the old.  <span class="v">37</span>No one puts new wine into old wine skins, or else the new wine will burst the skins, and it will be spilled, and the skins will be destroyed.  <span class="v">38</span>But new wine must be put into fresh wine skins, and both are preserved.  <span class="v">39</span>No man having drunk old wine immediately desires new, for he says, ‘The old is better.’” </p>
 
 
 ### Upcoming Proclamations

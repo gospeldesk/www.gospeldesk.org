@@ -11,7 +11,9 @@ prev_slug: "paralytic-luke"
 next_slug: "new-wineskins-luke"
 ---
 
-<p><span class="v">27</span>After these things he went out, and saw a tax collector named Levi sitting at the tax office, and said to him, “Follow me!”  <span class="v">28</span>He left everything, and rose up and followed him.  <span class="v">29</span>Levi made a great feast for him in his house. There was a great crowd of tax collectors and others who were reclining with them.  <span class="v">30</span>Their scribes and the Pharisees murmured against his disciples, saying, “Why do you eat and drink with the tax collectors and sinners?”  <span class="v">31</span>Jesus answered them, “Those who are healthy have no need for a physician, but those who are sick do.  <span class="v">32</span>I have not come to call the righteous, but sinners to repentance.” </p>
+<p><span class="v">27</span>After these things he went out, and saw a tax collector named Levi sitting at the tax office, and said to him, “Follow me!”  <span class="v">28</span>He left everything, and rose up and followed him. </p>
+<p><span class="v">29</span>Levi made a great feast for him in his house. There was a great crowd of tax collectors and others who were reclining with them.  <span class="v">30</span>Their scribes and the Pharisees murmured against his disciples, saying, “Why do you eat and drink with the tax collectors and sinners?” </p>
+<p><span class="v">31</span>Jesus answered them, “Those who are healthy have no need for a physician, but those who are sick do.  <span class="v">32</span>I have not come to call the righteous, but sinners to repentance.” </p>
 
 
 ### Upcoming Proclamations

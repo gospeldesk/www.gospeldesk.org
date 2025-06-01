@@ -2772,32 +2772,44 @@ Luke  4:1   214 s/wilderness/wilderness.
 Luke  4:1   215
 Luke  4:2   215
 Luke  4:3   215
+
 Luke  4:4   215
+
 Luke  4:5   215
 Luke  4:6   215
 Luke  4:7   215
+
 Luke  4:8   215
+
 Luke  4:9   215
 Luke  4:10  215
 Luke  4:11  215
+
 Luke  4:12  215
+
 Luke  4:13  215
+
 Luke  4:14  215
 Luke  4:15  215
 ---- A Prophet Without Honor (Luke)
 > a-prophet-without-honor-matthew a-prophet-without-honor-mark
 Luke  4:16  216
 Luke  4:17  216
+  him. He
 Luke  4:18  216
 Luke  4:19  216
+
 Luke  4:20  216
 Luke  4:21  216
+
 Luke  4:22  216, 217
+
 Luke  4:23       217
 Luke  4:24       217
 Luke  4:25       217
 Luke  4:26       217
 Luke  4:27       217
+
 Luke  4:28       217
 Luke  4:29       217
 Luke  4:30       217
@@ -2805,17 +2817,22 @@ Luke  4:30       217
 > unclean-spirit-mark
 Luke  4:31  218
 Luke  4:32  218
+
 Luke  4:33  218
 Luke  4:34  218
+
 Luke  4:35  218
+  him!" When
 Luke  4:36  218
 ---- Peter's Mother-in-Law (Luke)
 > peters-mother-in-law-matthew peters-mother-in-law-mark
 Luke  4:37  219
 Luke  4:38  219
 Luke  4:39  219
+
 Luke  4:40  219
 Luke  4:41  219
+
 Luke  4:42  219
 Luke  4:43  219
 Luke  4:44  219
@@ -2823,46 +2840,63 @@ Luke  4:44  219
 Luke  5:1   220
 Luke  5:2   220
 Luke  5:3   220
+
 Luke  5:4   220
+
 Luke  5:5   220
+
 Luke  5:6   220
 Luke  5:7   220
+
 Luke  5:8   220
 Luke  5:9   220
 Luke  5:10  220
+  Simon. Jesus
+
 Luke  5:11  220
 ---- Leper (Luke)
 > sermon-on-the-mount-rock-and-sand-healing-a-leper leper-mark
 Luke  5:12  221
+
 Luke  5:13  221
 Luke  5:14  221
+
 Luke  5:15  221
 Luke  5:16  221
 ---- Paralytic (Luke)
 > paralytic-matthew paralytic-mark
 Luke  5:17  222
+
 Luke  5:18  222
 Luke  5:19  222
+
 Luke  5:20  222
+
 Luke  5:21  222
+
 Luke  5:22  222
 Luke  5:23  222
 Luke  5:24  222
+
 Luke  5:25  222
 Luke  5:26  222
 ---- Levi (Luke)
 > levi-matthew levi-mark
 Luke  5:27  223
 Luke  5:28  223
+
 Luke  5:29  223
 Luke  5:30  223
+
 Luke  5:31  223
 Luke  5:32  223
 ---- New Wineskins (Luke)
 > new-wineskins-matthew new-wineskins-mark
 Luke  5:33  224
+
 Luke  5:34  224
 Luke  5:35  224
+
 Luke  5:36  224
 Luke  5:37  224
 Luke  5:38  224

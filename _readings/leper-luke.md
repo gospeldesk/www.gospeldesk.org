@@ -11,7 +11,9 @@ prev_slug: "miraculous-catch"
 next_slug: "paralytic-luke"
 ---
 
-<p><span class="v">12</span>While he was in one of the cities, behold, there was a man full of leprosy. When he saw Jesus, he fell on his face, and begged him, saying, “Lord, if you want to, you can make me clean.”  <span class="v">13</span>He stretched out his hand, and touched him, saying, “I want to. Be made clean.” Immediately the leprosy left him.  <span class="v">14</span>He commanded him to tell no one, “But go your way, and show yourself to the priest, and offer for your cleansing according to what Moses commanded, for a testimony to them.”  <span class="v">15</span>But the report concerning him spread much more, and great multitudes came together to hear, and to be healed by him of their infirmities.  <span class="v">16</span>But he withdrew himself into the desert, and prayed. </p>
+<p><span class="v">12</span>While he was in one of the cities, behold, there was a man full of leprosy. When he saw Jesus, he fell on his face, and begged him, saying, “Lord, if you want to, you can make me clean.” </p>
+<p><span class="v">13</span>He stretched out his hand, and touched him, saying, “I want to. Be made clean.” Immediately the leprosy left him.  <span class="v">14</span>He commanded him to tell no one, “But go your way, and show yourself to the priest, and offer for your cleansing according to what Moses commanded, for a testimony to them.” </p>
+<p><span class="v">15</span>But the report concerning him spread much more, and great multitudes came together to hear, and to be healed by him of their infirmities.  <span class="v">16</span>But he withdrew himself into the desert, and prayed. </p>
 
 
 ### Upcoming Proclamations

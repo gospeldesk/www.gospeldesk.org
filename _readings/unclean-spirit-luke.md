@@ -7,11 +7,16 @@ excerpt: "Luke 4:31–36"
 noindex: true
 ref: "Luke 4:31–36"
 related: ["unclean-spirit-mark"]
+direct: ["jesus", "capernaum", "galilee", "man-with-an-unclean-spirit", "man-with-an-unclean-spirit's-demon"]
+indirect: ["demons", "god"]
 prev_slug: "a-prophet-without-honor-luke"
 next_slug: "peters-mother-in-law-luke"
 ---
 
-<p><span class="v">31</span>He came down to Capernaum, a city of Galilee. He was teaching them on the Sabbath day,  <span class="v">32</span>and they were astonished at his teaching, for his word was with authority.  <span class="v">33</span>In the synagogue there was a man who had a spirit of an unclean demon, and he cried out with a loud voice,  <span class="v">34</span>saying, “Ah! what have we to do with you, Jesus of Nazareth? Have you come to destroy us? I know you who you are: the Holy One of God!”  <span class="v">35</span>Jesus rebuked him, saying, “Be silent, and come out of him!” When the demon had thrown him down in the middle of them, he came out of him, having done him no harm.  <span class="v">36</span>Amazement came on all, and they spoke together, one with another, saying, “What is this word? For with authority and power he commands the unclean spirits, and they come out!” </p>
+<p><span class="v">31</span>He came down to Capernaum, a city of Galilee. He was teaching them on the Sabbath day,  <span class="v">32</span>and they were astonished at his teaching, for his word was with authority. </p>
+<p><span class="v">33</span>In the synagogue there was a man who had a spirit of an unclean demon, and he cried out with a loud voice,  <span class="v">34</span>saying, “Ah! what have we to do with you, Jesus of Nazareth? Have you come to destroy us? I know you who you are: the Holy One of God!” </p>
+<p><span class="v">35</span>Jesus rebuked him, saying, “Be silent, and come out of him!”</p>
+<p>When the demon had thrown him down in the middle of them, he came out of him, having done him no harm.  <span class="v">36</span>Amazement came on all, and they spoke together, one with another, saying, “What is this word? For with authority and power he commands the unclean spirits, and they come out!” </p>
 
 
 ### Upcoming Proclamations
