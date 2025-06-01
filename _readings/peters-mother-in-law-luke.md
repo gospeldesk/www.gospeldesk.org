@@ -7,6 +7,8 @@ excerpt: "Luke 4:37–44"
 noindex: true
 ref: "Luke 4:37–44"
 related: ["peters-mother-in-law-matthew", "peters-mother-in-law-mark"]
+direct: ["jesus", "peter", "peter's-mother-in-law", "peter’s-mother-in-law's-fever", "diseased", "demons", "multitude", "galilee"]
+indirect: ["god"]
 prev_slug: "unclean-spirit-luke"
 next_slug: "miraculous-catch"
 ---
