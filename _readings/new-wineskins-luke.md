@@ -7,6 +7,8 @@ excerpt: "Luke 5:33–39"
 noindex: true
 ref: "Luke 5:33–39"
 related: ["new-wineskins-matthew", "new-wineskins-mark"]
+direct: ["jesus", "multitude"]
+indirect: ["disciples", "john-the-forerunner's-disciples", "pharisees'-disciples", "pharisees"]
 prev_slug: "levi-luke"
 next_slug: "lord-of-the-sabbath-luke"
 ---

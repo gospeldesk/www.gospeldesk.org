@@ -7,6 +7,7 @@ excerpt: "Luke 5:27–32"
 noindex: true
 ref: "Luke 5:27–32"
 related: ["levi-matthew", "levi-mark"]
+direct: ["jesus", "matthew", "sinners", "disciples", "scribes", "pharisees"]
 prev_slug: "paralytic-luke"
 next_slug: "new-wineskins-luke"
 ---
