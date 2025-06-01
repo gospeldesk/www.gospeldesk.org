@@ -2642,18 +2642,24 @@ Luke  1:80  90008, 202,          205
 Luke  2:1   207
 Luke  2:2   207
 Luke  2:3   207
+
 Luke  2:4   207
 Luke  2:5   207
+
 Luke  2:6   207
 Luke  2:7   207
+
 Luke  2:8   207
 Luke  2:9   207
 Luke  2:10  207
 Luke  2:11  207
 Luke  2:12  207
+
 Luke  2:13  207
 Luke  2:14  207
+
 Luke  2:15  207
+
 Luke  2:16  207
 Luke  2:17  207
 Luke  2:18  207
@@ -2689,14 +2695,19 @@ Luke  2:21  208
 
 Luke  2:40  208
 Luke  2:41  208
+
 Luke  2:42  208
 Luke  2:43  208
 Luke  2:44  208
+
 Luke  2:45  208
 Luke  2:46  208
 Luke  2:47  208
+
 Luke  2:48  208
+
 Luke  2:49  208
+
 Luke  2:50  208
 Luke  2:51  208
 Luke  2:52  208

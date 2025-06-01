@@ -6,6 +6,8 @@ book: "Luke"
 excerpt: "Luke 2:22–40"
 noindex: true
 ref: "Luke 2:22–40"
+direct: ["jospeh", "mary", "jesus", "jerusalem", "simeon", "anna", "galilee", "nazareth"]
+indirect: ["holy-spirit", "god", "moses", "david", "gentiles", "israel", "phanuel", "asher"]
 prev_slug: "birth-and-shepherds"
 next_slug: "finding"
 ---
