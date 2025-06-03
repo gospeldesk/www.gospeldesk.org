@@ -6,7 +6,7 @@ book: "Luke"
 excerpt: "Luke 2:20–52"
 noindex: true
 ref: "Luke 2:20–52"
-direct: ["shepherds", "jesus", "joseph", "mary", "jerusalem", "joseph-and-mary's-relatives-and-acquaintances", "temple", "scribes", "nazareth"]
+direct: ["shepherds", "jesus", "joseph", "mary", "jerusalem", "joseph-and-marys-relatives-and-acquaintances", "temple", "scribes", "nazareth"]
 indirect: ["gabriel", "god"]
 prev_slug: "presentation"
 next_slug: "john-the-forerunner-luke"

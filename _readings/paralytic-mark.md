@@ -7,7 +7,7 @@ excerpt: "Mark 2:1–12"
 noindex: true
 ref: "Mark 2:1–12"
 related: ["paralytic-matthew", "paralytic-luke"]
-direct: ["jesus", "disciples", "multitude", "capernaum", "paralytic", "paralytic's-friends", "scribes"]
+direct: ["jesus", "disciples", "multitude", "capernaum", "paralytic", "paralytics-friends", "scribes"]
 indirect: ["god"]
 prev_slug: "leper-mark"
 next_slug: "levi-mark"

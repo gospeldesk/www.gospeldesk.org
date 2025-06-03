@@ -7,7 +7,7 @@ excerpt: "Mark 14:3–9"
 noindex: true
 ref: "Mark 14:3–9"
 related: ["holy-week-wednesday-presanctified-liturgy", "annointing-triumphal-entry"]
-direct: ["jesus", "disciples", "bethany", "simon-the-leper", "simon-the-leper's-guests", "mary-of-bethany"]
+direct: ["jesus", "disciples", "bethany", "simon-the-leper", "simon-the-lepers-guests", "mary-of-bethany"]
 prev_slug: "little-apocalypse-mark"
 next_slug: "last-supper-mark"
 ---

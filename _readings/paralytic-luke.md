@@ -7,7 +7,7 @@ excerpt: "Luke 5:17–26"
 noindex: true
 ref: "Luke 5:17–26"
 related: ["paralytic-matthew", "paralytic-mark"]
-direct: ["jesus", "pharisees", "scribes", "galilee", "judea", "jerusalem", "paralytic", "paralytic's-friends", "multitude"]
+direct: ["jesus", "pharisees", "scribes", "galilee", "judea", "jerusalem", "paralytic", "paralytics-friends", "multitude"]
 indirect: ["god"]
 prev_slug: "leper-luke"
 next_slug: "levi-luke"

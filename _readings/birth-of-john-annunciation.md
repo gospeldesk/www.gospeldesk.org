@@ -6,7 +6,7 @@ book: "Luke"
 excerpt: "Luke 1:1–80"
 noindex: true
 ref: "Luke 1:1–80"
-direct: ["herod", "zacharias", "elizabeth", "multitude", "temple", "gabriel", "galilee", "nazareth", "joseph", "mary", "jesus", "john-the-forerunner", "elizabeth's-neighbors-and-relatives"]
+direct: ["herod", "zacharias", "elizabeth", "multitude", "temple", "gabriel", "galilee", "nazareth", "joseph", "mary", "jesus", "john-the-forerunner", "elizabeths-neighbors-and-relatives"]
 indirect: ["abijah", "aaron", "god", "holy-spirit", "elijah", "david", "isael", "abraham"]
 prev_slug: "ascension-mark"
 next_slug: "birth-and-shepherds"

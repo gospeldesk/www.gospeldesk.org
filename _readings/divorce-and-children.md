@@ -7,7 +7,7 @@ excerpt: "Mark 10:11–16"
 noindex: true
 ref: "Mark 10:11–16"
 related: ["parable-of-the-lost-sheep", "children-and-the-kingdom"]
-direct: ["jesus", "disciples", "multitude", "little-children", "little-children's-parents"]
+direct: ["jesus", "disciples", "multitude", "little-children", "little-childrens-parents"]
 indirect: ["god"]
 prev_slug: "divorce-mark"
 next_slug: "rich-young-ruler-mark"

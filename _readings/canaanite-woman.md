@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 15:21–28"
 related: ["syrophoenician-woman"]
 direct: ["jesus", "disciples", "tyre-and-sidon", "justa"]
-indirect: ["berenice", "berenice's-demon", "david", "israel"]
+indirect: ["berenice", "berenices-demon", "david", "israel"]
 prev_slug: "out-of-the-heart"
 next_slug: "healing-great-multitudes"
 ---

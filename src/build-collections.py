@@ -87,8 +87,11 @@ def main():
         print('pruning', slug)
         os.unlink(f'../_readings/{slug}.md')
 
+    char_slugs = set()
     for char in characters:
-        filepath = f'../_characters/{char}.md'
+        char_slug = char.replace("'", '')
+        char_slugs.add(char_slug)
+        filepath = f'../_characters/{char_slug}.md'
         name = char.title().replace('-', ' ').replace("'S ", "'s ")
         for word in 'Of The From And'.split():
             name = name.replace(f' {word} ', f' {word.lower()} ')
@@ -98,7 +101,7 @@ name: "{name}"
 ---
 ''')
     known = {fn.split('.')[0] for fn in os.listdir('../_characters')}
-    for char in known - characters:
+    for char in known - char_slugs:
         print('pruning', char)
         os.unlink(f'../_characters/{char}.md')
 
@@ -264,9 +267,11 @@ God willing, the Church will proclaim this Gospel on <u><b><a class="next-procla
         if self.related:
             frontmatter += 'related: ["' + '", "'.join(self.related) + '"]\n'
         if self.direct:
-            frontmatter += 'direct: ["' + '", "'.join(self.direct) + '"]\n'
+            direct = [x.replace("'", '') for x in self.direct]
+            frontmatter += 'direct: ["' + '", "'.join(direct) + '"]\n'
         if self.indirect:
-            frontmatter += 'indirect: ["' + '", "'.join(self.indirect) + '"]\n'
+            indirect = [x.replace("'", '') for x in self.indirect]
+            frontmatter += 'indirect: ["' + '", "'.join(indirect) + '"]\n'
         if self.prev:
             frontmatter += 'prev_slug: "' + self.prev + '"\n'
         if self.next:

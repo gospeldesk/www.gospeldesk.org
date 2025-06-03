@@ -7,7 +7,7 @@ excerpt: "Luke 4:31–36"
 noindex: true
 ref: "Luke 4:31–36"
 related: ["unclean-spirit-mark"]
-direct: ["jesus", "capernaum", "galilee", "man-with-an-unclean-spirit", "man-with-an-unclean-spirit's-demon"]
+direct: ["jesus", "capernaum", "galilee", "man-with-an-unclean-spirit", "man-with-an-unclean-spirits-demon"]
 indirect: ["demons", "god"]
 prev_slug: "a-prophet-without-honor-luke"
 next_slug: "peters-mother-in-law-luke"

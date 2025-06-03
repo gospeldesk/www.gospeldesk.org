@@ -7,7 +7,7 @@ excerpt: "Mark 1:23–28"
 noindex: true
 ref: "Mark 1:23–28"
 related: ["unclean-spirit-luke"]
-direct: ["jesus", "capernaum", "man-with-an-unclean-spirit", "man-with-an-unclean-spirit's-demon", "galilee"]
+direct: ["jesus", "capernaum", "man-with-an-unclean-spirit", "man-with-an-unclean-spirits-demon", "galilee"]
 indirect: ["god"]
 prev_slug: "fishers-of-men-mark"
 next_slug: "peters-mother-in-law-mark"

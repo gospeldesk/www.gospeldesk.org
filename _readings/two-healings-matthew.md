@@ -7,7 +7,7 @@ excerpt: "Matthew 9:18–26"
 noindex: true
 ref: "Matthew 9:18–26"
 related: ["healing-jairus-daughter", "healing-a-woman", "two-healings-luke", "healing-a-noblemans-son"]
-direct: ["jesus", "disciples", "jairus", "jairus'-daughter", "veronica", "jairus'-household"]
+direct: ["jesus", "disciples", "jairus", "jairus-daughter", "veronica", "jairus-household"]
 prev_slug: "new-wineskins-matthew"
 next_slug: "two-blind-men-mute-man"
 ---

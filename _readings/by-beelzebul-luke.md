@@ -7,7 +7,7 @@ excerpt: "Luke 11:14–26"
 noindex: true
 ref: "Luke 11:14–26"
 related: ["by-beelzebul-matthew", "a-great-multitude", "a-house-divided"]
-direct: ["jesus", "disciples", "multitude", "mute-man", "mute-man's-demon"]
+direct: ["jesus", "disciples", "multitude", "mute-man", "mute-mans-demon"]
 indirect: ["satan", "god", "demons"]
 prev_slug: "prayer"
 next_slug: "demand-for-a-sign-luke"

@@ -8,7 +8,7 @@ noindex: true
 ref: "Mark 5:24–34"
 related: ["two-healings-matthew", "two-healings-luke"]
 direct: ["jesus", "disciples", "multitude", "veronica"]
-indirect: ["veronica's-physicians"]
+indirect: ["veronicas-physicians"]
 prev_slug: "healing-jairus-daughter"
 next_slug: "a-prophet-without-honor-mark"
 ---

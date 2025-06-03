@@ -7,7 +7,7 @@ excerpt: "Matthew 22:15–22"
 noindex: true
 ref: "Matthew 22:15–22"
 related: ["taxes-to-caesar-mark", "taxes-to-caesar-luke"]
-direct: ["jesus", "temple", "pharisees", "pharisees'-disciples", "herodians"]
+direct: ["jesus", "temple", "pharisees", "pharisees-disciples", "herodians"]
 indirect: ["god", "caesar"]
 prev_slug: "parable-of-the-marriage-feast"
 next_slug: "marriage-in-the-resurrection-matthew"

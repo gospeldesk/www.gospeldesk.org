@@ -7,7 +7,7 @@ excerpt: "Matthew 14:1–13"
 noindex: true
 ref: "Matthew 14:1–13"
 related: ["beheading-of-john-mark", "john-imprisoned-baptism", "herod-perplexed-apostles-return"]
-direct: ["king-herod", "john-the-forerunner", "herodias", "philip-the-tetrarch", "herodias'-daughter", "king-herod's-guests", "john's-disciples"]
+direct: ["king-herod", "john-the-forerunner", "herodias", "philip-the-tetrarch", "herodias-daughter", "king-herods-guests", "johns-disciples"]
 indirect: ["jesus", "multitude"]
 prev_slug: "a-prophet-without-honor-matthew"
 next_slug: "feeding-of-the-five-thousand-matthew"

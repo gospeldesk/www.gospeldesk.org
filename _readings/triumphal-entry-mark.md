@@ -7,7 +7,7 @@ excerpt: "Mark 11:1–11"
 noindex: true
 ref: "Mark 11:1–11"
 related: ["triumphal-entry-matthew", "triumphal-entry-luke", "annointing-triumphal-entry"]
-direct: ["jesus", "disciples", "multitude", "jerusalem", "bethsphage", "bethany", "donkey", "donkey's", "owner", "temple"]
+direct: ["jesus", "disciples", "multitude", "jerusalem", "bethsphage", "bethany", "donkey", "donkeys", "owner", "temple"]
 indirect: ["god", "david"]
 prev_slug: "blind-bartimaeus"
 next_slug: "cleansing-the-temple-mark"

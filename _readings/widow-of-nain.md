@@ -6,7 +6,7 @@ book: "Luke"
 excerpt: "Luke 7:11–16"
 noindex: true
 ref: "Luke 7:11–16"
-direct: ["jesus", "disciples", "multitude", "nain", "widow-of-nain", "widow-of-nain's-son"]
+direct: ["jesus", "disciples", "multitude", "nain", "widow-of-nain", "widow-of-nains-son"]
 prev_slug: "centurion-luke"
 next_slug: "john-is-more-than-a-prophet"
 ---

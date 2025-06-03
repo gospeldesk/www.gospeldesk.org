@@ -7,7 +7,7 @@ excerpt: "Mark 6:14–30"
 noindex: true
 ref: "Mark 6:14–30"
 related: ["beheading-of-john-matthew", "john-imprisoned-baptism", "herod-perplexed-apostles-return"]
-direct: ["jesus", "king-herod", "john-the-forerunner", "herodias", "philip-the-tetrarch", "herodias'-daughter", "king-herod's-guests", "king-herod's-soldier", "john-the-forerunner's-disciples", "the-twelve"]
+direct: ["jesus", "king-herod", "john-the-forerunner", "herodias", "philip-the-tetrarch", "herodias-daughter", "king-herods-guests", "king-herods-soldier", "john-the-forerunners-disciples", "the-twelve"]
 indirect: ["elijah", "prophets"]
 prev_slug: "sending-the-twelve-mark"
 next_slug: "feeding-of-the-five-thousand-mark"

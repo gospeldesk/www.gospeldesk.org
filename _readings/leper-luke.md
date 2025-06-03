@@ -7,7 +7,7 @@ excerpt: "Luke 5:12–16"
 noindex: true
 ref: "Luke 5:12–16"
 related: ["sermon-on-the-mount-rock-and-sand-healing-a-leper", "leper-mark"]
-direct: ["jesus", "leper", "leper's-leprosy", "multitude"]
+direct: ["jesus", "leper", "lepers-leprosy", "multitude"]
 indirect: ["priest", "moses"]
 prev_slug: "miraculous-catch"
 next_slug: "paralytic-luke"

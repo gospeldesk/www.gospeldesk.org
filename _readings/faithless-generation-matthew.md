@@ -7,7 +7,7 @@ excerpt: "Matthew 17:10–23"
 noindex: true
 ref: "Matthew 17:10–23"
 related: ["faithless-generation-mark", "faithless-generation-luke"]
-direct: ["jesus", "disciples", "multitude", "epileptic's-father", "epileptic", "epileptic's-demon", "galilee"]
+direct: ["jesus", "disciples", "multitude", "epileptics-father", "epileptic", "epileptics-demon", "galilee"]
 indirect: ["scribes", "elijah", "john-the-forerunner"]
 prev_slug: "transfiguration-matthew"
 next_slug: "fish-coin-greatest"

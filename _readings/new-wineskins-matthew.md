@@ -7,7 +7,7 @@ excerpt: "Matthew 9:14–17"
 noindex: true
 ref: "Matthew 9:14–17"
 related: ["new-wineskins-mark", "new-wineskins-luke"]
-direct: ["jesus", "disciples", "john-the-forerunner's-disciples"]
+direct: ["jesus", "disciples", "john-the-forerunners-disciples"]
 indirect: ["pharisees"]
 prev_slug: "levi-matthew"
 next_slug: "two-healings-matthew"

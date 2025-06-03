@@ -7,7 +7,7 @@ excerpt: "Mark 9:17–32"
 noindex: true
 ref: "Mark 9:17–32"
 related: ["faithless-generation-matthew", "faithless-generation-luke"]
-direct: ["jesus", "disciples", "multitude", "epileptic's-father", "epileptic", "epileptic's-demon", "galilee"]
+direct: ["jesus", "disciples", "multitude", "epileptics-father", "epileptic", "epileptics-demon", "galilee"]
 prev_slug: "john-is-elijah-mark"
 next_slug: "servant-of-all-mark"
 ---

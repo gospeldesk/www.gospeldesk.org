@@ -7,7 +7,7 @@ excerpt: "Mark 1:35–45"
 noindex: true
 ref: "Mark 1:35–45"
 related: ["sermon-on-the-mount-rock-and-sand-healing-a-leper", "leper-luke"]
-direct: ["jesus", "peter", "disciples", "galilee", "leper", "leper's-leprosy"]
+direct: ["jesus", "peter", "disciples", "galilee", "leper", "lepers-leprosy"]
 indirect: ["priest", "moses"]
 prev_slug: "peters-mother-in-law-mark"
 next_slug: "paralytic-mark"

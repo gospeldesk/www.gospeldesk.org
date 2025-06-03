@@ -7,7 +7,7 @@ excerpt: "Mark 1:16–22"
 noindex: true
 ref: "Mark 1:16–22"
 related: ["fishers-of-men-matthew"]
-direct: ["jesus", "sea-of-galilee", "peter", "andrew", "james,-son-of-zebedee", "john-the-theologian", "zebedee", "zebedee's-servants", "capernaum", "scribes"]
+direct: ["jesus", "sea-of-galilee", "peter", "andrew", "james,-son-of-zebedee", "john-the-theologian", "zebedee", "zebedees-servants", "capernaum", "scribes"]
 prev_slug: "jesus-begins-his-ministry"
 next_slug: "unclean-spirit-mark"
 ---
