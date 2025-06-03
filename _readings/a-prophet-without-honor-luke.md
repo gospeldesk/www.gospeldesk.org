@@ -7,8 +7,8 @@ excerpt: "Luke 4:16–30"
 noindex: true
 ref: "Luke 4:16–30"
 related: ["a-prophet-without-honor-matthew", "a-prophet-without-honor-mark"]
-direct: ["jesus", "nazareth", "|", "isaiah", "god", "holy-spirit", "joseph", "capernaum", "israel", "elijah", "zarepeht", "tyre-and-sidon", "widow-of-zarepeth", "elisha", "naaman-the-syrian"]
-indirect: ["prophet", "blind", "captives", "josephs-son", "physician", "prophet", "widows", "woman", "widow", "lepers"]
+direct: ["jesus", "nazareth"]
+indirect: ["isaiah", "god", "holy-spirit", "joseph", "capernaum", "israel", "elijah", "zarepeth", "tyre-and-sidon", "widow-of-zarepeth", "elisha", "naaman-the-syrian"]
 prev_slug: "temptation-luke"
 next_slug: "unclean-spirit-luke"
 ---
