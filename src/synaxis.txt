@@ -1,4 +1,4 @@
----- God
+---- Divinity
 god
 jesus
 holy-spirit
@@ -7,3 +7,74 @@ holy-spirit
 jesus
 mary
 john-the-forerunner
+
+---- Angels
+gabriel
+dream-angel
+angelic-host
+angels
+
+---- The Twelve
+the-twelve
+peter
+andrew
+james-son-of-zebedee
+john-the-theologian
+philip
+bartholomew
+matthew
+thomas
+james-son-of-alphaeus
+thaddaeus
+simon-the-zealot
+judas-iscariot
+
+---- Myrrhbearers
+mary
+mary-of-bethany
+mary-magdelene
+joanna
+susanna
+
+---- Faithful Servants
+justa
+veronica
+sinful-woman-forgiven
+dysmas
+bartimaeus
+samaritan-leper
+centurion
+zacchaeus
+wise-scribe
+bartholomew
+peter
+mary-of-bethany
+
+---- Other Faithful
+photini
+paralytic
+paralytics-friends
+widow-of-nain
+widow
+
+---- The Seventy
+the-seventy
+
+---- Multitude
+multitude
+jerusalem
+judea
+galilee
+
+---- Natural World
+sea-of-galilee
+fig-tree
+
+---- Outside the Kingdom
+satan
+herod
+herod-the-tetrarch
+pilate
+philip-the-tetrarch
+herodias
+herodias-daughter
