@@ -34,6 +34,9 @@ def sluggize(title, subtitle=''):
     # '  foo bar   '.split() == ['foo', 'bar'] 👍
     return  '-'.join(''.join(chars).split())
 
+def char_sluggize(protoslug):
+    return protoslug.replace("'", '').replace(',', '')
+
 def check_quote(s):
     open_quote = close_quote = ''
     if s.startswith('"'):
@@ -89,7 +92,7 @@ def main():
 
     char_slugs = set()
     for char in characters:
-        char_slug = char.replace("'", '')
+        char_slug = char_sluggize(char)
         char_slugs.add(char_slug)
         filepath = f'../_characters/{char_slug}.md'
         name = char.title().replace('-', ' ').replace("'S ", "'s ")
@@ -105,6 +108,37 @@ name: "{name}"
     for char in known - char_slugs:
         print('pruning', char)
         os.unlink(f'../_characters/{char}.md')
+
+
+    sg_titles = []
+    synaxis_groups = defaultdict(list)
+    for line in open('synaxis.txt'):
+        line = line.strip()
+        if not line:
+            continue
+        elif line.startswith('----'):
+            sg_title = line.split()
+            sg_titles.append(sg_title)
+        else:
+            synaxis_groups[title].append(line)
+
+    sg_slugs = set()
+    for sg_i, sg_title in sg_titles:
+        sg_characters = synaxis_groups[sg_title]
+        sg_slug = sg_title.lower()
+        sg_slugs.add(sg_slug)
+        open(f'../_synaxis/{sg_slug}.md', 'w+').write(f'''\
+---
+title: {sg_title}
+characters: "{' '.join(sg_characters)}"
+order: {sg_i}
+---
+''')
+
+    known = {fn.split('.')[0] for fn in os.listdir('../_synaxis')}
+    for slug in known - sg_slugs:
+        print('pruning', slug)
+        os.unlink(f'../_synaxis/{slug}.md')
 
 
 class Pericope(object):
@@ -269,10 +303,10 @@ God willing, the Church will proclaim this Gospel on <u><b><a class="next-procla
         if self.related:
             frontmatter += 'related: ["' + '", "'.join(self.related) + '"]\n'
         if self.direct:
-            direct = [x.replace("'", '') for x in self.direct]
+            direct = [char_sluggize(x) for x in self.direct]
             frontmatter += 'direct: ["' + '", "'.join(direct) + '"]\n'
         if self.indirect:
-            indirect = [x.replace("'", '') for x in self.indirect]
+            indirect = [char_sluggize(x) for x in self.indirect]
             frontmatter += 'indirect: ["' + '", "'.join(indirect) + '"]\n'
         if self.prev:
             frontmatter += 'prev_slug: "' + self.prev + '"\n'

@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 13:54–58"
 related: ["a-prophet-without-honor-mark", "a-prophet-without-honor-luke"]
 direct: ["jesus", "nazareth"]
-indirect: ["joseph", "mary", "james,-brother-of-the-lord", "joses,-brother-of-the-lord", "simon,-brother-of-the-lord", "judas,-brother-of-the-lord"]
+indirect: ["joseph", "mary", "james-brother-of-the-lord", "joses-brother-of-the-lord", "simon-brother-of-the-lord", "judas-brother-of-the-lord"]
 prev_slug: "parables-of-the-treasure-the-pearl-and-the-net"
 next_slug: "beheading-of-john-matthew"
 ---

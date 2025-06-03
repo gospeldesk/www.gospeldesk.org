@@ -6,7 +6,7 @@ book: "Luke"
 excerpt: "Luke 9:49–10:24"
 noindex: true
 ref: "Luke 9:49–10:24"
-direct: ["jesus", "john-the-theologian", "samaria", "james,-son-of-zebedee", "discipls"]
+direct: ["jesus", "john-the-theologian", "samaria", "james-son-of-zebedee", "discipls"]
 indirect: ["one-casting-out-demons", "jerusalem", "elijah", "god"]
 prev_slug: "greatest-in-the-kingdom"
 next_slug: "foxes-have-holes"

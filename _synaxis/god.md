@@ -1,5 +1,5 @@
 ---
-title: "Divinity"
-characters: god jesus holy-spirit 
-order: 0 
+title: God
+characters: ""
+order: ----
 ---

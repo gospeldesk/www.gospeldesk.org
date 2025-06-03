@@ -1,5 +1,5 @@
 ---
-title: "Deisis"
-characters: jesus mary john-the-forerunner
-order: 1
+title: Deisis
+characters: ""
+order: ----
 ---

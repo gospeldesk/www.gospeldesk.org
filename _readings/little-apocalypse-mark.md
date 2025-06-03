@@ -7,7 +7,7 @@ excerpt: "Mark 13:1–14:2"
 noindex: true
 ref: "Mark 13:1–14:2"
 related: ["little-apocalypse-matthew", "little-apocalypse-luke"]
-direct: ["jesus", "disciples", "multitude", "temple", "mount-of-olives", "peter", "james,-son-of-zebedee", "john-the-theologian", "andrew", "chief-priests", "scribes"]
+direct: ["jesus", "disciples", "multitude", "temple", "mount-of-olives", "peter", "james-son-of-zebedee", "john-the-theologian", "andrew", "chief-priests", "scribes"]
 indirect: ["abomination-of-desolation", "daniel", "judea", "god", "false-prophets", "angels", "fig-tree"]
 prev_slug: "widows-mite-mark"
 next_slug: "annointing-by-mary-of-bethany"

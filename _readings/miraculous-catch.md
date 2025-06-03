@@ -6,7 +6,7 @@ book: "Luke"
 excerpt: "Luke 5:1–11"
 noindex: true
 ref: "Luke 5:1–11"
-direct: ["jesus", "multitude", "sea-of-galilee", "peter", "multitude", "andrew", "zebedee", "james,-son-of-zebedee", "john-the-theologian"]
+direct: ["jesus", "multitude", "sea-of-galilee", "peter", "multitude", "andrew", "zebedee", "james-son-of-zebedee", "john-the-theologian"]
 prev_slug: "peters-mother-in-law-luke"
 next_slug: "leper-luke"
 ---

@@ -7,7 +7,7 @@ excerpt: "Mark 14:10–42"
 noindex: true
 ref: "Mark 14:10–42"
 related: ["holy-week-thursday-composite", "last-supper-luke"]
-direct: ["jesus", "the-twelve", "judas-iscariot", "chief-priests", "two-disciples", "man-with-water", "master-of-the-house", "mount-of-olives", "gethsemane", "peter", "james,-son-of-zebedee", "john-the-theologian", "god"]
+direct: ["jesus", "the-twelve", "judas-iscariot", "chief-priests", "two-disciples", "man-with-water", "master-of-the-house", "mount-of-olives", "gethsemane", "peter", "james-son-of-zebedee", "john-the-theologian", "god"]
 indirect: ["galilee", "rooster"]
 prev_slug: "annointing-by-mary-of-bethany"
 next_slug: "betrayal-mark"

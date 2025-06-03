@@ -7,7 +7,7 @@ excerpt: "Mark 9:10–16"
 noindex: true
 ref: "Mark 9:10–16"
 related: ["john-is-elijah-matthew", "john-is-more-than-a-prophet"]
-direct: ["jesus", "peter", "james,-son-of-zebedee", "john-the-theologian", "disciples", "multitude", "scribes"]
+direct: ["jesus", "peter", "james-son-of-zebedee", "john-the-theologian", "disciples", "multitude", "scribes"]
 indirect: ["scribes", "elijah", "john-the-forerunner"]
 prev_slug: "transfiguration-mark"
 next_slug: "faithless-generation-mark"
