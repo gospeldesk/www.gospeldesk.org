@@ -187,6 +187,15 @@ u.heavy.red { @include highlight(#f00, 0.2); }
   .post-listing {
     margin-top: 72pt;
   }
+  .synaxis {
+    margin: 18pt 0;
+    img {
+      width: 100%;
+    }
+    ul {
+      margin-top: 18pt;
+    }
+  }
 }
 
 .post-listing {

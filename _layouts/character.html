@@ -11,12 +11,12 @@ layout: default
 {% assign indirect = site.readings | where_exp: "r", "r.indirect contains page.slug" | sort: "num"  %}
 
 {% if direct.first %}
-<h3>Appears In</h3>
+<h3>Appearances</h3>
 {% include readings-list.html readings=direct %}
 {% endif %}
 
 {% if indirect.first %}
-<h3>Mentioned In</h3>
+<h3>Mentions</h3>
 {% include readings-list.html readings=indirect %}
 {% endif %}
 
