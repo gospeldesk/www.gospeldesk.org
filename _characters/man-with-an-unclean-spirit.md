@@ -1,3 +1,3 @@
 ---
-name: "Man With An Unclean Spirit"
+name: "Man with an Unclean Spirit"
 ---

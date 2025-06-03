@@ -93,8 +93,9 @@ def main():
         char_slugs.add(char_slug)
         filepath = f'../_characters/{char_slug}.md'
         name = char.title().replace('-', ' ').replace("'S ", "'s ")
-        for word in 'Of The From And'.split():
+        for word in 'Of The From And A An With'.split():
             name = name.replace(f' {word} ', f' {word.lower()} ')
+        name = name.replace(f'Mother In Law', f'Mother-in-law')
         open(filepath, 'w+').write(f'''\
 ---
 name: "{name}"
@@ -104,6 +105,7 @@ name: "{name}"
     for char in known - char_slugs:
         print('pruning', char)
         os.unlink(f'../_characters/{char}.md')
+
 
 class Pericope(object):
 

@@ -1,3 +1,3 @@
 ---
-name: "Man With Water"
+name: "Man with Water"
 ---

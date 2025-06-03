@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<header>
+  <h2>{{ page.name }}</h2>
+</header>
+<section>
+{{ content }}
+
+{% assign direct = site.readings | where_exp: "r", "r.direct contains page.slug" | sort: "num" %}
+{% assign indirect = site.readings | where_exp: "r", "r.indirect contains page.slug" | sort: "num"  %}
+
+{% if direct.first %}
+<h3>Appearances</h3>
+{% include readings-list.html readings=direct %}
+{% endif %}
+
+{% if indirect.first %}
+<h3>Mentions</h3>
+{% include readings-list.html readings=indirect %}
+{% endif %}
+
+</section>
+

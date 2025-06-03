@@ -29,6 +29,12 @@ defaults:
   -
     scope:
       path: ""
+      type: "synaxis"
+    values:
+      layout: "synaxis"
+  -
+    scope:
+      path: ""
       type: "characters"
     values:
       layout: "character"
@@ -41,11 +47,14 @@ defaults:
 collections:
   posts:
     permalink: "/:year/:title/"
-  readings:
-    permalink: "/readings/:slug/"
+  synaxis:
+    permalink: "/synaxis/:slug/"
     output: true
   characters:
     permalink: "/characters/:slug/"
+    output: true
+  readings:
+    permalink: "/readings/:slug/"
     output: true
 
 plugins:
