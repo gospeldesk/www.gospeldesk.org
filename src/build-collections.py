@@ -117,13 +117,13 @@ name: "{name}"
         if not line:
             continue
         elif line.startswith('----'):
-            sg_title = line.split()
+            sg_title = line.split(None, 1)[1]
             sg_titles.append(sg_title)
         else:
-            synaxis_groups[title].append(line)
+            synaxis_groups[sg_title].append(line)
 
     sg_slugs = set()
-    for sg_i, sg_title in sg_titles:
+    for sg_i, sg_title in enumerate(sg_titles):
         sg_characters = synaxis_groups[sg_title]
         sg_slug = sg_title.lower()
         sg_slugs.add(sg_slug)

@@ -6,4 +6,4 @@ holy-spirit
 ---- Deisis
 jesus
 mary
-ohn-the-forerunner
+john-the-forerunner
