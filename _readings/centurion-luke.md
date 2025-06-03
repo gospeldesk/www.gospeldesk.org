@@ -7,6 +7,7 @@ excerpt: "Luke 7:1–10"
 noindex: true
 ref: "Luke 7:1–10"
 related: ["centurion-matthew"]
+direct: ["jesus", "disciples", "capernaum", "centurion", "centurion's-servant", "elders", "centurion's-friends", "multitude"]
 prev_slug: "sermon-on-the-plain-rock-and-sand"
 next_slug: "widow-of-nain"
 ---

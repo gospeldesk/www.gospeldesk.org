@@ -7,6 +7,8 @@ excerpt: "Luke 9:44–50"
 noindex: true
 ref: "Luke 9:44–50"
 related: ["fish-coin-greatest", "servant-of-all"]
+direct: ["jesus", "disciples", "multitude", "ignatius", "john-the-theologian"]
+indirect: ["one-casting-out-demons"]
 prev_slug: "faithless-generation-luke"
 next_slug: "rebuke-of-james-and-john"
 ---

@@ -8,6 +8,7 @@ noindex: true
 ref: "Luke 6:46–7:1"
 subtitle: "Rock and Sand"
 related: ["sermon-on-the-mount-rock-and-sand-healing-a-leper"]
+direct: ["jesus", "disciples", "multitude", "capernaum"]
 prev_slug: "sermon-on-the-plain-dont-judge"
 next_slug: "centurion-luke"
 ---

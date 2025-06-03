@@ -7,6 +7,8 @@ excerpt: "Luke 7:31–35"
 noindex: true
 ref: "Luke 7:31–35"
 related: ["friend-of-sinners-matthew"]
+direct: ["jesus", "disciples", "multitude"]
+indirect: ["john-the-forerunner"]
 prev_slug: "john-is-more-than-a-prophet"
 next_slug: "sinful-woman-forgiven"
 ---

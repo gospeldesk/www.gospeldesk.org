@@ -7,6 +7,8 @@ excerpt: "Luke 8:16–21"
 noindex: true
 ref: "Luke 8:16–21"
 related: ["sermon-on-the-mount-light-of-the-world-law-and-prophets", "who-is-my-mother", "blasphemy-mother-brothers", "farmer-explained-lamp"]
+direct: ["jesus", "disciples", "multitude", "mary", "brothers-of-the-lord"]
+indirect: ["god"]
 prev_slug: "parable-of-the-farmer-luke"
 next_slug: "rebuking-the-storm-luke"
 ---

@@ -6,6 +6,7 @@ book: "Luke"
 excerpt: "Luke 7:36–50"
 noindex: true
 ref: "Luke 7:36–50"
+direct: ["jesus", "simon-the-pharisee", "sinful-woman-forgiven", "simon-the-pharisee's-guests"]
 prev_slug: "friend-of-sinners-luke"
 next_slug: "women-disciples"
 ---

@@ -7,6 +7,8 @@ excerpt: "Luke 8:26–40"
 noindex: true
 ref: "Luke 8:26–40"
 related: ["gergesene-demoniacs", "gadarene-demoniac-mark"]
+direct: ["jesus", "disciples", "gergasenes", "gergasene-demoniac", "legion", "swine", "swineherds", "multitude"]
+indirect: ["god"]
 prev_slug: "rebuking-the-storm-luke"
 next_slug: "two-healings-luke"
 ---

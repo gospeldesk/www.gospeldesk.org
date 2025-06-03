@@ -8,6 +8,8 @@ noindex: true
 ref: "Luke 6:17–23"
 subtitle: "Beatitudes"
 related: ["sermon-on-the-mount-beatitudes-salt-of-the-earth"]
+direct: ["jesus", "disciples", "multitude", "judea", "jerusalem", "tyre-and-sidon", "diseases", "demons"]
+indirect: ["god"]
 prev_slug: "twelve-apostles-luke"
 next_slug: "sermon-on-the-plain-woes"
 ---

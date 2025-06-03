@@ -7,6 +7,7 @@ excerpt: "Luke 8:4–15"
 noindex: true
 ref: "Luke 8:4–15"
 related: ["parable-of-the-farmer-matthew", "parable-of-the-farmer-explained-matthew", "parable-of-the-farmer-mark", "farmer-explained-lamp"]
+direct: ["jesus", "disciples", "multitude"]
 prev_slug: "women-disciples"
 next_slug: "lamp-mother-and-brothers"
 ---

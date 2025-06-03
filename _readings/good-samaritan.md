@@ -6,6 +6,8 @@ book: "Luke"
 excerpt: "Luke 10:25–37"
 noindex: true
 ref: "Luke 10:25–37"
+related: ["wise-scribe-matthew", "wise-scribe-mark"]
+direct: ["jesus", "disciples", "multitude", "wise-scribe"]
 prev_slug: "return-of-the-seventy"
 next_slug: "mary-and-martha"
 ---

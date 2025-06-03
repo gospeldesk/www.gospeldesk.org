@@ -7,6 +7,8 @@ excerpt: "Luke 11:1–13"
 noindex: true
 ref: "Luke 11:1–13"
 related: ["sermon-on-the-mount-almsgiving-prayer"]
+direct: ["jesus", "disciples"]
+indirect: ["john-the-forerunner", "john-the-forerunner's-disciples"]
 prev_slug: "mary-and-martha"
 next_slug: "by-beelzebul-luke"
 ---

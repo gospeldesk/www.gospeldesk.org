@@ -7,6 +7,8 @@ excerpt: "Luke 6:12–19"
 noindex: true
 ref: "Luke 6:12–19"
 related: ["instructions-to-the-twelve-freely-give", "twelve-apostles-mark"]
+direct: ["jesus", "disciples", "the-twelve", "peter", "andrew", "james,-son-of-zebedee", "john-the-theologian", "philip", "bartholomew", "matthew", "thomas", "james,-son-of-alphaeus", "thaddaeus", "simon-the-zealot", "judas-iscariot", "multitude", "judea", "jerusalem", "tyre-and-sidon", "diseases", "demons"]
+indirect: ["god"]
 prev_slug: "lord-of-the-sabbath-luke"
 next_slug: "sermon-on-the-plain-beatitudes"
 ---

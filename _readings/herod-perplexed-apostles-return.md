@@ -7,6 +7,8 @@ excerpt: "Luke 9:7–11"
 noindex: true
 ref: "Luke 9:7–11"
 related: ["beheading-of-john-matthew", "beheading-of-john-mark"]
+direct: ["herod-the-tetrarch", "jesus", "the-twelve", "multitude", "bethsaida"]
+indirect: ["john-the-forerunner", "elijah", "prophets", "god"]
 prev_slug: "sending-the-twelve-luke"
 next_slug: "feeding-of-the-five-thousand-luke"
 ---

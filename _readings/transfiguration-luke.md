@@ -7,6 +7,8 @@ excerpt: "Luke 9:28–36"
 noindex: true
 ref: "Luke 9:28–36"
 related: ["transfiguration-matthew", "transfiguration-mark"]
+direct: ["jesus", "peter", "john-the-theologian", "james,-son-of-zebedee", "moses", "elijah", "god"]
+indirect: ["jerusalem"]
 prev_slug: "take-up-your-cross-luke"
 next_slug: "faithless-generation-luke"
 ---

@@ -6,6 +6,8 @@ book: "Luke"
 excerpt: "Luke 10:1–15"
 noindex: true
 ref: "Luke 10:1–15"
+direct: ["jesus", "the-seventy"]
+indirect: ["sodom-and-gomorrah", "chorazin", "bethesaida", "tyre-and-sidon", "capernaum", "god"]
 prev_slug: "foxes-have-holes"
 next_slug: "return-of-the-seventy"
 ---

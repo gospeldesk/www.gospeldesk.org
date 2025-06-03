@@ -7,6 +7,8 @@ excerpt: "Luke 9:1–6"
 noindex: true
 ref: "Luke 9:1–6"
 related: ["instructions-to-the-twelve-freely-give", "instructions-to-the-twelve-shake-the-dust", "sending-the-twelve-mark"]
+direct: ["jesus", "the-twelve"]
+indirect: ["diseases", "demons"]
 prev_slug: "two-healings-luke"
 next_slug: "herod-perplexed-apostles-return"
 ---

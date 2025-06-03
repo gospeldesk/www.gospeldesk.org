@@ -6,7 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 22:35–46"
 noindex: true
 ref: "Matthew 22:35–46"
-related: ["wise-scribe-mark"]
+related: ["wise-scribe-mark", "good-samaritan"]
 direct: ["jesus", "temple", "wise-scribe", "pharisees"]
 indirect: ["god", "law", "prophets", "david", "holy-spirit"]
 prev_slug: "marriage-in-the-resurrection-matthew"

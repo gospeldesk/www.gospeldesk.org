@@ -7,6 +7,8 @@ excerpt: "Luke 9:18–22"
 noindex: true
 ref: "Luke 9:18–22"
 related: ["confession-of-peter", "rebuke-of-peter", "confession-and-rebuke-of-peter-mark"]
+direct: ["jesus", "disciples", "peter"]
+indirect: ["multitude", "john-the-forerunner", "elijah", "prophets", "god", "elers", "chief-priests", "scribes"]
 prev_slug: "feeding-of-the-five-thousand-luke"
 next_slug: "take-up-your-cross-luke"
 ---

@@ -7,6 +7,8 @@ excerpt: "Luke 9:57–62"
 noindex: true
 ref: "Luke 9:57–62"
 related: ["peters-mother-in-law-matthew"]
+direct: ["jesus", "disciples", "man-who-would-follow", "man-who-would-bury-his-father", "man-who-would-say-good-bye"]
+indirect: ["god"]
 prev_slug: "rebuke-of-james-and-john"
 next_slug: "sending-the-seventy"
 ---

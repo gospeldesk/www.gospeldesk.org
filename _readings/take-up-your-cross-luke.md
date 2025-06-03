@@ -7,6 +7,8 @@ excerpt: "Luke 9:23–27"
 noindex: true
 ref: "Luke 9:23–27"
 related: ["take-up-your-cross-matthew", "take-up-your-cross-mark"]
+direct: ["jesus", "disciples", "multitude"]
+indirect: ["god", "angels"]
 prev_slug: "confession-of-peter-luke"
 next_slug: "transfiguration-luke"
 ---

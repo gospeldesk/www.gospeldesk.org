@@ -6,6 +6,8 @@ book: "Luke"
 excerpt: "Luke 10:16–21"
 noindex: true
 ref: "Luke 10:16–21"
+direct: ["jesus", "the-seventy"]
+indirect: ["satan", "demons", "holy-spirit", "god"]
 prev_slug: "sending-the-seventy"
 next_slug: "good-samaritan"
 ---

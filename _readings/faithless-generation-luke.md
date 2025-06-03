@@ -7,6 +7,8 @@ excerpt: "Luke 9:37–43"
 noindex: true
 ref: "Luke 9:37–43"
 related: ["faithless-generation-matthew", "faithless-generation-mark"]
+direct: ["jesus", "disciples", "multitude", "epileptic's-father", "epileptic", "epileptic's-demon"]
+indirect: ["god"]
 prev_slug: "transfiguration-luke"
 next_slug: "greatest-in-the-kingdom"
 ---

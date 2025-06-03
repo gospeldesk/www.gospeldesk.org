@@ -8,6 +8,7 @@ noindex: true
 ref: "Luke 6:37–45"
 subtitle: "Don't Judge"
 related: ["sermon-on-the-mount-dont-judge"]
+direct: ["jesus", "disciples", "multitude"]
 prev_slug: "sermon-on-the-plain-love-your-enemies"
 next_slug: "sermon-on-the-plain-rock-and-sand"
 ---

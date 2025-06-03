@@ -6,6 +6,8 @@ book: "Luke"
 excerpt: "Luke 8:1–3"
 noindex: true
 ref: "Luke 8:1–3"
+direct: ["jesus", "disciples", "the-twelve", "mary-magdalene", "joanna", "susanna", "women-disciples"]
+indirect: ["herod-the-tetrarch", "chuzas"]
 prev_slug: "sinful-woman-forgiven"
 next_slug: "parable-of-the-farmer-luke"
 ---

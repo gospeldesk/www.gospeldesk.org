@@ -152,7 +152,7 @@ Matt  5:12  10, 11
 
 Matt  5:13  10"
 ---- Sermon on the Mount: Light of the World; Law and Prophets
-> farmer-explained-lamp lamp-mother-brothers
+> farmer-explained-lamp lamp-mother-and-brothers
 "Matt  5:14  12
 Matt  5:15  12
 Matt  5:16  12
@@ -1210,7 +1210,7 @@ Matt 22:32  100
 
 Matt 22:33  100
 ---- Wise Scribe (Matthew)
-> wise-scribe-mark
+> wise-scribe-mark good-samaritan
 Matt 22:35  101
 Matt 22:36  101
 
@@ -2242,7 +2242,7 @@ Mark 12:25  183
 Mark 12:26  183
 Mark 12:27  183
 ---- Wise Scribe (Mark)
-> wise-scribe-matthew
+> wise-scribe-matthew good-samaritan
 Mark 12:28  184
 
 Mark 12:29  184
@@ -2905,6 +2905,7 @@ Luke  5:39  224
 > lord-of-the-sabbath-matthew lord-of-the-sabbath-mark
 Luke  6:1   225, 90009
 Luke  6:2   225, 90009
+
 Luke  6:3   225, 90009
 Luke  6:4   225, 90009
 Luke  6:5   225, 90009
@@ -2913,7 +2914,10 @@ Luke  6:5   225, 90009
 #
 Luke  6:6   225, 90009
 Luke  6:7   225, 90009
+
 Luke  6:8   225, 90009
+  middle." He
+
 Luke  6:9   225, 90009
 Luke  6:10  225, 90009
 Luke  6:11       90009
@@ -2956,7 +2960,7 @@ Luke  6:33  229
 Luke  6:34  229
 Luke  6:35  229
 
-Luke  6:36  229
+Luke  6:36  229"
 ---- Sermon on the Plain: Don't Judge
 > sermon-on-the-mount-dont-judge
 "Luke  6:37  230
@@ -3305,6 +3309,7 @@ Luke 10:20  255, 256
 
 Luke 10:21  255, 256
 ---- Good Samaritan
+> wise-scribe-matthew wise-scribe-mark
 Luke 10:25  258
 
 Luke 10:26  258

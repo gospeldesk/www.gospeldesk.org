@@ -7,6 +7,8 @@ excerpt: "Luke 7:17–30"
 noindex: true
 ref: "Luke 7:17–30"
 related: ["john-is-elijah-matthew", "john-is-elijah-mark"]
+direct: ["jesus", "john-the-forerunner", "john-the-forerunner's-disciples", "diseased", "diseases", "demons", "multitude", "tax-collectors", "pharisees", "scribes"]
+indirect: ["god"]
 prev_slug: "widow-of-nain"
 next_slug: "friend-of-sinners-luke"
 ---

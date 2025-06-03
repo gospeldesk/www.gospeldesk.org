@@ -8,6 +8,7 @@ noindex: true
 ref: "Luke 6:24–30"
 subtitle: "Woes"
 related: ["sermon-on-the-mount-love-your-enemies"]
+direct: ["jesus", "disciples", "multitude"]
 prev_slug: "sermon-on-the-plain-beatitudes"
 next_slug: "sermon-on-the-plain-love-your-enemies"
 ---

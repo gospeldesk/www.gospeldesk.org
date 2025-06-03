@@ -6,6 +6,7 @@ book: "Luke"
 excerpt: "Luke 10:38–11:28"
 noindex: true
 ref: "Luke 10:38–11:28"
+direct: ["jesus", "disciples", "martha", "mary-of-bethany", "multitude", "woman-lifting-her-voice"]
 prev_slug: "good-samaritan"
 next_slug: "prayer"
 ---
