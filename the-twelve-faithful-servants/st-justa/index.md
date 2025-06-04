@@ -52,5 +52,9 @@ as you desire.</u> And her daughter was healed from that hour.
 
 ### Name
 
-The name Justa is given in the 3rd-century [_Clementine
-Homilies_](https://en.wikipedia.org/wiki/Clementine_literature).
+The name "Justa" is given in the 3rd-century [_Clementine
+Homilies_](https://www.newadvent.org/fathers/080802.htm) ([wiki](https://en.wikipedia.org/wiki/Clementine_literature)):
+
+> There is amongst us one Justa, a Syro-Phœnician, by race a Canaanite, whose
+> daughter was oppressed with a grievous disease. And she came to our Lord,
+> crying out, and entreating that He would heal her daughter.

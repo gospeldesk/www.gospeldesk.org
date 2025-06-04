@@ -90,5 +90,13 @@ King of the Jews.
 
 ### Name
 
-The name Dysmas is given in the 4th/5th-century [_Gospel of
-Nicodemus](https://en.wikipedia.org/wiki/Gospel_of_Nicodemus)
+The name "Dysmas" is given in the 4th/5th-century [_Gospel of
+Nicodemus_](https://www.earlychristianwritings.com/text/gospelnicodemus.html)
+([wiki](https://en.wikipedia.org/wiki/Gospel_of_Nicodemus)):
+
+> Then Pilate commanded the veil to be drawn before the judgement-seat whereon
+> he sat, and saith unto Jesus: Thy nation hath convicted thee (accused thee)
+> as being a king: therefore have I decreed that thou shouldest first be
+> scourged according to the law of the pious emperors, and thereafter hanged
+> upon the cross in the garden wherein thou wast taken: and let Dysmas and
+> Gestas the two malefactors be crucified with thee.

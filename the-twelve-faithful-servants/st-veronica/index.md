@@ -95,5 +95,10 @@ Apostate during his attempt to revive paganism (361); cf. Sozomen:
 
 ### Name
 
-The name Veronica is given in the 4th/5th-century [_Gospel of
-Nicodemus](https://en.wikipedia.org/wiki/Gospel_of_Nicodemus)
+The name "Veronica" is gievn in the 4th/5th-century [_Gospel of
+Nicodemus_](https://sacred-texts.com/bib/lbob/lbob10.htm)
+([wiki](https://en.wikipedia.org/wiki/Gospel_of_Nicodemus)):
+
+> And a certain woman named Veronica, said, "I was afflicted with an issue of
+> blood twelve years, and I touched the hem of his garments, and presently the
+> issue of my blood stopped."
