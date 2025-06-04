@@ -6,6 +6,8 @@ book: "Luke"
 excerpt: "Luke 13:10–17"
 noindex: true
 ref: "Luke 13:10–17"
+direct: ["jesus", "infirm-woman", "synagogue", "synagogue-ruler", "multitude", "adversaries"]
+indirect: ["abraham", "satan", "god"]
 prev_slug: "repent-or-perish"
 next_slug: "mustard-seed-yeast-narrow-door"
 ---

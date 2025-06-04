@@ -6,6 +6,7 @@ book: "Luke"
 excerpt: "Luke 14:1–11"
 noindex: true
 ref: "Luke 14:1–11"
+direct: ["jesus", "pharisees", "a-ruler-of-the-pharisees", "pharisees", "lawyers", "man-with-dropsy"]
 prev_slug: "tell-that-fox"
 next_slug: "feasting-in-gods-kingdom"
 ---
