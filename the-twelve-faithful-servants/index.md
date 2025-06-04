@@ -182,5 +182,8 @@ and inviting me to say a few words:
 
 {% include youtube.html video_id="CBpYW2tzNk0" %}
 
-The pages for [St. Zacchaeus](./st-zacchaeus/), [St. Dysmas](./st-dysmas/), and
-the [Sinful Woman Forgiven](./the-sinful-woman/) have more pictures and videos.
+See images and videos of the icons in use on these pages:
+
+- [St. Zacchaeus](./st-zacchaeus/#in-use)
+- [St. Dysmas](./st-dysmas/#in-use)
+- [Sinful Woman Forgiven](./the-sinful-woman/#in-use)
