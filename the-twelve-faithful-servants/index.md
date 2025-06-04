@@ -63,7 +63,6 @@ and are answered.</div>
         <img src="./st-dysmas/st-dysmas.thumb.jpg">
         <span class="name">St. Dysmas</span>
         <span class="description">The Penitent Thief</span>
-        <span class="description">(a.k.a. St. Rakh)</span>
       </a>
     </td>
     <td>

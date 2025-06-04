@@ -49,3 +49,8 @@ fall from their masters’ table.</u>
 
 Then Jesus answered her, <u>Woman, great is your faith! Be it done to you even
 as you desire.</u> And her daughter was healed from that hour.
+
+### Name
+
+The name Justa is given in the 3rd-century [_Clementine
+Homilies_](https://en.wikipedia.org/wiki/Clementine_literature).

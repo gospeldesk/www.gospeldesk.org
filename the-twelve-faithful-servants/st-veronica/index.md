@@ -92,3 +92,8 @@ It is perhaps a unique example of the veneration of a statue in the Orthodox
 tradition. This effigy of Christ was destroyed, on the orders of Julian the
 Apostate during his attempt to revive paganism (361); cf. Sozomen:
 <cite>Eccles.  Hist.</cite> V, 21.</p>
+
+### Name
+
+The name Veronica is given in the 4th/5th-century [_Gospel of
+Nicodemus](https://en.wikipedia.org/wiki/Gospel_of_Nicodemus)

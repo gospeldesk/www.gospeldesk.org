@@ -1,6 +1,6 @@
 ---
 title: St. Dysmas
-subtitle: The Penitent Thief (a.k.a. St. Rakh)
+subtitle: The Penitent Thief
 html_title_sep: ","
 image: /the-twelve-faithful-servants/st-dysmas/st-dysmas.thumb.jpg
 image_alt: an icon of St. Dysmas
@@ -87,3 +87,8 @@ Skull, which is called in Hebrew, Golgotha, where they crucified him, and with
 him two others, on either side one, and Jesus in the middle. Pilate wrote a
 title also, and put it on the cross. There was written, Jesus of Nazareth, the
 King of the Jews.
+
+### Name
+
+The name Dysmas is given in the 4th/5th-century [_Gospel of
+Nicodemus](https://en.wikipedia.org/wiki/Gospel_of_Nicodemus)
