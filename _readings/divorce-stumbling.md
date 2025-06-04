@@ -7,6 +7,7 @@ excerpt: "Luke 16:15–17:4"
 noindex: true
 ref: "Luke 16:15–17:4"
 related: ["divorce-matthew", "divorce-mark", "fish-coin-greatest", "stumbling"]
+direct: ["jesus", "disciples", "multitude"]
 prev_slug: "mammon"
 next_slug: "parable-of-the-rich-man-and-lazarus"
 ---

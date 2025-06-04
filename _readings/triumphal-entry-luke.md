@@ -7,6 +7,8 @@ excerpt: "Luke 19:29–44"
 noindex: true
 ref: "Luke 19:29–44"
 related: ["triumphal-entry-matthew", "triumphal-entry-mark", "annointing-triumphal-entry"]
+direct: ["jesus", "disciples", "multitude", "bethsphage", "bethany", "two-disciples", "donkeys-colt", "donkeys-owner", "some-of-the-pharisees"]
+indirect: ["stones", "jerusalem", "romans"]
 prev_slug: "parable-of-the-minas"
 next_slug: "cleansing-the-temple-luke"
 ---

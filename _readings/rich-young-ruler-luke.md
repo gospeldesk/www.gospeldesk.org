@@ -7,6 +7,8 @@ excerpt: "Luke 18:18–27"
 noindex: true
 ref: "Luke 18:18–27"
 related: ["rich-young-ruler-matthew", "rich-young-ruler-mark"]
+direct: ["jesus", "disciples", "multitude", "rich-young-ruler"]
+indirect: ["god"]
 prev_slug: "children-and-the-kingdom"
 next_slug: "prophesy-of-the-passion"
 ---

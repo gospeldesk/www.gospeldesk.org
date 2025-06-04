@@ -6,6 +6,8 @@ book: "Luke"
 excerpt: "Luke 19:1–10"
 noindex: true
 ref: "Luke 19:1–10"
+direct: ["jesus", "disciples", "multitude", "zacchaeus"]
+indirect: ["abraham"]
 prev_slug: "a-certain-blind-man"
 next_slug: "parable-of-the-minas"
 ---

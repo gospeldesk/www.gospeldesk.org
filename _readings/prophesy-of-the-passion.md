@@ -6,6 +6,8 @@ book: "Luke"
 excerpt: "Luke 18:31–34"
 noindex: true
 ref: "Luke 18:31–34"
+direct: ["jesus", "the-twelve"]
+indirect: ["god", "gentiles", "prophets"]
 prev_slug: "rich-young-ruler-luke"
 next_slug: "a-certain-blind-man"
 ---

@@ -6,6 +6,8 @@ book: "Luke"
 excerpt: "Luke 17:26–37"
 noindex: true
 ref: "Luke 17:26–37"
+direct: ["jesus", "disciples", "multitude"]
+indirect: ["noah", "lot", "sodom-and-gomorrah"]
 prev_slug: "time-of-the-kingdom"
 next_slug: "parable-of-the-unjust-judge"
 ---

@@ -6,6 +6,8 @@ book: "Luke"
 excerpt: "Luke 17:11–19"
 noindex: true
 ref: "Luke 17:11–19"
+direct: ["jesus", "disciples", "multitude", "samaria", "galilee", "ten-lepers", "samaritan-leper"]
+indirect: ["priests", "god"]
 prev_slug: "forgiveness-faith-duty"
 next_slug: "time-of-the-kingdom"
 ---

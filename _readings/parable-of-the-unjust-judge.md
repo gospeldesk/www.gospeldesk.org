@@ -6,6 +6,8 @@ book: "Luke"
 excerpt: "Luke 18:1–8"
 noindex: true
 ref: "Luke 18:1–8"
+direct: ["jesus", "disciples", "multitude"]
+indirect: ["god"]
 prev_slug: "days-of-noah-and-lot"
 next_slug: "parable-of-the-publican-and-the-pharisee"
 ---
