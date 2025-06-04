@@ -7,6 +7,8 @@ excerpt: "Luke 20:1–8"
 noindex: true
 ref: "Luke 20:1–8"
 related: ["by-what-authority-matthew", "by-what-authority-mark"]
+direct: ["jesus", "temple", "multitude", "scribes", "priests", "elders"]
+indirect: ["john-the-forerunner"]
 prev_slug: "cleansing-the-temple-luke"
 next_slug: "parable-of-the-wicked-tenants-luke"
 ---

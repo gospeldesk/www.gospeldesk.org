@@ -7,6 +7,7 @@ excerpt: "Luke 20:9–18"
 noindex: true
 ref: "Luke 20:9–18"
 related: ["parable-of-the-wicked-tenants-matthew", "parable-of-the-wicked-tenants-mark"]
+direct: ["jesus", "disciples", "multitude"]
 prev_slug: "by-what-authority-luke"
 next_slug: "taxes-to-caesar-luke"
 ---
