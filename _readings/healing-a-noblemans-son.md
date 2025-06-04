@@ -7,7 +7,7 @@ excerpt: "John 4:43–54"
 noindex: true
 ref: "John 4:43–54"
 related: ["two-healings-matthew", "healing-jairus-daughter", "two-healings-luke"]
-prev_slug: "samaritan-woman"
+prev_slug: "woman-at-the-well"
 next_slug: "healing-at-bethesda-pool"
 ---
 

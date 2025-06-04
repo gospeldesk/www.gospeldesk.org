@@ -7,7 +7,7 @@ excerpt: "John 3:22–36"
 noindex: true
 ref: "John 3:22–36"
 prev_slug: "nicodemus"
-next_slug: "samaritan-woman"
+next_slug: "woman-at-the-well"
 ---
 
 <p><span class="v">22</span>After these things, Jesus came with his disciples into the land of Judea. He stayed there with them, and baptized.  <span class="v">23</span>John also was baptizing in Enon near Salim, because there was much water there. They came, and were baptized.  <span class="v">24</span>For John was not yet thrown into prison. </p>

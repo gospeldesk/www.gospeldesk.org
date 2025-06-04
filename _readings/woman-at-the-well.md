@@ -1,5 +1,5 @@
 ---
-title: "Samaritan Woman"
+title: "Woman at the Well"
 pk: "332"
 num: 261
 book: "John"
