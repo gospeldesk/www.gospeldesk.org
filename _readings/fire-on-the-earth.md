@@ -6,6 +6,7 @@ book: "Luke"
 excerpt: "Luke 12:48–59"
 noindex: true
 ref: "Luke 12:48–59"
+direct: ["jesus", "disciples", "multitude"]
 prev_slug: "faithful-or-unfaithful-steward"
 next_slug: "repent-or-perish"
 ---

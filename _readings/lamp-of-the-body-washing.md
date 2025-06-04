@@ -6,6 +6,8 @@ book: "Luke"
 excerpt: "Luke 11:34–41"
 noindex: true
 ref: "Luke 11:34–41"
+direct: ["jesus", "disciples", "multitude", "a-pharisee"]
+indirect: ["pharisees"]
 prev_slug: "demand-for-a-sign-luke"
 next_slug: "woe-to-you-pharisees"
 ---
