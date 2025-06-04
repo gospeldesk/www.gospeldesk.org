@@ -32,7 +32,8 @@ judas-iscariot
 ---- Myrrhbearers
 mary
 mary-of-bethany
-mary-magdelene
+martha
+mary-magdalene
 joanna
 susanna
 

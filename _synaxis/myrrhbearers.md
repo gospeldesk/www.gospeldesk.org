@@ -1,5 +1,5 @@
 ---
 title: Myrrhbearers
-characters: "mary mary-of-bethany mary-magdelene joanna susanna"
+characters: "mary mary-of-bethany martha mary-magdalene joanna susanna"
 order: 4
 ---
