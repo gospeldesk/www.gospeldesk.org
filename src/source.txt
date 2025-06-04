@@ -5997,12 +5997,15 @@ Mark 15:17  195
 Mark 15:18  195
 Mark 15:19  195
 Mark 15:20  195
+  him. They
 Mark 15:21  195
 Mark 15:22  195
 Mark 15:23  195
+
 Mark 15:24  195
 Mark 15:25  195
 Mark 15:26  195
+
 Mark 15:27  195
 Mark 15:28  195
 Mark 15:29  195
@@ -6171,19 +6174,26 @@ Mark 15:41  196
 Luke 23:32  317
 Luke 23:33  317
 Luke 23:34  317
+
 Luke 23:35  317
 Luke 23:36  317
 Luke 23:37  317
 Luke 23:38  317
+
 Luke 23:39  317
 Luke 23:40  317
 Luke 23:41  317
+
 Luke 23:42  317
+
 Luke 23:43  317
+
 Luke 23:44  317
 Luke 23:45  317
 Luke 23:46  317
+
 Luke 23:47  317
+
 Luke 23:48  317
 Luke 23:49  317
 ---- Holy Week: Friday, 9th Hour
