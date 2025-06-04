@@ -183,16 +183,5 @@ and inviting me to say a few words:
 
 {% include youtube.html video_id="CBpYW2tzNk0" %}
 
-Here is a clip of the [Sinful Woman Forgiven by Christ](./the-sinful-woman/)
-being vested for Great Lent:
-
-{% include youtube.html video_id="8RmQOlIMwZ0" %}
-
-Here are a few photos showing the analogion with [St.
-Zacchaeus](./st-zacchaeus/):
-
-<img src="near.jpg">
-
-<img src="mid.jpg">
-
-<img src="far.jpg">
+The pages for [St. Zacchaeus](./st-zacchaeus/), [St. Dysmas](./st-dysmas/), and
+the [Sinful Woman Forgiven](./the-sinful-woman/) have more pictures and videos.

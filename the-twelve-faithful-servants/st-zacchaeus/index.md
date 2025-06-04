@@ -12,6 +12,14 @@ image_alt: an icon of St. Zacchaeus
 <div class="caption">From the hand of <a
 href="https://www.elenamurariu.com/">Elena Murariu</a>.</div>
 
+### In Use
+
+<img src="near.jpg">
+
+<img src="mid.jpg">
+
+<img src="far.jpg">
+
 ### In the Gospels
 
 #### Luke 19:1-10

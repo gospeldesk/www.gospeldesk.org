@@ -12,6 +12,10 @@ image_alt: an icon of the Sinful Woman
 <div class="caption">From the hand of <a
 href="https://aidanharticons.com/">Aidan Hart</a>.</div>
 
+### In Use
+
+{% include youtube.html video_id="8RmQOlIMwZ0" %}
+
 ### In the Gospels
 
 #### Luke 7:36-50
