@@ -4,8 +4,8 @@ title: "Synaxis of the Gospels"
 <a href="/2024/toward-a-synaxis-of-the-gospels/synaxis-of-the-gospels.jpg"><img src="/2024/toward-a-synaxis-of-the-gospels/synaxis-of-the-gospels.640.jpg"></a>
 
 <div class="helper">
-    <a href="./composition.webp"><img src="./composition.webp"></a> &nbsp;
     <a href="./synaxis-of-the-gospels-with-key.jpg"><img src="./synaxis-of-the-gospels-with-key.jpg"></a>
+    <a href="./composition.webp"><img src="./composition.webp"></a> &nbsp;
 </div>
 <style>
     .helper {
