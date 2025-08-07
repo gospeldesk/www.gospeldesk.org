@@ -7,7 +7,7 @@ excerpt: "Luke 16:19–31"
 noindex: true
 ref: "Luke 16:19–31"
 direct: ["jesus", "disciples", "multitude"]
-indirect: ["abraham", "moses", "prophets"]
+indirect: ["rich-man", "beggar"]
 prev_slug: "divorce-stumbling"
 next_slug: "forgiveness-faith-duty"
 ---

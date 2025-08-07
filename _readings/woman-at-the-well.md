@@ -6,8 +6,6 @@ book: "John"
 excerpt: "John 4:1–42"
 noindex: true
 ref: "John 4:1–42"
-direct: ["jesus", "disciples", "judea", "galilee", "samaria", "sychar", "photini"]
-indirect: ["pharisees", "john-the-forerunner", "jacob", "joseph", "jews", "five-husbands", "god"]
 prev_slug: "johns-witness"
 next_slug: "healing-a-noblemans-son"
 ---
