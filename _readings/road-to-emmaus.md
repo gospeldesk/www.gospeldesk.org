@@ -6,6 +6,8 @@ book: "Luke"
 excerpt: "Luke 24:12–35"
 noindex: true
 ref: "Luke 24:12–35"
+direct: ["peter", "luke", "cleopas", "jesus", "the-twelve", "disciples"]
+indirect: ["emmaus", "jerusalem", "god", "multitude", "chief-priests", "rulers", "israel", "women-disciples", "tomb-angels", "prophets", "moses", "bread"]
 prev_slug: "resurrection-luke"
 next_slug: "ascension-luke"
 ---

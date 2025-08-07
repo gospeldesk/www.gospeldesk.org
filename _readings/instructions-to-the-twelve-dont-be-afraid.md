@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 10:23–31"
 subtitle: "Don't Be Afraid"
 related: ["dont-be-afraid"]
-direct: ["jesus", "twelve"]
+direct: ["jesus", "the-twelve"]
 indirect: ["israel", "satan", "god"]
 prev_slug: "instructions-to-the-twelve-endure-to-the-end"
 next_slug: "instructions-to-the-twelve-not-peace-but-a-sword"

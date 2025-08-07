@@ -7,6 +7,8 @@ excerpt: "Luke 24:36–53"
 noindex: true
 ref: "Luke 24:36–53"
 related: ["ascension-mark"]
+direct: ["the-twelve", "disciples", "jesus"]
+indirect: ["moses", "prophets", "jerusalem", "nations", "father", "bethany"]
 prev_slug: "road-to-emmaus"
 next_slug: "the-word"
 ---
