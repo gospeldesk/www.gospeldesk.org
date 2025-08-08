@@ -6,6 +6,8 @@ book: "John"
 excerpt: "John 9:1–38"
 noindex: true
 ref: "John 9:1–38"
+direct: ["jesus", "disciples", "man-born-blind", "man-born-blinds-parents", "man-born-blinds-neighbors", "pharisees", "jews"]
+indirect: ["siloam", "mud", "moses", "god"]
 prev_slug: "i-am"
 next_slug: "good-shepherd"
 ---
@@ -13,12 +15,14 @@ next_slug: "good-shepherd"
 <p><span class="v">1</span>As he passed by, he saw a man blind from birth.  <span class="v">2</span>His disciples asked him, “Rabbi, who sinned, this man or his parents, that he was born blind?” </p>
 <p><span class="v">3</span>Jesus answered, “Neither did this man sin, nor his parents; but, that the works of God might be revealed in him.  <span class="v">4</span>I must work the works of him who sent me, while it is day. The night is coming, when no one can work.  <span class="v">5</span>While I am in the world, I am the light of the world.” </p>
 <p><span class="v">6</span>When he had said this, he spat on the ground, made mud with the saliva, anointed the blind man’s eyes with the mud,  <span class="v">7</span>and said to him, “Go, wash in the pool of Siloam” (which means “Sent”). So he went away, washed, and came back seeing. </p>
+<h4>Before His Neighbors</h4>
 <p><span class="v">8</span>The neighbors therefore, and those who saw that he was blind before, said, “Isn’t this he who sat and begged?”  <span class="v">9</span>Others were saying, “It is he.” Still others were saying, “He looks like him.”</p>
 <p>He said, “I am he.” </p>
 <p><span class="v">10</span>They therefore were asking him, “How were your eyes opened?” </p>
 <p><span class="v">11</span>He answered, “A man called Jesus made mud, anointed my eyes, and said to me, ‘Go to the pool of Siloam, and wash.’ So I went away and washed, and I received sight.” </p>
 <p><span class="v">12</span>Then they asked him, “Where is he?”</p>
 <p>He said, “I don’t know.” </p>
+<h4>Before the Pharisees</h4>
 <p><span class="v">13</span>They brought him who had been blind to the Pharisees.  <span class="v">14</span>It was a Sabbath when Jesus made the mud and opened his eyes.  <span class="v">15</span>Again therefore the Pharisees also asked him how he received his sight. He said to them, “He put mud on my eyes, I washed, and I see.” </p>
 <p><span class="v">16</span>Some therefore of the Pharisees said, “This man is not from God, because he doesn’t keep the Sabbath.” Others said, “How can a man who is a sinner do such signs?” There was division among them.  <span class="v">17</span>Therefore they asked the blind man again, “What do you say about him, because he opened your eyes?”</p>
 <p>He said, “He is a prophet.” </p>

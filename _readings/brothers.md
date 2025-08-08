@@ -6,6 +6,8 @@ book: "John"
 excerpt: "John 7:1–13"
 noindex: true
 ref: "John 7:1–13"
+direct: ["jesus", "jesus-brothers", "multitude"]
+indirect: ["galilee", "judea", "jews"]
 prev_slug: "hard-saying"
 next_slug: "teaching-in-the-temple"
 ---

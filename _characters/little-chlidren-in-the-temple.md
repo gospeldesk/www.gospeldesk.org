@@ -1,3 +1,3 @@
 ---
-name: "Little Chlidren In the Temple"
+name: "Little Chlidren in the Temple"
 ---

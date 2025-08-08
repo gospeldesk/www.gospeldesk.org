@@ -6,6 +6,8 @@ book: "John"
 excerpt: "John 10:17–42"
 noindex: true
 ref: "John 10:17–42"
+direct: ["jesus", "jews", "multitude"]
+indirect: ["god", "temple", "transjordan", "john-the-forerunner"]
 prev_slug: "good-shepherd"
 next_slug: "lazarus"
 ---

@@ -4906,7 +4906,9 @@ John  9:5   355
 
 John  9:6   355
 John  9:7   355
-
+#
+# Before His Neighbors
+#
 John  9:8   355
 John  9:9   355
   him." He
@@ -4917,7 +4919,9 @@ John  9:11  355
 
 John  9:12  355
   he?" He
-
+#
+# Before the Pharisees
+#
 John  9:13  355
 John  9:14  355
 John  9:15  355

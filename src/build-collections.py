@@ -96,7 +96,7 @@ def main():
         char_slugs.add(char_slug)
         filepath = f'../_characters/{char_slug}.md'
         name = char.title().replace('-', ' ').replace("'S ", "'s ")
-        for word in 'Of The From And A An With'.split():
+        for word in 'Of The From And A An With In'.split():
             name = name.replace(f' {word} ', f' {word.lower()} ')
         name = name.replace(f'Mother In Law', f'Mother-in-law')
         open(filepath, 'w+').write(f'''\

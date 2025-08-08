@@ -6,6 +6,8 @@ book: "John"
 excerpt: "John 9:39–10:16"
 noindex: true
 ref: "John 9:39–10:16"
+direct: ["jesus", "pharisees"]
+indirect: ["god"]
 prev_slug: "healing-of-a-man-blind-from-birth"
 next_slug: "tell-us-plainly"
 ---

@@ -6,6 +6,8 @@ book: "John"
 excerpt: "John 3:1–21"
 noindex: true
 ref: "John 3:1–21"
+direct: ["nicodemus", "jesus"]
+indirect: ["god", "holy-spirit", "israel"]
 prev_slug: "cleansing-the-temple-john"
 next_slug: "johns-witness"
 ---

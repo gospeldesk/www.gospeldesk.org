@@ -7,6 +7,8 @@ excerpt: "John 6:14–27"
 noindex: true
 ref: "John 6:14–27"
 related: ["walking-on-water-matthew", "walking-on-water-mark"]
+direct: ["jesus", "multitude", "disciples", "sea"]
+indirect: ["capernaum", "tiberias"]
 prev_slug: "feeding-of-the-five-thousand-john"
 next_slug: "bread-of-life"
 ---

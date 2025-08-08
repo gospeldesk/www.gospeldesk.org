@@ -6,6 +6,8 @@ book: "John"
 excerpt: "John 8:31–42"
 noindex: true
 ref: "John 8:31–42"
+direct: ["jesus", "jews"]
+indirect: ["abraham", "god", "satan"]
 prev_slug: "going-away"
 next_slug: "father-of-lies"
 ---

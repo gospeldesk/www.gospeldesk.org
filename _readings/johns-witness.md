@@ -6,6 +6,8 @@ book: "John"
 excerpt: "John 3:22–36"
 noindex: true
 ref: "John 3:22–36"
+direct: ["jesus", "disciples", "john-the-forerunner", "john-the-forerunners-disciples", "jews"]
+indirect: ["judea", "enon", "salim", "god", "holy-spirit"]
 prev_slug: "nicodemus"
 next_slug: "woman-at-the-well"
 ---

@@ -6,6 +6,8 @@ book: "John"
 excerpt: "John 2:1–11"
 noindex: true
 ref: "John 2:1–11"
+direct: ["jesus", "disciples", "mary", "cana-wedding-servants", "cana-wedding-ruler", "cana-wedding-bridegroom"]
+indirect: ["cana", "galilee", "cana-wedding-guests"]
 prev_slug: "calling-the-first-disciples"
 next_slug: "cleansing-the-temple-john"
 ---

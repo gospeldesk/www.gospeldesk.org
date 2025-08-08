@@ -6,6 +6,8 @@ book: "John"
 excerpt: "John 5:1–6:2"
 noindex: true
 ref: "John 5:1–6:2"
+direct: ["jesus", "bethesda-sick", "bethesda-man", "jews"]
+indirect: ["jerusalem", "bethesda", "bethesda-angel", "temple", "god"]
 prev_slug: "healing-a-noblemans-son"
 next_slug: "feeding-of-the-five-thousand-john"
 ---
