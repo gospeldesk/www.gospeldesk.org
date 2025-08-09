@@ -6,6 +6,8 @@ book: "John"
 excerpt: "John 11:1–46"
 noindex: true
 ref: "John 11:1–46"
+direct: ["jesus", "lazarus", "mary-of-bethany", "martha", "disciples", "thomas", "lazarus-mourners", "multitude", "pharisees"]
+indirect: ["bethany", "god", "judea", "jews"]
 prev_slug: "tell-us-plainly"
 next_slug: "council"
 ---
@@ -18,6 +20,7 @@ next_slug: "council"
 <p><span class="v">12</span>The disciples therefore said, “Lord, if he has fallen asleep, he will recover.” </p>
 <p><span class="v">13</span>Now Jesus had spoken of his death, but they thought that he spoke of taking rest in sleep.  <span class="v">14</span>So Jesus said to them plainly then, “Lazarus is dead.  <span class="v">15</span>I am glad for your sakes that I was not there, so that you may believe. Nevertheless, let’s go to him.” </p>
 <p><span class="v">16</span>Thomas therefore, who is called Didymus, said to his fellow disciples, “Let’s go also, that we may die with him.” </p>
+<h4>Raising of Lazarus</h4>
 <p><span class="v">17</span>So when Jesus came, he found that he had been in the tomb four days already.  <span class="v">18</span>Now Bethany was near Jerusalem, about fifteen stadia away.  <span class="v">19</span>Many of the Jews had joined the women around Martha and Mary, to console them concerning their brother.  <span class="v">20</span>Then when Martha heard that Jesus was coming, she went and met him, but Mary stayed in the house.  <span class="v">21</span>Therefore Martha said to Jesus, “Lord, if you would have been here, my brother wouldn’t have died.  <span class="v">22</span>Even now I know that, whatever you ask of God, God will give you.” </p>
 <p><span class="v">23</span>Jesus said to her, “Your brother will rise again.” </p>
 <p><span class="v">24</span>Martha said to him, “I know that he will rise again in the resurrection at the last day.” </p>
