@@ -6,8 +6,6 @@ book: "John"
 excerpt: "John 1:1–17"
 noindex: true
 ref: "John 1:1–17"
-direct: ["jesus", "john-the-forerunner"]
-indirect: ["god", "moses", "disciples"]
 prev_slug: "ascension-luke"
 next_slug: "johns-testimony"
 ---

@@ -6,8 +6,6 @@ book: "John"
 excerpt: "John 8:42–51"
 noindex: true
 ref: "John 8:42–51"
-direct: ["jesus", "jews"]
-indirect: ["god", "abraham", "satan", "samaritan"]
 prev_slug: "abrahams-offspring"
 next_slug: "i-am"
 ---

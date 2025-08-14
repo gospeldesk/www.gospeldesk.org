@@ -6,8 +6,6 @@ book: "Luke"
 excerpt: "Luke 17:20–25"
 noindex: true
 ref: "Luke 17:20–25"
-direct: ["jesus", "disciples", "multitude", "pharisees"]
-indirect: ["god"]
 prev_slug: "healing-of-ten-lepers"
 next_slug: "days-of-noah-and-lot"
 ---

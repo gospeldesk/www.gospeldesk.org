@@ -7,8 +7,6 @@ excerpt: "John 18:28–19:37"
 noindex: true
 ref: "John 18:28–19:37"
 subtitle: "Friday, 9th Hour"
-direct: ["jesus", "officers", "caiaphas", "pilate", "jews", "multitude", "chief-priests", "mary", "mary-of-clopas", "mary-magdalene", "john-the-theologian", "dysmas", "gestas"]
-indirect: ["caesar", "god", "barabbas"]
 prev_slug: "holy-week-friday-6th-hour"
 next_slug: "holy-week-friday-composite"
 ---

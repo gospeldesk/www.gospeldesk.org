@@ -1,3 +1,3 @@
 ---
-name: "Peter's Mother in Law's Fever"
+name: "Peter's Mother-in-law's Fever"
 ---

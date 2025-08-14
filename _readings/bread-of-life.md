@@ -6,8 +6,6 @@ book: "John"
 excerpt: "John 6:27–55"
 noindex: true
 ref: "John 6:27–55"
-direct: ["jesus", "jews"]
-indirect: ["god", "bread", "moses"]
 prev_slug: "walking-on-water-john"
 next_slug: "hard-saying"
 ---

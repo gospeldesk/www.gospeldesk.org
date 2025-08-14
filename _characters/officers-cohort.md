@@ -1,3 +1,0 @@
----
-name: "Officer's Cohort"
----

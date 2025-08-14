@@ -7,8 +7,6 @@ excerpt: "Luke 12:32–40"
 noindex: true
 ref: "Luke 12:32–40"
 related: ["sermon-on-the-mount-forgiveness-fasting-treasure", "little-apocalypse-matthew"]
-direct: ["jesus", "disciples", "multitude"]
-indirect: ["god"]
 prev_slug: "parable-of-the-rich-fool"
 next_slug: "faithful-or-unfaithful-steward"
 ---

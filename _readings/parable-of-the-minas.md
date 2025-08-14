@@ -7,8 +7,6 @@ excerpt: "Luke 19:11–28"
 noindex: true
 ref: "Luke 19:11–28"
 related: ["parable-of-the-talents"]
-direct: ["jesus", "disciples", "multitude"]
-indirect: ["god", "jerusalem"]
 prev_slug: "zacchaeus"
 next_slug: "triumphal-entry-luke"
 ---

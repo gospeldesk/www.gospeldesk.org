@@ -6,8 +6,6 @@ book: "Luke"
 excerpt: "Luke 13:31–35"
 noindex: true
 ref: "Luke 13:31–35"
-direct: ["jesus", "disciples", "multitude", "pharisees"]
-indirect: ["herod-the-tetrarch", "demons", "jerusalem", "god"]
 prev_slug: "mustard-seed-yeast-narrow-door"
 next_slug: "healing-of-a-man-with-dropsy"
 ---

@@ -6,8 +6,6 @@ book: "John"
 excerpt: "John 7:31–36"
 noindex: true
 ref: "John 7:31–36"
-direct: ["jesus", "multitude", "pharisees", "chief-priests", "officers", "jews"]
-indirect: ["greeks"]
 prev_slug: "teaching-in-the-temple"
 next_slug: "come-and-drink"
 ---

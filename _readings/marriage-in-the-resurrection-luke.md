@@ -7,8 +7,6 @@ excerpt: "Luke 20:27–44"
 noindex: true
 ref: "Luke 20:27–44"
 related: ["marriage-in-the-resurrection-matthew", "marriage-in-the-resurrection-mark"]
-direct: ["jesus", "disciples", "multitude", "sadducees"]
-indirect: ["moses", "god", "abraham", "isaac", "jacob", "david"]
 prev_slug: "taxes-to-caesar-luke"
 next_slug: "widows-mite-luke"
 ---

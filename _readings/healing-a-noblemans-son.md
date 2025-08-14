@@ -7,8 +7,6 @@ excerpt: "John 4:43–54"
 noindex: true
 ref: "John 4:43–54"
 related: ["two-healings-matthew", "healing-jairus-daughter", "two-healings-luke"]
-direct: ["jesus", "nobleman", "noblemans-son", "noblemans-servants"]
-indirect: ["galilee", "jerusalem", "cana", "judea"]
 prev_slug: "woman-at-the-well"
 next_slug: "healing-at-bethesda-pool"
 ---

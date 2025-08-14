@@ -7,8 +7,6 @@ excerpt: "Luke 20:45–21:4"
 noindex: true
 ref: "Luke 20:45–21:4"
 related: ["widows-mite-mark"]
-direct: ["jesus", "disciples", "multitude", "rich-people", "widow"]
-indirect: ["scribes"]
 prev_slug: "marriage-in-the-resurrection-luke"
 next_slug: "little-apocalypse-luke"
 ---

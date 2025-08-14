@@ -7,7 +7,7 @@ excerpt: "Matthew 12:46–13:3"
 noindex: true
 ref: "Matthew 12:46–13:3"
 related: ["blasphemy-mother-brothers", "lamp-mother-brothers"]
-direct: ["jesus", "multitude", "mary", "jesus-brothers", "one-presenting-the-lords-mother-and-brothers", "disciples"]
+direct: ["jesus", "multitude", "mary", "jesus-brothers", "one-of-the-multitude", "disciples"]
 prev_slug: "demand-for-a-sign-matthew"
 next_slug: "parable-of-the-farmer-matthew"
 ---

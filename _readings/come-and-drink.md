@@ -6,8 +6,6 @@ book: "John"
 excerpt: "John 7:37–8:12"
 noindex: true
 ref: "John 7:37–8:12"
-direct: ["jesus", "multitude", "jews", "officers", "chief-priests", "pharisees", "rulers", "nicodemus"]
-indirect: ["holy-spirit", "galilee", "bethlehem"]
 prev_slug: "a-while-longer"
 next_slug: "woman-caught-in-adultery"
 ---

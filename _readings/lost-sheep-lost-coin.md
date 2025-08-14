@@ -7,8 +7,6 @@ excerpt: "Luke 15:1–10"
 noindex: true
 ref: "Luke 15:1–10"
 related: ["parable-of-the-lost-sheep"]
-direct: ["jesus", "disciples", "multitude", "tax-collectors", "sinners"]
-indirect: ["angels", "god"]
 prev_slug: "count-the-cost"
 next_slug: "parable-of-the-prodigal-son"
 ---

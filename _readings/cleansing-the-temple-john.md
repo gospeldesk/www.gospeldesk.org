@@ -7,8 +7,6 @@ excerpt: "John 2:12–25"
 noindex: true
 ref: "John 2:12–25"
 related: ["cleansing-the-temple-matthew", "cleansing-the-temple-mark", "cleansing-the-temple-luke"]
-direct: ["jesus", "mother", "jesus-brothers", "disciples", "temple-money-changers", "temple-sheep", "temple-oxen", "temple-doves", "jewish-leaders", "multitude"]
-indirect: ["capernaum", "jerusalem", "temple"]
 prev_slug: "wedding-at-cana"
 next_slug: "nicodemus"
 ---

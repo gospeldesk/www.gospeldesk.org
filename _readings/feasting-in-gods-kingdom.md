@@ -6,8 +6,6 @@ book: "Luke"
 excerpt: "Luke 14:12–15"
 noindex: true
 ref: "Luke 14:12–15"
-direct: ["jesus", "pharisees", "a-ruler-of-the-pharisees", "a-ruler-of-the-pharisees-guest", "pharisees", "lawyers"]
-indirect: ["god"]
 prev_slug: "healing-of-a-man-with-dropsy"
 next_slug: "parable-of-the-feast"
 ---

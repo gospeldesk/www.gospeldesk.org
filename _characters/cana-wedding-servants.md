@@ -1,3 +1,0 @@
----
-name: "Cana Wedding Servants"
----

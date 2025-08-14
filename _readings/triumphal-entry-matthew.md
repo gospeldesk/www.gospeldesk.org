@@ -7,7 +7,7 @@ excerpt: "Matthew 21:1–17"
 noindex: true
 ref: "Matthew 21:1–17"
 related: ["triumphal-entry-mark", "triumphal-entry-luke", "annointing-triumphal-entry"]
-direct: ["jesus", "disciples", "bethsphage", "mount-of-olives", "two-disciples", "donkey", "donkeys-colt", "donkeys-owner", "multitude", "jerusalem", "chief-priests", "scribes", "little-children-in-the-temple", "temple", "bethany"]
+direct: ["jesus", "disciples", "bethsphage", "mount-of-olives", "two-disciples", "donkey", "donkeys-colt", "donkeys-owner", "multitude", "jerusalem", "chief-priests", "scribes", "little-chlidren-in-the-temple", "temple", "bethany"]
 indirect: ["zechariah", "david", "nazareth", "galilee"]
 prev_slug: "two-blind-men"
 next_slug: "cleansing-the-temple-matthew"

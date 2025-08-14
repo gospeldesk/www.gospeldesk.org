@@ -7,8 +7,6 @@ excerpt: "Luke 20:19–26"
 noindex: true
 ref: "Luke 20:19–26"
 related: ["taxes-to-caesar-matthew", "taxes-to-caesar-mark"]
-direct: ["jesus", "disciples", "multitude", "chief-priests", "scribes", "spies"]
-indirect: ["pilate", "caesar", "god"]
 prev_slug: "parable-of-the-wicked-tenants-luke"
 next_slug: "marriage-in-the-resurrection-luke"
 ---

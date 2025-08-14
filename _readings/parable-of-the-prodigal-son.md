@@ -6,7 +6,6 @@ book: "Luke"
 excerpt: "Luke 15:11–32"
 noindex: true
 ref: "Luke 15:11–32"
-direct: ["jesus", "disciples", "multitude"]
 prev_slug: "lost-sheep-lost-coin"
 next_slug: "parable-of-the-shrewd-steward"
 ---

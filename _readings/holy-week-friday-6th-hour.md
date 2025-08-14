@@ -7,8 +7,6 @@ excerpt: "Luke 23:32–49"
 noindex: true
 ref: "Luke 23:32–49"
 subtitle: "Friday, 6th Hour"
-direct: ["jesus", "dysmas", "gestas", "officers", "multitude", "rulers", "longinus", "acquaintances"]
-indirect: ["galilee", "god"]
 prev_slug: "holy-week-friday-3rd-hour"
 next_slug: "holy-week-friday-9th-hour"
 ---

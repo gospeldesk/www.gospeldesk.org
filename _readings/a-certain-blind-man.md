@@ -7,8 +7,6 @@ excerpt: "Luke 18:35–43"
 noindex: true
 ref: "Luke 18:35–43"
 related: ["two-blind-men-mute-man", "two-blind-men", "blind-bartimaeus"]
-direct: ["jesus", "disciples", "multitude", "blind-bartimaeus"]
-indirect: ["david", "god"]
 prev_slug: "prophesy-of-the-passion"
 next_slug: "zacchaeus"
 ---

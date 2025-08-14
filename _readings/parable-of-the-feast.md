@@ -6,7 +6,6 @@ book: "Luke"
 excerpt: "Luke 14:16–24"
 noindex: true
 ref: "Luke 14:16–24"
-direct: ["jesus", "pharisees", "a-ruler-of-the-pharisees", "a-ruler-of-the-pharisees-guest", "pharisees", "lawyers"]
 prev_slug: "feasting-in-gods-kingdom"
 next_slug: "count-the-cost"
 ---

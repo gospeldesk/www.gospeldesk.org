@@ -6,8 +6,6 @@ book: "John"
 excerpt: "John 8:51–59"
 noindex: true
 ref: "John 8:51–59"
-direct: ["jesus", "jews"]
-indirect: ["abraham", "god", "temple"]
 prev_slug: "father-of-lies"
 next_slug: "healing-of-a-man-blind-from-birth"
 ---

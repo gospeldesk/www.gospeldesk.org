@@ -5333,19 +5333,29 @@ John 21:25  397
 ---- Holy Week: Monday, Bridegroom Matins
 Matt 21:18  92
 Matt 21:19  92
+
 Matt 21:20  92
+
 Matt 21:21  92
 Matt 21:22  92
+
 Matt 21:23  92
+
 Matt 21:24  92
+
 Matt 21:25  92
+  men?" They
 Matt 21:26  92
 Matt 21:27  92
+  know." He
 Matt 21:28  92
 Matt 21:29  92
 Matt 21:30  92
 Matt 21:31  92
+  father?" They
+  first." Jesus
 Matt 21:32  92
+
 Matt 21:33  92
 Matt 21:34  92
 Matt 21:35  92
@@ -5354,11 +5364,15 @@ Matt 21:37  92
 Matt 21:38  92
 Matt 21:39  92
 Matt 21:40  92
+
 Matt 21:41  92
+
 Matt 21:42  92
-Matt 21:43  92
+
+Matt 21:43  92 "
 ---- Holy Week: Monday, Presanctified Liturgy
 Matt 24:3   107
+
 Matt 24:4   107
 Matt 24:5   107
 Matt 24:6   107
@@ -5370,6 +5384,7 @@ Matt 24:11  107
 Matt 24:12  107
 Matt 24:13  107
 Matt 24:14  107
+
 Matt 24:15  107
 Matt 24:16  107
 Matt 24:17  107
@@ -5378,8 +5393,10 @@ Matt 24:19  107
 Matt 24:20  107
 Matt 24:21  107
 Matt 24:22  107
+
 Matt 24:23  107
 Matt 24:24  107
+
 Matt 24:25  107
 Matt 24:26  107
 Matt 24:27  107
@@ -5387,43 +5404,68 @@ Matt 24:28  107
 Matt 24:29  107
 Matt 24:30  107
 Matt 24:31  107
+
 Matt 24:32  107
 Matt 24:33  107
 Matt 24:34  107
-Matt 24:35  107
+Matt 24:35  107 "
 ---- Holy Week: Tuesday, Bridegroom Matins
 Matt 22:15  99
 Matt 22:16  99
 Matt 22:17  99
+
 Matt 22:18  99
 Matt 22:19  99
+  money." They
+
 Matt 22:20  99
+
 Matt 22:21  99
+  s." Then
+
 Matt 22:22  99
+#
+# Sadducees
+#
 Matt 22:23  99
 Matt 22:24  99
 Matt 22:25  99
 Matt 22:26  99
 Matt 22:27  99
 Matt 22:28  99
+
 Matt 22:29  99
 Matt 22:30  99
 Matt 22:31  99
 Matt 22:32  99
+
 Matt 22:33  99
+#
+# Pharisees Again
+#
 Matt 22:34  99
 Matt 22:35  99
+
 Matt 22:36  99
+
 Matt 22:37  99
 Matt 22:38  99
 Matt 22:39  99
 Matt 22:40  99
+
 Matt 22:41  99
 Matt 22:42  99
+  he?" They
+
 Matt 22:43  99
 Matt 22:44  99
+
 Matt 22:45  99
+
 Matt 22:46  99
+#
+# Moses' Seat 
+#
 Matt 23:1   99
 Matt 23:2   99
 Matt 23:3   99
@@ -5435,10 +5477,15 @@ Matt 23:8   99
 Matt 23:9   99
 Matt 23:10  99
 Matt 23:11  99
-Matt 23:12  99
+Matt 23:12  99 "
+#
+# Woe!
+#
 Matt 23:13  99
+
 Matt 23:14  99
 Matt 23:15  99
+
 Matt 23:16  99
 Matt 23:17  99
 Matt 23:18  99
@@ -5446,12 +5493,16 @@ Matt 23:19  99
 Matt 23:20  99
 Matt 23:21  99
 Matt 23:22  99
+
 Matt 23:23  99
 Matt 23:24  99
+
 Matt 23:25  99
 Matt 23:26  99
+
 Matt 23:27  99
 Matt 23:28  99
+
 Matt 23:29  99
 Matt 23:30  99
 Matt 23:31  99
@@ -5460,11 +5511,13 @@ Matt 23:33  99
 Matt 23:34  99
 Matt 23:35  99
 Matt 23:36  99
+
 Matt 23:37  99
 Matt 23:38  99
 Matt 23:39  99
 ---- Holy Week: Tuesday, Presanctified Liturgy
-Matt 24:36 111
+"Matt 24:36 111
+
 Matt 24:37 111
 Matt 24:38 111
 Matt 24:39 111
@@ -5473,6 +5526,7 @@ Matt 24:41 111
 Matt 24:42 111
 Matt 24:43 111
 Matt 24:44 111
+
 Matt 24:45 111
 Matt 24:46 111
 Matt 24:47 111
@@ -5480,6 +5534,7 @@ Matt 24:48 111
 Matt 24:49 111
 Matt 24:50 111
 Matt 24:51 111
+
 Matt 25:1  111
 Matt 25:2  111
 Matt 25:3  111
@@ -5493,39 +5548,52 @@ Matt 25:10 111
 Matt 25:11 111
 Matt 25:12 111
 Matt 25:13 111
+
 Matt 25:14 111
 Matt 25:15 111
 Matt 25:16 111
 Matt 25:17 111
 Matt 25:18 111
+
 Matt 25:19 111
 Matt 25:20 111
+
 Matt 25:21 111
+
 Matt 25:22 111
+
 Matt 25:23 111
+
 Matt 25:24 111
 Matt 25:25 111
+
 Matt 25:26 111
 Matt 25:27 111
 Matt 25:28 111
 Matt 25:29 111
 Matt 25:30 111
+
 Matt 25:31 111
 Matt 25:32 111
 Matt 25:33 111
 Matt 25:34 111
 Matt 25:35 111
 Matt 25:36 111
+
 Matt 25:37 111
 Matt 25:38 111
 Matt 25:39 111
+
 Matt 25:40 111
 Matt 25:41 111
 Matt 25:42 111
 Matt 25:43 111
+
 Matt 25:44 111
+
 Matt 25:45 111
 Matt 25:46 111
+
 Matt 26:1  111
 Matt 26:2  111
 ---- Holy Week: Wednesday, Bridegroom Matins

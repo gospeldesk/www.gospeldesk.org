@@ -6,8 +6,6 @@ book: "Luke"
 excerpt: "Luke 13:1–9"
 noindex: true
 ref: "Luke 13:1–9"
-direct: ["jesus", "disciples", "multitude"]
-indirect: ["galileeans-murdered", "pilate", "eighteen-of-siloam"]
 prev_slug: "fire-on-the-earth"
 next_slug: "healing-an-infirm-woman"
 ---

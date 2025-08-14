@@ -7,8 +7,6 @@ excerpt: "Luke 21:5–36"
 noindex: true
 ref: "Luke 21:5–36"
 related: ["little-apocalypse-matthew", "little-apocalypse-mark"]
-direct: ["jesus", "disciples", "multitude"]
-indirect: ["god", "jerusalem", "gentiles", "sun", "moon", "stars", "sea", "waves", "earth"]
 prev_slug: "widows-mite-luke"
 next_slug: "satan-enters-judas"
 ---

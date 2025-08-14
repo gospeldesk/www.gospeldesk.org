@@ -6,8 +6,7 @@ book: "Matthew"
 excerpt: "Matthew 11:20–26"
 noindex: true
 ref: "Matthew 11:20–26"
-direct: ["jesus", "multitude", "chorazin", "bethsaida", "tyre-and-sidon", "capernaum", "sodom-and-gomorrah"]
-indirect: ["god"]
+direct: ["jesus", "multitude", "chorazin", "bethsaida", "tyre-and-sidon", "capernaum", "sodom-and-gomorrah", "god"]
 prev_slug: "friend-of-sinners-matthew"
 next_slug: "easy-yoke"
 ---

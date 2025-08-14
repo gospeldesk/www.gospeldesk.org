@@ -6,8 +6,6 @@ book: "John"
 excerpt: "John 6:56–71"
 noindex: true
 ref: "John 6:56–71"
-direct: ["jesus", "disciples", "the-twelve", "peter"]
-indirect: ["god", "bread", "capernaum", "judas"]
 prev_slug: "bread-of-life"
 next_slug: "brothers"
 ---

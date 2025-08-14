@@ -7,7 +7,7 @@ excerpt: "Mark 7:24–30"
 noindex: true
 ref: "Mark 7:24–30"
 related: ["canaanite-woman"]
-direct: ["jesus", "disciples", "tyre-and-sidon", "justa", "berenice", "berenices-demon"]
+direct: ["jesus", "disciples", "tyre-and-sidon", "justa", "berenice", "berenices", "demon"]
 prev_slug: "conflict-with-the-pharisees"
 next_slug: "healing-a-deaf-mute"
 ---

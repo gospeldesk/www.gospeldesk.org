@@ -7,7 +7,6 @@ excerpt: "Luke 12:41–48"
 noindex: true
 ref: "Luke 12:41–48"
 related: ["little-apocalypse-matthew"]
-direct: ["jesus", "peter"]
 prev_slug: "treasure-watchfulness"
 next_slug: "fire-on-the-earth"
 ---

@@ -7,8 +7,6 @@ excerpt: "Luke 13:18–30"
 noindex: true
 ref: "Luke 13:18–30"
 related: ["parable-of-the-weeds-etc", "parable-of-the-mustard-seed"]
-direct: ["jesus", "disciples", "multitude", "one-who-asked-whether-few-are-saved"]
-indirect: ["villages", "jerusalem", "god"]
 prev_slug: "healing-an-infirm-woman"
 next_slug: "tell-that-fox"
 ---

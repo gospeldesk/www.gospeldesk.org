@@ -6,8 +6,6 @@ book: "Luke"
 excerpt: "Luke 12:16–21"
 noindex: true
 ref: "Luke 12:16–21"
-direct: ["jesus", "disciples", "multitude"]
-indirect: ["god"]
 prev_slug: "dont-be-anxious"
 next_slug: "treasure-watchfulness"
 ---

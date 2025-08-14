@@ -1,3 +1,0 @@
----
-name: "Nobleman's Son"
----

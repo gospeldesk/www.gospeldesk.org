@@ -6,8 +6,6 @@ book: "Luke"
 excerpt: "Luke 11:42–46"
 noindex: true
 ref: "Luke 11:42–46"
-direct: ["jesus", "disciples", "multitude", "pharisees", "scribes"]
-indirect: ["god"]
 prev_slug: "lamp-of-the-body-washing"
 next_slug: "woe-to-you"
 ---

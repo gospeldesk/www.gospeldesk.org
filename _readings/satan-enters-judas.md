@@ -6,7 +6,6 @@ book: "Luke"
 excerpt: "Luke 21:37–22:8"
 noindex: true
 ref: "Luke 21:37–22:8"
-direct: ["jesus", "disciples", "multitude", "temple", "mount-of-olives", "chief-priests", "scribes", "satan", "judas-iscariot", "peter", "john-the-theologian"]
 prev_slug: "little-apocalypse-luke"
 next_slug: "last-supper-luke"
 ---

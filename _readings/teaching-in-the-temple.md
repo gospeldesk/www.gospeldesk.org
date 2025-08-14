@@ -6,8 +6,6 @@ book: "John"
 excerpt: "John 7:14–30"
 noindex: true
 ref: "John 7:14–30"
-direct: ["jesus", "jews", "multitude"]
-indirect: ["temple", "god", "moses"]
 prev_slug: "brothers"
 next_slug: "a-while-longer"
 ---

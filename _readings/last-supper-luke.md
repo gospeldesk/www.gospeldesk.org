@@ -7,8 +7,6 @@ excerpt: "Luke 22:7–39"
 noindex: true
 ref: "Luke 22:7–39"
 related: ["holy-week-thursday-composite", "last-supper-mark"]
-direct: ["jesus", "peter", "john-the-theologian", "man-carrying-water", "master-of-the-house", "the-twelve", "peter"]
-indirect: ["satan", "rooster", "god"]
 prev_slug: "satan-enters-judas"
 next_slug: "betrayal-luke"
 ---

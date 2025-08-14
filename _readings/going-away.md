@@ -6,8 +6,6 @@ book: "John"
 excerpt: "John 8:21–30"
 noindex: true
 ref: "John 8:21–30"
-direct: ["jesus", "jews"]
-indirect: ["god"]
 prev_slug: "light-of-the-world"
 next_slug: "abrahams-offspring"
 ---

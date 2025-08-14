@@ -7,8 +7,6 @@ excerpt: "Luke 24:1–12"
 noindex: true
 ref: "Luke 24:1–12"
 related: ["holy-week-great-and-holy-saturday", "resurrection-mark", "resurrection-john"]
-direct: ["women-disciples", "tomb-angels", "the-twelve", "mary-magdalene", "joanna", "mary-mother-of-james", "peter"]
-indirect: ["galilee"]
 prev_slug: "handing-over-and-crucifixion-luke"
 next_slug: "road-to-emmaus"
 ---

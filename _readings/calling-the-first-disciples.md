@@ -6,8 +6,6 @@ book: "John"
 excerpt: "John 1:35–51"
 noindex: true
 ref: "John 1:35–51"
-direct: ["john-the-forerunner", "john-the-forerunners-disciples", "jesus", "andrew", "peter", "philip", "nathanael"]
-indirect: ["galilee", "bethsaida", "moses", "prophets", "nazareth", "joseph", "israel"]
 prev_slug: "lamb-of-god"
 next_slug: "wedding-at-cana"
 ---

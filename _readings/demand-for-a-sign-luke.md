@@ -7,8 +7,6 @@ excerpt: "Luke 11:29–33"
 noindex: true
 ref: "Luke 11:29–33"
 related: ["demand-for-a-sign-matthew", "yeast-of-the-pharisees-mark"]
-direct: ["jesus", "disciples", "multitude"]
-indirect: ["jonah", "ninevah", "queen-of-the-south", "solomon"]
 prev_slug: "by-beelzebul-luke"
 next_slug: "lamp-of-the-body-washing"
 ---

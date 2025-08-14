@@ -6,8 +6,6 @@ book: "John"
 excerpt: "John 1:29–34"
 noindex: true
 ref: "John 1:29–34"
-direct: ["john-the-forerunner", "jesus", "multitude"]
-indirect: ["israel", "holy-spirit", "god"]
 prev_slug: "johns-testimony"
 next_slug: "calling-the-first-disciples"
 ---

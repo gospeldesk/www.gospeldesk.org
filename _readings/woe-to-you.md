@@ -6,8 +6,6 @@ book: "Luke"
 excerpt: "Luke 11:47–12:1"
 noindex: true
 ref: "Luke 11:47–12:1"
-direct: ["jesus", "disciples", "multitude", "pharisees", "scribes"]
-indirect: ["prophets", "god", "abel", "zachariah"]
 prev_slug: "woe-to-you-pharisees"
 next_slug: "dont-be-afraid"
 ---

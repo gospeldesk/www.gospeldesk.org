@@ -7,8 +7,6 @@ excerpt: "John 6:3–14"
 noindex: true
 ref: "John 6:3–14"
 related: ["feeding-of-the-five-thousand-matthew", "feeding-of-the-five-thousand-mark", "feeding-of-the-five-thousand-luke"]
-direct: ["jesus", "disciples", "multitude", "philip", "andrew", "boy", "bread", "fish"]
-indirect: ["mountain", "god"]
 prev_slug: "healing-at-bethesda-pool"
 next_slug: "walking-on-water-john"
 ---

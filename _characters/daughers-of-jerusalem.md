@@ -1,3 +1,0 @@
----
-name: "Daughers of Jerusalem"
----

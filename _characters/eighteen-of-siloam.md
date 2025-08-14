@@ -1,3 +1,0 @@
----
-name: "Eighteen of Siloam"
----

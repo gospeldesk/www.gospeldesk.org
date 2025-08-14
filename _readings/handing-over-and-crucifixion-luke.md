@@ -7,8 +7,6 @@ excerpt: "Luke 23:2–56"
 noindex: true
 ref: "Luke 23:2–56"
 related: ["handing-over", "crucifixion", "handing-over-and-crucifixion-john"]
-direct: ["jesus", "chief-priests", "captains-of-the-temple", "elders", "rulers", "pilate", "multitude", "scribes", "herod", "herods-soldiers", "simon-of-cyrene", "daughers-of-jerusalem", "gestas", "dysmas", "longinus", "disciples", "women-disciples", "joseph-of-arimathaea"]
-indirect: ["caesar", "judea", "galilee", "jerusalem", "barabbas", "god", "temple", "council", "arimathaea"]
 prev_slug: "betrayal-luke"
 next_slug: "resurrection-luke"
 ---

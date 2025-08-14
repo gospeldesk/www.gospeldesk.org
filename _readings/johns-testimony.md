@@ -6,8 +6,6 @@ book: "John"
 excerpt: "John 1:18–28"
 noindex: true
 ref: "John 1:18–28"
-direct: ["john-the-forerunner", "jewish-leaders"]
-indirect: ["god", "elijah", "the-prophet", "jesus"]
 prev_slug: "the-word"
 next_slug: "lamb-of-god"
 ---

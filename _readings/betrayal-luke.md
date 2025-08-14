@@ -7,8 +7,6 @@ excerpt: "Luke 22:39–23:1"
 noindex: true
 ref: "Luke 22:39–23:1"
 related: ["holy-week-thursday-composite", "betrayal-mark"]
-direct: ["jesus", "disciples", "mount-of-olives", "officers", "judas-iscariot", "peter", "malchus", "chief-priests", "captains-of-the-temple", "elders", "high-priest", "high-priests-maid", "high-priests-household", "high-priests-household-member", "council", "scribes", "pilate", "rooster"]
-indirect: ["god"]
 prev_slug: "last-supper-luke"
 next_slug: "handing-over-and-crucifixion-luke"
 ---
