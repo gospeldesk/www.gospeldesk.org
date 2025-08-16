@@ -5149,13 +5149,13 @@ John 12:19  366
 
 John 12:20  366
 John 12:21  366
-
 John 12:22  366
 
 John 12:23  366
 John 12:24  366
 John 12:25  366
 John 12:26  366
+
 John 12:27  366
 John 12:28  366, 367
   name!" Then
@@ -5600,23 +5600,32 @@ Matt 26:2  111
 John 12:17  365
 John 12:18  365
 John 12:19  365
+
 John 12:20  365
 John 12:21  365
+
 John 12:22  365
+
 John 12:23  365
 John 12:24  365
 John 12:25  365
 John 12:26  365
 John 12:27  365
 John 12:28  365
+  name!" Then
+
 John 12:29  365
+
 John 12:30  365
 John 12:31  365
 John 12:32  365
 John 12:33  365
+
 John 12:34  365
+
 John 12:35  365
 John 12:36  365
+
 John 12:37  365
 John 12:38  365
 John 12:39  365
@@ -5624,6 +5633,7 @@ John 12:40  365
 John 12:41  365
 John 12:42  365
 John 12:43  365
+
 John 12:44  365
 John 12:45  365
 John 12:46  365
