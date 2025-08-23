@@ -6,7 +6,7 @@ book: "John"
 excerpt: "John 13:18–30"
 noindex: true
 ref: "John 13:18–30"
-direct: ["jesus", "disciples", "juads", "peter", "john-the-theologian", "satan"]
+direct: ["jesus", "disciples", "judas", "peter", "john-the-theologian", "satan"]
 prev_slug: "washing-the-disciples-feet"
 next_slug: "resurrection-john"
 ---
