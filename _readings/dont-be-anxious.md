@@ -7,6 +7,8 @@ excerpt: "Luke 12:13–31"
 noindex: true
 ref: "Luke 12:13–31"
 related: ["sermon-on-the-mount-dont-be-anxious"]
+direct: ["jesus", "disciples", "multitude", "man-who-would-divide-the-inheritance"]
+indirect: ["man-who-would-divide-the-inheritances-brother", "god"]
 prev_slug: "dont-be-afraid"
 next_slug: "parable-of-the-rich-fool"
 ---

@@ -6,6 +6,8 @@ book: "John"
 excerpt: "John 8:1–11"
 noindex: true
 ref: "John 8:1–11"
+direct: ["jesus", "multitude", "scribes", "pharisees", "woman-caught-in-adultery"]
+indirect: ["mount-of-olives", "temple", "moses"]
 prev_slug: "come-and-drink"
 next_slug: "light-of-the-world"
 ---

@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 10:9–15"
 subtitle: "Shake the Dust"
 related: ["sending-the-twelve"]
-direct: ["jesus", "twelve"]
+direct: ["jesus", "the-twelve"]
 indirect: ["sodom-and-gomorrah"]
 prev_slug: "instructions-to-the-twelve-freely-give"
 next_slug: "instructions-to-the-twelve-endure-to-the-end"

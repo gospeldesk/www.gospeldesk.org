@@ -6,6 +6,7 @@ book: "Luke"
 excerpt: "Luke 17:3–10"
 noindex: true
 ref: "Luke 17:3–10"
+direct: ["jesus", "disciples", "multitude", "the-twelve", "the-seventy"]
 prev_slug: "parable-of-the-rich-man-and-lazarus"
 next_slug: "healing-of-ten-lepers"
 ---

@@ -6,6 +6,8 @@ book: "Luke"
 excerpt: "Luke 18:9–14"
 noindex: true
 ref: "Luke 18:9–14"
+direct: ["jesus", "disciples", "multitude", "certain-self-righteous-people"]
+indirect: ["god"]
 prev_slug: "parable-of-the-unjust-judge"
 next_slug: "children-and-the-kingdom"
 ---

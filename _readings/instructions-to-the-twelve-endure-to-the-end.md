@@ -7,7 +7,7 @@ excerpt: "Matthew 10:16–22"
 noindex: true
 ref: "Matthew 10:16–22"
 subtitle: "Endure to the End"
-direct: ["jesus", "twelve"]
+direct: ["jesus", "the-twelve"]
 indirect: ["holy-spirit", "god"]
 prev_slug: "instructions-to-the-twelve-shake-the-dust"
 next_slug: "instructions-to-the-twelve-dont-be-afraid"

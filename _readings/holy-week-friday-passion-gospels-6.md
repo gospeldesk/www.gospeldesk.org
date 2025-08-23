@@ -7,6 +7,8 @@ excerpt: "Mark 15:16–32"
 noindex: true
 ref: "Mark 15:16–32"
 subtitle: "Friday, Passion Gospels № 6"
+direct: ["jesus", "officers", "officers-cohort", "simon", "golgotha", "dysmas", "gestas", "chief-priests", "scribes", "passers-by"]
+indirect: ["jews", "alexander", "rufus"]
 prev_slug: "holy-week-friday-passion-gospels-5"
 next_slug: "holy-week-friday-passion-gospels-7"
 ---

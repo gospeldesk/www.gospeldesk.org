@@ -6161,33 +6161,51 @@ John 19:16  385
 ---- Holy Week: Friday, Passion Gospels № 5
 Matt 27:3   121
 Matt 27:4   121
+  blood." But
+
 Matt 27:5   121
+
 Matt 27:6   121
 Matt 27:7   121
 Matt 27:8   121
 Matt 27:9   121
 Matt 27:10  121
+
 Matt 27:11  121
+  Jews?" Jesus
 Matt 27:12  121
+
 Matt 27:13  121
 Matt 27:14  121
+
 Matt 27:15  121
 Matt 27:16  121
 Matt 27:17  121
 Matt 27:18  121
+
 Matt 27:19  121
+
 Matt 27:20  121
 Matt 27:21  121
+  you?" They
+
 Matt 27:22  121
+  Christ?" They
+
 Matt 27:23  121
+  done?" But
+
 Matt 27:24  121
+
 Matt 27:25  121
+
 Matt 27:26  121
 Matt 27:27  121
 Matt 27:28  121
 Matt 27:29  121
 Matt 27:30  121
 Matt 27:31  121
+
 Matt 27:32  121
 ---- Holy Week: Friday, Passion Gospels № 6
 Mark 15:16  195
@@ -6213,6 +6231,7 @@ Mark 15:32  195
 ---- Holy Week: Friday, Passion Gospels № 7
 Matt 27:33  123
 Matt 27:34  123
+
 Matt 27:35  123
 Matt 27:36  123
 Matt 27:37  123
@@ -6223,11 +6242,13 @@ Matt 27:41  123
 Matt 27:42  123
 Matt 27:43  123
 Matt 27:44  123
+
 Matt 27:45  123
 Matt 27:46  123
 Matt 27:47  123
 Matt 27:48  123
 Matt 27:49  123
+
 Matt 27:50  123
 Matt 27:51  123
 Matt 27:52  123
@@ -6236,33 +6257,42 @@ Matt 27:54  123
 ---- Holy Week: Friday, Passion Gospels № 8
 Luke 23:32  317
 Luke 23:33  317
+
 Luke 23:34  317
 Luke 23:35  317
 Luke 23:36  317
 Luke 23:37  317
 Luke 23:38  317
+
 Luke 23:39  317
 Luke 23:40  317
 Luke 23:41  317
 Luke 23:42  317
 Luke 23:43  317
+
 Luke 23:44  317
 Luke 23:45  317
 Luke 23:46  317
+
 Luke 23:47  317
+
 Luke 23:48  317
 Luke 23:49  317
 ---- Holy Week: Friday, Passion Gospels № 9
 John 19:25  388
 John 19:26  388
 John 19:27  388
+
 John 19:28  388
+
 John 19:29  388
 John 19:30  388
+
 John 19:31  388
 John 19:32  388
 John 19:33  388
 John 19:34  388
+
 John 19:35  388
 John 19:36  388
 John 19:37  388
@@ -6275,6 +6305,7 @@ Mark 15:46  198
 Mark 15:47  198
 ---- Holy Week: Friday, Passion Gospels № 11
 John 19:38  390
+  permission. He
 John 19:39  390
 John 19:40  390
 John 19:41  390

@@ -6,6 +6,8 @@ book: "John"
 excerpt: "John 8:12–20"
 noindex: true
 ref: "John 8:12–20"
+direct: ["jesus", "multitude", "jews", "pharisees"]
+indirect: ["god", "temple"]
 prev_slug: "woman-caught-in-adultery"
 next_slug: "going-away"
 ---

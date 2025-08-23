@@ -6,6 +6,8 @@ book: "John"
 excerpt: "John 9:1–38"
 noindex: true
 ref: "John 9:1–38"
+direct: ["jesus", "disciples", "man-born-blind", "man-born-blinds-parents", "man-born-blinds-neighbors", "pharisees", "jews"]
+indirect: ["siloam", "mud", "moses", "god"]
 prev_slug: "i-am"
 next_slug: "good-shepherd"
 ---

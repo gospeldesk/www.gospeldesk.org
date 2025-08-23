@@ -6,6 +6,8 @@ book: "Luke"
 excerpt: "Luke 16:10–15"
 noindex: true
 ref: "Luke 16:10–15"
+direct: ["jesus", "disciples", "multitude", "pharisees"]
+indirect: ["god", "mammon"]
 prev_slug: "parable-of-the-shrewd-steward"
 next_slug: "divorce-stumbling"
 ---

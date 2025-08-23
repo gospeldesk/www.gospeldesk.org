@@ -7,6 +7,8 @@ excerpt: "Luke 12:2–12"
 noindex: true
 ref: "Luke 12:2–12"
 related: ["instructions-to-the-twelve-dont-be-afraid"]
+direct: ["jesus", "disciples", "multitude"]
+indirect: ["angels", "god", "holy-spirit"]
 prev_slug: "woe-to-you"
 next_slug: "dont-be-anxious"
 ---

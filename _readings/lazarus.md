@@ -6,6 +6,8 @@ book: "John"
 excerpt: "John 11:1–46"
 noindex: true
 ref: "John 11:1–46"
+direct: ["jesus", "lazarus", "mary-of-bethany", "martha", "disciples", "thomas", "lazarus-mourners", "multitude", "pharisees"]
+indirect: ["bethany", "god", "judea", "jews"]
 prev_slug: "tell-us-plainly"
 next_slug: "council"
 ---

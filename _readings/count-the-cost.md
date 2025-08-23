@@ -6,6 +6,7 @@ book: "Luke"
 excerpt: "Luke 14:25–35"
 noindex: true
 ref: "Luke 14:25–35"
+direct: ["jesus", "disciples", "multitude"]
 prev_slug: "parable-of-the-feast"
 next_slug: "lost-sheep-lost-coin"
 ---

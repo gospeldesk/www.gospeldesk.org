@@ -6,6 +6,7 @@ book: "Luke"
 excerpt: "Luke 16:1–9"
 noindex: true
 ref: "Luke 16:1–9"
+direct: ["jesus", "disciples", "multitude"]
 prev_slug: "parable-of-the-prodigal-son"
 next_slug: "mammon"
 ---

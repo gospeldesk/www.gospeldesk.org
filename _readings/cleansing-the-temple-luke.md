@@ -7,6 +7,8 @@ excerpt: "Luke 19:45–48"
 noindex: true
 ref: "Luke 19:45–48"
 related: ["cleansing-the-temple-matthew", "cleansing-the-temple-mark", "cleansing-the-temple-john"]
+direct: ["jesus", "temple", "money-changers", "multitude", "disciples", "chief-priests", "scribes", "leading-men"]
+indirect: ["god"]
 prev_slug: "triumphal-entry-luke"
 next_slug: "by-what-authority-luke"
 ---

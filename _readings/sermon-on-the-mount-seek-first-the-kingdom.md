@@ -8,7 +8,7 @@ noindex: true
 ref: "Matthew 6:22–33"
 subtitle: "Seek First the Kingdom"
 direct: ["jesus", "multitude", "disciples"]
-indirect: ["god", "mammon", "father", "solomon", "birds", "lilies", "gentiles"]
+indirect: ["god", "mammon", "solomon", "birds", "lilies", "gentiles"]
 prev_slug: "sermon-on-the-mount-forgiveness-fasting-treasure"
 next_slug: "sermon-on-the-mount-dont-be-anxious"
 ---
