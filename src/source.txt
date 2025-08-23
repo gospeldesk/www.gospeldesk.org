@@ -6144,6 +6144,8 @@ John 19:7   385
 
 John 19:8   385
 John 19:9   385
+  ?" But
+
 John 19:10  385
 
 John 19:11  385
@@ -6321,38 +6323,59 @@ Matt 27:66  124
 ---- Holy Week: Friday, 1st Hour
 Matt 27:1   119
 Matt 27:2   119
+
 Matt 27:3   119
 Matt 27:4   119
+  blood." But
+
 Matt 27:5   119
+
 Matt 27:6   119
 Matt 27:7   119
 Matt 27:8   119
 Matt 27:9   119
 Matt 27:10  119
+
 Matt 27:11  119
+  Jews?" Jesus
 Matt 27:12  119
+
 Matt 27:13  119
 Matt 27:14  119
+
 Matt 27:15  119
 Matt 27:16  119
 Matt 27:17  119
 Matt 27:18  119
+
 Matt 27:19  119
+
 Matt 27:20  119
 Matt 27:21  119
+  you?" They
+
 Matt 27:22  119
+  Christ?" They
+
 Matt 27:23  119
+  done?" But
+
 Matt 27:24  119
+
 Matt 27:25  119
+
 Matt 27:26  119
 Matt 27:27  119
 Matt 27:28  119
 Matt 27:29  119
 Matt 27:30  119
 Matt 27:31  119
+
 Matt 27:32  119
+
 Matt 27:33  119
 Matt 27:34  119
+
 Matt 27:35  119
 Matt 27:36  119
 Matt 27:37  119
@@ -6363,16 +6386,19 @@ Matt 27:41  119
 Matt 27:42  119
 Matt 27:43  119
 Matt 27:44  119
+
 Matt 27:45  119
 Matt 27:46  119
 Matt 27:47  119
 Matt 27:48  119
 Matt 27:49  119
+
 Matt 27:50  119
 Matt 27:51  119
 Matt 27:52  119
 Matt 27:53  119
 Matt 27:54  119
+
 Matt 27:55  119
 Matt 27:56  119
 ---- Holy Week: Friday, 3rd Hour
@@ -6381,25 +6407,32 @@ Mark 15:17  196
 Mark 15:18  196
 Mark 15:19  196
 Mark 15:20  196
+  him. They
 Mark 15:21  196
 Mark 15:22  196
 Mark 15:23  196
+
 Mark 15:24  196
 Mark 15:25  196
 Mark 15:26  196
+
 Mark 15:27  196
 Mark 15:28  196
 Mark 15:29  196
 Mark 15:30  196
 Mark 15:31  196
 Mark 15:32  196
+
 Mark 15:33  196
 Mark 15:34  196
+
 Mark 15:35  196
 Mark 15:36  196
+
 Mark 15:37  196
 Mark 15:38  196
 Mark 15:39  196
+
 Mark 15:40  196
 Mark 15:41  196
 ---- Holy Week: Friday, 6th Hour
@@ -6431,22 +6464,35 @@ Luke 23:49  317
 ---- Holy Week: Friday, 9th Hour
 John 18:28  386
 John 18:29  386
+
 John 18:30  386
+
 John 18:31  386
+  law." Therefore
 John 18:32  386
+
 John 18:33  386
+
 John 18:34  386
+
 John 18:35  386
+
 John 18:36  386
+
 John 18:37  386
+  then?" Jesus
+
 John 18:38  386
 John 18:39  386
+
 John 18:40  386
+
 John 19:1   386
 John 19:2   386
 John 19:3   386
 John 19:4   386
 John 19:5   386
+
 John 19:6   386, 387
   !" Pilate
 
@@ -6459,29 +6505,42 @@ John 19:9   386, 387
 John 19:10  386, 387
 
 John 19:11  386, 387
+
 John 19:12  386
 
 John 19:13  386, 387
 John 19:14  386, 387
+
 John 19:15  386, 387
+  him!" Pilate
+  King?" The
+
 John 19:16  386, 387
+
 John 19:17  386, 387
 John 19:18  386, 387
+
 John 19:19  386, 387
 John 19:20  386, 387
 John 19:21  386
+
 John 19:22  386
+
 John 19:23  386
 John 19:24  386
+
 John 19:25  386, 387, 389
 John 19:26  386, 387, 389
 John 19:27  386, 387, 389
+
 John 19:28  386, 387
 John 19:30  386, 387
+
 John 19:31  386, 387
 John 19:32  386, 387
 John 19:33  386, 387
 John 19:34  386, 387
+
 John 19:35  386, 387
 John 19:36  386
 John 19:37  386

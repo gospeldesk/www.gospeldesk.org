@@ -27,7 +27,9 @@ next_slug: "holy-week-friday-passion-gospels-5"
 <p><span class="v">6</span>When therefore the chief priests and the officers saw him, they shouted, saying, “Crucify! Crucify!”</p>
 <p>Pilate said to them, “Take him yourselves, and crucify him, for I find no basis for a charge against him.” </p>
 <p><span class="v">7</span>The Jews answered him, “We have a law, and by our law he ought to die, because he made himself the Son of God.” </p>
-<p><span class="v">8</span>When therefore Pilate heard this saying, he was more afraid.  <span class="v">9</span>He entered into the Praetorium again, and said to Jesus, “Where are you from?” But Jesus gave him no answer.  <span class="v">10</span>Pilate therefore said to him, “Aren’t you speaking to me? Don’t you know that I have power to release you, and have power to crucify you?” </p>
+<p><span class="v">8</span>When therefore Pilate heard this saying, he was more afraid.  <span class="v">9</span>He entered into the Praetorium again, and said to Jesus, “Where are you from?”</p>
+<p>But Jesus gave him no answer. </p>
+<p><span class="v">10</span>Pilate therefore said to him, “Aren’t you speaking to me? Don’t you know that I have power to release you, and have power to crucify you?” </p>
 <p><span class="v">11</span>Jesus answered, “You would have no power at all against me, unless it were given to you from above. Therefore he who delivered me to you has greater sin.” </p>
 <p><span class="v">12</span>At this, Pilate was seeking to release him, but the Jews cried out, saying, “If you release this man, you aren’t Caesar’s friend! Everyone who makes himself a king speaks against Caesar!” </p>
 <p><span class="v">13</span>When Pilate therefore heard these words, he brought Jesus out, and sat down on the judgment seat at a place called “The Pavement”, but in Hebrew, “Gabbatha.”  <span class="v">14</span>Now it was the Preparation Day of the Passover, at about the sixth hour. He said to the Jews, “Behold, your King!” </p>
