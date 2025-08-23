@@ -7,6 +7,8 @@ excerpt: "John 20:1–10"
 noindex: true
 ref: "John 20:1–10"
 related: ["holy-week-great-and-holy-saturday", "resurrection-mark", "resurrection-luke"]
+direct: ["mary-magdalene", "peter", "john-the-theologian"]
+indirect: ["jesus"]
 prev_slug: "betrayer-revealed"
 next_slug: "gardener"
 ---

@@ -6,6 +6,8 @@ book: "John"
 excerpt: "John 21:15–25"
 noindex: true
 ref: "John 21:15–25"
+direct: ["jesus", "peter", "john-the-theologian"]
+indirect: ["jonah-of-peter", "god"]
 prev_slug: "breakfast-on-the-beach"
 next_slug: "holy-week-monday-bridegroom-matins"
 ---

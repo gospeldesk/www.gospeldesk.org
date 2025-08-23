@@ -6,6 +6,8 @@ book: "John"
 excerpt: "John 21:1–14"
 noindex: true
 ref: "John 21:1–14"
+direct: ["jesus", "disciples", "peter", "thomas", "nathanael", "john-the-theologian", "james-son-of-zebedee", "fish", "bread", "sea"]
+indirect: ["cana", "galilee"]
 prev_slug: "doubting-thomas"
 next_slug: "restoration-of-peter"
 ---

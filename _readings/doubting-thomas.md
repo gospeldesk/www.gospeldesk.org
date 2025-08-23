@@ -6,6 +6,8 @@ book: "John"
 excerpt: "John 20:19–31"
 noindex: true
 ref: "John 20:19–31"
+direct: ["disciples", "jesus", "holy-spirit", "thomas"]
+indirect: ["jews", "god"]
 prev_slug: "gardener"
 next_slug: "breakfast-on-the-beach"
 ---

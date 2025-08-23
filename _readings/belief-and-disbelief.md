@@ -6,6 +6,8 @@ book: "John"
 excerpt: "John 12:36–47"
 noindex: true
 ref: "John 12:36–47"
+direct: ["jesus", "multitude", "pharisees", "rulers"]
+indirect: ["isaiah", "god"]
 prev_slug: "coming-of-the-hour"
 next_slug: "washing-the-disciples-feet"
 ---

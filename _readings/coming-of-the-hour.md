@@ -6,6 +6,8 @@ book: "John"
 excerpt: "John 12:19–36"
 noindex: true
 ref: "John 12:19–36"
+direct: ["pharisees", "certain-greeks", "philip", "andrew", "god", "multitude"]
+indirect: ["jerusalem", "bethsaida", "galilee", "satan"]
 prev_slug: "annointing-triumphal-entry"
 next_slug: "belief-and-disbelief"
 ---

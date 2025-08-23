@@ -6,6 +6,8 @@ book: "John"
 excerpt: "John 20:11–18"
 noindex: true
 ref: "John 20:11–18"
+direct: ["mary-magdalene", "tomb-angels", "jesus"]
+indirect: ["god", "disciples"]
 prev_slug: "resurrection-john"
 next_slug: "doubting-thomas"
 ---

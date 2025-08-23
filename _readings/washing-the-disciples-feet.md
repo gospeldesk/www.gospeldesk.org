@@ -6,6 +6,8 @@ book: "John"
 excerpt: "John 13:1–17"
 noindex: true
 ref: "John 13:1–17"
+direct: ["jesus", "disciples", "judas", "peter"]
+indirect: ["god", "simon-iscariot"]
 prev_slug: "belief-and-disbelief"
 next_slug: "betrayer-revealed"
 ---
