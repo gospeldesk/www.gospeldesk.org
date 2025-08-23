@@ -11,7 +11,8 @@ prev_slug: "holy-week-friday-passion-gospels-9"
 next_slug: "holy-week-friday-passion-gospels-11"
 ---
 
-<p><span class="v">43</span>Joseph of Arimathaea, a prominent council member who also himself was looking for God’s Kingdom, came. He boldly went in to Pilate, and asked for Jesus’ body.  <span class="v">44</span>Pilate marveled if he were already dead; and summoning the centurion, he asked him whether he had been dead long.  <span class="v">45</span>When he found out from the centurion, he granted the body to Joseph.  <span class="v">46</span>He bought a linen cloth, and taking him down, wound him in the linen cloth, and laid him in a tomb which had been cut out of a rock. He rolled a stone against the door of the tomb.  <span class="v">47</span>Mary Magdalene and Mary, the mother of Joses, saw where he was laid. </p>
+<p><span class="v">43</span>Joseph of Arimathaea, a prominent council member who also himself was looking for God’s Kingdom, came. He boldly went in to Pilate, and asked for Jesus’ body.  <span class="v">44</span>Pilate marveled if he were already dead; and summoning the centurion, he asked him whether he had been dead long.  <span class="v">45</span>When he found out from the centurion, he granted the body to Joseph. </p>
+<p><span class="v">46</span>He bought a linen cloth, and taking him down, wound him in the linen cloth, and laid him in a tomb which had been cut out of a rock. He rolled a stone against the door of the tomb.  <span class="v">47</span>Mary Magdalene and Mary, the mother of Joses, saw where he was laid. </p>
 
 
 ### Upcoming Proclamations

@@ -5715,97 +5715,156 @@ Luke 22:39  314
 ---- Holy Week: Thursday, Composite
 > last-supper-mark last-supper-luke betrayal-mark betrayal-luke
 Matt 26:2   116
+
 Matt 26:3   116
 Matt 26:4   116
 Matt 26:5   116
+
 Matt 26:6   116
 Matt 26:7   116
 Matt 26:8   116
 Matt 26:9   116
+
 Matt 26:10  116
 Matt 26:11  116
 Matt 26:12  116
 Matt 26:13  116
+
 Matt 26:14  116
 Matt 26:15  116
 Matt 26:16  116
+
 Matt 26:17  116
+
 Matt 26:18  116
+
 Matt 26:19  116
+
+#
+# Washing of the Disciples' Feet
+#
 Matt 26:20  116
 John 13:3   116
 John 13:4   116
 John 13:5   116
+
 John 13:6   116
+
 John 13:7   116
+
 John 13:8   116
+  feet!" Jesus
+
 John 13:9   116
+
 John 13:10  116
 John 13:11  116
+
 John 13:12  116
 John 13:13  116
 John 13:14  116
 John 13:15  116
 John 13:16  116
-John 13:17  116
+John 13:17  116"
+#
+# Predictions of Betrayal
+#
 Matt 26:21  116
+
 Matt 26:22  116
+
 Matt 26:23  116
 Matt 26:24  116
+
 Matt 26:25  116
+  Rabbi?" He
+
 Matt 26:26  116
 Matt 26:27  116
 Matt 26:28  116
 Matt 26:29  116
+
 Matt 26:30  116
 Matt 26:31  116
 Matt 26:32  116
+
 Matt 26:33  116
+
 Matt 26:34  116
+
 Matt 26:35  116
+#
+# Gethsemene
+#
 Matt 26:36  116
 Matt 26:37  116
 Matt 26:38  116
+
 Matt 26:39  116
 Luke 22:43  116
 Luke 22:44  116
+
 Luke 22:45  116
 Matt 26:40  116
 Matt 26:41  116
+
 Matt 26:42  116
 Matt 26:43  116
+
 Matt 26:44  116
 Matt 26:45  116
 Matt 26:46  116
+#
+# Betrayal
+# 
 Matt 26:47  116
 Matt 26:48  116
 Matt 26:49  116
+
 Matt 26:50  116
+  here?" Then
 Matt 26:51  116
 Matt 26:52  116
 Matt 26:53  116
 Matt 26:54  116
+
 Matt 26:55  116
 Matt 26:56  116
+  fulfilled." Then
 Matt 26:57  116
 Matt 26:58  116
+
 Matt 26:59  116
 Matt 26:60  116
 Matt 26:61  116
+
 Matt 26:62  116
+
 Matt 26:63  116
+  peace. The
+
 Matt 26:64  116
+
 Matt 26:65  116
 Matt 26:66  116
+  think?" They
+
 Matt 26:67  116
 Matt 26:68  116
+
 Matt 26:69  116
+
 Matt 26:70  116
+
 Matt 26:71  116
+
 Matt 26:72  116
+
 Matt 26:73  116
+
 Matt 26:74  116
 Matt 26:75  116
+
 Matt 27:1   116
 Matt 27:2   116
 ---- Holy Week: Friday, Passion Gospels № 1
@@ -6015,52 +6074,89 @@ John 18:28  384
 ---- Holy Week: Friday, Passion Gospels № 3
 Matt 26:57  118
 Matt 26:58  118
+
 Matt 26:59  118
 Matt 26:60  118
 Matt 26:61  118
+
 Matt 26:62  118
+
 Matt 26:63  118
+  peace. The
+
 Matt 26:64  118
+
 Matt 26:65  118
 Matt 26:66  118
+  think?" They
+
 Matt 26:67  118
 Matt 26:68  118
+
 Matt 26:69  118
+
 Matt 26:70  118
+
 Matt 26:71  118
+
 Matt 26:72  118
+
 Matt 26:73  118
+
 Matt 26:74  118
 Matt 26:75  118
 ---- Holy Week: Friday, Passion Gospels № 4
 John 18:28  385
 John 18:29  385
+
 John 18:30  385
+
 John 18:31  385
+  law." Therefore
 John 18:32  385
+
 John 18:33  385
+
 John 18:34  385
+
 John 18:35  385
+
 John 18:36  385
+
 John 18:37  385
+  then?" Jesus
+
 John 18:38  385
 John 18:39  385
+
 John 18:40  385
+
 John 19:1   385
 John 19:2   385
 John 19:3   385
 John 19:4   385
 John 19:5   385
+
 John 19:6   385
+  Crucify!" Pilate
+
 John 19:7   385
+
 John 19:8   385
 John 19:9   385
 John 19:10  385
+
 John 19:11  385
+
 John 19:12  385
+
 John 19:13  385
 John 19:14  385
+
 John 19:15  385
+  him!" Pilate
+  King?" The
+
 John 19:16  385
 ---- Holy Week: Friday, Passion Gospels № 5
 Matt 27:3   121
@@ -6174,6 +6270,7 @@ John 19:37  388
 Mark 15:43  198
 Mark 15:44  198
 Mark 15:45  198
+
 Mark 15:46  198
 Mark 15:47  198
 ---- Holy Week: Friday, Passion Gospels № 11
@@ -6186,7 +6283,9 @@ John 19:42  390
 Matt 27:62  124
 Matt 27:63  124
 Matt 27:64  124
+
 Matt 27:65  124
+
 Matt 27:66  124
 ---- Holy Week: Friday, 1st Hour
 Matt 27:1   119
