@@ -1,7 +1,7 @@
 ---
 title: "Hard Saying"
 pk: "345"
-num: 267
+num: 266
 book: "John"
 excerpt: "John 6:56–71"
 noindex: true

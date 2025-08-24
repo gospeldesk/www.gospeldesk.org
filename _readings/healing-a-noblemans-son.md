@@ -1,7 +1,7 @@
 ---
 title: "Healing a Nobleman's Son"
 pk: "333"
-num: 262
+num: 261
 book: "John"
 excerpt: "John 4:43–54"
 noindex: true

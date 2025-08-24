@@ -1,7 +1,7 @@
 ---
 title: "Brothers"
 pk: "346"
-num: 268
+num: 267
 book: "John"
 excerpt: "John 7:1–13"
 noindex: true

@@ -1,7 +1,7 @@
 ---
 title: "Teaching in the Temple"
 pk: "347"
-num: 269
+num: 268
 book: "John"
 excerpt: "John 7:14–30"
 noindex: true

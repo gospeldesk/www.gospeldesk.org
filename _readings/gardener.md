@@ -1,7 +1,7 @@
 ---
 title: "Gardener"
 pk: "392"
-num: 289
+num: 288
 book: "John"
 excerpt: "John 20:11–18"
 noindex: true

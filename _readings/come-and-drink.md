@@ -1,7 +1,7 @@
 ---
 title: "Come and Drink"
 pk: "348"
-num: 271
+num: 270
 book: "John"
 excerpt: "John 7:37–8:12"
 noindex: true

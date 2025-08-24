@@ -1,7 +1,7 @@
 ---
 title: "Doubting Thomas"
 pk: "393"
-num: 290
+num: 289
 book: "John"
 excerpt: "John 20:19–31"
 noindex: true

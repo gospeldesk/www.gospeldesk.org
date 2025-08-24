@@ -1,7 +1,7 @@
 ---
 title: "Tell Us Plainly"
 pk: "359"
-num: 280
+num: 279
 book: "John"
 excerpt: "John 10:17–42"
 noindex: true

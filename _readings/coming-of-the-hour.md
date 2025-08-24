@@ -1,7 +1,7 @@
 ---
 title: "Coming of the Hour"
 pk: "366"
-num: 284
+num: 283
 book: "John"
 excerpt: "John 12:19–36"
 noindex: true

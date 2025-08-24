@@ -1,7 +1,7 @@
 ---
 title: "Father of Lies"
 pk: "353"
-num: 276
+num: 275
 book: "John"
 excerpt: "John 8:42–51"
 noindex: true

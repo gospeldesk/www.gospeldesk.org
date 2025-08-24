@@ -1,7 +1,7 @@
 ---
 title: "Healing at Bethesda Pool"
 pk: "334"
-num: 263
+num: 262
 book: "John"
 excerpt: "John 5:1–6:2"
 noindex: true

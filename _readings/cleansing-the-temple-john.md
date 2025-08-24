@@ -1,7 +1,7 @@
 ---
 title: "Cleansing the Temple"
 pk: "327"
-num: 258
+num: 257
 book: "John"
 excerpt: "John 2:12–25"
 noindex: true

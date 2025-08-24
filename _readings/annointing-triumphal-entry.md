@@ -1,7 +1,7 @@
 ---
 title: "Annointing; Triumphal Entry"
 pk: "364"
-num: 283
+num: 282
 book: "John"
 excerpt: "John 12:1–18"
 noindex: true

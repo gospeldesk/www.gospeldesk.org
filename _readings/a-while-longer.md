@@ -1,7 +1,7 @@
 ---
 title: "A While Longer"
 pk: "90029"
-num: 270
+num: 269
 book: "John"
 excerpt: "John 7:31–36"
 noindex: true

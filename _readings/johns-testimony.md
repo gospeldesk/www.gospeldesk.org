@@ -1,14 +1,14 @@
 ---
 title: "John's Testimony"
 pk: "322"
-num: 254
+num: 253
 book: "John"
 excerpt: "John 1:18–28"
 noindex: true
 ref: "John 1:18–28"
 direct: ["john-the-forerunner", "jewish-leaders"]
 indirect: ["god", "elijah", "the-prophet", "jesus"]
-prev_slug: "the-word"
+prev_slug: "ascension-luke"
 next_slug: "lamb-of-god"
 ---
 

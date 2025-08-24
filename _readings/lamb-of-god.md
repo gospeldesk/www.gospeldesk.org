@@ -1,7 +1,7 @@
 ---
 title: "Lamb of God"
 pk: "323"
-num: 255
+num: 254
 book: "John"
 excerpt: "John 1:29–34"
 noindex: true
