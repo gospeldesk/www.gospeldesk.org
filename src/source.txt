@@ -6537,7 +6537,9 @@ Matt 27:7   120
 Matt 27:8   120
 Matt 27:9   120
 Matt 27:10  120
-
+#
+# Condemnation
+#
 Matt 27:11  120
   Jews?" Jesus
 Matt 27:12  120
@@ -6572,7 +6574,9 @@ Matt 27:28  120
 Matt 27:29  120
 Matt 27:30  120
 Matt 27:31  120
-
+#
+# Crucifixion
+#
 Matt 27:32  120
 Matt 27:33  120
 Matt 27:34  120
@@ -6617,6 +6621,7 @@ John 19:37  120
 
 Matt 27:55  120
 Matt 27:56  120
+
 Matt 27:57  120
 Matt 27:58  120
 Matt 27:59  120
@@ -6628,17 +6633,21 @@ Matt 28:1   125
 Matt 28:2   125
 Matt 28:3   125
 Matt 28:4   125
+
 Matt 28:5   125
 Matt 28:6   125
 Matt 28:7   125
+
 Matt 28:8   125
 Matt 28:9   125
 Matt 28:10  125
+
 Matt 28:11  125
 Matt 28:12  125
 Matt 28:13  125
 Matt 28:14  125
 Matt 28:15  125
+
 Matt 28:16  125, 126
 Matt 28:17  125, 126
 Matt 28:18  125, 126
