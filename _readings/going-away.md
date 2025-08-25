@@ -1,7 +1,7 @@
 ---
 title: "Going Away"
 pk: "351"
-num: 273
+num: 274
 book: "John"
 excerpt: "John 8:21–30"
 noindex: true

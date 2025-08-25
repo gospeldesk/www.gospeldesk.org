@@ -1,7 +1,7 @@
 ---
 title: "Council"
 pk: "363"
-num: 281
+num: 282
 book: "John"
 excerpt: "John 11:47–57"
 noindex: true

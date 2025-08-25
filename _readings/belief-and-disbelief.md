@@ -1,7 +1,7 @@
 ---
 title: "Belief and Disbelief"
 pk: "368"
-num: 284
+num: 285
 book: "John"
 excerpt: "John 12:36–47"
 noindex: true

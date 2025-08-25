@@ -1,7 +1,7 @@
 ---
 title: "Nicodemus"
 pk: "328"
-num: 258
+num: 259
 book: "John"
 excerpt: "John 3:1–21"
 noindex: true

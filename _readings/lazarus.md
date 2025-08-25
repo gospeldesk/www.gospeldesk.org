@@ -1,7 +1,7 @@
 ---
 title: "Lazarus"
 pk: "362"
-num: 280
+num: 281
 book: "John"
 excerpt: "John 11:1–46"
 noindex: true

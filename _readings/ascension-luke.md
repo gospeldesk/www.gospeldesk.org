@@ -10,7 +10,7 @@ related: ["ascension-mark"]
 direct: ["the-twelve", "disciples", "jesus"]
 indirect: ["moses", "prophets", "jerusalem", "nations", "god", "bethany"]
 prev_slug: "road-to-emmaus"
-next_slug: "johns-testimony"
+next_slug: "the-word"
 ---
 
 <p><span class="v">36</span>As they said these things, Jesus himself stood among them, and said to them, “Peace be to you.”  <span class="v">37</span>But they were terrified and filled with fear, and supposed that they had seen a spirit. </p>

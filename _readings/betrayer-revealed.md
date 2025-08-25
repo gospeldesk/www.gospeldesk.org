@@ -1,7 +1,7 @@
 ---
 title: "Betrayer Revealed"
 pk: "90034"
-num: 286
+num: 287
 book: "John"
 excerpt: "John 13:18–30"
 noindex: true

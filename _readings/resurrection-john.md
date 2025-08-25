@@ -1,7 +1,7 @@
 ---
 title: "Resurrection"
 pk: "391"
-num: 287
+num: 288
 book: "John"
 excerpt: "John 20:1–10"
 noindex: true

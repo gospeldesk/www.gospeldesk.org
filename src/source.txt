@@ -4279,6 +4279,27 @@ Luke 24:50  320
 Luke 24:51  320
 Luke 24:52  320
 Luke 24:53  320
+---- The Word
+John  1:1   321
+John  1:2   321
+John  1:3   321
+John  1:4   321
+John  1:5   321
+
+John  1:6   321
+John  1:7   321
+John  1:8   321
+
+John  1:9   321
+John  1:10  321
+John  1:11  321
+John  1:12  321
+John  1:13  321
+
+John  1:14  321
+John  1:15  321
+John  1:16  321
+John  1:17  321
 ---- John's Testimony
 John  1:18  322
 
@@ -5505,7 +5526,9 @@ Matt 24:41 111
 Matt 24:42 111
 Matt 24:43 111
 Matt 24:44 111
-
+#
+# Parable of the Wise Servant
+#
 Matt 24:45 111
 Matt 24:46 111
 Matt 24:47 111
@@ -5513,7 +5536,9 @@ Matt 24:48 111
 Matt 24:49 111
 Matt 24:50 111
 Matt 24:51 111
-
+#
+# Parable of the Ten Virgins
+#
 Matt 25:1  111
 Matt 25:2  111
 Matt 25:3  111
@@ -5527,7 +5552,9 @@ Matt 25:10 111
 Matt 25:11 111
 Matt 25:12 111
 Matt 25:13 111
-
+#
+# Parable of the Talents
+#
 Matt 25:14 111
 Matt 25:15 111
 Matt 25:16 111
@@ -5551,7 +5578,9 @@ Matt 25:27 111
 Matt 25:28 111
 Matt 25:29 111
 Matt 25:30 111
-
+#
+# Description of the Judgment
+#
 Matt 25:31 111
 Matt 25:32 111
 Matt 25:33 111
@@ -6653,24 +6682,3 @@ Matt 28:17  125, 126
 Matt 28:18  125, 126
 Matt 28:19  125, 126
 Matt 28:20  125, 126
----- Pascha
-John  1:1   321
-John  1:2   321
-John  1:3   321
-John  1:4   321
-John  1:5   321
-
-John  1:6   321
-John  1:7   321
-John  1:8   321
-
-John  1:9   321
-John  1:10  321
-John  1:11  321
-John  1:12  321
-John  1:13  321
-
-John  1:14  321
-John  1:15  321
-John  1:16  321
-John  1:17  321

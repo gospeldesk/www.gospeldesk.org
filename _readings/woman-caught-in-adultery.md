@@ -1,7 +1,7 @@
 ---
 title: "Woman Caught in Adultery"
 pk: "349"
-num: 271
+num: 272
 book: "John"
 excerpt: "John 8:1–11"
 noindex: true

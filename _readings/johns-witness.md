@@ -1,7 +1,7 @@
 ---
 title: "John's Witness"
 pk: "331"
-num: 259
+num: 260
 book: "John"
 excerpt: "John 3:22–36"
 noindex: true

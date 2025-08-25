@@ -1,7 +1,7 @@
 ---
 title: "Holy Week"
 pk: "125"
-num: 317
+num: 318
 book: "Matthew"
 excerpt: "Matthew 28:1–20"
 noindex: true
@@ -9,7 +9,6 @@ ref: "Matthew 28:1–20"
 subtitle: "Great and Holy Saturday"
 related: ["resurrection-mark", "resurrection-luke", "resurrection-john"]
 prev_slug: "holy-week-friday-composite"
-next_slug: "pascha"
 ---
 
 <p><span class="v">1</span>Now after the Sabbath, as it began to dawn on the first day of the week, Mary Magdalene and the other Mary came to see the tomb.  <span class="v">2</span>Behold, there was a great earthquake, for an angel of the Lord descended from the sky, and came and rolled away the stone from the door, and sat on it.  <span class="v">3</span>His appearance was like lightning, and his clothing white as snow.  <span class="v">4</span>For fear of him, the guards shook, and became like dead men. </p>

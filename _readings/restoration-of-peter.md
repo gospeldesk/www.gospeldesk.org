@@ -1,7 +1,7 @@
 ---
 title: "Restoration of Peter"
 pk: "397"
-num: 291
+num: 292
 book: "John"
 excerpt: "John 21:15–25"
 noindex: true

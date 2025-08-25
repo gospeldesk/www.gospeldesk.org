@@ -1,7 +1,7 @@
 ---
 title: "Healing of a Man Blind From Birth"
 pk: "355"
-num: 277
+num: 278
 book: "John"
 excerpt: "John 9:1–38"
 noindex: true

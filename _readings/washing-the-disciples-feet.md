@@ -1,7 +1,7 @@
 ---
 title: "Washing the Disciples' Feet"
 pk: "369"
-num: 285
+num: 286
 book: "John"
 excerpt: "John 13:1–17"
 noindex: true

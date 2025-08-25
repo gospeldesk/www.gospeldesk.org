@@ -1,7 +1,7 @@
 ---
 title: "Woman at the Well"
 pk: "332"
-num: 260
+num: 261
 book: "John"
 excerpt: "John 4:1–42"
 noindex: true

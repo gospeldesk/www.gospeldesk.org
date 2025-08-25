@@ -1,12 +1,15 @@
 ---
-title: "Pascha"
+title: "The Word"
 pk: "321"
-num: 318
+num: 253
 book: "John"
 excerpt: "John 1:1–17"
 noindex: true
 ref: "John 1:1–17"
-prev_slug: "holy-week-great-and-holy-saturday"
+direct: ["jesus", "john-the-forerunner"]
+indirect: ["god", "moses", "disciples"]
+prev_slug: "ascension-luke"
+next_slug: "johns-testimony"
 ---
 
 <p><span class="v">1</span>In the beginning was the Word, and the Word was with God, and the Word was God.  <span class="v">2</span>The same was in the beginning with God.  <span class="v">3</span>All things were made through him. Without him was not anything made that has been made.  <span class="v">4</span>In him was life, and the life was the light of men.  <span class="v">5</span>The light shines in the darkness, and the darkness hasn’t overcome it. </p>

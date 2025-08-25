@@ -1,7 +1,7 @@
 ---
 title: "Light of the World"
 pk: "350"
-num: 272
+num: 273
 book: "John"
 excerpt: "John 8:12–20"
 noindex: true

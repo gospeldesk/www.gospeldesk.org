@@ -1,7 +1,7 @@
 ---
 title: "Abraham's Offspring"
 pk: "352"
-num: 274
+num: 275
 book: "John"
 excerpt: "John 8:31–42"
 noindex: true

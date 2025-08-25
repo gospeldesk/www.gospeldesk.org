@@ -1,7 +1,7 @@
 ---
 title: "Calling the First Disciples"
 pk: "324"
-num: 255
+num: 256
 book: "John"
 excerpt: "John 1:35–51"
 noindex: true

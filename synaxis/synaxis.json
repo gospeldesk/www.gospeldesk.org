@@ -1,0 +1,17 @@
+[
+  {
+    "slug": "jesus",
+    "x": 0,
+    "y": 0
+  },
+  {
+    "slug": "mary",
+    "x": -100,
+    "y": 0
+  },
+  {
+    "slug": "john-the-forerunner",
+    "x": 100,
+    "y": 0
+  }
+]

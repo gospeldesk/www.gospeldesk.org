@@ -1,7 +1,7 @@
 ---
 title: "Good Shepherd"
 pk: "356"
-num: 278
+num: 279
 book: "John"
 excerpt: "John 9:39–10:16"
 noindex: true
