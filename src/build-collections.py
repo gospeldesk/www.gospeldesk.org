@@ -7,6 +7,7 @@ import re
 import sys
 import string
 import traceback
+from decimal import Decimal
 from collections import defaultdict
 
 LETTERS_NUMBERS = string.ascii_letters + string.digits
@@ -97,7 +98,11 @@ def main():
     for row in inp:
         rec = dict(zip(headers, row))
         for field in 'scale r t'.split():
-            rec[field] = int(rec[field]) if rec[field] else None
+            val = rec[field]
+            cast = float if '.' in val else int
+            if not rec[field]:
+                raise Error
+            rec[field] = cast(rec[field])
         synaxis.append(rec)
         characters_direct_two.add(rec['slug'])
 

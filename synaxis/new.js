@@ -138,9 +138,10 @@ function draw(container) {
     Array.from(document.getElementsByClassName('person')).forEach((el) => {
       var person = JSON.parse(el.dataset.blob);
       var coords = cartesian_to_polar(relpos(el), unit);
-      person.r = coords.r;
-      person.t = coords.t;
-      content += `"${person.slug}",${person.scale},${person.r},${person.t},${person.bg}\n`;
+      if (coords.r !== person.r || coords.t !== person.t) {
+        console.log(person, coords);
+      }
+      content += `"${person.slug}",${person.scale},${coords.r},${coords.t},${person.bg}\n`;
     });
     download('synaxis.csv', content);
   }
