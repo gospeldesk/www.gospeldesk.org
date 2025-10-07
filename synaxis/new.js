@@ -15,10 +15,25 @@ function getJSON(url, callback) {
 function degrees_to_radians(deg) {
   return deg * (Math.PI / 180);
 }
+function radians_to_degrees(rad) {
+  return (rad * 180) / Math.PI;
+}
 function polar_to_cartesian(person, unit) {
   return {
     x: person.r * unit * Math.cos(degrees_to_radians(person.t)),
     y: person.r * unit * Math.sin(degrees_to_radians(person.t)),
+  }
+}
+
+function round(n, places) {
+  var factor = 10**places;
+  return Math.round((n * factor)) / factor;
+}
+
+function cartesian_to_polar(person, unit) {
+  return {
+    r: round(Math.sqrt((person.x * person.x) + (person.y * person.y)) / unit, 2),
+    t: round(radians_to_degrees(Math.atan2(person.y, person.x)), 1)
   }
 }
 
@@ -28,8 +43,8 @@ function polar_to_cartesian(person, unit) {
 let activeItem, offsetX, offsetY;
 
 function dragStart(e) {
-	e.preventDefault();
-	activeItem = e.target.closest('div');
+  e.preventDefault();
+  activeItem = e.target.closest('div');
   var rect = activeItem.getBoundingClientRect();
   offsetX = rect.left - e.pageX;
   offsetY = rect.top - e.pageY;
@@ -77,8 +92,9 @@ function draw(container) {
       person.bg = '#EEE';
     }
     var a = document.createElement('div');
-		a.className = 'person';
-		a.dataset.blob = JSON.stringify(person);
+    a.className = 'person';
+    a.id = person.slug;
+    a.dataset.blob = JSON.stringify(person);
     a.href = `/characters/${person.slug}/`;
 
     var img = document.createElement('img');
@@ -98,7 +114,7 @@ function draw(container) {
     label.innerHTML = `${person.slug}`;
     label.style = 'color: white; font: bold 8px/8px monospace; text-transform: uppercase; position: absolute; bottom: 2px; left: 4px';
     a.append(label);
-  	a.addEventListener('mousedown', dragStart);
+    a.addEventListener('mousedown', dragStart);
     container.append(a);
   });
 
@@ -108,12 +124,25 @@ function draw(container) {
   button.style.top = '10px';
   button.style.left= '10px';
   button.onclick = function() {
-		let content = 'slug,scale,r,t,bg\n';
-  	Array.from(document.getElementsByClassName('person')).forEach((el) => {
-			var person = JSON.parse(el.dataset.blob);
-			content += `"${person.slug}",${person.scale},${person.r},${person.t},${person.bg}\n`;
-		});
-		download('synaxis.csv', content);
+    var rect = document.getElementById('jesus').getBoundingClientRect();
+    X = rect.left + ((rect.right - rect.left) / 2);
+    Y = rect.top + ((rect.bottom - rect.top) / 2);
+    function relpos(el) {
+      var rect = el.getBoundingClientRect();
+      x = rect.left + ((rect.right - rect.left) / 2);
+      y = rect.top + ((rect.bottom - rect.top) / 2);
+      return {x: x - X, y: y - Y};
+    }
+
+    let content = 'slug,scale,r,t,bg\n';
+    Array.from(document.getElementsByClassName('person')).forEach((el) => {
+      var person = JSON.parse(el.dataset.blob);
+      var coords = cartesian_to_polar(relpos(el), unit);
+      person.r = coords.r;
+      person.t = coords.t;
+      content += `"${person.slug}",${person.scale},${person.r},${person.t},${person.bg}\n`;
+    });
+    download('synaxis.csv', content);
   }
   container.append(button);
 };
