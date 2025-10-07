@@ -2,919 +2,919 @@
   {
     "slug": "a-pharisee",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 3,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "a-ruler-of-the-pharisees",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 3,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "a-ruler-of-the-pharisees'-guest",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 3,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "abijah",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 3,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "abiud",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 3,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "abraham",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 3,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "achim",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 3,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "acquaintances",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 3,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "adversaries",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 3,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "ahaz",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 3,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "amminadab",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 3,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "amon",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 3,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "andrew",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 3,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "angelic-host",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 4,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "angels",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 4,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "anna",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 4,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "asa",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 4,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "azor",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 4,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "babylon",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 4,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "barabbas",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 4,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "bartholomew",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 4,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "bartimaeus",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 4,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "bathsheba",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 4,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "berenice",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 4,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "berenice's-demon",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 4,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "bethany",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 4,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "bethesda-man",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 5,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "bethesda-sick",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 5,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "bethlehem",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 5,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "bethsaida",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 5,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "bethsphage",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 5,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "blind-and-mute-man",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 5,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "blind-and-mute-man's-demon",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 5,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "blind-bartimaeus",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 5,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "blind-man-of-bethsaida",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 5,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "boaz",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 5,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "boy",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 5,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "bread",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 5,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "brothers-of-the-lord",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 5,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "caesar-augustus",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 6,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "caesarea-philippi",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 6,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "caiaphas",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 6,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "cana-wedding-bridegroom",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 6,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "cana-wedding-ruler",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 6,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "cana-wedding-servants",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 6,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "capernaum",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 6,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "captains-of-the-temple",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 6,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "centurion",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 6,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "centurion's-friends",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 6,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "centurion's-servant",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 6,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "certain-greeks",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 6,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "certain-self-righteous-people",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 6,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "chief-priests",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 7,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "chorazin",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 7,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "cleopas",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 7,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "council",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 7,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "dalmanutha",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 7,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "daughers-of-jerusalem",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 7,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "david",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 7,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "deaf-mute",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 7,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "decapolis",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 7,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "demons",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 7,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "disciple",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 7,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "disciples",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 7,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "discipls",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 7,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "diseased",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 8,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "diseases",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 8,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "donkey",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 8,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "donkey's",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 8,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "donkey's-colt",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 8,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "donkey's-owner",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 8,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "dream-angel",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 8,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "dysmas",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 8,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "east",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 8,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "egypt",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 8,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "elders",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 8,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "eleazar",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 8,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "eliakim",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 8,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "elijah",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 9,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "eliud",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 9,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "elizabeth",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 9,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "elizabeth's-neighbors-and-relatives",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 9,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "epileptic",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 9,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "epileptic's-demon",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 9,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "epileptic's-father",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 9,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "false-witnesses",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 9,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "fig-tree",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 9,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "fish",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 9,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "gabriel",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 9,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "galilee",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 9,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "gennesaret",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 9,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "gergasene-demoniac",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 10,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "gergasenes",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 10,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "gergesene-demoniac",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 10,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "gergesenes",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 10,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "gestas",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 10,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "gethsemane",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 10,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "god",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 10,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "golgotha",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 10,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "herod",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 10,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "herod-the-tetrarch",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 10,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "herod's-soldiers",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 10,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "herodians",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 10,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "herodias",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 10,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "herodias'-daughter",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 11,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "hezekiah",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 11,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "hezron",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 11,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "high-priest",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 11,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "high-priest's-household",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 11,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "high-priest's-household-member",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 11,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "high-priest's-maid",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 11,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "holy-innocents",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 11,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "holy-spirit",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 11,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "idumea",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 11,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "ignatius",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 11,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "infirm-woman",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 11,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "isaac",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 11,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "israel",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 12,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "jacob",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 12,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "jairus",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 12,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "jairus'-daughter",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 12,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "jairus'-household",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 12,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "jairus'-servant",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 12,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "james,-son-of-alphaeus",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 12,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "james,-son-of-zebedee",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 12,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "jechoniah",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 12,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "jechoniah's-brothers",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 12,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "jehoshaphat",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 12,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "jericho",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 12,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "jerusalem",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 12,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "jesse",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 13,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "jesus",
@@ -926,44 +926,44 @@
   {
     "slug": "jesus'-brothers",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 13,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "jesus'-friends",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 13,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "jesus'-sisters",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 13,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "jewish-leaders",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 13,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "jews",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 13,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "joanna",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 13,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "john-the-forerunner",
@@ -975,366 +975,366 @@
   {
     "slug": "john-the-forerunner's-disciples",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 13,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "john-the-theologian",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 13,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "john's-disciples",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 13,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "joram",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 13,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "jordan",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 13,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "joseph",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 13,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "joseph-and-mary's-relatives-and-acquaintances",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 14,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "joseph-of-arimathaea",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 14,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "josiah",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 14,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "jospeh",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 14,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "jotham",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 14,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "judah",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 14,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "judas",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 14,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "judas-iscariot",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 14,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "judea",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 14,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "justa",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 14,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "king-herod",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 14,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "king-herod's-guests",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 14,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "king-herod's-soldier",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 14,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "lawyers",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 15,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "lazarus",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 15,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "lazarus-mourners",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 15,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "leading-men",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 15,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "legion",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 15,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "leper",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 15,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "leper's-leprosy",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 15,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "little-children",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 15,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "little-children-in-the-temple",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 15,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "little-children's-parents",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 15,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "longinus",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 15,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "luke",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 15,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "malchus",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 15,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "man-born-blind",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 16,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "man-born-blind's-neighbors",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 16,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "man-born-blind's-parents",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 16,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "man-carrying-water",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 16,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "man-who-would-bury-his-father",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 16,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "man-who-would-divide-the-inheritance",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 16,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "man-who-would-follow",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 16,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "man-who-would-say-good-bye",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 16,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "man-with-a-withered-hand",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 16,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "man-with-an-unclean-spirit",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 16,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "man-with-an-unclean-spirit's-demon",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 16,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "man-with-dropsy",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 16,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "man-with-water",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 16,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "manasseh",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 17,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "mark",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 17,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "martha",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 17,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "mary-magdalene",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 17,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "mary-mother-of-james",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 17,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "mary-of-bethany",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 17,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "mary-of-clopas",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 17,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "mary",
@@ -1346,869 +1346,869 @@
   {
     "slug": "master-of-the-house",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 17,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "matthan",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 17,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "matthew",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 17,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "money-changers",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 17,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "moses",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 17,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "mother",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 17,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "mount-of-olives",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 18,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "multitude",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 18,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "mute-man",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 18,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "mute-man's-demon",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 18,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "nahshon",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 18,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "nain",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 18,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "naphtali",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 18,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "nathanael",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 18,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "nazareth",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 18,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "nicodemus",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 18,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "nobleman",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 18,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "nobleman's-servants",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 18,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "nobleman's-son",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 18,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "obed",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 19,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "officer's-cohort",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 19,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "officers",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 19,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "one-presenting-the-lord's-mother-and-brothers",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 19,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "one-who-asked-whether-few-are-saved",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 19,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "owner",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 19,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "paralytic",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 19,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "paralytic's-friends",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 19,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "passers-by",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 19,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "perez",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 19,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "peter",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 19,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "peter's-mother-in-law",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 19,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "peter's-mother-in-law's-fever",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 19,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "pharisees",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 20,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "pharisees'-disciples",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 20,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "philip",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 20,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "philip-the-tetrarch",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 20,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "photini",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 20,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "pilate",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 20,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "pilot",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 20,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "priests",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 20,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "quirinius",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 20,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "rahab",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 20,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "ram",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 20,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "rehoboam",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 20,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "resurrection-angel",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 20,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "rich-people",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 21,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "rich-young-ruler",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 21,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "rooster",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 21,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "rulers",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 21,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "ruth",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 21,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "sadduccees",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 21,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "sadducees",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 21,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "salmon",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 21,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "salome",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 21,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "samaria",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 21,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "samaritan-leper",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 21,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "sanhedrin",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 21,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "satan",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 21,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "scribe",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 22,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "scribes",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 22,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "sea",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 22,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "sea-of-galilee",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 22,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "shealtiel",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 22,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "shepherds",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 22,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "simeon",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 22,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "simon",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 22,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "simon-of-cyrene",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 22,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "simon-the-leper",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 22,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "simon-the-leper's-guests",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 22,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "simon-the-pharisee",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 22,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "simon-the-pharisee's-guests",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 22,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "simon-the-zealot",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 23,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "sinful-woman-forgiven",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 23,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "sinners",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 23,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "sky",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 23,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "sodom-and-gomorrah",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 23,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "soldiers",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 23,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "solomon",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 23,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "some-of-the-pharisees",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 23,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "spies",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 23,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "star",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 23,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "storm",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 23,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "susanna",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 23,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "swine",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 23,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "swineherds",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 24,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "sychar",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 24,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "synagogue",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 24,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "synagogue-ruler",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 24,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "syria",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 24,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "tamar",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 24,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "tax-collectors",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 24,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "temple",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 24,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "temple-doves",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 24,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "temple-money-changers",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 24,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "temple-oxen",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 24,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "temple-sheep",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 24,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "ten-lepers",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 24,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "thaddaeus",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 25,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "the-seventy",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 25,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "the-twelve",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 25,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "thomas",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 25,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "tomb-angels",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 25,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "two-blind",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 25,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "two-blind,-additional",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 25,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "two-disciples",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 25,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "tyre-and-sidon",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 25,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "uzziah",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 25,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "veronica",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 25,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "widow",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 25,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "widow-of-nain",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 25,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "widow-of-nain's-son",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 26,
+    "t": 140,
+    "bg": "#EEE"
   },
   {
     "slug": "wise-men",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 26,
+    "t": 130,
+    "bg": "#EEE"
   },
   {
     "slug": "wise-scribe",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 26,
+    "t": 120,
+    "bg": "#EEE"
   },
   {
     "slug": "woman-caught-in-adultery",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 26,
+    "t": 110,
+    "bg": "#EEE"
   },
   {
     "slug": "woman-lifting-her-voice",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 26,
+    "t": 100,
+    "bg": "#EEE"
   },
   {
     "slug": "women-disciples",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 26,
+    "t": 90,
+    "bg": "#EEE"
   },
   {
     "slug": "zacchaeus",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 26,
+    "t": 80,
+    "bg": "#EEE"
   },
   {
     "slug": "zacharias",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 26,
+    "t": 70,
+    "bg": "#EEE"
   },
   {
     "slug": "zadok",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 26,
+    "t": 60,
+    "bg": "#EEE"
   },
   {
     "slug": "zebedee",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 26,
+    "t": 50,
+    "bg": "#EEE"
   },
   {
     "slug": "zebedee's-servants",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 26,
+    "t": 40,
+    "bg": "#EEE"
   },
   {
     "slug": "zebulun",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 26,
+    "t": 30,
+    "bg": "#EEE"
   },
   {
     "slug": "zerah",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 26,
+    "t": 150,
+    "bg": "#EEE"
   },
   {
     "slug": "zerubbabel",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 27,
+    "t": 140,
+    "bg": "#EEE"
   }
 ]

@@ -66,16 +66,19 @@ function draw(container) {
 
   window._data.forEach(function(person) {
     if (person.r === null) {
-      person.r = 1 * j;
+      person.r = 2 + 1 * j;
       if (i++ > 12) {
         j++;
         i = 1
       };
-      person.t = (13 - i) * (180 / 12);
-      console.log(i, person.t);
-      person.bg = 'pink';
+      person.t = (13 - i + 3) * 10;
+    }
+    if (person.bg === '') {
+      person.bg = '#EEE';
     }
     var a = document.createElement('div');
+		a.className = 'person';
+		a.dataset.blob = JSON.stringify(person);
     a.href = `/characters/${person.slug}/`;
 
     var img = document.createElement('img');
@@ -86,6 +89,7 @@ function draw(container) {
     a.style.display = 'block';
     a.style.position = 'absolute';
     a.style.background = person.bg;
+    a.style.cursor = 'grab';
     var coords = polar_to_cartesian(person, unit);
     a.style.top = centerY + coords.y - (halfUnit * person.scale);
     a.style.left = centerX + coords.x - (halfUnit * person.scale);
@@ -97,8 +101,32 @@ function draw(container) {
   	a.addEventListener('mousedown', dragStart);
     container.append(a);
   });
+
+  button = document.createElement('button');
+  button.innerHTML = "Save";
+  button.style.position = 'fixed';
+  button.style.top = '10px';
+  button.style.left= '10px';
+  button.onclick = function() {
+		let content = 'slug,scale,r,t,bg\n';
+  	Array.from(document.getElementsByClassName('person')).forEach((el) => {
+			var person = JSON.parse(el.dataset.blob);
+			content += `"${person.slug}",${person.scale},${person.r},${person.t},${person.bg}\n`;
+		});
+		download('synaxis.csv', content);
+  }
+  container.append(button);
 };
 
+function download(filename, text) {
+  var element = document.createElement('a');
+  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+  element.setAttribute('download', filename);
+  element.style.display = 'none';
+  document.body.appendChild(element);
+  element.click();
+  document.body.removeChild(element);
+}
 
 window.onload = function() {
   getJSON('synaxis.json', function(data) {
