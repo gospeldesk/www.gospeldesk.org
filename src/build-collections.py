@@ -91,13 +91,29 @@ def main():
         os.unlink(f'../_readings/{slug}.md')
 
     synaxis = []
+    characters_direct_two = set()
     inp = csv.reader(open('synaxis.csv'))
     headers = next(inp)
     for row in inp:
         rec = dict(zip(headers, row))
-        rec["r"] = int(rec["r"])
-        rec["t"] = int(rec["t"])
+        for field in 'scale r t'.split():
+            rec[field] = int(rec[field]) if rec[field] else None
         synaxis.append(rec)
+        characters_direct_two.add(rec['slug'])
+
+    still_need = characters_direct - characters_direct_two
+    dont_need_anymore = characters_direct_two - characters_direct
+    if still_need:
+        print('STILL NEED:')
+        for slug in sorted(still_need):
+            print(slug)
+        if dont_need_anymore:
+            print()
+    if dont_need_anymore:
+        print("DON'T NEED ANYMORE:")
+        for slug in sorted(dont_need_anymore):
+            print(slug)
+
     json.dump(synaxis, open('../synaxis/synaxis.json', 'w+'), indent=2)
 
     char_slugs = set()
@@ -359,6 +375,7 @@ characters_csv = csv.reader(open('characters.csv'))
 characters_headers = next(characters_csv) # skip headers
 characters_by_slug = defaultdict(lambda: [None, None])
 characters = set()
+characters_direct = set()
 j = 0
 for i, row in enumerate(characters_csv):
     rec = dict(zip(characters_headers, row))
@@ -370,6 +387,7 @@ for i, row in enumerate(characters_csv):
 
     direct = rec['Direct'].split()
     characters |= set(direct)
+    characters_direct |= set(direct)
     characters_by_slug[slug][0] = direct
 
     indirect = rec['Indirect'].split()

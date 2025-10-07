@@ -28,22 +28,26 @@ function draw() {
   var D = Math.min(W, H);
   var centerX = W / 2;
   var centerY = H / 2;
-  var unit = W / 10;
+  var unit = Math.min(W / 15, H / 21);
   var halfUnit = unit / 2;
   var body = document.getElementsByTagName('body')[0];
   body.innerHTML = '';
   window._data.forEach(function(person) {
+    if (person.r === null) {
+      console.log(`failed to place ${person.slug}`);
+      return;
+    }
     var a = document.createElement('a');
     a.href = `/characters/${person.slug}/`;
     var img = document.createElement('img');
     img.src = "person.svg"
     img.style.position = "absolute";
     img.style.background = person.bg;
-    img.style.height = unit;
-    img.style.width = unit;
+    img.style.height = unit * person.scale;
+    img.style.width = unit * person.scale;
     var coords = polar_to_cartesian(person, unit);
-    img.style.top = centerY + coords.y - halfUnit;
-    img.style.left = centerX + coords.x - halfUnit;
+    img.style.top = centerY + coords.y - (halfUnit * person.scale);
+    img.style.left = centerX + coords.x - (halfUnit * person.scale);
     a.append(img);
     body.append(a);
   });
