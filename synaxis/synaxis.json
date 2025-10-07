@@ -1,17 +1,20 @@
 [
   {
     "slug": "jesus",
-    "x": 0,
-    "y": 0
+    "r": 0,
+    "t": 0,
+    "bg": "gold"
   },
   {
     "slug": "mary",
-    "x": -100,
-    "y": 0
+    "r": 1,
+    "t": 180,
+    "bg": "blue"
   },
   {
     "slug": "john-the-forerunner",
-    "x": 100,
-    "y": 0
+    "r": 1,
+    "t": 0,
+    "bg": "brown"
   }
 ]

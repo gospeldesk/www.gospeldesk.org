@@ -90,6 +90,16 @@ def main():
         print('pruning', slug)
         os.unlink(f'../_readings/{slug}.md')
 
+    synaxis = []
+    inp = csv.reader(open('synaxis.csv'))
+    headers = next(inp)
+    for row in inp:
+        rec = dict(zip(headers, row))
+        rec["r"] = int(rec["r"])
+        rec["t"] = int(rec["t"])
+        synaxis.append(rec)
+    json.dump(synaxis, open('../synaxis/synaxis.json', 'w+'), indent=2)
+
     char_slugs = set()
     for char in characters:
         char_slug = char_sluggize(char)
@@ -108,7 +118,6 @@ name: "{name}"
     for char in known - char_slugs:
         print('pruning', char)
         os.unlink(f'../_characters/{char}.md')
-
 
     sg_titles = []
     synaxis_groups = defaultdict(list)
