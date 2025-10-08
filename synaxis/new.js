@@ -42,12 +42,38 @@ function cartesian_to_polar(person, unit) {
 
 let activeItem, offsetX, offsetY;
 
-function dragStart(e) {
+function toggleSelect(e) {
+  console.log('toggle selected');
   e.preventDefault();
-  activeItem = e.target.closest('div');
-  var rect = activeItem.getBoundingClientRect();
-  offsetX = rect.left - e.pageX;
-  offsetY = rect.top - e.pageY;
+  let person = e.target.closest('div');
+  console.log(person.classList, 'selected' in person.classList);
+  if (person.classList.contains('selected')) {
+    console.log('removing');
+    person.classList.remove('selected');
+  } else {
+    console.log('adding');
+    person.classList.add('selected');
+  }
+}
+
+function deselectAll() {
+  if (event.target === event.currentTarget) {
+    Array.from(document.getElementsByClassName('person selected')).forEach((el) => {
+      el.classList.remove('selected');
+    });
+  }
+}
+
+function dragStart(e) {
+  console.log('drag start');
+  e.preventDefault();
+  if (document.getElementsByClassName('selected').length > 0) {
+  } else {
+    activeItem = e.target.closest('div');
+    var rect = activeItem.getBoundingClientRect();
+    offsetX = rect.left - e.pageX;
+    offsetY = rect.top - e.pageY;
+  }
 }
 
 function drag(e) {
@@ -59,6 +85,7 @@ function drag(e) {
 }
 
 function dragEnd(e) {
+  console.log('drag end');
   e.preventDefault();
   activeItem = null;
 }
@@ -95,6 +122,7 @@ function draw(container) {
       person.bg = '#EEE';
     }
     var a = document.createElement('div');
+    a.classList.add('person');
     a.id = person.slug;
     a.dataset.blob = JSON.stringify(person);
     a.href = `/characters/${person.slug}/`;
@@ -117,6 +145,7 @@ function draw(container) {
     label.style = 'color: white; font: bold 12px/12px monospace; text-transform: uppercase; position: absolute; bottom: 2px; left: 4px';
     a.append(label);
     a.addEventListener('mousedown', dragStart);
+    a.addEventListener('click', toggleSelect);
     container.append(a);
   });
 
@@ -166,6 +195,7 @@ window.onload = function() {
   getJSON('synaxis.json', function(data) {
     window._data = data;
     body.addEventListener('mousemove', drag);
+    body.addEventListener('click', deselectAll);
     document.addEventListener('mouseup', dragEnd);
     draw(body);
     window.addEventListener('resize', function() { draw(body) });
