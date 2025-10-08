@@ -72,27 +72,29 @@ function draw(container) {
   var D = Math.min(W, H);
   var centerX = W / 2;
   var centerY = H / 2;
-  var unit = Math.min(W / 15, H / 21) / 1.5;
+  var unit = W / 12;
   var halfUnit = unit / 2;
   container.innerHTML = '';
 
-  let i = 1;
-  let j = 1;
+  let rowNum = 8;
+  let colNum = 1;
+  let paddedUnit = unit * 1.2;
 
   window._data.forEach(function(person) {
     if (person.r === null) {
-      person.r = 2 + 1 * j;
-      if (i++ > 12) {
-        j++;
-        i = 1
-      };
-      person.t = (13 - i + 3) * 10;
+      console.log('placing', person.slug);
+      polar = cartesian_to_polar({
+        x: (colNum * paddedUnit) - centerX,
+        y: (rowNum * paddedUnit) - centerY
+      }, unit);
+      person.r = polar.r;
+      person.t = polar.t;
+      if (colNum++ > 8) { rowNum++; colNum = 1}
     }
     if (person.bg === '') {
       person.bg = '#EEE';
     }
     var a = document.createElement('div');
-    a.className = 'person';
     a.id = person.slug;
     a.dataset.blob = JSON.stringify(person);
     a.href = `/characters/${person.slug}/`;
@@ -112,7 +114,7 @@ function draw(container) {
     a.append(img);
     var label = document.createElement('span');
     label.innerHTML = `${person.slug}`;
-    label.style = 'color: white; font: bold 8px/8px monospace; text-transform: uppercase; position: absolute; bottom: 2px; left: 4px';
+    label.style = 'color: white; font: bold 12px/12px monospace; text-transform: uppercase; position: absolute; bottom: 2px; left: 4px';
     a.append(label);
     a.addEventListener('mousedown', dragStart);
     container.append(a);
@@ -154,18 +156,19 @@ function download(filename, text) {
   element.setAttribute('download', filename);
   element.style.display = 'none';
   document.body.appendChild(element);
+  document.body.style.overflow = 'auto';
   element.click();
   document.body.removeChild(element);
 }
 
 window.onload = function() {
+  var body = document.getElementsByTagName('body')[0];
   getJSON('synaxis.json', function(data) {
     window._data = data;
-    var body = document.getElementsByTagName('body')[0];
     body.addEventListener('mousemove', drag);
     document.addEventListener('mouseup', dragEnd);
     draw(body);
+    window.addEventListener('resize', function() { draw(body) });
   });
 };
 
-window.addEventListener('resize', draw);

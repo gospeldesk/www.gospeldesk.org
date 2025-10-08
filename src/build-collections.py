@@ -100,9 +100,7 @@ def main():
         for field in 'scale r t'.split():
             val = rec[field]
             cast = float if '.' in val else int
-            if not rec[field]:
-                raise Error
-            rec[field] = cast(rec[field])
+            rec[field] = cast(rec[field]) if rec[field] else None
         synaxis.append(rec)
         characters_direct_two.add(rec['slug'])
 
