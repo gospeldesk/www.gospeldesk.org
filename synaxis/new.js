@@ -76,20 +76,20 @@ function draw(container) {
   var halfUnit = unit / 2;
   container.innerHTML = '';
 
-  let rowNum = 8;
+  let rowNum = 1;
   let colNum = 1;
-  let paddedUnit = unit * 1.2;
+  let paddedUnit = unit * 1.5;
 
   window._data.forEach(function(person) {
     if (person.r === null) {
       console.log('placing', person.slug);
       polar = cartesian_to_polar({
         x: (colNum * paddedUnit) - centerX,
-        y: (rowNum * paddedUnit) - centerY
+        y: paddedUnit + (rowNum * paddedUnit)
       }, unit);
       person.r = polar.r;
       person.t = polar.t;
-      if (colNum++ > 8) { rowNum++; colNum = 1}
+      if (colNum++ > 6) { rowNum++; colNum = 1}
     }
     if (person.bg === '') {
       person.bg = '#EEE';
