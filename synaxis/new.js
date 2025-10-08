@@ -48,7 +48,6 @@ function toggleSelected(person) {
 }
 
 function click(e) {
-  console.log('click', e.target.tagName);
   if (['HTML', 'BODY'].includes(e.target.tagName)) {
     Array.from(document.getElementsByClassName('person selected')).forEach((el) => {
       el.classList.remove('selected');
