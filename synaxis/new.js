@@ -53,8 +53,8 @@ function dragStart(e) {
 function drag(e) {
   if (activeItem) {
     e.preventDefault();
-    activeItem.style.top = e.pageY + offsetY;
-    activeItem.style.left = e.pageX + offsetX;
+    activeItem.style.top = e.pageY + offsetY + window.scrollY;
+    activeItem.style.left = e.pageX + offsetX + window.scrollX;
   }
 }
 
