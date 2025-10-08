@@ -11,7 +11,7 @@ slug,scale,r,t,bg
 "ahaz",1,,,
 "amminadab",1,,,
 "amon",1,,,
-"andrew",1,5.45,156.2,
+"andrew",1,5.43,160.6,#AAA
 "angelic-host",1,,,
 "angels",1,,,
 "anna",1,,,
@@ -19,7 +19,7 @@ slug,scale,r,t,bg
 "azor",1,,,
 "babylon",1,,,
 "barabbas",1,,,
-"bartholomew",1,,,
+"bartholomew",1,4.36,155.5,#AAA
 "bartimaeus",1,,,
 "bathsheba",1,,,
 "berenice",1,,,
@@ -130,14 +130,14 @@ slug,scale,r,t,bg
 "jericho",1,,,
 "jerusalem",1,,,
 "jesse",1,,,
-"jesus",3,0,0,
+"jesus",3,0,0,gold
 "jesus'-brothers",1,,,
 "jesus'-friends",1,,,
 "jesus'-sisters",1,,,
 "jewish-leaders",1,,,
 "jews",1,,,
 "joanna",1,,,
-"john-the-forerunner",2,3,0,
+"john-the-forerunner",2,3,0,brown
 "john-the-forerunner's-disciples",1,,,
 "john-the-theologian",1,,,
 "john's-disciples",1,,,
@@ -190,7 +190,7 @@ slug,scale,r,t,bg
 "mary-mother-of-james",1,,,
 "mary-of-bethany",1,,,
 "mary-of-clopas",1,,,
-"mary",2,3,-180,
+"mary",2,3,-180,blue
 "master-of-the-house",1,,,
 "matthan",1,,,
 "matthew",1,,,

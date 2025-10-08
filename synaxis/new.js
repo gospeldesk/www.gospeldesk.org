@@ -187,7 +187,7 @@ function draw(container) {
         console.log(person, coords);
       }
       if (el.classList.contains('placed')) {
-        content += `"${person.slug}",${person.scale},${coords.r},${coords.t},\n`;
+        content += `"${person.slug}",${person.scale},${coords.r},${coords.t},${person.bg}\n`;
       } else {
         content += `"${person.slug}",1,,,\n`;
       }
