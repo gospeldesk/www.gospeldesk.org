@@ -40,54 +40,52 @@ function cartesian_to_polar(person, unit) {
 
 // DND
 
-let activeItem, offsetX, offsetY;
-
-function toggleSelect(e) {
-  console.log('toggle selected');
-  e.preventDefault();
-  let person = e.target.closest('div');
-  console.log(person.classList, 'selected' in person.classList);
+function toggleSelected(person) {
   if (person.classList.contains('selected')) {
-    console.log('removing');
     person.classList.remove('selected');
   } else {
-    console.log('adding');
-    person.classList.add('selected');
   }
 }
 
-function deselectAll() {
-  if (event.target === event.currentTarget) {
+function click(e) {
+  if (e.target === e.currentTarget) {
     Array.from(document.getElementsByClassName('person selected')).forEach((el) => {
       el.classList.remove('selected');
     });
   }
 }
 
-function dragStart(e) {
-  console.log('drag start');
+var isMouseDown = false;
+var hasMoved = false;
+
+function mousedown(e) {
+  console.log('mouse down');
+  isMouseDown = true;
+  hasMoved = false;
   e.preventDefault();
-  if (document.getElementsByClassName('selected').length > 0) {
-  } else {
-    activeItem = e.target.closest('div');
-    var rect = activeItem.getBoundingClientRect();
-    offsetX = rect.left - e.pageX;
-    offsetY = rect.top - e.pageY;
-  }
+  var person = e.target.closest('div');
+  person.classList.add('selected');
+  var rect = person.getBoundingClientRect();
+  person.dataset.offsetX = rect.left - e.pageX;
+  person.dataset.offsetY = rect.top - e.pageY;
 }
 
-function drag(e) {
-  if (activeItem) {
+function mousemove(e) {
+  hasMoved = true;
+  if (isMouseDown) {
+    console.log('mouse move');
     e.preventDefault();
-    activeItem.style.top = e.pageY + offsetY + window.scrollY;
-    activeItem.style.left = e.pageX + offsetX + window.scrollX;
+    Array.from(document.getElementsByClassName('person selected')).forEach((person) => {
+      person.style.top = e.pageY + Number(person.dataset.offsetY) + window.scrollY;
+      person.style.left = e.pageX + Number(person.dataset.offsetX) + window.scrollX;
+    });
   }
 }
 
-function dragEnd(e) {
-  console.log('drag end');
+function mouseup(e) {
+  console.log('mouse up');
+  isMouseDown = false;
   e.preventDefault();
-  activeItem = null;
 }
 
 
@@ -144,8 +142,8 @@ function draw(container) {
     label.innerHTML = `${person.slug}`;
     label.style = 'color: white; font: bold 12px/12px monospace; text-transform: uppercase; position: absolute; bottom: 2px; left: 4px';
     a.append(label);
-    a.addEventListener('mousedown', dragStart);
-    a.addEventListener('click', toggleSelect);
+    a.addEventListener('mousedown', mousedown);
+    a.addEventListener('mouseup', mouseup);
     container.append(a);
   });
 
@@ -194,9 +192,9 @@ window.onload = function() {
   var body = document.getElementsByTagName('body')[0];
   getJSON('synaxis.json', function(data) {
     window._data = data;
-    body.addEventListener('mousemove', drag);
-    body.addEventListener('click', deselectAll);
-    document.addEventListener('mouseup', dragEnd);
+    body.addEventListener('mousemove', mousemove);
+    body.addEventListener('click', click);
+    document.addEventListener('mouseup', mouseup);
     draw(body);
     window.addEventListener('resize', function() { draw(body) });
   });
