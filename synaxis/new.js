@@ -79,6 +79,7 @@ function mousemove(e) {
     Array.from(document.getElementsByClassName('person selected')).forEach((person) => {
       person.style.top = e.pageY + Number(person.dataset.offsetY) + window.scrollY;
       person.style.left = e.pageX + Number(person.dataset.offsetX) + window.scrollX;
+      person.classList.add('placed');
     });
   }
 }
@@ -118,7 +119,9 @@ function draw(container) {
   let paddedUnit = unit * 1.5;
 
   window._data.forEach(function(person) {
+    var placed = true;
     if (person.r === null) {
+      placed = false;
       console.log('placing', person.slug);
       polar = cartesian_to_polar({
         x: (colNum * paddedUnit) - centerX,
@@ -129,7 +132,7 @@ function draw(container) {
       if (colNum++ > 6) { rowNum++; colNum = 1}
     }
     if (person.bg === '') {
-      person.bg = '#EEE';
+      person.bg = '#AAA';
     }
     var a = document.createElement('div');
     a.classList.add('person');
@@ -156,6 +159,7 @@ function draw(container) {
     a.append(label);
     a.addEventListener('mousedown', mousedown);
     a.addEventListener('mouseup', mouseup);
+    if (placed) a.classList.add('placed');
     container.append(a);
   });
 
@@ -182,7 +186,11 @@ function draw(container) {
       if (coords.r !== person.r || coords.t !== person.t) {
         console.log(person, coords);
       }
-      content += `"${person.slug}",${person.scale},${coords.r},${coords.t},${person.bg}\n`;
+      if (el.classList.contains('placed')) {
+        content += `"${person.slug}",${person.scale},${coords.r},${coords.t},\n`;
+      } else {
+        content += `"${person.slug}",1,,,\n`;
+      }
     });
     download('synaxis.csv', content);
   }
