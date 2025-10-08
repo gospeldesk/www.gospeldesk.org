@@ -59,7 +59,6 @@ var isMouseDown = false;
 var hasMoved = false;
 
 function mousedown(e) {
-  console.log('mouse down');
   isMouseDown = true;
   hasMoved = false;
   e.preventDefault();
@@ -75,7 +74,6 @@ function mousedown(e) {
 function mousemove(e) {
   hasMoved = true;
   if (isMouseDown) {
-    console.log('mouse move');
     e.preventDefault();
     Array.from(document.getElementsByClassName('person selected')).forEach((person) => {
       person.style.top = e.pageY + Number(person.dataset.offsetY) + window.scrollY;
@@ -85,7 +83,6 @@ function mousemove(e) {
 }
 
 function mouseup(e) {
-  console.log('mouse up');
   isMouseDown = false;
   e.preventDefault();
 }
