@@ -59,7 +59,6 @@ var isMouseDown = false;
 var hasMoved = false;
 
 function mousedown(e) {
-	console.log('mousedown');
   isMouseDown = true;
   hasMoved = false;
   e.preventDefault();
@@ -86,6 +85,10 @@ function mousemove(e) {
 
 function mouseup(e) {
   isMouseDown = false;
+  var selection = Array.from(document.getElementsByClassName('person selected'));
+  if (hasMoved && selection.length === 1) {
+    selection[0].classList.remove('selected');
+  }
   e.preventDefault();
 }
 
@@ -117,15 +120,23 @@ function draw(container) {
   let rowNum = 1;
   let colNum = 1;
   let paddedUnit = unit * 1.5;
+  let topOffset = 0;
+
+  window._data.forEach(function(person) {
+    if (person.r === null) {
+      return
+    }
+    var coords = polar_to_cartesian(person, unit);
+    topOffset = Math.max(topOffset, coords.y - (halfUnit * person.scale));
+  });
 
   window._data.forEach(function(person) {
     var placed = true;
     if (person.r === null) {
       placed = false;
-      console.log('placing', person.slug);
       polar = cartesian_to_polar({
         x: (colNum * paddedUnit) - centerX,
-        y: paddedUnit + (rowNum * paddedUnit)
+        y: topOffset + halfUnit + (rowNum * paddedUnit)
       }, unit);
       person.r = polar.r;
       person.t = polar.t;

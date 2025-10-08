@@ -9,16 +9,16 @@
   {
     "slug": "a-ruler-of-the-pharisees",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 6.05,
+    "t": 51.8,
+    "bg": "#AAA"
   },
   {
     "slug": "a-ruler-of-the-pharisees'-guest",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 6.8,
+    "t": 44.3,
+    "bg": "#AAA"
   },
   {
     "slug": "abijah",
@@ -107,9 +107,9 @@
   {
     "slug": "anna",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 8.11,
+    "t": 130.6,
+    "bg": "#AAA"
   },
   {
     "slug": "asa",
@@ -135,9 +135,9 @@
   {
     "slug": "barabbas",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 14.45,
+    "t": 112.1,
+    "bg": "#AAA"
   },
   {
     "slug": "bartholomew",
@@ -149,9 +149,9 @@
   {
     "slug": "bartimaeus",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 5.47,
+    "t": 123.9,
+    "bg": "#AAA"
   },
   {
     "slug": "bathsheba",
@@ -163,16 +163,16 @@
   {
     "slug": "berenice",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 9.38,
+    "t": 122.6,
+    "bg": "#AAA"
   },
   {
     "slug": "berenice's-demon",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 8.83,
+    "t": 116.4,
+    "bg": "#AAA"
   },
   {
     "slug": "bethany",
@@ -184,9 +184,9 @@
   {
     "slug": "bethesda-man",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 7.72,
+    "t": 88,
+    "bg": "#AAA"
   },
   {
     "slug": "bethesda-sick",
@@ -233,9 +233,9 @@
   {
     "slug": "blind-bartimaeus",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 9.04,
+    "t": 58.7,
+    "bg": "#AAA"
   },
   {
     "slug": "blind-man-of-bethsaida",
@@ -331,23 +331,23 @@
   {
     "slug": "centurion",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 16.77,
+    "t": 88.8,
+    "bg": "#AAA"
   },
   {
     "slug": "centurion's-friends",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 16.86,
+    "t": 85.1,
+    "bg": "#AAA"
   },
   {
     "slug": "centurion's-servant",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 17.01,
+    "t": 81.3,
+    "bg": "#AAA"
   },
   {
     "slug": "certain-greeks",
