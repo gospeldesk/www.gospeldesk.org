@@ -48,7 +48,8 @@ function toggleSelected(person) {
 }
 
 function click(e) {
-  if (e.target === e.currentTarget) {
+  console.log('click', e.target.tagName);
+  if (['HTML', 'BODY'].includes(e.target.tagName)) {
     Array.from(document.getElementsByClassName('person selected')).forEach((el) => {
       el.classList.remove('selected');
     });
@@ -59,6 +60,7 @@ var isMouseDown = false;
 var hasMoved = false;
 
 function mousedown(e) {
+	console.log('mousedown');
   isMouseDown = true;
   hasMoved = false;
   e.preventDefault();
@@ -85,6 +87,18 @@ function mousemove(e) {
 function mouseup(e) {
   isMouseDown = false;
   e.preventDefault();
+}
+
+function deselectAll() {
+	Array.from(document.getElementsByClassName('person selected')).forEach((person) => {
+		person.classList.remove('selected');
+	});
+}
+
+function keydown(e) {
+  if (event.key === 'Escape') {
+		deselectAll();
+  }
 }
 
 
@@ -192,10 +206,11 @@ window.onload = function() {
   getJSON('synaxis.json', function(data) {
     window._data = data;
     body.addEventListener('mousemove', mousemove);
-    body.addEventListener('click', click);
+    document.addEventListener('click', click);
     document.addEventListener('mouseup', mouseup);
     draw(body);
     window.addEventListener('resize', function() { draw(body) });
+		document.addEventListener('keydown', keydown);
   });
 };
 
