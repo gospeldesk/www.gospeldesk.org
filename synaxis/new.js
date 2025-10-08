@@ -65,9 +65,11 @@ function mousedown(e) {
   e.preventDefault();
   var person = e.target.closest('div');
   person.classList.add('selected');
-  var rect = person.getBoundingClientRect();
-  person.dataset.offsetX = rect.left - e.pageX;
-  person.dataset.offsetY = rect.top - e.pageY;
+  Array.from(document.getElementsByClassName('person selected')).forEach((person) => {
+    var rect = person.getBoundingClientRect();
+    person.dataset.offsetX = rect.left - e.pageX;
+    person.dataset.offsetY = rect.top - e.pageY;
+  });
 }
 
 function mousemove(e) {
