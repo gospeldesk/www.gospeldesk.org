@@ -331,22 +331,22 @@
   {
     "slug": "centurion",
     "scale": 1,
-    "r": 16.77,
-    "t": 88.8,
+    "r": 12.69,
+    "t": 96.7,
     "bg": "#AAA"
   },
   {
     "slug": "centurion's-friends",
     "scale": 1,
-    "r": 16.86,
-    "t": 85.1,
+    "r": 12.64,
+    "t": 91.8,
     "bg": "#AAA"
   },
   {
     "slug": "centurion's-servant",
     "scale": 1,
-    "r": 17.01,
-    "t": 81.3,
+    "r": 12.68,
+    "t": 86.6,
     "bg": "#AAA"
   },
   {
@@ -1003,23 +1003,23 @@
   {
     "slug": "jordan",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 11.35,
+    "t": 68.7,
+    "bg": "#AAA"
   },
   {
     "slug": "joseph",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 10.02,
+    "t": 106.8,
+    "bg": "#AAA"
   },
   {
     "slug": "joseph-and-mary's-relatives-and-acquaintances",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 9.79,
+    "t": 100.6,
+    "bg": "#AAA"
   },
   {
     "slug": "joseph-of-arimathaea",
@@ -1059,37 +1059,37 @@
   {
     "slug": "judas",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 11.13,
+    "t": 102.8,
+    "bg": "#AAA"
   },
   {
     "slug": "judas-iscariot",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 10.93,
+    "t": 97,
+    "bg": "#AAA"
   },
   {
     "slug": "judea",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 10.36,
+    "t": 66.3,
+    "bg": "#AAA"
   },
   {
     "slug": "justa",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 10.32,
+    "t": 84.8,
+    "bg": "#AAA"
   },
   {
     "slug": "king-herod",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 11.52,
+    "t": 75.2,
+    "bg": "#AAA"
   },
   {
     "slug": "king-herod's-guests",
@@ -1136,9 +1136,9 @@
   {
     "slug": "legion",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 12.66,
+    "t": 76.1,
+    "bg": "#AAA"
   },
   {
     "slug": "leper",
