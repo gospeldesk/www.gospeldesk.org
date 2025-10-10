@@ -40,6 +40,19 @@ function cartesian_to_polar(person, unit) {
 
 // DND
 
+/*
+
+doc
+  down
+  move
+  up
+
+item
+  down
+  up
+
+*/
+
 function toggleSelected(person) {
   if (person.classList.contains('selected')) {
     person.classList.remove('selected');
@@ -47,31 +60,16 @@ function toggleSelected(person) {
   }
 }
 
-function click(e) {
-  if (['HTML', 'BODY'].includes(e.target.tagName)) {
-    Array.from(document.getElementsByClassName('person selected')).forEach((el) => {
-      el.classList.remove('selected');
-    });
-  }
-}
-
 var isMouseDown = false;
 var hasMoved = false;
 
-function mousedown(e) {
-  isMouseDown = true;
-  hasMoved = false;
-  e.preventDefault();
-  var person = e.target.closest('div');
-  person.classList.add('selected');
-  Array.from(document.getElementsByClassName('person selected')).forEach((person) => {
-    var rect = person.getBoundingClientRect();
-    person.dataset.offsetX = rect.left - e.pageX;
-    person.dataset.offsetY = rect.top - e.pageY;
-  });
+function docMouseDown(e) {
+  console.log('doc mouse down');
+  deselectAll();
 }
 
-function mousemove(e) {
+function docMouseMove(e) {
+  console.log('doc mouse move');
   hasMoved = true;
   if (isMouseDown) {
     e.preventDefault();
@@ -83,13 +81,35 @@ function mousemove(e) {
   }
 }
 
-function mouseup(e) {
+function docMouseUp(e) {
+  console.log('doc mouse up');
+}
+
+
+function itemMouseDown(e) {
+  console.log('item mouse down');
+  e.preventDefault();
+  e.stopPropagation();
+  isMouseDown = true;
+  hasMoved = false;
+  var person = e.target.closest('div');
+  person.classList.add('selected');
+  Array.from(document.getElementsByClassName('person selected')).forEach((person) => {
+    var rect = person.getBoundingClientRect();
+    person.dataset.offsetX = rect.left - e.pageX;
+    person.dataset.offsetY = rect.top - e.pageY;
+  });
+}
+
+function itemMouseUp(e) {
+  console.log('item mouse up');
+  e.preventDefault();
+  e.stopPropagation();
   isMouseDown = false;
   var selection = Array.from(document.getElementsByClassName('person selected'));
   if (hasMoved && selection.length === 1) {
     selection[0].classList.remove('selected');
   }
-  e.preventDefault();
 }
 
 function deselectAll() {
@@ -98,7 +118,7 @@ function deselectAll() {
 	});
 }
 
-function keydown(e) {
+function docKeyDown(e) {
   if (event.key === 'Escape') {
 		deselectAll();
   }
@@ -168,8 +188,8 @@ function draw(container) {
     label.innerHTML = `${person.slug}`;
     label.style = 'color: white; font: bold 12px/12px monospace; text-transform: uppercase; position: absolute; bottom: 2px; left: 4px';
     a.append(label);
-    a.addEventListener('mousedown', mousedown);
-    a.addEventListener('mouseup', mouseup);
+    a.addEventListener('mousedown', itemMouseDown);
+    a.addEventListener('mouseup', itemMouseUp);
     if (placed) a.classList.add('placed');
     container.append(a);
   });
@@ -223,12 +243,12 @@ window.onload = function() {
   var body = document.getElementsByTagName('body')[0];
   getJSON('synaxis.json', function(data) {
     window._data = data;
-    body.addEventListener('mousemove', mousemove);
-    document.addEventListener('click', click);
-    document.addEventListener('mouseup', mouseup);
+    document.addEventListener('mousedown', docMouseDown);
+    document.addEventListener('mousemove', docMouseMove);
+    document.addEventListener('mouseup', docMouseUp);
     draw(body);
     window.addEventListener('resize', function() { draw(body) });
-		document.addEventListener('keydown', keydown);
+		document.addEventListener('keydown', docKeyDown);
   });
 };
 

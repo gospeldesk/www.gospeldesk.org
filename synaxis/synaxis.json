@@ -184,8 +184,8 @@
   {
     "slug": "bethesda-man",
     "scale": 1,
-    "r": 7.72,
-    "t": 88,
+    "r": 6.29,
+    "t": 92.8,
     "bg": "#AAA"
   },
   {
@@ -233,8 +233,8 @@
   {
     "slug": "blind-bartimaeus",
     "scale": 1,
-    "r": 9.04,
-    "t": 58.7,
+    "r": 7.73,
+    "t": 70.3,
     "bg": "#AAA"
   },
   {
@@ -506,9 +506,9 @@
   {
     "slug": "dysmas",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 14.44,
+    "t": 97.2,
+    "bg": "#AAA"
   },
   {
     "slug": "east",
@@ -562,30 +562,30 @@
   {
     "slug": "elizabeth",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 15.9,
+    "t": 87.9,
+    "bg": "#AAA"
   },
   {
     "slug": "elizabeth's-neighbors-and-relatives",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 16.01,
+    "t": 84,
+    "bg": "#AAA"
   },
   {
     "slug": "epileptic",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 16.22,
+    "t": 78.1,
+    "bg": "#AAA"
   },
   {
     "slug": "epileptic's-demon",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 16.59,
+    "t": 74.5,
+    "bg": "#AAA"
   },
   {
     "slug": "epileptic's-father",
@@ -618,9 +618,9 @@
   {
     "slug": "gabriel",
     "scale": 1,
-    "r": null,
-    "t": null,
-    "bg": ""
+    "r": 15.57,
+    "t": 92.2,
+    "bg": "#AAA"
   },
   {
     "slug": "galilee",
