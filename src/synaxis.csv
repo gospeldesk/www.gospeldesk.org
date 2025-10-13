@@ -18,7 +18,7 @@ slug,scale,r,t,bg
 "asa",1,,,
 "azor",1,,,
 "babylon",1,,,
-"barabbas",1,14.45,112.1,#AAA
+"barabbas",1,14.25,111.5,#AAA
 "bartholomew",1,4.36,155.5,#AAA
 "bartimaeus",1,5.47,123.9,#AAA
 "bathsheba",1,,,
@@ -94,7 +94,7 @@ slug,scale,r,t,bg
 "gergasenes",1,,,
 "gergesene-demoniac",1,,,
 "gergesenes",1,,,
-"gestas",1,,,
+"gestas",1,32.9,85.4,#AAA
 "gethsemane",1,,,
 "god",1,,,
 "golgotha",1,,,
@@ -190,7 +190,7 @@ slug,scale,r,t,bg
 "mary-mother-of-james",1,,,
 "mary-of-bethany",1,,,
 "mary-of-clopas",1,,,
-"mary",2,3,-180,blue
+"mary",2,3,180,blue
 "master-of-the-house",1,,,
 "matthan",1,,,
 "matthew",1,,,

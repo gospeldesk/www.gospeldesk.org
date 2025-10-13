@@ -72,13 +72,15 @@ function docMouseMove(e) {
   console.log('doc mouse move');
   hasMoved = true;
   if (isMouseDown) {
-    e.preventDefault();
-    Array.from(document.getElementsByClassName('person selected')).forEach((person) => {
-      person.style.top = e.pageY + Number(person.dataset.offsetY) + window.scrollY;
-      person.style.left = e.pageX + Number(person.dataset.offsetX) + window.scrollX;
-      person.classList.add('placed');
-    });
+    cls = 'selected';
+  } else {
+    cls = 'cut';
   }
+  Array.from(document.getElementsByClassName(`person ${cls}`)).forEach((person) => {
+    person.style.top = e.pageY + Number(person.dataset.offsetY) + window.scrollY;
+    person.style.left = e.pageX + Number(person.dataset.offsetX) + window.scrollX;
+    person.classList.add('placed');
+  });
 }
 
 function docMouseUp(e) {
@@ -113,15 +115,31 @@ function itemMouseUp(e) {
 }
 
 function deselectAll() {
-	Array.from(document.getElementsByClassName('person selected')).forEach((person) => {
-		person.classList.remove('selected');
-	});
+  Array.from(document.getElementsByClassName('person')).forEach((person) => {
+    person.classList.remove('selected');
+    person.classList.remove('cut');
+  });
 }
 
 function docKeyDown(e) {
   if (event.key === 'Escape') {
-		deselectAll();
+    deselectAll();
   }
+}
+
+function docCut(e) {
+  console.log('doc cut');
+  Array.from(document.getElementsByClassName('person selected')).forEach((person) => {
+    person.classList.remove('selected');
+    person.classList.add('cut');
+  });
+}
+
+function docPaste(e) {
+  console.log('doc paste');
+  Array.from(document.getElementsByClassName('person cut')).forEach((person) => {
+    person.classList.remove('cut');
+  });
 }
 
 
@@ -246,9 +264,12 @@ window.onload = function() {
     document.addEventListener('mousedown', docMouseDown);
     document.addEventListener('mousemove', docMouseMove);
     document.addEventListener('mouseup', docMouseUp);
+
     draw(body);
     window.addEventListener('resize', function() { draw(body) });
-		document.addEventListener('keydown', docKeyDown);
+    document.addEventListener('keydown', docKeyDown);
+    document.addEventListener('cut', docCut);
+    document.addEventListener('paste', docPaste);
   });
 };
 
