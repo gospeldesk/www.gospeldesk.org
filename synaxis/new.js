@@ -77,8 +77,8 @@ function docMouseMove(e) {
     cls = 'cut';
   }
   Array.from(document.getElementsByClassName(`person ${cls}`)).forEach((person) => {
-    person.style.top = e.pageY + Number(person.dataset.offsetY) + window.scrollY;
-    person.style.left = e.pageX + Number(person.dataset.offsetX) + window.scrollX;
+    person.style.top = e.pageY - Number(person.dataset.offsetY);
+    person.style.left = e.pageX - Number(person.dataset.offsetX);
     person.classList.add('placed');
   });
 }
@@ -98,8 +98,12 @@ function itemMouseDown(e) {
   person.classList.add('selected');
   Array.from(document.getElementsByClassName('person selected')).forEach((person) => {
     var rect = person.getBoundingClientRect();
-    person.dataset.offsetX = rect.left - e.pageX;
-    person.dataset.offsetY = rect.top - e.pageY;
+    person.dataset.offsetX = e.clientX - rect.left;
+    person.dataset.offsetY = e.clientY - rect.top;
+  });
+  Array.from(document.getElementsByClassName('person cut')).forEach((person) => {
+    person.classList.remove('cut');
+    person.classList.add('selected');
   });
 }
 
@@ -123,7 +127,13 @@ function deselectAll() {
 
 function docKeyDown(e) {
   if (event.key === 'Escape') {
-    deselectAll();
+    Array.from(document.getElementsByClassName('person selected')).forEach((person) => {
+      person.classList.remove('selected');
+    });
+    Array.from(document.getElementsByClassName('person cut')).forEach((person) => {
+      person.classList.remove('cut');
+      person.classList.add ('selected');
+    });
   }
 }
 
@@ -139,6 +149,7 @@ function docPaste(e) {
   console.log('doc paste');
   Array.from(document.getElementsByClassName('person cut')).forEach((person) => {
     person.classList.remove('cut');
+    person.classList.add('selected');
   });
 }
 
