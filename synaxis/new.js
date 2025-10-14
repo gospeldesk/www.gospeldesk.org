@@ -66,25 +66,66 @@ var hasMoved = false;
 function docMouseDown(e) {
   console.log('doc mouse down');
   deselectAll();
+  var selector = document.createElement('div');
+  selector.classList.add('selector');
+  selector.style = 'position: absolute; border: 1px solid #CCC; width: 0; height: 0;';
+  selector.style.top = e.pageY;
+  selector.style.left = e.pageX;
+  document.body.append(selector);
 }
 
 function docMouseMove(e) {
-  console.log('doc mouse move');
+  e.preventDefault();
+  e.stopPropagation();
   hasMoved = true;
-  if (isMouseDown) {
-    cls = 'selected';
+  var selector = document.getElementsByClassName('selector')[0];
+  if (selector) {
+    console.log('selecting');
+    var selectorTop = Number(selector.style.top.replace('px', ''));
+    var selectorLeft = Number(selector.style.left.replace('px', ''));
+    selector.style.height = e.pageY - selectorTop;
+    selector.style.width = e.pageX - selectorLeft;
+    var selectorBox = selector.getBoundingClientRect();
+    var selectorWidth = selectorBox.width;
+    var selectorHeight = selectorBox.height;
+    var selectorBottom = selectorTop + selectorHeight;
+    var selectorRight = selectorLeft + selectorWidth;
+    Array.from(document.getElementsByClassName('person')).forEach((person) => {
+      var personBox = person.getBoundingClientRect();
+      var personTop = window.scrollY + personBox.top;
+      var personLeft = window.scrollX + personBox.left;
+      var personBottom = personTop + personBox.height;
+      var personRight = personLeft + personBox.width;
+      if (personBottom > selectorTop && personTop < selectorBottom && personLeft < selectorRight && personRight > selectorLeft) {
+        person.classList.add('selected');
+      } else {
+        person.classList.remove('selected');
+      }
+    });
   } else {
-    cls = 'cut';
+    console.log('doc mouse move');
+    if (isMouseDown) {
+      cls = 'selected';
+    } else {
+      cls = 'cut';
+    }
+    Array.from(document.getElementsByClassName(`person ${cls}`)).forEach((person) => {
+      person.style.top = e.pageY - Number(person.dataset.offsetY);
+      person.style.left = e.pageX - Number(person.dataset.offsetX);
+      person.classList.add('placed');
+    });
   }
-  Array.from(document.getElementsByClassName(`person ${cls}`)).forEach((person) => {
-    person.style.top = e.pageY - Number(person.dataset.offsetY);
-    person.style.left = e.pageX - Number(person.dataset.offsetX);
-    person.classList.add('placed');
+}
+
+function stopSelecting() {
+  Array.from(document.getElementsByClassName('selector')).forEach((selector) => {
+    selector.remove();
   });
 }
 
 function docMouseUp(e) {
   console.log('doc mouse up');
+  stopSelecting();
 }
 
 
@@ -116,6 +157,7 @@ function itemMouseUp(e) {
   if (hasMoved && selection.length === 1) {
     selection[0].classList.remove('selected');
   }
+  stopSelecting();
 }
 
 function deselectAll() {
