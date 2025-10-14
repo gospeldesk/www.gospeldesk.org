@@ -75,29 +75,35 @@ function docMouseDown(e) {
 }
 
 function docMouseMove(e) {
-  e.preventDefault();
-  e.stopPropagation();
   hasMoved = true;
   var selector = document.getElementsByClassName('selector')[0];
   if (selector) {
     console.log('selecting');
+
     var selectorTop = Number(selector.style.top.replace('px', ''));
-    var selectorLeft = Number(selector.style.left.replace('px', ''));
-    selector.style.height = e.pageY - selectorTop;
-    selector.style.width = e.pageX - selectorLeft;
-    var selectorBox = selector.getBoundingClientRect();
-    var selectorWidth = selectorBox.width;
-    var selectorHeight = selectorBox.height;
+    var selectorHeight = e.pageY - selectorTop;
     var selectorBottom = selectorTop + selectorHeight;
+    selector.style.height = `${selectorHeight}px`;
+
+    var selectorLeft = Number(selector.style.left.replace('px', ''));
+    var selectorWidth = e.pageX - selectorLeft;
     var selectorRight = selectorLeft + selectorWidth;
+    selector.style.width = selectorWidth;
+
     Array.from(document.getElementsByClassName('person')).forEach((person) => {
       var personBox = person.getBoundingClientRect();
       var personTop = window.scrollY + personBox.top;
       var personLeft = window.scrollX + personBox.left;
       var personBottom = personTop + personBox.height;
       var personRight = personLeft + personBox.width;
-      if (personBottom > selectorTop && personTop < selectorBottom && personLeft < selectorRight && personRight > selectorLeft) {
+      if (  personBottom > selectorTop
+         && personTop < selectorBottom
+         && personLeft < selectorRight
+         && personRight > selectorLeft
+        ) {
         person.classList.add('selected');
+        person.dataset.offsetY = e.clientY - personBox.top;
+        person.dataset.offsetX = e.clientX - personBox.left;
       } else {
         person.classList.remove('selected');
       }
