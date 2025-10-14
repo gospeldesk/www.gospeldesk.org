@@ -71,6 +71,8 @@ function docMouseDown(e) {
   selector.style = 'position: absolute; border: 1px solid #CCC; width: 0; height: 0;';
   selector.style.top = e.pageY;
   selector.style.left = e.pageX;
+  selector.dataset.rootY = e.pageY;
+  selector.dataset.rootX = e.pageX;
   document.body.append(selector);
 }
 
@@ -80,15 +82,47 @@ function docMouseMove(e) {
   if (selector) {
     console.log('selecting');
 
-    var selectorTop = Number(selector.style.top.replace('px', ''));
-    var selectorHeight = e.pageY - selectorTop;
-    var selectorBottom = selectorTop + selectorHeight;
-    selector.style.height = `${selectorHeight}px`;
+    let rootY = Number(selector.dataset.rootY);
+    let rootX = Number(selector.dataset.rootX);
 
-    var selectorLeft = Number(selector.style.left.replace('px', ''));
-    var selectorWidth = e.pageX - selectorLeft;
-    var selectorRight = selectorLeft + selectorWidth;
+    let rect = selector.getBoundingClientRect();
+    let selectorTop = rect.top + window.scrollY;
+    let selectorLeft = rect.left + window.scrollX;
+    let selectorHeight = rect.height;
+    let selectorWidth = rect.width;
+    let selectorBottom = selectorTop + selectorHeight;
+    let selectorRight = selectorLeft + selectorWidth;
+
+    if (e.pageY > rootY) {
+      selectorTop = rootY;
+      selectorHeight = e.pageY - rootY;
+    } else if (e.pageY < rootY) {
+      selectorTop = e.pageY;
+      selectorHeight = rootY - e.pageY;
+    } else {
+      selectorTop = rootY;
+      selectorHeight = 0;
+    }
+
+    if (e.pageX > rootX) {
+      selectorLeft = rootX;
+      selectorWidth = e.pageX - rootX;
+    } else if (e.pageX < rootX) {
+      selectorLeft = e.pageX;
+      selectorWidth = rootX - e.pageX;
+    } else {
+      selectorLeft = rootX;
+      selectorWidth = 0;
+    }
+
+    selectorBottom = selectorTop + selectorHeight;
+    selectorRight = selectorLeft + selectorWidth;
+
+    selector.style.top = selectorTop;
+    selector.style.left = selectorLeft;
+    selector.style.height = selectorHeight;
     selector.style.width = selectorWidth;
+
 
     Array.from(document.getElementsByClassName('person')).forEach((person) => {
       var personBox = person.getBoundingClientRect();
