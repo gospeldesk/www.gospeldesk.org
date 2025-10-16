@@ -12,31 +12,6 @@ function getJSON(url, callback) {
   xhr.send();
 }
 
-function degrees_to_radians(deg) {
-  return deg * (Math.PI / 180);
-}
-function radians_to_degrees(rad) {
-  return (rad * 180) / Math.PI;
-}
-function polar_to_cartesian(person, unit) {
-  return {
-    x: person.r * unit * Math.cos(degrees_to_radians(person.t)),
-    y: person.r * unit * Math.sin(degrees_to_radians(person.t)),
-  }
-}
-
-function round(n, places) {
-  var factor = 10**places;
-  return Math.round((n * factor)) / factor;
-}
-
-function cartesian_to_polar(person, unit) {
-  return {
-    r: round(Math.sqrt((person.x * person.x) + (person.y * person.y)) / unit, 2),
-    t: round(radians_to_degrees(Math.atan2(person.y, person.x)), 1)
-  }
-}
-
 
 // DND
 
@@ -242,36 +217,27 @@ function draw(container) {
   var W = document.documentElement.clientWidth;
   var H = document.documentElement.clientHeight;
   var D = Math.min(W, H);
-  var centerX = W / 2;
-  var centerY = H / 2;
-  var unit = W / 12;
-  var halfUnit = unit / 2;
+  var unit = Math.floor(W / 18);
+  var LEFT = Math.floor((W - (unit * 18)) / 2);
   container.innerHTML = '';
 
-  let rowNum = 1;
-  let colNum = 1;
-  let paddedUnit = unit * 1.5;
-  let topOffset = 0;
+  let rowNum = 0;
+  let colNum = 0;
 
   window._data.forEach(function(person) {
-    if (person.r === null) {
+    if (person.x === null) {
       return
     }
-    var coords = polar_to_cartesian(person, unit);
-    topOffset = Math.max(topOffset, coords.y - (halfUnit * person.scale));
+    rowNum = Math.max(rowNum, (person.y * person.scale * unit));
   });
 
   window._data.forEach(function(person) {
     var placed = true;
-    if (person.r === null) {
+    if (person.x === null) {
       placed = false;
-      polar = cartesian_to_polar({
-        x: (colNum * paddedUnit) - centerX,
-        y: topOffset + halfUnit + (rowNum * paddedUnit)
-      }, unit);
-      person.r = polar.r;
-      person.t = polar.t;
-      if (colNum++ > 6) { rowNum++; colNum = 1}
+      person.x = colNum * unit;
+      person.y = rowNum * unit;
+      if (colNum++ == 18) { rowNum++; colNum = 0}
     }
     if (person.bg === '') {
       person.bg = '#AAA';
@@ -291,9 +257,8 @@ function draw(container) {
     a.style.position = 'absolute';
     a.style.background = person.bg;
     a.style.cursor = 'grab';
-    var coords = polar_to_cartesian(person, unit);
-    a.style.top = centerY + coords.y - (halfUnit * person.scale);
-    a.style.left = centerX + coords.x - (halfUnit * person.scale);
+    a.style.top = person.y * unit;
+    a.style.left = LEFT + (person.x * unit);
     a.append(img);
     var label = document.createElement('span');
     label.innerHTML = `${person.slug}`;
