@@ -37,13 +37,15 @@ function toggleSelected(person) {
 
 var isMouseDown = false;
 var hasMoved = false;
+var UNIT = 0;
+var LEFT = 0;
 
 function docMouseDown(e) {
   console.log('doc mouse down');
   deselectAll();
   var selector = document.createElement('div');
   selector.classList.add('selector');
-  selector.style = 'position: absolute; border: 1px solid #CCC; width: 0; height: 0;';
+  selector.style = 'position: absolute; border: 1px solid #777; background: #CCC; opacity: 0.3; width: 0; height: 0;';
   selector.style.top = e.pageY;
   selector.style.left = e.pageX;
   selector.dataset.rootY = e.pageY;
@@ -125,8 +127,8 @@ function docMouseMove(e) {
       cls = 'cut';
     }
     Array.from(document.getElementsByClassName(`person ${cls}`)).forEach((person) => {
-      person.style.top = e.pageY - Number(person.dataset.offsetY);
-      person.style.left = e.pageX - Number(person.dataset.offsetX);
+      person.style.top = UNIT * Math.floor((e.pageY - Number(person.dataset.offsetY)) / UNIT);
+      person.style.left = LEFT + (UNIT * Math.floor((e.pageX - Number(person.dataset.offsetX)) / UNIT));
       person.classList.add('placed');
     });
   }
@@ -217,8 +219,8 @@ function draw(container) {
   var W = document.documentElement.clientWidth;
   var H = document.documentElement.clientHeight;
   var D = Math.min(W, H);
-  var unit = Math.floor(W / 18);
-  var LEFT = Math.floor((W - (unit * 18)) / 2);
+  UNIT = Math.floor(W / 18);
+  LEFT = Math.floor((W - (UNIT * 18)) / 2);
   container.innerHTML = '';
 
   let rowNum = 0;
@@ -228,16 +230,17 @@ function draw(container) {
     if (person.x === null) {
       return
     }
-    rowNum = Math.max(rowNum, (person.y * person.scale * unit));
+    rowNum = Math.max(rowNum, (person.y + person.scale + 1));
   });
 
   window._data.forEach(function(person) {
     var placed = true;
     if (person.x === null) {
       placed = false;
-      person.x = colNum * unit;
-      person.y = rowNum * unit;
-      if (colNum++ == 18) { rowNum++; colNum = 0}
+      person.x = colNum;
+      person.y = rowNum;
+      colNum += 2;
+      if (colNum > 17) { rowNum += 2; colNum = 0}
     }
     if (person.bg === '') {
       person.bg = '#AAA';
@@ -250,19 +253,19 @@ function draw(container) {
 
     var img = document.createElement('img');
     img.src = "person.svg"
-    img.style.height = unit * person.scale;
-    img.style.width = unit * person.scale;
+    img.style.height = UNIT * person.scale;
+    img.style.width = UNIT * person.scale;
 
     a.style.display = 'block';
     a.style.position = 'absolute';
     a.style.background = person.bg;
     a.style.cursor = 'grab';
-    a.style.top = person.y * unit;
-    a.style.left = LEFT + (person.x * unit);
+    a.style.top = person.y * UNIT;
+    a.style.left = LEFT + (person.x * UNIT);
     a.append(img);
     var label = document.createElement('span');
     label.innerHTML = `${person.slug}`;
-    label.style = 'color: white; font: bold 12px/12px monospace; text-transform: uppercase; position: absolute; bottom: 2px; left: 4px';
+    label.style = 'color: white; font: bold 10px/10px monospace; text-transform: uppercase; position: absolute; bottom: 2px; left: 4px';
     a.append(label);
     a.addEventListener('mousedown', itemMouseDown);
     a.addEventListener('mouseup', itemMouseUp);
@@ -275,26 +278,15 @@ function draw(container) {
   button.style.position = 'fixed';
   button.style.top = '10px';
   button.style.left= '10px';
+  button.onmousedown = function(e) {
+    e.stopPropagation(); // otherwise doc.mousedown swallows the click
+  }
   button.onclick = function() {
-    var rect = document.getElementById('jesus').getBoundingClientRect();
-    X = rect.left + ((rect.right - rect.left) / 2);
-    Y = rect.top + ((rect.bottom - rect.top) / 2);
-    function relpos(el) {
-      var rect = el.getBoundingClientRect();
-      x = rect.left + ((rect.right - rect.left) / 2);
-      y = rect.top + ((rect.bottom - rect.top) / 2);
-      return {x: x - X, y: y - Y};
-    }
-
-    let content = 'slug,scale,r,t,bg\n';
+    let content = 'slug,scale,x,y,bg\n';
     Array.from(document.getElementsByClassName('person')).forEach((el) => {
       var person = JSON.parse(el.dataset.blob);
-      var coords = cartesian_to_polar(relpos(el), unit);
-      if (coords.r !== person.r || coords.t !== person.t) {
-        console.log(person, coords);
-      }
       if (el.classList.contains('placed')) {
-        content += `"${person.slug}",${person.scale},${coords.r},${coords.t},${person.bg}\n`;
+        content += `"${person.slug}",${person.scale},${person.x},${person.y},${person.bg}\n`;
       } else {
         content += `"${person.slug}",1,,,\n`;
       }
