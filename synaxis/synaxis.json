@@ -93,16 +93,16 @@
   {
     "slug": "angelic-host",
     "scale": 2,
-    "x": 56,
-    "y": 41,
+    "x": 68,
+    "y": 0,
     "bg": "#AAA"
   },
   {
     "slug": "angels",
     "scale": 2,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 44,
+    "y": 4,
+    "bg": "#AAA"
   },
   {
     "slug": "anna",
@@ -499,9 +499,9 @@
   {
     "slug": "dream-angel",
     "scale": 2,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 17,
+    "y": 10,
+    "bg": "#AAA"
   },
   {
     "slug": "dysmas",
@@ -618,9 +618,9 @@
   {
     "slug": "gabriel",
     "scale": 2,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 11,
+    "y": 5,
+    "bg": "#AAA"
   },
   {
     "slug": "galilee",
@@ -681,9 +681,9 @@
   {
     "slug": "god",
     "scale": 2,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 150,
+    "y": 1,
+    "bg": "#AAA"
   },
   {
     "slug": "golgotha",
@@ -786,9 +786,9 @@
   {
     "slug": "holy-spirit",
     "scale": 2,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 112,
+    "y": 10,
+    "bg": "#AAA"
   },
   {
     "slug": "idumea",
@@ -1654,9 +1654,9 @@
   {
     "slug": "resurrection-angel",
     "scale": 2,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 21,
+    "y": 0,
+    "bg": "#AAA"
   },
   {
     "slug": "rich-people",
@@ -2053,9 +2053,9 @@
   {
     "slug": "tomb-angels",
     "scale": 2,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 29,
+    "y": 12,
+    "bg": "#AAA"
   },
   {
     "slug": "two-blind",

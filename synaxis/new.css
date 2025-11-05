@@ -8,8 +8,11 @@
   a {
     display: none;
   }
-  &:hover a {
-    display: block;
+  &:hover {
+    z-index: 10 ! important;
+    a {
+      display: block;
+    }
   }
 }
 .selected {
