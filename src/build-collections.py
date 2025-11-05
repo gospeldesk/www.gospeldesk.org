@@ -50,6 +50,9 @@ def main():
     i, cur, pericopes = 0, None, []
     Pericope.reset()
 
+    characters = set()
+    characters_direct = set()
+
     for line in open('source.txt'):
         line = line.rstrip()
         if line.startswith('-- '):
@@ -57,6 +60,9 @@ def main():
         if line.startswith('----'):
             if cur:
                 cur.flush()
+                characters |= set(cur.direct)
+                characters |= set(cur.indirect)
+                characters_direct |= set(cur.direct)
             if line.endswith('----'):
                 title = ''
                 subtitle = ''
@@ -76,6 +82,9 @@ def main():
                 print("choked on: \x1b[1;31m", line, "\x1b[0m")
                 raise
     cur.flush()
+    characters |= set(cur.direct)
+    characters |= set(cur.indirect)
+    characters_direct |= set(cur.direct)
 
     N = len(pericopes)
     for i in range(N):
@@ -194,7 +203,8 @@ class Pericope(object):
         self.pks = set()
         self.verse_buffer = []
         self.elements = []
-        self.direct, self.indirect = characters_by_slug[self.slug]
+        self.direct = []
+        self.indirect = []
         self.related = []
         self.prev = ''
         self.next = ''
@@ -208,8 +218,10 @@ class Pericope(object):
             self.flush_paragraph()
         elif line.startswith('>'):
             self.related = line[1:].strip().split()
-        elif line.startswith('|'):
-            pass # stub out to pull characters from source.txt instead of characters.csv
+        elif line.startswith('|| '):
+            self.indirect = line[3:].split()
+        elif line.startswith('|  '):
+            self.direct = line[3:].split()
         elif line.startswith('  '):
             splitter = line.strip()
             splitter = splitter.replace('" ', '” ')
@@ -374,33 +386,6 @@ next(dates_csv) # skip headers
 dates_by_pericope_id = defaultdict(list)
 for pericope_id, date in dates_csv:
     dates_by_pericope_id[int(pericope_id)].append(date)
-
-# Load characters.
-characters_csv = csv.reader(open('characters.csv'))
-characters_headers = next(characters_csv) # skip headers
-characters_by_slug = defaultdict(lambda: [None, None])
-characters = set()
-characters_direct = set()
-j = 0
-for i, row in enumerate(characters_csv):
-    rec = dict(zip(characters_headers, row))
-    if not rec['✔']:
-        continue
-    j += 1
-
-    slug = rec['Slug']
-
-    direct = rec['Direct'].split()
-    characters |= set(direct)
-    characters_direct |= set(direct)
-    characters_by_slug[slug][0] = direct
-
-    indirect = rec['Indirect'].split()
-    characters |= set(indirect)
-    characters_by_slug[slug][1] = indirect
-
-print(f'\x1b[1;33m{j} / 318 = {((j) / 318) * 100:.01f}% done\x1b[0m')
-
 
 # Load verses.
 gospels_csv = csv.reader(open('gospels.csv'))
