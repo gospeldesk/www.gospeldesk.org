@@ -1,3 +1,3 @@
 ---
-name: "East"
+title: "East"
 ---

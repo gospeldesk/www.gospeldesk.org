@@ -1,3 +1,3 @@
 ---
-name: "Mary Magdalene's Demons"
+title: "Mary Magdalene's Demons"
 ---

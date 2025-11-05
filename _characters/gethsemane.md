@@ -1,3 +1,3 @@
 ---
-name: "Gethsemane"
+title: "Gethsemane"
 ---

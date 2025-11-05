@@ -1,3 +1,3 @@
 ---
-name: "Lamech"
+title: "Lamech"
 ---

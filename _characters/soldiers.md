@@ -1,3 +1,3 @@
 ---
-name: "Soldiers"
+title: "Soldiers"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Serug"
+title: "Serug"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "A Pharisee"
+title: "A Pharisee"
 ---

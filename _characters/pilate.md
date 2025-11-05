@@ -1,3 +1,3 @@
 ---
-name: "Pilate"
+title: "Pilate"
 ---

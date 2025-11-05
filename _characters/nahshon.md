@@ -1,3 +1,3 @@
 ---
-name: "Nahshon"
+title: "Nahshon"
 ---

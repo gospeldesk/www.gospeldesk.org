@@ -1,3 +1,3 @@
 ---
-name: "Chief Priests"
+title: "Chief Priests"
 ---

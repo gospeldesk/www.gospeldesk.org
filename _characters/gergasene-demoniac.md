@@ -1,3 +1,3 @@
 ---
-name: "Gergasene Demoniac"
+title: "Gergasene Demoniac"
 ---

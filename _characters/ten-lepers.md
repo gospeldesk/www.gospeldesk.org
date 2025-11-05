@@ -1,3 +1,3 @@
 ---
-name: "Ten Lepers"
+title: "Ten Lepers"
 ---

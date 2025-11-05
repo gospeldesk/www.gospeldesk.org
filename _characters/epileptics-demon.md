@@ -1,3 +1,3 @@
 ---
-name: "Epileptic's Demon"
+title: "Epileptic's Demon"
 ---

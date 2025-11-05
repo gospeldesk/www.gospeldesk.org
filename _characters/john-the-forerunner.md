@@ -1,3 +1,3 @@
 ---
-name: "John the Forerunner"
+title: "John the Forerunner"
 ---

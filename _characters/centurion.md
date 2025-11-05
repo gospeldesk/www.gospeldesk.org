@@ -1,3 +1,3 @@
 ---
-name: "Centurion"
+title: "Centurion"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Peleg"
+title: "Peleg"
 ---

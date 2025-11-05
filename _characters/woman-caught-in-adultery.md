@@ -1,3 +1,3 @@
 ---
-name: "Woman Caught in Adultery"
+title: "Woman Caught in Adultery"
 ---

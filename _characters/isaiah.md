@@ -1,3 +1,3 @@
 ---
-name: "Isaiah"
+title: "Isaiah"
 ---

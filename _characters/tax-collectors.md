@@ -1,3 +1,3 @@
 ---
-name: "Tax Collectors"
+title: "Tax Collectors"
 ---

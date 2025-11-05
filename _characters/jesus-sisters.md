@@ -1,3 +1,3 @@
 ---
-name: "Jesus' Sisters"
+title: "Jesus' Sisters"
 ---

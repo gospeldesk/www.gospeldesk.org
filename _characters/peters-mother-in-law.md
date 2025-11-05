@@ -1,3 +1,3 @@
 ---
-name: "Peter's Mother in Law"
+title: "Peter's Mother in Law"
 ---

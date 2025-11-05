@@ -1,3 +1,3 @@
 ---
-name: "Methuselah"
+title: "Methuselah"
 ---

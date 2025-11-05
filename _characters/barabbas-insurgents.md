@@ -1,3 +1,3 @@
 ---
-name: "Barabbas' Insurgents"
+title: "Barabbas' Insurgents"
 ---

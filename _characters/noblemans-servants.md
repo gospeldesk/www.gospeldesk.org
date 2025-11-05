@@ -1,3 +1,3 @@
 ---
-name: "Nobleman's Servants"
+title: "Nobleman's Servants"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "High Priest's Household"
+title: "High Priest's Household"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Mary of Clopas"
+title: "Mary of Clopas"
 ---

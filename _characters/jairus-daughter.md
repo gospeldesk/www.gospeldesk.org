@@ -1,3 +1,3 @@
 ---
-name: "Jairus' Daughter"
+title: "Jairus' Daughter"
 ---

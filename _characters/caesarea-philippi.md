@@ -1,3 +1,3 @@
 ---
-name: "Caesarea Philippi"
+title: "Caesarea Philippi"
 ---

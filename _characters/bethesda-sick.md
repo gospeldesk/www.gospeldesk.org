@@ -1,3 +1,3 @@
 ---
-name: "Bethesda Sick"
+title: "Bethesda Sick"
 ---

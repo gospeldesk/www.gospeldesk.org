@@ -1,3 +1,3 @@
 ---
-name: "Samaritans"
+title: "Samaritans"
 ---

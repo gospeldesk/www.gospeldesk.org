@@ -1,3 +1,3 @@
 ---
-name: "Passers By"
+title: "Passers By"
 ---

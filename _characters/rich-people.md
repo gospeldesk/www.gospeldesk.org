@@ -1,3 +1,3 @@
 ---
-name: "Rich People"
+title: "Rich People"
 ---

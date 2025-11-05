@@ -1,3 +1,3 @@
 ---
-name: "Cana Wedding Servants"
+title: "Cana Wedding Servants"
 ---

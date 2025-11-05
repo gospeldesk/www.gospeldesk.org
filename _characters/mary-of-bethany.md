@@ -1,3 +1,3 @@
 ---
-name: "Mary of Bethany"
+title: "Mary of Bethany"
 ---

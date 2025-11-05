@@ -1,3 +1,3 @@
 ---
-name: "Jesus' Brothers"
+title: "Jesus' Brothers"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Cana Wedding Bridegroom"
+title: "Cana Wedding Bridegroom"
 ---

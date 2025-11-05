@@ -1,3 +1,3 @@
 ---
-name: "Longinus"
+title: "Longinus"
 ---

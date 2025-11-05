@@ -1,3 +1,3 @@
 ---
-name: "Man Born Blind"
+title: "Man Born Blind"
 ---

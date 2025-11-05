@@ -1,3 +1,3 @@
 ---
-name: "Berenice's Demon"
+title: "Berenice's Demon"
 ---

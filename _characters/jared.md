@@ -1,3 +1,3 @@
 ---
-name: "Jared"
+title: "Jared"
 ---

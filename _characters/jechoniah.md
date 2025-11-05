@@ -1,3 +1,3 @@
 ---
-name: "Jechoniah"
+title: "Jechoniah"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Man with Dropsy"
+title: "Man with Dropsy"
 ---

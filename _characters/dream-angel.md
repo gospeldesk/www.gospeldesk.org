@@ -1,3 +1,3 @@
 ---
-name: "Dream Angel"
+title: "Dream Angel"
 ---

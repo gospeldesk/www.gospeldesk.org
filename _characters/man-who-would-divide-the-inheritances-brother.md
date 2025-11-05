@@ -1,3 +1,3 @@
 ---
-name: "Man Who Would Divide the Inheritance's Brother"
+title: "Man Who Would Divide the Inheritance's Brother"
 ---

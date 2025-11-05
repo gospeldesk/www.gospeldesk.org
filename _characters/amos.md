@@ -1,3 +1,3 @@
 ---
-name: "Amos"
+title: "Amos"
 ---

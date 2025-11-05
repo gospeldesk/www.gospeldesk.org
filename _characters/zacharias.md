@@ -1,3 +1,3 @@
 ---
-name: "Zacharias"
+title: "Zacharias"
 ---

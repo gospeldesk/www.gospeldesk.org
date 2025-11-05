@@ -1,3 +1,3 @@
 ---
-name: "Jerusalem"
+title: "Jerusalem"
 ---

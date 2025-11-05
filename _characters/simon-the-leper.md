@@ -1,3 +1,3 @@
 ---
-name: "Simon the Leper"
+title: "Simon the Leper"
 ---

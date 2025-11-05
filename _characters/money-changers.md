@@ -1,3 +1,3 @@
 ---
-name: "Money Changers"
+title: "Money Changers"
 ---

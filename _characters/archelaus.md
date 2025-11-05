@@ -1,3 +1,3 @@
 ---
-name: "Archelaus"
+title: "Archelaus"
 ---

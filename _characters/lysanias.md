@@ -1,3 +1,3 @@
 ---
-name: "Lysanias"
+title: "Lysanias"
 ---

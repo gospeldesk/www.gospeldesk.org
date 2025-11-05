@@ -1,3 +1,3 @@
 ---
-name: "Acquaintances"
+title: "Acquaintances"
 ---

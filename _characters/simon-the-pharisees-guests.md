@@ -1,3 +1,3 @@
 ---
-name: "Simon the Pharisee's Guests"
+title: "Simon the Pharisee's Guests"
 ---

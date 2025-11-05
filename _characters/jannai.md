@@ -1,3 +1,3 @@
 ---
-name: "Jannai"
+title: "Jannai"
 ---

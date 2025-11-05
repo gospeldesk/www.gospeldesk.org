@@ -1,3 +1,3 @@
 ---
-name: "Nazareth"
+title: "Nazareth"
 ---

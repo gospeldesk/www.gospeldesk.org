@@ -1,3 +1,3 @@
 ---
-name: "Veronica's Physicians"
+title: "Veronica's Physicians"
 ---

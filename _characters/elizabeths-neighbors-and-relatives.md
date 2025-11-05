@@ -1,3 +1,3 @@
 ---
-name: "Elizabeth's Neighbors and Relatives"
+title: "Elizabeth's Neighbors and Relatives"
 ---

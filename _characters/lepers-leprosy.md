@@ -1,3 +1,3 @@
 ---
-name: "Leper's Leprosy"
+title: "Leper's Leprosy"
 ---

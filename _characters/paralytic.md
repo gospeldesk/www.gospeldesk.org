@@ -1,3 +1,3 @@
 ---
-name: "Paralytic"
+title: "Paralytic"
 ---

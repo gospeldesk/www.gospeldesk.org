@@ -1,3 +1,3 @@
 ---
-name: "Idumea"
+title: "Idumea"
 ---

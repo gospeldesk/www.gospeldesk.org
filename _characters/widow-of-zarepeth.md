@@ -1,3 +1,3 @@
 ---
-name: "Widow of Zarepeth"
+title: "Widow of Zarepeth"
 ---

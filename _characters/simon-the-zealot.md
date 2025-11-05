@@ -1,3 +1,3 @@
 ---
-name: "Simon the Zealot"
+title: "Simon the Zealot"
 ---

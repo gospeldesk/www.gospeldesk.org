@@ -1,3 +1,3 @@
 ---
-name: "Judas, Brother of the Lord"
+title: "Judas, Brother of the Lord"
 ---

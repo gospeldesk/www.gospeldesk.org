@@ -1,3 +1,3 @@
 ---
-name: "Zebulun"
+title: "Zebulun"
 ---

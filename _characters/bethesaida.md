@@ -1,3 +1,3 @@
 ---
-name: "Bethesaida"
+title: "Bethesaida"
 ---

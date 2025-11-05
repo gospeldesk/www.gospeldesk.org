@@ -1,3 +1,3 @@
 ---
-name: "One Who Asked Whether Few Are Saved"
+title: "One Who Asked Whether Few Are Saved"
 ---

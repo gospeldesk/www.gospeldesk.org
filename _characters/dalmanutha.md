@@ -1,3 +1,3 @@
 ---
-name: "Dalmanutha"
+title: "Dalmanutha"
 ---

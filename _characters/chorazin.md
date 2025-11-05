@@ -1,3 +1,3 @@
 ---
-name: "Chorazin"
+title: "Chorazin"
 ---

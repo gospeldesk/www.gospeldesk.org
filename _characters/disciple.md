@@ -1,3 +1,3 @@
 ---
-name: "Disciple"
+title: "Disciple"
 ---

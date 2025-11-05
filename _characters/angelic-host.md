@@ -1,3 +1,3 @@
 ---
-name: "Angelic Host"
+title: "Angelic Host"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "King Herod"
+title: "King Herod"
 ---

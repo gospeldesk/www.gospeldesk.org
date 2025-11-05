@@ -1,3 +1,3 @@
 ---
-name: "Pharisees' Disciples"
+title: "Pharisees' Disciples"
 ---

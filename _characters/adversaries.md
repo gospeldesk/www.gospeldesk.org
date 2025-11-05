@@ -1,3 +1,3 @@
 ---
-name: "Adversaries"
+title: "Adversaries"
 ---

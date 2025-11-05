@@ -1,3 +1,3 @@
 ---
-name: "Pilot"
+title: "Pilot"
 ---

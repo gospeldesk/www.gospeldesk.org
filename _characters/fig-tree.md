@@ -1,3 +1,3 @@
 ---
-name: "Fig Tree"
+title: "Fig Tree"
 ---

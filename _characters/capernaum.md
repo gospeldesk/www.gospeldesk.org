@@ -1,3 +1,3 @@
 ---
-name: "Capernaum"
+title: "Capernaum"
 ---

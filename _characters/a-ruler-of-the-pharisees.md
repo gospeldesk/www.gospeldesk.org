@@ -1,3 +1,3 @@
 ---
-name: "A Ruler of the Pharisees"
+title: "A Ruler of the Pharisees"
 ---

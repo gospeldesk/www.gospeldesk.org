@@ -1,3 +1,3 @@
 ---
-name: "Priests"
+title: "Priests"
 ---

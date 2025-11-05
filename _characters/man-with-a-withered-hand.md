@@ -1,3 +1,3 @@
 ---
-name: "Man with a Withered Hand"
+title: "Man with a Withered Hand"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Twelve Tribes"
+title: "Twelve Tribes"
 ---

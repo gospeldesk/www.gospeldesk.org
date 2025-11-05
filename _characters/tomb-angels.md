@@ -1,3 +1,3 @@
 ---
-name: "Tomb Angels"
+title: "Tomb Angels"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Two Blind"
+title: "Two Blind"
 ---

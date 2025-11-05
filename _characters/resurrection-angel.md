@@ -1,3 +1,3 @@
 ---
-name: "Resurrection Angel"
+title: "Resurrection Angel"
 ---

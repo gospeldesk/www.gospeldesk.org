@@ -1,3 +1,3 @@
 ---
-name: "Captains of the Temple"
+title: "Captains of the Temple"
 ---

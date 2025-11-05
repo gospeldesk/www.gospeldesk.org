@@ -1,3 +1,3 @@
 ---
-name: "Malchus"
+title: "Malchus"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Siloam"
+title: "Siloam"
 ---

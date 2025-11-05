@@ -1,3 +1,3 @@
 ---
-name: "Decapolis"
+title: "Decapolis"
 ---

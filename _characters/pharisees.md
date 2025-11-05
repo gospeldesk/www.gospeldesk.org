@@ -1,3 +1,3 @@
 ---
-name: "Pharisees"
+title: "Pharisees"
 ---

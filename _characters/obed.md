@@ -1,3 +1,3 @@
 ---
-name: "Obed"
+title: "Obed"
 ---

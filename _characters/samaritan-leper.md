@@ -1,3 +1,3 @@
 ---
-name: "Samaritan Leper"
+title: "Samaritan Leper"
 ---

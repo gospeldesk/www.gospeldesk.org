@@ -1,3 +1,3 @@
 ---
-name: "Queen of the South"
+title: "Queen of the South"
 ---

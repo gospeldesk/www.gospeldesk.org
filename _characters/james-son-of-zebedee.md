@@ -1,3 +1,3 @@
 ---
-name: "James, Son of Zebedee"
+title: "James, Son of Zebedee"
 ---

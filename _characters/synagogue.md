@@ -1,3 +1,3 @@
 ---
-name: "Synagogue"
+title: "Synagogue"
 ---

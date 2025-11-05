@@ -1,3 +1,3 @@
 ---
-name: "Thaddaeus"
+title: "Thaddaeus"
 ---

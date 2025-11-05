@@ -1,3 +1,3 @@
 ---
-name: "Elders"
+title: "Elders"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Lazarus Mourners"
+title: "Lazarus Mourners"
 ---

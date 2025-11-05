@@ -1,3 +1,3 @@
 ---
-name: "Gestas"
+title: "Gestas"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Wise Scribe"
+title: "Wise Scribe"
 ---

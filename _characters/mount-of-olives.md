@@ -1,3 +1,3 @@
 ---
-name: "Mount of Olives"
+title: "Mount of Olives"
 ---

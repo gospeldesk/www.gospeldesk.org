@@ -1,3 +1,3 @@
 ---
-name: "Simon the Pharisee"
+title: "Simon the Pharisee"
 ---

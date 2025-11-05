@@ -1,3 +1,3 @@
 ---
-name: "Centurion's Servant"
+title: "Centurion's Servant"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Daughers of Jerusalem"
+title: "Daughers of Jerusalem"
 ---

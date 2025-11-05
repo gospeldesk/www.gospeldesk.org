@@ -1,3 +1,3 @@
 ---
-name: "Abomination of Desolation"
+title: "Abomination of Desolation"
 ---

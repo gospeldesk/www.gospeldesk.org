@@ -1,3 +1,3 @@
 ---
-name: "Donkey's Colt"
+title: "Donkey's Colt"
 ---

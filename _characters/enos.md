@@ -1,3 +1,3 @@
 ---
-name: "Enos"
+title: "Enos"
 ---

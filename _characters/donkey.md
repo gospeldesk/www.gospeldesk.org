@@ -1,3 +1,3 @@
 ---
-name: "Donkey"
+title: "Donkey"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Sadduccees"
+title: "Sadduccees"
 ---

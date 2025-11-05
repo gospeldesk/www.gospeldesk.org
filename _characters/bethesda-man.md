@@ -1,3 +1,3 @@
 ---
-name: "Bethesda Man"
+title: "Bethesda Man"
 ---

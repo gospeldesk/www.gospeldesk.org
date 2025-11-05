@@ -1,3 +1,3 @@
 ---
-name: "Certain Self Righteous People"
+title: "Certain Self Righteous People"
 ---

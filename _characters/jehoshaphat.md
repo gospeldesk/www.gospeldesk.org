@@ -1,3 +1,3 @@
 ---
-name: "Jehoshaphat"
+title: "Jehoshaphat"
 ---

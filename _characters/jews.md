@@ -1,3 +1,3 @@
 ---
-name: "Jews"
+title: "Jews"
 ---

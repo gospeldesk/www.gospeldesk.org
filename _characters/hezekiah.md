@@ -1,3 +1,3 @@
 ---
-name: "Hezekiah"
+title: "Hezekiah"
 ---

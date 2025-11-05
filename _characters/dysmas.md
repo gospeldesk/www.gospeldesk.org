@@ -1,3 +1,3 @@
 ---
-name: "Dysmas"
+title: "Dysmas"
 ---

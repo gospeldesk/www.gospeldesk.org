@@ -1,3 +1,3 @@
 ---
-name: "Officer's Cohort"
+title: "Officer's Cohort"
 ---

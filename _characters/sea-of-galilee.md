@@ -1,3 +1,3 @@
 ---
-name: "Sea of Galilee"
+title: "Sea of Galilee"
 ---

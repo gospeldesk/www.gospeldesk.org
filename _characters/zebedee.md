@@ -1,3 +1,3 @@
 ---
-name: "Zebedee"
+title: "Zebedee"
 ---

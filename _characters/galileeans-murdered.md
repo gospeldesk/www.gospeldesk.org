@@ -1,3 +1,3 @@
 ---
-name: "Galileeans Murdered"
+title: "Galileeans Murdered"
 ---

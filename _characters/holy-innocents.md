@@ -1,3 +1,3 @@
 ---
-name: "Holy Innocents"
+title: "Holy Innocents"
 ---

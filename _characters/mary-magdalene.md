@@ -1,3 +1,3 @@
 ---
-name: "Mary Magdalene"
+title: "Mary Magdalene"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "King Herod's Guests"
+title: "King Herod's Guests"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Leper"
+title: "Leper"
 ---

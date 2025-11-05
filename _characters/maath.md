@@ -1,3 +1,3 @@
 ---
-name: "Maath"
+title: "Maath"
 ---

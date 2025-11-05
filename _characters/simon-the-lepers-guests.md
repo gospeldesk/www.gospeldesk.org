@@ -1,3 +1,3 @@
 ---
-name: "Simon the Leper's Guests"
+title: "Simon the Leper's Guests"
 ---

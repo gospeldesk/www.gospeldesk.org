@@ -1,3 +1,3 @@
 ---
-name: "Gentiles"
+title: "Gentiles"
 ---

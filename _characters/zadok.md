@@ -1,3 +1,3 @@
 ---
-name: "Zadok"
+title: "Zadok"
 ---

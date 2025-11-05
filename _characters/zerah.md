@@ -1,3 +1,3 @@
 ---
-name: "Zerah"
+title: "Zerah"
 ---

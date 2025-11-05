@@ -1,3 +1,3 @@
 ---
-name: "Syria"
+title: "Syria"
 ---

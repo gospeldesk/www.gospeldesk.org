@@ -1,3 +1,3 @@
 ---
-name: "Sychar"
+title: "Sychar"
 ---

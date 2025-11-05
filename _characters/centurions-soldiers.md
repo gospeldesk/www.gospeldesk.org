@@ -1,3 +1,3 @@
 ---
-name: "Centurion's Soldiers"
+title: "Centurion's Soldiers"
 ---

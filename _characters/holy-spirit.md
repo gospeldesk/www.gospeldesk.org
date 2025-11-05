@@ -1,3 +1,3 @@
 ---
-name: "Holy Spirit"
+title: "Holy Spirit"
 ---

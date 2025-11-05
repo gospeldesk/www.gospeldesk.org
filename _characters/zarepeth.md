@@ -1,3 +1,3 @@
 ---
-name: "Zarepeth"
+title: "Zarepeth"
 ---

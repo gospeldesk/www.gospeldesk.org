@@ -1,3 +1,3 @@
 ---
-name: "Bethesda Angel"
+title: "Bethesda Angel"
 ---

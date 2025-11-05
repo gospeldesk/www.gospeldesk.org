@@ -1,3 +1,3 @@
 ---
-name: "Centurion's Friends"
+title: "Centurion's Friends"
 ---

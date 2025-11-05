@@ -1,3 +1,3 @@
 ---
-name: "Sinful Woman Forgiven"
+title: "Sinful Woman Forgiven"
 ---

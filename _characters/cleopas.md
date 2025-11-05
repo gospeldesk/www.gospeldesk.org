@@ -1,3 +1,3 @@
 ---
-name: "Cleopas"
+title: "Cleopas"
 ---

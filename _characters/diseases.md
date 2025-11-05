@@ -1,3 +1,3 @@
 ---
-name: "Diseases"
+title: "Diseases"
 ---

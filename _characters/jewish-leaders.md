@@ -1,3 +1,3 @@
 ---
-name: "Jewish Leaders"
+title: "Jewish Leaders"
 ---

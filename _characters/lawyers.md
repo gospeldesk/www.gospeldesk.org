@@ -1,3 +1,3 @@
 ---
-name: "Lawyers"
+title: "Lawyers"
 ---

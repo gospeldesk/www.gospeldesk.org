@@ -1,3 +1,3 @@
 ---
-name: "Council"
+title: "Council"
 ---

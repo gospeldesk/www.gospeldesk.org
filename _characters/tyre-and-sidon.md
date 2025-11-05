@@ -1,3 +1,3 @@
 ---
-name: "Tyre and Sidon"
+title: "Tyre and Sidon"
 ---

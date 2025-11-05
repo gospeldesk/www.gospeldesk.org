@@ -1,3 +1,3 @@
 ---
-name: "Master of the House"
+title: "Master of the House"
 ---

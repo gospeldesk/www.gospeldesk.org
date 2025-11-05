@@ -1,3 +1,3 @@
 ---
-name: "Naaman the Syrian"
+title: "Naaman the Syrian"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Man Who Would Bury His Father"
+title: "Man Who Would Bury His Father"
 ---

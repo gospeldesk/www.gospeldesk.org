@@ -1,3 +1,3 @@
 ---
-name: "Herod's Soldiers"
+title: "Herod's Soldiers"
 ---

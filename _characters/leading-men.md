@@ -1,3 +1,3 @@
 ---
-name: "Leading Men"
+title: "Leading Men"
 ---

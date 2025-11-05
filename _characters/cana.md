@@ -1,3 +1,3 @@
 ---
-name: "Cana"
+title: "Cana"
 ---

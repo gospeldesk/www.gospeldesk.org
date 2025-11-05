@@ -1,3 +1,3 @@
 ---
-name: "Mattathias"
+title: "Mattathias"
 ---

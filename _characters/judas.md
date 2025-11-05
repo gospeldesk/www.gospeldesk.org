@@ -1,3 +1,3 @@
 ---
-name: "Judas"
+title: "Judas"
 ---

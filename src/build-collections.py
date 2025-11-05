@@ -139,7 +139,7 @@ def main():
         name = name.replace(f'Mother In Law', f'Mother-in-law')
         open(filepath, 'w+').write(f'''\
 ---
-name: "{name}"
+title: "{name}"
 ---
 ''')
     known = {fn.split('.')[0] for fn in os.listdir('../_characters')}

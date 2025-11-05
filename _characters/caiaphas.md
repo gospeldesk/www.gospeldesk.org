@@ -1,3 +1,3 @@
 ---
-name: "Caiaphas"
+title: "Caiaphas"
 ---

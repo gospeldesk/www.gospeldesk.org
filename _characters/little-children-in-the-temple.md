@@ -1,3 +1,3 @@
 ---
-name: "Little Children in the Temple"
+title: "Little Children in the Temple"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Arphaxad"
+title: "Arphaxad"
 ---

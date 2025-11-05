@@ -1,3 +1,3 @@
 ---
-name: "Simon, Brother of the Lord"
+title: "Simon, Brother of the Lord"
 ---

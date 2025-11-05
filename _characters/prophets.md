@@ -1,3 +1,3 @@
 ---
-name: "Prophets"
+title: "Prophets"
 ---

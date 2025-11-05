@@ -1,3 +1,3 @@
 ---
-name: "Man Carrying Water"
+title: "Man Carrying Water"
 ---

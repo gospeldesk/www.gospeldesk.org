@@ -1,3 +1,3 @@
 ---
-name: "Ignatius"
+title: "Ignatius"
 ---

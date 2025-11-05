@@ -1,3 +1,3 @@
 ---
-name: "Villages"
+title: "Villages"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Manasseh"
+title: "Manasseh"
 ---

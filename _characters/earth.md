@@ -1,3 +1,3 @@
 ---
-name: "Earth"
+title: "Earth"
 ---

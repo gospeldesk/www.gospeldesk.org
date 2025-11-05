@@ -1,3 +1,3 @@
 ---
-name: "High Priest's Maid"
+title: "High Priest's Maid"
 ---

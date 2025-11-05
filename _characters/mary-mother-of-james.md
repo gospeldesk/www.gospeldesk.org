@@ -1,3 +1,3 @@
 ---
-name: "Mary Mother of James"
+title: "Mary Mother of James"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Simon Iscariot"
+title: "Simon Iscariot"
 ---

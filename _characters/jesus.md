@@ -1,3 +1,3 @@
 ---
-name: "Jesus"
+title: "Jesus"
 ---

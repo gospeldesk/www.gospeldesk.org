@@ -1,3 +1,3 @@
 ---
-name: "Certain Greeks"
+title: "Certain Greeks"
 ---

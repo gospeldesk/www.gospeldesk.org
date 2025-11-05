@@ -1,3 +1,3 @@
 ---
-name: "Addi"
+title: "Addi"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Trachonitis"
+title: "Trachonitis"
 ---

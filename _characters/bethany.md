@@ -1,3 +1,3 @@
 ---
-name: "Bethany"
+title: "Bethany"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Herod the Tetrarch"
+title: "Herod the Tetrarch"
 ---

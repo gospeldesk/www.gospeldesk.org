@@ -1,3 +1,3 @@
 ---
-name: "Widow of Nain's Son"
+title: "Widow of Nain's Son"
 ---

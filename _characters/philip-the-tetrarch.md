@@ -1,3 +1,3 @@
 ---
-name: "Philip the Tetrarch"
+title: "Philip the Tetrarch"
 ---

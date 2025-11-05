@@ -1,3 +1,3 @@
 ---
-name: "Semein"
+title: "Semein"
 ---

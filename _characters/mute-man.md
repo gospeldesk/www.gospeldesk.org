@@ -1,3 +1,3 @@
 ---
-name: "Mute Man"
+title: "Mute Man"
 ---

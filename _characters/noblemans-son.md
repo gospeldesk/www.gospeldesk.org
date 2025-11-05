@@ -1,3 +1,3 @@
 ---
-name: "Nobleman's Son"
+title: "Nobleman's Son"
 ---

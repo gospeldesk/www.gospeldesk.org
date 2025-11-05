@@ -1,3 +1,3 @@
 ---
-name: "Sea"
+title: "Sea"
 ---

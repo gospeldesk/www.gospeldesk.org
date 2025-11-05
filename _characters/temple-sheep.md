@@ -1,3 +1,3 @@
 ---
-name: "Temple Sheep"
+title: "Temple Sheep"
 ---

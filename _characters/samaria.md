@@ -1,3 +1,3 @@
 ---
-name: "Samaria"
+title: "Samaria"
 ---

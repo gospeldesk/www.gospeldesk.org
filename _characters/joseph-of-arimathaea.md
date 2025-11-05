@@ -1,3 +1,3 @@
 ---
-name: "Joseph of Arimathaea"
+title: "Joseph of Arimathaea"
 ---

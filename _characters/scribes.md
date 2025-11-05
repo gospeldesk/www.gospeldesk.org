@@ -1,3 +1,3 @@
 ---
-name: "Scribes"
+title: "Scribes"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Jairus' Servant"
+title: "Jairus' Servant"
 ---

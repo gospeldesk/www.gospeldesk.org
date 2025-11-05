@@ -1,3 +1,3 @@
 ---
-name: "The Seventy"
+title: "The Seventy"
 ---

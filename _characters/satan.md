@@ -1,3 +1,3 @@
 ---
-name: "Satan"
+title: "Satan"
 ---

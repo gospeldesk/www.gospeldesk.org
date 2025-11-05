@@ -1,3 +1,3 @@
 ---
-name: "Nahor"
+title: "Nahor"
 ---

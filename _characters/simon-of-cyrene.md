@@ -1,3 +1,3 @@
 ---
-name: "Simon of Cyrene"
+title: "Simon of Cyrene"
 ---

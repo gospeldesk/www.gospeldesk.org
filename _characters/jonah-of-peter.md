@@ -1,3 +1,3 @@
 ---
-name: "Jonah of Peter"
+title: "Jonah of Peter"
 ---

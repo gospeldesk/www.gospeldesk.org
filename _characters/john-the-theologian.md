@@ -1,3 +1,3 @@
 ---
-name: "John the Theologian"
+title: "John the Theologian"
 ---

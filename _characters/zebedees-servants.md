@@ -1,3 +1,3 @@
 ---
-name: "Zebedee's Servants"
+title: "Zebedee's Servants"
 ---

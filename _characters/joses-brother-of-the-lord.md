@@ -1,3 +1,3 @@
 ---
-name: "Joses, Brother of the Lord"
+title: "Joses, Brother of the Lord"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Quirinius"
+title: "Quirinius"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Multitude"
+title: "Multitude"
 ---

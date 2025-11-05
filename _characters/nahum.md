@@ -1,3 +1,3 @@
 ---
-name: "Nahum"
+title: "Nahum"
 ---

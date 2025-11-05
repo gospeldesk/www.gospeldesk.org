@@ -1,3 +1,3 @@
 ---
-name: "Bartimaeus"
+title: "Bartimaeus"
 ---

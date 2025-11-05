@@ -1,3 +1,3 @@
 ---
-name: "Temple Money Changers"
+title: "Temple Money Changers"
 ---

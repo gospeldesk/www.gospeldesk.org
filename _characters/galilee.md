@@ -1,3 +1,3 @@
 ---
-name: "Galilee"
+title: "Galilee"
 ---

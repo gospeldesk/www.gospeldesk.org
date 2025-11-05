@@ -1,3 +1,3 @@
 ---
-name: "Arimathaea"
+title: "Arimathaea"
 ---

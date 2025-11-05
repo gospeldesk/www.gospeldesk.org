@@ -1,3 +1,3 @@
 ---
-name: "Alphaeus"
+title: "Alphaeus"
 ---

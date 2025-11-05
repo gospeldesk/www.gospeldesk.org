@@ -1,3 +1,3 @@
 ---
-name: "James, Son of Alphaeus"
+title: "James, Son of Alphaeus"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Barabbas"
+title: "Barabbas"
 ---

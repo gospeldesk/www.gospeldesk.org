@@ -1,3 +1,3 @@
 ---
-name: "Rulers"
+title: "Rulers"
 ---

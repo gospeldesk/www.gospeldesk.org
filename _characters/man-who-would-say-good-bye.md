@@ -1,3 +1,3 @@
 ---
-name: "Man Who Would Say Good Bye"
+title: "Man Who Would Say Good Bye"
 ---

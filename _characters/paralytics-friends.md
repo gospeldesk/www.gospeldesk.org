@@ -1,3 +1,3 @@
 ---
-name: "Paralytic's Friends"
+title: "Paralytic's Friends"
 ---

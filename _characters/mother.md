@@ -1,3 +1,3 @@
 ---
-name: "Mother"
+title: "Mother"
 ---

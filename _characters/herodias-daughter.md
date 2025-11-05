@@ -1,3 +1,3 @@
 ---
-name: "Herodias' Daughter"
+title: "Herodias' Daughter"
 ---

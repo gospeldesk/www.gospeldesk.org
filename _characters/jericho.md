@@ -1,3 +1,3 @@
 ---
-name: "Jericho"
+title: "Jericho"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Pontius Pilate"
+title: "Pontius Pilate"
 ---

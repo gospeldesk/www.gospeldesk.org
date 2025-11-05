@@ -1,3 +1,3 @@
 ---
-name: "The Prophet"
+title: "The Prophet"
 ---

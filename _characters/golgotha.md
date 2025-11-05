@@ -1,3 +1,3 @@
 ---
-name: "Golgotha"
+title: "Golgotha"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Some of the Pharisees"
+title: "Some of the Pharisees"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Woman Lifting Her Voice"
+title: "Woman Lifting Her Voice"
 ---

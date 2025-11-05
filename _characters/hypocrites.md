@@ -1,3 +1,3 @@
 ---
-name: "Hypocrites"
+title: "Hypocrites"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Rich Young Ruler"
+title: "Rich Young Ruler"
 ---

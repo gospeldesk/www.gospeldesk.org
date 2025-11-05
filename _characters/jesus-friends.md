@@ -1,3 +1,3 @@
 ---
-name: "Jesus' Friends"
+title: "Jesus' Friends"
 ---

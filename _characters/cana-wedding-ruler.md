@@ -1,3 +1,3 @@
 ---
-name: "Cana Wedding Ruler"
+title: "Cana Wedding Ruler"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Luke"
+title: "Luke"
 ---

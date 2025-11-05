@@ -1,3 +1,3 @@
 ---
-name: "Brothers of the Lord"
+title: "Brothers of the Lord"
 ---

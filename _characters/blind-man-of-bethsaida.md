@@ -1,3 +1,3 @@
 ---
-name: "Blind Man of Bethsaida"
+title: "Blind Man of Bethsaida"
 ---

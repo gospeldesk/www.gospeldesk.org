@@ -1,3 +1,3 @@
 ---
-name: "Man Born Blind's Parents"
+title: "Man Born Blind's Parents"
 ---

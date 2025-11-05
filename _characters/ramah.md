@@ -1,3 +1,3 @@
 ---
-name: "Ramah"
+title: "Ramah"
 ---

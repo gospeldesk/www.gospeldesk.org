@@ -1,3 +1,3 @@
 ---
-name: "Blind and Mute Man's Demon"
+title: "Blind and Mute Man's Demon"
 ---

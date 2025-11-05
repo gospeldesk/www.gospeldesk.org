@@ -1,3 +1,3 @@
 ---
-name: "Eighteen of Siloam"
+title: "Eighteen of Siloam"
 ---

@@ -1,3 +1,3 @@
 ---
-name: "Sadducees"
+title: "Sadducees"
 ---

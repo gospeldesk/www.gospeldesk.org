@@ -1,3 +1,3 @@
 ---
-name: "Jairus' Household"
+title: "Jairus' Household"
 ---

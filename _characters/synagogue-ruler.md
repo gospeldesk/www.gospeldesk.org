@@ -1,3 +1,3 @@
 ---
-name: "Synagogue Ruler"
+title: "Synagogue Ruler"
 ---

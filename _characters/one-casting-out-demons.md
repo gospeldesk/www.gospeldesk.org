@@ -1,3 +1,3 @@
 ---
-name: "One Casting Out Demons"
+title: "One Casting Out Demons"
 ---

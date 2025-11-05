@@ -1,3 +1,3 @@
 ---
-name: "Cana Wedding Guests"
+title: "Cana Wedding Guests"
 ---

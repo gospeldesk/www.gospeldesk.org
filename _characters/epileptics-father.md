@@ -1,3 +1,3 @@
 ---
-name: "Epileptic's Father"
+title: "Epileptic's Father"
 ---
