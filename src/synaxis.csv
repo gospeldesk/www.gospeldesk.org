@@ -13,7 +13,7 @@ slug,scale,x,y,bg
 "amon",1,,,
 "andrew",1,,,
 "angelic-host",2,68,0,#AAA
-"angels",2,44,4,#AAA
+"angels",2,45,4,#AAA
 "anna",1,,,
 "asa",1,,,
 "azor",1,,,
@@ -70,7 +70,7 @@ slug,scale,x,y,bg
 "donkey's",1,,,
 "donkey's-colt",1,,,
 "donkey's-owner",1,,,
-"dream-angel",2,17,10,#AAA
+"dream-angel",2,20,12,#AAA
 "dysmas",1,,,
 "east",1,,,
 "egypt",1,,,
@@ -292,7 +292,7 @@ slug,scale,x,y,bg
 "the-seventy",1,,,
 "the-twelve",1,,,
 "thomas",1,,,
-"tomb-angels",2,29,12,#AAA
+"tomb-angels",2,30,13,#AAA
 "two-blind",1,,,
 "two-blind,-additional",1,,,
 "two-disciples",1,,,
