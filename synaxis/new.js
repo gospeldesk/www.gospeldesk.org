@@ -246,32 +246,32 @@ function draw(container) {
     if (person.bg === '') {
       person.bg = '#AAA';
     }
-    var a = document.createElement('div');
-    a.classList.add('person');
-    a.id = person.slug;
-    a.dataset.blob = JSON.stringify(person);
-    a.href = `/characters/${person.slug}/`;
+    var div = document.createElement('div');
+    div.classList.add('person');
+    div.id = person.slug;
+    div.dataset.blob = JSON.stringify(person);
+    div.href = `/characters/${person.slug}/`;
 
     var img = document.createElement('img');
     img.src = "person.svg"
     img.style.height = UNIT * person.scale;
     img.style.width = UNIT * person.scale;
 
-    a.style.display = 'block';
-    a.style.position = 'absolute';
-    a.style.background = person.bg;
-    a.style.cursor = 'grab';
-    a.style.top = person.y * UNIT;
-    a.style.left = LEFT + (person.x * UNIT);
-    a.append(img);
+    div.style.display = 'block';
+    div.style.position = 'absolute';
+    div.style.background = person.bg;
+    div.style.cursor = 'grab';
+    div.style.top = person.y * UNIT;
+    div.style.left = LEFT + (person.x * UNIT);
+    div.append(img);
     var label = document.createElement('span');
     label.innerHTML = `${person.slug}`;
     label.style = 'color: white; font: bold 10px/10px monospace; text-transform: uppercase; position: absolute; bottom: 2px; left: 4px';
-    a.append(label);
-    a.addEventListener('mousedown', itemMouseDown);
-    a.addEventListener('mouseup', itemMouseUp);
-    if (placed) a.classList.add('placed');
-    container.append(a);
+    div.append(label);
+    div.addEventListener('mousedown', itemMouseDown);
+    div.addEventListener('mouseup', itemMouseUp);
+    if (placed) div.classList.add('placed');
+    container.append(div);
   });
 
   button = document.createElement('button');
