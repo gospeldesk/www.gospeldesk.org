@@ -51,8 +51,8 @@
   {
     "slug": "acquaintances",
     "scale": 1,
-    "x": 103,
-    "y": 80,
+    "x": 98,
+    "y": 132,
     "bg": "#AAA"
   },
   {
@@ -142,15 +142,15 @@
   {
     "slug": "bartholomew",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 69,
+    "y": 66,
+    "bg": "#AAA"
   },
   {
     "slug": "bartimaeus",
     "scale": 1,
-    "x": 77,
-    "y": 61,
+    "x": 130,
+    "y": 68,
     "bg": "#AAA"
   },
   {
