@@ -208,6 +208,8 @@ class Pericope(object):
             self.flush_paragraph()
         elif line.startswith('>'):
             self.related = line[1:].strip().split()
+        elif line.startswith('|'):
+            pass # stub out to pull characters from source.txt instead of characters.csv
         elif line.startswith('  '):
             splitter = line.strip()
             splitter = splitter.replace('" ', '” ')
