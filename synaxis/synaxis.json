@@ -24,28 +24,28 @@
     "slug": "abijah",
     "scale": 1,
     "x": 1,
-    "y": 82,
+    "y": 75,
     "bg": "#AAA"
   },
   {
     "slug": "abiud",
     "scale": 1,
     "x": 1,
-    "y": 74,
+    "y": 67,
     "bg": "#AAA"
   },
   {
     "slug": "abraham",
     "scale": 1,
     "x": 1,
-    "y": 42,
+    "y": 35,
     "bg": "#AAA"
   },
   {
     "slug": "achim",
     "scale": 1,
     "x": 1,
-    "y": 50,
+    "y": 43,
     "bg": "#AAA"
   },
   {
@@ -66,22 +66,22 @@
     "slug": "ahaz",
     "scale": 1,
     "x": 1,
-    "y": 58,
+    "y": 51,
     "bg": "#AAA"
   },
   {
     "slug": "amminadab",
     "scale": 1,
     "x": 1,
-    "y": 66,
+    "y": 59,
     "bg": "#AAA"
   },
   {
     "slug": "amon",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 1,
+    "y": 83,
+    "bg": "#AAA"
   },
   {
     "slug": "andrew",
