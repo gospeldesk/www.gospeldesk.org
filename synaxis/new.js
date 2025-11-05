@@ -39,6 +39,7 @@ var isMouseDown = false;
 var hasMoved = false;
 var UNIT = 0;
 var LEFT = 0;
+var STEP = 0;
 
 function docMouseDown(e) {
   console.log('doc mouse down');
@@ -127,9 +128,13 @@ function docMouseMove(e) {
       cls = 'cut';
     }
     Array.from(document.getElementsByClassName(`person ${cls}`)).forEach((person) => {
-      step = UNIT / 7;
-      person.style.top = step * Math.round((e.pageY - Number(person.dataset.offsetY)) / step);
-      person.style.left = LEFT + (step * Math.round((e.pageX - Number(person.dataset.offsetX)) / step));
+      var x = Math.round((e.pageX - Number(person.dataset.offsetX) - LEFT) / STEP);
+      var y = Math.round((e.pageY - Number(person.dataset.offsetY)) / STEP);
+      person.dataset.x = x;
+      person.dataset.y = y;
+      person.style.left = LEFT + (STEP * x);
+      person.style.top = STEP * y;
+      console.log(x, y, STEP * x, STEP * y, person.dataset);
       person.classList.add('placed');
     });
   }
@@ -220,28 +225,30 @@ function draw(container) {
   var W = document.documentElement.clientWidth;
   var H = document.documentElement.clientHeight;
   var D = Math.min(W, H);
-  UNIT = Math.floor(W / 18);
-  LEFT = Math.floor((W - (UNIT * 18)) / 2);
+  var N = 23;
+  STEP = Math.floor(W / N / 7);
+  UNIT = STEP * 7;
+  LEFT = Math.floor((W - (UNIT * N)) / 2);
   container.innerHTML = '';
 
   let rowNum = 0;
-  let colNum = 0;
+  let colNum = 1;
 
   window._data.forEach(function(person) {
     if (person.x === null) {
       return
     }
-    rowNum = Math.max(rowNum, (person.y + person.scale + 1));
+    rowNum = Math.max(rowNum, ((person.y / STEP) + person.scale + 1));
   });
 
   window._data.forEach(function(person) {
     var placed = true;
     if (person.x === null) {
       placed = false;
-      person.x = colNum;
-      person.y = rowNum;
+      person.x = colNum * STEP;
+      person.y = rowNum * STEP;
       colNum += 2;
-      if (colNum > 17) { rowNum += 2; colNum = 0}
+      if (colNum === N) { rowNum += 2; colNum = 1}
     }
     if (person.bg === '') {
       person.bg = '#AAA';
@@ -255,8 +262,12 @@ function draw(container) {
     div.style.position = 'absolute';
     div.style.background = person.bg;
     div.style.cursor = 'grab';
-    div.style.top = person.y * UNIT;
-    div.style.left = LEFT + (person.x * UNIT);
+    div.style.top = person.y * STEP;
+    div.style.left = LEFT + (person.x * STEP);
+    if (person.scale > 1) {
+      div.style.position = 'fixed';
+      div.style.zIndex = 1;
+    }
 
     var img = document.createElement('img');
     img.src = "person.svg"
@@ -289,7 +300,34 @@ function draw(container) {
     container.append(div);
   });
 
-  button = document.createElement('button');
+  var heavenlies = document.createElement('div');
+  heavenlies.style.background = '#EEE';
+  heavenlies.style.width = '100vw';
+  heavenlies.style.height = '33vh';
+  heavenlies.style.position = 'fixed';
+  heavenlies.style.top = 0;
+  heavenlies.style.left = 0;
+  container.append(heavenlies);
+
+  var gutterLeft = document.createElement('div');
+  gutterLeft.style.background = '#EEE';
+  gutterLeft.style.width = `${LEFT}px`;
+  gutterLeft.style.height = '100vh';
+  gutterLeft.style.position = 'fixed';
+  gutterLeft.style.top = 0;
+  gutterLeft.style.left = 0;
+  container.append(gutterLeft);
+
+  var gutterRight = document.createElement('div');
+  gutterRight.style.background = '#EEE';
+  gutterRight.style.width = `${LEFT}px`;
+  gutterRight.style.height = '100vh';
+  gutterRight.style.position = 'fixed';
+  gutterRight.style.top = 0;
+  gutterRight.style.right= 0;
+  container.append(gutterRight);
+
+  var button = document.createElement('button');
   button.innerHTML = "Save";
   button.style.position = 'fixed';
   button.style.top = '10px';
@@ -300,11 +338,20 @@ function draw(container) {
   button.onclick = function() {
     let content = 'slug,scale,x,y,bg\n';
     Array.from(document.getElementsByClassName('person')).forEach((el) => {
-      var person = JSON.parse(el.dataset.blob);
+      var person = el.dataset;
+      var base = JSON.parse(person.blob);
       if (el.classList.contains('placed')) {
-        content += `"${person.slug}",${person.scale},${person.x},${person.y},${person.bg}\n`;
+        let x, y;
+        if (person.x === undefined) {
+          x = base.x;
+          y = base.y;
+        } else {
+          x = person.x;
+          y = person.y;
+        }
+        content += `"${base.slug}",${base.scale},${x},${y},${base.bg}\n`;
       } else {
-        content += `"${person.slug}",1,,,\n`;
+        content += `"${base.slug}",1,,,\n`;
       }
     });
     download('synaxis.csv', content);

@@ -149,8 +149,8 @@
   {
     "slug": "bartimaeus",
     "scale": 1,
-    "x": 6,
-    "y": 17,
+    "x": 38,
+    "y": 61,
     "bg": "#AAA"
   },
   {
@@ -289,9 +289,9 @@
   {
     "slug": "caiaphas",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 127,
+    "y": 94,
+    "bg": "#AAA"
   },
   {
     "slug": "cana-wedding-bridegroom",
@@ -919,8 +919,8 @@
   {
     "slug": "jesus",
     "scale": 5,
-    "x": 7,
-    "y": 7,
+    "x": 63,
+    "y": 14,
     "bg": "gold"
   },
   {
@@ -968,8 +968,8 @@
   {
     "slug": "john-the-forerunner",
     "scale": 3,
-    "x": 13,
-    "y": 8,
+    "x": 105,
+    "y": 28,
     "bg": "brown"
   },
   {
@@ -1339,8 +1339,8 @@
   {
     "slug": "mary",
     "scale": 3,
-    "x": 3,
-    "y": 8,
+    "x": 35,
+    "y": 28,
     "bg": "blue"
   },
   {
