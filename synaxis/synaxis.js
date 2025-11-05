@@ -15,19 +15,6 @@ function getJSON(url, callback) {
 
 // DND
 
-/*
-
-doc
-  down
-  move
-  up
-
-item
-  down
-  up
-
-*/
-
 function toggleSelected(person) {
   if (person.classList.contains('selected')) {
     person.classList.remove('selected');
@@ -218,6 +205,74 @@ function docPaste(e) {
   });
 }
 
+function docScroll(e) {
+  console.log('doc scroll');
+  var perc = window.scrollY / (document.body.scrollHeight - window.innerHeight);
+  Array.from(document.getElementsByClassName('person heavenly')).forEach((el) => {
+    if (el.classList.contains('jesus')) {
+      return;
+    }
+    el.style.opacity = `${Math.max(0.9 - perc, 0)}`;
+  });
+  Array.from(document.getElementsByClassName('bg heavenly')).forEach((el) => {
+    el.style.background = floatToGradientHex(perc, '#FFFFC5', '#000');
+  });
+  document.body.style.background = floatToGradientHex(perc, '#FFF', '#000');
+}
+
+/**
+ * Maps a float value in the range [0.0, 1.0] to a color gradient between a start and end hex color.
+ *
+ * @param {number} floatValue The input float value (0.0 for start color, 1.0 for end color).
+ * @param {string} startHex The starting hex color (e.g., '#FFFFC5', '#FFF', '#C5').
+ * @param {string} endHex The ending hex color (e.g., '#000000', '#000').
+ * @returns {string} The calculated hex color string in '#RRGGBB' format.
+ */
+function floatToGradientHex(floatValue, startHex, endHex) {
+  // Ensure the input is within the valid range [0.0, 1.0]
+  if (floatValue < 0.0) floatValue = 0.0;
+  if (floatValue > 1.0) floatValue = 1.0;
+
+  // Helper function to convert 3-char shorthand to 6-char hex
+  const expandHex = (hex) => {
+    const shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
+    return hex.replace(shorthandRegex, function(m, r, g, b) {
+      return r + r + g + g + b + b;
+    });
+  };
+
+  // Convert expanded hex to RGB decimal values
+  const hexToRgb = (hex) => {
+    hex = expandHex(hex).replace('#', '');
+    const bigint = parseInt(hex, 16);
+    return {
+      r: (bigint >> 16) & 255,
+      g: (bigint >> 8) & 255,
+      b: bigint & 255
+    };
+  };
+
+  const startRgb = hexToRgb(startHex);
+  const endRgb = hexToRgb(endHex);
+
+  // Calculate the new RGB values by linear interpolation
+  const currentR = Math.round(startRgb.r + (endRgb.r - startRgb.r) * floatValue);
+  const currentG = Math.round(startRgb.g + (endRgb.g - startRgb.g) * floatValue);
+  const currentB = Math.round(startRgb.b + (endRgb.b - startRgb.b) * floatValue);
+
+  // Helper function to convert a decimal value to a two-character hex string
+  const decToHex = (dec) => {
+    let hex = dec.toString(16);
+    return hex.length === 1 ? '0' + hex : hex;
+  };
+
+  const hexR = decToHex(currentR);
+  const hexG = decToHex(currentG);
+  const hexB = decToHex(currentB);
+
+  return `#` + hexR + hexG + hexB;
+}
+
 
 // Draw
 
@@ -256,8 +311,11 @@ function draw(container) {
     if (person.bg === '') {
       person.bg = '#AAA';
     }
+
+    var slug = person.slug.replace("'", '').replace(',', '')
+
     var div = document.createElement('div');
-    div.classList.add('person');
+    div.classList.add('person', slug);
     div.id = person.slug;
     div.dataset.blob = JSON.stringify(person);
 
@@ -268,6 +326,7 @@ function draw(container) {
     div.style.top = person.y * STEP;
     div.style.left = LEFT + (person.x * STEP);
     if (person.scale > 1) {
+      div.classList.add('heavenly');
       div.style.position = 'fixed';
       div.style.zIndex = 1;
     }
@@ -279,7 +338,6 @@ function draw(container) {
     div.append(img);
 
     var a = document.createElement('a');
-    var slug = person.slug.replace("'", '').replace(',', '')
     a.href = `/characters/${slug}/`;
     a.target = '_blank';
     a.innerHTML = '↗️';
@@ -305,7 +363,8 @@ function draw(container) {
   });
 
   var heavenlies = document.createElement('div');
-  heavenlies.style.background = '#EEE';
+  heavenlies.classList.add('bg', 'heavenly');
+  heavenlies.style.background = '#FFFFC5';
   heavenlies.style.width = '100vw';
   heavenlies.style.height = STEP * (16 + (35 / 2)); // Christ is half in each
   heavenlies.style.position = 'fixed';
@@ -314,7 +373,8 @@ function draw(container) {
   container.append(heavenlies);
 
   var gutterLeft = document.createElement('div');
-  gutterLeft.style.background = '#EEE';
+  gutterLeft.classList.add('bg', 'heavenly');
+  gutterLeft.style.background = '#FFFFC5';
   gutterLeft.style.width = `${LEFT}px`;
   gutterLeft.style.height = '100vh';
   gutterLeft.style.position = 'fixed';
@@ -323,7 +383,8 @@ function draw(container) {
   container.append(gutterLeft);
 
   var gutterRight = document.createElement('div');
-  gutterRight.style.background = '#EEE';
+  gutterRight.classList.add('bg', 'heavenly');
+  gutterRight.style.background = '#FFFFC5';
   gutterRight.style.width = `${LEFT}px`;
   gutterRight.style.height = '100vh';
   gutterRight.style.position = 'fixed';
@@ -387,6 +448,6 @@ window.onload = function() {
     document.addEventListener('keydown', docKeyDown);
     document.addEventListener('cut', docCut);
     document.addEventListener('paste', docPaste);
+    document.addEventListener('scroll', docScroll);
   });
 };
-

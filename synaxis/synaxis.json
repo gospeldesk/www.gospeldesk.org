@@ -2,21 +2,21 @@
   {
     "slug": "a-pharisee",
     "scale": 1,
-    "x": 74,
+    "x": 71,
     "y": 281,
     "bg": "#AAA"
   },
   {
     "slug": "a-ruler-of-the-pharisees",
     "scale": 1,
-    "x": 82,
+    "x": 79,
     "y": 281,
     "bg": "#AAA"
   },
   {
     "slug": "a-ruler-of-the-pharisees'-guest",
     "scale": 1,
-    "x": 90,
+    "x": 87,
     "y": 281,
     "bg": "#AAA"
   },
@@ -58,8 +58,8 @@
   {
     "slug": "adversaries",
     "scale": 1,
-    "x": 153,
-    "y": 73,
+    "x": 102,
+    "y": 289,
     "bg": "#AAA"
   },
   {
@@ -289,8 +289,8 @@
   {
     "slug": "caiaphas",
     "scale": 1,
-    "x": 153,
-    "y": 65,
+    "x": 82,
+    "y": 331,
     "bg": "#AAA"
   },
   {
@@ -1381,8 +1381,8 @@
   {
     "slug": "multitude",
     "scale": 1,
-    "x": 83,
-    "y": 235,
+    "x": 78,
+    "y": 209,
     "bg": "#AAA"
   },
   {
@@ -1472,15 +1472,15 @@
   {
     "slug": "officer's-cohort",
     "scale": 1,
-    "x": 1,
-    "y": 208,
+    "x": 119,
+    "y": 297,
     "bg": "#AAA"
   },
   {
     "slug": "officers",
     "scale": 1,
-    "x": 9,
-    "y": 208,
+    "x": 127,
+    "y": 297,
     "bg": "#AAA"
   },
   {
@@ -1521,8 +1521,8 @@
   {
     "slug": "passers-by",
     "scale": 1,
-    "x": 111,
-    "y": 242,
+    "x": 108,
+    "y": 269,
     "bg": "#AAA"
   },
   {
@@ -1647,7 +1647,7 @@
   {
     "slug": "rich-people",
     "scale": 1,
-    "x": 57,
+    "x": 62,
     "y": 289,
     "bg": "#AAA"
   },
@@ -1843,8 +1843,8 @@
   {
     "slug": "sinners",
     "scale": 1,
-    "x": 67,
-    "y": 235,
+    "x": 74,
+    "y": 253,
     "bg": "#AAA"
   },
   {
@@ -1962,8 +1962,8 @@
   {
     "slug": "tax-collectors",
     "scale": 1,
-    "x": 75,
-    "y": 235,
+    "x": 82,
+    "y": 253,
     "bg": "#AAA"
   },
   {
@@ -2004,8 +2004,8 @@
   {
     "slug": "ten-lepers",
     "scale": 1,
-    "x": 33,
-    "y": 182,
+    "x": 49,
+    "y": 234,
     "bg": "#AAA"
   },
   {
