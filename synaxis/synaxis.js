@@ -215,7 +215,7 @@ function docScroll(e) {
     el.style.opacity = `${Math.max(0.9 - perc, 0)}`;
   });
   Array.from(document.getElementsByClassName('bg heavenly')).forEach((el) => {
-    el.style.background = floatToGradientHex(perc, '#FFFFC5', '#000');
+    el.style.background = floatToGradientHex(perc, '#FFF', '#000');
   });
   document.body.style.background = floatToGradientHex(perc, '#FFF', '#000');
 }
@@ -364,7 +364,7 @@ function draw(container) {
 
   var heavenlies = document.createElement('div');
   heavenlies.classList.add('bg', 'heavenly');
-  heavenlies.style.background = '#FFFFC5';
+  heavenlies.style.background = '#FFF';
   heavenlies.style.width = '100vw';
   heavenlies.style.height = STEP * (16 + (35 / 2)); // Christ is half in each
   heavenlies.style.position = 'fixed';
@@ -374,7 +374,7 @@ function draw(container) {
 
   var gutterLeft = document.createElement('div');
   gutterLeft.classList.add('bg', 'heavenly');
-  gutterLeft.style.background = '#FFFFC5';
+  gutterLeft.style.background = '#FFF';
   gutterLeft.style.width = `${LEFT}px`;
   gutterLeft.style.height = '100vh';
   gutterLeft.style.position = 'fixed';
@@ -384,7 +384,7 @@ function draw(container) {
 
   var gutterRight = document.createElement('div');
   gutterRight.classList.add('bg', 'heavenly');
-  gutterRight.style.background = '#FFFFC5';
+  gutterRight.style.background = '#FFF';
   gutterRight.style.width = `${LEFT}px`;
   gutterRight.style.height = '100vh';
   gutterRight.style.position = 'fixed';
