@@ -226,9 +226,11 @@ function draw(container) {
   var H = document.documentElement.clientHeight;
   var D = Math.min(W, H);
   var N = 23;
-  STEP = Math.floor(W / N / 7);
-  UNIT = STEP * 7;
+  GRID = 7;                         // subdivisions of a unit
+  STEP = Math.floor(W / N / GRID);  // pixels per subdivision
+  UNIT = STEP * GRID;               // normal character size
   LEFT = Math.floor((W - (UNIT * N)) / 2);
+  console.log(W, N, STEP, UNIT, LEFT);
   container.innerHTML = '';
 
   let rowNum = 0;
@@ -245,10 +247,11 @@ function draw(container) {
     var placed = true;
     if (person.x === null) {
       placed = false;
-      person.x = colNum * STEP;
-      person.y = rowNum * STEP;
+      person.x = colNum * GRID;
+      person.y = rowNum * GRID;
+      console.log(colNum, GRID, colNum * GRID, person);
       colNum += 2;
-      if (colNum === N) { rowNum += 2; colNum = 1}
+      if (colNum > (N - 1)) { rowNum += 2; colNum = 1}
     }
     if (person.bg === '') {
       person.bg = '#AAA';
@@ -303,7 +306,7 @@ function draw(container) {
   var heavenlies = document.createElement('div');
   heavenlies.style.background = '#EEE';
   heavenlies.style.width = '100vw';
-  heavenlies.style.height = STEP * (14 + (35 / 2));
+  heavenlies.style.height = STEP * (16 + (35 / 2)); // Christ is half in each
   heavenlies.style.position = 'fixed';
   heavenlies.style.top = 0;
   heavenlies.style.left = 0;

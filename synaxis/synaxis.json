@@ -93,8 +93,8 @@
   {
     "slug": "angelic-host",
     "scale": 2,
-    "x": 68,
-    "y": 0,
+    "x": 73,
+    "y": 1,
     "bg": "#AAA"
   },
   {
@@ -149,7 +149,7 @@
   {
     "slug": "bartimaeus",
     "scale": 1,
-    "x": 38,
+    "x": 44,
     "y": 61,
     "bg": "#AAA"
   },
@@ -681,8 +681,8 @@
   {
     "slug": "god",
     "scale": 2,
-    "x": 150,
-    "y": 1,
+    "x": 147,
+    "y": 0,
     "bg": "#AAA"
   },
   {
@@ -920,7 +920,7 @@
     "slug": "jesus",
     "scale": 5,
     "x": 63,
-    "y": 14,
+    "y": 16,
     "bg": "gold"
   },
   {
@@ -969,7 +969,7 @@
     "slug": "john-the-forerunner",
     "scale": 3,
     "x": 105,
-    "y": 28,
+    "y": 30,
     "bg": "brown"
   },
   {
@@ -1340,7 +1340,7 @@
     "slug": "mary",
     "scale": 3,
     "x": 35,
-    "y": 28,
+    "y": 30,
     "bg": "blue"
   },
   {

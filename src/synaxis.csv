@@ -12,7 +12,7 @@ slug,scale,x,y,bg
 "amminadab",1,1,66,#AAA
 "amon",1,,,
 "andrew",1,,,
-"angelic-host",2,68,0,#AAA
+"angelic-host",2,73,1,#AAA
 "angels",2,45,4,#AAA
 "anna",1,,,
 "asa",1,,,
@@ -20,7 +20,7 @@ slug,scale,x,y,bg
 "babylon",1,,,
 "barabbas",1,,,
 "bartholomew",1,,,
-"bartimaeus",1,38,61,#AAA
+"bartimaeus",1,44,61,#AAA
 "bathsheba",1,,,
 "berenice",1,,,
 "berenice's-demon",1,,,
@@ -96,7 +96,7 @@ slug,scale,x,y,bg
 "gergesenes",1,,,
 "gestas",1,,,
 "gethsemane",1,,,
-"god",2,150,1,#AAA
+"god",2,147,0,#AAA
 "golgotha",1,,,
 "herod",1,,,
 "herod-the-tetrarch",1,,,
@@ -130,14 +130,14 @@ slug,scale,x,y,bg
 "jericho",1,,,
 "jerusalem",1,,,
 "jesse",1,,,
-"jesus",5,63,14,gold
+"jesus",5,63,16,gold
 "jesus'-brothers",1,,,
 "jesus'-friends",1,,,
 "jesus'-sisters",1,,,
 "jewish-leaders",1,,,
 "jews",1,,,
 "joanna",1,,,
-"john-the-forerunner",3,105,28,brown
+"john-the-forerunner",3,105,30,brown
 "john-the-forerunner's-disciples",1,,,
 "john-the-theologian",1,,,
 "john's-disciples",1,,,
@@ -190,7 +190,7 @@ slug,scale,x,y,bg
 "mary-mother-of-james",1,,,
 "mary-of-bethany",1,,,
 "mary-of-clopas",1,,,
-"mary",3,35,28,blue
+"mary",3,35,30,blue
 "master-of-the-house",1,,,
 "matthan",1,,,
 "matthew",1,,,
