@@ -2937,7 +2937,7 @@ Luke  2:18  207
 Luke  2:19  207
 Luke  2:20  207
 ---- Presentation
-| jospeh mary jesus jerusalem simeon anna galilee nazareth
+| joseph mary jesus jerusalem simeon anna galilee nazareth
 || holy-spirit god moses david gentiles israel phanuel asher
 Luke  2:22  209
 Luke  2:23  209
