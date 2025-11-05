@@ -226,9 +226,9 @@ function draw(container) {
   var H = document.documentElement.clientHeight;
   var D = Math.min(W, H);
   var N = 23;
-  GRID = 7;                         // subdivisions of a unit
-  STEP = Math.floor(W / N / GRID);  // pixels per subdivision
-  UNIT = STEP * GRID;               // normal character size
+  SUBD = 7;                         // subdivisions of a unit
+  STEP = Math.floor(W / N / SUBD);  // pixels per subdivision
+  UNIT = STEP * SUBD;               // pixels per modal character
   LEFT = Math.floor((W - (UNIT * N)) / 2);
   console.log(W, N, STEP, UNIT, LEFT);
   container.innerHTML = '';
@@ -240,16 +240,16 @@ function draw(container) {
     if (person.x === null) {
       return
     }
-    rowNum = Math.max(rowNum, ((person.y / STEP) + person.scale + 1));
+    rowNum = Math.max(rowNum, ((person.y / SUBD) + person.scale + 1));
   });
 
   window._data.forEach(function(person) {
     var placed = true;
     if (person.x === null) {
       placed = false;
-      person.x = colNum * GRID;
-      person.y = rowNum * GRID;
-      console.log(colNum, GRID, colNum * GRID, person);
+      person.x = colNum * SUBD;
+      person.y = rowNum * SUBD;
+      console.log(colNum, SUBD, colNum * SUBD, person);
       colNum += 2;
       if (colNum > (N - 1)) { rowNum += 2; colNum = 1}
     }
