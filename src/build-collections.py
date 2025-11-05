@@ -101,6 +101,7 @@ def main():
         os.unlink(f'../_readings/{slug}.md')
 
     synaxis = []
+    synaxis_csv = []
     characters_direct_two = set()
     inp = csv.reader(open('synaxis.csv'))
     headers = next(inp)
@@ -110,6 +111,7 @@ def main():
             val = rec[field]
             cast = float if '.' in val else int
             rec[field] = cast(rec[field]) if rec[field] else None
+        synaxis_csv.append(row)
         synaxis.append(rec)
         characters_direct_two.add(rec['slug'])
 
@@ -125,6 +127,9 @@ def main():
         print("DON'T NEED ANYMORE:")
         for slug in sorted(dont_need_anymore):
             print(slug)
+        synaxis = [p for p in synaxis if p['slug'] not in dont_need_anymore]
+        synaxis_csv = [r for r in synaxis_csv if r[0] not in dont_need_anymore]
+        csv.writer(open('synaxis.csv', 'w+'), dialect='unix').writerows([headers] + synaxis_csv)
 
     json.dump(synaxis, open('../synaxis/synaxis.json', 'w+'), indent=2)
 

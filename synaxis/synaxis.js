@@ -353,9 +353,9 @@ function draw(container) {
           x = person.x;
           y = person.y;
         }
-        content += `"${base.slug}",${base.scale},${x},${y},${base.bg}\n`;
+        content += `"${base.slug}","${base.scale}","${x}","${y}","${base.bg}"\n`;
       } else {
-        content += `"${base.slug}",1,,,\n`;
+        content += `""${base.slug}","1","","",""\n`;
       }
     });
     download('synaxis.csv', content);
