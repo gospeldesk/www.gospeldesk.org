@@ -303,7 +303,7 @@ function draw(container) {
   var heavenlies = document.createElement('div');
   heavenlies.style.background = '#EEE';
   heavenlies.style.width = '100vw';
-  heavenlies.style.height = '33vh';
+  heavenlies.style.height = STEP * (14 + (35 / 2));
   heavenlies.style.position = 'fixed';
   heavenlies.style.top = 0;
   heavenlies.style.left = 0;
