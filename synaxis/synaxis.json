@@ -51,15 +51,15 @@
   {
     "slug": "acquaintances",
     "scale": 1,
-    "x": 85,
-    "y": 108,
+    "x": 103,
+    "y": 80,
     "bg": "#AAA"
   },
   {
     "slug": "adversaries",
     "scale": 1,
-    "x": 127,
-    "y": 102,
+    "x": 153,
+    "y": 73,
     "bg": "#AAA"
   },
   {
@@ -114,16 +114,16 @@
   {
     "slug": "asa",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 9,
+    "y": 35,
+    "bg": "#AAA"
   },
   {
     "slug": "azor",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 9,
+    "y": 43,
+    "bg": "#AAA"
   },
   {
     "slug": "babylon",
@@ -149,7 +149,7 @@
   {
     "slug": "bartimaeus",
     "scale": 1,
-    "x": 44,
+    "x": 77,
     "y": 61,
     "bg": "#AAA"
   },
@@ -247,9 +247,9 @@
   {
     "slug": "boaz",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 9,
+    "y": 51,
+    "bg": "#AAA"
   },
   {
     "slug": "boy",
@@ -289,8 +289,8 @@
   {
     "slug": "caiaphas",
     "scale": 1,
-    "x": 127,
-    "y": 94,
+    "x": 153,
+    "y": 65,
     "bg": "#AAA"
   },
   {
@@ -534,16 +534,16 @@
   {
     "slug": "eleazar",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 9,
+    "y": 59,
+    "bg": "#AAA"
   },
   {
     "slug": "eliakim",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 9,
+    "y": 67,
+    "bg": "#AAA"
   },
   {
     "slug": "elijah",
@@ -555,9 +555,9 @@
   {
     "slug": "eliud",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 9,
+    "y": 75,
+    "bg": "#AAA"
   },
   {
     "slug": "elizabeth",
@@ -737,9 +737,9 @@
   {
     "slug": "hezekiah",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 17,
+    "y": 43,
+    "bg": "#AAA"
   },
   {
     "slug": "hezron",
@@ -814,9 +814,9 @@
   {
     "slug": "isaac",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 9,
+    "y": 83,
+    "bg": "#AAA"
   },
   {
     "slug": "israel",
@@ -828,9 +828,9 @@
   {
     "slug": "jacob",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 17,
+    "y": 35,
+    "bg": "#AAA"
   },
   {
     "slug": "jairus",
@@ -877,23 +877,23 @@
   {
     "slug": "jechoniah",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 17,
+    "y": 51,
+    "bg": "#AAA"
   },
   {
     "slug": "jechoniah's-brothers",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 17,
+    "y": 59,
+    "bg": "#AAA"
   },
   {
     "slug": "jehoshaphat",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 17,
+    "y": 67,
+    "bg": "#AAA"
   },
   {
     "slug": "jericho",
@@ -912,9 +912,9 @@
   {
     "slug": "jesse",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 17,
+    "y": 75,
+    "bg": "#AAA"
   },
   {
     "slug": "jesus",
@@ -996,9 +996,9 @@
   {
     "slug": "joram",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 17,
+    "y": 83,
+    "bg": "#AAA"
   },
   {
     "slug": "jordan",
@@ -1031,9 +1031,9 @@
   {
     "slug": "josiah",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 25,
+    "y": 59,
+    "bg": "#AAA"
   },
   {
     "slug": "jospeh",
@@ -1045,16 +1045,16 @@
   {
     "slug": "jotham",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 25,
+    "y": 67,
+    "bg": "#AAA"
   },
   {
     "slug": "judah",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 25,
+    "y": 75,
+    "bg": "#AAA"
   },
   {
     "slug": "judas",
@@ -1290,9 +1290,9 @@
   {
     "slug": "manasseh",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 33,
+    "y": 59,
+    "bg": "#AAA"
   },
   {
     "slug": "mark",
@@ -1353,9 +1353,9 @@
   {
     "slug": "matthan",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 33,
+    "y": 67,
+    "bg": "#AAA"
   },
   {
     "slug": "matthew",
@@ -1416,9 +1416,9 @@
   {
     "slug": "nahshon",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 81,
+    "y": 44,
+    "bg": "#AAA"
   },
   {
     "slug": "nain",
@@ -1479,9 +1479,9 @@
   {
     "slug": "obed",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 33,
+    "y": 75,
+    "bg": "#AAA"
   },
   {
     "slug": "officer's-cohort",
@@ -1542,9 +1542,9 @@
   {
     "slug": "perez",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 25,
+    "y": 83,
+    "bg": "#AAA"
   },
   {
     "slug": "peter",
@@ -1633,23 +1633,23 @@
   {
     "slug": "rahab",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 33,
+    "y": 83,
+    "bg": "#AAA"
   },
   {
     "slug": "ram",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 41,
+    "y": 59,
+    "bg": "#AAA"
   },
   {
     "slug": "rehoboam",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 41,
+    "y": 67,
+    "bg": "#AAA"
   },
   {
     "slug": "resurrection-angel",
@@ -1689,9 +1689,9 @@
   {
     "slug": "ruth",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 41,
+    "y": 75,
+    "bg": "#AAA"
   },
   {
     "slug": "sadduccees",
@@ -1710,9 +1710,9 @@
   {
     "slug": "salmon",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 41,
+    "y": 83,
+    "bg": "#AAA"
   },
   {
     "slug": "salome",
@@ -1780,9 +1780,9 @@
   {
     "slug": "shealtiel",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 49,
+    "y": 59,
+    "bg": "#AAA"
   },
   {
     "slug": "shepherds",
@@ -1969,9 +1969,9 @@
   {
     "slug": "tamar",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 49,
+    "y": 67,
+    "bg": "#AAA"
   },
   {
     "slug": "tax-collectors",
@@ -2088,9 +2088,9 @@
   {
     "slug": "uzziah",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 206,
+    "y": 58,
+    "bg": "#AAA"
   },
   {
     "slug": "veronica",
@@ -2172,9 +2172,9 @@
   {
     "slug": "zadok",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 49,
+    "y": 75,
+    "bg": "#AAA"
   },
   {
     "slug": "zebedee",
@@ -2200,15 +2200,15 @@
   {
     "slug": "zerah",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 49,
+    "y": 83,
+    "bg": "#AAA"
   },
   {
     "slug": "zerubbabel",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 57,
+    "y": 59,
+    "bg": "#AAA"
   }
 ]
