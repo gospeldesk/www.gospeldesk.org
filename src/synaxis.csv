@@ -12,8 +12,8 @@ slug,scale,x,y,bg
 "amminadab",1,1,59,#AAA
 "amon",1,1,83,#AAA
 "andrew",1,,,
-"angelic-host",2,73,1,#AAA
-"angels",2,45,4,#AAA
+"angelic-host",2,74,1,#AAA
+"angels",2,47,1,#AAA
 "anna",1,,,
 "asa",1,,,
 "azor",1,,,
@@ -70,7 +70,7 @@ slug,scale,x,y,bg
 "donkey's",1,,,
 "donkey's-colt",1,,,
 "donkey's-owner",1,,,
-"dream-angel",2,20,12,#AAA
+"dream-angel",2,2,3,#AAA
 "dysmas",1,,,
 "east",1,,,
 "egypt",1,,,
@@ -87,7 +87,7 @@ slug,scale,x,y,bg
 "false-witnesses",1,,,
 "fig-tree",1,,,
 "fish",1,,,
-"gabriel",2,11,5,#AAA
+"gabriel",2,30,9,#AAA
 "galilee",1,,,
 "gennesaret",1,,,
 "gergasene-demoniac",1,,,
@@ -235,7 +235,7 @@ slug,scale,x,y,bg
 "rahab",1,,,
 "ram",1,,,
 "rehoboam",1,,,
-"resurrection-angel",2,21,0,#AAA
+"resurrection-angel",2,8,8,#AAA
 "rich-people",1,,,
 "rich-young-ruler",1,,,
 "rooster",1,,,
@@ -292,7 +292,7 @@ slug,scale,x,y,bg
 "the-seventy",1,,,
 "the-twelve",1,,,
 "thomas",1,,,
-"tomb-angels",2,30,13,#AAA
+"tomb-angels",2,14,11,#AAA
 "two-blind",1,,,
 "two-blind,-additional",1,,,
 "two-disciples",1,,,

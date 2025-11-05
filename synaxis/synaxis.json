@@ -93,15 +93,15 @@
   {
     "slug": "angelic-host",
     "scale": 2,
-    "x": 73,
+    "x": 74,
     "y": 1,
     "bg": "#AAA"
   },
   {
     "slug": "angels",
     "scale": 2,
-    "x": 45,
-    "y": 4,
+    "x": 47,
+    "y": 1,
     "bg": "#AAA"
   },
   {
@@ -499,8 +499,8 @@
   {
     "slug": "dream-angel",
     "scale": 2,
-    "x": 20,
-    "y": 12,
+    "x": 2,
+    "y": 3,
     "bg": "#AAA"
   },
   {
@@ -618,8 +618,8 @@
   {
     "slug": "gabriel",
     "scale": 2,
-    "x": 11,
-    "y": 5,
+    "x": 30,
+    "y": 9,
     "bg": "#AAA"
   },
   {
@@ -1654,8 +1654,8 @@
   {
     "slug": "resurrection-angel",
     "scale": 2,
-    "x": 21,
-    "y": 0,
+    "x": 8,
+    "y": 8,
     "bg": "#AAA"
   },
   {
@@ -2053,8 +2053,8 @@
   {
     "slug": "tomb-angels",
     "scale": 2,
-    "x": 30,
-    "y": 13,
+    "x": 14,
+    "y": 11,
     "bg": "#AAA"
   },
   {
