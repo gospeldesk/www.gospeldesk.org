@@ -250,12 +250,6 @@ function draw(container) {
     div.classList.add('person');
     div.id = person.slug;
     div.dataset.blob = JSON.stringify(person);
-    div.href = `/characters/${person.slug}/`;
-
-    var img = document.createElement('img');
-    img.src = "person.svg"
-    img.style.height = UNIT * person.scale;
-    img.style.width = UNIT * person.scale;
 
     div.style.display = 'block';
     div.style.position = 'absolute';
@@ -263,7 +257,28 @@ function draw(container) {
     div.style.cursor = 'grab';
     div.style.top = person.y * UNIT;
     div.style.left = LEFT + (person.x * UNIT);
+
+    var img = document.createElement('img');
+    img.src = "person.svg"
+    img.style.height = UNIT * person.scale;
+    img.style.width = UNIT * person.scale;
     div.append(img);
+
+    var a = document.createElement('a');
+    a.href = `/characters/${person.slug}/`;
+    a.target = '_blank';
+    a.innerHTML = '↗️';
+    a.style.position = 'absolute';
+    a.style.top = 0;
+    a.style.right = 0;
+    a.style.textDecoration = 'none';
+    a.addEventListener('mousedown', function(e) { e.stopPropagation(); });
+    let size =  UNIT * person.scale / 4;
+    a.style.height = size;
+    a.style.width = size;
+    a.style.fontSize = size;
+    div.append(a);
+
     var label = document.createElement('span');
     label.innerHTML = `${person.slug}`;
     label.style = 'color: white; font: bold 10px/10px monospace; text-transform: uppercase; position: absolute; bottom: 2px; left: 4px';

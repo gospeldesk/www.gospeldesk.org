@@ -5,12 +5,24 @@
   user-select: none;
 }
 .person {
+  a {
+    display: none;
+  }
+  &:hover a {
+    display: block;
+  }
 }
 .selected {
   opacity: 0.5;
   box-shadow: 4px 4px 0 blue;
+  a {
+    display: none ! important;
+  }
 }
 .cut {
   opacity: 0.5;
   box-shadow: 4px 4px 0 red;
+  a {
+    display: none ! important;
+  }
 }
