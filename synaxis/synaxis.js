@@ -355,7 +355,7 @@ function draw(container) {
         }
         content += `"${base.slug}","${base.scale}","${x}","${y}","${base.bg}"\n`;
       } else {
-        content += `""${base.slug}","1","","",""\n`;
+        content += `"${base.slug}","1","","",""\n`;
       }
     });
     download('synaxis.csv', content);
