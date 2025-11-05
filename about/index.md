@@ -3,18 +3,11 @@ title: About Gospel Desk
 excerpt: Workinʼ on a building.
 ---
 
-<p style="text-indent: 0;">Greetings, friend! My name is Chad Whitacre. I am a
-member of <a href="https://orthodoxpittsburgh.org">St. Nicholas Orthodox
-Church</a> (OCA) outside of Pittsburgh.</p>
-
-I publish this website with the blessing of His Eminence, Archbishop
-Melchisidek of Pittsburgh and Western Pennsylvania. He has asked that Fr.
-Thomas Soroka (my priest) and Dr. Edith Humphrey (my godmother) review the
-materials published here, "to maintain the principle of 'when two or three are
-gathered,'" so that thereby Gospel Desk might be "'of the Church' in a very
-concrete sense." I am deeply grateful to all three.
-
-Thanks for visiting! Glory to God for all things!&nbsp;✚
+Greetings! Thanks for visiting! My name is Chad Whitacre. I am a member of <a
+href="https://orthodoxpittsburgh.org">St. Nicholas Orthodox Church</a> (OCA)
+outside of Pittsburgh.  I publish this website with the blessing of His
+Eminence, Archbishop Melchisidek of Pittsburgh and Western Pennsylvania. Glory
+to God for all things!&nbsp;✚
 
 
 ### Contact
