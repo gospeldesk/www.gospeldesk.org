@@ -127,8 +127,9 @@ function docMouseMove(e) {
       cls = 'cut';
     }
     Array.from(document.getElementsByClassName(`person ${cls}`)).forEach((person) => {
-      person.style.top = UNIT * Math.floor((e.pageY - Number(person.dataset.offsetY)) / UNIT);
-      person.style.left = LEFT + (UNIT * Math.floor((e.pageX - Number(person.dataset.offsetX)) / UNIT));
+      step = UNIT / 3;
+      person.style.top = step * Math.round((e.pageY - Number(person.dataset.offsetY)) / step);
+      person.style.left = LEFT + (step * Math.round((e.pageX - Number(person.dataset.offsetX)) / step));
       person.classList.add('placed');
     });
   }
