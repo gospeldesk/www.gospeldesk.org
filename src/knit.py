@@ -27,6 +27,8 @@ def sluggize(title, subtitle=''):
 
 for row in inp:
     rec = dict(zip(headers, row))
+    if not rec['✔']:
+        continue
     by_slug[rec['Slug']] = (rec['Direct'], rec['Indirect'])
 
 class Pericope:
@@ -36,17 +38,19 @@ class Pericope:
         self.insert_after = 0
 
     def add(self, line):
+        if line.startswith('|'):
+            return
         self.lines.append(line)
         if line.startswith('>'):
             self.insert_at = 1
 
     def flush(self):
-        direct, indirect = by_slug[self.slug]
+        direct, indirect = by_slug.get(self.slug, ('', ''))
         for i, line in enumerate(self.lines):
             print(line)
             if i == self.insert_after:
-                print('| ', direct.strip().replace(',-', '-')) if direct else ''
-                print('||', indirect.strip().replace(',-', '-')) if indirect else ''
+                print('| ', direct.strip()) if direct else ''
+                print('||', indirect.strip()) if indirect else ''
 
 cur = None
 

@@ -135,7 +135,7 @@ Matt  4:16  8
 
 Matt  4:17  8
 ---- Fishers of Men (Matthew)
-|  jesus sea-of-galilee peter andrew james-son-of-zebedee john-the-theologian zebedee galilee syria demons diseased
+|  jesus sea-of-galilee peter andrew james,-son-of-zebedee john-the-theologian zebedee galilee syria demons diseased
 || prophets god
 > fishers-of-men-mark
 Matt  4:18  9, 90002
@@ -475,7 +475,7 @@ Matt  9:34  34
 
 Matt  9:35  34
 ---- Instructions to the Twelve: Freely Give
-|  jesus multitude disciples the-twelve peter andrew james-son-of-zebedee john-the-theologian philip bartholomew thomas matthew james-son-of-alphaeus thaddaeus simon-the-zealot judas-iscariot
+|  jesus multitude disciples the-twelve peter andrew james,-son-of-zebedee john-the-theologian philip bartholomew thomas matthew james,-son-of-alphaeus thaddaeus simon-the-zealot judas-iscariot
 || gentiles samaritans israel diseased demons alphaeus zebedee
 > twelve-apostles-matthew twelve-apostles-mark sending-the-twelve-mark twelve-apostles-luke sending-the-twelve-luke
 Matt  9:36  35
@@ -783,7 +783,7 @@ Matt 13:53  60
 Matt 13:54  60
 ---- A Prophet Without Honor (Matthew)
 |  jesus nazareth
-|| joseph mary james-brother-of-the-lord joses-brother-of-the-lord simon-brother-of-the-lord judas-brother-of-the-lord
+|| joseph mary james,-brother-of-the-lord joses,-brother-of-the-lord simon,-brother-of-the-lord judas,-brother-of-the-lord
 > a-prophet-without-honor-mark a-prophet-without-honor-luke
 Matt 13:54  61
 Matt 13:55  61
@@ -994,7 +994,7 @@ Matt 16:26  75
 Matt 16:27  75
 Matt 16:28  75
 ---- Transfiguration (Matthew)
-|  jesus peter james-son-of-zebedee john-the-theologian moses elijah god
+|  jesus peter james,-son-of-zebedee john-the-theologian moses elijah god
 > transfiguration-mark transfiguration-luke
 Matt 17:1   76
 Matt 17:2   76
@@ -1179,7 +1179,7 @@ Matt 20:14  86
 Matt 20:15  86
 Matt 20:16  86
 ---- Servant of All (Matthew)
-|  jesus jerusalem the-twelve salome james-son-of-zebedee john-the-theologian
+|  jesus jerusalem the-twelve salome james,-son-of-zebedee john-the-theologian
 || zebedee god
 > cost-of-discipleship
 Matt 20:17  87
@@ -1202,7 +1202,7 @@ Matt 20:26  87
 Matt 20:27  87
 Matt 20:28  87
 ---- Two Blind Men
-|  jesus disciples multitude jericho two-blind-additional
+|  jesus disciples multitude jericho two-blind,-additional
 || david
 > two-blind-men-mute-man blind-bartimaeus a-certain-blind-man
 Matt 20:29  88
@@ -1593,7 +1593,7 @@ Mark  1:13       129
 Mark  1:14       129
 Mark  1:15       129
 ---- Fishers of Men (Mark)
-|  jesus sea-of-galilee peter andrew james-son-of-zebedee john-the-theologian zebedee zebedee's-servants capernaum scribes
+|  jesus sea-of-galilee peter andrew james,-son-of-zebedee john-the-theologian zebedee zebedee's-servants capernaum scribes
 > fishers-of-men-matthew
 Mark  1:16  130
 Mark  1:17  130
@@ -1617,7 +1617,7 @@ Mark  1:26  131
 Mark  1:27  131
 Mark  1:28  131
 ---- Peter's Mother-in-law (Mark)
-|  jesus capernaum peter andrew james-son-of-zebedee john-the-theologian peter's-mother-in-law peter's-mother-in-law's-fever diseased demons
+|  jesus capernaum peter andrew james,-son-of-zebedee john-the-theologian peter's-mother-in-law peter's-mother-in-law's-fever diseased demons
 > peters-mother-in-law-matthew peters-mother-in-law-luke
 Mark  1:29  132
 Mark  1:30  132
@@ -1728,7 +1728,7 @@ Mark  3:11  138
 
 Mark  3:12  138
 ---- Twelve Apostles (Mark)
-|  jesus disciples the-twelve peter andrew james-son-of-zebedee john-the-theologian philip bartholomew matthew thomas james-son-of-alphaeus thaddaeus simon-the-zealot judas-iscariot
+|  jesus disciples the-twelve peter andrew james,-son-of-zebedee john-the-theologian philip bartholomew matthew thomas james,-son-of-alphaeus thaddaeus simon-the-zealot judas-iscariot
 || demons alphaeus zebedee
 > instructions-to-the-twelve-freely-give twelve-apostles-luke
 Mark  3:13  139
@@ -1869,7 +1869,7 @@ Mark  5:19  146
 
 Mark  5:20  146
 ---- Healing Jairus' Daughter
-|  jesus disciples multitude jairus jairus'-daughter jairus'-household peter james-son-of-zebedee john-the-theologian
+|  jesus disciples multitude jairus jairus'-daughter jairus'-household peter james,-son-of-zebedee john-the-theologian
 > two-healings-matthew two-healings-luke healing-a-noblemans-son
 Mark  5:21       90005
 Mark  5:22  147, 90005
@@ -1914,7 +1914,7 @@ Mark  5:33  148
 Mark  5:34  148
 ---- A Prophet Without Honor (Mark)
 |  jesus disciples nazareth the-twelve
-|| mary james-brother-of-the-lord joses-brother-of-the-lord simon-brother-of-the-lord judas-brother-of-the-lord jesus'-sisters
+|| mary james,-brother-of-the-lord joses,-brother-of-the-lord simon,-brother-of-the-lord judas,-brother-of-the-lord jesus'-sisters
 > a-prophet-without-honor-matthew a-prophet-without-honor-luke
 Mark  6:1   149
 Mark  6:2   149
@@ -2161,7 +2161,7 @@ Mark  8:38  164
 
 Mark  9:1   164
 ---- Transfiguration (Mark)
-|  jesus peter james-son-of-zebedee john-the-theologian elijah moses god
+|  jesus peter james,-son-of-zebedee john-the-theologian elijah moses god
 > transfiguration-matthew transfiguration-luke
 Mark  9:2   165
 Mark  9:3   165
@@ -2175,7 +2175,7 @@ Mark  9:7   165
 Mark  9:8   165
 Mark  9:9   165
 ---- John Is Elijah (Mark)
-|  jesus peter james-son-of-zebedee john-the-theologian disciples multitude scribes
+|  jesus peter james,-son-of-zebedee john-the-theologian disciples multitude scribes
 || scribes elijah john-the-forerunner
 > john-is-elijah-matthew john-is-more-than-a-prophet
 Mark  9:10  166
@@ -2310,7 +2310,7 @@ Mark 10:26  172
 
 Mark 10:27  172
 ---- Cost of Discipleship
-|  jesus disciples peter the-twelve james-son-of-zebedee john-the-theologian
+|  jesus disciples peter the-twelve james,-son-of-zebedee john-the-theologian
 || jerusalem chief-priests scribes gentiles god
 > servant-of-all-matthew
 Mark 10:23  173
@@ -2524,7 +2524,7 @@ Mark 12:42  185
 Mark 12:43  185
 Mark 12:44  185
 ---- Little Apocalypse (Mark)
-|  jesus disciples multitude temple mount-of-olives peter james-son-of-zebedee john-the-theologian andrew chief-priests scribes
+|  jesus disciples multitude temple mount-of-olives peter james,-son-of-zebedee john-the-theologian andrew chief-priests scribes
 || abomination-of-desolation daniel judea god false-prophets angels fig-tree
 > little-apocalypse-matthew little-apocalypse-luke
 Mark 13:1   186
@@ -2590,7 +2590,7 @@ Mark 14:7   191
 Mark 14:8   191
 Mark 14:9   191
 ---- Last Supper (Mark)
-|  jesus the-twelve judas-iscariot chief-priests two-disciples man-with-water master-of-the-house mount-of-olives gethsemane peter james-son-of-zebedee john-the-theologian
+|  jesus the-twelve judas-iscariot chief-priests two-disciples man-with-water master-of-the-house mount-of-olives gethsemane peter james,-son-of-zebedee john-the-theologian
 || galilee rooster god
 > holy-week-thursday-composite last-supper-luke
 Mark 14:10  192
@@ -2643,7 +2643,7 @@ Mark 14:40  192
 Mark 14:41  192
 Mark 14:42  192
 ---- Betrayal (Mark)
-|  jesus peter james-son-of-zebedee john-the-theologian judas-iscariot officers malchus mark high-priest chief-priests elders scribes sanhedrin false-witnesses high-priest's-maid rooster high-priest's-household pilate
+|  jesus peter james,-son-of-zebedee john-the-theologian judas-iscariot officers malchus mark high-priest chief-priests elders scribes sanhedrin false-witnesses high-priest's-maid rooster high-priest's-household pilate
 || temple god
 > holy-week-thursday-composite betrayal-luke
 Mark 14:43  193
@@ -2733,7 +2733,7 @@ Mark 15:14  194
 Mark 15:15  194
 ---- Crucifixion
 |  jesus officers multitude longinus women-disciples mary-magdalene mary salome galilee jerusalem
-|| elijah james-brother-of-the-lord joses-brother-of-the-lord
+|| elijah james,-brother-of-the-lord joses,-brother-of-the-lord
 > handing-over-and-crucifixion-luke handing-over-and-crucifixion-john
 Mark 15:22  197
 Mark 15:25  197
@@ -2751,7 +2751,7 @@ Mark 15:40  197
 Mark 15:41  197
 ---- Resurrection (Mark)
 |  joseph-of-arimathaea pilot jesus longinus mary-magdalene mary salome peter resurrection-angel
-|| james-brother-of-the-lord joses-brother-of-the-lord disciples peter galilee
+|| james,-brother-of-the-lord joses,-brother-of-the-lord disciples peter galilee
 > holy-week-great-and-holy-saturday resurrection-luke resurrection-john
 Mark 15:42  90007
 Mark 15:43  90007, 199
@@ -3126,7 +3126,7 @@ Luke  4:42  219
 Luke  4:43  219
 Luke  4:44  219
 ---- Miraculous Catch
-|  jesus multitude sea-of-galilee peter multitude andrew zebedee james-son-of-zebedee john-the-theologian
+|  jesus multitude sea-of-galilee peter multitude andrew zebedee james,-son-of-zebedee john-the-theologian
 Luke  5:1   220
 Luke  5:2   220
 Luke  5:3   220
@@ -3221,7 +3221,7 @@ Luke  6:9   225, 90009
 Luke  6:10  225, 90009
 Luke  6:11       90009
 ---- Twelve Apostles (Luke)
-|  jesus disciples the-twelve peter andrew james-son-of-zebedee john-the-theologian philip bartholomew matthew thomas james-son-of-alphaeus thaddaeus simon-the-zealot judas-iscariot multitude judea jerusalem tyre-and-sidon diseases demons
+|  jesus disciples the-twelve peter andrew james,-son-of-zebedee john-the-theologian philip bartholomew matthew thomas james,-son-of-alphaeus thaddaeus simon-the-zealot judas-iscariot multitude judea jerusalem tyre-and-sidon diseases demons
 || god
 > instructions-to-the-twelve-freely-give twelve-apostles-mark
 Luke  6:12  226
@@ -3458,7 +3458,7 @@ Luke  8:39  241, 90011
 
 Luke  8:40       90011
 ---- Two Healings (Luke)
-|  jesus disciples jairus jairus'-daughter veronica peter jairus'-servant john-the-theologian james-son-of-zebedee
+|  jesus disciples jairus jairus'-daughter veronica peter jairus'-servant john-the-theologian james,-son-of-zebedee
 > two-healings-matthew healing-jairus-daughter healing-a-woman healing-a-noblemans-son
 Luke  8:41  242
 Luke  8:42  242
@@ -3544,7 +3544,7 @@ Luke  9:25  247
 Luke  9:26  247
 Luke  9:27  247
 ---- Transfiguration (Luke)
-|  jesus peter john-the-theologian james-son-of-zebedee moses elijah god
+|  jesus peter john-the-theologian james,-son-of-zebedee moses elijah god
 || jerusalem
 > transfiguration-matthew transfiguration-mark
 Luke  9:28  248
@@ -3587,7 +3587,7 @@ Luke  9:48  250
 Luke  9:49  250
 Luke  9:50  250
 ---- Rebuke of James and John
-|  jesus john-the-theologian samaria james-son-of-zebedee discipls
+|  jesus john-the-theologian samaria james,-son-of-zebedee discipls
 || one-casting-out-demons jerusalem elijah god
 Luke  9:49  251
 
@@ -5799,7 +5799,7 @@ John 20:29  393
 John 20:30  393
 John 20:31  393
 ---- Breakfast on the Beach
-|  jesus disciples peter thomas nathanael john-the-theologian james-son-of-zebedee fish bread sea
+|  jesus disciples peter thomas nathanael john-the-theologian james,-son-of-zebedee fish bread sea
 || cana galilee
 John 21:1   396
 John 21:2   396
@@ -5853,8 +5853,6 @@ John 21:23  397
 John 21:24  397
 John 21:25  397
 ---- Holy Week: Monday, Bridegroom Matins
-|  jesus john john-as-a-prophet god
-|| disciples chief-priests elders men multitude  two-sons son tax-collectors prostitutes
 Matt 21:18  92
 Matt 21:19  92
 
@@ -5895,8 +5893,6 @@ Matt 21:42  92
 
 Matt 21:43  92 "
 ---- Holy Week: Monday, Presanctified Liturgy
-|  jesus  daniel-the-prophet
-|| disciples false-prophets  child nursing-mothers false-christs son-of-man angels
 Matt 24:3   107
 
 Matt 24:4   107
@@ -5936,8 +5932,6 @@ Matt 24:33  107
 Matt 24:34  107
 Matt 24:35  107 "
 ---- Holy Week: Tuesday, Bridegroom Matins
-|  god caesar moses abraham isaac david lord jesus christ zachariah
-|| Pharisees disciples Herodians Teacher  hypocrites  Sadducees brother children seven-brothers offspring gods-angels woman wife multitudes neighbor lawyer prophets enemies son servant masters hypocrites widow son-of-gehenna blind-guides blind-fools blind-pharisee serpents offspring-of-vipers
 Matt 22:15  99
 Matt 22:16  99
 Matt 22:17  99
@@ -6044,8 +6038,6 @@ Matt 23:37  99
 Matt 23:38  99
 Matt 23:39  99
 ---- Holy Week: Tuesday, Presanctified Liturgy
-|  noah lord jesus
-|| angels-of-heaven father son-of-man women master-of-the-house wise-servant evil-servant fellow-servants drunkards hypocrites ten-virgins bridegroom virgins foolish man faithful-servant slothful-servant unprofitable-servant holy-angels shepherd king devil disciples
 "Matt 24:36 111
 
 Matt 24:37 111
@@ -6135,8 +6127,6 @@ Matt 25:46 111
 Matt 26:1  111
 Matt 26:2  111
 ---- Holy Week: Wednesday, Bridegroom Matins
-|  lazarus philip jesus christ isaiah-the-prophet lord
-|| multitude pharisees greek servant prince father
 John 12:17  365
 John 12:18  365
 John 12:19  365
@@ -6182,8 +6172,6 @@ John 12:48  365
 John 12:49  365
 John 12:50  365
 ---- Holy Week: Wednesday, Presanctified Liturgy
-|  jesus simon-the-leper judas-iscariot
-|| disciples chief-priests woman
 > annointing-by-mary-of-bethany annointing-triumphal-entry
 Matt 26:6   117
 Matt 26:7   117
@@ -6200,8 +6188,6 @@ Matt 26:15  117
   you?" They
 Matt 26:16  117
 ---- Holy Week: Thursday, Bridegroom Matins
-|  judas satan iscariot peter john jesus god simon
-|| chief-priests scribes captains multitude master-of-the-house disciples teacher  twelve-apostles son-of-man benefactors father twelve-tribes  brothers transgressors
 Luke 22:1   314
 Luke 22:2   314
 Luke 22:3   314
@@ -6257,8 +6243,6 @@ Luke 22:38  314
   swords." He
 Luke 22:39  314
 ---- Holy Week: Thursday, Composite
-|  caiaphas jesus simon-the-leper Judas-Iscariot simon-peter lord peter Judas
-|| chief-priests scribes elders high-priest people woman disciples  woman poor the-twelve tweve-disciples father servant shepherd two-sons-of -zebedee angel spirit sinners great-multitude rabbi
 > last-supper-mark last-supper-luke betrayal-mark betrayal-luke
 Matt 26:2   116
 
@@ -6805,8 +6789,6 @@ Matt 27:52  123
 Matt 27:53  123
 Matt 27:54  123
 ---- Holy Week: Friday, Passion Gospels № 8
-|  jesus god christ
-|| acquaintances women criminals father peopple rulers christ-of-god soldiers king-of-jews spirit cnturion righteous-man multitudes
 Luke 23:32  317
 Luke 23:33  317
 
@@ -6831,8 +6813,6 @@ Luke 23:47  317
 Luke 23:48  317
 Luke 23:49  317
 ---- Holy Week: Friday, Passion Gospels № 9
-|  mary-the-wife-of-clopas mary-magdalene pilate jesus
-|| woman son disciple jews soldiers mother
 John 19:25  388
 John 19:26  388
 John 19:27  388
@@ -6851,8 +6831,6 @@ John 19:35  388
 John 19:36  388
 John 19:37  388
 ---- Holy Week: Friday, Passion Gospels № 10
-|  joseph-of-arimathaea pilate jesus joseph mary-magdalene mary
-|| centurion mother-of-joses
 Mark 15:43  198
 Mark 15:44  198
 Mark 15:45  198
@@ -6860,8 +6838,6 @@ Mark 15:45  198
 Mark 15:46  198
 Mark 15:47  198
 ---- Holy Week: Friday, Passion Gospels № 11
-|  joseph-of-arimathaea pilate jesus nicodemus
-|| jews
 John 19:38  390
   permission. He
 John 19:39  390
@@ -6869,8 +6845,6 @@ John 19:40  390
 John 19:41  390
 John 19:42  390
 ---- Holy Week: Friday, Passion Gospels № 12
-|  pilate
-|| chief-priests pharisees disciples people guard
 Matt 27:62  124
 Matt 27:63  124
 Matt 27:64  124
@@ -6879,8 +6853,6 @@ Matt 27:65  124
 
 Matt 27:66  124
 ---- Holy Week: Friday, 1st Hour
-|  jesus pontius-pilate judas jeremiah-the-prophet christ barabbas  simon
-|| chief-priests Pontius Pilate governor  elders righteous-man wife multitudes governor children  soldiers man-of-Cyrene  king-of-the-jews robbers scribes king-of-israel
 Matt 27:1   119
 Matt 27:2   119
 
@@ -6961,8 +6933,6 @@ Matt 27:54  119
 Matt 27:55  119
 Matt 27:56  119
 ---- Holy Week: Friday, 3rd Hour
-|  christ elijah jesus mary mary-magdalene joses salome
-|| soldiers king-of-the-jews simon-of-cyrene father-of-alexander robbers transgressors chief-priests king-of-israel centurion son-of-god women
 Mark 15:16  196
 Mark 15:17  196
 Mark 15:18  196
@@ -7110,8 +7080,6 @@ John 19:35  386, 387
 John 19:36  386
 John 19:37  386
 ---- Holy Week: Friday, Composite
-|  pontius-pilate judas jesus jeremiah-the-prophet barabbas christ Elijah lord mary-magdalene mary-the-mother-of-james-joses mother-of-the-sons-of-zebedee joseph
-|| chief-priests elders governor children-of-israel king-of-the-jews prisoner wife righteous-man  multitudes righteous-person children governors-soldiers man-of -cyrene robbers criminals scribes pharasies son-of-god soldiers king-of-israel son-of-god mother of the sons of Zebedee mother of James and Joses
 Matt 27:1   120
 Matt 27:2   120
 
@@ -7217,8 +7185,6 @@ Matt 27:59  120
 Matt 27:60  120
 Matt 27:61  120
 ---- Holy Week: Great and Holy Saturday
-|  mary-magdalene mary lord jesus
-|| angel guards dead-man woman disciples elders brothers soldiers chief-priests jews governors father son holy-spirit
 > resurrection-mark resurrection-luke resurrection-john
 Matt 28:1   125
 Matt 28:2   125
