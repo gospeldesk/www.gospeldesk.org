@@ -23,58 +23,58 @@
   {
     "slug": "abijah",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 1,
+    "y": 82,
+    "bg": "#AAA"
   },
   {
     "slug": "abiud",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 1,
+    "y": 74,
+    "bg": "#AAA"
   },
   {
     "slug": "abraham",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 1,
+    "y": 42,
+    "bg": "#AAA"
   },
   {
     "slug": "achim",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 1,
+    "y": 50,
+    "bg": "#AAA"
   },
   {
     "slug": "acquaintances",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 85,
+    "y": 108,
+    "bg": "#AAA"
   },
   {
     "slug": "adversaries",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 127,
+    "y": 102,
+    "bg": "#AAA"
   },
   {
     "slug": "ahaz",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 1,
+    "y": 58,
+    "bg": "#AAA"
   },
   {
     "slug": "amminadab",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 1,
+    "y": 66,
+    "bg": "#AAA"
   },
   {
     "slug": "amon",
@@ -92,14 +92,14 @@
   },
   {
     "slug": "angelic-host",
-    "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "scale": 2,
+    "x": 56,
+    "y": 41,
+    "bg": "#AAA"
   },
   {
     "slug": "angels",
-    "scale": 1,
+    "scale": 2,
     "x": null,
     "y": null,
     "bg": ""
@@ -498,7 +498,7 @@
   },
   {
     "slug": "dream-angel",
-    "scale": 1,
+    "scale": 2,
     "x": null,
     "y": null,
     "bg": ""
@@ -617,7 +617,7 @@
   },
   {
     "slug": "gabriel",
-    "scale": 1,
+    "scale": 2,
     "x": null,
     "y": null,
     "bg": ""
@@ -680,7 +680,7 @@
   },
   {
     "slug": "god",
-    "scale": 1,
+    "scale": 2,
     "x": null,
     "y": null,
     "bg": ""
@@ -785,7 +785,7 @@
   },
   {
     "slug": "holy-spirit",
-    "scale": 1,
+    "scale": 2,
     "x": null,
     "y": null,
     "bg": ""
@@ -1653,7 +1653,7 @@
   },
   {
     "slug": "resurrection-angel",
-    "scale": 1,
+    "scale": 2,
     "x": null,
     "y": null,
     "bg": ""
@@ -2052,7 +2052,7 @@
   },
   {
     "slug": "tomb-angels",
-    "scale": 1,
+    "scale": 2,
     "x": null,
     "y": null,
     "bg": ""
