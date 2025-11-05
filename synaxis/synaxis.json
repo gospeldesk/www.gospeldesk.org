@@ -268,9 +268,9 @@
   {
     "slug": "brothers-of-the-lord",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 25,
+    "y": 51,
+    "bg": "#AAA"
   },
   {
     "slug": "caesar-augustus",
@@ -548,9 +548,9 @@
   {
     "slug": "elijah",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 98,
+    "y": 34,
+    "bg": "#AAA"
   },
   {
     "slug": "eliud",
@@ -926,23 +926,23 @@
   {
     "slug": "jesus'-brothers",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 33,
+    "y": 52,
+    "bg": "#AAA"
   },
   {
     "slug": "jesus'-friends",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 49,
+    "y": 52,
+    "bg": "#AAA"
   },
   {
     "slug": "jesus'-sisters",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 41,
+    "y": 52,
+    "bg": "#AAA"
   },
   {
     "slug": "jewish-leaders",
@@ -989,9 +989,9 @@
   {
     "slug": "john's-disciples",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 127,
+    "y": 46,
+    "bg": "#AAA"
   },
   {
     "slug": "joram",
@@ -1367,9 +1367,9 @@
   {
     "slug": "moses",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 56,
+    "y": 34,
+    "bg": "#AAA"
   },
   {
     "slug": "mother",
