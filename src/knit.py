@@ -42,7 +42,7 @@ class Pericope:
             return
         self.lines.append(line)
         if line.startswith('>'):
-            self.insert_at = 1
+            self.insert_after = 1
 
     def flush(self):
         direct, indirect = by_slug.get(self.slug, ('', ''))
