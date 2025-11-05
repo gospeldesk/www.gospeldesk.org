@@ -340,7 +340,7 @@ function draw(container) {
     e.stopPropagation(); // otherwise doc.mousedown swallows the click
   }
   button.onclick = function() {
-    let content = 'slug,scale,x,y,bg\n';
+    let content = '"slug","scale","x","y","bg"\n';
     Array.from(document.getElementsByClassName('person')).forEach((el) => {
       var person = el.dataset;
       var base = JSON.parse(person.blob);

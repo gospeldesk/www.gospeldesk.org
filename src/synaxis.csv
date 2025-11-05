@@ -1,4 +1,4 @@
-slug,scale,x,y,bg
+"slug","scale","x","y","bg"
 "a-pharisee","1","","",""
 "a-ruler-of-the-pharisees","1","","",""
 "a-ruler-of-the-pharisees'-guest","1","","",""
@@ -195,7 +195,6 @@ slug,scale,x,y,bg
 "matthew","1","29","94","#AAA"
 "money-changers","1","","",""
 "moses","1","56","34","#AAA"
-"mother","1","","",""
 "mount-of-olives","1","","",""
 "multitude","1","","",""
 "mute-man","1","","",""
