@@ -218,10 +218,10 @@ class Pericope(object):
             self.flush_paragraph()
         elif line.startswith('>'):
             self.related = line[1:].strip().split()
+        elif line.startswith('| '):
+            self.direct = line[2:].split()
         elif line.startswith('|| '):
             self.indirect = line[3:].split()
-        elif line.startswith('|  '):
-            self.direct = line[3:].split()
         elif line.startswith('  '):
             splitter = line.strip()
             splitter = splitter.replace('" ', '” ')

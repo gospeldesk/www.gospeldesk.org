@@ -1,6 +1,6 @@
 ---- Genealogy and Birth
 > genealogy birth-and-shepherds
-|  jesus david abraham isaac judah perez zerah tamar hezron ram amminadab nahshon salmon boaz rahab obed ruth jesse solomon bathsheba rehoboam abijah asa jehoshaphat joram uzziah jotham ahaz hezekiah manasseh amon josiah jechoniah jechoniah's-brothers babylon shealtiel zerubbabel abiud eliakim azor zadok achim eliud eleazar matthan jacob joseph mary holy-spirit dream-angel
+| jesus david abraham isaac judah perez zerah tamar hezron ram amminadab nahshon salmon boaz rahab obed ruth jesse solomon bathsheba rehoboam abijah asa jehoshaphat joram uzziah jotham ahaz hezekiah manasseh amon josiah jechoniah jechoniah's-brothers babylon shealtiel zerubbabel abiud eliakim azor zadok achim eliud eleazar matthan jacob joseph mary holy-spirit dream-angel
 || god isaiah
 Matt  1:1   1
 
@@ -37,7 +37,7 @@ Matt  1:23  1, 2
 Matt  1:24  1, 2
 Matt  1:25  1, 2
 ---- Wise Men
-|  jesus bethlehem judea herod wise-men east jerusalem chief-priests scribes star mary dream-angel
+| jesus bethlehem judea herod wise-men east jerusalem chief-priests scribes star mary dream-angel
 || star isaiah princes-of-judah
 Matt  2:1   3
 Matt  2:2   3
@@ -56,7 +56,7 @@ Matt  2:11  3
 
 Matt  2:12  3
 ---- Holy Innocents
-|  dream-angel joseph jesus mary egypt herod holy-innocents bethlehem israel galilee nazareth
+| dream-angel joseph jesus mary egypt herod holy-innocents bethlehem israel galilee nazareth
 || wise-men god isaiah  jeremiah ramah rachel archelaus
 Matt  2:13  4
 
@@ -75,7 +75,7 @@ Matt  2:22  4
 Matt  2:23  4
 ---- John the Forerunner (Matthew)
 > john-the-forerunner-mark john-the-forerunner-luke
-|  john-the-forerunner judea jerusalem jordan pharisees sadducees
+| john-the-forerunner judea jerusalem jordan pharisees sadducees
 || isaiah god abraham stones jesus holy-spirit
 Matt  3:1   5, 90001
 Matt  3:2   5, 90001
@@ -94,7 +94,7 @@ Matt  3:11  5, 90001
 Matt  3:12     90001
 ---- Baptism
 > john-imprisoned-baptism jesus-begins-his-ministry
-|  jesus galilee jordan john-the-forerunner holy-spirit god
+| jesus galilee jordan john-the-forerunner holy-spirit god
 Matt  3:13  6
 Matt  3:14  6
 
@@ -104,7 +104,7 @@ Matt  3:16  6
 Matt  3:17  6
 ---- Temptation (Matthew)
 > jesus-begins-his-ministry temptation-luke
-|  jesus holy-spirit satan jerusalem temple angels
+| jesus holy-spirit satan jerusalem temple angels
 || stones god
 Matt  4:1   7
 Matt  4:2   7
@@ -125,7 +125,7 @@ Matt  4:10  7
 Matt  4:11  7
 ---- Jesus Begins to Preach
 > jesus-begins-his-ministry
-|  jesus galilee nazareth capernaum zebulun naphtali
+| jesus galilee nazareth capernaum zebulun naphtali
 || john-the-forerunner  isaiah
 Matt  4:12  8
 Matt  4:13  8
@@ -136,7 +136,7 @@ Matt  4:16  8
 Matt  4:17  8
 ---- Fishers of Men (Matthew)
 > fishers-of-men-mark
-|  jesus sea-of-galilee peter andrew james,-son-of-zebedee john-the-theologian zebedee galilee syria demons diseased
+| jesus sea-of-galilee peter andrew james,-son-of-zebedee john-the-theologian zebedee galilee syria demons diseased
 || prophets god
 Matt  4:18  9, 90002
 Matt  4:19  9, 90002
@@ -149,7 +149,7 @@ Matt  4:23  9, 90002
 Matt  4:24     90002
 ---- Sermon on the Mount: Beatitudes; Salt of the Earth
 > sermon-on-the-plain-beatitudes
-|  multitude galilee decapolis jerusalem judea jordan jesus disciples
+| multitude galilee decapolis jerusalem judea jordan jesus disciples
 || god prophets
 Matt  4:25  10, 11
 Matt  5:1   10, 11
@@ -170,7 +170,7 @@ Matt  5:12  10, 11
 Matt  5:13  10"
 ---- Sermon on the Mount: Light of the World; Law and Prophets
 > farmer-explained-lamp lamp-mother-and-brothers
-|  jesus multitude disciples
+| jesus multitude disciples
 || men law prophets
 "Matt  5:14  12
 Matt  5:15  12
@@ -180,7 +180,7 @@ Matt  5:17  12
 Matt  5:18  12
 Matt  5:19  12"
 ---- Sermon on the Mount: Righteousness Exceeding the Pharisees
-|  jesus multitude disciples
+| jesus multitude disciples
 || scribes pharisees
 "Matt  5:20  13
 
@@ -192,7 +192,7 @@ Matt  5:24  13
 Matt  5:25  13
 Matt  5:26  13"
 ---- Sermon on the Mount: Adultery; Divorce
-|  jesus multitude disciples
+| jesus multitude disciples
 Matt  5:27  14
 Matt  5:28  14
 Matt  5:29  14
@@ -201,7 +201,7 @@ Matt  5:30  14
 Matt  5:31  14
 Matt  5:32  14"
 ---- Sermon on the Mount: Swearing; Resistance
-|  jesus multitude disciples
+| jesus multitude disciples
 || god jerusalem
 Matt  5:33  15
 Matt  5:34  15
@@ -215,7 +215,7 @@ Matt  5:40  15
 Matt  5:41  15"
 ---- Sermon on the Mount: Love Your Enemies
 > sermon-on-the-plain-woes sermon-on-the-plain-love-your-enemies
-|  jesus multitude disciples
+| jesus multitude disciples
 || god sinners
 "Matt  5:42  16
 
@@ -227,7 +227,7 @@ Matt  5:47  16
 Matt  5:48  16"
 ---- Sermon on the Mount: Almsgiving; Prayer
 > prayer
-|  jesus multitude disciples
+| jesus multitude disciples
 || god hypocrites gentiles satan
 Matt  6:1   17
 Matt  6:2   17
@@ -245,7 +245,7 @@ Matt  6:12  17
 Matt  6:13  17"
 ---- Sermon on the Mount: Forgiveness; Fasting; Treasure
 > treasure-watchfulness
-|  jesus multitude disciples
+| jesus multitude disciples
 || god hypocrites
 Matt  6:14  18
 Matt  6:15  18
@@ -258,7 +258,7 @@ Matt  6:19  18
 Matt  6:20  18
 Matt  6:21  18"
 ---- Sermon on the Mount: Seek First the Kingdom
-|  jesus multitude disciples
+| jesus multitude disciples
 || god mammon solomon birds lilies gentiles
 Matt  6:22  19
 Matt  6:23  19
@@ -277,7 +277,7 @@ Matt  6:32  19
 Matt  6:33  19"
 ---- Sermon on the Mount: Don't Be Anxious
 > dont-be-anxious
-|  jesus multitude disciples
+| jesus multitude disciples
 || god gentiles
 Matt  6:31  20
 Matt  6:32  20
@@ -289,7 +289,7 @@ Matt  7:10  20
 Matt  7:11  20"
 ---- Sermon on the Mount: Don't Judge
 > sermon-on-the-plain-dont-judge
-|  jesus multitude disciples
+| jesus multitude disciples
 Matt  7:1   21
 Matt  7:2   21
 Matt  7:3   21
@@ -301,7 +301,7 @@ Matt  7:6   21
 Matt  7:7   21
 Matt  7:8   21"
 ---- Sermon on the Mount: Golden Rule; Narrow Gate; False Prophets
-|  jesus multitude disciples
+| jesus multitude disciples
 || law prophets false-prophets god
 "Matt  7:12      22
 
@@ -320,7 +320,7 @@ Matt  7:22  24
 Matt  7:23  24"
 ---- Sermon on the Mount: Rock and Sand; Healing a Leper
 > leper-mark sermon-on-the-plain-rock-and-sand leper-luke
-|  jesus multitude disciples leper leper's-leprosy
+| jesus multitude disciples leper leper's-leprosy
 || scribes priests moses
 Matt  7:24  25
 Matt  7:25  25
@@ -339,7 +339,7 @@ Matt  8:3   25
 Matt  8:4   25
 ---- Centurion (Matthew)
 > centurion-luke
-|  jesus capernaum centurion centurion's-servant multitude disciples
+| jesus capernaum centurion centurion's-servant multitude disciples
 || centurion's-soldiers israel
 Matt  8:5   26
 Matt  8:6   26
@@ -356,7 +356,7 @@ Matt  8:12  26
 Matt  8:13  26
 ---- Peter's Mother-in-law (Matthew)
 > peters-mother-in-law-mark peters-mother-in-law-luke foxes-have-holes
-|  jesus peter peter's-mother-in-law peter's-mother-in-law's-fever diseased demons multitude scribe disciple disciples
+| jesus peter peter's-mother-in-law peter's-mother-in-law's-fever diseased demons multitude scribe disciple disciples
 || isaiah
 Matt  8:14  27
 Matt  8:15  27
@@ -375,7 +375,7 @@ Matt  8:22  27
 Matt  8:23  27
 ---- Rebuking the Storm (Matthew)
 > rebuking-the-storm-mark rebuking-the-storm-luke
-|  jesus disciples sea-of-galilee storm
+| jesus disciples sea-of-galilee storm
 Matt  8:23  28
 Matt  8:24  28
 Matt  8:25  28
@@ -385,7 +385,7 @@ Matt  8:26  28
 Matt  8:27  28
 ---- Gergesene Demoniacs
 > gadarene-demoniac-mark gadarene-demoniac-luke
-|  jesus gergesenes gergesene-demoniac legion swine swineherds
+| jesus gergesenes gergesene-demoniac legion swine swineherds
 || god
 Matt  8:28  29
 Matt  8:29  29
@@ -401,7 +401,7 @@ Matt  8:34  29
 Matt  9:1   29
 ---- Paralytic (Matthew)
 > paralytic-mark paralytic-luke
-|  jesus nazareth paralytic paralytic's-friends scribes multitude
+| jesus nazareth paralytic paralytic's-friends scribes multitude
 || god
 Matt  9:1   30
 Matt  9:2   30
@@ -416,7 +416,7 @@ Matt  9:7   30
 Matt  9:8   30
 ---- Levi (Matthew)
 > levi-mark levi-luke
-|  jesus matthew sinners disciples pharisees
+| jesus matthew sinners disciples pharisees
 Matt  9:9   31
   me." He
 
@@ -427,7 +427,7 @@ Matt  9:12  31
 Matt  9:13  31
 ---- New Wineskins (Matthew)
 > new-wineskins-mark new-wineskins-luke
-|  jesus disciples john-the-forerunner's-disciples
+| jesus disciples john-the-forerunner's-disciples
 || pharisees
 Matt  9:14  32
 
@@ -436,7 +436,7 @@ Matt  9:16  32
 Matt  9:17  32
 ---- Two Healings (Matthew)
 > healing-jairus-daughter healing-a-woman two-healings-luke healing-a-noblemans-son
-|  jesus disciples jairus jairus'-daughter veronica jairus'-household
+| jesus disciples jairus jairus'-daughter veronica jairus'-household
 Matt  9:18  33
 
 Matt  9:19  33
@@ -453,7 +453,7 @@ Matt  9:25  33
 Matt  9:26  33
 ---- Two Blind Men; Mute Man
 > two-blind-men blind-bartimaeus a-certain-blind-man
-|  jesus two-blind mute-man mute-man's-demon multitude pharisees
+| jesus two-blind mute-man mute-man's-demon multitude pharisees
 || david satan demons
 Matt  9:27  34
 
@@ -476,7 +476,7 @@ Matt  9:34  34
 Matt  9:35  34
 ---- Instructions to the Twelve: Freely Give
 > twelve-apostles-matthew twelve-apostles-mark sending-the-twelve-mark twelve-apostles-luke sending-the-twelve-luke
-|  jesus multitude disciples the-twelve peter andrew james,-son-of-zebedee john-the-theologian philip bartholomew thomas matthew james,-son-of-alphaeus thaddaeus simon-the-zealot judas-iscariot
+| jesus multitude disciples the-twelve peter andrew james,-son-of-zebedee john-the-theologian philip bartholomew thomas matthew james,-son-of-alphaeus thaddaeus simon-the-zealot judas-iscariot
 || gentiles samaritans israel diseased demons alphaeus zebedee
 Matt  9:36  35
 Matt  9:37  35
@@ -493,7 +493,7 @@ Matt 10:7   35, 36
 Matt 10:8   35, 36"
 ---- Instructions to the Twelve: Shake the Dust
 > sending-the-twelve
-|  jesus the-twelve
+| jesus the-twelve
 || sodom-and-gomorrah
 "Matt 10:9   37
 Matt 10:10  37
@@ -503,7 +503,7 @@ Matt 10:13  37
 Matt 10:14  37
 Matt 10:15  37"
 ---- Instructions to the Twelve: Endure to the End
-|  jesus the-twelve
+| jesus the-twelve
 || holy-spirit god
 Matt 10:16  38
 Matt 10:17  38
@@ -515,7 +515,7 @@ Matt 10:21  38
 Matt 10:22  38"
 ---- Instructions to the Twelve: Don't Be Afraid
 > dont-be-afraid
-|  jesus the-twelve
+| jesus the-twelve
 || israel satan god
 "Matt 10:23  39
 
@@ -529,7 +529,7 @@ Matt 10:29  39
 Matt 10:30  39
 Matt 10:31  39"
 ---- Instructions to the Twelve: Not Peace But a Sword
-|  jesus the-twelve peter
+| jesus the-twelve peter
 || god twelve-tribes
 "Matt 10:32  40, 41
 Matt 10:33  40, 41
@@ -553,7 +553,7 @@ Matt 19:29      41
 Matt 19:30      41"
 ---- John Is Elijah (Matthew)
 > john-is-elijah-mark john-is-more-than-a-prophet
-|  john-the-forerunner jesus john-the-forerunner's-disciples diseased multitude
+| john-the-forerunner jesus john-the-forerunner's-disciples diseased multitude
 || law prophets elijah
 Matt 11:2   43
 Matt 11:3   43
@@ -575,7 +575,7 @@ Matt 11:14  43
 Matt 11:15  43"
 ---- Friend of Sinners (Matthew)
 > friend-of-sinners-luke
-|  john-the-forerunner jesus multitude
+| john-the-forerunner jesus multitude
 || sinners
 Matt 11:16  44
 Matt 11:17  44
@@ -584,7 +584,7 @@ Matt 11:19  44
 
 Matt 11:20  44
 ---- Woe to Chorazin
-|  jesus multitude chorazin bethsaida tyre-and-sidon capernaum sodom-and-gomorrah
+| jesus multitude chorazin bethsaida tyre-and-sidon capernaum sodom-and-gomorrah
 || god
 Matt 11:20  45
 
@@ -596,7 +596,7 @@ Matt 11:24  45
 Matt 11:25  45
 Matt 11:26  45"
 ---- Easy Yoke
-|  jesus
+| jesus
 || god
 "Matt 11:27  46
 
@@ -605,7 +605,7 @@ Matt 11:29  46
 Matt 11:30  46
 ---- Lord of the Sabbath (Matthew)
 > lord-of-the-sabbath-mark lord-of-the-sabbath-luke
-|  jesus disciples pharisees man-with-a-withered-hand
+| jesus disciples pharisees man-with-a-withered-hand
 || david god temple law
 Matt 12:1   47
 Matt 12:2   47
@@ -628,7 +628,7 @@ Matt 12:13  48
   hand." He
 ---- By Beelzebul (Matthew)
 > a-great-multitude a-house-divided by-beelzebul-luke
-|  jesus pharisees multitude blind-and-mute-man blind-and-mute-man's-demon
+| jesus pharisees multitude blind-and-mute-man blind-and-mute-man's-demon
 || isaiah holy-spirit satan
 Matt 12:14  49
 
@@ -654,7 +654,7 @@ Matt 12:29  49
 Matt 12:30  49"
 ---- Blasphemy Against the Spirit
 > blasphemy-mother-brothers
-|  jesus pharisees multitude
+| jesus pharisees multitude
 || holy-spirit
 Matt 12:30  51
 Matt 12:31  51
@@ -667,7 +667,7 @@ Matt 12:36  51
 Matt 12:37  51
 ---- Demand for a Sign (Matthew)
 > demand-for-a-sign-luke yeast-of-the-pharisees-mark
-|  jesus scribes pharisees multitude
+| jesus scribes pharisees multitude
 || jonah ninevah queen-of-the-south solomon
 Matt 12:38  52
 
@@ -681,7 +681,7 @@ Matt 12:44  52
 Matt 12:45  52
 ---- Who Is My Mother?
 > blasphemy-mother-brothers lamp-mother-brothers
-|  jesus multitude mary jesus'-brothers one-presenting-the-lord's-mother-and-brothers disciples
+| jesus multitude mary jesus'-brothers one-presenting-the-lord's-mother-and-brothers disciples
 Matt 12:46  53
 Matt 12:47  53
 
@@ -694,7 +694,7 @@ Matt 13:2   53
 Matt 13:3   53 s/, saying, “Behold, a farmer went out to sow./.
 ---- Parable of the Farmer (Matthew)
 > parable-of-the-farmer-mark parable-of-the-farmer-luke
-|  jesus multitude
+| jesus multitude
 Matt 13:3   54
 Matt 13:4   54
 Matt 13:5   54
@@ -704,7 +704,7 @@ Matt 13:8   54
 Matt 13:9   54
 ---- Parable of the Farmer Explained (Matthew)
 > parable-of-the-farmer-explained-mark parable-of-the-farmer-luke
-|  jesus disciples
+| jesus disciples
 || multitude isaiah prophets
 Matt 13:10  55
 
@@ -727,7 +727,7 @@ Matt 13:22  55
 Matt 13:23  55
 ---- Parable of the Weeds, Etc.
 > parable-of-the-mustard-seed-mark mustard-seed-yeast-narrow-door
-|  jesus multitude disciples
+| jesus multitude disciples
 || isaiah angels wicked righteous satan
 Matt 13:24  56, 57
 Matt 13:25  56, 57
@@ -762,7 +762,7 @@ Matt 13:41      57,     59
 Matt 13:42      57,     59
 Matt 13:43      57,     59"
 ---- Parables of the Treasure, the Pearl, and the Net
-|  jesus disciples
+| jesus disciples
 || angels wicked righteous
 Matt 13:44  60
 
@@ -783,7 +783,7 @@ Matt 13:53  60
 Matt 13:54  60
 ---- A Prophet Without Honor (Matthew)
 > a-prophet-without-honor-mark a-prophet-without-honor-luke
-|  jesus nazareth
+| jesus nazareth
 || joseph mary james,-brother-of-the-lord joses,-brother-of-the-lord simon,-brother-of-the-lord judas,-brother-of-the-lord
 Matt 13:54  61
 Matt 13:55  61
@@ -793,7 +793,7 @@ Matt 13:57  61
 Matt 13:58  61
 ---- Beheading of John (Matthew)
 > beheading-of-john-mark john-imprisoned-baptism herod-perplexed-apostles-return
-|  king-herod john-the-forerunner herodias philip-the-tetrarch herodias'-daughter king-herod's-guests john's-disciples
+| king-herod john-the-forerunner herodias philip-the-tetrarch herodias'-daughter king-herod's-guests john's-disciples
 || jesus multitude
 Matt 14:1   62
 Matt 14:2   62
@@ -815,7 +815,7 @@ Matt 14:12  62
 Matt 14:13  62
 ---- Feeding of the Five Thousand (Matthew)
 > feeding-of-the-five-thousand-mark feeding-of-the-five-thousand-luke feeding-of-the-five-thousand-john
-|  jesus multitude diseased disciples
+| jesus multitude diseased disciples
 Matt 14:14  63
 Matt 14:15  63
 
@@ -832,7 +832,7 @@ Matt 14:21  63
 Matt 14:22  63
 ---- Walking on Water (Matthew)
 > walking-on-water-mark walking-on-water-john
-|  jesus disciples multitude sea-of-galilee peter
+| jesus disciples multitude sea-of-galilee peter
 || god
 Matt 14:22  64
 Matt 14:23  64
@@ -856,7 +856,7 @@ Matt 14:33  64
 Matt 14:34  64
 ---- Denouncing the Pharisees
 > conflict-with-the-pharisees
-|  jesus disciples gennesaret pharisees scribes multitude
+| jesus disciples gennesaret pharisees scribes multitude
 || jerusalem isaiah god
 Matt 14:35  65
 Matt 14:36  65
@@ -876,7 +876,7 @@ Matt 15:10  65
 Matt 15:11  65
 ---- Out of the Heart
 > conflict-with-the-pharisees
-|  jesus disciples peter
+| jesus disciples peter
 || pharisees god
 Matt 15:12  66
 
@@ -894,7 +894,7 @@ Matt 15:20  66
 Matt 15:21  66
 ---- Canaanite Woman
 > syrophoenician-woman
-|  jesus disciples tyre-and-sidon justa
+| jesus disciples tyre-and-sidon justa
 || berenice berenice's-demon david israel
 Matt 15:21  67
 Matt 15:22  67
@@ -911,14 +911,14 @@ Matt 15:27  67
 
 Matt 15:28  67
 ---- Healing Great Multitudes
-|  jesus galilee multitude diseased
+| jesus galilee multitude diseased
 || god israel
 Matt 15:29  68
 Matt 15:30  68
 Matt 15:31  68
 ---- Feeding of the Four Thousand
 > feeding-of-the-four-thousand-mark
-|  jesus disciples multitude
+| jesus disciples multitude
 Matt 15:32  69
 
 Matt 15:33  69
@@ -932,7 +932,7 @@ Matt 15:38  69
 
 Matt 15:39  69
 ---- Second Demand for a Sign
-|  jesus disciples pharisees sadducees
+| jesus disciples pharisees sadducees
 || jonah
 Matt 16:1   70
 
@@ -945,7 +945,7 @@ Matt 16:5   70
 Matt 16:6   70
 ---- Yeast of the Pharisees (Matthew)
 > yeast-of-the-pharisees-mark
-|  jesus disciples
+| jesus disciples
 || pharisees sadducees
 Matt 16:6   71
 
@@ -959,7 +959,7 @@ Matt 16:11  71
 Matt 16:12  71
 ---- Confession of Peter
 > confession-and-rebuke-of-peter-mark confession-of-peter-luke
-|  jesus caesarea-philippi disciples peter
+| jesus caesarea-philippi disciples peter
 || john-the-forerunner elijah jeremiah prophets god
 Matt 16:13  72, 73
 
@@ -974,7 +974,7 @@ Matt 16:18  72, 73
 Matt 16:19  72
 ---- Rebuke of Peter
 > confession-and-rebuke-of-peter-mark
-|  jesus disciples peter satan
+| jesus disciples peter satan
 || jerusalem elders chief-priests scribes god
 Matt 16:20  74
 
@@ -986,7 +986,7 @@ Matt 16:23  74
 Matt 16:24  74"
 ---- Take Up Your Cross (Matthew)
 > take-up-your-cross-mark take-up-your-cross-luke
-|  jesus disciples
+| jesus disciples
 || god angels
 Matt 16:24  75
 Matt 16:25  75
@@ -995,7 +995,7 @@ Matt 16:27  75
 Matt 16:28  75
 ---- Transfiguration (Matthew)
 > transfiguration-mark transfiguration-luke
-|  jesus peter james,-son-of-zebedee john-the-theologian moses elijah god
+| jesus peter james,-son-of-zebedee john-the-theologian moses elijah god
 Matt 17:1   76
 Matt 17:2   76
 
@@ -1012,7 +1012,7 @@ Matt 17:8   76
 Matt 17:9   76
 ---- Faithless Generation (Matthew)
 > faithless-generation-mark faithless-generation-luke
-|  jesus disciples multitude epileptic's-father epileptic epileptic's-demon galilee
+| jesus disciples multitude epileptic's-father epileptic epileptic's-demon galilee
 || scribes elijah john-the-forerunner
 Matt 17:10  77
 
@@ -1038,7 +1038,7 @@ Matt 17:23      78
   up." They
 ---- Fish Coin; Greatest
 > servant-of-all-mark stumbling greatest-in-the-kingdom divorce-stumbling
-|  jesus disciples capernaum tax-collectors sea-of-galilee fish ignatius
+| jesus disciples capernaum tax-collectors sea-of-galilee fish ignatius
 || angels god
 Matt 17:24      79
 
@@ -1066,7 +1066,7 @@ Matt 18:10  80
 Matt 18:11  80"
 ---- Parable of the Lost Sheep
 > divorce-and-children children-and-the-kingdom lost-sheep-lost-coin
-|  jesus disciples peter galilee jordan multitude little-children
+| jesus disciples peter galilee jordan multitude little-children
 || god
 "Matt 18:10  81
 Matt 18:11  81
@@ -1098,7 +1098,7 @@ Matt 19:13      82
 Matt 19:14      82
 Matt 19:15      82
 ---- Parable of the Ungrateful Servant
-|  jesus disciples
+| jesus disciples
 || god
 "Matt 18:23  83
 Matt 18:24  83
@@ -1117,7 +1117,7 @@ Matt 18:34  83
 Matt 18:35  83
 ---- Divorce (Matthew)
 > divorce-mark divorce-stumbling
-|  jesus disciples pharisees
+| jesus disciples pharisees
 || god moses
 Matt 19:3   84
 
@@ -1136,7 +1136,7 @@ Matt 19:11  84
 Matt 19:12  84
 ---- Rich Young Ruler (Matthew)
 > rich-young-ruler-mark rich-young-ruler-luke
-|  jesus disciples rich-young-ruler
+| jesus disciples rich-young-ruler
 || god
 Matt 19:16  85
 
@@ -1158,7 +1158,7 @@ Matt 19:25  85
 
 Matt 19:26  85
 ---- Parable of the Eleventh Hour
-|  jesus disciples
+| jesus disciples
 Matt 20:1   86
 Matt 20:2   86
 Matt 20:3   86
@@ -1180,7 +1180,7 @@ Matt 20:15  86
 Matt 20:16  86
 ---- Servant of All (Matthew)
 > cost-of-discipleship
-|  jesus jerusalem the-twelve salome james,-son-of-zebedee john-the-theologian
+| jesus jerusalem the-twelve salome james,-son-of-zebedee john-the-theologian
 || zebedee god
 Matt 20:17  87
 Matt 20:18  87
@@ -1203,7 +1203,7 @@ Matt 20:27  87
 Matt 20:28  87
 ---- Two Blind Men
 > two-blind-men-mute-man blind-bartimaeus a-certain-blind-man
-|  jesus disciples multitude jericho two-blind,-additional
+| jesus disciples multitude jericho two-blind,-additional
 || david
 Matt 20:29  88
 Matt 20:30  88
@@ -1217,7 +1217,7 @@ Matt 20:33  88
 Matt 20:34  88
 ---- Triumphal Entry (Matthew)
 > triumphal-entry-mark triumphal-entry-luke annointing-triumphal-entry
-|  jesus disciples bethsphage mount-of-olives two-disciples donkey donkey's-colt donkey's-owner multitude jerusalem chief-priests scribes little-children-in-the-temple temple bethany
+| jesus disciples bethsphage mount-of-olives two-disciples donkey donkey's-colt donkey's-owner multitude jerusalem chief-priests scribes little-children-in-the-temple temple bethany
 || zechariah david nazareth galilee
 Matt 21:1   89
 Matt 21:2   89
@@ -1240,7 +1240,7 @@ Matt 21:16  89
 Matt 21:17  89
 ---- Cleansing the Temple (Matthew)
 > cleansing-the-temple-mark cleansing-the-temple-luke cleansing-the-temple-john
-|  jesus temple money-changers diseased bethany fig-tree disciples
+| jesus temple money-changers diseased bethany fig-tree disciples
 Matt 21:12  90
 Matt 21:13  90
 
@@ -1258,7 +1258,7 @@ Matt 21:21      91
 Matt 21:22      91
 ---- By What Authority (Matthew)
 > by-what-authority-mark by-what-authority-luke
-|  jesus temple chief-priests elders
+| jesus temple chief-priests elders
 || john-the-forerunner
 Matt 21:23  93
 
@@ -1269,7 +1269,7 @@ Matt 21:26  93
 Matt 21:27  93"
   know." He
 ---- Parable of the Two Brothers
-|  jesus temple chief-priests elders
+| jesus temple chief-priests elders
 || sinners god john-the-forerunner
 "Matt 21:28  94
 Matt 21:29  94
@@ -1280,7 +1280,7 @@ Matt 21:31  94
 Matt 21:32  94"
 ---- Parable of the Wicked Tenants (Matthew)
 > parable-of-the-wicked-tenants-mark parable-of-the-wicked-tenants-luke
-|  jesus temple chief-priests elders
+| jesus temple chief-priests elders
 Matt 21:33  95
 
 "Matt 21:34  95
@@ -1297,7 +1297,7 @@ Matt 21:41  95
 
 Matt 21:42  95"
 ---- Cornerstone
-|  jesus temple chief-priests elders pharisees
+| jesus temple chief-priests elders pharisees
 || multitude
 Matt 21:43  96
 Matt 21:44  96
@@ -1305,7 +1305,7 @@ Matt 21:44  96
 Matt 21:45  96
 Matt 21:46  96
 ---- Parable of the Marriage Feast
-|  jesus temple chief-priests elders
+| jesus temple chief-priests elders
 Matt 22:1   97
 Matt 22:2   97
 Matt 22:3   97
@@ -1323,7 +1323,7 @@ Matt 22:13  97
 Matt 22:14  97
 ---- Taxes to Caesar (Matthew)
 > taxes-to-caesar-mark taxes-to-caesar-luke
-|  jesus temple pharisees pharisees'-disciples herodians
+| jesus temple pharisees pharisees'-disciples herodians
 || god caesar
 Matt 22:15  98
 Matt 22:16  98
@@ -1341,7 +1341,7 @@ Matt 22:21  98
 Matt 22:22  98
 ---- Marriage in the Resurrection (Matthew)
 > marriage-in-the-resurrection-mark marriage-in-the-resurrection-luke
-|  jesus temple sadduccees multitude
+| jesus temple sadduccees multitude
 || god moses angels abraham isaac jacob
 Matt 22:23  100
 Matt 22:24  100
@@ -1358,7 +1358,7 @@ Matt 22:32  100
 Matt 22:33  100
 ---- Wise Scribe (Matthew)
 > wise-scribe-mark good-samaritan
-|  jesus temple wise-scribe pharisees
+| jesus temple wise-scribe pharisees
 || god law prophets david holy-spirit
 Matt 22:35  101
 Matt 22:36  101
@@ -1380,7 +1380,7 @@ Matt 22:45  101 s/“If then David/If then David
 
 Matt 22:46  101
 ---- Call No Man Father
-|  jesus temple disciples multitude
+| jesus temple disciples multitude
 || scribes pharisees moses god
 Matt 23:1   102
 Matt 23:2   102
@@ -1396,7 +1396,7 @@ Matt 23:10  102
 Matt 23:11  102
 Matt 23:12  102"
 ---- Woe! Blind Fools!
-|  jesus temple
+| jesus temple
 || scribes pharisees god
 Matt 23:13  103
 
@@ -1411,7 +1411,7 @@ Matt 23:20  103
 Matt 23:21  103
 Matt 23:22  103"
 ---- Woe! Blind Guides!
-|  jesus temple
+| jesus temple
 || scribes pharisees
 Matt 23:23  104
 Matt 23:24  104
@@ -1422,7 +1422,7 @@ Matt 23:26  104
 Matt 23:27  104
 Matt 23:28  104"
 ---- Woe! Serpents!
-|  jesus temple
+| jesus temple
 || scribes pharisees prophets abel zachariah bachariah
 Matt 23:29  105
 Matt 23:30  105
@@ -1439,7 +1439,7 @@ Matt 23:38  105
 Matt 23:39  105
 ---- Little Apocalypse (Matthew)
 > little-apocalypse-mark little-apocalypse-luke treasure-watchfulness faithful-or-unfaithful-steward
-|  jesus disciples temple mount-of-olives
+| jesus disciples temple mount-of-olives
 || false-prophets abomination-of-desolation daniel judea angels fig-tree god noah
 Matt 24:1   106
 Matt 24:2   106
@@ -1501,7 +1501,7 @@ Matt 24:49            109
 Matt 24:50            109
 Matt 24:51            109"
 ---- Parable of the Ten Virgins
-|  jesus disciples
+| jesus disciples
 Matt 25:1   113
 Matt 25:2   113
 Matt 25:3   113
@@ -1519,7 +1519,7 @@ Matt 25:12  113
 "Matt 25:13  113"
 ---- Parable of the Talents
 > parable-of-the-minas
-|  jesus disciples
+| jesus disciples
 Matt 25:14  114
 Matt 25:15  114
 
@@ -1543,7 +1543,7 @@ Matt 25:28  114
 Matt 25:29  114
 Matt 25:30  114"
 ---- Last Judgment
-|  jesus disciples
+| jesus disciples
 || angels god satan demons
 Matt 25:31  115
 Matt 25:32  115
@@ -1568,7 +1568,7 @@ Matt 25:45  115
 Matt 25:46  115
 ---- John the Forerunner (Mark)
 > john-the-forerunner-matthew john-the-forerunner-luke
-|  jesus john-the-forerunner judea jerusalem
+| jesus john-the-forerunner judea jerusalem
 || isaiah holy-spirit
 Mark  1:1   127
 
@@ -1582,7 +1582,7 @@ Mark  1:7   127
 Mark  1:8   127
 ---- Jesus Begins His Ministry
 > baptism temptation-matthew jesus-begins-to-preach john-imprisoned-baptism temptation-luke
-|  jesus john-the-forerunner holy-spirit god satan angels galilee
+| jesus john-the-forerunner holy-spirit god satan angels galilee
 Mark  1:9   128, 129
 Mark  1:10  128, 129
 Mark  1:11  128, 129
@@ -1594,7 +1594,7 @@ Mark  1:14       129
 Mark  1:15       129
 ---- Fishers of Men (Mark)
 > fishers-of-men-matthew
-|  jesus sea-of-galilee peter andrew james,-son-of-zebedee john-the-theologian zebedee zebedee's-servants capernaum scribes
+| jesus sea-of-galilee peter andrew james,-son-of-zebedee john-the-theologian zebedee zebedee's-servants capernaum scribes
 Mark  1:16  130
 Mark  1:17  130
 Mark  1:18  130
@@ -1606,7 +1606,7 @@ Mark  1:21  130
 Mark  1:22  130
 ---- Unclean Spirit (Mark)
 > unclean-spirit-luke
-|  jesus capernaum man-with-an-unclean-spirit man-with-an-unclean-spirit's-demon galilee
+| jesus capernaum man-with-an-unclean-spirit man-with-an-unclean-spirit's-demon galilee
 || god
 Mark  1:23  131
 Mark  1:24  131
@@ -1618,7 +1618,7 @@ Mark  1:27  131
 Mark  1:28  131
 ---- Peter's Mother-in-law (Mark)
 > peters-mother-in-law-matthew peters-mother-in-law-luke
-|  jesus capernaum peter andrew james,-son-of-zebedee john-the-theologian peter's-mother-in-law peter's-mother-in-law's-fever diseased demons
+| jesus capernaum peter andrew james,-son-of-zebedee john-the-theologian peter's-mother-in-law peter's-mother-in-law's-fever diseased demons
 Mark  1:29  132
 Mark  1:30  132
 Mark  1:31  132
@@ -1630,7 +1630,7 @@ Mark  1:34  132
 Mark  1:35  132
 ---- Leper (Mark)
 > sermon-on-the-mount-rock-and-sand-healing-a-leper leper-luke
-|  jesus peter disciples galilee leper leper's-leprosy
+| jesus peter disciples galilee leper leper's-leprosy
 || priest moses
 Mark  1:35  90003, 133
 Mark  1:36  90003, 133
@@ -1652,7 +1652,7 @@ Mark  1:44  90003, 133
 Mark  1:45  90003
 ---- Paralytic (Mark)
 > paralytic-matthew paralytic-luke
-|  jesus disciples multitude capernaum paralytic paralytic's-friends scribes
+| jesus disciples multitude capernaum paralytic paralytic's-friends scribes
 || god
 Mark  2:1   134
 Mark  2:2   134
@@ -1672,7 +1672,7 @@ Mark  2:11  134
 Mark  2:12  134
 ---- Levi (Mark)
 > levi-matthew levi-luke
-|  jesus disciples multitude matthew sinners scribes pharisees
+| jesus disciples multitude matthew sinners scribes pharisees
 || alphaeus
 Mark  2:13  90004
 Mark  2:14  90004, 135
@@ -1684,7 +1684,7 @@ Mark  2:16  90004, 135
 Mark  2:17  90004, 135
 ---- New Wineskins (Mark)
 > new-wineskins-matthew new-wineskins-luke
-|  jesus john-the-forerunner's-disciples pharisees'-disciples
+| jesus john-the-forerunner's-disciples pharisees'-disciples
 || disciples pharisees
 Mark  2:18  136
 
@@ -1694,7 +1694,7 @@ Mark  2:21  136
 Mark  2:22  136
 ---- Lord of the Sabbath (Mark)
 > lord-of-the-sabbath-matthew lord-of-the-sabbath-luke
-|  jesus disciples pharisees man-with-a-withered-hand
+| jesus disciples pharisees man-with-a-withered-hand
 || david abiathar god temple
 Mark  2:23  137
 Mark  2:24  137
@@ -1716,7 +1716,7 @@ Mark  3:5   137
   hand." He
 ---- A Great Multitude
 > by-beelzebul-matthew
-|  jesus disciples pharisees herodians multitude galilee judea jerusalem idumea jordan tyre-and-sidon diseased demons
+| jesus disciples pharisees herodians multitude galilee judea jerusalem idumea jordan tyre-and-sidon diseased demons
 Mark  3:6   138
 
 Mark  3:7   138
@@ -1729,7 +1729,7 @@ Mark  3:11  138
 Mark  3:12  138
 ---- Twelve Apostles (Mark)
 > instructions-to-the-twelve-freely-give twelve-apostles-luke
-|  jesus disciples the-twelve peter andrew james,-son-of-zebedee john-the-theologian philip bartholomew matthew thomas james,-son-of-alphaeus thaddaeus simon-the-zealot judas-iscariot
+| jesus disciples the-twelve peter andrew james,-son-of-zebedee john-the-theologian philip bartholomew matthew thomas james,-son-of-alphaeus thaddaeus simon-the-zealot judas-iscariot
 || demons alphaeus zebedee
 Mark  3:13  139
 
@@ -1741,7 +1741,7 @@ Mark  3:18  139
 Mark  3:19  139 s/ Then he came into a house./
 ---- A House Divided
 > by-beelzebul-matthew by-beelzebul-luke
-|  jesus disciples multitude jesus'-friends scribes
+| jesus disciples multitude jesus'-friends scribes
 || jerusalem satan demons
 Mark  3:19  140 s/and Judas Iscariot, who also betrayed him. /
 Mark  3:20  140
@@ -1756,7 +1756,7 @@ Mark  3:26  140
 Mark  3:27  140"
 ---- Blasphemy; Mother and Brothers
 > blasphemy-against-the-spirit who-is-my-mother lamp-mother-brothers
-|  jesus disciples multitude mary jesus'-brothers jesus'-sisters
+| jesus disciples multitude mary jesus'-brothers jesus'-sisters
 || scribes holy-spirit god
 "Mark  3:28  141
 Mark  3:29  141
@@ -1772,7 +1772,7 @@ Mark  3:34  141
 Mark  3:35  141
 ---- Parable of the Farmer (Mark)
 > parable-of-the-farmer-matthew parable-of-the-farmer-luke
-|  jesus disciples multitude
+| jesus disciples multitude
 Mark  4:1   142
 
 Mark  4:2   142
@@ -1785,7 +1785,7 @@ Mark  4:8   142
 Mark  4:9   142
 ---- Farmer Explained; Lamp
 > parable-of-the-farmer-explained-matthew sermon-on-the-mount-light-of-the-world-law-and-prophets parable-of-the-farmer-luke lamp-mother-brothers
-|  jesus disciples the-twelve
+| jesus disciples the-twelve
 || multitude
 Mark  4:10  143
 
@@ -1808,7 +1808,7 @@ Mark  4:22  143
 Mark  4:23  143
 ---- Parable of the Mustard Seed
 > parable-of-the-weeds-etc mustard-seed-yeast-narrow-door
-|  jesus disciples multitude
+| jesus disciples multitude
 || god
 Mark  4:24  144
 Mark  4:25  144
@@ -1826,7 +1826,7 @@ Mark  4:33  144
 Mark  4:34  144
 ---- Rebuking the Storm (Mark)
 > rebuking-the-storm-matthew rebuking-the-storm-luke
-|  jesus disciples multitude sea-of-galilee storm
+| jesus disciples multitude sea-of-galilee storm
 Mark  4:35  145
 
 Mark  4:36  145
@@ -1839,7 +1839,7 @@ Mark  4:40  145
 Mark  4:41  145
 ---- Gadarene Demoniac (Mark)
 > gergesene-demoniacs gadarene-demoniac-luke
-|  jesus disciples gergasenes gergasene-demoniac legion swine swineherds decapolis
+| jesus disciples gergasenes gergasene-demoniac legion swine swineherds decapolis
 Mark  5:1   146
 Mark  5:2   146
 Mark  5:3   146
@@ -1870,7 +1870,7 @@ Mark  5:19  146
 Mark  5:20  146
 ---- Healing Jairus' Daughter
 > two-healings-matthew two-healings-luke healing-a-noblemans-son
-|  jesus disciples multitude jairus jairus'-daughter jairus'-household peter james,-son-of-zebedee john-the-theologian
+| jesus disciples multitude jairus jairus'-daughter jairus'-household peter james,-son-of-zebedee john-the-theologian
 Mark  5:21       90005
 Mark  5:22  147, 90005
 Mark  5:23  147, 90005
@@ -1893,7 +1893,7 @@ Mark  5:43  147, 90005
 Mark  6:1   147, 90005
 ---- Healing a Woman
 > two-healings-matthew two-healings-luke
-|  jesus disciples multitude veronica
+| jesus disciples multitude veronica
 || veronica's-physicians
 Mark  5:24  148
 
@@ -1914,7 +1914,7 @@ Mark  5:33  148
 Mark  5:34  148
 ---- A Prophet Without Honor (Mark)
 > a-prophet-without-honor-matthew a-prophet-without-honor-luke
-|  jesus disciples nazareth the-twelve
+| jesus disciples nazareth the-twelve
 || mary james,-brother-of-the-lord joses,-brother-of-the-lord simon,-brother-of-the-lord judas,-brother-of-the-lord jesus'-sisters
 Mark  6:1   149
 Mark  6:2   149
@@ -1927,7 +1927,7 @@ Mark  6:6   149
 Mark  6:7   149
 ---- Sending the Twelve (Mark)
 > instructions-to-the-twelve-freely-give instructions-to-the-twelve-shake-the-dust sending-the-twelve-luke
-|  jesus the-twelve sodom-and-gomorrah diseased demons
+| jesus the-twelve sodom-and-gomorrah diseased demons
 Mark  6:7   150
 Mark  6:8   150
 Mark  6:9   150
@@ -1939,7 +1939,7 @@ Mark  6:12  150
 Mark  6:13  150
 ---- Beheading of John (Mark)
 > beheading-of-john-matthew john-imprisoned-baptism herod-perplexed-apostles-return
-|  jesus king-herod john-the-forerunner herodias philip-the-tetrarch herodias'-daughter king-herod's-guests king-herod's-soldier john-the-forerunner's-disciples the-twelve
+| jesus king-herod john-the-forerunner herodias philip-the-tetrarch herodias'-daughter king-herod's-guests king-herod's-soldier john-the-forerunner's-disciples the-twelve
 || elijah prophets
 Mark  6:14  151
 
@@ -1972,7 +1972,7 @@ Mark  6:29  151
 Mark  6:30  151
 ---- Feeding of the Five Thousand (Mark)
 > feeding-of-the-five-thousand-matthew feeding-of-the-five-thousand-luke feeding-of-the-five-thousand-john
-|  jesus the-twelve multitude
+| jesus the-twelve multitude
 Mark  6:30  152
 Mark  6:31  152
 
@@ -2000,7 +2000,7 @@ Mark  6:44  152
 Mark  6:45  152
 ---- Walking on Water (Mark)
 > walking-on-water-matthew walking-on-water-john
-|  jesus the-twelve bethsaida multitude sea-of-galilee gennesaret
+| jesus the-twelve bethsaida multitude sea-of-galilee gennesaret
 Mark  6:45  153
 Mark  6:46  153
 
@@ -2015,7 +2015,7 @@ Mark  6:52  153
 Mark  6:53  153
 ---- Conflict With the Pharisees
 > denouncing-the-pharisees out-of-the-heart
-|  jesus disciples multitude pharisees scribes tyre-and-sidon
+| jesus disciples multitude pharisees scribes tyre-and-sidon
 || jews isaiah god moses
 Mark  6:54  154
 Mark  6:55  154
@@ -2058,7 +2058,7 @@ Mark  7:23            156
 Mark  7:24            156
 ---- Syrophoenician Woman
 > canaanite-woman
-|  jesus disciples tyre-and-sidon justa berenice berenice's-demon
+| jesus disciples tyre-and-sidon justa berenice berenice's-demon
 Mark  7:24  157
 Mark  7:25  157
 Mark  7:26  157
@@ -2071,7 +2071,7 @@ Mark  7:29  157
 
 Mark  7:30  157
 ---- Healing a Deaf Mute
-|  jesus disciples multitude tyre-and-sidon galilee decapolis deaf-mute
+| jesus disciples multitude tyre-and-sidon galilee decapolis deaf-mute
 Mark  7:31  158
 
 Mark  7:32  158
@@ -2083,7 +2083,7 @@ Mark  7:36  158
 Mark  7:37  158
 ---- Feeding of the Four Thousand (Mark)
 > feeding-of-the-four-thousand
-|  jesus disciples multitude dalmanutha
+| jesus disciples multitude dalmanutha
 Mark  8:1   159
 Mark  8:2   159
 Mark  8:3   159
@@ -2100,7 +2100,7 @@ Mark  8:9   159
 Mark  8:10  159
 ---- Yeast of the Pharisees (Mark)
 > yeast-of-the-pharisees-matthew demand-for-a-sign-matthew demand-for-a-sign-luke
-|  jesus disciples pharisees
+| jesus disciples pharisees
 || king-herod
 Mark  8:11  160
 
@@ -2122,7 +2122,7 @@ Mark  8:20  160
 
 Mark  8:21  160
 ---- Healing a Blind Man
-|  jesus disciples multitude bethsaida blind-man-of-bethsaida
+| jesus disciples multitude bethsaida blind-man-of-bethsaida
 Mark  8:22  161
 
 Mark  8:23  161
@@ -2133,7 +2133,7 @@ Mark  8:25  161
 Mark  8:26  161
 ---- Confession and Rebuke of Peter (Mark)
 > confession-of-peter rebuke-of-peter confession-of-peter-luke
-|  jesus disciples caesarea-philippi peter satan multitude
+| jesus disciples caesarea-philippi peter satan multitude
 || john-the-forerunner elijah prophets elders chief-priests scribes
 Mark  8:27  162
 
@@ -2151,7 +2151,7 @@ Mark  8:33       163
 Mark  8:34       163"
 ---- Take Up Your Cross (Mark)
 > take-up-your-cross-matthew take-up-your-cross-luke
-|  jesus disciples multitude
+| jesus disciples multitude
 || god angels
 Mark  8:34  164
 Mark  8:35  164
@@ -2162,7 +2162,7 @@ Mark  8:38  164
 Mark  9:1   164
 ---- Transfiguration (Mark)
 > transfiguration-matthew transfiguration-luke
-|  jesus peter james,-son-of-zebedee john-the-theologian elijah moses god
+| jesus peter james,-son-of-zebedee john-the-theologian elijah moses god
 Mark  9:2   165
 Mark  9:3   165
 Mark  9:4   165
@@ -2176,7 +2176,7 @@ Mark  9:8   165
 Mark  9:9   165
 ---- John Is Elijah (Mark)
 > john-is-elijah-matthew john-is-more-than-a-prophet
-|  jesus peter james,-son-of-zebedee john-the-theologian disciples multitude scribes
+| jesus peter james,-son-of-zebedee john-the-theologian disciples multitude scribes
 || scribes elijah john-the-forerunner
 Mark  9:10  166
 Mark  9:11  166
@@ -2189,7 +2189,7 @@ Mark  9:15  166
 Mark  9:16  166
 ---- Faithless Generation (Mark)
 > faithless-generation-matthew faithless-generation-luke
-|  jesus disciples multitude epileptic's-father epileptic epileptic's-demon galilee
+| jesus disciples multitude epileptic's-father epileptic epileptic's-demon galilee
 Mark  9:17  90006, 167
 Mark  9:18  90006, 167
 
@@ -2220,7 +2220,7 @@ Mark  9:31  90006, 167
 Mark  9:32  90006
 ---- Servant of All (Mark)
 > fish-coin-greatest greatest-in-the-kingdom
-|  jesus disciples capernaum the-twelve ignatius john-the-theologian
+| jesus disciples capernaum the-twelve ignatius john-the-theologian
 || one-not-against
 Mark  9:33  168
 
@@ -2237,7 +2237,7 @@ Mark  9:40  168
 Mark  9:41  168"
 ---- Stumbling
 > fish-coin-greatest divorce-stumbling
-|  jesus disciples multitude judea jordan
+| jesus disciples multitude judea jordan
 || god
 "Mark  9:42  169
 
@@ -2255,7 +2255,7 @@ Mark  9:50  169
 Mark 10:1   169
 ---- Divorce (Mark)
 > divorce-matthew divorce-stumbling
-|  jesus disciples multitude pharisees
+| jesus disciples multitude pharisees
 || moses god
 Mark 10:2   170
 
@@ -2275,7 +2275,7 @@ Mark 10:11  170
 Mark 10:12  170
 ---- Divorce and Children
 > parable-of-the-lost-sheep children-and-the-kingdom
-|  jesus disciples multitude little-children little-children's-parents
+| jesus disciples multitude little-children little-children's-parents
 || god
 Mark 10:11  171
 Mark 10:12  171
@@ -2287,7 +2287,7 @@ Mark 10:15  171
 Mark 10:16  171
 ---- Rich Young Ruler (Mark)
 > rich-young-ruler-matthew rich-young-ruler-luke
-|  jesus disciples multitude rich-young-ruler
+| jesus disciples multitude rich-young-ruler
 || god
 Mark 10:17  172
 
@@ -2311,7 +2311,7 @@ Mark 10:26  172
 Mark 10:27  172
 ---- Cost of Discipleship
 > servant-of-all-matthew
-|  jesus disciples peter the-twelve james,-son-of-zebedee john-the-theologian
+| jesus disciples peter the-twelve james,-son-of-zebedee john-the-theologian
 || jerusalem chief-priests scribes gentiles god
 Mark 10:23  173
 
@@ -2358,7 +2358,7 @@ Mark 10:44       174, 175
 Mark 10:45       174, 175
 ---- Blind Bartimaeus
 > two-blind-men two-blind-men-mute-man
-|  jesus disciples multitude jericho bartimaeus
+| jesus disciples multitude jericho bartimaeus
 || david
 Mark 10:46  176
 Mark 10:47  176
@@ -2377,7 +2377,7 @@ Mark 10:52  176
   well." Immediately
 ---- Triumphal Entry (Mark)
 > triumphal-entry-matthew triumphal-entry-luke annointing-triumphal-entry
-|  jesus disciples multitude jerusalem bethsphage bethany donkey donkey's owner temple
+| jesus disciples multitude jerusalem bethsphage bethany donkey donkey's owner temple
 || god david
 Mark 11:1   177
 Mark 11:2   177
@@ -2396,7 +2396,7 @@ Mark 11:10  177
 Mark 11:11  177
 ---- Cleansing the Temple (Mark)
 > cleansing-the-temple-matthew cleansing-the-temple-luke cleansing-the-temple-john
-|  jesus disciples multitude the-twelve bethany jerusalem temple fig-tree chief-priests scribes peter
+| jesus disciples multitude the-twelve bethany jerusalem temple fig-tree chief-priests scribes peter
 || god
 Mark 11:11  178
 
@@ -2417,7 +2417,7 @@ Mark 11:21  178
 Mark 11:22  178
 Mark 11:23  178"
 ---- Faith, Forgiveness, Prayer
-|  jesus disciples multitude
+| jesus disciples multitude
 || god
 Mark 11:22  179
 Mark 11:23  179
@@ -2427,7 +2427,7 @@ Mark 11:24  179
 Mark 11:26  179
 ---- By What Authority (Mark)
 > by-what-authority-matthew by-what-authority-luke
-|  jesus disciples multitude temple chief-priests scribes
+| jesus disciples multitude temple chief-priests scribes
 || john-the-forerunner
 Mark 11:27  180
 Mark 11:28  180
@@ -2441,7 +2441,7 @@ Mark 11:33  180
   know." Jesus
 ---- Parable of the Wicked Tenants (Mark)
 > parable-of-the-wicked-tenants-matthew parable-of-the-wicked-tenants-luke
-|  jesus disciples multitude temple chief-priests scribes
+| jesus disciples multitude temple chief-priests scribes
 || god
 Mark 12:1   181
 
@@ -2462,7 +2462,7 @@ Mark 12:11  181
 Mark 12:12  181
 ---- Taxes to Caesar (Mark)
 > taxes-to-caesar-matthew taxes-to-caesar-luke
-|  jesus disciples multitude temple pharisees herodians
+| jesus disciples multitude temple pharisees herodians
 || god caesar
 Mark 12:13  182
 Mark 12:14  182
@@ -2476,7 +2476,7 @@ Mark 12:17  182
   s." They
 ---- Marriage in the Resurrection (Mark)
 > marriage-in-the-resurrection-matthew marriage-in-the-resurrection-luke
-|  jesus disciples multitude temple sadducees
+| jesus disciples multitude temple sadducees
 || god moses angels abraham isaac jacob
 Mark 12:18  183
 Mark 12:19  183
@@ -2491,7 +2491,7 @@ Mark 12:26  183
 Mark 12:27  183
 ---- Wise Scribe (Mark)
 > wise-scribe-matthew good-samaritan
-|  jesus disciples multitude temple wise-scribe
+| jesus disciples multitude temple wise-scribe
 || israel god david
 Mark 12:28  184
 
@@ -2513,7 +2513,7 @@ Mark 12:37  184
   son?" The
 ---- Widow's Mite (Mark)
 > widows-mite-luke
-|  jesus disciples multitude temple widow
+| jesus disciples multitude temple widow
 || scribes
 Mark 12:38  185
 Mark 12:39  185
@@ -2525,7 +2525,7 @@ Mark 12:43  185
 Mark 12:44  185
 ---- Little Apocalypse (Mark)
 > little-apocalypse-matthew little-apocalypse-luke
-|  jesus disciples multitude temple mount-of-olives peter james,-son-of-zebedee john-the-theologian andrew chief-priests scribes
+| jesus disciples multitude temple mount-of-olives peter james,-son-of-zebedee john-the-theologian andrew chief-priests scribes
 || abomination-of-desolation daniel judea god false-prophets angels fig-tree
 Mark 13:1   186
 Mark 13:2   186
@@ -2579,7 +2579,7 @@ Mark 14:1                       190
 Mark 14:2                       190
 ---- Annointing by Mary of Bethany
 > holy-week-wednesday-presanctified-liturgy annointing-triumphal-entry
-|  jesus disciples bethany simon-the-leper simon-the-leper's-guests mary-of-bethany
+| jesus disciples bethany simon-the-leper simon-the-leper's-guests mary-of-bethany
 Mark 14:3   191
 
 Mark 14:4   191
@@ -2591,7 +2591,7 @@ Mark 14:8   191
 Mark 14:9   191
 ---- Last Supper (Mark)
 > holy-week-thursday-composite last-supper-luke
-|  jesus the-twelve judas-iscariot chief-priests two-disciples man-with-water master-of-the-house mount-of-olives gethsemane peter james,-son-of-zebedee john-the-theologian
+| jesus the-twelve judas-iscariot chief-priests two-disciples man-with-water master-of-the-house mount-of-olives gethsemane peter james,-son-of-zebedee john-the-theologian
 || galilee rooster god
 Mark 14:10  192
 Mark 14:11  192
@@ -2644,7 +2644,7 @@ Mark 14:41  192
 Mark 14:42  192
 ---- Betrayal (Mark)
 > holy-week-thursday-composite betrayal-luke
-|  jesus peter james,-son-of-zebedee john-the-theologian judas-iscariot officers malchus mark high-priest chief-priests elders scribes sanhedrin false-witnesses high-priest's-maid rooster high-priest's-household pilate
+| jesus peter james,-son-of-zebedee john-the-theologian judas-iscariot officers malchus mark high-priest chief-priests elders scribes sanhedrin false-witnesses high-priest's-maid rooster high-priest's-household pilate
 || temple god
 Mark 14:43  193
 Mark 14:44  193
@@ -2701,7 +2701,7 @@ Mark 14:72  193
 Mark 15:1   193
 ---- Handing Over
 > handing-over-and-crucifixion-luke handing-over-and-crucifixion-john
-|  jesus chief-priests elders scribes sanhedrin pilate multitude barabbas
+| jesus chief-priests elders scribes sanhedrin pilate multitude barabbas
 || barabbas'-insurgents
 Mark 15:1   194
 
@@ -2733,7 +2733,7 @@ Mark 15:14  194
 Mark 15:15  194
 ---- Crucifixion
 > handing-over-and-crucifixion-luke handing-over-and-crucifixion-john
-|  jesus officers multitude longinus women-disciples mary-magdalene mary salome galilee jerusalem
+| jesus officers multitude longinus women-disciples mary-magdalene mary salome galilee jerusalem
 || elijah james,-brother-of-the-lord joses,-brother-of-the-lord
 Mark 15:22  197
 Mark 15:25  197
@@ -2751,7 +2751,7 @@ Mark 15:40  197
 Mark 15:41  197
 ---- Resurrection (Mark)
 > holy-week-great-and-holy-saturday resurrection-luke resurrection-john
-|  joseph-of-arimathaea pilot jesus longinus mary-magdalene mary salome peter resurrection-angel
+| joseph-of-arimathaea pilot jesus longinus mary-magdalene mary salome peter resurrection-angel
 || james,-brother-of-the-lord joses,-brother-of-the-lord disciples peter galilee
 Mark 15:42  90007
 Mark 15:43  90007, 199
@@ -2773,7 +2773,7 @@ Mark 16:7   90007, 199, 200
 Mark 16:8   90007, 199, 200
 ---- Ascension (Mark)
 > ascension-luke
-|  jesus mary-magdalene disciples cleopas luke the-twelve
+| jesus mary-magdalene disciples cleopas luke the-twelve
 || mary-magdalene's-demons god
 Mark 16:9   201
 Mark 16:10  201
@@ -2793,7 +2793,7 @@ Mark 16:19  201
 
 Mark 16:20  201
 ---- Birth of John; Annunciation
-|  herod zacharias elizabeth multitude temple gabriel galilee nazareth joseph mary jesus john-the-forerunner elizabeth's-neighbors-and-relatives
+| herod zacharias elizabeth multitude temple gabriel galilee nazareth joseph mary jesus john-the-forerunner elizabeth's-neighbors-and-relatives
 || abijah aaron god holy-spirit elijah david israel abraham
 Luke  1:1   90008, 202
 Luke  1:2   90008, 202
@@ -2908,7 +2908,7 @@ Luke  1:79  90008
 Luke  1:80  90008, 202,          205
 ---- Birth and Shepherds
 > genealogy-and-birth
-|  caesar-augustus quirinius syria joseph galilee nazareth judea bethlehem mary jesus shepherds gabriel angelic-host
+| caesar-augustus quirinius syria joseph galilee nazareth judea bethlehem mary jesus shepherds gabriel angelic-host
 || david god
 Luke  2:1   207
 Luke  2:2   207
@@ -2937,7 +2937,7 @@ Luke  2:18  207
 Luke  2:19  207
 Luke  2:20  207
 ---- Presentation
-|  jospeh mary jesus jerusalem simeon anna galilee nazareth
+| jospeh mary jesus jerusalem simeon anna galilee nazareth
 || holy-spirit god moses david gentiles israel phanuel asher
 Luke  2:22  209
 Luke  2:23  209
@@ -2963,7 +2963,7 @@ Luke  2:38  209,      211
 Luke  2:39  209
 Luke  2:40  209
 ---- Finding
-|  shepherds jesus joseph mary jerusalem joseph-and-mary's-relatives-and-acquaintances temple scribes nazareth
+| shepherds jesus joseph mary jerusalem joseph-and-mary's-relatives-and-acquaintances temple scribes nazareth
 || gabriel god
 Luke  2:20  208
 Luke  2:21  208
@@ -2988,7 +2988,7 @@ Luke  2:51  208
 Luke  2:52  208
 ---- John the Forerunner (Luke)
 > john-the-forerunner-matthew john-the-forerunner-mark
-|  john-the-forerunner jordan multitude tax-collectors soldiers
+| john-the-forerunner jordan multitude tax-collectors soldiers
 || tiberius pontius-pilate herod philip-the-tetrarch ituraea trachonitis lysanias abilene annas caiaphas god zacharias isaiah abraham holy-spirit abraham stones
 Luke  3:1   212
 Luke  3:2   212
@@ -3019,7 +3019,7 @@ Luke  3:17  212
 Luke  3:18  212 s/people,/people.
 ---- John Imprisoned; Baptism
 > beheading-of-john-matthew beheading-of-john-mark baptism jesus-begins-his-ministry
-|  herod john-the-forerunner multitude jesus sky holy-spirit god
+| herod john-the-forerunner multitude jesus sky holy-spirit god
 || herodias
 Luke  3:19  213 s/but/But
 Luke  3:20  213
@@ -3028,7 +3028,7 @@ Luke  3:21  213
 Luke  3:22  213
 ---- Genealogy
 > genealogy-and-birth
-|  jesus
+| jesus
 || heli matthat levi melchi jannai joseph mattathias amos nahum esli naggai maath mattathias semein joseph judah joanan rhesa zerubbabel shealtiel neri melchi addi cosam elmodam er jose eliezer jorim matthat levi simeon judah joseph jonan eliakim melea menan mattatha nathan david jesse obed boaz salmon nahshon amminadab aram hezron perez judah jacob isaac abraham terah nahor serug reu peleg eber shelah cainan arphaxad shem noah lamech methuselah enoch jared mahalaleel cainan enos seth adam god
 Luke  3:23  214
 Luke  3:24  214
@@ -3050,7 +3050,7 @@ Luke  3:38  214
 Luke  4:1   214 s/wilderness/wilderness.
 ---- Temptation (Luke)
 > temptation-matthew jesus-begins-his-ministry
-|  jesus holy-spirit satan jerusalem temple galilee
+| jesus holy-spirit satan jerusalem temple galilee
 || god
 Luke  4:1   215
 Luke  4:2   215
@@ -3076,7 +3076,7 @@ Luke  4:14  215
 Luke  4:15  215
 ---- A Prophet Without Honor (Luke)
 > a-prophet-without-honor-matthew a-prophet-without-honor-mark
-|  jesus nazareth
+| jesus nazareth
 || isaiah god holy-spirit joseph capernaum israel elijah zarepeth tyre-and-sidon widow-of-zarepeth elisha naaman-the-syrian
 Luke  4:16  216
 Luke  4:17  216
@@ -3100,7 +3100,7 @@ Luke  4:29       217
 Luke  4:30       217
 ---- Unclean Spirit (Luke)
 > unclean-spirit-mark
-|  jesus capernaum galilee man-with-an-unclean-spirit man-with-an-unclean-spirit's-demon
+| jesus capernaum galilee man-with-an-unclean-spirit man-with-an-unclean-spirit's-demon
 || demons god
 Luke  4:31  218
 Luke  4:32  218
@@ -3113,7 +3113,7 @@ Luke  4:35  218
 Luke  4:36  218
 ---- Peter's Mother-in-Law (Luke)
 > peters-mother-in-law-matthew peters-mother-in-law-mark
-|  jesus peter peter's-mother-in-law peter's-mother-in-law's-fever diseased demons multitude galilee
+| jesus peter peter's-mother-in-law peter's-mother-in-law's-fever diseased demons multitude galilee
 || god
 Luke  4:37  219
 Luke  4:38  219
@@ -3126,7 +3126,7 @@ Luke  4:42  219
 Luke  4:43  219
 Luke  4:44  219
 ---- Miraculous Catch
-|  jesus multitude sea-of-galilee peter multitude andrew zebedee james,-son-of-zebedee john-the-theologian
+| jesus multitude sea-of-galilee peter multitude andrew zebedee james,-son-of-zebedee john-the-theologian
 Luke  5:1   220
 Luke  5:2   220
 Luke  5:3   220
@@ -3146,7 +3146,7 @@ Luke  5:10  220
 Luke  5:11  220
 ---- Leper (Luke)
 > sermon-on-the-mount-rock-and-sand-healing-a-leper leper-mark
-|  jesus leper leper's-leprosy multitude
+| jesus leper leper's-leprosy multitude
 || priest moses
 Luke  5:12  221
 
@@ -3157,7 +3157,7 @@ Luke  5:15  221
 Luke  5:16  221
 ---- Paralytic (Luke)
 > paralytic-matthew paralytic-mark
-|  jesus pharisees scribes galilee judea jerusalem paralytic paralytic's-friends multitude
+| jesus pharisees scribes galilee judea jerusalem paralytic paralytic's-friends multitude
 || god
 Luke  5:17  222
 
@@ -3176,7 +3176,7 @@ Luke  5:25  222
 Luke  5:26  222
 ---- Levi (Luke)
 > levi-matthew levi-mark
-|  jesus matthew sinners disciples scribes pharisees
+| jesus matthew sinners disciples scribes pharisees
 Luke  5:27  223
 Luke  5:28  223
 
@@ -3187,7 +3187,7 @@ Luke  5:31  223
 Luke  5:32  223
 ---- New Wineskins (Luke)
 > new-wineskins-matthew new-wineskins-mark
-|  jesus multitude
+| jesus multitude
 || disciples john-the-forerunner's-disciples pharisees'-disciples pharisees
 Luke  5:33  224
 
@@ -3200,7 +3200,7 @@ Luke  5:38  224
 Luke  5:39  224
 ---- Lord of the Sabbath (Luke)
 > lord-of-the-sabbath-matthew lord-of-the-sabbath-mark
-|  jesus disciples pharisees scribes man-with-a-withered-hand
+| jesus disciples pharisees scribes man-with-a-withered-hand
 || david god temple
 Luke  6:1   225, 90009
 Luke  6:2   225, 90009
@@ -3222,7 +3222,7 @@ Luke  6:10  225, 90009
 Luke  6:11       90009
 ---- Twelve Apostles (Luke)
 > instructions-to-the-twelve-freely-give twelve-apostles-mark
-|  jesus disciples the-twelve peter andrew james,-son-of-zebedee john-the-theologian philip bartholomew matthew thomas james,-son-of-alphaeus thaddaeus simon-the-zealot judas-iscariot multitude judea jerusalem tyre-and-sidon diseases demons
+| jesus disciples the-twelve peter andrew james,-son-of-zebedee john-the-theologian philip bartholomew matthew thomas james,-son-of-alphaeus thaddaeus simon-the-zealot judas-iscariot multitude judea jerusalem tyre-and-sidon diseases demons
 || god
 Luke  6:12  226
 Luke  6:13  226
@@ -3235,7 +3235,7 @@ Luke  6:18  226
 Luke  6:19  226
 ---- Sermon on the Plain: Beatitudes
 > sermon-on-the-mount-beatitudes-salt-of-the-earth
-|  jesus disciples multitude judea jerusalem tyre-and-sidon diseases demons
+| jesus disciples multitude judea jerusalem tyre-and-sidon diseases demons
 || god
 Luke  6:17  227
 Luke  6:18  227
@@ -3247,7 +3247,7 @@ Luke  6:22  227
 Luke  6:23  227"
 ---- Sermon on the Plain: Woes
 > sermon-on-the-mount-love-your-enemies
-|  jesus disciples multitude
+| jesus disciples multitude
 Luke  6:24  228
 Luke  6:25  228
 Luke  6:26  228
@@ -3258,7 +3258,7 @@ Luke  6:29  228
 Luke  6:30  228"
 ---- Sermon on the Plain: Love Your Enemies
 > sermon-on-the-mount-love-your-enemies
-|  jesus disciples multitude
+| jesus disciples multitude
 Luke  6:31  229
 Luke  6:32  229
 Luke  6:33  229
@@ -3268,7 +3268,7 @@ Luke  6:35  229
 Luke  6:36  229"
 ---- Sermon on the Plain: Don't Judge
 > sermon-on-the-mount-dont-judge
-|  jesus disciples multitude
+| jesus disciples multitude
 "Luke  6:37  230
 
 Luke  6:38  230
@@ -3283,7 +3283,7 @@ Luke  6:44  230
 Luke  6:45  230"
 ---- Sermon on the Plain: Rock and Sand
 > sermon-on-the-mount-rock-and-sand-healing-a-leper
-|  jesus disciples multitude capernaum
+| jesus disciples multitude capernaum
 Luke  6:46  231
 Luke  6:47  231
 Luke  6:48  231
@@ -3292,7 +3292,7 @@ Luke  6:49  231
 Luke  7:1   231
 ---- Centurion (Luke)
 > centurion-matthew
-|  jesus disciples capernaum centurion centurion's-servant elders centurion's-friends multitude
+| jesus disciples capernaum centurion centurion's-servant elders centurion's-friends multitude
 Luke  7:1   232
 Luke  7:2   232
 Luke  7:3   232
@@ -3308,7 +3308,7 @@ Luke  7:9   232
 
 Luke  7:10  232
 ---- Widow of Nain
-|  jesus disciples multitude nain widow-of-nain widow-of-nain's-son
+| jesus disciples multitude nain widow-of-nain widow-of-nain's-son
 Luke  7:11  233
 Luke  7:12  233
 
@@ -3321,7 +3321,7 @@ Luke  7:15  233
 Luke  7:16  233
 ---- John Is More Than a Prophet
 > john-is-elijah-matthew john-is-elijah-mark
-|  jesus john-the-forerunner john-the-forerunner's-disciples diseased diseases demons multitude tax-collectors pharisees scribes
+| jesus john-the-forerunner john-the-forerunner's-disciples diseased diseases demons multitude tax-collectors pharisees scribes
 || god
 Luke  7:17  234
 Luke  7:18  234
@@ -3345,7 +3345,7 @@ Luke  7:29  234
 Luke  7:30  234
 ---- Friend of Sinners (Luke)
 > friend-of-sinners-matthew
-|  jesus disciples multitude
+| jesus disciples multitude
 || john-the-forerunner
 Luke  7:31  235
 Luke  7:32  235
@@ -3353,7 +3353,7 @@ Luke  7:33  235
 Luke  7:34  235
 Luke  7:35  235
 ---- Sinful Woman Forgiven
-|  jesus simon-the-pharisee sinful-woman-forgiven simon-the-pharisee's-guests
+| jesus simon-the-pharisee sinful-woman-forgiven simon-the-pharisee's-guests
 Luke  7:36  236
 
 Luke  7:37  236
@@ -3381,14 +3381,14 @@ Luke  7:49  236
 
 Luke  7:50  236
 ---- Women Disciples
-|  jesus disciples the-twelve mary-magdalene joanna susanna women-disciples
+| jesus disciples the-twelve mary-magdalene joanna susanna women-disciples
 || herod-the-tetrarch chuzas
 Luke  8:1   237
 Luke  8:2   237
 Luke  8:3   237
 ---- Parable of the Farmer (luke)
 > parable-of-the-farmer-matthew parable-of-the-farmer-explained-matthew parable-of-the-farmer-mark farmer-explained-lamp
-|  jesus disciples multitude
+| jesus disciples multitude
 Luke  8:4   90010
 Luke  8:5   90010, 238
 Luke  8:6   90010, 238
@@ -3408,7 +3408,7 @@ Luke  8:14  90010, 238
 Luke  8:15  90010, 238"
 ---- Lamp; Mother and Brothers
 > sermon-on-the-mount-light-of-the-world-law-and-prophets who-is-my-mother blasphemy-mother-brothers farmer-explained-lamp
-|  jesus disciples multitude mary brothers-of-the-lord
+| jesus disciples multitude mary brothers-of-the-lord
 || god
 Luke  8:16  239
 Luke  8:17  239
@@ -3422,7 +3422,7 @@ Luke  8:20  239
 Luke  8:21  239
 ---- Rebuking the Storm (Luke)
 > rebuking-the-storm-matthew rebuking-the-storm-mark
-|  jesus disciples sea-of-galilee storm
+| jesus disciples sea-of-galilee storm
 Luke  8:22  240
   lake." So
 Luke  8:23  240
@@ -3432,7 +3432,7 @@ Luke  8:25  240
   faith?" Being
 ---- Gadarene Demoniac (Luke)
 > gergesene-demoniacs gadarene-demoniac-mark
-|  jesus disciples gergasenes gergasene-demoniac legion swine swineherds multitude
+| jesus disciples gergasenes gergasene-demoniac legion swine swineherds multitude
 || god
 Luke  8:26  241, 90011
 Luke  8:27  241, 90011
@@ -3459,7 +3459,7 @@ Luke  8:39  241, 90011
 Luke  8:40       90011
 ---- Two Healings (Luke)
 > two-healings-matthew healing-jairus-daughter healing-a-woman healing-a-noblemans-son
-|  jesus disciples jairus jairus'-daughter veronica peter jairus'-servant john-the-theologian james,-son-of-zebedee
+| jesus disciples jairus jairus'-daughter veronica peter jairus'-servant john-the-theologian james,-son-of-zebedee
 Luke  8:41  242
 Luke  8:42  242
   dying. But
@@ -3487,7 +3487,7 @@ Luke  8:55  242
 Luke  8:56  242
 ---- Sending the Twelve (Luke)
 > instructions-to-the-twelve-freely-give instructions-to-the-twelve-shake-the-dust sending-the-twelve-mark
-|  jesus the-twelve
+| jesus the-twelve
 || diseases demons
 Luke  9:1   243
 Luke  9:2   243
@@ -3498,7 +3498,7 @@ Luke  9:5   243
 Luke  9:6   243
 ---- Herod Perplexed; Apostles Return
 > beheading-of-john-matthew beheading-of-john-mark
-|  herod-the-tetrarch jesus the-twelve multitude bethsaida
+| herod-the-tetrarch jesus the-twelve multitude bethsaida
 || john-the-forerunner elijah prophets god
 Luke  9:7   244
 Luke  9:8   244
@@ -3508,7 +3508,7 @@ Luke  9:10  244
 Luke  9:11  244
 ---- Feeding of the Five Thousand (Luke)
 > feeding-of-the-five-thousand-matthew feeding-of-the-five-thousand-mark feeding-of-the-five-thousand-john
-|  jesus the-twelve multitude disciples
+| jesus the-twelve multitude disciples
 Luke  9:12  245
 
 Luke  9:13  245
@@ -3523,7 +3523,7 @@ Luke  9:17  245
 Luke  9:18  245
 ---- Confession of Peter (Luke)
 > confession-of-peter rebuke-of-peter confession-and-rebuke-of-peter-mark
-|  jesus disciples peter
+| jesus disciples peter
 || multitude john-the-forerunner elijah prophets god elers chief-priests scribes
 Luke  9:18  246
 
@@ -3536,7 +3536,7 @@ Luke  9:21  246
 Luke  9:22  246
 ---- Take Up Your Cross (Luke)
 > take-up-your-cross-matthew take-up-your-cross-mark
-|  jesus disciples multitude
+| jesus disciples multitude
 || god angels
 Luke  9:23  247
 Luke  9:24  247
@@ -3545,7 +3545,7 @@ Luke  9:26  247
 Luke  9:27  247
 ---- Transfiguration (Luke)
 > transfiguration-matthew transfiguration-mark
-|  jesus peter john-the-theologian james,-son-of-zebedee moses elijah god
+| jesus peter john-the-theologian james,-son-of-zebedee moses elijah god
 || jerusalem
 Luke  9:28  248
 Luke  9:29  248
@@ -3561,7 +3561,7 @@ Luke  9:35  248
 Luke  9:36  248
 ---- Faithless Generation (Luke)
 > faithless-generation-matthew faithless-generation-mark
-|  jesus disciples multitude epileptic's-father epileptic epileptic's-demon
+| jesus disciples multitude epileptic's-father epileptic epileptic's-demon
 || god
 Luke  9:37  249
 Luke  9:38  249
@@ -3574,7 +3574,7 @@ Luke  9:42  249
 Luke  9:43  249 s/ But while all .* his disciples,/
 ---- Greatest in the Kingdom
 > fish-coin-greatest servant-of-all
-|  jesus disciples multitude ignatius john-the-theologian
+| jesus disciples multitude ignatius john-the-theologian
 || one-casting-out-demons
 Luke  9:44  250
 
@@ -3587,7 +3587,7 @@ Luke  9:48  250
 Luke  9:49  250
 Luke  9:50  250
 ---- Rebuke of James and John
-|  jesus john-the-theologian samaria james,-son-of-zebedee discipls
+| jesus john-the-theologian samaria james,-son-of-zebedee discipls
 || one-casting-out-demons jerusalem elijah god
 Luke  9:49  251
 
@@ -3606,7 +3606,7 @@ Luke 10:23       252, 257
 Luke 10:24       252, 257
 ---- Foxes Have Holes
 > peters-mother-in-law-matthew
-|  jesus disciples man-who-would-follow man-who-would-bury-his-father man-who-would-say-good-bye
+| jesus disciples man-who-would-follow man-who-would-bury-his-father man-who-would-say-good-bye
 || god
 Luke  9:57  253
 
@@ -3621,7 +3621,7 @@ Luke  9:61  253
 
 Luke  9:62  253
 ---- Sending the Seventy
-|  jesus the-seventy
+| jesus the-seventy
 || sodom-and-gomorrah chorazin bethesaida tyre-and-sidon capernaum god
 Luke 10:1   254
 
@@ -3643,7 +3643,7 @@ Luke 10:13  254
 Luke 10:14  254
 Luke 10:15  254"
 ---- Return of the Seventy
-|  jesus the-seventy
+| jesus the-seventy
 || satan demons holy-spirit god
 "Luke 10:16  255
 
@@ -3656,7 +3656,7 @@ Luke 10:20  255, 256
 Luke 10:21  255, 256
 ---- Good Samaritan
 > wise-scribe-matthew wise-scribe-mark
-|  jesus disciples multitude wise-scribe
+| jesus disciples multitude wise-scribe
 Luke 10:25  258
 
 Luke 10:26  258
@@ -3678,7 +3678,7 @@ Luke 10:36  258
 Luke 10:37  258
   him." Then
 ---- Mary and Martha
-|  jesus disciples martha mary-of-bethany multitude woman-lifting-her-voice
+| jesus disciples martha mary-of-bethany multitude woman-lifting-her-voice
 Luke 10:38  259
 Luke 10:39  259
 Luke 10:40  259
@@ -3691,7 +3691,7 @@ Luke 11:27  259
 Luke 11:28  259
 ---- Prayer
 > sermon-on-the-mount-almsgiving-prayer
-|  jesus disciples
+| jesus disciples
 || john-the-forerunner john-the-forerunner's-disciples
 Luke 11:1   260
 
@@ -3712,7 +3712,7 @@ Luke 11:12       261
 Luke 11:13       261
 ---- By Beelzebul (Luke)
 > by-beelzebul-matthew a-great-multitude a-house-divided
-|  jesus disciples multitude mute-man mute-man's-demon
+| jesus disciples multitude mute-man mute-man's-demon
 || satan god demons
 Luke 11:14  262
 Luke 11:15  262
@@ -3732,7 +3732,7 @@ Luke 11:25       263
 Luke 11:26       263
 ---- Demand for a Sign (Luke)
 > demand-for-a-sign-matthew yeast-of-the-pharisees-mark
-|  jesus disciples multitude
+| jesus disciples multitude
 || jonah ninevah queen-of-the-south solomon
 Luke 11:29  264
 Luke 11:30  264
@@ -3741,7 +3741,7 @@ Luke 11:32  264
 
 Luke 11:33  264
 ---- Lamp of the Body; Washing
-|  jesus disciples multitude a-pharisee
+| jesus disciples multitude a-pharisee
 || pharisees
 "Luke 11:34  265
 Luke 11:35  265
@@ -3754,7 +3754,7 @@ Luke 11:39  265
 Luke 11:40  265
 Luke 11:41  265"
 ---- Woe to You Pharisees!
-|  jesus disciples multitude pharisees scribes
+| jesus disciples multitude pharisees scribes
 || god
 "Luke 11:42  266
 Luke 11:43  266
@@ -3764,7 +3764,7 @@ Luke 11:45  266
 
 Luke 11:46  266"
 ---- Woe to You!
-|  jesus disciples multitude pharisees scribes
+| jesus disciples multitude pharisees scribes
 || prophets god abel zachariah
 "Luke 11:47  267
 Luke 11:48  267
@@ -3779,7 +3779,7 @@ Luke 11:54  267
 Luke 12:1   267"
 ---- Don't Be Afraid
 > instructions-to-the-twelve-dont-be-afraid
-|  jesus disciples multitude
+| jesus disciples multitude
 || angels god holy-spirit
 "Luke 12:2   268
 Luke 12:3   268
@@ -3797,7 +3797,7 @@ Luke 12:11  268, 269
 Luke 12:12  268, 269
 ---- Don't Be Anxious
 > sermon-on-the-mount-dont-be-anxious
-|  jesus disciples multitude man-who-would-divide-the-inheritance
+| jesus disciples multitude man-who-would-divide-the-inheritance
 || man-who-would-divide-the-inheritance's-brother god
 Luke 12:13  270
 
@@ -3815,7 +3815,7 @@ Luke 12:29  270
 Luke 12:30  270
 Luke 12:31  270"
 ---- Parable of the Rich Fool
-|  jesus disciples multitude
+| jesus disciples multitude
 || god
 Luke 12:16  271
 Luke 12:17  271
@@ -3826,7 +3826,7 @@ Luke 12:20  271
 Luke 12:21  271
 ---- Treasure; Watchfulness
 > sermon-on-the-mount-forgiveness-fasting-treasure little-apocalypse-matthew
-|  jesus disciples multitude
+| jesus disciples multitude
 || god
 "Luke 12:32  272
 Luke 12:33  272
@@ -3840,7 +3840,7 @@ Luke 12:39  272
 Luke 12:40  272
 ---- Faithful or Unfaithful Steward
 > little-apocalypse-matthew
-|  jesus peter
+| jesus peter
 Luke 12:41       90012
 
 Luke 12:42  273, 90012
@@ -3852,7 +3852,7 @@ Luke 12:46  273, 90012
 Luke 12:47  273, 90012
 Luke 12:48  273, 90012"
 ---- Fire on the Earth
-|  jesus disciples multitude
+| jesus disciples multitude
 "Luke 12:48  274 s/but he who .* few stripes. /
 
 Luke 12:49  274
@@ -3868,7 +3868,7 @@ Luke 12:57  274
 Luke 12:58  274
 Luke 12:59  274
 ---- Repent or Perish
-|  jesus disciples multitude
+| jesus disciples multitude
 || galileeans-murdered pilate eighteen-of-siloam
 Luke 13:1   275
 
@@ -3882,7 +3882,7 @@ Luke 13:7   275
 Luke 13:8   275
 Luke 13:9   275
 ---- Healing an Infirm Woman
-|  jesus infirm-woman synagogue synagogue-ruler multitude adversaries
+| jesus infirm-woman synagogue synagogue-ruler multitude adversaries
 || abraham satan god
 Luke 13:10  276
 Luke 13:11  276
@@ -3898,7 +3898,7 @@ Luke 13:16  276
 Luke 13:17  276
 ---- Mustard Seed; Yeast; Narrow Door
 > parable-of-the-weeds-etc parable-of-the-mustard-seed
-|  jesus disciples multitude one-who-asked-whether-few-are-saved
+| jesus disciples multitude one-who-asked-whether-few-are-saved
 || villages jerusalem god
 Luke 13:18  277, 90013
 Luke 13:19  277, 90013
@@ -3917,7 +3917,7 @@ Luke 13:28  277, 90013
 Luke 13:29  277, 90013
 Luke 13:30       90013
 ---- Tell that Fox
-|  jesus disciples multitude pharisees
+| jesus disciples multitude pharisees
 || herod-the-tetrarch demons jerusalem god
 Luke 13:31  278
 
@@ -3927,7 +3927,7 @@ Luke 13:33  278
 Luke 13:34  278
 Luke 13:35  278
 ---- Healing of a Man with Dropsy
-|  jesus pharisees a-ruler-of-the-pharisees pharisees lawyers man-with-dropsy
+| jesus pharisees a-ruler-of-the-pharisees pharisees lawyers man-with-dropsy
 Luke 14:1   279
 Luke 14:2   279
 
@@ -3947,7 +3947,7 @@ Luke 14:9   279
 Luke 14:10  279
 Luke 14:11  279
 ---- Feasting in God's Kingdom
-|  jesus pharisees a-ruler-of-the-pharisees a-ruler-of-the-pharisees'-guest pharisees lawyers
+| jesus pharisees a-ruler-of-the-pharisees a-ruler-of-the-pharisees'-guest pharisees lawyers
 || god
 Luke 14:12  280
 Luke 14:13  280
@@ -3955,7 +3955,7 @@ Luke 14:14  280
 
 Luke 14:15  280
 ---- Parable of the Feast
-|  jesus pharisees a-ruler-of-the-pharisees a-ruler-of-the-pharisees'-guest pharisees lawyers
+| jesus pharisees a-ruler-of-the-pharisees a-ruler-of-the-pharisees'-guest pharisees lawyers
 Luke 14:16  281
 Luke 14:17  281
 Luke 14:18  281
@@ -3972,7 +3972,7 @@ Luke 14:22  281
 Luke 14:23  281
 Luke 14:24  281
 ---- Count the Cost
-|  jesus disciples multitude
+| jesus disciples multitude
 Luke 14:25  282
 Luke 14:26  282
 Luke 14:27  282
@@ -3989,7 +3989,7 @@ Luke 14:33  282
 Luke 14:35  282
 ---- Lost Sheep; Lost Coin
 > parable-of-the-lost-sheep
-|  jesus disciples multitude tax-collectors sinners
+| jesus disciples multitude tax-collectors sinners
 || angels god
 Luke 15:1   283
 Luke 15:2   283
@@ -4004,7 +4004,7 @@ Luke 15:7   283
 Luke 15:9   283
 Luke 15:10  283
 ---- Parable of the Prodigal Son
-|  jesus disciples multitude
+| jesus disciples multitude
 Luke 15:11  284
 Luke 15:12  284
 Luke 15:13  284
@@ -4033,7 +4033,7 @@ Luke 15:30  284
 Luke 15:31  284
 Luke 15:32  284
 ---- Parable of the Shrewd Steward
-|  jesus disciples multitude
+| jesus disciples multitude
 Luke 16:1   285
 Luke 16:2   285
 
@@ -4046,7 +4046,7 @@ Luke 16:7   285
 Luke 16:8   285
 Luke 16:9   285"
 ---- Mammon
-|  jesus disciples multitude pharisees
+| jesus disciples multitude pharisees
 || god mammon
 "Luke 16:10  286
 Luke 16:11  286
@@ -4058,7 +4058,7 @@ Luke 16:14  286
 Luke 16:15  286"
 ---- Divorce; Stumbling
 > divorce-matthew divorce-mark fish-coin-greatest stumbling
-|  jesus disciples multitude
+| jesus disciples multitude
 Luke 16:15  287
 Luke 16:16  287
 Luke 16:17  287
@@ -4071,7 +4071,7 @@ Luke 17:2   287
 "Luke 17:3   287
 Luke 17:4   287
 ---- Parable of the Rich Man and Lazarus
-|  jesus disciples multitude
+| jesus disciples multitude
 || rich-man  beggar
 Luke 16:19  288
 Luke 16:20  288
@@ -4093,7 +4093,7 @@ Luke 16:30  288
 
 Luke 16:31  288
 ---- Forgiveness; Faith; Duty
-|  jesus disciples multitude the-twelve the-seventy
+| jesus disciples multitude the-twelve the-seventy
 "Luke 17:3   289
 Luke 17:4   289
 
@@ -4106,7 +4106,7 @@ Luke 17:8   289
 Luke 17:9   289
 Luke 17:10  289
 ---- Healing of Ten Lepers
-|  jesus disciples multitude samaria galilee ten-lepers samaritan-leper
+| jesus disciples multitude samaria galilee ten-lepers samaritan-leper
 || priests god
 Luke 17:11       90014
 Luke 17:12  290, 90014
@@ -4122,7 +4122,7 @@ Luke 17:18  290, 90014
 
 Luke 17:19  290, 90014
 ---- Time of the Kingdom
-|  jesus disciples multitude pharisees
+| jesus disciples multitude pharisees
 || god
 Luke 17:20  291
 Luke 17:21  291
@@ -4132,7 +4132,7 @@ Luke 17:23  291
 Luke 17:24  291
 Luke 17:25  291"
 ---- Days of Noah and Lot
-|  jesus disciples multitude
+| jesus disciples multitude
 || noah lot sodom-and-gomorrah
 "Luke 17:26  292
 Luke 17:27  292
@@ -4150,7 +4150,7 @@ Luke 17:36  292
 
 Luke 17:37  292
 ---- Parable of the Unjust Judge
-|  jesus disciples multitude
+| jesus disciples multitude
 || god
 Luke 18:1        90015
 Luke 18:2   293, 90015
@@ -4162,7 +4162,7 @@ Luke 18:6   293, 90015
 Luke 18:7   293, 90015
 Luke 18:8   293, 90015
 ---- Parable of the Publican and the Pharisee
-|  jesus disciples multitude certain-self-righteous-people
+| jesus disciples multitude certain-self-righteous-people
 || god
 Luke 18:9        90016
 
@@ -4173,7 +4173,7 @@ Luke 18:13  294, 90016
 Luke 18:14  294, 90016
 ---- Children and the Kingdom
 > parable-of-the-lost-sheep divorce-and-children
-|  jesus disciples multitude little-children little-children's-parents
+| jesus disciples multitude little-children little-children's-parents
 || god
 Luke 18:15  295
 
@@ -4190,7 +4190,7 @@ Luke 18:29  295
 Luke 18:30  295
 ---- Rich Young Ruler (Luke)
 > rich-young-ruler-matthew rich-young-ruler-mark
-|  jesus disciples multitude rich-young-ruler
+| jesus disciples multitude rich-young-ruler
 || god
 Luke 18:18  296
 
@@ -4210,7 +4210,7 @@ Luke 18:26  296
 
 Luke 18:27  296
 ---- Prophesy of the Passion
-|  jesus the-twelve
+| jesus the-twelve
 || god gentiles prophets
 Luke 18:31  297
 Luke 18:32  297
@@ -4219,7 +4219,7 @@ Luke 18:33  297
 Luke 18:34  297
 ---- A Certain Blind Man
 > two-blind-men-mute-man two-blind-men blind-bartimaeus
-|  jesus disciples multitude blind-bartimaeus
+| jesus disciples multitude blind-bartimaeus
 || david god
 Luke 18:35  298
 Luke 18:36  298
@@ -4236,7 +4236,7 @@ Luke 18:42  298
 
 Luke 18:43  298
 ---- Zacchaeus
-|  jesus disciples multitude zacchaeus
+| jesus disciples multitude zacchaeus
 || abraham
 Luke 19:1   299
 Luke 19:2   299
@@ -4255,7 +4255,7 @@ Luke 19:9   299
 Luke 19:10  299
 ---- Parable of the Minas
 > parable-of-the-talents
-|  jesus disciples multitude
+| jesus disciples multitude
 || god jerusalem
 Luke 19:11       90017
 
@@ -4285,7 +4285,7 @@ Luke 19:27  300, 90017
 Luke 19:28  300, 90017
 ---- Triumphal Entry (Luke)
 > triumphal-entry-matthew triumphal-entry-mark annointing-triumphal-entry
-|  jesus disciples multitude bethsphage bethany two-disciples donkey's-colt donkey's-owner some-of-the-pharisees
+| jesus disciples multitude bethsphage bethany two-disciples donkey's-colt donkey's-owner some-of-the-pharisees
 || stones jerusalem romans
 Luke 19:29  301
 Luke 19:30  301
@@ -4311,7 +4311,7 @@ Luke 19:43       302
 Luke 19:44       302
 ---- Cleansing the Temple (Luke)
 > cleansing-the-temple-matthew cleansing-the-temple-mark cleansing-the-temple-john
-|  jesus temple money-changers multitude disciples chief-priests scribes leading-men
+| jesus temple money-changers multitude disciples chief-priests scribes leading-men
 || god
 Luke 19:45  303
 Luke 19:46  303
@@ -4320,7 +4320,7 @@ Luke 19:47  303
 Luke 19:48  303
 ---- By What Authority (Luke)
 > by-what-authority-matthew by-what-authority-mark
-|  jesus temple multitude scribes priests elders
+| jesus temple multitude scribes priests elders
 || john-the-forerunner
 Luke 20:1   304
 Luke 20:2   304
@@ -4335,7 +4335,7 @@ Luke 20:7   304
 Luke 20:8   304
 ---- Parable of the Wicked Tenants (Luke)
 > parable-of-the-wicked-tenants-matthew parable-of-the-wicked-tenants-mark
-|  jesus disciples multitude
+| jesus disciples multitude
 Luke 20:9   305
 
 "Luke 20:10  305
@@ -4353,7 +4353,7 @@ Luke 20:17  305
 Luke 20:18  305
 ---- Taxes to Caesar (Luke)
 > taxes-to-caesar-matthew taxes-to-caesar-mark
-|  jesus disciples multitude chief-priests scribes spies
+| jesus disciples multitude chief-priests scribes spies
 || pilate caesar god
 Luke 20:19  306
 Luke 20:20  306
@@ -4370,7 +4370,7 @@ Luke 20:25  306
 Luke 20:26  306
 ---- Marriage in the Resurrection (Luke)
 > marriage-in-the-resurrection-matthew marriage-in-the-resurrection-mark
-|  jesus disciples multitude sadducees
+| jesus disciples multitude sadducees
 || moses god abraham isaac jacob david
 Luke 20:27  307
 Luke 20:28  307
@@ -4396,7 +4396,7 @@ Luke 20:43  307
 Luke 20:44  307
 ---- Widow's Mite (Luke)
 > widows-mite-mark
-|  jesus disciples multitude rich-people widow
+| jesus disciples multitude rich-people widow
 || scribes
 Luke 20:45       90018
 Luke 20:46  308, 90018
@@ -4408,7 +4408,7 @@ Luke 21:3   308, 90018
 Luke 21:4   308, 90018
 ---- Little Apocalypse (Luke)
 > little-apocalypse-matthew little-apocalypse-mark
-|  jesus disciples multitude
+| jesus disciples multitude
 || god jerusalem gentiles sun moon stars sea waves earth
 Luke 21:5   309
 Luke 21:6   309
@@ -4450,7 +4450,7 @@ Luke 21:34  310
 Luke 21:35  310
 Luke 21:36  310
 ---- Satan Enters Judas
-|  jesus disciples multitude temple mount-of-olives chief-priests scribes satan judas-iscariot peter john-the-theologian
+| jesus disciples multitude temple mount-of-olives chief-priests scribes satan judas-iscariot peter john-the-theologian
 Luke 21:37  313
 Luke 21:38  313
 
@@ -4466,7 +4466,7 @@ Luke 22:7   313
 Luke 22:8   313
 ---- Last Supper (Luke)
 > holy-week-thursday-composite last-supper-mark
-|  jesus peter john-the-theologian man-carrying-water master-of-the-house the-twelve peter
+| jesus peter john-the-theologian man-carrying-water master-of-the-house the-twelve peter
 || satan rooster god
 Luke 22:7   301
 Luke 22:8   301
@@ -4520,7 +4520,7 @@ Luke 22:38  301
 Luke 22:39  301
 ---- Betrayal (Luke)
 > holy-week-thursday-composite betrayal-mark
-|  jesus disciples mount-of-olives officers judas-iscariot peter malchus chief-priests captains-of-the-temple elders high-priest high-priest's-maid high-priest's-household high-priest's-household-member council scribes pilate rooster
+| jesus disciples mount-of-olives officers judas-iscariot peter malchus chief-priests captains-of-the-temple elders high-priest high-priest's-maid high-priest's-household high-priest's-household-member council scribes pilate rooster
 || god
 Luke 22:39  315
 Luke 22:40  315
@@ -4574,7 +4574,7 @@ Luke 22:71  315
 Luke 23:1   315
 ---- Handing Over and Crucifixion (Luke)
 > handing-over crucifixion handing-over-and-crucifixion-john
-|  jesus chief-priests captains-of-the-temple elders rulers pilate multitude scribes herod herod's-soldiers simon-of-cyrene daughers-of-jerusalem gestas dysmas longinus disciples women-disciples joseph-of-arimathaea
+| jesus chief-priests captains-of-the-temple elders rulers pilate multitude scribes herod herod's-soldiers simon-of-cyrene daughers-of-jerusalem gestas dysmas longinus disciples women-disciples joseph-of-arimathaea
 || caesar judea galilee jerusalem barabbas god temple council arimathaea
 Luke 23:2   316
 
@@ -4644,7 +4644,7 @@ Luke 23:55  316
 Luke 23:56  316
 ---- Resurrection (Luke)
 > holy-week-great-and-holy-saturday resurrection-mark resurrection-john
-|  women-disciples tomb-angels the-twelve mary-magdalene joanna mary-mother-of-james peter
+| women-disciples tomb-angels the-twelve mary-magdalene joanna mary-mother-of-james peter
 || galilee
 Luke 24:1   318
 Luke 24:2   318
@@ -4662,7 +4662,7 @@ Luke 24:11  318
 
 Luke 24:12  318
 ---- Road to Emmaus
-|  peter luke cleopas jesus the-twelve disciples
+| peter luke cleopas jesus the-twelve disciples
 || emmaus jerusalem god multitude chief-priests  rulers israel women-disciples tomb-angels prophets moses bread
 Luke 24:12  319
 
@@ -4698,7 +4698,7 @@ Luke 24:34  319
 Luke 24:35  319
 ---- Ascension (Luke)
 > ascension-mark
-|  the-twelve disciples jesus
+| the-twelve disciples jesus
 || moses prophets jerusalem nations god bethany
 Luke 24:36  320
 Luke 24:37  320
@@ -4723,7 +4723,7 @@ Luke 24:51  320
 Luke 24:52  320
 Luke 24:53  320
 ---- The Word
-|  jesus john-the-forerunner
+| jesus john-the-forerunner
 || god moses disciples
 John  1:1   321
 John  1:2   321
@@ -4746,7 +4746,7 @@ John  1:15  321
 John  1:16  321
 John  1:17  321
 ---- John's Testimony
-|  john-the-forerunner jewish-leaders
+| john-the-forerunner jewish-leaders
 || god elijah the-prophet jesus
 John  1:18  322
 
@@ -4772,7 +4772,7 @@ John  1:27  322
 
 John  1:28  322
 ---- Lamb of God
-|  john-the-forerunner jesus multitude
+| john-the-forerunner jesus multitude
 || israel holy-spirit god
 John  1:29  323
 John  1:30  323
@@ -4782,7 +4782,7 @@ John  1:32  323
 John  1:33  323
 John  1:34  323
 ---- Calling the First Disciples
-|  john-the-forerunner john-the-forerunner's-disciples jesus andrew peter philip nathanael
+| john-the-forerunner john-the-forerunner's-disciples jesus andrew peter philip nathanael
 || galilee bethsaida moses prophets nazareth joseph israel
 John  1:35  324
 John  1:36  324
@@ -4816,7 +4816,7 @@ John  1:49  324, 325
 John  1:50  324, 325
 John  1:51  324, 325
 ---- Wedding at Cana
-|  jesus disciples mary cana-wedding-servants cana-wedding-ruler cana-wedding-bridegroom
+| jesus disciples mary cana-wedding-servants cana-wedding-ruler cana-wedding-bridegroom
 || cana galilee cana-wedding-guests
 John  2:1   326
 John  2:2   326
@@ -4838,7 +4838,7 @@ John  2:10  326
 John  2:11  326
 ---- Cleansing the Temple (John)
 > cleansing-the-temple-matthew cleansing-the-temple-mark cleansing-the-temple-luke
-|  jesus mother jesus'-brothers disciples temple-money-changers temple-sheep temple-oxen temple-doves jewish-leaders multitude
+| jesus mother jesus'-brothers disciples temple-money-changers temple-sheep temple-oxen temple-doves jewish-leaders multitude
 || capernaum jerusalem temple
 John  2:12  327, 90019
 John  2:13  327, 90019
@@ -4861,7 +4861,7 @@ John  2:23       90019
 John  2:24       90019
 John  2:25       90019
 ---- Nicodemus
-|  nicodemus jesus
+| nicodemus jesus
 || god holy-spirit israel
 John  3:1   328
 John  3:2   328
@@ -4890,7 +4890,7 @@ John  3:19            330
 John  3:20            330
 John  3:21            330
 ---- John's Witness
-|  jesus disciples john-the-forerunner john-the-forerunner's-disciples jews
+| jesus disciples john-the-forerunner john-the-forerunner's-disciples jews
 || judea enon salim god holy-spirit
 John  3:22  331, 90020
 John  3:23  331, 90020
@@ -4910,7 +4910,7 @@ John  3:34       90020
 John  3:35       90020
 John  3:36       90020
 ---- Woman at the Well
-|  jesus disciples judea galilee samaria sychar photini
+| jesus disciples judea galilee samaria sychar photini
 || pharisees john-the-forerunner jacob joseph jews five-husbands god
 John  4:1        90021
 John  4:2        90021
@@ -4979,7 +4979,7 @@ John  4:41  332, 90021
 John  4:42  332, 90021
 ---- Healing a Nobleman's Son
 > two-healings-matthew healing-jairus-daughter two-healings-luke
-|  jesus nobleman nobleman's-son nobleman's-servants
+| jesus nobleman nobleman's-son nobleman's-servants
 || galilee jerusalem cana judea
 John  4:43       90022
 John  4:44       90022
@@ -5001,7 +5001,7 @@ John  4:52  333, 90022
 John  4:53  333, 90022
 John  4:54  333, 90022
 ---- Healing at Bethesda Pool
-|  jesus bethesda-sick bethesda-man jews
+| jesus bethesda-sick bethesda-man jews
 || jerusalem bethesda bethesda-angel temple god
 John  5:1   334, 335
 John  5:2   334, 335
@@ -5082,7 +5082,7 @@ John  6:1   338
 John  6:2   338
 ---- Feeding of the Five Thousand (John)
 > feeding-of-the-five-thousand-matthew feeding-of-the-five-thousand-mark feeding-of-the-five-thousand-luke
-|  jesus disciples multitude philip andrew boy bread fish
+| jesus disciples multitude philip andrew boy bread fish
 || mountain god
 John  6:3        90024
 John  6:4        90024
@@ -5103,7 +5103,7 @@ John  6:13  339, 90024
 John  6:14  339, 90024
 ---- Walking on Water (John)
 > walking-on-water-matthew walking-on-water-mark
-|  jesus multitude disciples sea
+| jesus multitude disciples sea
 || capernaum tiberias
 John  6:14  340
 
@@ -5126,7 +5126,7 @@ John  6:25  340
 John  6:26  340
 John  6:27  340
 ---- Bread of Life
-|  jesus jews
+| jesus jews
 || god bread moses
 "John  6:27  341, 90025
 
@@ -5170,7 +5170,7 @@ John  6:53  344, 90027
 John  6:54  344, 90027
 John  6:55       90027"
 ---- Hard Saying
-|  jesus disciples the-twelve peter
+| jesus disciples the-twelve peter
 || god bread capernaum judas
 "John  6:56  345, 90028
 John  6:57  345, 90028
@@ -5195,7 +5195,7 @@ John  6:69  345, 90028
 John  6:70       90028
 John  6:71       90028
 ---- Brothers
-|  jesus jesus'-brothers multitude
+| jesus jesus'-brothers multitude
 || galilee judea jews
 John  7:1   346
 
@@ -5215,7 +5215,7 @@ John  7:11  346
 John  7:12  346
 John  7:13  346
 ---- Teaching in the Temple
-|  jesus jews multitude
+| jesus jews multitude
 || temple god moses
 John  7:14  347
 
@@ -5242,7 +5242,7 @@ John  7:29  347
 
 John  7:30  347
 ---- A While Longer
-|  jesus multitude pharisees chief-priests officers jews
+| jesus multitude pharisees chief-priests officers jews
 || greeks
 John  7:31  90029
 
@@ -5254,7 +5254,7 @@ John  7:34  90029
 John  7:35  90029
 John  7:36  90029
 ---- Come and Drink
-|  jesus multitude jews officers chief-priests pharisees rulers nicodemus
+| jesus multitude jews officers chief-priests pharisees rulers nicodemus
 || holy-spirit galilee bethlehem
 John  7:37  348, 90030
 John  7:38  348, 90030
@@ -5283,7 +5283,7 @@ John  7:52  348, 90030
 John  7:53       90030
 John  8:12  348, 90030
 ---- Woman Caught in Adultery
-|  jesus multitude scribes pharisees woman-caught-in-adultery
+| jesus multitude scribes pharisees woman-caught-in-adultery
 || mount-of-olives temple moses
 John  8:1        90031 s/but /
 John  8:2        90031
@@ -5302,7 +5302,7 @@ John  8:10  349, 90031
 John  8:11  349, 90031
   Lord." Jesus
 ---- Light of the World
-|  jesus multitude jews pharisees
+| jesus multitude jews pharisees
 || god temple
 John  8:12  350
 
@@ -5318,7 +5318,7 @@ John  8:19  350
   Father?" Jesus
 John  8:20  350
 ---- Going Away
-|  jesus jews
+| jesus jews
 || god
 John  8:21  351
 
@@ -5337,7 +5337,7 @@ John  8:29  351
 
 John  8:30  351
 ---- Abraham's Offspring
-|  jesus jews
+| jesus jews
 || abraham god satan
 John  8:31  352
 John  8:32  352
@@ -5358,7 +5358,7 @@ John  8:41  352
 
 John  8:42  352"
 ---- Father of Lies
-|  jesus jews
+| jesus jews
 || god abraham satan samaritan
 John  8:42  353
 John  8:43  353
@@ -5373,7 +5373,7 @@ John  8:49  353
 John  8:50  353
 John  8:51  353
 ---- I AM
-|  jesus jews
+| jesus jews
 || abraham god temple
 "John  8:51  354
 
@@ -5390,7 +5390,7 @@ John  8:58  354 s/AM. ”/AM.”
 
 John  8:59  354
 ---- Healing of a Man Blind From Birth
-|  jesus disciples man-born-blind man-born-blind's-parents man-born-blind's-neighbors pharisees jews
+| jesus disciples man-born-blind man-born-blind's-parents man-born-blind's-neighbors pharisees jews
 || siloam mud moses god
 John  9:1   355
 John  9:2   355
@@ -5459,7 +5459,7 @@ John  9:37  355
 
 John  9:38  355
 ---- Good Shepherd
-|  jesus pharisees
+| jesus pharisees
 || god
 John  9:39  356
 
@@ -5486,7 +5486,7 @@ John 10:14  358
 John 10:15  358
 John 10:16  358"
 ---- Tell Us Plainly
-|  jesus jews multitude
+| jesus jews multitude
 || god temple transjordan john-the-forerunner
 "John 10:17  359
 John 10:18  359
@@ -5522,7 +5522,7 @@ John 10:40                 90032
 John 10:41                 90032
 John 10:42                 90032
 ---- Lazarus
-|  jesus lazarus mary-of-bethany martha disciples thomas lazarus-mourners multitude pharisees
+| jesus lazarus mary-of-bethany martha disciples thomas lazarus-mourners multitude pharisees
 || bethany god judea jews
 John 11:1   362, 90033
 John 11:2   362, 90033
@@ -5599,7 +5599,7 @@ John 11:44  362, 90033
 John 11:45  362, 90033
 John 11:46       90033
 ---- Council
-|  chief-priests pharisees caiaphas disciples multitude
+| chief-priests pharisees caiaphas disciples multitude
 || multitude romans israel ephraim
 John 11:47  363
 John 11:48  363
@@ -5618,7 +5618,7 @@ John 11:56  363
 John 11:57  363
 ---- Annointing; Triumphal Entry
 > triumphal-entry-matthew triumphal-entry-mark triumphal-entry-luke holy-week-wednesday-presanctified-liturgy annointing-by-mary-of-bethany
-|  jesus mary-of-bethany martha lazarus judas disciples jews chief-priests multitude donkey
+| jesus mary-of-bethany martha lazarus judas disciples jews chief-priests multitude donkey
 || simon-iscariot israel god jerusalem
 John 12:1   364
 John 12:2   364
@@ -5650,7 +5650,7 @@ John 12:16  364
 John 12:17  364
 John 12:18  364
 ---- Coming of the Hour
-|  pharisees certain-greeks philip andrew god multitude
+| pharisees certain-greeks philip andrew god multitude
 || jerusalem bethsaida galilee satan
 John 12:19  366
 
@@ -5679,7 +5679,7 @@ John 12:34  366, 367
 John 12:35  366, 367
 John 12:36  366, 367
 ---- Belief and Disbelief
-|  jesus multitude pharisees rulers
+| jesus multitude pharisees rulers
 || isaiah god
 "John 12:36  368
 
@@ -5697,7 +5697,7 @@ John 12:45  368
 John 12:46  368
 John 12:47  368"
 ---- Washing the Disciples' Feet
-|  jesus disciples judas peter
+| jesus disciples judas peter
 || god simon-iscariot
 John 13:1   369
 
@@ -5725,7 +5725,7 @@ John 13:15  370
 John 13:16  370
 John 13:17  370"
 ---- Betrayer Revealed
-|  jesus disciples judas peter john-the-theologian satan
+| jesus disciples judas peter john-the-theologian satan
 "John 13:18  90034
 John 13:19  90034
 John 13:20  90034
@@ -5746,7 +5746,7 @@ John 13:29  90034
 John 13:30  90034
 ---- Resurrection (John)
 > holy-week-great-and-holy-saturday resurrection-mark resurrection-luke
-|  mary-magdalene peter john-the-theologian
+| mary-magdalene peter john-the-theologian
 || jesus
 John 20:1   391
 John 20:2   391
@@ -5760,7 +5760,7 @@ John 20:8   391
 John 20:9   391
 John 20:10  391
 ---- Gardener
-|  mary-magdalene tomb-angels jesus
+| mary-magdalene tomb-angels jesus
 || god disciples
 John 20:11  392
 John 20:12  392
@@ -5778,7 +5778,7 @@ John 20:17  392
 
 John 20:18  392
 ---- Doubting Thomas
-|  disciples jesus holy-spirit thomas
+| disciples jesus holy-spirit thomas
 || jews god
 John 20:19  393, 394, 395
 John 20:20  393, 394, 395
@@ -5799,7 +5799,7 @@ John 20:29  393
 John 20:30  393
 John 20:31  393
 ---- Breakfast on the Beach
-|  jesus disciples peter thomas nathanael john-the-theologian james,-son-of-zebedee fish bread sea
+| jesus disciples peter thomas nathanael john-the-theologian james,-son-of-zebedee fish bread sea
 || cana galilee
 John 21:1   396
 John 21:2   396
@@ -5826,7 +5826,7 @@ John 21:12  396
 John 21:13  396
 John 21:14  396
 ---- Restoration of Peter
-|  jesus peter john-the-theologian
+| jesus peter john-the-theologian
 || jonah-of-peter god
 John 21:15  397
   these?" He
@@ -6740,7 +6740,7 @@ Matt 27:31  121
 
 Matt 27:32  121
 ---- Holy Week: Friday, Passion Gospels № 6
-|  jesus officers officer's-cohort simon golgotha dysmas gestas chief-priests scribes passers-by
+| jesus officers officer's-cohort simon golgotha dysmas gestas chief-priests scribes passers-by
 || jews alexander rufus
 Mark 15:16  195
 Mark 15:17  195
@@ -6967,7 +6967,7 @@ Mark 15:39  196
 Mark 15:40  196
 Mark 15:41  196
 ---- Holy Week: Friday, 6th Hour
-|  jesus dysmas gestas officers multitude rulers longinus acquaintances
+| jesus dysmas gestas officers multitude rulers longinus acquaintances
 || galilee god
 Luke 23:32  317
 Luke 23:33  317
@@ -6995,7 +6995,7 @@ Luke 23:47  317
 Luke 23:48  317
 Luke 23:49  317
 ---- Holy Week: Friday, 9th Hour
-|  jesus officers caiaphas pilate jews multitude chief-priests mary mary-of-clopas mary-magdalene john-the-theologian dysmas gestas
+| jesus officers caiaphas pilate jews multitude chief-priests mary mary-of-clopas mary-magdalene john-the-theologian dysmas gestas
 || caesar god barabbas
 John 18:28  386
 John 18:29  386
