@@ -147,36 +147,6 @@ name: "{name}"
         print('pruning', char)
         os.unlink(f'../_characters/{char}.md')
 
-    sg_titles = []
-    synaxis_groups = defaultdict(list)
-    for line in open('synaxis.txt'):
-        line = line.strip()
-        if not line:
-            continue
-        elif line.startswith('----'):
-            sg_title = line.split(None, 1)[1]
-            sg_titles.append(sg_title)
-        else:
-            synaxis_groups[sg_title].append(line)
-
-    sg_slugs = set()
-    for sg_i, sg_title in enumerate(sg_titles):
-        sg_characters = synaxis_groups[sg_title]
-        sg_slug = sg_title.lower()
-        sg_slugs.add(sg_slug)
-        open(f'../_synaxis/{sg_slug}.md', 'w+').write(f'''\
----
-title: {sg_title}
-characters: "{' '.join(sg_characters)}"
-order: {sg_i}
----
-''')
-
-    known = {fn.split('.')[0] for fn in os.listdir('../_synaxis')}
-    for slug in known - sg_slugs:
-        print('pruning', slug)
-        os.unlink(f'../_synaxis/{slug}.md')
-
 
 class Pericope(object):
 

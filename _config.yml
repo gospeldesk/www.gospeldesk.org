@@ -29,12 +29,6 @@ defaults:
   -
     scope:
       path: ""
-      type: "synaxis"
-    values:
-      layout: "synaxis"
-  -
-    scope:
-      path: ""
       type: "characters"
     values:
       layout: "character"
@@ -62,5 +56,5 @@ plugins:
 
 # For RSS feed, keep in sync with index.html meta
 title: Gospel Desk
-excerpt: "An Orthodox Christian Blog"
+excerpt: "JCCU"
 author: Chad Whitacre
