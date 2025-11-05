@@ -279,7 +279,8 @@ function draw(container) {
     div.append(img);
 
     var a = document.createElement('a');
-    a.href = `/characters/${person.slug}/`;
+    var slug = person.slug.replace("'", '').replace(',', '')
+    a.href = `/characters/${slug}/`;
     a.target = '_blank';
     a.innerHTML = '↗️';
     a.style.position = 'absolute';
