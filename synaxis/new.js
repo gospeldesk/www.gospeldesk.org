@@ -127,7 +127,7 @@ function docMouseMove(e) {
       cls = 'cut';
     }
     Array.from(document.getElementsByClassName(`person ${cls}`)).forEach((person) => {
-      step = UNIT / 3;
+      step = UNIT / 7;
       person.style.top = step * Math.round((e.pageY - Number(person.dataset.offsetY)) / step);
       person.style.left = LEFT + (step * Math.round((e.pageX - Number(person.dataset.offsetX)) / step));
       person.classList.add('placed');
