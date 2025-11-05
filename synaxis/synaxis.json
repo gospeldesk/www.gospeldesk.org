@@ -107,9 +107,9 @@
   {
     "slug": "anna",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 152,
+    "y": 35,
+    "bg": "#AAA"
   },
   {
     "slug": "asa",
@@ -149,30 +149,30 @@
   {
     "slug": "bartimaeus",
     "scale": 1,
-    "x": 113,
-    "y": 68,
+    "x": 123,
+    "y": 66,
     "bg": "#AAA"
   },
   {
     "slug": "bathsheba",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 26,
+    "y": 133,
+    "bg": "#AAA"
   },
   {
     "slug": "berenice",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 98,
+    "y": 67,
+    "bg": "#AAA"
   },
   {
     "slug": "berenice's-demon",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 96,
+    "y": 75,
+    "bg": "#AAA"
   },
   {
     "slug": "bethany",
@@ -331,23 +331,23 @@
   {
     "slug": "centurion",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 109,
+    "y": 77,
+    "bg": "#AAA"
   },
   {
     "slug": "centurion's-friends",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 99,
+    "y": 93,
+    "bg": "#AAA"
   },
   {
     "slug": "centurion's-servant",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 105,
+    "y": 85,
+    "bg": "#AAA"
   },
   {
     "slug": "certain-greeks",
@@ -380,9 +380,9 @@
   {
     "slug": "cleopas",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 67,
+    "y": 79,
+    "bg": "#AAA"
   },
   {
     "slug": "council",
@@ -506,9 +506,9 @@
   {
     "slug": "dysmas",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 107,
+    "y": 69,
+    "bg": "#AAA"
   },
   {
     "slug": "east",
@@ -562,9 +562,9 @@
   {
     "slug": "elizabeth",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 127,
+    "y": 35,
+    "bg": "#AAA"
   },
   {
     "slug": "elizabeth's-neighbors-and-relatives",
@@ -1080,9 +1080,9 @@
   {
     "slug": "justa",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 106,
+    "y": 61,
+    "bg": "#AAA"
   },
   {
     "slug": "king-herod",
@@ -1731,9 +1731,9 @@
   {
     "slug": "samaritan-leper",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 115,
+    "y": 68,
+    "bg": "#AAA"
   },
   {
     "slug": "sanhedrin",
@@ -1794,9 +1794,9 @@
   {
     "slug": "simeon",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 144,
+    "y": 35,
+    "bg": "#AAA"
   },
   {
     "slug": "simon",
@@ -1850,9 +1850,9 @@
   {
     "slug": "sinful-woman-forgiven",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 122,
+    "y": 58,
+    "bg": "#AAA"
   },
   {
     "slug": "sinners",
@@ -2095,9 +2095,9 @@
   {
     "slug": "veronica",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 114,
+    "y": 60,
+    "bg": "#AAA"
   },
   {
     "slug": "widow",
@@ -2130,9 +2130,9 @@
   {
     "slug": "wise-scribe",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 125,
+    "y": 74,
+    "bg": "#AAA"
   },
   {
     "slug": "woman-caught-in-adultery",
@@ -2158,16 +2158,16 @@
   {
     "slug": "zacchaeus",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 117,
+    "y": 76,
+    "bg": "#AAA"
   },
   {
     "slug": "zacharias",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 135,
+    "y": 35,
+    "bg": "#AAA"
   },
   {
     "slug": "zadok",
