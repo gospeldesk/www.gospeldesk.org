@@ -1,6 +1,7 @@
 .DS_Store
 .bundle/ruby
 .jekyll-cache
+.jekyll-metadata
 .sass-cache
 TODO
 _drafts/*
