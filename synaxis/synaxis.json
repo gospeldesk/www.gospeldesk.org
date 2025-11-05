@@ -51,8 +51,8 @@
   {
     "slug": "acquaintances",
     "scale": 1,
-    "x": 104,
-    "y": 140,
+    "x": 109,
+    "y": 185,
     "bg": "#AAA"
   },
   {
@@ -108,7 +108,7 @@
     "slug": "anna",
     "scale": 1,
     "x": 153,
-    "y": 35,
+    "y": 36,
     "bg": "#AAA"
   },
   {
@@ -233,9 +233,9 @@
   {
     "slug": "blind-bartimaeus",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 129,
+    "y": 71,
+    "bg": "#AAA"
   },
   {
     "slug": "blind-man-of-bethsaida",
@@ -380,7 +380,7 @@
   {
     "slug": "cleopas",
     "scale": 1,
-    "x": 119,
+    "x": 123,
     "y": 111,
     "bg": "#AAA"
   },
@@ -415,9 +415,9 @@
   {
     "slug": "deaf-mute",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 103,
+    "y": 167,
+    "bg": "#AAA"
   },
   {
     "slug": "decapolis",
@@ -569,29 +569,29 @@
   {
     "slug": "elizabeth's-neighbors-and-relatives",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 144,
+    "y": 44,
+    "bg": "#AAA"
   },
   {
     "slug": "epileptic",
     "scale": 1,
     "x": 47,
-    "y": 129,
+    "y": 126,
     "bg": "#AAA"
   },
   {
     "slug": "epileptic's-demon",
     "scale": 1,
-    "x": 35,
-    "y": 142,
+    "x": 36,
+    "y": 141,
     "bg": "#AAA"
   },
   {
     "slug": "epileptic's-father",
     "scale": 1,
     "x": 43,
-    "y": 137,
+    "y": 134,
     "bg": "#AAA"
   },
   {
@@ -639,8 +639,8 @@
   {
     "slug": "gergasene-demoniac",
     "scale": 1,
-    "x": 93,
-    "y": 120,
+    "x": 100,
+    "y": 129,
     "bg": "#AAA"
   },
   {
@@ -653,8 +653,8 @@
   {
     "slug": "gergesene-demoniac",
     "scale": 1,
-    "x": 99,
-    "y": 121,
+    "x": 94,
+    "y": 128,
     "bg": "#AAA"
   },
   {
@@ -807,9 +807,9 @@
   {
     "slug": "infirm-woman",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 93,
+    "y": 119,
+    "bg": "#AAA"
   },
   {
     "slug": "isaac",
@@ -835,30 +835,30 @@
   {
     "slug": "jairus",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 102,
+    "y": 116,
+    "bg": "#AAA"
   },
   {
     "slug": "jairus'-daughter",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 108,
+    "y": 124,
+    "bg": "#AAA"
   },
   {
     "slug": "jairus'-household",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 116,
+    "y": 124,
+    "bg": "#AAA"
   },
   {
     "slug": "jairus'-servant",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 114,
+    "y": 132,
+    "bg": "#AAA"
   },
   {
     "slug": "james,-son-of-alphaeus",
@@ -1171,15 +1171,15 @@
   {
     "slug": "longinus",
     "scale": 1,
-    "x": 66,
+    "x": 57,
     "y": 119,
     "bg": "#AAA"
   },
   {
     "slug": "luke",
     "scale": 1,
-    "x": 127,
-    "y": 109,
+    "x": 131,
+    "y": 108,
     "bg": "#AAA"
   },
   {
@@ -1192,22 +1192,22 @@
   {
     "slug": "man-born-blind",
     "scale": 1,
-    "x": 56,
-    "y": 130,
+    "x": 57,
+    "y": 127,
     "bg": "#AAA"
   },
   {
     "slug": "man-born-blind's-neighbors",
     "scale": 1,
-    "x": 52,
+    "x": 62,
     "y": 138,
     "bg": "#AAA"
   },
   {
     "slug": "man-born-blind's-parents",
     "scale": 1,
-    "x": 60,
-    "y": 138,
+    "x": 54,
+    "y": 135,
     "bg": "#AAA"
   },
   {
@@ -1290,8 +1290,8 @@
   {
     "slug": "mark",
     "scale": 1,
-    "x": 39,
-    "y": 121,
+    "x": 48,
+    "y": 118,
     "bg": "#AAA"
   },
   {
@@ -1437,7 +1437,7 @@
   {
     "slug": "nicodemus",
     "scale": 1,
-    "x": 65,
+    "x": 66,
     "y": 128,
     "bg": "#AAA"
   },
@@ -1507,8 +1507,8 @@
   {
     "slug": "paralytic",
     "scale": 1,
-    "x": 75,
-    "y": 120,
+    "x": 85,
+    "y": 128,
     "bg": "#AAA"
   },
   {
@@ -1584,8 +1584,8 @@
   {
     "slug": "photini",
     "scale": 1,
-    "x": 83,
-    "y": 129,
+    "x": 66,
+    "y": 120,
     "bg": "#AAA"
   },
   {
@@ -1794,8 +1794,8 @@
   {
     "slug": "simon-of-cyrene",
     "scale": 1,
-    "x": 125,
-    "y": 121,
+    "x": 113,
+    "y": 114,
     "bg": "#AAA"
   },
   {
@@ -2088,9 +2088,9 @@
   {
     "slug": "widow",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 75,
+    "y": 120,
+    "bg": "#AAA"
   },
   {
     "slug": "widow-of-nain",
@@ -2117,7 +2117,7 @@
     "slug": "wise-scribe",
     "scale": 1,
     "x": 125,
-    "y": 78,
+    "y": 79,
     "bg": "#AAA"
   },
   {
@@ -2152,7 +2152,7 @@
     "slug": "zacharias",
     "scale": 1,
     "x": 137,
-    "y": 35,
+    "y": 37,
     "bg": "#AAA"
   },
   {
