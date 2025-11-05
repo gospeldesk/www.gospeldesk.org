@@ -86,8 +86,8 @@
   {
     "slug": "andrew",
     "scale": 1,
-    "x": 37,
-    "y": 80,
+    "x": 39,
+    "y": 66,
     "bg": "#AAA"
   },
   {
@@ -107,7 +107,7 @@
   {
     "slug": "anna",
     "scale": 1,
-    "x": 152,
+    "x": 153,
     "y": 35,
     "bg": "#AAA"
   },
@@ -142,36 +142,36 @@
   {
     "slug": "bartholomew",
     "scale": 1,
-    "x": 51,
-    "y": 91,
+    "x": 52,
+    "y": 77,
     "bg": "#AAA"
   },
   {
     "slug": "bartimaeus",
     "scale": 1,
-    "x": 121,
-    "y": 84,
+    "x": 123,
+    "y": 70,
     "bg": "#AAA"
   },
   {
     "slug": "bathsheba",
     "scale": 1,
-    "x": 26,
-    "y": 133,
+    "x": 25,
+    "y": 132,
     "bg": "#AAA"
   },
   {
     "slug": "berenice",
     "scale": 1,
-    "x": 96,
-    "y": 85,
+    "x": 98,
+    "y": 71,
     "bg": "#AAA"
   },
   {
     "slug": "berenice's-demon",
     "scale": 1,
-    "x": 94,
-    "y": 93,
+    "x": 96,
+    "y": 79,
     "bg": "#AAA"
   },
   {
@@ -331,22 +331,22 @@
   {
     "slug": "centurion",
     "scale": 1,
-    "x": 107,
-    "y": 95,
+    "x": 109,
+    "y": 81,
     "bg": "#AAA"
   },
   {
     "slug": "centurion's-friends",
     "scale": 1,
-    "x": 97,
-    "y": 111,
+    "x": 99,
+    "y": 97,
     "bg": "#AAA"
   },
   {
     "slug": "centurion's-servant",
     "scale": 1,
-    "x": 103,
-    "y": 103,
+    "x": 105,
+    "y": 89,
     "bg": "#AAA"
   },
   {
@@ -380,8 +380,8 @@
   {
     "slug": "cleopas",
     "scale": 1,
-    "x": 65,
-    "y": 105,
+    "x": 67,
+    "y": 91,
     "bg": "#AAA"
   },
   {
@@ -436,22 +436,22 @@
   {
     "slug": "disciple",
     "scale": 1,
-    "x": 28,
-    "y": 123,
+    "x": 40,
+    "y": 106,
     "bg": "#AAA"
   },
   {
     "slug": "disciples",
     "scale": 1,
-    "x": 36,
-    "y": 121,
+    "x": 48,
+    "y": 104,
     "bg": "#AAA"
   },
   {
     "slug": "discipls",
     "scale": 1,
-    "x": 38,
-    "y": 113,
+    "x": 50,
+    "y": 96,
     "bg": "#AAA"
   },
   {
@@ -506,8 +506,8 @@
   {
     "slug": "dysmas",
     "scale": 1,
-    "x": 105,
-    "y": 87,
+    "x": 107,
+    "y": 73,
     "bg": "#AAA"
   },
   {
@@ -548,7 +548,7 @@
   {
     "slug": "elijah",
     "scale": 1,
-    "x": 98,
+    "x": 99,
     "y": 34,
     "bg": "#AAA"
   },
@@ -562,7 +562,7 @@
   {
     "slug": "elizabeth",
     "scale": 1,
-    "x": 127,
+    "x": 129,
     "y": 35,
     "bg": "#AAA"
   },
@@ -863,15 +863,15 @@
   {
     "slug": "james,-son-of-alphaeus",
     "scale": 1,
-    "x": 37,
-    "y": 96,
+    "x": 38,
+    "y": 82,
     "bg": "#AAA"
   },
   {
     "slug": "james,-son-of-zebedee",
     "scale": 1,
-    "x": 37,
-    "y": 88,
+    "x": 38,
+    "y": 74,
     "bg": "#AAA"
   },
   {
@@ -926,21 +926,21 @@
   {
     "slug": "jesus'-brothers",
     "scale": 1,
-    "x": 33,
+    "x": 31,
     "y": 52,
     "bg": "#AAA"
   },
   {
     "slug": "jesus'-friends",
     "scale": 1,
-    "x": 49,
+    "x": 47,
     "y": 52,
     "bg": "#AAA"
   },
   {
     "slug": "jesus'-sisters",
     "scale": 1,
-    "x": 41,
+    "x": 39,
     "y": 52,
     "bg": "#AAA"
   },
@@ -961,14 +961,14 @@
   {
     "slug": "joanna",
     "scale": 1,
-    "x": 67,
-    "y": 89,
+    "x": 69,
+    "y": 75,
     "bg": "#AAA"
   },
   {
     "slug": "john-the-forerunner",
     "scale": 3,
-    "x": 105,
+    "x": 107,
     "y": 30,
     "bg": "brown"
   },
@@ -982,14 +982,14 @@
   {
     "slug": "john-the-theologian",
     "scale": 1,
-    "x": 29,
-    "y": 86,
+    "x": 30,
+    "y": 72,
     "bg": "#AAA"
   },
   {
     "slug": "john's-disciples",
     "scale": 1,
-    "x": 127,
+    "x": 129,
     "y": 46,
     "bg": "#AAA"
   },
@@ -1010,14 +1010,14 @@
   {
     "slug": "joseph",
     "scale": 1,
-    "x": 27,
+    "x": 25,
     "y": 35,
     "bg": "#AAA"
   },
   {
     "slug": "joseph-and-mary's-relatives-and-acquaintances",
     "scale": 1,
-    "x": 26,
+    "x": 25,
     "y": 43,
     "bg": "#AAA"
   },
@@ -1073,8 +1073,8 @@
   {
     "slug": "justa",
     "scale": 1,
-    "x": 104,
-    "y": 79,
+    "x": 106,
+    "y": 65,
     "bg": "#AAA"
   },
   {
@@ -1297,42 +1297,42 @@
   {
     "slug": "martha",
     "scale": 1,
-    "x": 83,
-    "y": 81,
+    "x": 85,
+    "y": 67,
     "bg": "#AAA"
   },
   {
     "slug": "mary-magdalene",
     "scale": 1,
-    "x": 67,
-    "y": 81,
+    "x": 69,
+    "y": 67,
     "bg": "#AAA"
   },
   {
     "slug": "mary-mother-of-james",
     "scale": 1,
-    "x": 73,
-    "y": 98,
+    "x": 75,
+    "y": 84,
     "bg": "#AAA"
   },
   {
     "slug": "mary-of-bethany",
     "scale": 1,
-    "x": 75,
-    "y": 81,
+    "x": 77,
+    "y": 67,
     "bg": "#AAA"
   },
   {
     "slug": "mary-of-clopas",
     "scale": 1,
-    "x": 67,
-    "y": 97,
+    "x": 69,
+    "y": 83,
     "bg": "#AAA"
   },
   {
     "slug": "mary",
     "scale": 3,
-    "x": 35,
+    "x": 33,
     "y": 30,
     "bg": "blue"
   },
@@ -1354,7 +1354,7 @@
     "slug": "matthew",
     "scale": 1,
     "x": 29,
-    "y": 94,
+    "y": 80,
     "bg": "#AAA"
   },
   {
@@ -1367,7 +1367,7 @@
   {
     "slug": "moses",
     "scale": 1,
-    "x": 56,
+    "x": 55,
     "y": 34,
     "bg": "#AAA"
   },
@@ -1423,8 +1423,8 @@
   {
     "slug": "nathanael",
     "scale": 1,
-    "x": 45,
-    "y": 89,
+    "x": 46,
+    "y": 75,
     "bg": "#AAA"
   },
   {
@@ -1535,8 +1535,8 @@
   {
     "slug": "peter",
     "scale": 1,
-    "x": 29,
-    "y": 78,
+    "x": 31,
+    "y": 64,
     "bg": "#AAA"
   },
   {
@@ -1570,8 +1570,8 @@
   {
     "slug": "philip",
     "scale": 1,
-    "x": 45,
-    "y": 81,
+    "x": 47,
+    "y": 67,
     "bg": "#AAA"
   },
   {
@@ -1703,8 +1703,8 @@
   {
     "slug": "salome",
     "scale": 1,
-    "x": 83,
-    "y": 89,
+    "x": 85,
+    "y": 75,
     "bg": "#AAA"
   },
   {
@@ -1717,8 +1717,8 @@
   {
     "slug": "samaritan-leper",
     "scale": 1,
-    "x": 113,
-    "y": 86,
+    "x": 115,
+    "y": 72,
     "bg": "#AAA"
   },
   {
@@ -1780,7 +1780,7 @@
   {
     "slug": "simeon",
     "scale": 1,
-    "x": 144,
+    "x": 145,
     "y": 35,
     "bg": "#AAA"
   },
@@ -1830,14 +1830,14 @@
     "slug": "simon-the-zealot",
     "scale": 1,
     "x": 37,
-    "y": 104,
+    "y": 90,
     "bg": "#AAA"
   },
   {
     "slug": "sinful-woman-forgiven",
     "scale": 1,
-    "x": 120,
-    "y": 76,
+    "x": 122,
+    "y": 62,
     "bg": "#AAA"
   },
   {
@@ -1906,8 +1906,8 @@
   {
     "slug": "susanna",
     "scale": 1,
-    "x": 75,
-    "y": 89,
+    "x": 77,
+    "y": 75,
     "bg": "#AAA"
   },
   {
@@ -2011,29 +2011,29 @@
   {
     "slug": "thaddaeus",
     "scale": 1,
-    "x": 45,
-    "y": 99,
+    "x": 46,
+    "y": 84,
     "bg": "#AAA"
   },
   {
     "slug": "the-seventy",
     "scale": 1,
-    "x": null,
-    "y": null,
-    "bg": ""
+    "x": 28,
+    "y": 102,
+    "bg": "#AAA"
   },
   {
     "slug": "the-twelve",
     "scale": 1,
-    "x": 30,
-    "y": 115,
+    "x": 42,
+    "y": 98,
     "bg": "#AAA"
   },
   {
     "slug": "thomas",
     "scale": 1,
-    "x": 29,
-    "y": 102,
+    "x": 28,
+    "y": 88,
     "bg": "#AAA"
   },
   {
@@ -2081,8 +2081,8 @@
   {
     "slug": "veronica",
     "scale": 1,
-    "x": 112,
-    "y": 78,
+    "x": 114,
+    "y": 64,
     "bg": "#AAA"
   },
   {
@@ -2116,8 +2116,8 @@
   {
     "slug": "wise-scribe",
     "scale": 1,
-    "x": 123,
-    "y": 92,
+    "x": 125,
+    "y": 78,
     "bg": "#AAA"
   },
   {
@@ -2144,14 +2144,14 @@
   {
     "slug": "zacchaeus",
     "scale": 1,
-    "x": 115,
-    "y": 94,
+    "x": 117,
+    "y": 80,
     "bg": "#AAA"
   },
   {
     "slug": "zacharias",
     "scale": 1,
-    "x": 135,
+    "x": 137,
     "y": 35,
     "bg": "#AAA"
   },
