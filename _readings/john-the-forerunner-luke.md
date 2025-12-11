@@ -8,7 +8,7 @@ noindex: true
 ref: "Luke 3:1–18"
 related: ["john-the-forerunner-matthew", "john-the-forerunner-mark"]
 direct: ["john-the-forerunner", "jordan", "multitude", "tax-collectors", "soldiers"]
-indirect: ["tiberius", "pontius-pilate", "herod", "philip-the-tetrarch", "ituraea", "trachonitis", "lysanias", "abilene", "annas", "caiaphas", "god", "zacharias", "isaiah", "abraham", "holy-spirit", "abraham", "stones"]
+indirect: ["tiberius", "pontius-pilate", "herod", "philip-the-tetrarch", "ituraea", "trachonitis", "lysanias", "abilene", "annas", "caiaphas", "god", "zacharias", "isaiah", "abraham", "holy-spirit", "abraham", "stones", "jesus"]
 prev_slug: "finding"
 next_slug: "john-imprisoned-baptism"
 ---

@@ -276,6 +276,9 @@ class Pericope(object):
         self.flush_paragraph()
 
     def write(self):
+        if 'jesus' not in self.direct:
+            if 'jesus' not in self.indirect:
+                print(self.i, self.ref, self.title)
         if self.title == self.ref:
             excerpt = ''
         else:

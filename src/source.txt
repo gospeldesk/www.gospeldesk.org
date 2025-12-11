@@ -2989,7 +2989,7 @@ Luke  2:52  208
 ---- John the Forerunner (Luke)
 > john-the-forerunner-matthew john-the-forerunner-mark
 | john-the-forerunner jordan multitude tax-collectors soldiers
-|| tiberius pontius-pilate herod philip-the-tetrarch ituraea trachonitis lysanias abilene annas caiaphas god zacharias isaiah abraham holy-spirit abraham stones
+|| tiberius pontius-pilate herod philip-the-tetrarch ituraea trachonitis lysanias abilene annas caiaphas god zacharias isaiah abraham holy-spirit abraham stones jesus
 Luke  3:1   212
 Luke  3:2   212
 
@@ -4645,7 +4645,7 @@ Luke 23:56  316
 ---- Resurrection (Luke)
 > holy-week-great-and-holy-saturday resurrection-mark resurrection-john
 | women-disciples tomb-angels the-twelve mary-magdalene joanna mary-mother-of-james peter
-|| galilee
+|| jesus galilee
 Luke 24:1   318
 Luke 24:2   318
 Luke 24:3   318
@@ -5600,7 +5600,7 @@ John 11:45  362, 90033
 John 11:46       90033
 ---- Council
 | chief-priests pharisees caiaphas disciples multitude
-|| multitude romans israel ephraim
+|| jesus multitude romans israel ephraim
 John 11:47  363
 John 11:48  363
 
@@ -5650,7 +5650,7 @@ John 12:16  364
 John 12:17  364
 John 12:18  364
 ---- Coming of the Hour
-| pharisees certain-greeks philip andrew god multitude
+| jesus pharisees certain-greeks philip andrew god multitude
 || jerusalem bethsaida galilee satan
 John 12:19  366
 

@@ -7,7 +7,7 @@ excerpt: "John 11:47–57"
 noindex: true
 ref: "John 11:47–57"
 direct: ["chief-priests", "pharisees", "caiaphas", "disciples", "multitude"]
-indirect: ["multitude", "romans", "israel", "ephraim"]
+indirect: ["jesus", "multitude", "romans", "israel", "ephraim"]
 prev_slug: "lazarus"
 next_slug: "annointing-triumphal-entry"
 ---
