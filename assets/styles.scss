@@ -514,12 +514,19 @@ article {
     }
 
     .youtube {
-      /* https://www.w3schools.com/howto/howto_css_aspect_ratio.asp */
-      &.aspect-ratio-16-9 { padding-top: 56.25%; }
-
+      aspect-ratio: 16 / 9;
       width: 100%;
       margin: 12pt 0;
       position: relative;
+
+      &.short {
+        aspect-ratio: 9 / 16 ! important;
+        width: 48%;
+        float: left;
+        &.right {
+          float: right;
+        }
+      }
 
       .youtube-inner {
         position: absolute;

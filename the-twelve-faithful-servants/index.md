@@ -90,7 +90,7 @@ are possible with God.</div>
   <tr>
     <td>
       <a href="./the-centurion/">
-        <img src="default.png" class="default">
+        <img src="./the-centurion/the-centurion.thumb.jpg">
         <span class="name">The Centurion</span>
       </a>
     </td>
@@ -184,6 +184,7 @@ and inviting me to say a few words:
 
 See images and videos of the icons in use on these pages:
 
-- [St. Zacchaeus](./st-zacchaeus/#in-use)
-- [St. Dysmas](./st-dysmas/#in-use)
 - [Sinful Woman Forgiven](./the-sinful-woman/#in-use)
+- [St. Dysmas](./st-dysmas/#in-use)
+- [Faithful Centurion](./the-centurion/#in-use)
+- [St. Zacchaeus](./st-zacchaeus/#in-use)

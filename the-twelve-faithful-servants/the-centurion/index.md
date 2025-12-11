@@ -4,6 +4,21 @@ subtitle: Anonymous
 html_title_sep: "("
 ---
 
+<a href="the-centurion.jpg">
+  <img src="the-centurion.small.jpg" alt="The Faithful Centurion">
+</a>
+<div class="caption">From the hand of <a
+href="https://www.evanwilsonstudio.com/">Evan Wilson</a>.</div>
+
+### In Use
+
+<img src="far.jpg">
+
+{% include youtube.html video_id="hAzrTM8wf2k" cls="short" %}
+{% include youtube.html video_id="fzTT4mXOnUY" cls="short right" %}
+
+<div style="clear: both;"></div>
+
 ### In the Gospels
 
 #### Matthew 8:5-13
