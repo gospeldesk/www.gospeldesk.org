@@ -7,8 +7,8 @@ excerpt: "Matthew 1:1–25"
 noindex: true
 ref: "Matthew 1:1–25"
 related: ["genealogy", "birth-and-shepherds"]
-direct: ["jesus", "david", "abraham", "isaac", "judah", "perez", "zerah", "tamar", "hezron", "ram", "amminadab", "nahshon", "salmon", "boaz", "rahab", "obed", "ruth", "jesse", "solomon", "bathsheba", "rehoboam", "abijah", "asa", "jehoshaphat", "joram", "uzziah", "jotham", "ahaz", "hezekiah", "manasseh", "amon", "josiah", "jechoniah", "jechoniahs-brothers", "babylon", "shealtiel", "zerubbabel", "abiud", "eliakim", "azor", "zadok", "achim", "eliud", "eleazar", "matthan", "jacob", "joseph", "mary", "holy-spirit", "dream-angel"]
-indirect: ["god", "isaiah"]
+direct: ["jesus", "david", "abraham", "isaac", "judah", "perez", "zerah", "tamar", "hezron", "ram", "amminadab", "nahshon", "salmon", "boaz", "rahab", "obed", "ruth", "jesse", "solomon", "bathsheba", "rehoboam", "abijah", "asa", "jehoshaphat", "joram", "uzziah", "jotham", "ahaz", "hezekiah", "manasseh", "amon", "josiah", "jechoniah", "jechoniahs-brothers", "babylon", "shealtiel", "zerubbabel", "abiud", "eliakim", "azor", "zadok", "achim", "eliud", "eleazar", "matthan", "jacob", "joseph", "mary", "dream-angel"]
+indirect: ["god", "isaiah", "holy-spirit"]
 next_slug: "wise-men"
 ---
 
