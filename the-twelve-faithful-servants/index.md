@@ -92,6 +92,7 @@ are possible with God.</div>
       <a href="./the-centurion/">
         <img src="./the-centurion/the-centurion.thumb.jpg">
         <span class="name">The Centurion</span>
+        <span class="description">None so faithful in all Israel</span>
       </a>
     </td>
     <td>

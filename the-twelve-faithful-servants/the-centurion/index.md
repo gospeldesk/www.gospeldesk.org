@@ -1,6 +1,6 @@
 ---
 title: The Centurion
-subtitle: Anonymous
+subtitle: None so faithful in all Israel
 html_title_sep: "("
 image: /the-twelve-faithful-servants/the-centurion/the-centurion.thumb.jpg
 image_alt: an icon of the Faithful Centurion
