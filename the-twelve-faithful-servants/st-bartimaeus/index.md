@@ -10,7 +10,7 @@ image_alt: an icon of St. Bartimaeus
   <img src="st-bartimaeus.small.jpg" alt="St. Bartimaeus">
 </a>
 <div class="caption">From the hand of <a
-href="https://orthodoxartsjournal.org/surpassing-gentleness-interview-iconographer-ann-margitich/">Mat. Ann Margitich</a>.</div>
+href="https://orthodoxartsjournal.org/surpassing-gentleness-interview-iconographer-ann-margitich/">Ann Margitich</a>.</div>
 
 ### In the Gospels
 
