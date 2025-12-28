@@ -73,7 +73,7 @@ and are answered.</div>
     </td>
     <td>
       <a href="./st-bartimaeus/">
-        <img src="default.png" class="default">
+        <img src="./st-bartimaeus/st-bartimaeus.thumb.jpg">
         <span class="name">St. Bartimaeus</span>
         <span class="description">The Blind Beggar</span>
       </a>

@@ -2,7 +2,15 @@
 title: St. Bartimaeus
 subtitle: The Blind Beggar
 html_title_sep: ","
+image: /the-twelve-faithful-servants/st-bartimaeus/st-bartimaeus.thumb.jpg
+image_alt: an icon of St. Bartimaeus 
 ---
+
+<a href="st-bartimaeus.jpg">
+  <img src="st-bartimaeus.small.jpg" alt="St. Bartimaeus">
+</a>
+<div class="caption">From the hand of <a
+href="https://orthodoxartsjournal.org/surpassing-gentleness-interview-iconographer-ann-margitich/">Mat. Ann Margitich</a>.</div>
 
 ### In the Gospels
 
