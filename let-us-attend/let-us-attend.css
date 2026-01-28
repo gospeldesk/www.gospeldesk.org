@@ -96,9 +96,6 @@ body {
   align-items: center;
 }
 
-.hex-cell:hover {
-  background: rgba(0,0,0,0.08);
-}
 
 /* Grabbing cursor while dragging */
 body.dragging-tile,
@@ -146,13 +143,6 @@ body[data-drag-book="john"] .hex-cell.drop-target {
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.tile:hover {
-  transform: scale(1.05);
-}
-
-body.dragging-tile .tile:hover {
-  transform: none;
-}
 
 .tile.collected {
   cursor: grab;

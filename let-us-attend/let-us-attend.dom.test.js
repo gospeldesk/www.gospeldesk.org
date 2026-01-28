@@ -324,6 +324,95 @@ describe('Drag and Drop', () => {
 
     expect(canPlace).toBe(true);
   });
+
+  test('click after drag release is suppressed', () => {
+    // Simulate the justDragged flag behavior
+    let justDragged = false;
+    let modalOpened = false;
+
+    const tile = document.createElement('div');
+    tile.classList.add('tile', 'collected');
+    tile.dataset.pk = '41';
+
+    // Click handler checks justDragged
+    tile.addEventListener('click', () => {
+      if (!justDragged) {
+        modalOpened = true;
+      }
+    });
+
+    // Simulate drag end setting the flag
+    justDragged = true;
+    setTimeout(() => { justDragged = false; }, 0);
+
+    // Click fires synchronously after mouseup, before setTimeout callback
+    tile.click();
+
+    expect(modalOpened).toBe(false);
+  });
+
+  test('click without prior drag opens modal', () => {
+    let justDragged = false;
+    let modalOpened = false;
+
+    const tile = document.createElement('div');
+    tile.classList.add('tile', 'collected');
+    tile.dataset.pk = '41';
+
+    tile.addEventListener('click', () => {
+      if (!justDragged) {
+        modalOpened = true;
+      }
+    });
+
+    // No drag, just click
+    tile.click();
+
+    expect(modalOpened).toBe(true);
+  });
+
+  test('mousedown+mouseup without move should not suppress click (just a click)', () => {
+    // Simulates the actual game behavior where mousedown starts drag tracking
+    let justDragged = false;
+    let didMove = false;
+    let modalOpened = false;
+
+    const tile = document.createElement('div');
+    tile.classList.add('tile', 'collected');
+    tile.dataset.pk = '41';
+
+    // Mousedown starts tracking
+    tile.addEventListener('mousedown', () => {
+      didMove = false;
+    });
+
+    // Mousemove sets didMove
+    tile.addEventListener('mousemove', () => {
+      didMove = true;
+    });
+
+    // Mouseup only sets justDragged if mouse moved
+    tile.addEventListener('mouseup', () => {
+      if (didMove) {
+        justDragged = true;
+        setTimeout(() => { justDragged = false; }, 0);
+      }
+    });
+
+    // Click handler
+    tile.addEventListener('click', () => {
+      if (!justDragged) {
+        modalOpened = true;
+      }
+    });
+
+    // Simulate click (mousedown, mouseup, click - no mousemove)
+    tile.dispatchEvent(new MouseEvent('mousedown', { bubbles: true }));
+    tile.dispatchEvent(new MouseEvent('mouseup', { bubbles: true }));
+    tile.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+
+    expect(modalOpened).toBe(true);
+  });
 });
 
 describe('Stats Display', () => {

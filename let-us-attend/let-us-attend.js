@@ -347,6 +347,73 @@ function createInitialState() {
   };
 }
 
+/**
+ * Calculate constrained pan values to keep at least one tile visible.
+ * Only considers tiles visible in the perpendicular axis.
+ *
+ * @param {Array} tiles - Array of {q, r} tile positions
+ * @param {Object} viewportState - {panX, panY, zoom, viewportWidth, viewportHeight}
+ * @param {number} tileSize - Base tile size in pixels
+ * @returns {Object} Constrained {panX, panY}
+ */
+function calculateConstrainedPan(tiles, viewportState, tileSize) {
+  if (!tiles || tiles.length === 0) {
+    return { panX: viewportState.panX, panY: viewportState.panY };
+  }
+
+  const hexHeight = tileSize * 1.1547;
+  const zoom = viewportState.zoom || 1;
+  const margin = tileSize * zoom * 0.5;
+
+  let panX = viewportState.panX;
+  let panY = viewportState.panY;
+
+  // Get tile positions in canvas coordinates
+  const tilePositions = tiles.map(tile => {
+    const pos = hexToPixel(tile.q, tile.r, tileSize);
+    return {
+      left: pos.x,
+      right: pos.x + tileSize,
+      top: pos.y,
+      bottom: pos.y + hexHeight
+    };
+  });
+
+  // Find tiles that are vertically visible (for horizontal constraint)
+  const verticallyVisible = tilePositions.filter(t => {
+    const screenTop = panY + t.top * zoom;
+    const screenBottom = panY + t.bottom * zoom;
+    return screenBottom > 0 && screenTop < viewportState.viewportHeight;
+  });
+
+  // Find tiles that are horizontally visible (for vertical constraint)
+  const horizontallyVisible = tilePositions.filter(t => {
+    const screenLeft = panX + t.left * zoom;
+    const screenRight = panX + t.right * zoom;
+    return screenRight > 0 && screenLeft < viewportState.viewportWidth;
+  });
+
+  // Horizontal constraint: based on vertically-visible tiles
+  if (verticallyVisible.length > 0) {
+    const minX = Math.min(...verticallyVisible.map(t => t.left));
+    const maxX = Math.max(...verticallyVisible.map(t => t.right));
+    const minPanX = margin - maxX * zoom;
+    const maxPanX = viewportState.viewportWidth - margin - minX * zoom;
+    panX = Math.max(minPanX, Math.min(maxPanX, panX));
+  }
+
+  // Vertical constraint: based on horizontally-visible tiles
+  if (horizontallyVisible.length > 0) {
+    const minY = Math.min(...horizontallyVisible.map(t => t.top));
+    const maxY = Math.max(...horizontallyVisible.map(t => t.bottom));
+    const minPanY = margin - maxY * zoom;
+    const maxPanY = viewportState.viewportHeight - margin - minY * zoom;
+    panY = Math.max(minPanY, Math.min(maxPanY, panY));
+  }
+
+  return { panX, panY };
+}
+
 // Export for Node.js testing
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
@@ -364,6 +431,7 @@ if (typeof module !== 'undefined' && module.exports) {
     isValidPlacement,
     findNearestEmptyCell,
     findNearestEmptyCellFromViewportCenter,
+    calculateConstrainedPan,
     saveState,
     loadState,
     createInitialState
@@ -379,10 +447,11 @@ if (typeof window !== 'undefined') {
   let gameState = null;
   let gameData = null;
   let updateInterval = null;
-  let dragState = null; // { tile, startQ, startR, bookClass }
+  let dragState = null; // { tile, startQ, startR, bookClass, didMove }
   let fastDecay = false; // 300x decay speed when opt+d held
   const FAST_DECAY_MULTIPLIER = 300;
   let fastDecayStartTime = null; // When fast decay was enabled
+  let justDragged = false; // Suppress click after drag
 
   // Viewport state for infinite canvas
   let viewportState = {
@@ -570,42 +639,9 @@ if (typeof window !== 'undefined') {
     if (!gameState || gameState.tiles.length === 0) return;
 
     const tileSize = getTileSize();
-    const hexHeight = tileSize * 1.1547;
-    const zoom = viewportState.zoom;
-
-    // Calculate bounding box of all tiles in canvas coordinates
-    let minX = Infinity, maxX = -Infinity;
-    let minY = Infinity, maxY = -Infinity;
-
-    for (const tile of gameState.tiles) {
-      const pos = hexToPixel(tile.q, tile.r, tileSize);
-      minX = Math.min(minX, pos.x);
-      maxX = Math.max(maxX, pos.x + tileSize);
-      minY = Math.min(minY, pos.y);
-      maxY = Math.max(maxY, pos.y + hexHeight);
-    }
-
-    // Margin in screen pixels - keep at least this much of tiles visible
-    const margin = Math.min(tileSize * zoom, viewportState.viewportWidth / 3, viewportState.viewportHeight / 3);
-
-    // Screen position of canvas point (cx, cy) = (panX + cx * zoom, panY + cy * zoom)
-
-    // Right edge of tiles must be at least `margin` into viewport from left
-    // panX + maxX * zoom >= margin
-    const minPanX = margin - maxX * zoom;
-
-    // Left edge of tiles must be at least `margin` into viewport from right
-    // panX + minX * zoom <= viewportWidth - margin
-    const maxPanX = viewportState.viewportWidth - margin - minX * zoom;
-
-    // Bottom edge of tiles must be at least `margin` into viewport from top
-    const minPanY = margin - maxY * zoom;
-
-    // Top edge of tiles must be at least `margin` into viewport from bottom
-    const maxPanY = viewportState.viewportHeight - margin - minY * zoom;
-
-    viewportState.panX = Math.max(minPanX, Math.min(maxPanX, viewportState.panX));
-    viewportState.panY = Math.max(minPanY, Math.min(maxPanY, viewportState.panY));
+    const constrained = calculateConstrainedPan(gameState.tiles, viewportState, tileSize);
+    viewportState.panX = constrained.panX;
+    viewportState.panY = constrained.panY;
   }
 
   /**
@@ -763,7 +799,7 @@ if (typeof window !== 'undefined') {
 
         // Click to view reading (view only for collected)
         tileEl.addEventListener('click', (e) => {
-          if (!e.target.closest('.tile').classList.contains('dragging')) {
+          if (!justDragged && !e.target.closest('.tile').classList.contains('dragging')) {
             openReadingModal(latestTile.pk, true);
           }
         });
@@ -781,7 +817,7 @@ if (typeof window !== 'undefined') {
 
         // Click to view reading with Mark as Read button
         tileEl.addEventListener('click', (e) => {
-          if (!e.target.closest('.tile').classList.contains('dragging')) {
+          if (!justDragged && !e.target.closest('.tile').classList.contains('dragging')) {
             openReadingModal(latestTile.pk, false);
           }
         });
@@ -885,7 +921,8 @@ if (typeof window !== 'undefined') {
       startQ: q,
       startR: r,
       pk: tile.dataset.pk,
-      bookClass: bookClass
+      bookClass: bookClass,
+      didMove: false
     };
 
     tile.classList.add('dragging');
@@ -904,6 +941,8 @@ if (typeof window !== 'undefined') {
    */
   function handleTileDragMove(e) {
     if (!dragState) return;
+
+    dragState.didMove = true;
 
     // Clear previous highlights
     for (const cell of cellCache.values()) {
@@ -968,6 +1007,13 @@ if (typeof window !== 'undefined') {
     }
     document.body.classList.remove('dragging-tile');
     delete document.body.dataset.dragBook;
+
+    // Suppress the click event that follows mouseup, but only if mouse actually moved
+    if (dragState.didMove) {
+      justDragged = true;
+      setTimeout(() => { justDragged = false; }, 0);
+    }
+
     dragState = null;
   }
 

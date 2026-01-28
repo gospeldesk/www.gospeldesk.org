@@ -12,6 +12,7 @@ const {
   isValidPlacement,
   findNearestEmptyCell,
   findNearestEmptyCellFromViewportCenter,
+  calculateConstrainedPan,
   getDecayDurationMs,
   TILE_INTERVAL_MS,
   DECAY_DURATION_MS,
@@ -349,5 +350,115 @@ describe('Viewport-Centered Placement', () => {
     const result = findNearestEmptyCellFromViewportCenter(tiles, viewportState, tileSize);
     // Should NOT return 0,0 since it's occupied
     expect(result.q !== 0 || result.r !== 0).toBe(true);
+  });
+});
+
+describe('Pan Constraint', () => {
+  const tileSize = 80;
+
+  test('returns unchanged pan when no tiles', () => {
+    const viewportState = {
+      panX: 100,
+      panY: 100,
+      zoom: 1,
+      viewportWidth: 800,
+      viewportHeight: 600
+    };
+
+    const result = calculateConstrainedPan([], viewportState, tileSize);
+
+    expect(result.panX).toBe(100);
+    expect(result.panY).toBe(100);
+  });
+
+  test('constrains pan to keep single tile visible', () => {
+    const tiles = [{ q: 0, r: 0 }];
+    const viewportState = {
+      panX: -1000, // Way off to the left
+      panY: 300,
+      zoom: 1,
+      viewportWidth: 800,
+      viewportHeight: 600
+    };
+
+    const result = calculateConstrainedPan(tiles, viewportState, tileSize);
+
+    // Pan should be constrained so tile is visible
+    // Tile at (0,0) has right edge at tileSize (80)
+    // Right edge screen pos = panX + 80 * zoom should be >= margin
+    expect(result.panX).toBeGreaterThan(-1000);
+  });
+
+  test('horizontal constraint only considers vertically visible tiles', () => {
+    // Two tiles: one at origin, one far above (off screen vertically)
+    const tiles = [
+      { q: 0, r: 0 },   // At origin, visible
+      { q: 5, r: -10 }  // Far up and right, off screen vertically
+    ];
+    const viewportState = {
+      panX: 400,  // Centered on origin tile
+      panY: 300,
+      zoom: 1,
+      viewportWidth: 800,
+      viewportHeight: 600
+    };
+
+    const result = calculateConstrainedPan(tiles, viewportState, tileSize);
+
+    // The far-away tile should not affect horizontal constraint
+    // We should be able to pan left without being blocked by the distant tile
+    const tilesOnlyOrigin = [{ q: 0, r: 0 }];
+    const resultOriginOnly = calculateConstrainedPan(tilesOnlyOrigin, viewportState, tileSize);
+
+    // Constraints should be similar since the off-screen tile is ignored
+    expect(result.panX).toBe(resultOriginOnly.panX);
+  });
+
+  test('vertical constraint only considers horizontally visible tiles', () => {
+    // Two tiles: one at origin, one far to the right (off screen horizontally)
+    const tiles = [
+      { q: 0, r: 0 },   // At origin, visible
+      { q: 20, r: 5 }   // Far right and down, off screen horizontally
+    ];
+    const viewportState = {
+      panX: 400,  // Centered on origin tile
+      panY: 300,
+      zoom: 1,
+      viewportWidth: 800,
+      viewportHeight: 600
+    };
+
+    const result = calculateConstrainedPan(tiles, viewportState, tileSize);
+
+    // The far-away tile should not affect vertical constraint
+    const tilesOnlyOrigin = [{ q: 0, r: 0 }];
+    const resultOriginOnly = calculateConstrainedPan(tilesOnlyOrigin, viewportState, tileSize);
+
+    // Constraints should be similar since the off-screen tile is ignored
+    expect(result.panY).toBe(resultOriginOnly.panY);
+  });
+
+  test('respects zoom level', () => {
+    const tiles = [{ q: 0, r: 0 }];
+    const viewportState1 = {
+      panX: -500,
+      panY: 300,
+      zoom: 1,
+      viewportWidth: 800,
+      viewportHeight: 600
+    };
+    const viewportState2 = {
+      panX: -500,
+      panY: 300,
+      zoom: 2, // Zoomed in
+      viewportWidth: 800,
+      viewportHeight: 600
+    };
+
+    const result1 = calculateConstrainedPan(tiles, viewportState1, tileSize);
+    const result2 = calculateConstrainedPan(tiles, viewportState2, tileSize);
+
+    // At higher zoom, the constraint should be different
+    expect(result1.panX).not.toBe(result2.panX);
   });
 });
