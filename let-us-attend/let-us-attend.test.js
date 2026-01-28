@@ -14,6 +14,9 @@ const {
   processMissedReadings,
   isValidPlacement,
   findNearestEmptyCell,
+  findNearestEmptyCellFromViewportCenter,
+  getDecayDurationMs,
+  MS_PER_DAY,
   saveState,
   loadState,
   TileState
@@ -387,5 +390,89 @@ describe('Persistence', () => {
     const loaded = loadState();
 
     expect(loaded).toBeNull();
+  });
+});
+
+describe('Decay Duration', () => {
+  test('getDecayDurationMs returns 10 days at 1x speed', () => {
+    const duration = getDecayDurationMs(1);
+    expect(duration).toBe(MS_PER_DAY * 10);
+  });
+
+  test('getDecayDurationMs returns ~100 seconds at 8640x speed', () => {
+    // At 8640x, 10 sec = 1 day, so 10 days = 100 sec
+    const duration = getDecayDurationMs(8640);
+    expect(duration).toBeCloseTo(100000, -2); // ~100,000ms = 100 seconds
+  });
+
+  test('getDecayDurationMs scales inversely with speed', () => {
+    const duration1x = getDecayDurationMs(1);
+    const duration2x = getDecayDurationMs(2);
+    expect(duration1x).toBe(duration2x * 2);
+  });
+});
+
+describe('Viewport-Centered Placement', () => {
+  test('findNearestEmptyCellFromViewportCenter returns center when empty', () => {
+    const tiles = [];
+    const viewportState = {
+      panX: 400,
+      panY: 300,
+      viewportWidth: 800,
+      viewportHeight: 600
+    };
+    const tileSize = 80;
+
+    const result = findNearestEmptyCellFromViewportCenter(tiles, viewportState, tileSize);
+    // Center should be at 0,0 since viewport is centered on origin
+    expect(result.q).toBe(0);
+    expect(result.r).toBe(0);
+  });
+
+  test('findNearestEmptyCellFromViewportCenter finds nearby cell when center occupied', () => {
+    const tiles = [{ pk: '6', q: 0, r: 0, isCollected: false, placedAt: Date.now() }];
+    const viewportState = {
+      panX: 400,
+      panY: 300,
+      viewportWidth: 800,
+      viewportHeight: 600
+    };
+    const tileSize = 80;
+
+    const result = findNearestEmptyCellFromViewportCenter(tiles, viewportState, tileSize);
+    // Should find a cell at radius 1
+    expect(Math.max(Math.abs(result.q), Math.abs(result.r))).toBe(1);
+  });
+
+  test('findNearestEmptyCellFromViewportCenter respects pan offset', () => {
+    const tiles = [];
+    const viewportState = {
+      panX: 0, // Panned so viewport left edge is at canvas origin
+      panY: 0,
+      viewportWidth: 800,
+      viewportHeight: 600
+    };
+    const tileSize = 80;
+
+    const result = findNearestEmptyCellFromViewportCenter(tiles, viewportState, tileSize);
+    // Center of viewport (400, 300) should map to positive hex coordinates
+    expect(result.q).toBeGreaterThan(0);
+    expect(result.r).toBeGreaterThan(0);
+  });
+
+  test('findNearestEmptyCellFromViewportCenter does not stack uncollected tiles', () => {
+    // Place an uncollected tile at center
+    const tiles = [{ pk: '6', q: 0, r: 0, isCollected: false, placedAt: Date.now() }];
+    const viewportState = {
+      panX: 400,
+      panY: 300,
+      viewportWidth: 800,
+      viewportHeight: 600
+    };
+    const tileSize = 80;
+
+    const result = findNearestEmptyCellFromViewportCenter(tiles, viewportState, tileSize);
+    // Should NOT return 0,0 since it's occupied
+    expect(result.q !== 0 || result.r !== 0).toBe(true);
   });
 });

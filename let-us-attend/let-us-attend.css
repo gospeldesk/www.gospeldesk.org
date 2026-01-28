@@ -115,29 +115,11 @@ body {
   min-height: calc(100vh - 120px);
 }
 
-/* Staging Area */
-.staging-area {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 120px;
-  height: 140px;
-  margin-bottom: 24px;
-  border: 2px dashed var(--gray);
-  border-radius: 8px;
-  background: rgba(0,0,0,0.02);
-}
-
-.staging-area.has-tile {
-  border-color: var(--gold);
-  background: rgba(149, 127, 96, 0.1);
-}
-
 /* Hex Viewport (infinite canvas container) */
 .hex-viewport {
   position: relative;
   width: 100%;
-  height: calc(100vh - 280px);
+  height: calc(100vh - 180px);
   overflow: hidden;
   cursor: grab;
 }
@@ -255,6 +237,34 @@ body {
   }
   50% {
     box-shadow: 0 0 0 10px rgba(149, 127, 96, 0);
+  }
+}
+
+/* Decaying tile animation */
+.tile.decaying {
+  animation: decay-pulse 1s infinite;
+  cursor: pointer;
+}
+
+.tile.decaying::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(to right,
+    var(--red) var(--decay-progress, 0%),
+    rgba(255,255,255,0.3) var(--decay-progress, 0%));
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+@keyframes decay-pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
   }
 }
 

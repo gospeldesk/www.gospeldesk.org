@@ -21,6 +21,18 @@ const STORAGE_KEY = 'let-us-attend';
 const MS_PER_DAY = 24 * 60 * 60 * 1000;
 
 /**
+ * Calculate the decay duration in milliseconds based on speed multiplier.
+ * Decay time = 10 game days worth of real time.
+ *
+ * @param {number} speedMultiplier - Speed multiplier (1 = real-time)
+ * @returns {number} Decay duration in milliseconds
+ */
+function getDecayDurationMs(speedMultiplier) {
+  const msPerGameDay = MS_PER_DAY / speedMultiplier;
+  return msPerGameDay * 10; // 10 game days worth of real time
+}
+
+/**
  * Calculate the current game date based on real time elapsed and speed multiplier.
  *
  * @param {number} realStartTime - Timestamp when game started/resumed
@@ -232,6 +244,53 @@ function findNearestEmptyCell(tiles) {
 }
 
 /**
+ * Find the nearest empty cell from viewport center.
+ * For uncollected tiles, only finds truly empty cells (no stacking).
+ *
+ * @param {Array} tiles - Array of placed tiles
+ * @param {Object} viewportState - Viewport state with panX, panY, viewportWidth, viewportHeight
+ * @param {number} tileSize - Width of hexagon
+ * @returns {Object} Hex coordinates {q, r} of nearest empty cell
+ */
+function findNearestEmptyCellFromViewportCenter(tiles, viewportState, tileSize) {
+  // Calculate viewport center in canvas coordinates
+  const centerX = viewportState.viewportWidth / 2 - viewportState.panX;
+  const centerY = viewportState.viewportHeight / 2 - viewportState.panY;
+
+  // Convert to hex coordinates
+  const centerHex = pixelToHex(centerX, centerY, tileSize);
+
+  // Build set of all occupied cells (uncollected tiles can't stack)
+  const occupied = new Set(tiles.map(t => `${t.q},${t.r}`));
+
+  // Check center first
+  if (!occupied.has(`${centerHex.q},${centerHex.r}`)) {
+    return { q: centerHex.q, r: centerHex.r };
+  }
+
+  // Spiral outward from center
+  for (let radius = 1; radius < 100; radius++) {
+    for (let r = -radius; r <= radius; r++) {
+      for (let q = -radius; q <= radius; q++) {
+        const dist = Math.max(Math.abs(q), Math.abs(r));
+        if (dist !== radius) continue;
+
+        const testQ = centerHex.q + q;
+        const testR = centerHex.r + r;
+        const key = `${testQ},${testR}`;
+
+        if (!occupied.has(key)) {
+          return { q: testQ, r: testR };
+        }
+      }
+    }
+  }
+
+  // Fallback
+  return { q: centerHex.q, r: centerHex.r };
+}
+
+/**
  * Save game state to localStorage.
  *
  * @param {Object} state - Game state to save
@@ -315,6 +374,8 @@ if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     TileState,
     SPEED_PRESETS,
+    MS_PER_DAY,
+    getDecayDurationMs,
     getCurrentGameDate,
     getCurrentReading,
     getNextReading,
@@ -325,6 +386,7 @@ if (typeof module !== 'undefined' && module.exports) {
     processMissedReadings,
     isValidPlacement,
     findNearestEmptyCell,
+    findNearestEmptyCellFromViewportCenter,
     saveState,
     loadState,
     createInitialState,
@@ -340,7 +402,6 @@ if (typeof window !== 'undefined') {
   // Game state
   let gameState = null;
   let gameData = null;
-  let currentAvailablePk = null;
   let lastScheduleIndex = -1;
   let updateInterval = null;
   let draggedTile = null;
@@ -405,31 +466,6 @@ if (typeof window !== 'undefined') {
     tile.appendChild(ref);
 
     return tile;
-  }
-
-  /**
-   * Render the staging area
-   */
-  function renderStagingArea() {
-    const stagingArea = elements.stagingArea;
-    const emptyState = elements.emptyState;
-
-    // Clear existing tile
-    const existingTile = stagingArea.querySelector('.tile');
-    if (existingTile) existingTile.remove();
-
-    if (currentAvailablePk) {
-      const tile = createTileElement(currentAvailablePk, true);
-      if (tile) {
-        tile.addEventListener('click', () => openReadingModal(currentAvailablePk));
-        stagingArea.appendChild(tile);
-        stagingArea.classList.add('has-tile');
-        emptyState.classList.add('hidden');
-      }
-    } else {
-      stagingArea.classList.remove('has-tile');
-      emptyState.classList.remove('hidden');
-    }
   }
 
   /**
@@ -629,7 +665,10 @@ if (typeof window !== 'undefined') {
   function renderPlacedTiles() {
     if (!gameState) return;
 
-    // Group tiles by position
+    const decayDuration = getDecayDurationMs(gameState.speedMultiplier);
+    const now = Date.now();
+
+    // Group tiles by position (only collected tiles can stack)
     const tilesByPosition = {};
     for (const tile of gameState.tiles) {
       const key = `${tile.q},${tile.r}`;
@@ -656,29 +695,48 @@ if (typeof window !== 'undefined') {
       const tileEl = createTileElement(latestTile.pk, false);
       if (!tileEl) continue;
 
-      tileEl.classList.add('collected');
-      tileEl.draggable = true;
       tileEl.dataset.q = q;
       tileEl.dataset.r = r;
 
-      // Stack badge
-      if (tiles.length > 1) {
-        const badge = document.createElement('span');
-        badge.className = 'stack-badge';
-        badge.textContent = 'x' + tiles.length;
-        tileEl.appendChild(badge);
-      }
+      if (latestTile.isCollected) {
+        // Collected tile: draggable, solid
+        tileEl.classList.add('collected');
+        tileEl.draggable = true;
 
-      // Drag handlers
-      tileEl.addEventListener('dragstart', handleDragStart);
-      tileEl.addEventListener('dragend', handleDragEnd);
-
-      // Click to view reading
-      tileEl.addEventListener('click', (e) => {
-        if (!e.target.closest('.tile').classList.contains('dragging')) {
-          openReadingModal(latestTile.pk, true);
+        // Stack badge (only for collected tiles)
+        const collectedCount = tiles.filter(t => t.isCollected).length;
+        if (collectedCount > 1) {
+          const badge = document.createElement('span');
+          badge.className = 'stack-badge';
+          badge.textContent = 'x' + collectedCount;
+          tileEl.appendChild(badge);
         }
-      });
+
+        // Drag handlers
+        tileEl.addEventListener('dragstart', handleDragStart);
+        tileEl.addEventListener('dragend', handleDragEnd);
+
+        // Click to view reading (view only for collected)
+        tileEl.addEventListener('click', (e) => {
+          if (!e.target.closest('.tile').classList.contains('dragging')) {
+            openReadingModal(latestTile.pk, true);
+          }
+        });
+      } else {
+        // Uncollected tile: decaying, not draggable
+        tileEl.classList.add('decaying');
+        tileEl.draggable = false;
+
+        // Calculate decay progress
+        const elapsed = now - latestTile.placedAt;
+        const progress = Math.min(100, (elapsed / decayDuration) * 100);
+        tileEl.style.setProperty('--decay-progress', progress + '%');
+
+        // Click to view reading with Mark as Read button
+        tileEl.addEventListener('click', () => {
+          openReadingModal(latestTile.pk, false);
+        });
+      }
 
       cell.appendChild(tileEl);
       cell.classList.add('occupied');
@@ -756,8 +814,9 @@ if (typeof window !== 'undefined') {
   function collectReading(pk) {
     closeModal();
 
-    // Find nearest empty cell spiraling from origin
-    const { q, r } = findNearestEmptyCell(gameState.tiles);
+    // Find uncollected tile with matching pk
+    const tile = gameState.tiles.find(t => t.pk === pk && !t.isCollected);
+    if (!tile) return;
 
     const gameDate = getCurrentGameDate(
       gameState.realStartTime,
@@ -765,20 +824,13 @@ if (typeof window !== 'undefined') {
       gameState.speedMultiplier
     );
 
-    // Add tile to state
-    gameState.tiles.push({
-      pk: pk,
-      q: q,
-      r: r,
-      collected: gameDate
-    });
-
-    // Clear current available
-    currentAvailablePk = null;
+    // Mark tile as collected (stays in place)
+    tile.isCollected = true;
+    tile.collected = gameDate;
+    delete tile.placedAt;
 
     // Save and re-render
     saveState(gameState);
-    renderStagingArea();
     renderVisibleHexes();
     updateStats();
   }
@@ -890,6 +942,41 @@ if (typeof window !== 'undefined') {
     );
 
     const currentReading = getCurrentReading(gameData.schedule, gameDate);
+    let needsRender = false;
+
+    // Process decay for uncollected tiles
+    const now = Date.now();
+    const decayDuration = getDecayDurationMs(gameState.speedMultiplier);
+    const expiredTiles = gameState.tiles.filter(
+      t => !t.isCollected && t.placedAt && (now - t.placedAt) >= decayDuration
+    );
+
+    for (const expired of expiredTiles) {
+      // Remove the expired uncollected tile
+      const expiredIdx = gameState.tiles.findIndex(
+        t => t === expired
+      );
+      if (expiredIdx !== -1) {
+        gameState.tiles.splice(expiredIdx, 1);
+      }
+
+      // Also remove oldest collected instance of the same pk
+      const collectedInstances = gameState.tiles.filter(
+        t => t.pk === expired.pk && t.isCollected
+      );
+      if (collectedInstances.length > 0) {
+        collectedInstances.sort((a, b) => a.collected.localeCompare(b.collected));
+        const oldest = collectedInstances[0];
+        const oldestIdx = gameState.tiles.findIndex(
+          t => t === oldest
+        );
+        if (oldestIdx !== -1) {
+          gameState.tiles.splice(oldestIdx, 1);
+        }
+      }
+
+      needsRender = true;
+    }
 
     if (currentReading) {
       // Find schedule index
@@ -899,30 +986,30 @@ if (typeof window !== 'undefined') {
 
       // Check if reading changed
       if (currentIndex !== lastScheduleIndex) {
-        // Process missed readings if we jumped ahead
-        if (lastScheduleIndex >= 0 && currentIndex > lastScheduleIndex + 1) {
-          const collectedPks = gameState.tiles.map(t => t.pk);
-          const missed = getMissedReadings(gameData.schedule, lastScheduleIndex, currentIndex, collectedPks);
+        // Place new tile directly on board at viewport center
+        const tileSize = getTileSize();
+        const { q, r } = findNearestEmptyCellFromViewportCenter(
+          gameState.tiles,
+          viewportState,
+          tileSize
+        );
 
-          if (missed.length > 0) {
-            gameState.tiles = processMissedReadings(gameState.tiles, missed);
-            saveState(gameState);
-            renderPlacedTiles();
-          }
-        }
-
-        // Update current available
-        const alreadyCollected = gameState.tiles.some(t => t.pk === currentReading.pk);
-        if (!alreadyCollected) {
-          currentAvailablePk = currentReading.pk;
-        } else {
-          // Already collected - make a new instance available
-          currentAvailablePk = currentReading.pk;
-        }
+        gameState.tiles.push({
+          pk: currentReading.pk,
+          q: q,
+          r: r,
+          placedAt: Date.now(),
+          isCollected: false
+        });
 
         lastScheduleIndex = currentIndex;
-        renderStagingArea();
+        needsRender = true;
       }
+    }
+
+    if (needsRender) {
+      saveState(gameState);
+      renderVisibleHexes();
     }
 
     updateStats();
@@ -990,8 +1077,6 @@ if (typeof window !== 'undefined') {
   async function initGame() {
     // Cache DOM elements
     elements = {
-      stagingArea: document.getElementById('staging-area'),
-      emptyState: document.getElementById('empty-state'),
       hexViewport: document.getElementById('hex-viewport'),
       hexCanvas: document.getElementById('hex-canvas'),
       collectedCount: document.getElementById('collected-count'),
@@ -1011,7 +1096,7 @@ if (typeof window !== 'undefined') {
     // Load game data
     const loaded = await loadGameData();
     if (!loaded) {
-      elements.emptyState.innerHTML = '<p>Failed to load game data</p>';
+      console.error('Failed to load game data');
       return;
     }
 
