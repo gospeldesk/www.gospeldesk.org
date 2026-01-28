@@ -727,10 +727,10 @@ if (typeof window !== 'undefined') {
         tileEl.classList.add('decaying');
         tileEl.draggable = false;
 
-        // Calculate decay progress
+        // Set CSS animation variables for smooth fade
         const elapsed = now - latestTile.placedAt;
-        const progress = Math.min(100, (elapsed / decayDuration) * 100);
-        tileEl.style.setProperty('--decay-progress', progress + '%');
+        tileEl.style.setProperty('--decay-duration', decayDuration + 'ms');
+        tileEl.style.setProperty('--decay-elapsed', elapsed + 'ms');
 
         // Click to view reading with Mark as Read button
         tileEl.addEventListener('click', () => {

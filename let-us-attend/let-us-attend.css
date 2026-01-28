@@ -240,32 +240,16 @@ body {
   }
 }
 
-/* Decaying tile animation */
+/* Decaying tile styles */
 .tile.decaying {
-  animation: decay-pulse 1s infinite;
   cursor: pointer;
+  animation: decay-fade var(--decay-duration, 100s) linear forwards;
+  animation-delay: calc(-1 * var(--decay-elapsed, 0s));
 }
 
-.tile.decaying::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 4px;
-  background: linear-gradient(to right,
-    var(--red) var(--decay-progress, 0%),
-    rgba(255,255,255,0.3) var(--decay-progress, 0%));
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-}
-
-@keyframes decay-pulse {
-  0%, 100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.7;
-  }
+@keyframes decay-fade {
+  from { opacity: 1; }
+  to { opacity: 0; }
 }
 
 /* Reading Modal */
