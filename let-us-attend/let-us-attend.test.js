@@ -9,10 +9,7 @@ const {
   hexDistance,
   getHexRing,
   canPlaceTile,
-  countInstancesAtPosition,
-  processMissedReadings,
   isValidPlacement,
-  findNearestEmptyCell,
   findNearestEmptyCellFromViewportCenter,
   calculateConstrainedPan,
   getDecayDurationMs,
@@ -20,17 +17,8 @@ const {
   DECAY_DURATION_MS,
   saveState,
   loadState,
-  createInitialState,
-  TileState
+  createInitialState
 } = require('./let-us-attend.js');
-
-describe('Tile State Machine', () => {
-  test('TileState has correct values', () => {
-    expect(TileState.PENDING).toBe('pending');
-    expect(TileState.AVAILABLE).toBe('available');
-    expect(TileState.COLLECTED).toBe('collected');
-  });
-});
 
 describe('Timing Constants', () => {
   test('TILE_INTERVAL_MS is 120 seconds', () => {
@@ -191,70 +179,6 @@ describe('Repeat/Stacking Logic', () => {
   test('canPlaceTile returns true for occupied cell with same pk (stacking)', () => {
     expect(canPlaceTile(tiles, '6', 3, 2)).toBe(true);
   });
-
-  test('countInstancesAtPosition returns correct count for stacked tiles', () => {
-    expect(countInstancesAtPosition(tiles, 3, 2)).toBe(2);
-  });
-
-  test('countInstancesAtPosition returns 1 for single tile', () => {
-    expect(countInstancesAtPosition(tiles, 4, 2)).toBe(1);
-  });
-
-  test('countInstancesAtPosition returns 0 for empty cell', () => {
-    expect(countInstancesAtPosition(tiles, 5, 5)).toBe(0);
-  });
-});
-
-describe('Miss Penalty', () => {
-  test('processMissedReadings removes oldest instance of pk', () => {
-    const tiles = [
-      { pk: '6', q: 3, r: 2, collected: '2025-06-15' },
-      { pk: '6', q: 3, r: 2, collected: '2026-06-14' },
-      { pk: '9', q: 4, r: 2, collected: '2025-06-22' }
-    ];
-
-    const result = processMissedReadings(tiles, ['6']);
-
-    expect(result.length).toBe(2);
-    expect(result.find(t => t.pk === '6' && t.collected === '2025-06-15')).toBeUndefined();
-    expect(result.find(t => t.pk === '6' && t.collected === '2026-06-14')).toBeDefined();
-    expect(result.find(t => t.pk === '9')).toBeDefined();
-  });
-
-  test('processMissedReadings does nothing if pk not in collection', () => {
-    const tiles = [
-      { pk: '9', q: 4, r: 2, collected: '2025-06-22' }
-    ];
-
-    const result = processMissedReadings(tiles, ['6']);
-
-    expect(result.length).toBe(1);
-    expect(result[0].pk).toBe('9');
-  });
-
-  test('processMissedReadings handles multiple missed readings', () => {
-    const tiles = [
-      { pk: '6', q: 3, r: 2, collected: '2025-06-15' },
-      { pk: '9', q: 4, r: 2, collected: '2025-06-22' }
-    ];
-
-    const result = processMissedReadings(tiles, ['6', '9']);
-
-    expect(result.length).toBe(0);
-  });
-
-  test('processMissedReadings removes only oldest of stacked tiles', () => {
-    const tiles = [
-      { pk: '6', q: 1, r: 1, collected: '2024-01-01' }, // Oldest
-      { pk: '6', q: 3, r: 2, collected: '2025-06-15' },
-      { pk: '6', q: 3, r: 2, collected: '2026-06-14' }  // Newest
-    ];
-
-    const result = processMissedReadings(tiles, ['6']);
-
-    expect(result.length).toBe(2);
-    expect(result.find(t => t.collected === '2024-01-01')).toBeUndefined();
-  });
 });
 
 describe('Collision Detection', () => {
@@ -277,39 +201,6 @@ describe('Collision Detection', () => {
 
   test('isValidPlacement returns true for origin (no longer reserved)', () => {
     expect(isValidPlacement(tiles, '11', 0, 0)).toBe(true);
-  });
-});
-
-describe('Find Nearest Empty Cell', () => {
-  test('findNearestEmptyCell returns origin when empty', () => {
-    const tiles = [];
-    const result = findNearestEmptyCell(tiles);
-    expect(result.q).toBe(0);
-    expect(result.r).toBe(0);
-  });
-
-  test('findNearestEmptyCell finds next cell when origin occupied', () => {
-    const tiles = [{ pk: '6', q: 0, r: 0, collected: '2025-06-15' }];
-    const result = findNearestEmptyCell(tiles);
-    // Should find something at radius 1
-    expect(Math.max(Math.abs(result.q), Math.abs(result.r))).toBe(1);
-  });
-
-  test('findNearestEmptyCell spirals outward', () => {
-    const tiles = [
-      { pk: '6', q: 0, r: 0, collected: '2025-06-15' },
-      { pk: '6', q: -1, r: -1, collected: '2025-06-15' },
-      { pk: '6', q: -1, r: 0, collected: '2025-06-15' },
-      { pk: '6', q: -1, r: 1, collected: '2025-06-15' },
-      { pk: '6', q: 0, r: -1, collected: '2025-06-15' },
-      { pk: '6', q: 0, r: 1, collected: '2025-06-15' },
-      { pk: '6', q: 1, r: -1, collected: '2025-06-15' },
-      { pk: '6', q: 1, r: 0, collected: '2025-06-15' },
-      { pk: '6', q: 1, r: 1, collected: '2025-06-15' }
-    ];
-    const result = findNearestEmptyCell(tiles);
-    // Should find something at radius 2
-    expect(Math.max(Math.abs(result.q), Math.abs(result.r))).toBe(2);
   });
 });
 

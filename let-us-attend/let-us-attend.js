@@ -4,13 +4,6 @@
  * Core game logic for time system, tile management, and persistence.
  */
 
-// Tile states
-const TileState = {
-  PENDING: 'pending',
-  AVAILABLE: 'available',
-  COLLECTED: 'collected'
-};
-
 // Fixed timing constants
 const TILE_INTERVAL_MS = 120 * 1000;  // 120 seconds between tile placements
 const DECAY_DURATION_MS = 1440 * 1000; // 1440 seconds (24 minutes) decay per tile
@@ -172,48 +165,6 @@ function canPlaceTile(tiles, pk, q, r) {
 }
 
 /**
- * Count tile instances at a position.
- *
- * @param {Array} tiles - Array of placed tiles
- * @param {number} q - Column coordinate
- * @param {number} r - Row coordinate
- * @returns {number} Count of tiles at position
- */
-function countInstancesAtPosition(tiles, q, r) {
-  return tiles.filter(t => t.q === q && t.r === r).length;
-}
-
-/**
- * Process missed readings by removing oldest instance of each missed pk.
- *
- * @param {Array} tiles - Array of placed tiles
- * @param {Array} missedPks - Array of pericope IDs that were missed
- * @returns {Array} Updated tiles array with oldest instances removed
- */
-function processMissedReadings(tiles, missedPks) {
-  let result = [...tiles];
-
-  for (const pk of missedPks) {
-    const instances = result.filter(t => t.pk === pk);
-    if (instances.length === 0) continue;
-
-    // Find oldest by collected date
-    instances.sort((a, b) => a.collected.localeCompare(b.collected));
-    const oldest = instances[0];
-
-    // Remove oldest instance
-    const idx = result.findIndex(
-      t => t.pk === oldest.pk && t.collected === oldest.collected && t.q === oldest.q && t.r === oldest.r
-    );
-    if (idx !== -1) {
-      result.splice(idx, 1);
-    }
-  }
-
-  return result;
-}
-
-/**
  * Check if placement is valid (considering stacking and reserved areas).
  *
  * @param {Array} tiles - Array of placed tiles
@@ -224,36 +175,6 @@ function processMissedReadings(tiles, missedPks) {
  */
 function isValidPlacement(tiles, pk, q, r) {
   return canPlaceTile(tiles, pk, q, r);
-}
-
-/**
- * Find the nearest empty cell by spiraling outward from the origin.
- * Uses true hex rings for concentric placement.
- *
- * @param {Array} tiles - Array of placed tiles
- * @returns {Object} Hex coordinates {q, r} of nearest empty cell
- */
-function findNearestEmptyCell(tiles) {
-  const occupied = new Set(tiles.map(t => `${t.q},${t.r}`));
-
-  // Check origin first
-  if (!occupied.has('0,0')) {
-    return { q: 0, r: 0 };
-  }
-
-  // Search by true hex rings in circular order
-  for (let radius = 1; radius < 100; radius++) {
-    const ring = getHexRing(0, 0, radius);
-    for (const cell of ring) {
-      const key = `${cell.q},${cell.r}`;
-      if (!occupied.has(key)) {
-        return cell;
-      }
-    }
-  }
-
-  // Fallback (should never reach)
-  return { q: 0, r: 0 };
 }
 
 /**
@@ -417,7 +338,6 @@ function calculateConstrainedPan(tiles, viewportState, tileSize) {
 // Export for Node.js testing
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
-    TileState,
     TILE_INTERVAL_MS,
     DECAY_DURATION_MS,
     getDecayDurationMs,
@@ -426,10 +346,7 @@ if (typeof module !== 'undefined' && module.exports) {
     hexDistance,
     getHexRing,
     canPlaceTile,
-    countInstancesAtPosition,
-    processMissedReadings,
     isValidPlacement,
-    findNearestEmptyCell,
     findNearestEmptyCellFromViewportCenter,
     calculateConstrainedPan,
     saveState,
@@ -450,7 +367,6 @@ if (typeof window !== 'undefined') {
   let dragState = null; // { tile, startQ, startR, bookClass, didMove }
   let fastDecay = false; // 300x decay speed when opt+d held
   const FAST_DECAY_MULTIPLIER = 300;
-  let fastDecayStartTime = null; // When fast decay was enabled
   let justDragged = false; // Suppress click after drag
 
   // Viewport state for infinite canvas
@@ -467,6 +383,38 @@ if (typeof window !== 'undefined') {
 
   // Cache of rendered hex cells: "q,r" -> DOM element
   let cellCache = new Map();
+
+  // Spatial index for O(1) tile lookups: "q,r" -> Tile[]
+  let tileIndex = new Map();
+
+  /**
+   * Rebuild the spatial index from gameState.tiles
+   */
+  function rebuildTileIndex() {
+    tileIndex.clear();
+    if (!gameState) return;
+    for (const tile of gameState.tiles) {
+      const key = `${tile.q},${tile.r}`;
+      if (!tileIndex.has(key)) tileIndex.set(key, []);
+      tileIndex.get(key).push(tile);
+    }
+  }
+
+  /**
+   * Get tiles at a position using spatial index
+   */
+  function getTilesAt(q, r) {
+    return tileIndex.get(`${q},${r}`) || [];
+  }
+
+  /**
+   * Check if placement is valid using spatial index (O(1) lookup)
+   */
+  function canPlaceTileIndexed(pk, q, r) {
+    const existing = getTilesAt(q, r);
+    if (existing.length === 0) return true;
+    return existing.every(t => t.pk === pk);
+  }
 
   // DOM elements
   let elements = {};
@@ -536,6 +484,20 @@ if (typeof window !== 'undefined') {
 
     // Scroll wheel pan handler
     viewport.addEventListener('wheel', handleWheel, { passive: false });
+
+    // Delegated tile event handlers (prevents memory leak from per-tile listeners)
+    canvas.addEventListener('mousedown', (e) => {
+      const tile = e.target.closest('.tile');
+      if (tile) handleTileMouseDown(e);
+    });
+
+    canvas.addEventListener('click', (e) => {
+      const tile = e.target.closest('.tile');
+      if (!tile || justDragged || tile.classList.contains('dragging')) return;
+      const pk = tile.dataset.pk;
+      const isCollected = tile.classList.contains('collected');
+      openReadingModal(pk, isCollected);
+    });
 
     // Handle resize
     window.addEventListener('resize', () => {
@@ -793,16 +755,6 @@ if (typeof window !== 'undefined') {
           badge.textContent = 'x' + collectedCount;
           tileEl.appendChild(badge);
         }
-
-        // Mouse drag handler
-        tileEl.addEventListener('mousedown', handleTileMouseDown);
-
-        // Click to view reading (view only for collected)
-        tileEl.addEventListener('click', (e) => {
-          if (!justDragged && !e.target.closest('.tile').classList.contains('dragging')) {
-            openReadingModal(latestTile.pk, true);
-          }
-        });
       } else {
         // Uncollected tile: decaying, but still draggable
         tileEl.classList.add('decaying');
@@ -811,16 +763,6 @@ if (typeof window !== 'undefined') {
         const elapsed = now - latestTile.placedAt;
         tileEl.style.setProperty('--decay-duration', decayDuration + 'ms');
         tileEl.style.setProperty('--decay-elapsed', elapsed + 'ms');
-
-        // Mouse drag handler
-        tileEl.addEventListener('mousedown', handleTileMouseDown);
-
-        // Click to view reading with Mark as Read button
-        tileEl.addEventListener('click', (e) => {
-          if (!justDragged && !e.target.closest('.tile').classList.contains('dragging')) {
-            openReadingModal(latestTile.pk, false);
-          }
-        });
       }
 
       cell.appendChild(tileEl);
@@ -922,7 +864,8 @@ if (typeof window !== 'undefined') {
       startR: r,
       pk: tile.dataset.pk,
       bookClass: bookClass,
-      didMove: false
+      didMove: false,
+      lastHighlightedCell: null
     };
 
     tile.classList.add('dragging');
@@ -944,22 +887,26 @@ if (typeof window !== 'undefined') {
 
     dragState.didMove = true;
 
-    // Clear previous highlights
-    for (const cell of cellCache.values()) {
-      cell.classList.remove('drop-target', 'drop-invalid');
+    // Clear previous highlight (O(1) instead of O(n))
+    if (dragState.lastHighlightedCell) {
+      dragState.lastHighlightedCell.classList.remove('drop-target', 'drop-invalid');
     }
 
     // Find cell under cursor
     const cell = document.elementFromPoint(e.clientX, e.clientY)?.closest('.hex-cell');
-    if (!cell) return;
+    if (!cell) {
+      dragState.lastHighlightedCell = null;
+      return;
+    }
 
     const q = parseInt(cell.dataset.q);
     const r = parseInt(cell.dataset.r);
 
-    const valid = isValidPlacement(gameState.tiles, dragState.pk, q, r) ||
+    const valid = canPlaceTileIndexed(dragState.pk, q, r) ||
                   (q === dragState.startQ && r === dragState.startR);
 
     cell.classList.add(valid ? 'drop-target' : 'drop-invalid');
+    dragState.lastHighlightedCell = cell;
   }
 
   /**
@@ -981,7 +928,7 @@ if (typeof window !== 'undefined') {
 
       // Check if valid move
       if ((newQ !== dragState.startQ || newR !== dragState.startR) &&
-          isValidPlacement(gameState.tiles, dragState.pk, newQ, newR)) {
+          canPlaceTileIndexed(dragState.pk, newQ, newR)) {
 
         // Move all tiles at old position to new position
         for (const tile of gameState.tiles) {
@@ -991,14 +938,15 @@ if (typeof window !== 'undefined') {
           }
         }
 
+        rebuildTileIndex();
         saveState(gameState);
         renderVisibleHexes();
       }
     }
 
-    // Clear highlights
-    for (const c of cellCache.values()) {
-      c.classList.remove('drop-target', 'drop-invalid');
+    // Clear highlight
+    if (dragState.lastHighlightedCell) {
+      dragState.lastHighlightedCell.classList.remove('drop-target', 'drop-invalid');
     }
 
     // Clean up
@@ -1057,6 +1005,7 @@ if (typeof window !== 'undefined') {
     gameState.scheduleIndex++;
     gameState.lastTilePlacedAt = Date.now();
 
+    rebuildTileIndex();
     saveState(gameState);
     renderVisibleHexes();
   }
@@ -1067,46 +1016,47 @@ if (typeof window !== 'undefined') {
   function updateGame() {
     const now = Date.now();
     const decayDuration = fastDecay ? getDecayDurationMs() / FAST_DECAY_MULTIPLIER : getDecayDurationMs();
-    let needsRender = false;
+    const toRemove = new Set();
 
-    // Process decay for uncollected tiles
-    const expiredTiles = gameState.tiles.filter(
-      t => !t.isCollected && t.placedAt && (now - t.placedAt) >= decayDuration
-    );
+    // Single pass: find expired tiles and their oldest collected counterparts
+    for (let i = 0; i < gameState.tiles.length; i++) {
+      const t = gameState.tiles[i];
+      if (!t.isCollected && t.placedAt && (now - t.placedAt) >= decayDuration) {
+        toRemove.add(i);
 
-    for (const expired of expiredTiles) {
-      // Remove the expired uncollected tile
-      const expiredIdx = gameState.tiles.findIndex(t => t === expired);
-      if (expiredIdx !== -1) {
-        gameState.tiles.splice(expiredIdx, 1);
-      }
-
-      // Also remove oldest collected instance of the same pk
-      const collectedInstances = gameState.tiles.filter(
-        t => t.pk === expired.pk && t.isCollected
-      );
-      if (collectedInstances.length > 0) {
-        collectedInstances.sort((a, b) => a.collected.localeCompare(b.collected));
-        const oldest = collectedInstances[0];
-        const oldestIdx = gameState.tiles.findIndex(t => t === oldest);
+        // Find oldest collected instance of same pk
+        let oldestIdx = -1;
+        let oldestDate = null;
+        for (let j = 0; j < gameState.tiles.length; j++) {
+          const c = gameState.tiles[j];
+          if (c.pk === t.pk && c.isCollected && !toRemove.has(j)) {
+            if (oldestDate === null || c.collected < oldestDate) {
+              oldestDate = c.collected;
+              oldestIdx = j;
+            }
+          }
+        }
         if (oldestIdx !== -1) {
-          gameState.tiles.splice(oldestIdx, 1);
+          toRemove.add(oldestIdx);
         }
       }
+    }
 
-      needsRender = true;
+    // Batch removal in reverse order to preserve indices
+    if (toRemove.size > 0) {
+      const sortedIndices = [...toRemove].sort((a, b) => b - a);
+      for (const idx of sortedIndices) {
+        gameState.tiles.splice(idx, 1);
+      }
+      rebuildTileIndex();
+      saveState(gameState);
+      renderVisibleHexes();
     }
 
     // Check if it's time to place a new tile
     const timeSinceLastTile = now - gameState.lastTilePlacedAt;
     if (timeSinceLastTile >= TILE_INTERVAL_MS) {
       placeNextTile();
-      needsRender = false; // placeNextTile already renders
-    }
-
-    if (needsRender) {
-      saveState(gameState);
-      renderVisibleHexes();
     }
 
     updateStats();
@@ -1144,7 +1094,6 @@ if (typeof window !== 'undefined') {
       }
 
       fastDecay = true;
-      fastDecayStartTime = now;
       renderVisibleHexes();
     }
   }
@@ -1167,7 +1116,6 @@ if (typeof window !== 'undefined') {
       }
 
       fastDecay = false;
-      fastDecayStartTime = null;
       saveState(gameState);
       renderVisibleHexes();
     }
@@ -1219,6 +1167,7 @@ if (typeof window !== 'undefined') {
       gameState = createInitialState();
       saveState(gameState);
     }
+    rebuildTileIndex();
 
     // Initialize UI
     setupViewport();

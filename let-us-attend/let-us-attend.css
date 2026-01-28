@@ -105,10 +105,6 @@ body.dragging-tile * {
 }
 
 /* Drop target colors based on book being dragged */
-.hex-cell.drop-target {
-  background: rgba(149, 127, 96, 0.4);
-}
-
 body[data-drag-book="matthew"] .hex-cell.drop-target {
   background: rgba(149, 127, 96, 0.4);
 }
@@ -307,17 +303,6 @@ body[data-drag-book="john"] .hex-cell.drop-target {
 
 .btn-secondary:hover {
   background: var(--black);
-}
-
-/* Empty state */
-.empty-state {
-  text-align: center;
-  padding: 24px;
-  color: var(--gray);
-}
-
-.empty-state p {
-  margin-bottom: 8px;
 }
 
 /* Hidden utility */
