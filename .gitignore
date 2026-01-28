@@ -8,3 +8,4 @@ _drafts/*
 _site
 email.md
 node_modules
+coverage
