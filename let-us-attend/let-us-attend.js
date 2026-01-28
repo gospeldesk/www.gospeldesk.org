@@ -384,6 +384,15 @@ if (typeof window !== 'undefined') {
   // Cache of rendered hex cells: "q,r" -> DOM element
   let cellCache = new Map();
 
+  // Track visible range for incremental updates
+  let lastVisibleRange = { minQ: 0, maxQ: 0, minR: 0, maxR: 0 };
+
+  // Cached tile bounds for fast pan constraints (recalculated when tiles change)
+  // rowBounds: Map<r, {y, height, minX, maxX}> - bounds per row
+  // colBounds: Map<q, {minX, width, minY, maxY}> - bounds per column
+  let rowBoundsCache = null;
+  let colBoundsCache = null;
+
   // Spatial index for O(1) tile lookups: "q,r" -> Tile[]
   let tileIndex = new Map();
 
@@ -540,7 +549,7 @@ if (typeof window !== 'undefined') {
     viewportState.lastMouseY = e.clientY;
 
     constrainPan();
-    renderVisibleHexes();
+    updatePan();
   }
 
   /**
@@ -583,7 +592,7 @@ if (typeof window !== 'undefined') {
     viewportState.lastMouseY = e.touches[0].clientY;
 
     constrainPan();
-    renderVisibleHexes();
+    updatePan();
   }
 
   /**
@@ -595,15 +604,107 @@ if (typeof window !== 'undefined') {
   }
 
   /**
-   * Constrain pan so at least one tile is always visible
+   * Rebuild the cached tile bounds (call when tiles change)
+   * Caches bounds per row and per column for fast hexagonal constraint
    */
-  function constrainPan() {
-    if (!gameState || gameState.tiles.length === 0) return;
+  function rebuildTileBoundsCache() {
+    if (!gameState || gameState.tiles.length === 0) {
+      rowBoundsCache = null;
+      colBoundsCache = null;
+      return;
+    }
 
     const tileSize = getTileSize();
-    const constrained = calculateConstrainedPan(gameState.tiles, viewportState, tileSize);
-    viewportState.panX = constrained.panX;
-    viewportState.panY = constrained.panY;
+    const hexHeight = tileSize * 1.1547;
+
+    // Build row bounds: for each row r, track y position and x extent
+    const rowBounds = new Map();
+    // Build column bounds: for each column q, track x position and y extent
+    const colBounds = new Map();
+
+    for (const tile of gameState.tiles) {
+      const pos = hexToPixel(tile.q, tile.r, tileSize);
+      const left = pos.x;
+      const right = pos.x + tileSize;
+      const top = pos.y;
+      const bottom = pos.y + hexHeight;
+
+      // Update row bounds
+      if (!rowBounds.has(tile.r)) {
+        rowBounds.set(tile.r, { top, bottom, minX: left, maxX: right });
+      } else {
+        const rb = rowBounds.get(tile.r);
+        rb.minX = Math.min(rb.minX, left);
+        rb.maxX = Math.max(rb.maxX, right);
+      }
+
+      // Update column bounds
+      if (!colBounds.has(tile.q)) {
+        colBounds.set(tile.q, { left, right, minY: top, maxY: bottom });
+      } else {
+        const cb = colBounds.get(tile.q);
+        cb.minY = Math.min(cb.minY, top);
+        cb.maxY = Math.max(cb.maxY, bottom);
+      }
+    }
+
+    rowBoundsCache = { bounds: rowBounds, tileSize, hexHeight };
+    colBoundsCache = { bounds: colBounds, tileSize };
+  }
+
+  /**
+   * Constrain pan so at least one tile is always visible (fast cached version)
+   * Preserves hexagonal constraint behavior by using per-row/per-column bounds
+   */
+  function constrainPan() {
+    if (!rowBoundsCache || !colBoundsCache) return;
+
+    const { bounds: rowBounds, tileSize, hexHeight } = rowBoundsCache;
+    const { bounds: colBounds } = colBoundsCache;
+    const zoom = viewportState.zoom || 1;
+    const margin = tileSize * zoom * 0.5;
+
+    let panX = viewportState.panX;
+    let panY = viewportState.panY;
+
+    // Find rows that are vertically visible (for horizontal constraint)
+    let visibleMinX = Infinity, visibleMaxX = -Infinity;
+    for (const [r, rb] of rowBounds) {
+      const screenTop = panY + rb.top * zoom;
+      const screenBottom = panY + rb.bottom * zoom;
+      if (screenBottom > 0 && screenTop < viewportState.viewportHeight) {
+        visibleMinX = Math.min(visibleMinX, rb.minX);
+        visibleMaxX = Math.max(visibleMaxX, rb.maxX);
+      }
+    }
+
+    // Apply horizontal constraint based on vertically-visible rows
+    if (visibleMinX !== Infinity) {
+      const minPanX = margin - visibleMaxX * zoom;
+      const maxPanX = viewportState.viewportWidth - margin - visibleMinX * zoom;
+      panX = Math.max(minPanX, Math.min(maxPanX, panX));
+    }
+
+    // Find columns that are horizontally visible (for vertical constraint)
+    let visibleMinY = Infinity, visibleMaxY = -Infinity;
+    for (const [q, cb] of colBounds) {
+      const screenLeft = panX + cb.left * zoom;
+      const screenRight = panX + cb.right * zoom;
+      if (screenRight > 0 && screenLeft < viewportState.viewportWidth) {
+        visibleMinY = Math.min(visibleMinY, cb.minY);
+        visibleMaxY = Math.max(visibleMaxY, cb.maxY);
+      }
+    }
+
+    // Apply vertical constraint based on horizontally-visible columns
+    if (visibleMinY !== Infinity) {
+      const minPanY = margin - visibleMaxY * zoom;
+      const maxPanY = viewportState.viewportHeight - margin - visibleMinY * zoom;
+      panY = Math.max(minPanY, Math.min(maxPanY, panY));
+    }
+
+    viewportState.panX = panX;
+    viewportState.panY = panY;
   }
 
   /**
@@ -613,7 +714,7 @@ if (typeof window !== 'undefined') {
     e.preventDefault();
 
     if (e.ctrlKey) {
-      // Pinch to zoom
+      // Pinch to zoom - needs full re-render
       const zoomFactor = 1 - e.deltaY * 0.01;
       const newZoom = Math.min(3, Math.max(0.3, viewportState.zoom * zoomFactor));
 
@@ -628,63 +729,90 @@ if (typeof window !== 'undefined') {
       viewportState.panY = cursorY - (cursorY - viewportState.panY) * zoomChange;
 
       viewportState.zoom = newZoom;
+      constrainPan();
+      renderVisibleHexes();
     } else {
-      // Regular scroll for panning
+      // Regular scroll for panning - use fast path
       viewportState.panX -= e.deltaX;
       viewportState.panY -= e.deltaY;
+      constrainPan();
+      updatePan();
     }
-
-    constrainPan();
-    renderVisibleHexes();
   }
 
   /**
-   * Render visible hexes based on viewport and pan position
+   * Calculate the visible cell range based on current viewport
    */
-  function renderVisibleHexes() {
+  function calculateVisibleRange() {
     const tileSize = getTileSize();
     const hexHeight = tileSize * 1.1547;
     const rowHeight = hexHeight * 0.75;
     const zoom = viewportState.zoom;
+    const padding = 2;
 
-    // Calculate visible range in canvas space (account for zoom)
-    const padding = 2; // Extra cells around visible area
     const visibleMinX = -viewportState.panX / zoom;
     const visibleMaxX = (viewportState.viewportWidth - viewportState.panX) / zoom;
     const visibleMinY = -viewportState.panY / zoom;
     const visibleMaxY = (viewportState.viewportHeight - viewportState.panY) / zoom;
 
-    const minQ = Math.floor((visibleMinX - tileSize) / tileSize) - padding;
-    const maxQ = Math.ceil((visibleMaxX + tileSize) / tileSize) + padding;
-    const minR = Math.floor((visibleMinY - hexHeight) / rowHeight) - padding;
-    const maxR = Math.ceil((visibleMaxY + hexHeight) / rowHeight) + padding;
+    return {
+      minQ: Math.floor((visibleMinX - tileSize) / tileSize) - padding,
+      maxQ: Math.ceil((visibleMaxX + tileSize) / tileSize) + padding,
+      minR: Math.floor((visibleMinY - hexHeight) / rowHeight) - padding,
+      maxR: Math.ceil((visibleMaxY + hexHeight) / rowHeight) + padding
+    };
+  }
 
-    // Track which cells should exist
+  /**
+   * Update only the canvas transform (fast path for panning)
+   */
+  function updateCanvasTransform() {
+    elements.hexCanvas.style.transform = `translate(${viewportState.panX}px, ${viewportState.panY}px) scale(${viewportState.zoom})`;
+  }
+
+  /**
+   * Check if visible range changed and update cells if needed.
+   * Returns array of new cell keys, or null if no change.
+   */
+  function updateVisibleCellsIfNeeded() {
+    const range = calculateVisibleRange();
+
+    // Check if range changed
+    if (range.minQ === lastVisibleRange.minQ &&
+        range.maxQ === lastVisibleRange.maxQ &&
+        range.minR === lastVisibleRange.minR &&
+        range.maxR === lastVisibleRange.maxR) {
+      return null;
+    }
+
+    lastVisibleRange = range;
+
+    const tileSize = getTileSize();
     const visibleKeys = new Set();
+    const newCellKeys = [];
 
     // Create or update visible cells
-    for (let r = minR; r <= maxR; r++) {
-      for (let q = minQ; q <= maxQ; q++) {
+    for (let r = range.minR; r <= range.maxR; r++) {
+      for (let q = range.minQ; q <= range.maxQ; q++) {
         const key = `${q},${r}`;
         visibleKeys.add(key);
 
         let cell = cellCache.get(key);
 
         if (!cell) {
-          // Create new cell
           cell = document.createElement('div');
           cell.className = 'hex-cell';
           cell.dataset.q = q;
           cell.dataset.r = r;
 
+          const pos = hexToPixel(q, r, tileSize);
+          cell.style.left = pos.x + 'px';
+          cell.style.top = pos.y + 'px';
+
           elements.hexCanvas.appendChild(cell);
           cellCache.set(key, cell);
+          newCellKeys.push(key);
         }
-
-        // Update position (in canvas space, pan/zoom applied to canvas)
-        const pos = hexToPixel(q, r, tileSize);
-        cell.style.left = pos.x + 'px';
-        cell.style.top = pos.y + 'px';
       }
     }
 
@@ -696,12 +824,76 @@ if (typeof window !== 'undefined') {
       }
     }
 
-    // Apply pan and zoom to canvas
-    elements.hexCanvas.style.transform = `translate(${viewportState.panX}px, ${viewportState.panY}px) scale(${viewportState.zoom})`;
-    elements.hexCanvas.style.transformOrigin = '0 0';
+    return newCellKeys;
+  }
 
-    // Render placed tiles
+  /**
+   * Render visible hexes based on viewport and pan position
+   */
+  function renderVisibleHexes() {
+    updateVisibleCellsIfNeeded();
+    updateCanvasTransform();
+    elements.hexCanvas.style.transformOrigin = '0 0';
     renderPlacedTiles();
+  }
+
+  /**
+   * Fast pan update - only updates transform and adds new edge cells if needed
+   */
+  function updatePan() {
+    updateCanvasTransform();
+    const newCells = updateVisibleCellsIfNeeded();
+    if (newCells && newCells.length > 0) {
+      // Only render tiles into newly visible cells
+      renderTilesIntoCells(newCells);
+    }
+  }
+
+  /**
+   * Render tiles only into specific cells (for incremental edge updates)
+   */
+  function renderTilesIntoCells(cellKeys) {
+    if (!gameState) return;
+
+    const decayDuration = fastDecay ? getDecayDurationMs() / FAST_DECAY_MULTIPLIER : getDecayDurationMs();
+    const now = Date.now();
+
+    for (const key of cellKeys) {
+      const cell = cellCache.get(key);
+      if (!cell) continue;
+
+      // Check if there's a tile at this position
+      const tilesAtPos = getTilesAt(...key.split(',').map(Number));
+      if (tilesAtPos.length === 0) continue;
+
+      const [q, r] = key.split(',').map(Number);
+      const latestTile = tilesAtPos[tilesAtPos.length - 1];
+      const tileEl = createTileElement(latestTile.pk, false);
+      if (!tileEl) continue;
+
+      tileEl.dataset.q = q;
+      tileEl.dataset.r = r;
+
+      if (latestTile.isCollected) {
+        tileEl.classList.add('collected');
+        const collectedCount = tilesAtPos.filter(t => t.isCollected).length;
+        if (collectedCount > 1) {
+          const badge = document.createElement('span');
+          badge.className = 'stack-badge';
+          badge.textContent = 'x' + collectedCount;
+          tileEl.appendChild(badge);
+        }
+      } else {
+        tileEl.classList.add('decaying');
+        const elapsed = now - latestTile.placedAt;
+        tileEl.style.setProperty('--decay-duration', decayDuration + 'ms');
+        tileEl.style.setProperty('--decay-elapsed', elapsed + 'ms');
+      }
+
+      cell.appendChild(tileEl);
+      cell.classList.add('occupied');
+      cell.dataset.pk = latestTile.pk;
+    }
   }
 
   /**
@@ -939,6 +1131,7 @@ if (typeof window !== 'undefined') {
         }
 
         rebuildTileIndex();
+        rebuildTileBoundsCache();
         saveState(gameState);
         renderVisibleHexes();
       }
@@ -1006,6 +1199,7 @@ if (typeof window !== 'undefined') {
     gameState.lastTilePlacedAt = Date.now();
 
     rebuildTileIndex();
+    rebuildTileBoundsCache();
     saveState(gameState);
     renderVisibleHexes();
   }
@@ -1049,6 +1243,7 @@ if (typeof window !== 'undefined') {
         gameState.tiles.splice(idx, 1);
       }
       rebuildTileIndex();
+      rebuildTileBoundsCache();
       saveState(gameState);
       renderVisibleHexes();
     }
@@ -1168,6 +1363,7 @@ if (typeof window !== 'undefined') {
       saveState(gameState);
     }
     rebuildTileIndex();
+    rebuildTileBoundsCache();
 
     // Initialize UI
     setupViewport();
