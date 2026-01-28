@@ -714,7 +714,7 @@ if (typeof window !== 'undefined') {
     e.preventDefault();
 
     if (e.ctrlKey) {
-      // Pinch to zoom - needs full re-render
+      // Pinch to zoom
       const zoomFactor = 1 - e.deltaY * 0.01;
       const newZoom = Math.min(3, Math.max(0.3, viewportState.zoom * zoomFactor));
 
@@ -730,7 +730,7 @@ if (typeof window !== 'undefined') {
 
       viewportState.zoom = newZoom;
       constrainPan();
-      renderVisibleHexes();
+      updatePan(); // Zoom only changes transform, use fast path
     } else {
       // Regular scroll for panning - use fast path
       viewportState.panX -= e.deltaX;
@@ -967,23 +967,26 @@ if (typeof window !== 'undefined') {
    * Update stats display
    */
   function updateStats() {
+    const total = Object.keys(gameData.readings).length;
+
     // Collected count (unique pks)
     const collectedTiles = gameState.tiles.filter(t => t.isCollected);
-    const uniquePks = new Set(collectedTiles.map(t => t.pk));
-    elements.collectedCount.textContent = uniquePks.size;
-    elements.totalCount.textContent = Object.keys(gameData.readings).length;
+    const uniqueCollectedPks = new Set(collectedTiles.map(t => t.pk));
+    const collectedPct = (uniqueCollectedPks.size / total) * 100;
 
-    // Next tile countdown
+    // Placed count (unique pks currently on board)
+    const uniquePlacedPks = new Set(gameState.tiles.map(t => t.pk));
+    const placedPct = (uniquePlacedPks.size / total) * 100;
+
+    // Update progress bars
+    elements.progressPlaced.style.width = placedPct + '%';
+    elements.progressCollected.style.width = collectedPct + '%';
+
+    // Timer bar - shows progress toward next tile
     const now = Date.now();
     const timeSinceLastTile = now - gameState.lastTilePlacedAt;
-    const timeUntilNext = Math.max(0, TILE_INTERVAL_MS - timeSinceLastTile);
-    const secondsUntilNext = Math.ceil(timeUntilNext / 1000);
-
-    if (secondsUntilNext > 0) {
-      elements.nextTile.textContent = secondsUntilNext + 's';
-    } else {
-      elements.nextTile.textContent = 'Ready';
-    }
+    const progress = Math.min(1, timeSinceLastTile / TILE_INTERVAL_MS);
+    elements.timerFill.style.width = ((1 - progress) * 100) + '%';
   }
 
   /**
@@ -1338,9 +1341,9 @@ if (typeof window !== 'undefined') {
     elements = {
       hexViewport: document.getElementById('hex-viewport'),
       hexCanvas: document.getElementById('hex-canvas'),
-      collectedCount: document.getElementById('collected-count'),
-      totalCount: document.getElementById('total-count'),
-      nextTile: document.getElementById('next-tile'),
+      progressPlaced: document.getElementById('progress-placed'),
+      progressCollected: document.getElementById('progress-collected'),
+      timerFill: document.getElementById('timer-fill'),
       modal: document.getElementById('reading-modal'),
       modalTitle: document.getElementById('modal-title'),
       modalRef: document.getElementById('modal-ref'),
