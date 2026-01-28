@@ -6,6 +6,8 @@
 const {
   hexToPixel,
   pixelToHex,
+  hexDistance,
+  getHexRing,
   canPlaceTile,
   countInstancesAtPosition,
   processMissedReadings,
@@ -73,6 +75,101 @@ describe('Hex Coordinate Conversion', () => {
     const result = pixelToHex(160, 0, 80);
     expect(result.q).toBe(2);
     expect(result.r).toBe(0);
+  });
+});
+
+describe('Hex Distance', () => {
+  test('distance from cell to itself is 0', () => {
+    expect(hexDistance(0, 0, 0, 0)).toBe(0);
+    expect(hexDistance(3, 2, 3, 2)).toBe(0);
+  });
+
+  test('distance to adjacent cell is 1', () => {
+    // Direct neighbors of (0, 0)
+    expect(hexDistance(0, 0, 1, 0)).toBe(1);  // E
+    expect(hexDistance(0, 0, 0, 1)).toBe(1);  // SE
+    expect(hexDistance(0, 0, -1, 1)).toBe(1); // SW
+    expect(hexDistance(0, 0, -1, 0)).toBe(1); // W
+    expect(hexDistance(0, 0, -1, -1)).toBe(1); // NW
+    expect(hexDistance(0, 0, 0, -1)).toBe(1);  // NE
+  });
+
+  test('distance to ring 2 cells is 2', () => {
+    expect(hexDistance(0, 0, 2, 0)).toBe(2);
+    expect(hexDistance(0, 0, 0, 2)).toBe(2);
+    expect(hexDistance(0, 0, -2, 0)).toBe(2);
+    expect(hexDistance(0, 0, 0, -2)).toBe(2);
+  });
+
+  test('distance is symmetric', () => {
+    expect(hexDistance(0, 0, 3, 2)).toBe(hexDistance(3, 2, 0, 0));
+    expect(hexDistance(1, 1, 4, 3)).toBe(hexDistance(4, 3, 1, 1));
+  });
+});
+
+describe('Hex Ring Generation', () => {
+  test('ring 0 returns just the center', () => {
+    const ring = getHexRing(0, 0, 0);
+    expect(ring).toEqual([{ q: 0, r: 0 }]);
+  });
+
+  test('ring 0 with non-origin center', () => {
+    const ring = getHexRing(3, 2, 0);
+    expect(ring).toEqual([{ q: 3, r: 2 }]);
+  });
+
+  test('ring 1 has 6 cells', () => {
+    const ring = getHexRing(0, 0, 1);
+    expect(ring.length).toBe(6);
+  });
+
+  test('ring 1 starts at NE', () => {
+    const ring = getHexRing(0, 0, 1);
+    // First cell should be NE of center (0, -1)
+    expect(ring[0]).toEqual({ q: 0, r: -1 });
+  });
+
+  test('ring 1 cells are all at distance 1 from center', () => {
+    const ring = getHexRing(0, 0, 1);
+    for (const cell of ring) {
+      expect(hexDistance(0, 0, cell.q, cell.r)).toBe(1);
+    }
+  });
+
+  test('ring 2 has 12 cells', () => {
+    const ring = getHexRing(0, 0, 2);
+    expect(ring.length).toBe(12);
+  });
+
+  test('ring 2 cells are all at distance 2 from center', () => {
+    const ring = getHexRing(0, 0, 2);
+    for (const cell of ring) {
+      expect(hexDistance(0, 0, cell.q, cell.r)).toBe(2);
+    }
+  });
+
+  test('ring 2 starts at NE of ring 1 end (spiral continuity)', () => {
+    const ring1 = getHexRing(0, 0, 1);
+    const ring2 = getHexRing(0, 0, 2);
+
+    // Ring 1 ends at NW (-1, -1)
+    const ring1End = ring1[ring1.length - 1];
+    expect(ring1End).toEqual({ q: -1, r: -1 });
+
+    // Ring 2 should start at NE of that, which is (0, -2)
+    expect(ring2[0]).toEqual({ q: 0, r: -2 });
+  });
+
+  test('ring 3 has 18 cells', () => {
+    const ring = getHexRing(0, 0, 3);
+    expect(ring.length).toBe(18);
+  });
+
+  test('ring cells are unique (no duplicates)', () => {
+    const ring = getHexRing(0, 0, 3);
+    const keys = ring.map(c => `${c.q},${c.r}`);
+    const uniqueKeys = new Set(keys);
+    expect(uniqueKeys.size).toBe(ring.length);
   });
 });
 
@@ -305,6 +402,23 @@ describe('Viewport-Centered Placement', () => {
     expect(result.r).toBe(0);
   });
 
+  test('findNearestEmptyCellFromViewportCenter handles zoom', () => {
+    const tiles = [];
+    const viewportState = {
+      panX: 400,
+      panY: 300,
+      zoom: 2,
+      viewportWidth: 800,
+      viewportHeight: 600
+    };
+    const tileSize = 80;
+
+    const result = findNearestEmptyCellFromViewportCenter(tiles, viewportState, tileSize);
+    // With zoom=2, viewport center in canvas coords is different
+    expect(result.q).toBe(0);
+    expect(result.r).toBe(0);
+  });
+
   test('findNearestEmptyCellFromViewportCenter finds nearby cell when center occupied', () => {
     const tiles = [{ pk: '6', q: 0, r: 0, isCollected: false, placedAt: Date.now() }];
     const viewportState = {
@@ -460,5 +574,62 @@ describe('Pan Constraint', () => {
 
     // At higher zoom, the constraint should be different
     expect(result1.panX).not.toBe(result2.panX);
+  });
+
+  test('handles missing zoom (defaults to 1)', () => {
+    const tiles = [{ q: 0, r: 0 }];
+    const viewportState = {
+      panX: 400,
+      panY: 300,
+      // zoom is missing
+      viewportWidth: 800,
+      viewportHeight: 600
+    };
+
+    // Should not throw
+    const result = calculateConstrainedPan(tiles, viewportState, tileSize);
+    expect(result.panX).toBeDefined();
+    expect(result.panY).toBeDefined();
+  });
+
+  test('handles null tiles array', () => {
+    const viewportState = {
+      panX: 100,
+      panY: 100,
+      zoom: 1,
+      viewportWidth: 800,
+      viewportHeight: 600
+    };
+
+    const result = calculateConstrainedPan(null, viewportState, tileSize);
+    expect(result.panX).toBe(100);
+    expect(result.panY).toBe(100);
+  });
+
+  test('handles tiles at negative coordinates', () => {
+    const tiles = [{ q: -2, r: 0 }]; // Tile to the left of origin, on same row
+    const viewportState = {
+      panX: 400,  // Centered view
+      panY: 300,
+      zoom: 1,
+      viewportWidth: 800,
+      viewportHeight: 600
+    };
+
+    // First verify the tile is visible with this pan
+    const result = calculateConstrainedPan(tiles, viewportState, tileSize);
+
+    // Now try to pan way right (which would move tile off left edge)
+    const viewportStateRight = {
+      panX: 1000,  // Panned far right
+      panY: 300,
+      zoom: 1,
+      viewportWidth: 800,
+      viewportHeight: 600
+    };
+
+    const resultConstrained = calculateConstrainedPan(tiles, viewportStateRight, tileSize);
+    // Pan should be constrained - can't go as far right
+    expect(resultConstrained.panX).toBeLessThan(1000);
   });
 });
