@@ -133,25 +133,28 @@ body {
   background: rgba(149, 127, 96, 0.1);
 }
 
-/* Hex Grid */
-.hex-grid {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2px;
+/* Hex Viewport (infinite canvas container) */
+.hex-viewport {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 280px);
+  overflow: hidden;
+  cursor: grab;
 }
 
-.hex-row {
-  display: flex;
-  gap: var(--tile-gap);
+.hex-viewport.dragging {
+  cursor: grabbing;
 }
 
-.hex-row:nth-child(even) {
-  margin-left: calc(var(--tile-size) / 2 + var(--tile-gap) / 2);
+.hex-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* Hex Cell */
 .hex-cell {
+  position: absolute;
   width: var(--tile-size);
   height: calc(var(--tile-size) * 1.1547);
   background: rgba(0,0,0,0.03);
@@ -159,7 +162,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   transition: background 0.2s;
 }
 

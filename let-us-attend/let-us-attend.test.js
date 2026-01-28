@@ -7,10 +7,13 @@ const {
   getCurrentGameDate,
   getCurrentReading,
   getNextReading,
+  hexToPixel,
+  pixelToHex,
   canPlaceTile,
   countInstancesAtPosition,
   processMissedReadings,
   isValidPlacement,
+  findNearestEmptyCell,
   saveState,
   loadState,
   TileState
@@ -126,11 +129,43 @@ describe('Tile State Machine', () => {
   });
 });
 
+describe('Hex Coordinate Conversion', () => {
+  test('hexToPixel returns correct pixel position for origin', () => {
+    const result = hexToPixel(0, 0, 80);
+    expect(result.x).toBe(0);
+    expect(result.y).toBe(0);
+  });
+
+  test('hexToPixel returns correct pixel position for even row', () => {
+    const result = hexToPixel(2, 0, 80);
+    expect(result.x).toBe(160); // 2 * 80
+    expect(result.y).toBe(0);
+  });
+
+  test('hexToPixel returns correct pixel position for odd row (offset)', () => {
+    const result = hexToPixel(2, 1, 80);
+    expect(result.x).toBe(200); // 2 * 80 + 40 offset
+    expect(result.y).toBeCloseTo(69.28, 1); // 80 * 1.1547 * 0.75
+  });
+
+  test('pixelToHex returns correct hex for origin', () => {
+    const result = pixelToHex(0, 0, 80);
+    expect(result.q).toBe(0);
+    expect(result.r).toBe(0);
+  });
+
+  test('pixelToHex returns correct hex for simple case', () => {
+    const result = pixelToHex(160, 0, 80);
+    expect(result.q).toBe(2);
+    expect(result.r).toBe(0);
+  });
+});
+
 describe('Repeat/Stacking Logic', () => {
   const tiles = [
-    { pk: '6', x: 3, y: 2, collected: '2025-06-15' },
-    { pk: '6', x: 3, y: 2, collected: '2026-06-14' }, // Stacked
-    { pk: '9', x: 4, y: 2, collected: '2025-06-22' }
+    { pk: '6', q: 3, r: 2, collected: '2025-06-15' },
+    { pk: '6', q: 3, r: 2, collected: '2026-06-14' }, // Stacked
+    { pk: '9', q: 4, r: 2, collected: '2025-06-22' }
   ];
 
   test('canPlaceTile returns true for empty cell', () => {
@@ -161,9 +196,9 @@ describe('Repeat/Stacking Logic', () => {
 describe('Miss Penalty', () => {
   test('processMissedReadings removes oldest instance of pk', () => {
     const tiles = [
-      { pk: '6', x: 3, y: 2, collected: '2025-06-15' },
-      { pk: '6', x: 3, y: 2, collected: '2026-06-14' },
-      { pk: '9', x: 4, y: 2, collected: '2025-06-22' }
+      { pk: '6', q: 3, r: 2, collected: '2025-06-15' },
+      { pk: '6', q: 3, r: 2, collected: '2026-06-14' },
+      { pk: '9', q: 4, r: 2, collected: '2025-06-22' }
     ];
 
     const result = processMissedReadings(tiles, ['6']);
@@ -176,7 +211,7 @@ describe('Miss Penalty', () => {
 
   test('processMissedReadings does nothing if pk not in collection', () => {
     const tiles = [
-      { pk: '9', x: 4, y: 2, collected: '2025-06-22' }
+      { pk: '9', q: 4, r: 2, collected: '2025-06-22' }
     ];
 
     const result = processMissedReadings(tiles, ['6']);
@@ -187,8 +222,8 @@ describe('Miss Penalty', () => {
 
   test('processMissedReadings handles multiple missed readings', () => {
     const tiles = [
-      { pk: '6', x: 3, y: 2, collected: '2025-06-15' },
-      { pk: '9', x: 4, y: 2, collected: '2025-06-22' }
+      { pk: '6', q: 3, r: 2, collected: '2025-06-15' },
+      { pk: '9', q: 4, r: 2, collected: '2025-06-22' }
     ];
 
     const result = processMissedReadings(tiles, ['6', '9']);
@@ -198,9 +233,9 @@ describe('Miss Penalty', () => {
 
   test('processMissedReadings removes only oldest of stacked tiles', () => {
     const tiles = [
-      { pk: '6', x: 1, y: 1, collected: '2024-01-01' }, // Oldest
-      { pk: '6', x: 3, y: 2, collected: '2025-06-15' },
-      { pk: '6', x: 3, y: 2, collected: '2026-06-14' }  // Newest
+      { pk: '6', q: 1, r: 1, collected: '2024-01-01' }, // Oldest
+      { pk: '6', q: 3, r: 2, collected: '2025-06-15' },
+      { pk: '6', q: 3, r: 2, collected: '2026-06-14' }  // Newest
     ];
 
     const result = processMissedReadings(tiles, ['6']);
@@ -212,8 +247,8 @@ describe('Miss Penalty', () => {
 
 describe('Collision Detection', () => {
   const tiles = [
-    { pk: '6', x: 3, y: 2, collected: '2025-06-15' },
-    { pk: '9', x: 4, y: 2, collected: '2025-06-22' }
+    { pk: '6', q: 3, r: 2, collected: '2025-06-15' },
+    { pk: '9', q: 4, r: 2, collected: '2025-06-22' }
   ];
 
   test('isValidPlacement returns true for empty cell', () => {
@@ -228,8 +263,41 @@ describe('Collision Detection', () => {
     expect(isValidPlacement(tiles, '6', 3, 2)).toBe(true);
   });
 
-  test('isValidPlacement returns false for center staging area', () => {
-    expect(isValidPlacement(tiles, '11', 0, 0)).toBe(false);
+  test('isValidPlacement returns true for origin (no longer reserved)', () => {
+    expect(isValidPlacement(tiles, '11', 0, 0)).toBe(true);
+  });
+});
+
+describe('Find Nearest Empty Cell', () => {
+  test('findNearestEmptyCell returns origin when empty', () => {
+    const tiles = [];
+    const result = findNearestEmptyCell(tiles);
+    expect(result.q).toBe(0);
+    expect(result.r).toBe(0);
+  });
+
+  test('findNearestEmptyCell finds next cell when origin occupied', () => {
+    const tiles = [{ pk: '6', q: 0, r: 0, collected: '2025-06-15' }];
+    const result = findNearestEmptyCell(tiles);
+    // Should find something at radius 1
+    expect(Math.max(Math.abs(result.q), Math.abs(result.r))).toBe(1);
+  });
+
+  test('findNearestEmptyCell spirals outward', () => {
+    const tiles = [
+      { pk: '6', q: 0, r: 0, collected: '2025-06-15' },
+      { pk: '6', q: -1, r: -1, collected: '2025-06-15' },
+      { pk: '6', q: -1, r: 0, collected: '2025-06-15' },
+      { pk: '6', q: -1, r: 1, collected: '2025-06-15' },
+      { pk: '6', q: 0, r: -1, collected: '2025-06-15' },
+      { pk: '6', q: 0, r: 1, collected: '2025-06-15' },
+      { pk: '6', q: 1, r: -1, collected: '2025-06-15' },
+      { pk: '6', q: 1, r: 0, collected: '2025-06-15' },
+      { pk: '6', q: 1, r: 1, collected: '2025-06-15' }
+    ];
+    const result = findNearestEmptyCell(tiles);
+    // Should find something at radius 2
+    expect(Math.max(Math.abs(result.q), Math.abs(result.r))).toBe(2);
   });
 });
 
@@ -250,7 +318,7 @@ describe('Persistence', () => {
       realStartTime: 1234567890,
       gameStartDate: '2025-06-01',
       speedMultiplier: 1,
-      tiles: [{ pk: '6', x: 3, y: 2, collected: '2025-06-15' }],
+      tiles: [{ pk: '6', q: 3, r: 2, collected: '2025-06-15' }],
       lastSaveTime: 1234567890
     };
 
@@ -271,7 +339,7 @@ describe('Persistence', () => {
       realStartTime: 1234567890,
       gameStartDate: '2025-06-01',
       speedMultiplier: 60,
-      tiles: [{ pk: '6', x: 3, y: 2, collected: '2025-06-15' }],
+      tiles: [{ pk: '6', q: 3, r: 2, collected: '2025-06-15' }],
       lastSaveTime: 1234567890
     };
     mockLocalStorage['let-us-attend'] = JSON.stringify(state);
@@ -291,8 +359,8 @@ describe('Persistence', () => {
       gameStartDate: '2025-06-01',
       speedMultiplier: 1,
       tiles: [
-        { pk: '6', x: 3, y: 2, collected: '2025-06-15' },
-        { pk: '9', x: 4, y: 2, collected: '2025-06-22' }
+        { pk: '6', q: 3, r: 2, collected: '2025-06-15' },
+        { pk: '9', q: 4, r: 2, collected: '2025-06-22' }
       ],
       lastSaveTime: 1234567890
     };

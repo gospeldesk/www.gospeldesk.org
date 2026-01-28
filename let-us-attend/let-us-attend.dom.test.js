@@ -91,9 +91,9 @@ describe('DOM Rendering', () => {
       select.appendChild(option);
     });
 
-    expect(select.options.length).toBe(5);
+    expect(select.options.length).toBe(2);
     expect(select.options[0].value).toBe('1');
-    expect(select.options[4].value).toBe('86400');
+    expect(select.options[1].value).toBe('8640');
   });
 
   test('tile element has correct book color class', () => {
@@ -195,17 +195,19 @@ describe('User Interactions', () => {
 describe('Drag and Drop', () => {
   beforeEach(() => {
     document.body.innerHTML = `
-      <div id="hex-grid">
-        <div class="hex-cell" data-x="1" data-y="1"></div>
-        <div class="hex-cell" data-x="2" data-y="1"></div>
-        <div class="hex-cell occupied" data-x="3" data-y="1" data-pk="9"></div>
+      <div id="hex-viewport">
+        <div id="hex-canvas">
+          <div class="hex-cell" data-q="1" data-r="1"></div>
+          <div class="hex-cell" data-q="2" data-r="1"></div>
+          <div class="hex-cell occupied" data-q="3" data-r="1" data-pk="9"></div>
+        </div>
       </div>
     `;
   });
 
   test('dragging tile to empty cell places it', () => {
-    const grid = document.getElementById('hex-grid');
-    const emptyCell = grid.querySelector('[data-x="1"][data-y="1"]');
+    const canvas = document.getElementById('hex-canvas');
+    const emptyCell = canvas.querySelector('[data-q="1"][data-r="1"]');
 
     const tile = document.createElement('div');
     tile.classList.add('tile', 'collected');
@@ -229,8 +231,8 @@ describe('Drag and Drop', () => {
   });
 
   test('dragging tile to occupied cell with different pk rejects', () => {
-    const grid = document.getElementById('hex-grid');
-    const occupiedCell = grid.querySelector('[data-x="3"][data-y="1"]');
+    const canvas = document.getElementById('hex-canvas');
+    const occupiedCell = canvas.querySelector('[data-q="3"][data-r="1"]');
 
     const tile = document.createElement('div');
     tile.classList.add('tile', 'collected');
@@ -243,8 +245,8 @@ describe('Drag and Drop', () => {
   });
 
   test('dragging tile to same-pk cell allows stacking', () => {
-    const grid = document.getElementById('hex-grid');
-    const occupiedCell = grid.querySelector('[data-x="3"][data-y="1"]');
+    const canvas = document.getElementById('hex-canvas');
+    const occupiedCell = canvas.querySelector('[data-q="3"][data-r="1"]');
 
     const tile = document.createElement('div');
     tile.classList.add('tile', 'collected');
@@ -302,7 +304,9 @@ describe('Persistence Integration', () => {
     };
 
     document.body.innerHTML = `
-      <div id="hex-grid"></div>
+      <div id="hex-viewport">
+        <div id="hex-canvas"></div>
+      </div>
       <span id="collected-count">0</span>
     `;
   });
@@ -313,8 +317,8 @@ describe('Persistence Integration', () => {
       gameStartDate: '2025-06-15',
       speedMultiplier: 1,
       tiles: [
-        { pk: '6', x: 3, y: 2, collected: '2025-06-15' },
-        { pk: '9', x: 4, y: 2, collected: '2025-06-22' }
+        { pk: '6', q: 3, r: 2, collected: '2025-06-15' },
+        { pk: '9', q: 4, r: 2, collected: '2025-06-22' }
       ],
       lastSaveTime: Date.now()
     };
@@ -326,8 +330,8 @@ describe('Persistence Integration', () => {
     const loaded = gameModule.loadState();
 
     expect(loaded.tiles.length).toBe(2);
-    expect(loaded.tiles[0].x).toBe(3);
-    expect(loaded.tiles[0].y).toBe(2);
+    expect(loaded.tiles[0].q).toBe(3);
+    expect(loaded.tiles[0].r).toBe(2);
     expect(loaded.tiles[1].pk).toBe('9');
   });
 

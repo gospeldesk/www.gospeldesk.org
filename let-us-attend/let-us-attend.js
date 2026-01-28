@@ -13,11 +13,8 @@ const TileState = {
 
 // Speed presets
 const SPEED_PRESETS = [
-  { label: '1x (Real-time)', value: 1 },
-  { label: '10x', value: 10 },
-  { label: '60x (1 min = 1 hr)', value: 60 },
-  { label: '1440x (1 min = 1 day)', value: 1440 },
-  { label: '86400x (1 sec = 1 day)', value: 86400 }
+  { label: 'Real-time', value: 1 },
+  { label: '10 sec = 1 day', value: 8640 }
 ];
 
 const STORAGE_KEY = 'let-us-attend';
@@ -82,17 +79,58 @@ function getNextReading(schedule, gameDate) {
 }
 
 /**
+ * Convert hex grid coordinates (q, r) to pixel coordinates.
+ * Uses pointy-top hexagon layout with odd-r offset.
+ *
+ * @param {number} q - Column coordinate
+ * @param {number} r - Row coordinate
+ * @param {number} tileSize - Width of hexagon (default 80)
+ * @returns {Object} Pixel coordinates {x, y}
+ */
+function hexToPixel(q, r, tileSize = 80) {
+  const w = tileSize;
+  const h = w * 1.1547;
+  const x = q * w + (r % 2 !== 0 ? w / 2 : 0);
+  const y = r * (h * 0.75);
+  return { x, y };
+}
+
+/**
+ * Convert pixel coordinates to hex grid coordinates (q, r).
+ * Uses pointy-top hexagon layout with odd-r offset.
+ *
+ * @param {number} px - Pixel x coordinate
+ * @param {number} py - Pixel y coordinate
+ * @param {number} tileSize - Width of hexagon (default 80)
+ * @returns {Object} Hex coordinates {q, r}
+ */
+function pixelToHex(px, py, tileSize = 80) {
+  const w = tileSize;
+  const h = w * 1.1547;
+  const rowHeight = h * 0.75;
+
+  // Approximate row
+  const r = Math.round(py / rowHeight);
+
+  // Adjust x for odd row offset
+  const adjustedX = px - (r % 2 !== 0 ? w / 2 : 0);
+  const q = Math.round(adjustedX / w);
+
+  return { q, r };
+}
+
+/**
  * Check if a tile can be placed at a given position.
  * Tiles can be placed in empty cells or stacked on same-pk tiles.
  *
  * @param {Array} tiles - Array of placed tiles
  * @param {string} pk - Pericope ID of tile to place
- * @param {number} x - X coordinate
- * @param {number} y - Y coordinate
+ * @param {number} q - Column coordinate
+ * @param {number} r - Row coordinate
  * @returns {boolean} True if placement is valid
  */
-function canPlaceTile(tiles, pk, x, y) {
-  const existing = tiles.filter(t => t.x === x && t.y === y);
+function canPlaceTile(tiles, pk, q, r) {
+  const existing = tiles.filter(t => t.q === q && t.r === r);
 
   if (existing.length === 0) {
     return true;
@@ -106,12 +144,12 @@ function canPlaceTile(tiles, pk, x, y) {
  * Count tile instances at a position.
  *
  * @param {Array} tiles - Array of placed tiles
- * @param {number} x - X coordinate
- * @param {number} y - Y coordinate
+ * @param {number} q - Column coordinate
+ * @param {number} r - Row coordinate
  * @returns {number} Count of tiles at position
  */
-function countInstancesAtPosition(tiles, x, y) {
-  return tiles.filter(t => t.x === x && t.y === y).length;
+function countInstancesAtPosition(tiles, q, r) {
+  return tiles.filter(t => t.q === q && t.r === r).length;
 }
 
 /**
@@ -134,7 +172,7 @@ function processMissedReadings(tiles, missedPks) {
 
     // Remove oldest instance
     const idx = result.findIndex(
-      t => t.pk === oldest.pk && t.collected === oldest.collected && t.x === oldest.x && t.y === oldest.y
+      t => t.pk === oldest.pk && t.collected === oldest.collected && t.q === oldest.q && t.r === oldest.r
     );
     if (idx !== -1) {
       result.splice(idx, 1);
@@ -149,17 +187,48 @@ function processMissedReadings(tiles, missedPks) {
  *
  * @param {Array} tiles - Array of placed tiles
  * @param {string} pk - Pericope ID of tile to place
- * @param {number} x - X coordinate
- * @param {number} y - Y coordinate
+ * @param {number} q - Column coordinate
+ * @param {number} r - Row coordinate
  * @returns {boolean} True if placement is valid
  */
-function isValidPlacement(tiles, pk, x, y) {
-  // Center staging area is reserved (0, 0)
-  if (x === 0 && y === 0) {
-    return false;
+function isValidPlacement(tiles, pk, q, r) {
+  return canPlaceTile(tiles, pk, q, r);
+}
+
+/**
+ * Find the nearest empty cell by spiraling outward from the origin.
+ *
+ * @param {Array} tiles - Array of placed tiles
+ * @returns {Object} Hex coordinates {q, r} of nearest empty cell
+ */
+function findNearestEmptyCell(tiles) {
+  const occupied = new Set(tiles.map(t => `${t.q},${t.r}`));
+
+  // Spiral outward from origin
+  // Check origin first
+  if (!occupied.has('0,0')) {
+    return { q: 0, r: 0 };
   }
 
-  return canPlaceTile(tiles, pk, x, y);
+  // Spiral pattern: for each radius, check all cells at that distance
+  for (let radius = 1; radius < 100; radius++) {
+    // Check cells in a rough spiral/ring pattern
+    for (let r = -radius; r <= radius; r++) {
+      for (let q = -radius; q <= radius; q++) {
+        // Only check cells roughly at this radius
+        const dist = Math.max(Math.abs(q), Math.abs(r));
+        if (dist !== radius) continue;
+
+        const key = `${q},${r}`;
+        if (!occupied.has(key)) {
+          return { q, r };
+        }
+      }
+    }
+  }
+
+  // Fallback (should never reach)
+  return { q: 0, r: 0 };
 }
 
 /**
@@ -249,10 +318,13 @@ if (typeof module !== 'undefined' && module.exports) {
     getCurrentGameDate,
     getCurrentReading,
     getNextReading,
+    hexToPixel,
+    pixelToHex,
     canPlaceTile,
     countInstancesAtPosition,
     processMissedReadings,
     isValidPlacement,
+    findNearestEmptyCell,
     saveState,
     loadState,
     createInitialState,
@@ -272,6 +344,20 @@ if (typeof window !== 'undefined') {
   let lastScheduleIndex = -1;
   let updateInterval = null;
   let draggedTile = null;
+
+  // Viewport state for infinite canvas
+  let viewportState = {
+    panX: 0,
+    panY: 0,
+    isDragging: false,
+    lastMouseX: 0,
+    lastMouseY: 0,
+    viewportWidth: 0,
+    viewportHeight: 0
+  };
+
+  // Cache of rendered hex cells: "q,r" -> DOM element
+  let cellCache = new Map();
 
   // DOM elements
   let elements = {};
@@ -347,47 +433,206 @@ if (typeof window !== 'undefined') {
   }
 
   /**
-   * Build hex grid structure
+   * Get tile size from CSS variable
    */
-  function buildHexGrid() {
-    const grid = elements.hexGrid;
-    grid.innerHTML = '';
+  function getTileSize() {
+    const style = getComputedStyle(document.documentElement);
+    return parseInt(style.getPropertyValue('--tile-size')) || 80;
+  }
 
-    const rows = 7;
-    const cols = 9;
+  /**
+   * Setup the hex viewport with pan handlers
+   */
+  function setupViewport() {
+    const viewport = elements.hexViewport;
+    const canvas = elements.hexCanvas;
 
-    for (let y = 0; y < rows; y++) {
-      const row = document.createElement('div');
-      row.className = 'hex-row';
+    // Get viewport dimensions
+    viewportState.viewportWidth = viewport.clientWidth;
+    viewportState.viewportHeight = viewport.clientHeight;
 
-      const colsInRow = y % 2 === 0 ? cols : cols - 1;
+    // Center the canvas initially so (0,0) is in the middle
+    viewportState.panX = viewportState.viewportWidth / 2;
+    viewportState.panY = viewportState.viewportHeight / 2;
 
-      for (let x = 0; x < colsInRow; x++) {
-        const cell = document.createElement('div');
-        cell.className = 'hex-cell';
-        cell.dataset.x = x;
-        cell.dataset.y = y;
+    // Mouse pan handlers
+    viewport.addEventListener('mousedown', handlePanStart);
+    viewport.addEventListener('mousemove', handlePanMove);
+    viewport.addEventListener('mouseup', handlePanEnd);
+    viewport.addEventListener('mouseleave', handlePanEnd);
 
-        // Drag and drop handlers
-        cell.addEventListener('dragover', handleDragOver);
-        cell.addEventListener('dragleave', handleDragLeave);
-        cell.addEventListener('drop', handleDrop);
+    // Touch pan handlers
+    viewport.addEventListener('touchstart', handleTouchStart, { passive: false });
+    viewport.addEventListener('touchmove', handleTouchMove, { passive: false });
+    viewport.addEventListener('touchend', handleTouchEnd);
 
-        row.appendChild(cell);
+    // Handle resize
+    window.addEventListener('resize', () => {
+      viewportState.viewportWidth = viewport.clientWidth;
+      viewportState.viewportHeight = viewport.clientHeight;
+      renderVisibleHexes();
+    });
+
+    // Initial render
+    renderVisibleHexes();
+  }
+
+  /**
+   * Handle pan start (mousedown)
+   */
+  function handlePanStart(e) {
+    // Only pan with left mouse button and not on a tile
+    if (e.button !== 0) return;
+    if (e.target.closest('.tile')) return;
+
+    viewportState.isDragging = true;
+    viewportState.lastMouseX = e.clientX;
+    viewportState.lastMouseY = e.clientY;
+    elements.hexViewport.classList.add('dragging');
+  }
+
+  /**
+   * Handle pan move (mousemove)
+   */
+  function handlePanMove(e) {
+    if (!viewportState.isDragging) return;
+
+    const dx = e.clientX - viewportState.lastMouseX;
+    const dy = e.clientY - viewportState.lastMouseY;
+
+    viewportState.panX += dx;
+    viewportState.panY += dy;
+
+    viewportState.lastMouseX = e.clientX;
+    viewportState.lastMouseY = e.clientY;
+
+    renderVisibleHexes();
+  }
+
+  /**
+   * Handle pan end (mouseup/mouseleave)
+   */
+  function handlePanEnd() {
+    viewportState.isDragging = false;
+    elements.hexViewport.classList.remove('dragging');
+  }
+
+  /**
+   * Handle touch start
+   */
+  function handleTouchStart(e) {
+    if (e.target.closest('.tile')) return;
+    if (e.touches.length !== 1) return;
+
+    viewportState.isDragging = true;
+    viewportState.lastMouseX = e.touches[0].clientX;
+    viewportState.lastMouseY = e.touches[0].clientY;
+    elements.hexViewport.classList.add('dragging');
+  }
+
+  /**
+   * Handle touch move
+   */
+  function handleTouchMove(e) {
+    if (!viewportState.isDragging) return;
+    if (e.touches.length !== 1) return;
+
+    e.preventDefault();
+
+    const dx = e.touches[0].clientX - viewportState.lastMouseX;
+    const dy = e.touches[0].clientY - viewportState.lastMouseY;
+
+    viewportState.panX += dx;
+    viewportState.panY += dy;
+
+    viewportState.lastMouseX = e.touches[0].clientX;
+    viewportState.lastMouseY = e.touches[0].clientY;
+
+    renderVisibleHexes();
+  }
+
+  /**
+   * Handle touch end
+   */
+  function handleTouchEnd() {
+    viewportState.isDragging = false;
+    elements.hexViewport.classList.remove('dragging');
+  }
+
+  /**
+   * Render visible hexes based on viewport and pan position
+   */
+  function renderVisibleHexes() {
+    const tileSize = getTileSize();
+    const hexHeight = tileSize * 1.1547;
+    const rowHeight = hexHeight * 0.75;
+
+    // Calculate visible range with padding
+    const padding = 2; // Extra cells around visible area
+    const minQ = Math.floor((-viewportState.panX - tileSize) / tileSize) - padding;
+    const maxQ = Math.ceil((viewportState.viewportWidth - viewportState.panX + tileSize) / tileSize) + padding;
+    const minR = Math.floor((-viewportState.panY - hexHeight) / rowHeight) - padding;
+    const maxR = Math.ceil((viewportState.viewportHeight - viewportState.panY + hexHeight) / rowHeight) + padding;
+
+    // Track which cells should exist
+    const visibleKeys = new Set();
+
+    // Create or update visible cells
+    for (let r = minR; r <= maxR; r++) {
+      for (let q = minQ; q <= maxQ; q++) {
+        const key = `${q},${r}`;
+        visibleKeys.add(key);
+
+        let cell = cellCache.get(key);
+
+        if (!cell) {
+          // Create new cell
+          cell = document.createElement('div');
+          cell.className = 'hex-cell';
+          cell.dataset.q = q;
+          cell.dataset.r = r;
+
+          // Drag and drop handlers
+          cell.addEventListener('dragover', handleDragOver);
+          cell.addEventListener('dragleave', handleDragLeave);
+          cell.addEventListener('drop', handleDrop);
+
+          elements.hexCanvas.appendChild(cell);
+          cellCache.set(key, cell);
+        }
+
+        // Update position
+        const pos = hexToPixel(q, r, tileSize);
+        cell.style.left = (pos.x + viewportState.panX) + 'px';
+        cell.style.top = (pos.y + viewportState.panY) + 'px';
       }
-
-      grid.appendChild(row);
     }
+
+    // Remove cells that are no longer visible
+    for (const [key, cell] of cellCache) {
+      if (!visibleKeys.has(key)) {
+        cell.remove();
+        cellCache.delete(key);
+      }
+    }
+
+    // Update canvas transform
+    elements.hexCanvas.style.transform = `translate(0, 0)`;
+
+    // Render placed tiles
+    renderPlacedTiles();
   }
 
   /**
    * Render placed tiles on the grid
    */
   function renderPlacedTiles() {
+    if (!gameState) return;
+
     // Group tiles by position
     const tilesByPosition = {};
     for (const tile of gameState.tiles) {
-      const key = `${tile.x},${tile.y}`;
+      const key = `${tile.q},${tile.r}`;
       if (!tilesByPosition[key]) {
         tilesByPosition[key] = [];
       }
@@ -395,27 +640,26 @@ if (typeof window !== 'undefined') {
     }
 
     // Clear all cells first
-    const cells = elements.hexGrid.querySelectorAll('.hex-cell');
-    cells.forEach(cell => {
+    for (const cell of cellCache.values()) {
       cell.innerHTML = '';
       cell.classList.remove('occupied');
       delete cell.dataset.pk;
-    });
+    }
 
     // Render tiles
     for (const [key, tiles] of Object.entries(tilesByPosition)) {
-      const [x, y] = key.split(',').map(Number);
-      const cell = elements.hexGrid.querySelector(`[data-x="${x}"][data-y="${y}"]`);
+      const cell = cellCache.get(key);
       if (!cell) continue;
 
+      const [q, r] = key.split(',').map(Number);
       const latestTile = tiles[tiles.length - 1];
       const tileEl = createTileElement(latestTile.pk, false);
       if (!tileEl) continue;
 
       tileEl.classList.add('collected');
       tileEl.draggable = true;
-      tileEl.dataset.x = x;
-      tileEl.dataset.y = y;
+      tileEl.dataset.q = q;
+      tileEl.dataset.r = r;
 
       // Stack badge
       if (tiles.length > 1) {
@@ -512,13 +756,8 @@ if (typeof window !== 'undefined') {
   function collectReading(pk) {
     closeModal();
 
-    // Find empty cell
-    const cells = elements.hexGrid.querySelectorAll('.hex-cell:not(.occupied)');
-    if (cells.length === 0) return;
-
-    const cell = cells[0];
-    const x = parseInt(cell.dataset.x);
-    const y = parseInt(cell.dataset.y);
+    // Find nearest empty cell spiraling from origin
+    const { q, r } = findNearestEmptyCell(gameState.tiles);
 
     const gameDate = getCurrentGameDate(
       gameState.realStartTime,
@@ -529,8 +768,8 @@ if (typeof window !== 'undefined') {
     // Add tile to state
     gameState.tiles.push({
       pk: pk,
-      x: x,
-      y: y,
+      q: q,
+      r: r,
       collected: gameDate
     });
 
@@ -540,7 +779,7 @@ if (typeof window !== 'undefined') {
     // Save and re-render
     saveState(gameState);
     renderStagingArea();
-    renderPlacedTiles();
+    renderVisibleHexes();
     updateStats();
   }
 
@@ -561,10 +800,9 @@ if (typeof window !== 'undefined') {
     draggedTile = null;
 
     // Clear all drop indicators
-    const cells = elements.hexGrid.querySelectorAll('.hex-cell');
-    cells.forEach(cell => {
+    for (const cell of cellCache.values()) {
       cell.classList.remove('drop-target', 'drop-invalid');
-    });
+    }
   }
 
   /**
@@ -577,12 +815,12 @@ if (typeof window !== 'undefined') {
     const cell = e.target.closest('.hex-cell');
     if (!cell) return;
 
-    const x = parseInt(cell.dataset.x);
-    const y = parseInt(cell.dataset.y);
+    const q = parseInt(cell.dataset.q);
+    const r = parseInt(cell.dataset.r);
     const pk = draggedTile.dataset.pk;
 
-    const valid = isValidPlacement(gameState.tiles, pk, x, y) ||
-                  (cell.dataset.x === draggedTile.dataset.x && cell.dataset.y === draggedTile.dataset.y);
+    const valid = isValidPlacement(gameState.tiles, pk, q, r) ||
+                  (cell.dataset.q === draggedTile.dataset.q && cell.dataset.r === draggedTile.dataset.r);
 
     cell.classList.remove('drop-target', 'drop-invalid');
     cell.classList.add(valid ? 'drop-target' : 'drop-invalid');
@@ -608,35 +846,35 @@ if (typeof window !== 'undefined') {
     const cell = e.target.closest('.hex-cell');
     if (!cell) return;
 
-    const newX = parseInt(cell.dataset.x);
-    const newY = parseInt(cell.dataset.y);
-    const oldX = parseInt(draggedTile.dataset.x);
-    const oldY = parseInt(draggedTile.dataset.y);
+    const newQ = parseInt(cell.dataset.q);
+    const newR = parseInt(cell.dataset.r);
+    const oldQ = parseInt(draggedTile.dataset.q);
+    const oldR = parseInt(draggedTile.dataset.r);
     const pk = draggedTile.dataset.pk;
 
     // Same position - no change
-    if (newX === oldX && newY === oldY) {
+    if (newQ === oldQ && newR === oldR) {
       cell.classList.remove('drop-target', 'drop-invalid');
       return;
     }
 
     // Check if valid
-    if (!isValidPlacement(gameState.tiles, pk, newX, newY)) {
+    if (!isValidPlacement(gameState.tiles, pk, newQ, newR)) {
       cell.classList.remove('drop-target', 'drop-invalid');
       return;
     }
 
     // Move all tiles at old position to new position
     for (const tile of gameState.tiles) {
-      if (tile.x === oldX && tile.y === oldY && tile.pk === pk) {
-        tile.x = newX;
-        tile.y = newY;
+      if (tile.q === oldQ && tile.r === oldR && tile.pk === pk) {
+        tile.q = newQ;
+        tile.r = newR;
       }
     }
 
     // Save and re-render
     saveState(gameState);
-    renderPlacedTiles();
+    renderVisibleHexes();
 
     cell.classList.remove('drop-target', 'drop-invalid');
   }
@@ -754,7 +992,8 @@ if (typeof window !== 'undefined') {
     elements = {
       stagingArea: document.getElementById('staging-area'),
       emptyState: document.getElementById('empty-state'),
-      hexGrid: document.getElementById('hex-grid'),
+      hexViewport: document.getElementById('hex-viewport'),
+      hexCanvas: document.getElementById('hex-canvas'),
       collectedCount: document.getElementById('collected-count'),
       totalCount: document.getElementById('total-count'),
       currentDate: document.getElementById('current-date'),
@@ -796,8 +1035,7 @@ if (typeof window !== 'undefined') {
 
     // Initialize UI
     initSpeedSelect();
-    buildHexGrid();
-    renderPlacedTiles();
+    setupViewport();
     updateGame();
 
     // Modal close handlers
