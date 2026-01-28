@@ -120,12 +120,13 @@ function getHexRing(centerQ, centerR, radius) {
 
   const results = [];
 
-  // Start at center + radius * direction[4] (NW corner)
-  let x = cx + radius * cubeDirs[4][0];
-  let z = cz + radius * cubeDirs[4][2];
+  // Start at center + radius * direction[5] (NE corner)
+  let x = cx + radius * cubeDirs[5][0];
+  let z = cz + radius * cubeDirs[5][2];
 
-  // Walk around the ring: 6 sides, radius steps each
-  for (let side = 0; side < 6; side++) {
+  // Walk around the ring: 6 sides, radius steps each, starting from SE direction
+  for (let i = 0; i < 6; i++) {
+    const side = (i + 1) % 6; // Start at direction 1 (SE) instead of 0 (E)
     for (let step = 0; step < radius; step++) {
       // Convert cube to odd-r offset
       const q = x + (z - (z & 1)) / 2;
@@ -136,6 +137,14 @@ function getHexRing(centerQ, centerR, radius) {
       x += cubeDirs[side][0];
       z += cubeDirs[side][2];
     }
+  }
+
+  // Rotate results so each ring starts at NE of where previous ring ended
+  // This creates a continuous spiral effect
+  // Ring r should start at position (5r + 1) % (6r)
+  if (radius > 1) {
+    const startIndex = (5 * radius + 1) % (6 * radius);
+    return [...results.slice(startIndex), ...results.slice(0, startIndex)];
   }
 
   return results;
@@ -258,9 +267,10 @@ function findNearestEmptyCell(tiles) {
  * @returns {Object} Hex coordinates {q, r} of nearest empty cell
  */
 function findNearestEmptyCellFromViewportCenter(tiles, viewportState, tileSize) {
-  // Calculate viewport center in canvas coordinates
-  const centerX = viewportState.viewportWidth / 2 - viewportState.panX;
-  const centerY = viewportState.viewportHeight / 2 - viewportState.panY;
+  // Calculate viewport center in canvas coordinates (account for zoom)
+  const zoom = viewportState.zoom || 1;
+  const centerX = (viewportState.viewportWidth / 2 - viewportState.panX) / zoom;
+  const centerY = (viewportState.viewportHeight / 2 - viewportState.panY) / zoom;
 
   // Convert to hex coordinates
   const centerHex = pixelToHex(centerX, centerY, tileSize);
@@ -369,12 +379,16 @@ if (typeof window !== 'undefined') {
   let gameState = null;
   let gameData = null;
   let updateInterval = null;
-  let draggedTile = null;
+  let dragState = null; // { tile, startQ, startR, bookClass }
+  let fastDecay = false; // 300x decay speed when opt+d held
+  const FAST_DECAY_MULTIPLIER = 300;
+  let fastDecayStartTime = null; // When fast decay was enabled
 
   // Viewport state for infinite canvas
   let viewportState = {
     panX: 0,
     panY: 0,
+    zoom: 1,
     isDragging: false,
     lastMouseX: 0,
     lastMouseY: 0,
@@ -451,6 +465,9 @@ if (typeof window !== 'undefined') {
     viewport.addEventListener('touchmove', handleTouchMove, { passive: false });
     viewport.addEventListener('touchend', handleTouchEnd);
 
+    // Scroll wheel pan handler
+    viewport.addEventListener('wheel', handleWheel, { passive: false });
+
     // Handle resize
     window.addEventListener('resize', () => {
       viewportState.viewportWidth = viewport.clientWidth;
@@ -491,6 +508,7 @@ if (typeof window !== 'undefined') {
     viewportState.lastMouseX = e.clientX;
     viewportState.lastMouseY = e.clientY;
 
+    constrainPan();
     renderVisibleHexes();
   }
 
@@ -533,6 +551,7 @@ if (typeof window !== 'undefined') {
     viewportState.lastMouseX = e.touches[0].clientX;
     viewportState.lastMouseY = e.touches[0].clientY;
 
+    constrainPan();
     renderVisibleHexes();
   }
 
@@ -545,19 +564,102 @@ if (typeof window !== 'undefined') {
   }
 
   /**
+   * Constrain pan so at least one tile is always visible
+   */
+  function constrainPan() {
+    if (!gameState || gameState.tiles.length === 0) return;
+
+    const tileSize = getTileSize();
+    const hexHeight = tileSize * 1.1547;
+    const zoom = viewportState.zoom;
+
+    // Calculate bounding box of all tiles in canvas coordinates
+    let minX = Infinity, maxX = -Infinity;
+    let minY = Infinity, maxY = -Infinity;
+
+    for (const tile of gameState.tiles) {
+      const pos = hexToPixel(tile.q, tile.r, tileSize);
+      minX = Math.min(minX, pos.x);
+      maxX = Math.max(maxX, pos.x + tileSize);
+      minY = Math.min(minY, pos.y);
+      maxY = Math.max(maxY, pos.y + hexHeight);
+    }
+
+    // Margin in screen pixels - keep at least this much of tiles visible
+    const margin = Math.min(tileSize * zoom, viewportState.viewportWidth / 3, viewportState.viewportHeight / 3);
+
+    // Screen position of canvas point (cx, cy) = (panX + cx * zoom, panY + cy * zoom)
+
+    // Right edge of tiles must be at least `margin` into viewport from left
+    // panX + maxX * zoom >= margin
+    const minPanX = margin - maxX * zoom;
+
+    // Left edge of tiles must be at least `margin` into viewport from right
+    // panX + minX * zoom <= viewportWidth - margin
+    const maxPanX = viewportState.viewportWidth - margin - minX * zoom;
+
+    // Bottom edge of tiles must be at least `margin` into viewport from top
+    const minPanY = margin - maxY * zoom;
+
+    // Top edge of tiles must be at least `margin` into viewport from bottom
+    const maxPanY = viewportState.viewportHeight - margin - minY * zoom;
+
+    viewportState.panX = Math.max(minPanX, Math.min(maxPanX, viewportState.panX));
+    viewportState.panY = Math.max(minPanY, Math.min(maxPanY, viewportState.panY));
+  }
+
+  /**
+   * Handle scroll wheel for panning and pinch-to-zoom
+   */
+  function handleWheel(e) {
+    e.preventDefault();
+
+    if (e.ctrlKey) {
+      // Pinch to zoom
+      const zoomFactor = 1 - e.deltaY * 0.01;
+      const newZoom = Math.min(3, Math.max(0.3, viewportState.zoom * zoomFactor));
+
+      // Zoom toward cursor position
+      const rect = elements.hexViewport.getBoundingClientRect();
+      const cursorX = e.clientX - rect.left;
+      const cursorY = e.clientY - rect.top;
+
+      // Adjust pan to keep cursor point stable
+      const zoomChange = newZoom / viewportState.zoom;
+      viewportState.panX = cursorX - (cursorX - viewportState.panX) * zoomChange;
+      viewportState.panY = cursorY - (cursorY - viewportState.panY) * zoomChange;
+
+      viewportState.zoom = newZoom;
+    } else {
+      // Regular scroll for panning
+      viewportState.panX -= e.deltaX;
+      viewportState.panY -= e.deltaY;
+    }
+
+    constrainPan();
+    renderVisibleHexes();
+  }
+
+  /**
    * Render visible hexes based on viewport and pan position
    */
   function renderVisibleHexes() {
     const tileSize = getTileSize();
     const hexHeight = tileSize * 1.1547;
     const rowHeight = hexHeight * 0.75;
+    const zoom = viewportState.zoom;
 
-    // Calculate visible range with padding
+    // Calculate visible range in canvas space (account for zoom)
     const padding = 2; // Extra cells around visible area
-    const minQ = Math.floor((-viewportState.panX - tileSize) / tileSize) - padding;
-    const maxQ = Math.ceil((viewportState.viewportWidth - viewportState.panX + tileSize) / tileSize) + padding;
-    const minR = Math.floor((-viewportState.panY - hexHeight) / rowHeight) - padding;
-    const maxR = Math.ceil((viewportState.viewportHeight - viewportState.panY + hexHeight) / rowHeight) + padding;
+    const visibleMinX = -viewportState.panX / zoom;
+    const visibleMaxX = (viewportState.viewportWidth - viewportState.panX) / zoom;
+    const visibleMinY = -viewportState.panY / zoom;
+    const visibleMaxY = (viewportState.viewportHeight - viewportState.panY) / zoom;
+
+    const minQ = Math.floor((visibleMinX - tileSize) / tileSize) - padding;
+    const maxQ = Math.ceil((visibleMaxX + tileSize) / tileSize) + padding;
+    const minR = Math.floor((visibleMinY - hexHeight) / rowHeight) - padding;
+    const maxR = Math.ceil((visibleMaxY + hexHeight) / rowHeight) + padding;
 
     // Track which cells should exist
     const visibleKeys = new Set();
@@ -577,19 +679,14 @@ if (typeof window !== 'undefined') {
           cell.dataset.q = q;
           cell.dataset.r = r;
 
-          // Drag and drop handlers
-          cell.addEventListener('dragover', handleDragOver);
-          cell.addEventListener('dragleave', handleDragLeave);
-          cell.addEventListener('drop', handleDrop);
-
           elements.hexCanvas.appendChild(cell);
           cellCache.set(key, cell);
         }
 
-        // Update position
+        // Update position (in canvas space, pan/zoom applied to canvas)
         const pos = hexToPixel(q, r, tileSize);
-        cell.style.left = (pos.x + viewportState.panX) + 'px';
-        cell.style.top = (pos.y + viewportState.panY) + 'px';
+        cell.style.left = pos.x + 'px';
+        cell.style.top = pos.y + 'px';
       }
     }
 
@@ -601,8 +698,9 @@ if (typeof window !== 'undefined') {
       }
     }
 
-    // Update canvas transform
-    elements.hexCanvas.style.transform = `translate(0, 0)`;
+    // Apply pan and zoom to canvas
+    elements.hexCanvas.style.transform = `translate(${viewportState.panX}px, ${viewportState.panY}px) scale(${viewportState.zoom})`;
+    elements.hexCanvas.style.transformOrigin = '0 0';
 
     // Render placed tiles
     renderPlacedTiles();
@@ -614,7 +712,7 @@ if (typeof window !== 'undefined') {
   function renderPlacedTiles() {
     if (!gameState) return;
 
-    const decayDuration = getDecayDurationMs();
+    const decayDuration = fastDecay ? getDecayDurationMs() / FAST_DECAY_MULTIPLIER : getDecayDurationMs();
     const now = Date.now();
 
     // Group tiles by position (only collected tiles can stack)
@@ -650,7 +748,6 @@ if (typeof window !== 'undefined') {
       if (latestTile.isCollected) {
         // Collected tile: draggable, solid
         tileEl.classList.add('collected');
-        tileEl.draggable = true;
 
         // Stack badge (only for collected tiles)
         const collectedCount = tiles.filter(t => t.isCollected).length;
@@ -661,9 +758,8 @@ if (typeof window !== 'undefined') {
           tileEl.appendChild(badge);
         }
 
-        // Drag handlers
-        tileEl.addEventListener('dragstart', handleDragStart);
-        tileEl.addEventListener('dragend', handleDragEnd);
+        // Mouse drag handler
+        tileEl.addEventListener('mousedown', handleTileMouseDown);
 
         // Click to view reading (view only for collected)
         tileEl.addEventListener('click', (e) => {
@@ -672,18 +768,22 @@ if (typeof window !== 'undefined') {
           }
         });
       } else {
-        // Uncollected tile: decaying, not draggable
+        // Uncollected tile: decaying, but still draggable
         tileEl.classList.add('decaying');
-        tileEl.draggable = false;
 
         // Set CSS animation variables for smooth fade
         const elapsed = now - latestTile.placedAt;
         tileEl.style.setProperty('--decay-duration', decayDuration + 'ms');
         tileEl.style.setProperty('--decay-elapsed', elapsed + 'ms');
 
+        // Mouse drag handler
+        tileEl.addEventListener('mousedown', handleTileMouseDown);
+
         // Click to view reading with Mark as Read button
-        tileEl.addEventListener('click', () => {
-          openReadingModal(latestTile.pk, false);
+        tileEl.addEventListener('click', (e) => {
+          if (!e.target.closest('.tile').classList.contains('dragging')) {
+            openReadingModal(latestTile.pk, false);
+          }
         });
       }
 
@@ -766,99 +866,109 @@ if (typeof window !== 'undefined') {
   }
 
   /**
-   * Drag start handler
+   * Tile mousedown - start drag
    */
-  function handleDragStart(e) {
-    draggedTile = e.target;
-    e.target.classList.add('dragging');
-    e.dataTransfer.effectAllowed = 'move';
+  function handleTileMouseDown(e) {
+    if (e.button !== 0) return; // Left click only
+    e.preventDefault(); // Prevent text selection
+    e.stopPropagation(); // Don't trigger viewport pan
+
+    const tile = e.target.closest('.tile');
+    if (!tile) return;
+
+    const q = parseInt(tile.dataset.q);
+    const r = parseInt(tile.dataset.r);
+    const bookClass = Array.from(tile.classList).find(c => c.startsWith('book-'));
+
+    dragState = {
+      tile: tile,
+      startQ: q,
+      startR: r,
+      pk: tile.dataset.pk,
+      bookClass: bookClass
+    };
+
+    tile.classList.add('dragging');
+    document.body.classList.add('dragging-tile');
+    if (bookClass) {
+      document.body.dataset.dragBook = bookClass.replace('book-', '');
+    }
+
+    // Add global listeners
+    document.addEventListener('mousemove', handleTileDragMove);
+    document.addEventListener('mouseup', handleTileDragEnd);
   }
 
   /**
-   * Drag end handler
+   * Tile drag move - highlight drop targets
    */
-  function handleDragEnd(e) {
-    e.target.classList.remove('dragging');
-    draggedTile = null;
+  function handleTileDragMove(e) {
+    if (!dragState) return;
 
-    // Clear all drop indicators
+    // Clear previous highlights
     for (const cell of cellCache.values()) {
       cell.classList.remove('drop-target', 'drop-invalid');
     }
-  }
 
-  /**
-   * Drag over handler
-   */
-  function handleDragOver(e) {
-    e.preventDefault();
-    if (!draggedTile) return;
-
-    const cell = e.target.closest('.hex-cell');
+    // Find cell under cursor
+    const cell = document.elementFromPoint(e.clientX, e.clientY)?.closest('.hex-cell');
     if (!cell) return;
 
     const q = parseInt(cell.dataset.q);
     const r = parseInt(cell.dataset.r);
-    const pk = draggedTile.dataset.pk;
 
-    const valid = isValidPlacement(gameState.tiles, pk, q, r) ||
-                  (cell.dataset.q === draggedTile.dataset.q && cell.dataset.r === draggedTile.dataset.r);
+    const valid = isValidPlacement(gameState.tiles, dragState.pk, q, r) ||
+                  (q === dragState.startQ && r === dragState.startR);
 
-    cell.classList.remove('drop-target', 'drop-invalid');
     cell.classList.add(valid ? 'drop-target' : 'drop-invalid');
   }
 
   /**
-   * Drag leave handler
+   * Tile drag end - drop or cancel
    */
-  function handleDragLeave(e) {
-    const cell = e.target.closest('.hex-cell');
+  function handleTileDragEnd(e) {
+    if (!dragState) return;
+
+    // Remove global listeners
+    document.removeEventListener('mousemove', handleTileDragMove);
+    document.removeEventListener('mouseup', handleTileDragEnd);
+
+    // Find cell under cursor
+    const cell = document.elementFromPoint(e.clientX, e.clientY)?.closest('.hex-cell');
+
     if (cell) {
-      cell.classList.remove('drop-target', 'drop-invalid');
-    }
-  }
+      const newQ = parseInt(cell.dataset.q);
+      const newR = parseInt(cell.dataset.r);
 
-  /**
-   * Drop handler
-   */
-  function handleDrop(e) {
-    e.preventDefault();
-    if (!draggedTile) return;
+      // Check if valid move
+      if ((newQ !== dragState.startQ || newR !== dragState.startR) &&
+          isValidPlacement(gameState.tiles, dragState.pk, newQ, newR)) {
 
-    const cell = e.target.closest('.hex-cell');
-    if (!cell) return;
+        // Move all tiles at old position to new position
+        for (const tile of gameState.tiles) {
+          if (tile.q === dragState.startQ && tile.r === dragState.startR && tile.pk === dragState.pk) {
+            tile.q = newQ;
+            tile.r = newR;
+          }
+        }
 
-    const newQ = parseInt(cell.dataset.q);
-    const newR = parseInt(cell.dataset.r);
-    const oldQ = parseInt(draggedTile.dataset.q);
-    const oldR = parseInt(draggedTile.dataset.r);
-    const pk = draggedTile.dataset.pk;
-
-    // Same position - no change
-    if (newQ === oldQ && newR === oldR) {
-      cell.classList.remove('drop-target', 'drop-invalid');
-      return;
-    }
-
-    // Check if valid
-    if (!isValidPlacement(gameState.tiles, pk, newQ, newR)) {
-      cell.classList.remove('drop-target', 'drop-invalid');
-      return;
-    }
-
-    // Move all tiles at old position to new position
-    for (const tile of gameState.tiles) {
-      if (tile.q === oldQ && tile.r === oldR && tile.pk === pk) {
-        tile.q = newQ;
-        tile.r = newR;
+        saveState(gameState);
+        renderVisibleHexes();
       }
     }
 
-    // Save and re-render
-    saveState(gameState);
-    renderVisibleHexes();
+    // Clear highlights
+    for (const c of cellCache.values()) {
+      c.classList.remove('drop-target', 'drop-invalid');
+    }
 
-    cell.classList.remove('drop-target', 'drop-invalid');
+    // Clean up
+    if (dragState.tile) {
+      dragState.tile.classList.remove('dragging');
+    }
+    document.body.classList.remove('dragging-tile');
+    delete document.body.dataset.dragBook;
+    dragState = null;
   }
 
   /**
@@ -910,7 +1020,7 @@ if (typeof window !== 'undefined') {
    */
   function updateGame() {
     const now = Date.now();
-    const decayDuration = getDecayDurationMs();
+    const decayDuration = fastDecay ? getDecayDurationMs() / FAST_DECAY_MULTIPLIER : getDecayDurationMs();
     let needsRender = false;
 
     // Process decay for uncollected tiles
@@ -971,6 +1081,49 @@ if (typeof window !== 'undefined') {
     if (e.altKey && e.code === 'KeyN') {
       e.preventDefault();
       placeNextTile();
+    }
+    // Option+D to enable 100x fast decay
+    if (e.altKey && e.code === 'KeyD' && !fastDecay) {
+      e.preventDefault();
+      const now = Date.now();
+
+      // Adjust placedAt so decay fraction stays the same with faster duration
+      // decayFraction = elapsed / normalDuration = newElapsed / fastDuration
+      // newElapsed = elapsed / multiplier, so newPlacedAt = now - elapsed/multiplier
+      for (const tile of gameState.tiles) {
+        if (!tile.isCollected && tile.placedAt) {
+          const elapsed = now - tile.placedAt;
+          tile.placedAt = now - elapsed / FAST_DECAY_MULTIPLIER;
+        }
+      }
+
+      fastDecay = true;
+      fastDecayStartTime = now;
+      renderVisibleHexes();
+    }
+  }
+
+  /**
+   * Handle key up
+   */
+  function handleKeyUp(e) {
+    // Release Option+D to disable fast decay
+    if (e.code === 'KeyD' && fastDecay) {
+      const now = Date.now();
+
+      // Reverse the adjustment: convert fast elapsed back to normal elapsed
+      // newElapsed = elapsed * multiplier, so newPlacedAt = now - elapsed * multiplier
+      for (const tile of gameState.tiles) {
+        if (!tile.isCollected && tile.placedAt) {
+          const elapsed = now - tile.placedAt;
+          tile.placedAt = now - elapsed * FAST_DECAY_MULTIPLIER;
+        }
+      }
+
+      fastDecay = false;
+      fastDecayStartTime = null;
+      saveState(gameState);
+      renderVisibleHexes();
     }
   }
 
@@ -1033,6 +1186,7 @@ if (typeof window !== 'undefined') {
 
     // Keyboard shortcuts
     document.addEventListener('keydown', handleKeyDown);
+    document.addEventListener('keyup', handleKeyUp);
 
     // Start update loop
     updateInterval = setInterval(updateGame, 1000);

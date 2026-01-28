@@ -39,87 +39,37 @@ body {
   font-family: Sen, sans-serif;
   background: var(--white);
   color: var(--black);
-  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
 }
 
-/* Header */
-.game-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 24px;
+/* Stats Box - lower right corner */
+.stats-box {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
   background: var(--black);
   color: var(--white);
-}
-
-.game-header h1 {
-  font-size: 18px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 12px;
   font-weight: 800;
-}
-
-.game-header h1 a {
-  color: var(--white);
-  text-decoration: none;
-}
-
-.speed-control {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.speed-control label {
-  font-size: 12px;
-}
-
-.speed-control select {
-  font-family: Sen, sans-serif;
-  font-size: 12px;
-  padding: 4px 8px;
-  border: 1px solid var(--gray);
-  border-radius: 4px;
-  background: var(--white);
-}
-
-/* Stats Panel */
-.stats-panel {
-  display: flex;
-  justify-content: center;
-  gap: 32px;
-  padding: 16px;
-  background: var(--gray);
-  color: var(--white);
-  font-size: 14px;
-}
-
-.stat {
-  text-align: center;
-}
-
-.stat-label {
-  font-size: 10px;
-  text-transform: uppercase;
+  z-index: 50;
   opacity: 0.8;
 }
 
-.stat-value {
-  font-weight: 800;
-}
-
-/* Game Board */
-.game-board {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 24px;
-  min-height: calc(100vh - 120px);
+.stats-box .divider {
+  margin: 0 6px;
+  opacity: 0.5;
 }
 
 /* Hex Viewport (infinite canvas container) */
 .hex-viewport {
-  position: relative;
-  width: 100%;
-  height: calc(100vh - 180px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   overflow: hidden;
   cursor: grab;
 }
@@ -144,19 +94,42 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: background 0.2s;
 }
 
 .hex-cell:hover {
   background: rgba(0,0,0,0.08);
 }
 
+/* Grabbing cursor while dragging */
+body.dragging-tile,
+body.dragging-tile * {
+  cursor: grabbing !important;
+  user-select: none !important;
+}
+
+/* Drop target colors based on book being dragged */
 .hex-cell.drop-target {
-  background: rgba(149, 127, 96, 0.3);
+  background: rgba(149, 127, 96, 0.4);
+}
+
+body[data-drag-book="matthew"] .hex-cell.drop-target {
+  background: rgba(149, 127, 96, 0.4);
+}
+
+body[data-drag-book="mark"] .hex-cell.drop-target {
+  background: rgba(178, 52, 45, 0.4);
+}
+
+body[data-drag-book="luke"] .hex-cell.drop-target {
+  background: rgba(17, 17, 94, 0.4);
+}
+
+body[data-drag-book="john"] .hex-cell.drop-target {
+  background: rgba(45, 106, 79, 0.4);
 }
 
 .hex-cell.drop-invalid {
-  background: rgba(178, 52, 45, 0.3);
+  background: rgba(178, 52, 45, 0.4);
 }
 
 /* Tiles */
@@ -177,6 +150,10 @@ body {
   transform: scale(1.05);
 }
 
+body.dragging-tile .tile:hover {
+  transform: none;
+}
+
 .tile.collected {
   cursor: grab;
 }
@@ -186,8 +163,9 @@ body {
 }
 
 .tile.dragging {
-  opacity: 0.7;
-  transform: scale(1.1);
+  opacity: 0.5;
+  transform: scale(1.05);
+  filter: brightness(1.2);
 }
 
 /* Book colors */
@@ -242,9 +220,13 @@ body {
 
 /* Decaying tile styles */
 .tile.decaying {
-  cursor: pointer;
+  cursor: grab;
   animation: decay-fade var(--decay-duration, 100s) linear forwards;
   animation-delay: calc(-1 * var(--decay-elapsed, 0s));
+}
+
+.tile.decaying:active {
+  cursor: grabbing;
 }
 
 @keyframes decay-fade {
@@ -359,13 +341,14 @@ body {
     --tile-size: 60px;
   }
 
-  .stats-panel {
-    flex-wrap: wrap;
-    gap: 16px;
-  }
-
   .modal-content {
     margin: 16px;
     padding: 24px;
+  }
+
+  .stats-box {
+    bottom: 12px;
+    right: 12px;
+    font-size: 11px;
   }
 }

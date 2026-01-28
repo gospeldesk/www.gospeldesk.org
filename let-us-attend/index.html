@@ -7,26 +7,15 @@
   <link rel="stylesheet" href="let-us-attend.css">
 </head>
 <body>
-  <header class="game-header">
-    <h1><a href="/">Let Us Attend!</a></h1>
-  </header>
-
-  <div class="stats-panel">
-    <div class="stat">
-      <div class="stat-label">Collected</div>
-      <div class="stat-value"><span id="collected-count">0</span>/<span id="total-count">0</span></div>
-    </div>
-    <div class="stat">
-      <div class="stat-label">Next Tile</div>
-      <div class="stat-value" id="next-tile">-</div>
-    </div>
+  <div class="hex-viewport" id="hex-viewport">
+    <div class="hex-canvas" id="hex-canvas"></div>
   </div>
 
-  <main class="game-board">
-    <div class="hex-viewport" id="hex-viewport">
-      <div class="hex-canvas" id="hex-canvas"></div>
-    </div>
-  </main>
+  <div class="stats-box">
+    <span id="collected-count">0</span>/<span id="total-count">0</span>
+    <span class="divider">·</span>
+    <span id="next-tile">-</span>
+  </div>
 
   <div class="modal-overlay" id="reading-modal">
     <div class="modal-content">
