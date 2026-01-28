@@ -68,6 +68,80 @@ function pixelToHex(px, py, tileSize = 80) {
 }
 
 /**
+ * Calculate hex distance between two cells using cube coordinates.
+ * Converts odd-r offset coordinates to cube coordinates for accurate distance.
+ *
+ * @param {number} q1 - Column of first cell
+ * @param {number} r1 - Row of first cell
+ * @param {number} q2 - Column of second cell
+ * @param {number} r2 - Row of second cell
+ * @returns {number} Hex distance between the two cells
+ */
+function hexDistance(q1, r1, q2, r2) {
+  // Convert odd-r offset to cube coordinates
+  const x1 = q1 - (r1 - (r1 & 1)) / 2;
+  const z1 = r1;
+  const y1 = -x1 - z1;
+
+  const x2 = q2 - (r2 - (r2 & 1)) / 2;
+  const z2 = r2;
+  const y2 = -x2 - z2;
+
+  return Math.max(Math.abs(x1 - x2), Math.abs(y1 - y2), Math.abs(z1 - z2));
+}
+
+/**
+ * Generate cells in a hex ring at given radius, in circular order.
+ * Uses cube coordinates internally for proper ring traversal.
+ *
+ * @param {number} centerQ - Center column
+ * @param {number} centerR - Center row
+ * @param {number} radius - Ring radius (0 returns just center)
+ * @returns {Array} Array of {q, r} coordinates in ring order
+ */
+function getHexRing(centerQ, centerR, radius) {
+  if (radius === 0) {
+    return [{ q: centerQ, r: centerR }];
+  }
+
+  // Convert center to cube coordinates
+  const cx = centerQ - (centerR - (centerR & 1)) / 2;
+  const cz = centerR;
+
+  // Cube direction vectors (pointy-top, clockwise from E)
+  const cubeDirs = [
+    [+1, -1, 0],  // 0: E
+    [0, -1, +1],  // 1: SE
+    [-1, 0, +1],  // 2: SW
+    [-1, +1, 0],  // 3: W
+    [0, +1, -1],  // 4: NW
+    [+1, 0, -1],  // 5: NE
+  ];
+
+  const results = [];
+
+  // Start at center + radius * direction[4] (NW corner)
+  let x = cx + radius * cubeDirs[4][0];
+  let z = cz + radius * cubeDirs[4][2];
+
+  // Walk around the ring: 6 sides, radius steps each
+  for (let side = 0; side < 6; side++) {
+    for (let step = 0; step < radius; step++) {
+      // Convert cube to odd-r offset
+      const q = x + (z - (z & 1)) / 2;
+      const r = z;
+      results.push({ q, r });
+
+      // Move in direction[side]
+      x += cubeDirs[side][0];
+      z += cubeDirs[side][2];
+    }
+  }
+
+  return results;
+}
+
+/**
  * Check if a tile can be placed at a given position.
  * Tiles can be placed in empty cells or stacked on same-pk tiles.
  *
@@ -145,6 +219,7 @@ function isValidPlacement(tiles, pk, q, r) {
 
 /**
  * Find the nearest empty cell by spiraling outward from the origin.
+ * Uses true hex rings for concentric placement.
  *
  * @param {Array} tiles - Array of placed tiles
  * @returns {Object} Hex coordinates {q, r} of nearest empty cell
@@ -152,25 +227,18 @@ function isValidPlacement(tiles, pk, q, r) {
 function findNearestEmptyCell(tiles) {
   const occupied = new Set(tiles.map(t => `${t.q},${t.r}`));
 
-  // Spiral outward from origin
   // Check origin first
   if (!occupied.has('0,0')) {
     return { q: 0, r: 0 };
   }
 
-  // Spiral pattern: for each radius, check all cells at that distance
+  // Search by true hex rings in circular order
   for (let radius = 1; radius < 100; radius++) {
-    // Check cells in a rough spiral/ring pattern
-    for (let r = -radius; r <= radius; r++) {
-      for (let q = -radius; q <= radius; q++) {
-        // Only check cells roughly at this radius
-        const dist = Math.max(Math.abs(q), Math.abs(r));
-        if (dist !== radius) continue;
-
-        const key = `${q},${r}`;
-        if (!occupied.has(key)) {
-          return { q, r };
-        }
+    const ring = getHexRing(0, 0, radius);
+    for (const cell of ring) {
+      const key = `${cell.q},${cell.r}`;
+      if (!occupied.has(key)) {
+        return cell;
       }
     }
   }
@@ -182,6 +250,7 @@ function findNearestEmptyCell(tiles) {
 /**
  * Find the nearest empty cell from viewport center.
  * For uncollected tiles, only finds truly empty cells (no stacking).
+ * Uses true hex rings for concentric placement.
  *
  * @param {Array} tiles - Array of placed tiles
  * @param {Object} viewportState - Viewport state with panX, panY, viewportWidth, viewportHeight
@@ -204,20 +273,13 @@ function findNearestEmptyCellFromViewportCenter(tiles, viewportState, tileSize) 
     return { q: centerHex.q, r: centerHex.r };
   }
 
-  // Spiral outward from center
+  // Search by true hex rings in circular order
   for (let radius = 1; radius < 100; radius++) {
-    for (let r = -radius; r <= radius; r++) {
-      for (let q = -radius; q <= radius; q++) {
-        const dist = Math.max(Math.abs(q), Math.abs(r));
-        if (dist !== radius) continue;
-
-        const testQ = centerHex.q + q;
-        const testR = centerHex.r + r;
-        const key = `${testQ},${testR}`;
-
-        if (!occupied.has(key)) {
-          return { q: testQ, r: testR };
-        }
+    const ring = getHexRing(centerHex.q, centerHex.r, radius);
+    for (const cell of ring) {
+      const key = `${cell.q},${cell.r}`;
+      if (!occupied.has(key)) {
+        return cell;
       }
     }
   }
@@ -284,6 +346,8 @@ if (typeof module !== 'undefined' && module.exports) {
     getDecayDurationMs,
     hexToPixel,
     pixelToHex,
+    hexDistance,
+    getHexRing,
     canPlaceTile,
     countInstancesAtPosition,
     processMissedReadings,
