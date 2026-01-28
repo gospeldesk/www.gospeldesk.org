@@ -82,20 +82,6 @@ describe('DOM Rendering', () => {
     };
   });
 
-  test('speed select dropdown populates with presets', () => {
-    const select = document.getElementById('speed-select');
-    gameModule.SPEED_PRESETS.forEach(preset => {
-      const option = document.createElement('option');
-      option.value = preset.value;
-      option.textContent = preset.label;
-      select.appendChild(option);
-    });
-
-    expect(select.options.length).toBe(2);
-    expect(select.options[0].value).toBe('1');
-    expect(select.options[1].value).toBe('8640');
-  });
-
   test('tile element has correct book color class', () => {
     const tile = document.createElement('div');
     tile.classList.add('tile');
@@ -189,6 +175,87 @@ describe('User Interactions', () => {
     expect(tile.classList.contains('available')).toBe(false);
     expect(tile.classList.contains('collected')).toBe(true);
     expect(tile.draggable).toBe(true);
+  });
+});
+
+describe('Keyboard Shortcuts', () => {
+  test('Option+N triggers with altKey and code KeyN', () => {
+    let tilePlaced = false;
+
+    // Simulate the handleKeyDown logic
+    function handleKeyDown(e) {
+      if (e.altKey && e.code === 'KeyN') {
+        e.preventDefault();
+        tilePlaced = true;
+      }
+    }
+
+    document.addEventListener('keydown', handleKeyDown);
+
+    // Simulate Option+N keypress
+    const event = new KeyboardEvent('keydown', {
+      altKey: true,
+      code: 'KeyN',
+      key: '˜', // On Mac, Option+N produces tilde
+      bubbles: true
+    });
+    document.dispatchEvent(event);
+
+    expect(tilePlaced).toBe(true);
+
+    document.removeEventListener('keydown', handleKeyDown);
+  });
+
+  test('N without Option does not trigger', () => {
+    let tilePlaced = false;
+
+    function handleKeyDown(e) {
+      if (e.altKey && e.code === 'KeyN') {
+        e.preventDefault();
+        tilePlaced = true;
+      }
+    }
+
+    document.addEventListener('keydown', handleKeyDown);
+
+    // Simulate just N keypress (no altKey)
+    const event = new KeyboardEvent('keydown', {
+      altKey: false,
+      code: 'KeyN',
+      key: 'n',
+      bubbles: true
+    });
+    document.dispatchEvent(event);
+
+    expect(tilePlaced).toBe(false);
+
+    document.removeEventListener('keydown', handleKeyDown);
+  });
+
+  test('Option+other key does not trigger', () => {
+    let tilePlaced = false;
+
+    function handleKeyDown(e) {
+      if (e.altKey && e.code === 'KeyN') {
+        e.preventDefault();
+        tilePlaced = true;
+      }
+    }
+
+    document.addEventListener('keydown', handleKeyDown);
+
+    // Simulate Option+M keypress
+    const event = new KeyboardEvent('keydown', {
+      altKey: true,
+      code: 'KeyM',
+      key: 'µ',
+      bubbles: true
+    });
+    document.dispatchEvent(event);
+
+    expect(tilePlaced).toBe(false);
+
+    document.removeEventListener('keydown', handleKeyDown);
   });
 });
 
@@ -313,14 +380,12 @@ describe('Persistence Integration', () => {
 
   test('page reload preserves tile positions', () => {
     const state = {
-      realStartTime: Date.now(),
-      gameStartDate: '2025-06-15',
-      speedMultiplier: 1,
+      scheduleIndex: 5,
+      lastTilePlacedAt: Date.now(),
       tiles: [
         { pk: '6', q: 3, r: 2, collected: '2025-06-15' },
         { pk: '9', q: 4, r: 2, collected: '2025-06-22' }
-      ],
-      lastSaveTime: Date.now()
+      ]
     };
 
     // Save state
@@ -335,19 +400,16 @@ describe('Persistence Integration', () => {
     expect(loaded.tiles[1].pk).toBe('9');
   });
 
-  test('page reload preserves game date state', () => {
+  test('page reload preserves schedule progress', () => {
     const state = {
-      realStartTime: Date.now() - 86400000, // 1 day ago
-      gameStartDate: '2025-06-14',
-      speedMultiplier: 1,
-      tiles: [],
-      lastSaveTime: Date.now()
+      scheduleIndex: 10,
+      lastTilePlacedAt: Date.now() - 60000,
+      tiles: []
     };
 
     gameModule.saveState(state);
     const loaded = gameModule.loadState();
 
-    expect(loaded.gameStartDate).toBe('2025-06-14');
-    expect(loaded.speedMultiplier).toBe(1);
+    expect(loaded.scheduleIndex).toBe(10);
   });
 });

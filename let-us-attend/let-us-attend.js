@@ -11,83 +11,19 @@ const TileState = {
   COLLECTED: 'collected'
 };
 
-// Speed presets
-const SPEED_PRESETS = [
-  { label: 'Real-time', value: 1 },
-  { label: '10 sec = 1 day', value: 8640 }
-];
+// Fixed timing constants
+const TILE_INTERVAL_MS = 120 * 1000;  // 120 seconds between tile placements
+const DECAY_DURATION_MS = 1440 * 1000; // 1440 seconds (24 minutes) decay per tile
 
 const STORAGE_KEY = 'let-us-attend';
-const MS_PER_DAY = 24 * 60 * 60 * 1000;
 
 /**
- * Calculate the decay duration in milliseconds based on speed multiplier.
- * Decay time = 10 game days worth of real time.
+ * Get the fixed decay duration in milliseconds.
  *
- * @param {number} speedMultiplier - Speed multiplier (1 = real-time)
  * @returns {number} Decay duration in milliseconds
  */
-function getDecayDurationMs(speedMultiplier) {
-  const msPerGameDay = MS_PER_DAY / speedMultiplier;
-  return msPerGameDay * 10; // 10 game days worth of real time
-}
-
-/**
- * Calculate the current game date based on real time elapsed and speed multiplier.
- *
- * @param {number} realStartTime - Timestamp when game started/resumed
- * @param {string} gameStartDate - Game date when started/resumed (YYYY-MM-DD)
- * @param {number} speedMultiplier - Speed multiplier (1 = real-time)
- * @param {number} now - Current timestamp (for testing)
- * @returns {string} Current game date as YYYY-MM-DD
- */
-function getCurrentGameDate(realStartTime, gameStartDate, speedMultiplier, now = Date.now()) {
-  const realElapsed = now - realStartTime;
-  const gameElapsed = realElapsed * speedMultiplier;
-  const daysElapsed = Math.floor(gameElapsed / MS_PER_DAY);
-
-  const startDate = new Date(gameStartDate + 'T00:00:00Z');
-  const currentDate = new Date(startDate.getTime() + daysElapsed * MS_PER_DAY);
-
-  return currentDate.toISOString().split('T')[0];
-}
-
-/**
- * Get the current reading based on schedule and game date.
- * Returns the most recent scheduled reading on or before the given date.
- *
- * @param {Array} schedule - Array of {date, pk} objects sorted by date
- * @param {string} gameDate - Current game date (YYYY-MM-DD)
- * @returns {Object|null} The current reading {date, pk} or null
- */
-function getCurrentReading(schedule, gameDate) {
-  let current = null;
-
-  for (const entry of schedule) {
-    if (entry.date <= gameDate) {
-      current = entry;
-    } else {
-      break;
-    }
-  }
-
-  return current;
-}
-
-/**
- * Get the next upcoming reading after the given date.
- *
- * @param {Array} schedule - Array of {date, pk} objects sorted by date
- * @param {string} gameDate - Current game date (YYYY-MM-DD)
- * @returns {Object|null} The next reading {date, pk} or null
- */
-function getNextReading(schedule, gameDate) {
-  for (const entry of schedule) {
-    if (entry.date > gameDate) {
-      return entry;
-    }
-  }
-  return null;
+function getDecayDurationMs() {
+  return DECAY_DURATION_MS;
 }
 
 /**
@@ -299,9 +235,8 @@ function saveState(state) {
   if (typeof localStorage === 'undefined') return;
 
   const toSave = {
-    realStartTime: state.realStartTime,
-    gameStartDate: state.gameStartDate,
-    speedMultiplier: state.speedMultiplier,
+    scheduleIndex: state.scheduleIndex,
+    lastTilePlacedAt: state.lastTilePlacedAt,
     tiles: state.tiles,
     lastSaveTime: Date.now()
   };
@@ -333,52 +268,20 @@ function loadState() {
  * @returns {Object} Fresh game state
  */
 function createInitialState() {
-  const now = Date.now();
-  const today = new Date().toISOString().split('T')[0];
-
   return {
-    realStartTime: now,
-    gameStartDate: today,
-    speedMultiplier: 1,
-    tiles: [],
-    lastSaveTime: now
+    scheduleIndex: 0,
+    lastTilePlacedAt: 0, // Will place first tile immediately
+    tiles: []
   };
-}
-
-/**
- * Get readings that were missed between two schedule positions.
- *
- * @param {Array} schedule - Full schedule
- * @param {number} lastIndex - Index of last processed reading
- * @param {number} currentIndex - Index of current reading
- * @param {Array} collectedPks - PKs already collected (to exclude from missed)
- * @returns {Array} PKs of readings that were missed
- */
-function getMissedReadings(schedule, lastIndex, currentIndex, collectedPks) {
-  const missed = [];
-  const collectedSet = new Set(collectedPks);
-
-  for (let i = lastIndex + 1; i < currentIndex; i++) {
-    const pk = schedule[i].pk;
-    // Only count as missed if not already collected
-    if (!collectedSet.has(pk)) {
-      missed.push(pk);
-    }
-  }
-
-  return missed;
 }
 
 // Export for Node.js testing
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     TileState,
-    SPEED_PRESETS,
-    MS_PER_DAY,
+    TILE_INTERVAL_MS,
+    DECAY_DURATION_MS,
     getDecayDurationMs,
-    getCurrentGameDate,
-    getCurrentReading,
-    getNextReading,
     hexToPixel,
     pixelToHex,
     canPlaceTile,
@@ -389,8 +292,7 @@ if (typeof module !== 'undefined' && module.exports) {
     findNearestEmptyCellFromViewportCenter,
     saveState,
     loadState,
-    createInitialState,
-    getMissedReadings
+    createInitialState
   };
 }
 
@@ -402,7 +304,6 @@ if (typeof window !== 'undefined') {
   // Game state
   let gameState = null;
   let gameData = null;
-  let lastScheduleIndex = -1;
   let updateInterval = null;
   let draggedTile = null;
 
@@ -422,22 +323,6 @@ if (typeof window !== 'undefined') {
 
   // DOM elements
   let elements = {};
-
-  /**
-   * Format date for display
-   */
-  function formatDate(dateStr) {
-    const date = new Date(dateStr + 'T00:00:00');
-    return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
-  }
-
-  /**
-   * Format short date
-   */
-  function formatShortDate(dateStr) {
-    const date = new Date(dateStr + 'T00:00:00');
-    return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-  }
 
   /**
    * Create a tile element
@@ -665,7 +550,7 @@ if (typeof window !== 'undefined') {
   function renderPlacedTiles() {
     if (!gameState) return;
 
-    const decayDuration = getDecayDurationMs(gameState.speedMultiplier);
+    const decayDuration = getDecayDurationMs();
     const now = Date.now();
 
     // Group tiles by position (only collected tiles can stack)
@@ -748,35 +633,22 @@ if (typeof window !== 'undefined') {
    * Update stats display
    */
   function updateStats() {
-    const gameDate = getCurrentGameDate(
-      gameState.realStartTime,
-      gameState.gameStartDate,
-      gameState.speedMultiplier
-    );
-
-    const currentReading = getCurrentReading(gameData.schedule, gameDate);
-    const nextReading = getNextReading(gameData.schedule, gameDate);
-
     // Collected count (unique pks)
-    const uniquePks = new Set(gameState.tiles.map(t => t.pk));
+    const collectedTiles = gameState.tiles.filter(t => t.isCollected);
+    const uniquePks = new Set(collectedTiles.map(t => t.pk));
     elements.collectedCount.textContent = uniquePks.size;
     elements.totalCount.textContent = Object.keys(gameData.readings).length;
 
-    // Current date
-    elements.currentDate.textContent = formatDate(gameDate);
+    // Next tile countdown
+    const now = Date.now();
+    const timeSinceLastTile = now - gameState.lastTilePlacedAt;
+    const timeUntilNext = Math.max(0, TILE_INTERVAL_MS - timeSinceLastTile);
+    const secondsUntilNext = Math.ceil(timeUntilNext / 1000);
 
-    // Next reading date
-    if (nextReading) {
-      elements.nextDate.textContent = formatShortDate(nextReading.date);
+    if (secondsUntilNext > 0) {
+      elements.nextTile.textContent = secondsUntilNext + 's';
     } else {
-      elements.nextDate.textContent = '-';
-    }
-
-    // Current reading name
-    if (currentReading && gameData.readings[currentReading.pk]) {
-      elements.currentReading.textContent = gameData.readings[currentReading.pk].title;
-    } else {
-      elements.currentReading.textContent = '-';
+      elements.nextTile.textContent = 'Ready';
     }
   }
 
@@ -818,15 +690,9 @@ if (typeof window !== 'undefined') {
     const tile = gameState.tiles.find(t => t.pk === pk && !t.isCollected);
     if (!tile) return;
 
-    const gameDate = getCurrentGameDate(
-      gameState.realStartTime,
-      gameState.gameStartDate,
-      gameState.speedMultiplier
-    );
-
     // Mark tile as collected (stays in place)
     tile.isCollected = true;
-    tile.collected = gameDate;
+    tile.collected = new Date().toISOString();
     delete tile.placedAt;
 
     // Save and re-render
@@ -932,30 +798,65 @@ if (typeof window !== 'undefined') {
   }
 
   /**
+   * Place the next tile from the schedule
+   */
+  function placeNextTile() {
+    if (!gameData || !gameData.schedule || !gameState) {
+      return; // Game not initialized
+    }
+
+    // Skip entries with missing reading data
+    while (gameState.scheduleIndex < gameData.schedule.length) {
+      const entry = gameData.schedule[gameState.scheduleIndex];
+      if (entry && gameData.readings[entry.pk]) {
+        break; // Found valid reading
+      }
+      gameState.scheduleIndex++;
+    }
+
+    if (gameState.scheduleIndex >= gameData.schedule.length) {
+      return; // No more valid tiles
+    }
+
+    const reading = gameData.schedule[gameState.scheduleIndex];
+    const tileSize = getTileSize();
+    const { q, r } = findNearestEmptyCellFromViewportCenter(
+      gameState.tiles,
+      viewportState,
+      tileSize
+    );
+
+    gameState.tiles.push({
+      pk: reading.pk,
+      q: q,
+      r: r,
+      placedAt: Date.now(),
+      isCollected: false
+    });
+
+    gameState.scheduleIndex++;
+    gameState.lastTilePlacedAt = Date.now();
+
+    saveState(gameState);
+    renderVisibleHexes();
+  }
+
+  /**
    * Update game state based on current time
    */
   function updateGame() {
-    const gameDate = getCurrentGameDate(
-      gameState.realStartTime,
-      gameState.gameStartDate,
-      gameState.speedMultiplier
-    );
-
-    const currentReading = getCurrentReading(gameData.schedule, gameDate);
+    const now = Date.now();
+    const decayDuration = getDecayDurationMs();
     let needsRender = false;
 
     // Process decay for uncollected tiles
-    const now = Date.now();
-    const decayDuration = getDecayDurationMs(gameState.speedMultiplier);
     const expiredTiles = gameState.tiles.filter(
       t => !t.isCollected && t.placedAt && (now - t.placedAt) >= decayDuration
     );
 
     for (const expired of expiredTiles) {
       // Remove the expired uncollected tile
-      const expiredIdx = gameState.tiles.findIndex(
-        t => t === expired
-      );
+      const expiredIdx = gameState.tiles.findIndex(t => t === expired);
       if (expiredIdx !== -1) {
         gameState.tiles.splice(expiredIdx, 1);
       }
@@ -967,9 +868,7 @@ if (typeof window !== 'undefined') {
       if (collectedInstances.length > 0) {
         collectedInstances.sort((a, b) => a.collected.localeCompare(b.collected));
         const oldest = collectedInstances[0];
-        const oldestIdx = gameState.tiles.findIndex(
-          t => t === oldest
-        );
+        const oldestIdx = gameState.tiles.findIndex(t => t === oldest);
         if (oldestIdx !== -1) {
           gameState.tiles.splice(oldestIdx, 1);
         }
@@ -978,33 +877,11 @@ if (typeof window !== 'undefined') {
       needsRender = true;
     }
 
-    if (currentReading) {
-      // Find schedule index
-      const currentIndex = gameData.schedule.findIndex(
-        s => s.date === currentReading.date && s.pk === currentReading.pk
-      );
-
-      // Check if reading changed
-      if (currentIndex !== lastScheduleIndex) {
-        // Place new tile directly on board at viewport center
-        const tileSize = getTileSize();
-        const { q, r } = findNearestEmptyCellFromViewportCenter(
-          gameState.tiles,
-          viewportState,
-          tileSize
-        );
-
-        gameState.tiles.push({
-          pk: currentReading.pk,
-          q: q,
-          r: r,
-          placedAt: Date.now(),
-          isCollected: false
-        });
-
-        lastScheduleIndex = currentIndex;
-        needsRender = true;
-      }
+    // Check if it's time to place a new tile
+    const timeSinceLastTile = now - gameState.lastTilePlacedAt;
+    if (timeSinceLastTile >= TILE_INTERVAL_MS) {
+      placeNextTile();
+      needsRender = false; // placeNextTile already renders
     }
 
     if (needsRender) {
@@ -1016,45 +893,21 @@ if (typeof window !== 'undefined') {
   }
 
   /**
-   * Handle speed change
+   * Handle keyboard shortcuts
    */
-  function handleSpeedChange(e) {
-    const newSpeed = parseInt(e.target.value);
-
-    // Calculate current game date before changing speed
-    const currentGameDate = getCurrentGameDate(
-      gameState.realStartTime,
-      gameState.gameStartDate,
-      gameState.speedMultiplier
-    );
-
-    // Reset timing with new speed
-    gameState.realStartTime = Date.now();
-    gameState.gameStartDate = currentGameDate;
-    gameState.speedMultiplier = newSpeed;
-
-    saveState(gameState);
-    updateGame();
-  }
-
-  /**
-   * Initialize speed select
-   */
-  function initSpeedSelect() {
-    const select = elements.speedSelect;
-    select.innerHTML = '';
-
-    for (const preset of SPEED_PRESETS) {
-      const option = document.createElement('option');
-      option.value = preset.value;
-      option.textContent = preset.label;
-      if (preset.value === gameState.speedMultiplier) {
-        option.selected = true;
-      }
-      select.appendChild(option);
+  function handleKeyDown(e) {
+    // Option+Shift+N to reset localStorage and reload
+    if (e.altKey && e.shiftKey && e.code === 'KeyN') {
+      e.preventDefault();
+      localStorage.removeItem(STORAGE_KEY);
+      location.reload();
+      return;
     }
-
-    select.addEventListener('change', handleSpeedChange);
+    // Option+N (Alt+N) to manually place next tile
+    if (e.altKey && e.code === 'KeyN') {
+      e.preventDefault();
+      placeNextTile();
+    }
   }
 
   /**
@@ -1081,10 +934,7 @@ if (typeof window !== 'undefined') {
       hexCanvas: document.getElementById('hex-canvas'),
       collectedCount: document.getElementById('collected-count'),
       totalCount: document.getElementById('total-count'),
-      currentDate: document.getElementById('current-date'),
-      nextDate: document.getElementById('next-date'),
-      currentReading: document.getElementById('current-reading'),
-      speedSelect: document.getElementById('speed-select'),
+      nextTile: document.getElementById('next-tile'),
       modal: document.getElementById('reading-modal'),
       modalTitle: document.getElementById('modal-title'),
       modalRef: document.getElementById('modal-ref'),
@@ -1105,21 +955,9 @@ if (typeof window !== 'undefined') {
     if (!gameState) {
       gameState = createInitialState();
       saveState(gameState);
-    } else {
-      // Resume: update realStartTime to now, keep gameStartDate
-      const savedGameDate = getCurrentGameDate(
-        gameState.realStartTime,
-        gameState.gameStartDate,
-        gameState.speedMultiplier,
-        gameState.lastSaveTime
-      );
-      gameState.realStartTime = Date.now();
-      gameState.gameStartDate = savedGameDate;
-      saveState(gameState);
     }
 
     // Initialize UI
-    initSpeedSelect();
     setupViewport();
     updateGame();
 
@@ -1128,6 +966,9 @@ if (typeof window !== 'undefined') {
     elements.modal.addEventListener('click', (e) => {
       if (e.target === elements.modal) closeModal();
     });
+
+    // Keyboard shortcuts
+    document.addEventListener('keydown', handleKeyDown);
 
     // Start update loop
     updateInterval = setInterval(updateGame, 1000);
