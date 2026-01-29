@@ -575,14 +575,14 @@ describe('Completion Indicator', () => {
     document.body.innerHTML = `
       <div class="modal-overlay" id="reading-modal">
         <div class="modal-content">
-          <h2 id="modal-title"></h2>
-          <p class="ref" id="modal-ref"></p>
-          <div class="reading-text" id="modal-text"></div>
-          <div class="completion-indicator" id="completion-indicator">
+          <div class="logo" id="completion-indicator">
             <svg viewBox="1400 1240 800 1120">
               <path d="M 1529.375 2133.012..."/>
             </svg>
           </div>
+          <h2 id="modal-title"></h2>
+          <p class="ref" id="modal-ref"></p>
+          <div class="reading-text" id="modal-text"></div>
         </div>
       </div>
     `;

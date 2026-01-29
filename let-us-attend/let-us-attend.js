@@ -41,58 +41,6 @@ function getDecayDurationMs() {
   return DECAY_DURATION_MS;
 }
 
-// Perspective scale range: 0.85 at r=-10 to 1.15 at r=10 (±15% from base)
-const PERSPECTIVE_SCALE_FACTOR = 0.015;  // Scale change per row
-const PERSPECTIVE_BASE_ROW = 0;          // Row with scale = 1.0
-
-/**
- * Calculate perspective scale factor for a given row.
- * Lower rows (higher r, closer to viewer) appear larger.
- * Clamped to minimum 1.0 to avoid gaps from shrinking tiles.
- *
- * @param {number} r - Row coordinate
- * @returns {number} Scale factor (minimum 1.0)
- */
-function getScaleForRow(r) {
-  const scale = 1 + (r - PERSPECTIVE_BASE_ROW) * PERSPECTIVE_SCALE_FACTOR;
-  return Math.max(1.0, scale);
-}
-
-/**
- * Calculate Y offset to account for cumulative scaling of rows.
- * With center-center origin, cells grow equally up and down, so offset
- * only needs to compensate for half the expansion per row.
- *
- * @param {number} r - Row coordinate
- * @param {number} rowHeight - Vertical spacing between row centers (hexHeight * 0.75)
- * @returns {number} Y offset in pixels
- */
-function getPerspectiveYOffset(r, rowHeight) {
-  // Cumulative offset: sum of (scale(i) - 1) * rowHeight / 2 for rows 0 to r-1
-  // = k * rowHeight / 2 * (0 + 1 + ... + (r-1)) = k * rowHeight * r * (r-1) / 4
-  if (r === 0) return 0;
-  if (r > 0) {
-    return PERSPECTIVE_SCALE_FACTOR * rowHeight * r * (r - 1) / 4;
-  } else {
-    return -PERSPECTIVE_SCALE_FACTOR * rowHeight * (-r) * (-r - 1) / 4;
-  }
-}
-
-/**
- * Calculate X offset to account for horizontal scaling within a row.
- * Cells spread outward from center (q=0) based on scale factor.
- *
- * @param {number} q - Column coordinate
- * @param {number} r - Row coordinate
- * @param {number} tileWidth - Width of a hex cell
- * @returns {number} X offset in pixels
- */
-function getPerspectiveXOffset(q, r, tileWidth) {
-  const scale = getScaleForRow(r);
-  // Each cell expands by (scale - 1) * width, spread cells outward from q=0
-  return q * tileWidth * (scale - 1);
-}
-
 /**
  * Convert hex grid coordinates (q, r) to pixel coordinates.
  * Uses pointy-top hexagon layout with odd-r offset.
@@ -242,64 +190,6 @@ function canPlaceTile(tiles, pk, q, r) {
 }
 
 /**
- * Find the nearest empty cell from viewport center.
- * For uncollected tiles, only finds truly empty cells (no stacking).
- * Uses true hex rings for concentric placement.
- * Only returns cells within board bounds.
- *
- * @param {Array} tiles - Array of placed tiles
- * @param {Object} viewportState - Viewport state with panX, panY, viewportWidth, viewportHeight
- * @param {number} tileSize - Width of hexagon
- * @returns {Object} Hex coordinates {q, r} of nearest empty cell
- */
-function findNearestEmptyCellFromViewportCenter(tiles, viewportState, tileSize) {
-  // Calculate viewport center in canvas coordinates (account for zoom)
-  const zoom = viewportState.zoom || 1;
-  const centerX = (viewportState.viewportWidth / 2 - viewportState.panX) / zoom;
-  const centerY = (viewportState.viewportHeight / 2 - viewportState.panY) / zoom;
-
-  // Convert to hex coordinates
-  const centerHex = pixelToHex(centerX, centerY, tileSize);
-
-  // Build set of all occupied cells (uncollected tiles can't stack)
-  const occupied = new Set(tiles.map(t => `${t.q},${t.r}`));
-
-  // Check center first
-  if (!occupied.has(`${centerHex.q},${centerHex.r}`) && isOnBoard(centerHex.q, centerHex.r, tileSize)) {
-    return { q: centerHex.q, r: centerHex.r };
-  }
-
-  // Search by true hex rings in circular order
-  for (let radius = 1; radius < 100; radius++) {
-    const ring = getHexRing(centerHex.q, centerHex.r, radius);
-    for (const cell of ring) {
-      const key = `${cell.q},${cell.r}`;
-      if (!occupied.has(key) && isOnBoard(cell.q, cell.r, tileSize)) {
-        return cell;
-      }
-    }
-  }
-
-  // Fallback - find any empty cell on board starting from origin
-  const originHex = { q: 0, r: 0 };
-  if (!occupied.has('0,0') && isOnBoard(0, 0, tileSize)) {
-    return originHex;
-  }
-  for (let radius = 1; radius < 100; radius++) {
-    const ring = getHexRing(0, 0, radius);
-    for (const cell of ring) {
-      const key = `${cell.q},${cell.r}`;
-      if (!occupied.has(key) && isOnBoard(cell.q, cell.r, tileSize)) {
-        return cell;
-      }
-    }
-  }
-
-  // Final fallback (shouldn't happen)
-  return { q: 0, r: 0 };
-}
-
-/**
  * Find the nearest empty cell from a given hex position.
  * Uses true hex rings for concentric placement.
  * Only returns cells within board bounds.
@@ -410,8 +300,6 @@ if (typeof module !== 'undefined' && module.exports) {
     TILE_INTERVAL_MS,
     DECAY_DURATION_MS,
     READING_WPM,
-    PERSPECTIVE_SCALE_FACTOR,
-    PERSPECTIVE_BASE_ROW,
     BOARD_TILES_WIDE,
     BOARD_SIZE_PX,
     getDecayDurationMs,
@@ -419,12 +307,8 @@ if (typeof module !== 'undefined' && module.exports) {
     pixelToHex,
     hexDistance,
     getHexRing,
-    getScaleForRow,
-    getPerspectiveYOffset,
-    getPerspectiveXOffset,
     isOnBoard,
     canPlaceTile,
-    findNearestEmptyCellFromViewportCenter,
     findNearestEmptyCellFromHex,
     countWords,
     calculateReadingTimeMs,
@@ -525,7 +409,7 @@ if (typeof window !== 'undefined') {
   /**
    * Create a tile element
    */
-  function createTileElement(pk, isAvailable = false) {
+  function createTileElement(pk) {
     const reading = gameData.readings[pk];
     if (!reading) return null;
 
@@ -550,10 +434,6 @@ if (typeof window !== 'undefined') {
     const seal = document.createElement('div');
     seal.className = 'tile-seal seal-' + reading.book.toLowerCase();
     tile.appendChild(seal);
-
-    if (isAvailable) {
-      tile.classList.add('available');
-    }
 
     return tile;
   }
@@ -938,7 +818,7 @@ if (typeof window !== 'undefined') {
 
       const [q, r] = key.split(',').map(Number);
       const latestTile = tilesAtPos[tilesAtPos.length - 1];
-      const tileEl = createTileElement(latestTile.pk, false);
+      const tileEl = createTileElement(latestTile.pk);
       if (!tileEl) continue;
 
       tileEl.dataset.q = q;
@@ -1003,7 +883,7 @@ if (typeof window !== 'undefined') {
 
       const [q, r] = key.split(',').map(Number);
       const latestTile = tiles[tiles.length - 1];
-      const tileEl = createTileElement(latestTile.pk, false);
+      const tileEl = createTileElement(latestTile.pk);
       if (!tileEl) continue;
 
       tileEl.dataset.q = q;

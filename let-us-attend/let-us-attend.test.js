@@ -9,7 +9,7 @@ const {
   hexDistance,
   getHexRing,
   canPlaceTile,
-  findNearestEmptyCellFromViewportCenter,
+  findNearestEmptyCellFromHex,
   isOnBoard,
   countWords,
   calculateReadingTimeMs,
@@ -305,85 +305,49 @@ describe('Persistence', () => {
   });
 });
 
-describe('Viewport-Centered Placement', () => {
-  test('findNearestEmptyCellFromViewportCenter returns center when empty', () => {
+describe('Hex-Centered Placement', () => {
+  test('findNearestEmptyCellFromHex returns center when empty', () => {
     const tiles = [];
-    const viewportState = {
-      panX: 400,
-      panY: 300,
-      viewportWidth: 800,
-      viewportHeight: 600
-    };
-    const tileSize = 80;
-
-    const result = findNearestEmptyCellFromViewportCenter(tiles, viewportState, tileSize);
-    // Center should be at 0,0 since viewport is centered on origin
-    expect(result.q).toBe(0);
-    expect(result.r).toBe(0);
+    const result = findNearestEmptyCellFromHex(tiles, 5, 5, 128);
+    expect(result).toEqual({ q: 5, r: 5 });
   });
 
-  test('findNearestEmptyCellFromViewportCenter handles zoom', () => {
+  test('findNearestEmptyCellFromHex finds ring 1 when center occupied', () => {
+    const tiles = [{ q: 5, r: 5 }];
+    const result = findNearestEmptyCellFromHex(tiles, 5, 5, 128);
+    // Should be at distance 1 from center
+    expect(hexDistance(5, 5, result.q, result.r)).toBe(1);
+  });
+
+  test('findNearestEmptyCellFromHex respects board bounds', () => {
     const tiles = [];
-    const viewportState = {
-      panX: 400,
-      panY: 300,
-      zoom: 2,
-      viewportWidth: 800,
-      viewportHeight: 600
-    };
-    const tileSize = 80;
-
-    const result = findNearestEmptyCellFromViewportCenter(tiles, viewportState, tileSize);
-    // With zoom=2, viewport center in canvas coords is different
-    expect(result.q).toBe(0);
-    expect(result.r).toBe(0);
+    // Center at origin - some ring 1 cells would be off-board
+    const result = findNearestEmptyCellFromHex(tiles, 0, 0, 128);
+    expect(isOnBoard(result.q, result.r, 128)).toBe(true);
   });
 
-  test('findNearestEmptyCellFromViewportCenter finds nearby cell when center occupied', () => {
-    const tiles = [{ pk: '6', q: 0, r: 0, isCollected: false, placedAt: Date.now() }];
-    const viewportState = {
-      panX: 400,
-      panY: 300,
-      viewportWidth: 800,
-      viewportHeight: 600
-    };
-    const tileSize = 80;
-
-    const result = findNearestEmptyCellFromViewportCenter(tiles, viewportState, tileSize);
-    // Should find a cell at radius 1
-    expect(Math.max(Math.abs(result.q), Math.abs(result.r))).toBe(1);
+  test('findNearestEmptyCellFromHex finds first empty in spiral order', () => {
+    // Occupy center and some ring 1 cells
+    const tiles = [
+      { q: 5, r: 5 },   // center
+      { q: 5, r: 4 },   // ring 1, first cell (NE)
+      { q: 6, r: 4 },   // ring 1, second cell
+    ];
+    const result = findNearestEmptyCellFromHex(tiles, 5, 5, 128);
+    // Should find another ring 1 cell
+    expect(hexDistance(5, 5, result.q, result.r)).toBe(1);
+    // Should not be one of the occupied cells
+    expect(result).not.toEqual({ q: 5, r: 4 });
+    expect(result).not.toEqual({ q: 6, r: 4 });
   });
 
-  test('findNearestEmptyCellFromViewportCenter respects pan offset', () => {
-    const tiles = [];
-    const viewportState = {
-      panX: 0, // Panned so viewport left edge is at canvas origin
-      panY: 0,
-      viewportWidth: 800,
-      viewportHeight: 600
-    };
-    const tileSize = 80;
-
-    const result = findNearestEmptyCellFromViewportCenter(tiles, viewportState, tileSize);
-    // Center of viewport (400, 300) should map to positive hex coordinates
-    expect(result.q).toBeGreaterThan(0);
-    expect(result.r).toBeGreaterThan(0);
-  });
-
-  test('findNearestEmptyCellFromViewportCenter does not stack uncollected tiles', () => {
-    // Place an uncollected tile at center
-    const tiles = [{ pk: '6', q: 0, r: 0, isCollected: false, placedAt: Date.now() }];
-    const viewportState = {
-      panX: 400,
-      panY: 300,
-      viewportWidth: 800,
-      viewportHeight: 600
-    };
-    const tileSize = 80;
-
-    const result = findNearestEmptyCellFromViewportCenter(tiles, viewportState, tileSize);
-    // Should NOT return 0,0 since it's occupied
-    expect(result.q !== 0 || result.r !== 0).toBe(true);
+  test('findNearestEmptyCellFromHex handles fully occupied ring 1', () => {
+    // Occupy center and all of ring 1
+    const ring1 = getHexRing(5, 5, 1);
+    const tiles = [{ q: 5, r: 5 }, ...ring1];
+    const result = findNearestEmptyCellFromHex(tiles, 5, 5, 128);
+    // Should find a ring 2 cell
+    expect(hexDistance(5, 5, result.q, result.r)).toBe(2);
   });
 });
 
