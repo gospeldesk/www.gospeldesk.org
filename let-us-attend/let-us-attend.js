@@ -990,6 +990,9 @@ if (typeof window !== 'undefined') {
 
       cell.appendChild(tileEl);
       cell.classList.add('occupied');
+      if (latestTile.isCollected) {
+        cell.classList.add('has-collected');
+      }
       cell.dataset.pk = latestTile.pk;
     }
   }
@@ -1016,7 +1019,7 @@ if (typeof window !== 'undefined') {
     // Clear all cells first
     for (const cell of cellCache.values()) {
       cell.innerHTML = '';
-      cell.classList.remove('occupied');
+      cell.classList.remove('occupied', 'has-collected');
       delete cell.dataset.pk;
     }
 
@@ -1058,6 +1061,9 @@ if (typeof window !== 'undefined') {
 
       cell.appendChild(tileEl);
       cell.classList.add('occupied');
+      if (latestTile.isCollected) {
+        cell.classList.add('has-collected');
+      }
       cell.dataset.pk = latestTile.pk;
     }
   }
