@@ -1068,6 +1068,26 @@ if (typeof window !== 'undefined') {
 
     elements.modal.classList.add('visible');
 
+    // Listen for animation end to mark as collected
+    if (!isCollected) {
+      const outline = document.querySelector('#completion-indicator .outline');
+      const handleAnimationEnd = () => {
+        outline.removeEventListener('animationend', handleAnimationEnd);
+        const tile = gameState.tiles.find(t => t.pk === currentReadingPk && !t.isCollected);
+        if (tile) {
+          tile.isCollected = true;
+          tile.collected = new Date().toISOString();
+          delete tile.placedAt;
+          delete tile.readProgress;
+          elements.modal.classList.add('collected');
+          saveState(gameState);
+          renderVisibleHexes();
+          updateStats();
+        }
+      };
+      outline.addEventListener('animationend', handleAnimationEnd);
+    }
+
     // Scroll to top
     const content = elements.modal.querySelector('.modal-content');
     if (content) content.scrollTop = 0;
@@ -1404,11 +1424,11 @@ if (typeof window !== 'undefined') {
         tile.collected = new Date().toISOString();
         delete tile.placedAt;
         delete tile.readProgress;
+        elements.modal.classList.add('collected');
         saveState(gameState);
         renderVisibleHexes();
         updateStats();
       }
-      closeModal();
     }
     // Option+D to enable 300x fast mode (decay, tile timer, modal fade)
     if (e.altKey && e.code === 'KeyD' && !fastDecay) {

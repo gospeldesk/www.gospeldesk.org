@@ -429,16 +429,16 @@ body[data-drag-book="john"] .hex-cell.drop-target {
 }
 
 /* Collected state: show colored fills, hide outline */
-.modal-overlay.collected .completion-indicator .outline {
+.modal-overlay.visible.collected .completion-indicator .outline {
   animation: none;
   stroke: none;
 }
 
-.modal-overlay.collected .completion-indicator .book {
+.modal-overlay.visible.collected .completion-indicator .book {
   fill: var(--red);
 }
 
-.modal-overlay.collected .completion-indicator .ribbon {
+.modal-overlay.visible.collected .completion-indicator .ribbon {
   fill: var(--black);
 }
 
