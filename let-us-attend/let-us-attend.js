@@ -5,7 +5,7 @@
  */
 
 // Fixed timing constants
-const TILE_INTERVAL_MS = 120 * 1000;  // 120 seconds between tile placements
+const TILE_INTERVAL_MS = 720 * 1000;  // 720 seconds (12 minutes) between tile placements
 const DECAY_DURATION_MS = 1440 * 1000; // 1440 seconds (24 minutes) decay per tile
 const READING_WPM = 200; // Words per minute for reading time calculation
 
@@ -166,19 +166,6 @@ function canPlaceTile(tiles, pk, q, r) {
 }
 
 /**
- * Check if placement is valid (considering stacking and reserved areas).
- *
- * @param {Array} tiles - Array of placed tiles
- * @param {string} pk - Pericope ID of tile to place
- * @param {number} q - Column coordinate
- * @param {number} r - Row coordinate
- * @returns {boolean} True if placement is valid
- */
-function isValidPlacement(tiles, pk, q, r) {
-  return canPlaceTile(tiles, pk, q, r);
-}
-
-/**
  * Find the nearest empty cell from viewport center.
  * For uncollected tiles, only finds truly empty cells (no stacking).
  * Uses true hex rings for concentric placement.
@@ -336,20 +323,43 @@ function calculateConstrainedPan(tiles, viewportState, tileSize) {
   return { panX, panY };
 }
 
+/**
+ * Count words in HTML content by stripping tags and splitting on whitespace.
+ *
+ * @param {string} html - HTML content string
+ * @returns {number} Word count
+ */
+function countWords(html) {
+  const text = html.replace(/<[^>]*>/g, ' ').trim();
+  return text.split(/\s+/).filter(w => w.length > 0).length;
+}
+
+/**
+ * Calculate reading time in milliseconds based on word count.
+ *
+ * @param {number} wordCount - Number of words
+ * @returns {number} Reading time in milliseconds
+ */
+function calculateReadingTimeMs(wordCount) {
+  return (wordCount / READING_WPM) * 60 * 1000;
+}
+
 // Export for Node.js testing
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     TILE_INTERVAL_MS,
     DECAY_DURATION_MS,
+    READING_WPM,
     getDecayDurationMs,
     hexToPixel,
     pixelToHex,
     hexDistance,
     getHexRing,
     canPlaceTile,
-    isValidPlacement,
     findNearestEmptyCellFromViewportCenter,
     calculateConstrainedPan,
+    countWords,
+    calculateReadingTimeMs,
     saveState,
     loadState,
     createInitialState
@@ -429,21 +439,6 @@ if (typeof window !== 'undefined') {
     const existing = getTilesAt(q, r);
     if (existing.length === 0) return true;
     return existing.every(t => t.pk === pk);
-  }
-
-  /**
-   * Count words in HTML content
-   */
-  function countWords(html) {
-    const text = html.replace(/<[^>]*>/g, ' ').trim();
-    return text.split(/\s+/).filter(w => w.length > 0).length;
-  }
-
-  /**
-   * Calculate reading time in milliseconds based on word count
-   */
-  function calculateReadingTimeMs(wordCount) {
-    return (wordCount / READING_WPM) * 60 * 1000;
   }
 
   /**
@@ -532,8 +527,7 @@ if (typeof window !== 'undefined') {
       const tile = e.target.closest('.tile');
       if (!tile || justDragged || tile.classList.contains('dragging')) return;
       const pk = tile.dataset.pk;
-      const isCollected = tile.classList.contains('collected');
-      openReadingModal(pk, isCollected);
+      openReadingModal(pk);
     });
 
     // Handle resize
@@ -1029,7 +1023,7 @@ if (typeof window !== 'undefined') {
   /**
    * Open reading modal
    */
-  function openReadingModal(pk, viewOnly = false) {
+  function openReadingModal(pk) {
     const reading = gameData.readings[pk];
     if (!reading) return;
 
@@ -1108,27 +1102,6 @@ if (typeof window !== 'undefined') {
     currentReadingTimeMs = null;
     currentStartProgress = 0;
     elements.modal.classList.remove('visible');
-  }
-
-  /**
-   * Collect reading (mark as read)
-   */
-  function collectReading(pk) {
-    closeModal();
-
-    // Find uncollected tile with matching pk
-    const tile = gameState.tiles.find(t => t.pk === pk && !t.isCollected);
-    if (!tile) return;
-
-    // Mark tile as collected (stays in place)
-    tile.isCollected = true;
-    tile.collected = new Date().toISOString();
-    delete tile.placedAt;
-
-    // Save and re-render
-    saveState(gameState);
-    renderVisibleHexes();
-    updateStats();
   }
 
   /**

@@ -9,20 +9,22 @@ const {
   hexDistance,
   getHexRing,
   canPlaceTile,
-  isValidPlacement,
   findNearestEmptyCellFromViewportCenter,
   calculateConstrainedPan,
+  countWords,
+  calculateReadingTimeMs,
   getDecayDurationMs,
   TILE_INTERVAL_MS,
   DECAY_DURATION_MS,
+  READING_WPM,
   saveState,
   loadState,
   createInitialState
 } = require('./let-us-attend.js');
 
 describe('Timing Constants', () => {
-  test('TILE_INTERVAL_MS is 120 seconds', () => {
-    expect(TILE_INTERVAL_MS).toBe(120 * 1000);
+  test('TILE_INTERVAL_MS is 720 seconds (12 minutes)', () => {
+    expect(TILE_INTERVAL_MS).toBe(720 * 1000);
   });
 
   test('DECAY_DURATION_MS is 1440 seconds', () => {
@@ -31,6 +33,55 @@ describe('Timing Constants', () => {
 
   test('getDecayDurationMs returns fixed decay duration', () => {
     expect(getDecayDurationMs()).toBe(DECAY_DURATION_MS);
+  });
+});
+
+describe('Word Counting', () => {
+  test('countWords counts words in plain text', () => {
+    expect(countWords('hello world')).toBe(2);
+  });
+
+  test('countWords strips HTML tags', () => {
+    expect(countWords('<p>hello</p> <span>world</span>')).toBe(2);
+  });
+
+  test('countWords handles multiple spaces', () => {
+    expect(countWords('hello    world')).toBe(2);
+  });
+
+  test('countWords handles empty string', () => {
+    expect(countWords('')).toBe(0);
+  });
+
+  test('countWords handles whitespace only', () => {
+    expect(countWords('   \n\t  ')).toBe(0);
+  });
+
+  test('countWords handles complex HTML', () => {
+    const html = '<div class="verse"><sup>1</sup>In the beginning was the Word</div>';
+    expect(countWords(html)).toBe(7); // "1", "In", "the", "beginning", "was", "the", "Word"
+  });
+});
+
+describe('Reading Time Calculation', () => {
+  test('calculateReadingTimeMs returns correct time for READING_WPM words', () => {
+    // READING_WPM words should take 1 minute = 60000ms
+    expect(calculateReadingTimeMs(READING_WPM)).toBe(60000);
+  });
+
+  test('calculateReadingTimeMs returns correct time for half READING_WPM', () => {
+    // Half of READING_WPM words should take 30 seconds = 30000ms
+    expect(calculateReadingTimeMs(READING_WPM / 2)).toBe(30000);
+  });
+
+  test('calculateReadingTimeMs returns 0 for 0 words', () => {
+    expect(calculateReadingTimeMs(0)).toBe(0);
+  });
+
+  test('calculateReadingTimeMs scales linearly', () => {
+    const time100 = calculateReadingTimeMs(100);
+    const time200 = calculateReadingTimeMs(200);
+    expect(time200).toBe(time100 * 2);
   });
 });
 
@@ -178,29 +229,6 @@ describe('Repeat/Stacking Logic', () => {
 
   test('canPlaceTile returns true for occupied cell with same pk (stacking)', () => {
     expect(canPlaceTile(tiles, '6', 3, 2)).toBe(true);
-  });
-});
-
-describe('Collision Detection', () => {
-  const tiles = [
-    { pk: '6', q: 3, r: 2, collected: '2025-06-15' },
-    { pk: '9', q: 4, r: 2, collected: '2025-06-22' }
-  ];
-
-  test('isValidPlacement returns true for empty cell', () => {
-    expect(isValidPlacement(tiles, '11', 5, 5)).toBe(true);
-  });
-
-  test('isValidPlacement returns false for cell with different pk', () => {
-    expect(isValidPlacement(tiles, '11', 3, 2)).toBe(false);
-  });
-
-  test('isValidPlacement returns true for cell with same pk (stacking)', () => {
-    expect(isValidPlacement(tiles, '6', 3, 2)).toBe(true);
-  });
-
-  test('isValidPlacement returns true for origin (no longer reserved)', () => {
-    expect(isValidPlacement(tiles, '11', 0, 0)).toBe(true);
   });
 });
 
