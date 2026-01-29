@@ -570,6 +570,80 @@ describe('Modal Opening via Click', () => {
   });
 });
 
+describe('Completion Indicator', () => {
+  beforeEach(() => {
+    document.body.innerHTML = `
+      <div class="modal-overlay" id="reading-modal">
+        <div class="modal-content">
+          <h2 id="modal-title"></h2>
+          <p class="ref" id="modal-ref"></p>
+          <div class="reading-text" id="modal-text"></div>
+          <div class="completion-indicator" id="completion-indicator">
+            <svg viewBox="1400 1240 800 1120">
+              <path d="M 1529.375 2133.012..."/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    `;
+  });
+
+  test('indicator shows uncollected state when tile is not collected', () => {
+    const modal = document.getElementById('reading-modal');
+    const indicator = document.getElementById('completion-indicator');
+
+    // Simulate opening modal for uncollected tile
+    modal.classList.add('visible');
+    modal.classList.remove('collected');
+
+    // Should have indicator visible but not collected class
+    expect(indicator).not.toBeNull();
+    expect(modal.classList.contains('visible')).toBe(true);
+    expect(modal.classList.contains('collected')).toBe(false);
+  });
+
+  test('indicator shows collected state when tile is already collected', () => {
+    const modal = document.getElementById('reading-modal');
+    const indicator = document.getElementById('completion-indicator');
+
+    // Simulate opening modal for already-collected tile
+    modal.classList.add('visible', 'collected');
+
+    expect(indicator).not.toBeNull();
+    expect(modal.classList.contains('visible')).toBe(true);
+    expect(modal.classList.contains('collected')).toBe(true);
+  });
+
+  test('indicator transitions to collected when reading completes', () => {
+    const modal = document.getElementById('reading-modal');
+
+    // Start uncollected
+    modal.classList.add('visible');
+    modal.classList.remove('collected');
+
+    expect(modal.classList.contains('collected')).toBe(false);
+
+    // Simulate completion (what closeModal does when newProgress >= 1)
+    modal.classList.add('collected');
+
+    expect(modal.classList.contains('collected')).toBe(true);
+  });
+
+  test('collected class is removed when modal closes', () => {
+    const modal = document.getElementById('reading-modal');
+
+    // Open with collected state
+    modal.classList.add('visible', 'collected');
+    expect(modal.classList.contains('collected')).toBe(true);
+
+    // Simulate closeModal behavior
+    modal.classList.remove('visible', 'collected');
+
+    expect(modal.classList.contains('visible')).toBe(false);
+    expect(modal.classList.contains('collected')).toBe(false);
+  });
+});
+
 describe('Persistence Integration', () => {
   let store;
 

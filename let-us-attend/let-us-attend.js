@@ -1059,6 +1059,13 @@ if (typeof window !== 'undefined') {
       elements.modal.style.setProperty('--fade-delay', (-currentStartProgress * currentReadingTimeMs) + 'ms');
     }
 
+    // Set collected class based on tile state (for completion indicator)
+    if (isCollected) {
+      elements.modal.classList.add('collected');
+    } else {
+      elements.modal.classList.remove('collected');
+    }
+
     elements.modal.classList.add('visible');
 
     // Scroll to top
@@ -1085,6 +1092,7 @@ if (typeof window !== 'undefined') {
           tile.collected = new Date().toISOString();
           delete tile.placedAt;
           delete tile.readProgress;
+          elements.modal.classList.add('collected');
           renderVisibleHexes();
           updateStats();
         } else {
@@ -1101,7 +1109,7 @@ if (typeof window !== 'undefined') {
     modalOpenedAt = null;
     currentReadingTimeMs = null;
     currentStartProgress = 0;
-    elements.modal.classList.remove('visible');
+    elements.modal.classList.remove('visible', 'collected');
   }
 
   /**
@@ -1555,6 +1563,12 @@ if (typeof window !== 'undefined') {
     // Click on overlay background closes modal (not content area)
     elements.modal.addEventListener('click', (e) => {
       if (e.target === elements.modal) closeModal();
+    });
+
+    // Click on completion indicator closes modal
+    document.getElementById('completion-indicator').addEventListener('click', (e) => {
+      e.stopPropagation();
+      closeModal();
     });
 
     // Keyboard shortcuts

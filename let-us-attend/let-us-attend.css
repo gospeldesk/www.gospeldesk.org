@@ -354,6 +354,94 @@ body[data-drag-book="john"] .hex-cell.drop-target {
   color: var(--gray);
 }
 
+.modal-content .reading-text h2 {
+  font: bold 21pt/24pt Sen;
+  margin: 24pt 0 3pt;
+}
+
+.modal-content .reading-text h3 {
+  font: normal 16pt/21pt Sen;
+  margin: 24pt 0 9pt;
+  color: var(--gray);
+}
+
+.modal-content .reading-text h4 {
+  font: bold 12pt/17pt Sen;
+  text-transform: uppercase;
+  margin: 18pt 0 6pt;
+  color: var(--gray);
+}
+
+.modal-content .reading-text h2 + p,
+.modal-content .reading-text h3 + p,
+.modal-content .reading-text h4 + p {
+  text-indent: 0;
+}
+
+/* Completion Indicator */
+.completion-indicator {
+  display: block;
+  width: fit-content;
+  margin: 24pt auto 0;
+  cursor: pointer;
+}
+
+.completion-indicator svg {
+  width: 54pt;
+  height: 54pt;
+  pointer-events: auto;
+}
+
+.completion-indicator:hover svg {
+  transform: rotate(-3deg);
+  transform-origin: 2% 98%;
+}
+
+/* Default (uncollected) state: dotted outline, no fill */
+.completion-indicator .outline {
+  fill: transparent;
+  stroke: var(--gray);
+  stroke-width: 40;
+  stroke-dasharray: 60 40;
+}
+
+.completion-indicator .book,
+.completion-indicator .ribbon {
+  fill: transparent;
+  stroke: none;
+}
+
+/* Animating state: synced with overlay fade */
+.modal-overlay.visible .completion-indicator .outline {
+  animation: indicator-stroke var(--fade-duration, 60s) linear forwards;
+  animation-delay: var(--fade-delay, 0ms);
+}
+
+@keyframes indicator-stroke {
+  from {
+    stroke: var(--gray);
+    stroke-dasharray: 60 40;
+  }
+  to {
+    stroke: var(--red);
+    stroke-dasharray: 100 0;
+  }
+}
+
+/* Collected state: show colored fills, hide outline */
+.modal-overlay.collected .completion-indicator .outline {
+  animation: none;
+  stroke: none;
+}
+
+.modal-overlay.collected .completion-indicator .book {
+  fill: var(--red);
+}
+
+.modal-overlay.collected .completion-indicator .ribbon {
+  fill: var(--black);
+}
+
 /* Hidden utility */
 .hidden {
   display: none !important;
