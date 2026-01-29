@@ -123,16 +123,16 @@ body {
   left: 0;
 }
 
-/* Hex Cell */
+/* Hex Cell - Dimetric projection (45° view angle) */
 .hex-cell {
   position: absolute;
   width: var(--tile-size);
-  height: calc(var(--tile-size) * 1.1547);
-  background: rgba(0,0,0,0.03);
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  height: calc(var(--tile-size) * 1.1547 * 0.707);
+  /* No clip-path on cells - let tiles handle their own shape */
   display: flex;
   justify-content: center;
   align-items: center;
+  transform-origin: center center;
 }
 
 
@@ -141,6 +141,12 @@ body.dragging-tile,
 body.dragging-tile * {
   cursor: grabbing !important;
   user-select: none !important;
+}
+
+/* Drop target - add clip-path only for highlighting state */
+.hex-cell.drop-target,
+.hex-cell.drop-invalid {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
 /* Drop target colors based on book being dragged */
@@ -164,10 +170,23 @@ body[data-drag-book="john"] .hex-cell.drop-target {
   background: rgba(178, 52, 45, 0.4);
 }
 
-/* Tiles */
+/* Red overlay on tiles when dragging over occupied cells */
+.hex-cell.drop-invalid .tile::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(178, 52, 45, 0.5);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  pointer-events: none;
+}
+
+/* Tiles - Dimetric projection (45° view angle) */
 .tile {
-  width: calc(var(--tile-size) - 8px);
-  height: calc((var(--tile-size) - 8px) * 1.1547);
+  width: var(--tile-size);
+  height: calc(var(--tile-size) * 1.1547 * 0.707);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   display: flex;
   flex-direction: column;
@@ -176,6 +195,7 @@ body[data-drag-book="john"] .hex-cell.drop-target {
   cursor: pointer;
   position: relative;
   transition: transform 0.2s, box-shadow 0.2s;
+  transform: scale(0.95);
 }
 
 
@@ -189,7 +209,7 @@ body[data-drag-book="john"] .hex-cell.drop-target {
 
 .tile.dragging {
   opacity: 0.5;
-  transform: scale(1.05);
+  transform: scale(1.0);
   filter: brightness(1.2);
 }
 
@@ -257,7 +277,7 @@ body[data-drag-book="john"] .hex-cell.drop-target {
 
 @keyframes decay-fade {
   from { opacity: 1; }
-  to { opacity: 0; }
+  to { opacity: 0.1; }
 }
 
 /* Reading Modal */
