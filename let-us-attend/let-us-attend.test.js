@@ -101,7 +101,7 @@ describe('Hex Coordinate Conversion', () => {
   test('hexToPixel returns correct pixel position for odd row (offset)', () => {
     const result = hexToPixel(2, 1, 80);
     expect(result.x).toBe(200); // 2 * 80 + 40 offset
-    expect(result.y).toBeCloseTo(69.28, 1); // 80 * 1.1547 * 0.75
+    expect(result.y).toBeCloseTo(48.98, 1); // 80 * 1.1547 * 0.75 * 0.707 (dimetric)
   });
 
   test('pixelToHex returns correct hex for origin', () => {

@@ -20,9 +20,64 @@ function getDecayDurationMs() {
   return DECAY_DURATION_MS;
 }
 
+// Dimetric projection factor (45° view angle, cos(45°) ≈ 0.707)
+const DIMETRIC_Y_SCALE = 0.707;
+
+// Perspective scale range: 0.85 at r=-10 to 1.15 at r=10 (±15% from base)
+const PERSPECTIVE_SCALE_FACTOR = 0.015;  // Scale change per row
+const PERSPECTIVE_BASE_ROW = 0;          // Row with scale = 1.0
+
+/**
+ * Calculate perspective scale factor for a given row.
+ * Lower rows (higher r, closer to viewer) appear larger.
+ * Clamped to minimum 1.0 to avoid gaps from shrinking tiles.
+ *
+ * @param {number} r - Row coordinate
+ * @returns {number} Scale factor (minimum 1.0)
+ */
+function getScaleForRow(r) {
+  const scale = 1 + (r - PERSPECTIVE_BASE_ROW) * PERSPECTIVE_SCALE_FACTOR;
+  return Math.max(1.0, scale);
+}
+
+/**
+ * Calculate Y offset to account for cumulative scaling of rows.
+ * With center-center origin, cells grow equally up and down, so offset
+ * only needs to compensate for half the expansion per row.
+ *
+ * @param {number} r - Row coordinate
+ * @param {number} rowHeight - Vertical spacing between row centers (hexHeight * 0.75)
+ * @returns {number} Y offset in pixels
+ */
+function getPerspectiveYOffset(r, rowHeight) {
+  // Cumulative offset: sum of (scale(i) - 1) * rowHeight / 2 for rows 0 to r-1
+  // = k * rowHeight / 2 * (0 + 1 + ... + (r-1)) = k * rowHeight * r * (r-1) / 4
+  if (r === 0) return 0;
+  if (r > 0) {
+    return PERSPECTIVE_SCALE_FACTOR * rowHeight * r * (r - 1) / 4;
+  } else {
+    return -PERSPECTIVE_SCALE_FACTOR * rowHeight * (-r) * (-r - 1) / 4;
+  }
+}
+
+/**
+ * Calculate X offset to account for horizontal scaling within a row.
+ * Cells spread outward from center (q=0) based on scale factor.
+ *
+ * @param {number} q - Column coordinate
+ * @param {number} r - Row coordinate
+ * @param {number} tileWidth - Width of a hex cell
+ * @returns {number} X offset in pixels
+ */
+function getPerspectiveXOffset(q, r, tileWidth) {
+  const scale = getScaleForRow(r);
+  // Each cell expands by (scale - 1) * width, spread cells outward from q=0
+  return q * tileWidth * (scale - 1);
+}
+
 /**
  * Convert hex grid coordinates (q, r) to pixel coordinates.
- * Uses pointy-top hexagon layout with odd-r offset.
+ * Uses pointy-top hexagon layout with odd-r offset and 45° dimetric projection.
  *
  * @param {number} q - Column coordinate
  * @param {number} r - Row coordinate
@@ -32,14 +87,21 @@ function getDecayDurationMs() {
 function hexToPixel(q, r, tileSize = 80) {
   const w = tileSize;
   const h = w * 1.1547;
-  const x = q * w + (r % 2 !== 0 ? w / 2 : 0);
-  const y = r * (h * 0.75);
-  return { x, y };
+
+  // Standard hex positioning (flat top-down view)
+  const flatX = q * w + (r % 2 !== 0 ? w / 2 : 0);
+  const flatY = r * (h * 0.75);
+
+  // 45° dimetric: compress Y
+  const isoX = flatX;
+  const isoY = flatY * DIMETRIC_Y_SCALE;
+
+  return { x: isoX, y: isoY };
 }
 
 /**
  * Convert pixel coordinates to hex grid coordinates (q, r).
- * Uses pointy-top hexagon layout with odd-r offset.
+ * Uses pointy-top hexagon layout with odd-r offset and 45° dimetric projection.
  *
  * @param {number} px - Pixel x coordinate
  * @param {number} py - Pixel y coordinate
@@ -47,15 +109,20 @@ function hexToPixel(q, r, tileSize = 80) {
  * @returns {Object} Hex coordinates {q, r}
  */
 function pixelToHex(px, py, tileSize = 80) {
+  // Reverse dimetric transform first
+  const flatX = px;
+  const flatY = py / DIMETRIC_Y_SCALE;
+
+  // Then standard hex math
   const w = tileSize;
   const h = w * 1.1547;
   const rowHeight = h * 0.75;
 
   // Approximate row
-  const r = Math.round(py / rowHeight);
+  const r = Math.round(flatY / rowHeight);
 
   // Adjust x for odd row offset
-  const adjustedX = px - (r % 2 !== 0 ? w / 2 : 0);
+  const adjustedX = flatX - (r % 2 !== 0 ? w / 2 : 0);
   const q = Math.round(adjustedX / w);
 
   return { q, r };
@@ -270,7 +337,7 @@ function calculateConstrainedPan(tiles, viewportState, tileSize) {
     return { panX: viewportState.panX, panY: viewportState.panY };
   }
 
-  const hexHeight = tileSize * 1.1547;
+  const hexHeight = tileSize * 1.1547 * DIMETRIC_Y_SCALE;
   const zoom = viewportState.zoom || 1;
   const margin = tileSize * zoom * 0.5;
 
@@ -350,11 +417,17 @@ if (typeof module !== 'undefined' && module.exports) {
     TILE_INTERVAL_MS,
     DECAY_DURATION_MS,
     READING_WPM,
+    DIMETRIC_Y_SCALE,
+    PERSPECTIVE_SCALE_FACTOR,
+    PERSPECTIVE_BASE_ROW,
     getDecayDurationMs,
     hexToPixel,
     pixelToHex,
     hexDistance,
     getHexRing,
+    getScaleForRow,
+    getPerspectiveYOffset,
+    getPerspectiveXOffset,
     canPlaceTile,
     findNearestEmptyCellFromViewportCenter,
     calculateConstrainedPan,
@@ -641,7 +714,7 @@ if (typeof window !== 'undefined') {
     }
 
     const tileSize = getTileSize();
-    const hexHeight = tileSize * 1.1547;
+    const hexHeight = tileSize * 1.1547 * DIMETRIC_Y_SCALE;
 
     // Build row bounds: for each row r, track y position and x extent
     const rowBounds = new Map();
@@ -773,7 +846,7 @@ if (typeof window !== 'undefined') {
    */
   function calculateVisibleRange() {
     const tileSize = getTileSize();
-    const hexHeight = tileSize * 1.1547;
+    const hexHeight = tileSize * 1.1547 * DIMETRIC_Y_SCALE;
     const rowHeight = hexHeight * 0.75;
     const zoom = viewportState.zoom;
     const padding = 2;
@@ -836,6 +909,8 @@ if (typeof window !== 'undefined') {
           const pos = hexToPixel(q, r, tileSize);
           cell.style.left = pos.x + 'px';
           cell.style.top = pos.y + 'px';
+          // Z-index for depth ordering: lower rows (higher r) appear in front
+          cell.style.zIndex = 10000 + r;
 
           elements.hexCanvas.appendChild(cell);
           cellCache.set(key, cell);
