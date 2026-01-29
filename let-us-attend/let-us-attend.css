@@ -133,7 +133,7 @@ body {
   height: 100%;
   background-image: url('assets/bg.webp');
   background-size: 100% 100%;
-  opacity: 0.2;
+  opacity: var(--bg-opacity, 0.2);
   z-index: -1;
   filter: blur(var(--bg-blur, 0px));
 }
@@ -301,14 +301,20 @@ body.dragging-tile * {
 .tile.uncollected {
   cursor: pointer;
   filter: saturate(var(--read-progress, 0));
-  animation: decay-fade var(--decay-duration, 100s) linear forwards;
-  animation-delay: calc(-1 * var(--decay-elapsed, 0s));
+  animation:
+    decay-fade var(--decay-duration, 100s) linear forwards,
+    uncollected-pulse 3s ease-in-out infinite;
+  animation-delay: calc(-1 * var(--decay-elapsed, 0s)), 0s;
 }
-
 
 @keyframes decay-fade {
   from { opacity: 1; }
   to { opacity: 0.1; }
+}
+
+@keyframes uncollected-pulse {
+  0%, 100% { transform: scale(0.95); }
+  50% { transform: scale(0.92); }
 }
 
 /* Reading Modal */
@@ -608,9 +614,10 @@ body.dragging-tile * {
 }
 
 .loading-hex {
-  /* Match tile size at default zoom 2: 128px * 2 * 0.95 (scale) = 243.2px */
-  width: 243.2px;
+  /* Match tile size at default zoom 2: 128px * 2 = 256px, then scale like tiles */
+  width: 256px;
   height: auto;
+  animation: uncollected-pulse 3s ease-in-out infinite;
 }
 
 .loading-timer-bar {

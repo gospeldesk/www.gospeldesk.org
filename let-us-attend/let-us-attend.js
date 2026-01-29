@@ -818,13 +818,16 @@ if (typeof window !== 'undefined') {
   }
 
   /**
-   * Update background blur based on zoom level
+   * Update background blur and opacity based on zoom level
    * Clear when zoomed out, lightly blurred when zoomed in
    */
   function updateBackgroundBlur() {
     // Blur starts at zoom 1, maxes at zoom 5 (4px)
     const blur = Math.max(0, (viewportState.zoom - 1) / 4 * 4);
+    // Opacity scales from 0.2 (blur 0) to 0.67 (blur 4)
+    const opacity = 0.2 + (blur / 4) * 0.47;
     elements.hexCanvas.style.setProperty('--bg-blur', blur + 'px');
+    elements.hexCanvas.style.setProperty('--bg-opacity', opacity);
   }
 
   /**
