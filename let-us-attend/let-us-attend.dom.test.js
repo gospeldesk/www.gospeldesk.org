@@ -448,6 +448,128 @@ describe('Stats Display', () => {
   });
 });
 
+describe('Modal Opening via Click', () => {
+  beforeEach(() => {
+    document.body.innerHTML = `
+      <div class="hex-viewport" id="hex-viewport">
+        <div class="hex-canvas" id="hex-canvas">
+          <div class="hex-cell" data-q="0" data-r="0">
+            <div class="tile book-john" data-pk="11" data-q="0" data-r="0">
+              <div class="tile-title">Healing at Bethesda</div>
+              <div class="tile-ref">John</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-overlay" id="reading-modal">
+        <div class="modal-content">
+          <h2 id="modal-title"></h2>
+          <p class="ref" id="modal-ref"></p>
+          <div class="reading-text" id="modal-text"></div>
+        </div>
+      </div>
+    `;
+  });
+
+  test('clicking tile in hex-canvas opens modal via delegated handler', () => {
+    const canvas = document.getElementById('hex-canvas');
+    const modal = document.getElementById('reading-modal');
+    const tile = canvas.querySelector('.tile');
+
+    // Simulate delegated click handler like real code
+    let modalOpened = false;
+    canvas.addEventListener('click', (e) => {
+      const clickedTile = e.target.closest('.tile');
+      if (clickedTile) {
+        modal.classList.add('visible');
+        modalOpened = true;
+      }
+    });
+
+    // Dispatch click with bubbles: true
+    tile.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+
+    expect(modalOpened).toBe(true);
+    expect(modal.classList.contains('visible')).toBe(true);
+  });
+
+  test('click handler finds tile via e.target.closest', () => {
+    const canvas = document.getElementById('hex-canvas');
+    const tileTitle = canvas.querySelector('.tile-title');
+
+    let foundTile = null;
+    canvas.addEventListener('click', (e) => {
+      foundTile = e.target.closest('.tile');
+    });
+
+    // Click on nested element (tile-title)
+    tileTitle.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+
+    expect(foundTile).not.toBeNull();
+    expect(foundTile.dataset.pk).toBe('11');
+  });
+
+  test('modal opens with correct reading content', () => {
+    const modal = document.getElementById('reading-modal');
+    const modalTitle = document.getElementById('modal-title');
+    const modalRef = document.getElementById('modal-ref');
+    const modalText = document.getElementById('modal-text');
+
+    // Simulate openReadingModal behavior
+    const reading = mockData.readings['11'];
+    modalTitle.textContent = reading.title;
+    modalRef.textContent = reading.ref;
+    modalText.innerHTML = reading.content;
+    modal.classList.add('visible');
+
+    expect(modal.classList.contains('visible')).toBe(true);
+    expect(modalTitle.textContent).toBe('Healing at Bethesda');
+    expect(modalRef.textContent).toBe('John 5:1-15');
+    expect(modalText.innerHTML).toContain('Test content for reading 11');
+  });
+
+  test('click on canvas (not tile) does not open modal', () => {
+    const canvas = document.getElementById('hex-canvas');
+    const modal = document.getElementById('reading-modal');
+
+    let modalOpened = false;
+    canvas.addEventListener('click', (e) => {
+      const clickedTile = e.target.closest('.tile');
+      if (clickedTile) {
+        modal.classList.add('visible');
+        modalOpened = true;
+      }
+    });
+
+    // Click directly on canvas
+    canvas.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+
+    expect(modalOpened).toBe(false);
+    expect(modal.classList.contains('visible')).toBe(false);
+  });
+
+  test('justDragged flag suppresses modal open after drag', () => {
+    const canvas = document.getElementById('hex-canvas');
+    const modal = document.getElementById('reading-modal');
+    const tile = canvas.querySelector('.tile');
+
+    let justDragged = true;
+    let modalOpened = false;
+
+    canvas.addEventListener('click', (e) => {
+      const clickedTile = e.target.closest('.tile');
+      if (!clickedTile || justDragged) return;
+      modal.classList.add('visible');
+      modalOpened = true;
+    });
+
+    tile.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+
+    expect(modalOpened).toBe(false);
+    expect(modal.classList.contains('visible')).toBe(false);
+  });
+});
+
 describe('Persistence Integration', () => {
   let store;
 

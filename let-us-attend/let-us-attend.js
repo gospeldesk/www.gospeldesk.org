@@ -7,6 +7,7 @@
 // Fixed timing constants
 const TILE_INTERVAL_MS = 120 * 1000;  // 120 seconds between tile placements
 const DECAY_DURATION_MS = 1440 * 1000; // 1440 seconds (24 minutes) decay per tile
+const READING_WPM = 200; // Words per minute for reading time calculation
 
 const STORAGE_KEY = 'let-us-attend';
 
@@ -368,6 +369,8 @@ if (typeof window !== 'undefined') {
   let fastDecay = false; // 300x decay speed when opt+d held
   const FAST_DECAY_MULTIPLIER = 300;
   let justDragged = false; // Suppress click after drag
+  let currentReadingPk = null; // Track which reading's modal is open
+  let modalOpenedAt = null; // Track when modal was opened for decay pause
 
   // Viewport state for infinite canvas
   let viewportState = {
@@ -423,6 +426,28 @@ if (typeof window !== 'undefined') {
     const existing = getTilesAt(q, r);
     if (existing.length === 0) return true;
     return existing.every(t => t.pk === pk);
+  }
+
+  /**
+   * Count words in HTML content
+   */
+  function countWords(html) {
+    const text = html.replace(/<[^>]*>/g, ' ').trim();
+    return text.split(/\s+/).filter(w => w.length > 0).length;
+  }
+
+  /**
+   * Calculate reading time in milliseconds based on word count
+   */
+  function calculateReadingTimeMs(wordCount) {
+    return (wordCount / READING_WPM) * 60 * 1000;
+  }
+
+  /**
+   * Check if modal is currently open
+   */
+  function isModalOpen() {
+    return elements.modal && elements.modal.classList.contains('visible');
   }
 
   // DOM elements
@@ -523,6 +548,8 @@ if (typeof window !== 'undefined') {
    * Handle pan start (mousedown)
    */
   function handlePanStart(e) {
+    // Block pan while modal is open
+    if (isModalOpen()) return;
     // Only pan with left mouse button and not on a tile
     if (e.button !== 0) return;
     if (e.target.closest('.tile')) return;
@@ -564,6 +591,8 @@ if (typeof window !== 'undefined') {
    * Handle touch start
    */
   function handleTouchStart(e) {
+    // Block pan while modal is open
+    if (isModalOpen()) return;
     if (e.target.closest('.tile')) return;
     if (e.touches.length !== 1) return;
 
@@ -711,6 +740,8 @@ if (typeof window !== 'undefined') {
    * Handle scroll wheel for panning and pinch-to-zoom
    */
   function handleWheel(e) {
+    // Block pan/zoom while modal is open
+    if (isModalOpen()) return;
     e.preventDefault();
 
     if (e.ctrlKey) {
@@ -984,8 +1015,9 @@ if (typeof window !== 'undefined') {
 
     // Timer bar - shows progress toward next tile
     const now = Date.now();
+    const tileInterval = fastDecay ? TILE_INTERVAL_MS / FAST_DECAY_MULTIPLIER : TILE_INTERVAL_MS;
     const timeSinceLastTile = now - gameState.lastTilePlacedAt;
-    const progress = Math.min(1, timeSinceLastTile / TILE_INTERVAL_MS);
+    const progress = Math.min(1, timeSinceLastTile / tileInterval);
     elements.timerFill.style.width = ((1 - progress) * 100) + '%';
   }
 
@@ -996,16 +1028,22 @@ if (typeof window !== 'undefined') {
     const reading = gameData.readings[pk];
     if (!reading) return;
 
+    // Track for decay pausing
+    currentReadingPk = pk;
+    modalOpenedAt = Date.now();
+
     elements.modalTitle.textContent = reading.title;
     elements.modalRef.textContent = reading.ref;
     elements.modalText.innerHTML = reading.content;
 
-    if (viewOnly) {
-      elements.markReadBtn.classList.add('hidden');
-    } else {
-      elements.markReadBtn.classList.remove('hidden');
-      elements.markReadBtn.onclick = () => collectReading(pk);
-    }
+    // Set overlay color based on book
+    elements.modal.classList.remove('book-matthew', 'book-mark', 'book-luke', 'book-john');
+    elements.modal.classList.add('book-' + reading.book.toLowerCase());
+
+    // Set fade duration based on reading time
+    const wordCount = countWords(reading.content);
+    const readingTimeMs = calculateReadingTimeMs(wordCount);
+    elements.modal.style.setProperty('--fade-duration', readingTimeMs + 'ms');
 
     elements.modal.classList.add('visible');
   }
@@ -1014,6 +1052,17 @@ if (typeof window !== 'undefined') {
    * Close reading modal
    */
   function closeModal() {
+    // Pause decay for the tile that was being read
+    if (currentReadingPk && modalOpenedAt) {
+      const tile = gameState.tiles.find(t => t.pk === currentReadingPk && !t.isCollected);
+      if (tile && tile.placedAt) {
+        const modalDuration = Date.now() - modalOpenedAt;
+        tile.placedAt += modalDuration;
+        saveState(gameState);
+      }
+    }
+    currentReadingPk = null;
+    modalOpenedAt = null;
     elements.modal.classList.remove('visible');
   }
 
@@ -1252,8 +1301,9 @@ if (typeof window !== 'undefined') {
     }
 
     // Check if it's time to place a new tile
+    const tileInterval = fastDecay ? TILE_INTERVAL_MS / FAST_DECAY_MULTIPLIER : TILE_INTERVAL_MS;
     const timeSinceLastTile = now - gameState.lastTilePlacedAt;
-    if (timeSinceLastTile >= TILE_INTERVAL_MS) {
+    if (timeSinceLastTile >= tileInterval) {
       placeNextTile();
     }
 
@@ -1264,6 +1314,12 @@ if (typeof window !== 'undefined') {
    * Handle keyboard shortcuts
    */
   function handleKeyDown(e) {
+    // Escape to close modal
+    if (e.code === 'Escape' && isModalOpen()) {
+      e.preventDefault();
+      closeModal();
+      return;
+    }
     // Option+Shift+N to reset localStorage and reload
     if (e.altKey && e.shiftKey && e.code === 'KeyN') {
       e.preventDefault();
@@ -1276,18 +1332,41 @@ if (typeof window !== 'undefined') {
       e.preventDefault();
       placeNextTile();
     }
-    // Option+D to enable 100x fast decay
+    // Option+D to enable 300x fast mode (decay, tile timer, modal fade)
     if (e.altKey && e.code === 'KeyD' && !fastDecay) {
       e.preventDefault();
       const now = Date.now();
 
       // Adjust placedAt so decay fraction stays the same with faster duration
-      // decayFraction = elapsed / normalDuration = newElapsed / fastDuration
-      // newElapsed = elapsed / multiplier, so newPlacedAt = now - elapsed/multiplier
       for (const tile of gameState.tiles) {
         if (!tile.isCollected && tile.placedAt) {
           const elapsed = now - tile.placedAt;
           tile.placedAt = now - elapsed / FAST_DECAY_MULTIPLIER;
+        }
+      }
+
+      // Adjust tile timer
+      const tileElapsed = now - gameState.lastTilePlacedAt;
+      gameState.lastTilePlacedAt = now - tileElapsed / FAST_DECAY_MULTIPLIER;
+
+      // Accelerate modal fade if open
+      if (isModalOpen() && modalOpenedAt) {
+        const reading = gameData.readings[currentReadingPk];
+        if (reading) {
+          const wordCount = countWords(reading.content);
+          const fullDurationMs = calculateReadingTimeMs(wordCount);
+          const elapsed = now - modalOpenedAt;
+          const remaining = Math.max(0, fullDurationMs - elapsed);
+          const fastRemaining = remaining / FAST_DECAY_MULTIPLIER;
+
+          // Restart animation with fast remaining time (starts from opacity 1)
+          elements.modal.style.setProperty('--fade-duration', fastRemaining + 'ms');
+          elements.modal.classList.remove('visible');
+          elements.modal.offsetHeight; // Trigger reflow
+          elements.modal.classList.add('visible');
+
+          // Adjust modalOpenedAt so decay pause calculation stays correct
+          modalOpenedAt = now;
         }
       }
 
@@ -1300,17 +1379,26 @@ if (typeof window !== 'undefined') {
    * Handle key up
    */
   function handleKeyUp(e) {
-    // Release Option+D to disable fast decay
+    // Release Option+D to disable fast mode
     if (e.code === 'KeyD' && fastDecay) {
       const now = Date.now();
 
-      // Reverse the adjustment: convert fast elapsed back to normal elapsed
-      // newElapsed = elapsed * multiplier, so newPlacedAt = now - elapsed * multiplier
+      // Reverse decay adjustment
       for (const tile of gameState.tiles) {
         if (!tile.isCollected && tile.placedAt) {
           const elapsed = now - tile.placedAt;
           tile.placedAt = now - elapsed * FAST_DECAY_MULTIPLIER;
         }
+      }
+
+      // Reverse tile timer adjustment
+      const tileElapsed = now - gameState.lastTilePlacedAt;
+      gameState.lastTilePlacedAt = now - tileElapsed * FAST_DECAY_MULTIPLIER;
+
+      // Restore modal fade duration if open
+      if (isModalOpen()) {
+        const currentDuration = parseFloat(elements.modal.style.getPropertyValue('--fade-duration')) || 200;
+        elements.modal.style.setProperty('--fade-duration', (currentDuration * FAST_DECAY_MULTIPLIER) + 'ms');
       }
 
       fastDecay = false;
@@ -1347,9 +1435,7 @@ if (typeof window !== 'undefined') {
       modal: document.getElementById('reading-modal'),
       modalTitle: document.getElementById('modal-title'),
       modalRef: document.getElementById('modal-ref'),
-      modalText: document.getElementById('modal-text'),
-      markReadBtn: document.getElementById('mark-read-btn'),
-      closeModalBtn: document.getElementById('close-modal-btn')
+      modalText: document.getElementById('modal-text')
     };
 
     // Load game data
@@ -1372,18 +1458,15 @@ if (typeof window !== 'undefined') {
     setupViewport();
     updateGame();
 
-    // Modal close handlers
-    elements.closeModalBtn.addEventListener('click', closeModal);
-    elements.modal.addEventListener('click', (e) => {
-      if (e.target === elements.modal) closeModal();
-    });
+    // Click anywhere on modal (overlay or content) closes it
+    elements.modal.addEventListener('click', closeModal);
 
     // Keyboard shortcuts
     document.addEventListener('keydown', handleKeyDown);
     document.addEventListener('keyup', handleKeyUp);
 
-    // Start update loop
-    updateInterval = setInterval(updateGame, 1000);
+    // Start update loop (~30fps for smooth timer bar)
+    updateInterval = setInterval(updateGame, 33);
 
     // Save periodically
     setInterval(() => saveState(gameState), 30000);
