@@ -447,7 +447,7 @@ describe('getMinZoom', () => {
     getMinZoom = () => {
       const minZoomX = viewportState.viewportWidth / BOARD_SIZE_PX;
       const minZoomY = viewportState.viewportHeight / BOARD_SIZE_PX;
-      return Math.max(minZoomX, minZoomY);
+      return Math.max(0.3, minZoomX, minZoomY);
     };
 
     constrainPan = () => {
@@ -489,6 +489,13 @@ describe('getMinZoom', () => {
     viewportState.viewportWidth = BOARD_SIZE_PX / 2;
     viewportState.viewportHeight = BOARD_SIZE_PX / 2;
     expect(getMinZoom()).toBe(0.5);
+  });
+
+  test('enforces 0.3 floor for very small viewports', () => {
+    viewportState.viewportWidth = BOARD_SIZE_PX / 10;
+    viewportState.viewportHeight = BOARD_SIZE_PX / 10;
+    // Calculated would be 0.1, but floor is 0.3
+    expect(getMinZoom()).toBe(0.3);
   });
 
   describe('constrainPan board bounds', () => {

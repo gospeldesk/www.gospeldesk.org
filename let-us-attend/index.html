@@ -8,9 +8,14 @@
 </head>
 <body>
   <div class="loading" id="loading">
-    <svg class="loading-hex" viewBox="0 0 100 115.47">
-      <polygon points="50,0 100,25 100,86.6 50,115.47 0,86.6 0,25" fill="#e0dcd8"/>
-    </svg>
+    <div class="loading-container">
+      <svg class="loading-hex" viewBox="0 0 100 115.47">
+        <polygon points="50,0 100,25 100,86.6 50,115.47 0,86.6 0,25" fill="#e0dcd8"/>
+      </svg>
+      <div class="loading-timer-bar">
+        <div class="loading-timer-fill" id="loading-timer-fill"></div>
+      </div>
+    </div>
   </div>
 
   <div class="hex-viewport hidden" id="hex-viewport">
@@ -26,10 +31,14 @@
   </div>
 
   <div class="modal-overlay" id="reading-modal">
+    <div class="modal-wrapper">
     <div class="modal-content">
       <h2 id="modal-title"></h2>
       <p class="ref" id="modal-ref"></p>
       <div class="reading-text" id="modal-text"></div>
+      <div class="reading-timer-bar" id="reading-timer-bar">
+        <div class="reading-timer-fill" id="reading-timer-fill"></div>
+      </div>
       <div class="completion-indicator" id="completion-indicator">
         <svg viewBox="0 0 3600 3600">
           <path class="outline" d="M 1109.775 591.2 L 2744.975 591.2 L 2744.975 2896.16 L 2489.039 3008.8 L 1620.175 3008.8 L 1620.175 3311.777 L 1364.175 3209.377 L 1108.175 3311.777 L 1108.175 3008.8 L 853.775 3008.8 L 853.775 702.641 Z"/>
@@ -37,6 +46,7 @@
           <path class="book" d="M 853.775 702.641 L 1109.775 591.2 L 2744.975 591.2 L 2744.975 2896.16 L 2489.039 3008.8 L 853.775 3008.8 Z"/>
         </svg>
       </div>
+    </div>
     </div>
   </div>
 

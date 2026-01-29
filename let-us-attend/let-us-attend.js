@@ -300,6 +300,41 @@ function findNearestEmptyCellFromViewportCenter(tiles, viewportState, tileSize) 
 }
 
 /**
+ * Find the nearest empty cell from a given hex position.
+ * Uses true hex rings for concentric placement.
+ * Only returns cells within board bounds.
+ *
+ * @param {Array} tiles - Array of placed tiles
+ * @param {number} centerQ - Center hex column
+ * @param {number} centerR - Center hex row
+ * @param {number} tileSize - Width of hexagon
+ * @returns {Object} Hex coordinates {q, r} of nearest empty cell
+ */
+function findNearestEmptyCellFromHex(tiles, centerQ, centerR, tileSize) {
+  // Build set of all occupied cells
+  const occupied = new Set(tiles.map(t => `${t.q},${t.r}`));
+
+  // Check center first
+  if (!occupied.has(`${centerQ},${centerR}`) && isOnBoard(centerQ, centerR, tileSize)) {
+    return { q: centerQ, r: centerR };
+  }
+
+  // Search by true hex rings in circular order
+  for (let radius = 1; radius < 100; radius++) {
+    const ring = getHexRing(centerQ, centerR, radius);
+    for (const cell of ring) {
+      const key = `${cell.q},${cell.r}`;
+      if (!occupied.has(key) && isOnBoard(cell.q, cell.r, tileSize)) {
+        return cell;
+      }
+    }
+  }
+
+  // Final fallback (shouldn't happen)
+  return { q: centerQ, r: centerR };
+}
+
+/**
  * Save game state to localStorage.
  *
  * @param {Object} state - Game state to save
@@ -390,6 +425,7 @@ if (typeof module !== 'undefined' && module.exports) {
     isOnBoard,
     canPlaceTile,
     findNearestEmptyCellFromViewportCenter,
+    findNearestEmptyCellFromHex,
     countWords,
     calculateReadingTimeMs,
     saveState,
@@ -440,6 +476,9 @@ if (typeof window !== 'undefined') {
 
   // Center hex for initial tile placement
   let boardCenterHex = null;
+
+  // Current viewport center hex (updated when panning)
+  let viewportCenterHex = null;
 
   /**
    * Rebuild the spatial index from gameState.tiles
@@ -555,6 +594,8 @@ if (typeof window !== 'undefined') {
     viewportState.panX = viewportState.viewportWidth / 2 - tileCenterX * zoom;
     viewportState.panY = viewportState.viewportHeight / 2 - tileCenterY * zoom;
     constrainPan();
+    // Set viewport center to exact tile hex (overrides rounding from constrainPan)
+    viewportCenterHex = { q: boardCenterHex.q, r: boardCenterHex.r };
 
     // Mouse pan handlers
     viewport.addEventListener('mousedown', handlePanStart);
@@ -709,6 +750,12 @@ if (typeof window !== 'undefined') {
 
     viewportState.panX = Math.max(minPanX, Math.min(maxPanX, viewportState.panX));
     viewportState.panY = Math.max(minPanY, Math.min(maxPanY, viewportState.panY));
+
+    // Update viewport center hex
+    const tileSize = getTileSize();
+    const centerX = (viewportState.viewportWidth / 2 - viewportState.panX) / zoom;
+    const centerY = (viewportState.viewportHeight / 2 - viewportState.panY) / zoom;
+    viewportCenterHex = pixelToHex(centerX, centerY, tileSize);
   }
 
   /**
@@ -1015,7 +1062,15 @@ if (typeof window !== 'undefined') {
     const tileInterval = fastDecay ? TILE_INTERVAL_MS / FAST_DECAY_MULTIPLIER : TILE_INTERVAL_MS;
     const timeSinceLastTile = now - gameState.lastTilePlacedAt;
     const progress = Math.min(1, timeSinceLastTile / tileInterval);
-    elements.timerFill.style.width = ((1 - progress) * 100) + '%';
+    elements.timerFill.style.width = (progress * 100) + '%';
+
+    // Reading timer bar - shows progress toward completing current reading
+    if (isModalOpen() && modalOpenedAt && currentReadingTimeMs) {
+      const elapsed = now - modalOpenedAt;
+      const progressGained = currentReadingTimeMs > 0 ? elapsed / currentReadingTimeMs : 0;
+      const readingProgress = Math.min(1, currentStartProgress + progressGained);
+      elements.readingTimerFill.style.width = (readingProgress * 100) + '%';
+    }
   }
 
   /**
@@ -1064,6 +1119,9 @@ if (typeof window !== 'undefined') {
       elements.modal.classList.remove('collected');
     }
 
+    // Initialize reading timer bar
+    elements.readingTimerFill.style.width = (currentStartProgress * 100) + '%';
+
     elements.modal.classList.add('visible');
 
     // Listen for overlay fade animation end to mark as collected
@@ -1086,9 +1144,22 @@ if (typeof window !== 'undefined') {
       elements.modal.addEventListener('animationend', handleOverlayAnimationEnd);
     }
 
-    // Scroll to top
+    // Scroll to top and update scroll indicators
     const content = elements.modal.querySelector('.modal-content');
-    if (content) content.scrollTop = 0;
+    if (content) {
+      content.scrollTop = 0;
+      updateScrollIndicators(content);
+    }
+  }
+
+  /**
+   * Update scroll indicator classes based on scroll position
+   */
+  function updateScrollIndicators(content) {
+    const canScrollUp = content.scrollTop > 1;
+    const canScrollDown = content.scrollTop < content.scrollHeight - content.clientHeight - 1;
+    content.classList.toggle('scroll-top', canScrollUp);
+    content.classList.toggle('scroll-bottom', canScrollDown);
   }
 
   /**
@@ -1127,6 +1198,7 @@ if (typeof window !== 'undefined') {
     modalOpenedAt = null;
     currentReadingTimeMs = null;
     currentStartProgress = 0;
+    elements.readingTimerFill.style.width = '0%';
     elements.modal.classList.remove('visible', 'collected');
   }
 
@@ -1275,15 +1347,16 @@ if (typeof window !== 'undefined') {
     const reading = gameData.schedule[gameState.scheduleIndex];
     const tileSize = getTileSize();
 
-    // Use board center for first tile, otherwise find nearest empty cell
+    // Use board center for first tile, otherwise find nearest empty cell from viewport center
     let q, r;
     if (gameState.tiles.length === 0 && boardCenterHex) {
       q = boardCenterHex.q;
       r = boardCenterHex.r;
     } else {
-      ({ q, r } = findNearestEmptyCellFromViewportCenter(
+      ({ q, r } = findNearestEmptyCellFromHex(
         gameState.tiles,
-        viewportState,
+        viewportCenterHex.q,
+        viewportCenterHex.r,
         tileSize
       ));
     }
@@ -1573,6 +1646,7 @@ if (typeof window !== 'undefined') {
     // Cache DOM elements
     elements = {
       loading: document.getElementById('loading'),
+      loadingTimerFill: document.getElementById('loading-timer-fill'),
       hexViewport: document.getElementById('hex-viewport'),
       hexCanvas: document.getElementById('hex-canvas'),
       statsBox: document.getElementById('stats-box'),
@@ -1582,6 +1656,7 @@ if (typeof window !== 'undefined') {
       modal: document.getElementById('reading-modal'),
       modalTitle: document.getElementById('modal-title'),
       modalRef: document.getElementById('modal-ref'),
+      readingTimerFill: document.getElementById('reading-timer-fill'),
       modalText: document.getElementById('modal-text')
     };
 
@@ -1608,11 +1683,24 @@ if (typeof window !== 'undefined') {
     setupViewport();
     updateGame();
 
-    // Fade in board, hide loading
-    requestAnimationFrame(() => {
-      elements.hexViewport.classList.add('visible');
-      elements.loading.classList.add('fade-out');
-    });
+    // Animate loading timer over 3 seconds, then reveal board
+    const loadingDuration = 3000;
+    const loadingStart = Date.now();
+
+    function animateLoading() {
+      const elapsed = Date.now() - loadingStart;
+      const progress = Math.min(elapsed / loadingDuration, 1);
+      elements.loadingTimerFill.style.width = (progress * 100) + '%';
+
+      if (progress < 1) {
+        requestAnimationFrame(animateLoading);
+      } else {
+        // Fade in board, hide loading
+        elements.hexViewport.classList.add('visible');
+        elements.loading.classList.add('fade-out');
+      }
+    }
+    requestAnimationFrame(animateLoading);
 
     // Click on overlay background closes modal (not content area)
     elements.modal.addEventListener('click', (e) => {
@@ -1624,6 +1712,10 @@ if (typeof window !== 'undefined') {
       e.stopPropagation();
       closeModal();
     });
+
+    // Scroll indicators for modal
+    const modalContent = elements.modal.querySelector('.modal-content');
+    modalContent.addEventListener('scroll', () => updateScrollIndicators(modalContent));
 
     // Keyboard shortcuts
     document.addEventListener('keydown', handleKeyDown);
