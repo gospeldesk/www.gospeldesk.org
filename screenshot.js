@@ -39,7 +39,7 @@ const puppeteer = require('puppeteer');
   // Zoom in via JS
   await page.evaluate(() => {
     if (typeof viewportState !== 'undefined') {
-      viewportState.zoom = 1.5;
+      viewportState.zoom = 3;
     }
   });
   await new Promise(r => setTimeout(r, 200));

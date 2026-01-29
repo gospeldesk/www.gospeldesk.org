@@ -449,7 +449,7 @@ if (typeof window !== 'undefined') {
   let viewportState = {
     panX: 0,
     panY: 0,
-    zoom: 1,
+    zoom: 2,
     isDragging: false,
     lastMouseX: 0,
     lastMouseY: 0,
@@ -811,7 +811,7 @@ if (typeof window !== 'undefined') {
     if (e.ctrlKey) {
       // Pinch to zoom
       const zoomFactor = 1 - e.deltaY * 0.01;
-      const newZoom = Math.min(3, Math.max(0.3, viewportState.zoom * zoomFactor));
+      const newZoom = Math.min(6, Math.max(0.6, viewportState.zoom * zoomFactor));
 
       // Zoom toward cursor position
       const rect = elements.hexViewport.getBoundingClientRect();
@@ -1137,11 +1137,11 @@ if (typeof window !== 'undefined') {
 
     elements.modal.classList.add('visible');
 
-    // Listen for animation end to mark as collected
+    // Listen for overlay fade animation end to mark as collected
     if (!isCollected) {
-      const outline = document.querySelector('#completion-indicator .outline');
-      const handleAnimationEnd = () => {
-        outline.removeEventListener('animationend', handleAnimationEnd);
+      const handleOverlayAnimationEnd = (e) => {
+        if (e.animationName !== 'overlay-fade') return;
+        elements.modal.removeEventListener('animationend', handleOverlayAnimationEnd);
         const tile = gameState.tiles.find(t => t.pk === currentReadingPk && !t.isCollected);
         if (tile) {
           tile.isCollected = true;
@@ -1154,7 +1154,7 @@ if (typeof window !== 'undefined') {
           updateStats();
         }
       };
-      outline.addEventListener('animationend', handleAnimationEnd);
+      elements.modal.addEventListener('animationend', handleOverlayAnimationEnd);
     }
 
     // Scroll to top
@@ -1427,7 +1427,7 @@ if (typeof window !== 'undefined') {
    * Apply zoom centered on viewport
    */
   function applyZoom(newZoom) {
-    newZoom = Math.min(3, Math.max(0.3, newZoom));
+    newZoom = Math.min(6, Math.max(0.6, newZoom));
     if (newZoom === viewportState.zoom) return;
 
     // Zoom toward viewport center
@@ -1460,7 +1460,7 @@ if (typeof window !== 'undefined') {
       }
       if (e.key === '0') {
         e.preventDefault();
-        if (!isModalOpen()) applyZoom(1);
+        if (!isModalOpen()) applyZoom(2);
         return;
       }
     }
