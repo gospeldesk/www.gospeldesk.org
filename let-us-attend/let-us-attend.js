@@ -20,9 +20,6 @@ function getDecayDurationMs() {
   return DECAY_DURATION_MS;
 }
 
-// Dimetric projection factor (45° view angle, cos(45°) ≈ 0.707)
-const DIMETRIC_Y_SCALE = 0.707;
-
 // Perspective scale range: 0.85 at r=-10 to 1.15 at r=10 (±15% from base)
 const PERSPECTIVE_SCALE_FACTOR = 0.015;  // Scale change per row
 const PERSPECTIVE_BASE_ROW = 0;          // Row with scale = 1.0
@@ -77,7 +74,7 @@ function getPerspectiveXOffset(q, r, tileWidth) {
 
 /**
  * Convert hex grid coordinates (q, r) to pixel coordinates.
- * Uses pointy-top hexagon layout with odd-r offset and 45° dimetric projection.
+ * Uses pointy-top hexagon layout with odd-r offset.
  *
  * @param {number} q - Column coordinate
  * @param {number} r - Row coordinate
@@ -89,19 +86,15 @@ function hexToPixel(q, r, tileSize = 80) {
   const h = w * 1.1547;
 
   // Standard hex positioning (flat top-down view)
-  const flatX = q * w + (r % 2 !== 0 ? w / 2 : 0);
-  const flatY = r * (h * 0.75);
+  const x = q * w + (r % 2 !== 0 ? w / 2 : 0);
+  const y = r * (h * 0.75);
 
-  // 45° dimetric: compress Y
-  const isoX = flatX;
-  const isoY = flatY * DIMETRIC_Y_SCALE;
-
-  return { x: isoX, y: isoY };
+  return { x, y };
 }
 
 /**
  * Convert pixel coordinates to hex grid coordinates (q, r).
- * Uses pointy-top hexagon layout with odd-r offset and 45° dimetric projection.
+ * Uses pointy-top hexagon layout with odd-r offset.
  *
  * @param {number} px - Pixel x coordinate
  * @param {number} py - Pixel y coordinate
@@ -109,20 +102,15 @@ function hexToPixel(q, r, tileSize = 80) {
  * @returns {Object} Hex coordinates {q, r}
  */
 function pixelToHex(px, py, tileSize = 80) {
-  // Reverse dimetric transform first
-  const flatX = px;
-  const flatY = py / DIMETRIC_Y_SCALE;
-
-  // Then standard hex math
   const w = tileSize;
   const h = w * 1.1547;
   const rowHeight = h * 0.75;
 
   // Approximate row
-  const r = Math.round(flatY / rowHeight);
+  const r = Math.round(py / rowHeight);
 
   // Adjust x for odd row offset
-  const adjustedX = flatX - (r % 2 !== 0 ? w / 2 : 0);
+  const adjustedX = px - (r % 2 !== 0 ? w / 2 : 0);
   const q = Math.round(adjustedX / w);
 
   return { q, r };
@@ -337,7 +325,7 @@ function calculateConstrainedPan(tiles, viewportState, tileSize) {
     return { panX: viewportState.panX, panY: viewportState.panY };
   }
 
-  const hexHeight = tileSize * 1.1547 * DIMETRIC_Y_SCALE;
+  const hexHeight = tileSize * 1.1547;
   const zoom = viewportState.zoom || 1;
   const margin = tileSize * zoom * 0.5;
 
@@ -417,7 +405,6 @@ if (typeof module !== 'undefined' && module.exports) {
     TILE_INTERVAL_MS,
     DECAY_DURATION_MS,
     READING_WPM,
-    DIMETRIC_Y_SCALE,
     PERSPECTIVE_SCALE_FACTOR,
     PERSPECTIVE_BASE_ROW,
     getDecayDurationMs,
@@ -536,13 +523,17 @@ if (typeof window !== 'undefined') {
     tile.dataset.pk = pk;
     tile.classList.add('book-' + reading.book.toLowerCase());
 
-    // Use test image for all tiles (will differentiate later)
-    const img = document.createElement('img');
-    img.src = '/let-us-attend/tiles/rebuking-the-storm-mark.png';
-    img.alt = reading.title;
-    img.className = 'tile-image';
-    img.draggable = false;
-    tile.appendChild(img);
+    // Title text
+    const title = document.createElement('div');
+    title.className = 'tile-title';
+    title.textContent = reading.title;
+    tile.appendChild(title);
+
+    // Reference text
+    const ref = document.createElement('div');
+    ref.className = 'tile-ref';
+    ref.textContent = reading.ref;
+    tile.appendChild(ref);
 
     if (isAvailable) {
       tile.classList.add('available');
@@ -712,7 +703,7 @@ if (typeof window !== 'undefined') {
     }
 
     const tileSize = getTileSize();
-    const hexHeight = tileSize * 1.1547 * DIMETRIC_Y_SCALE;
+    const hexHeight = tileSize * 1.1547;
 
     // Build row bounds: for each row r, track y position and x extent
     const rowBounds = new Map();
@@ -844,7 +835,7 @@ if (typeof window !== 'undefined') {
    */
   function calculateVisibleRange() {
     const tileSize = getTileSize();
-    const hexHeight = tileSize * 1.1547 * DIMETRIC_Y_SCALE;
+    const hexHeight = tileSize * 1.1547;
     const rowHeight = hexHeight * 0.75;
     const zoom = viewportState.zoom;
     const padding = 2;
@@ -1223,18 +1214,6 @@ if (typeof window !== 'undefined') {
     const r = parseInt(tile.dataset.r);
     const bookClass = Array.from(tile.classList).find(c => c.startsWith('book-'));
 
-    // Create drag ghost from the tile's image
-    const img = tile.querySelector('.tile-image');
-    let ghost = null;
-    if (img) {
-      ghost = img.cloneNode(true);
-      ghost.className = 'drag-ghost';
-      const ghostSize = getTileSize() * 2;
-      ghost.style.left = (e.clientX - ghostSize / 2) + 'px';
-      ghost.style.top = (e.clientY - ghostSize * 0.7) + 'px';
-      document.body.appendChild(ghost);
-    }
-
     dragState = {
       tile: tile,
       startQ: q,
@@ -1242,7 +1221,6 @@ if (typeof window !== 'undefined') {
       pk: tile.dataset.pk,
       bookClass: bookClass,
       didMove: false,
-      ghost: ghost,
       lastHighlightedCell: null
     };
 
@@ -1255,21 +1233,12 @@ if (typeof window !== 'undefined') {
   }
 
   /**
-   * Tile drag move - ghost follows cursor, highlight drop target
+   * Tile drag move - highlight drop target
    */
   function handleTileDragMove(e) {
     if (!dragState) return;
 
     dragState.didMove = true;
-
-    if (dragState.ghost) {
-      const ghostSize = getTileSize() * 2;
-      dragState.ghost.style.left = (e.clientX - ghostSize / 2) + 'px';
-      dragState.ghost.style.top = (e.clientY - ghostSize * 0.7) + 'px';
-
-      // Hide ghost temporarily to find cell under cursor
-      dragState.ghost.style.display = 'none';
-    }
 
     // Clear previous highlight
     if (dragState.lastHighlightedCell) {
@@ -1278,10 +1247,6 @@ if (typeof window !== 'undefined') {
 
     // Find cell under cursor
     const cell = document.elementFromPoint(e.clientX, e.clientY)?.closest('.hex-cell');
-
-    if (dragState.ghost) {
-      dragState.ghost.style.display = '';
-    }
 
     if (cell) {
       const q = parseInt(cell.dataset.q);
@@ -1306,11 +1271,6 @@ if (typeof window !== 'undefined') {
     // Remove global listeners
     document.removeEventListener('mousemove', handleTileDragMove);
     document.removeEventListener('mouseup', handleTileDragEnd);
-
-    // Remove the ghost to find cell under cursor
-    if (dragState.ghost) {
-      dragState.ghost.remove();
-    }
 
     // Find cell under cursor
     const cell = document.elementFromPoint(e.clientX, e.clientY)?.closest('.hex-cell');
