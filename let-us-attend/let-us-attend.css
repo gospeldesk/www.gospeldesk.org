@@ -133,6 +133,7 @@ body {
   justify-content: center;
   align-items: center;
   transform-origin: center center;
+  overflow: visible;
 }
 
 
@@ -143,44 +144,18 @@ body.dragging-tile * {
   user-select: none !important;
 }
 
-/* Drop target - add clip-path only for highlighting state */
+/* Drop target outline */
 .hex-cell.drop-target,
 .hex-cell.drop-invalid {
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
-/* Drop target colors based on book being dragged */
-body[data-drag-book="matthew"] .hex-cell.drop-target {
-  background: rgba(149, 127, 96, 0.4);
-}
-
-body[data-drag-book="mark"] .hex-cell.drop-target {
-  background: rgba(178, 52, 45, 0.4);
-}
-
-body[data-drag-book="luke"] .hex-cell.drop-target {
-  background: rgba(45, 106, 79, 0.4);
-}
-
-body[data-drag-book="john"] .hex-cell.drop-target {
-  background: rgba(17, 17, 94, 0.4);
+.hex-cell.drop-target {
+  background: rgba(0, 0, 0, 0.15);
 }
 
 .hex-cell.drop-invalid {
-  background: rgba(178, 52, 45, 0.4);
-}
-
-/* Red overlay on tiles when dragging over occupied cells */
-.hex-cell.drop-invalid .tile::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(178, 52, 45, 0.5);
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  pointer-events: none;
+  background: var(--red);
 }
 
 /* Tiles - Dimetric projection (45° view angle) */
@@ -208,10 +183,19 @@ body[data-drag-book="john"] .hex-cell.drop-target {
 }
 
 .tile.dragging {
-  opacity: 0.5;
-  transform: scale(1.0);
-  filter: brightness(1.2);
+  opacity: 0.3;
 }
+
+/* Drag ghost - snaps to hex grid */
+.drag-ghost {
+  position: fixed;
+  width: calc(var(--tile-size) * 2);
+  height: calc(var(--tile-size) * 2);
+  pointer-events: none;
+  z-index: 10000;
+  opacity: 0.9;
+}
+
 
 /* Book colors */
 .tile.book-matthew { background: var(--gold); color: var(--white); }
@@ -235,6 +219,39 @@ body[data-drag-book="john"] .hex-cell.drop-target {
   opacity: 0.8;
   text-align: center;
 }
+
+/* Image tiles */
+.tile-image {
+  position: absolute;
+  bottom: -15%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200%;
+  height: 200%;
+  object-fit: contain;
+  pointer-events: none;
+}
+
+/* Remove clip-path when tile has image (image is already hex-shaped) */
+.tile:has(.tile-image) {
+  clip-path: none;
+  background: transparent;
+  overflow: visible;
+}
+
+/* Hide image for uncollected tiles */
+.tile.uncollected .tile-image {
+  display: none;
+}
+
+/* Show colored hex background for uncollected tiles */
+.tile.uncollected {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+.tile.uncollected.book-matthew { background: var(--gold); }
+.tile.uncollected.book-mark { background: var(--red); }
+.tile.uncollected.book-luke { background: var(--green); }
+.tile.uncollected.book-john { background: var(--blue); }
 
 /* Stack badge */
 .stack-badge {

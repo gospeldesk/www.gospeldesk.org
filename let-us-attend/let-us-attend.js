@@ -536,19 +536,17 @@ if (typeof window !== 'undefined') {
     tile.dataset.pk = pk;
     tile.classList.add('book-' + reading.book.toLowerCase());
 
+    // Use test image for all tiles (will differentiate later)
+    const img = document.createElement('img');
+    img.src = '/let-us-attend/tiles/rebuking-the-storm-mark.png';
+    img.alt = reading.title;
+    img.className = 'tile-image';
+    img.draggable = false;
+    tile.appendChild(img);
+
     if (isAvailable) {
       tile.classList.add('available');
     }
-
-    const title = document.createElement('div');
-    title.className = 'tile-title';
-    title.textContent = reading.title;
-    tile.appendChild(title);
-
-    const ref = document.createElement('div');
-    ref.className = 'tile-ref';
-    ref.textContent = reading.book;
-    tile.appendChild(ref);
 
     return tile;
   }
@@ -1218,9 +1216,24 @@ if (typeof window !== 'undefined') {
     const tile = e.target.closest('.tile');
     if (!tile) return;
 
+    // Only allow drag on collected tiles
+    if (!tile.classList.contains('collected')) return;
+
     const q = parseInt(tile.dataset.q);
     const r = parseInt(tile.dataset.r);
     const bookClass = Array.from(tile.classList).find(c => c.startsWith('book-'));
+
+    // Create drag ghost from the tile's image
+    const img = tile.querySelector('.tile-image');
+    let ghost = null;
+    if (img) {
+      ghost = img.cloneNode(true);
+      ghost.className = 'drag-ghost';
+      const ghostSize = getTileSize() * 2;
+      ghost.style.left = (e.clientX - ghostSize / 2) + 'px';
+      ghost.style.top = (e.clientY - ghostSize * 0.7) + 'px';
+      document.body.appendChild(ghost);
+    }
 
     dragState = {
       tile: tile,
@@ -1229,14 +1242,12 @@ if (typeof window !== 'undefined') {
       pk: tile.dataset.pk,
       bookClass: bookClass,
       didMove: false,
+      ghost: ghost,
       lastHighlightedCell: null
     };
 
     tile.classList.add('dragging');
     document.body.classList.add('dragging-tile');
-    if (bookClass) {
-      document.body.dataset.dragBook = bookClass.replace('book-', '');
-    }
 
     // Add global listeners
     document.addEventListener('mousemove', handleTileDragMove);
@@ -1244,33 +1255,46 @@ if (typeof window !== 'undefined') {
   }
 
   /**
-   * Tile drag move - highlight drop targets
+   * Tile drag move - ghost follows cursor, highlight drop target
    */
   function handleTileDragMove(e) {
     if (!dragState) return;
 
     dragState.didMove = true;
 
-    // Clear previous highlight (O(1) instead of O(n))
+    if (dragState.ghost) {
+      const ghostSize = getTileSize() * 2;
+      dragState.ghost.style.left = (e.clientX - ghostSize / 2) + 'px';
+      dragState.ghost.style.top = (e.clientY - ghostSize * 0.7) + 'px';
+
+      // Hide ghost temporarily to find cell under cursor
+      dragState.ghost.style.display = 'none';
+    }
+
+    // Clear previous highlight
     if (dragState.lastHighlightedCell) {
       dragState.lastHighlightedCell.classList.remove('drop-target', 'drop-invalid');
     }
 
     // Find cell under cursor
     const cell = document.elementFromPoint(e.clientX, e.clientY)?.closest('.hex-cell');
-    if (!cell) {
-      dragState.lastHighlightedCell = null;
-      return;
+
+    if (dragState.ghost) {
+      dragState.ghost.style.display = '';
     }
 
-    const q = parseInt(cell.dataset.q);
-    const r = parseInt(cell.dataset.r);
+    if (cell) {
+      const q = parseInt(cell.dataset.q);
+      const r = parseInt(cell.dataset.r);
 
-    const valid = canPlaceTileIndexed(dragState.pk, q, r) ||
-                  (q === dragState.startQ && r === dragState.startR);
+      const valid = canPlaceTileIndexed(dragState.pk, q, r) ||
+                    (q === dragState.startQ && r === dragState.startR);
 
-    cell.classList.add(valid ? 'drop-target' : 'drop-invalid');
-    dragState.lastHighlightedCell = cell;
+      cell.classList.add(valid ? 'drop-target' : 'drop-invalid');
+      dragState.lastHighlightedCell = cell;
+    } else {
+      dragState.lastHighlightedCell = null;
+    }
   }
 
   /**
@@ -1282,6 +1306,11 @@ if (typeof window !== 'undefined') {
     // Remove global listeners
     document.removeEventListener('mousemove', handleTileDragMove);
     document.removeEventListener('mouseup', handleTileDragEnd);
+
+    // Remove the ghost to find cell under cursor
+    if (dragState.ghost) {
+      dragState.ghost.remove();
+    }
 
     // Find cell under cursor
     const cell = document.elementFromPoint(e.clientX, e.clientY)?.closest('.hex-cell');
@@ -1319,7 +1348,6 @@ if (typeof window !== 'undefined') {
       dragState.tile.classList.remove('dragging');
     }
     document.body.classList.remove('dragging-tile');
-    delete document.body.dataset.dragBook;
 
     // Suppress the click event that follows mouseup, but only if mouse actually moved
     if (dragState.didMove) {
