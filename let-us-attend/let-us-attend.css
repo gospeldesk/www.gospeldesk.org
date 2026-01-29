@@ -153,11 +153,11 @@ body[data-drag-book="mark"] .hex-cell.drop-target {
 }
 
 body[data-drag-book="luke"] .hex-cell.drop-target {
-  background: rgba(17, 17, 94, 0.4);
+  background: rgba(45, 106, 79, 0.4);
 }
 
 body[data-drag-book="john"] .hex-cell.drop-target {
-  background: rgba(45, 106, 79, 0.4);
+  background: rgba(17, 17, 94, 0.4);
 }
 
 .hex-cell.drop-invalid {
@@ -196,8 +196,8 @@ body[data-drag-book="john"] .hex-cell.drop-target {
 /* Book colors */
 .tile.book-matthew { background: var(--gold); color: var(--white); }
 .tile.book-mark { background: var(--red); color: var(--white); }
-.tile.book-luke { background: var(--blue); color: var(--white); }
-.tile.book-john { background: var(--green); color: var(--white); }
+.tile.book-luke { background: var(--green); color: var(--white); }
+.tile.book-john { background: var(--blue); color: var(--white); }
 
 /* Tile content */
 .tile-title {
@@ -243,14 +243,15 @@ body[data-drag-book="john"] .hex-cell.drop-target {
   }
 }
 
-/* Decaying tile styles */
-.tile.decaying {
+/* Uncollected tile styles - saturation based on read progress */
+.tile.uncollected {
   cursor: grab;
+  filter: saturate(var(--read-progress, 0));
   animation: decay-fade var(--decay-duration, 100s) linear forwards;
   animation-delay: calc(-1 * var(--decay-elapsed, 0s));
 }
 
-.tile.decaying:active {
+.tile.uncollected:active {
   cursor: grabbing;
 }
 
@@ -261,8 +262,8 @@ body[data-drag-book="john"] .hex-cell.drop-target {
 
 /* Reading Modal */
 @keyframes overlay-fade {
-  from { opacity: 1; }
-  to { opacity: 0; }
+  from { opacity: 0.33; filter: saturate(0); }
+  to { opacity: 1; filter: saturate(1); }
 }
 
 .modal-overlay {
@@ -297,47 +298,60 @@ body[data-drag-book="john"] .hex-cell.drop-target {
 
 .modal-overlay.visible::before {
   animation: overlay-fade var(--fade-duration, 60s) linear forwards;
+  animation-delay: var(--fade-delay, 0ms);
 }
 
 /* Book colors for overlay */
 .modal-overlay.book-matthew::before { background-color: var(--gold); }
 .modal-overlay.book-mark::before { background-color: var(--red); }
-.modal-overlay.book-luke::before { background-color: var(--blue); }
-.modal-overlay.book-john::before { background-color: var(--green); }
+.modal-overlay.book-luke::before { background-color: var(--green); }
+.modal-overlay.book-john::before { background-color: var(--blue); }
 
 .modal-content {
   pointer-events: auto;
-  cursor: pointer;
+  cursor: auto;
   background: var(--white);
-  max-width: 600px;
+  max-width: 7in;
   max-height: 100%;
   overflow-y: auto;
-  padding: 72px;
+  padding: 72pt;
   border: 1px solid var(--black);
   box-shadow: 0px 5px 5px var(--black);
+  font: normal 14pt/21pt Sen, sans-serif;
 }
 
 .modal-content h2 {
-  font-size: 24px;
-  margin-bottom: 8px;
+  font: bold 21pt/24pt Sen;
+  margin-bottom: 3pt;
 }
 
 .modal-content .ref {
   color: var(--gray);
-  font-size: 12px;
+  font-size: 10pt;
   text-transform: uppercase;
-  margin-bottom: 16px;
+  margin-bottom: 16pt;
+  display: block;
 }
 
 .modal-content .reading-text {
-  line-height: 1.8;
+  text-align: justify;
+}
+
+.modal-content .reading-text p {
+  text-indent: 18pt;
+}
+
+.modal-content .reading-text p:first-of-type {
+  text-indent: 0;
 }
 
 .modal-content .reading-text .v {
-  font-size: 10px;
+  font-size: 8pt;
+  line-height: 8pt;
+  padding: 0 3pt 0 0;
+  position: relative;
+  top: -4pt;
   color: var(--gray);
-  vertical-align: super;
-  margin-right: 2px;
 }
 
 /* Hidden utility */
@@ -353,7 +367,7 @@ body[data-drag-book="john"] .hex-cell.drop-target {
 
   .modal-content {
     margin: 16px;
-    padding: 24px;
+    padding: 24pt;
   }
 
   .stats-box {

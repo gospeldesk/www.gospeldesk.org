@@ -368,9 +368,12 @@ if (typeof window !== 'undefined') {
   let dragState = null; // { tile, startQ, startR, bookClass, didMove }
   let fastDecay = false; // 300x decay speed when opt+d held
   const FAST_DECAY_MULTIPLIER = 300;
+  const FAST_MODAL_MULTIPLIER = 30;
   let justDragged = false; // Suppress click after drag
   let currentReadingPk = null; // Track which reading's modal is open
   let modalOpenedAt = null; // Track when modal was opened for decay pause
+  let currentReadingTimeMs = null; // Full reading time for current modal
+  let currentStartProgress = 0; // Progress when modal was opened (0-1)
 
   // Viewport state for infinite canvas
   let viewportState = {
@@ -915,10 +918,11 @@ if (typeof window !== 'undefined') {
           tileEl.appendChild(badge);
         }
       } else {
-        tileEl.classList.add('decaying');
+        tileEl.classList.add('uncollected');
         const elapsed = now - latestTile.placedAt;
         tileEl.style.setProperty('--decay-duration', decayDuration + 'ms');
         tileEl.style.setProperty('--decay-elapsed', elapsed + 'ms');
+        tileEl.style.setProperty('--read-progress', latestTile.readProgress || 0);
       }
 
       cell.appendChild(tileEl);
@@ -980,12 +984,13 @@ if (typeof window !== 'undefined') {
         }
       } else {
         // Uncollected tile: decaying, but still draggable
-        tileEl.classList.add('decaying');
+        tileEl.classList.add('uncollected');
 
         // Set CSS animation variables for smooth fade
         const elapsed = now - latestTile.placedAt;
         tileEl.style.setProperty('--decay-duration', decayDuration + 'ms');
         tileEl.style.setProperty('--decay-elapsed', elapsed + 'ms');
+        tileEl.style.setProperty('--read-progress', latestTile.readProgress || 0);
       }
 
       cell.appendChild(tileEl);
@@ -1040,29 +1045,68 @@ if (typeof window !== 'undefined') {
     elements.modal.classList.remove('book-matthew', 'book-mark', 'book-luke', 'book-john');
     elements.modal.classList.add('book-' + reading.book.toLowerCase());
 
-    // Set fade duration based on reading time
+    // Calculate reading time
     const wordCount = countWords(reading.content);
-    const readingTimeMs = calculateReadingTimeMs(wordCount);
-    elements.modal.style.setProperty('--fade-duration', readingTimeMs + 'ms');
+    currentReadingTimeMs = calculateReadingTimeMs(wordCount);
+
+    // Find the tile to check if collected and get read progress
+    const tile = gameState.tiles.find(t => t.pk === pk);
+    const isCollected = tile && tile.isCollected;
+
+    if (isCollected) {
+      // Already collected - show full book color instantly
+      elements.modal.style.setProperty('--fade-duration', '1ms');
+      elements.modal.style.setProperty('--fade-delay', '-1ms');
+      currentStartProgress = 1;
+    } else {
+      // Uncollected - animate from saved progress using negative delay
+      currentStartProgress = (tile && tile.readProgress) || 0;
+      elements.modal.style.setProperty('--fade-duration', currentReadingTimeMs + 'ms');
+      elements.modal.style.setProperty('--fade-delay', (-currentStartProgress * currentReadingTimeMs) + 'ms');
+    }
 
     elements.modal.classList.add('visible');
+
+    // Scroll to top
+    const content = elements.modal.querySelector('.modal-content');
+    if (content) content.scrollTop = 0;
   }
 
   /**
    * Close reading modal
    */
   function closeModal() {
-    // Pause decay for the tile that was being read
     if (currentReadingPk && modalOpenedAt) {
       const tile = gameState.tiles.find(t => t.pk === currentReadingPk && !t.isCollected);
-      if (tile && tile.placedAt) {
+      if (tile) {
         const modalDuration = Date.now() - modalOpenedAt;
-        tile.placedAt += modalDuration;
+
+        // Calculate new read progress
+        const progressGained = currentReadingTimeMs > 0 ? modalDuration / currentReadingTimeMs : 0;
+        const newProgress = Math.min(1, currentStartProgress + progressGained);
+
+        if (newProgress >= 1) {
+          // Fully read - mark as collected
+          tile.isCollected = true;
+          tile.collected = new Date().toISOString();
+          delete tile.placedAt;
+          delete tile.readProgress;
+          renderVisibleHexes();
+          updateStats();
+        } else {
+          // Partially read - save progress and pause decay
+          tile.readProgress = newProgress;
+          if (tile.placedAt) {
+            tile.placedAt += modalDuration;
+          }
+        }
         saveState(gameState);
       }
     }
     currentReadingPk = null;
     modalOpenedAt = null;
+    currentReadingTimeMs = null;
+    currentStartProgress = 0;
     elements.modal.classList.remove('visible');
   }
 
@@ -1311,9 +1355,47 @@ if (typeof window !== 'undefined') {
   }
 
   /**
+   * Apply zoom centered on viewport
+   */
+  function applyZoom(newZoom) {
+    newZoom = Math.min(3, Math.max(0.3, newZoom));
+    if (newZoom === viewportState.zoom) return;
+
+    // Zoom toward viewport center
+    const centerX = viewportState.viewportWidth / 2;
+    const centerY = viewportState.viewportHeight / 2;
+    const zoomChange = newZoom / viewportState.zoom;
+    viewportState.panX = centerX - (centerX - viewportState.panX) * zoomChange;
+    viewportState.panY = centerY - (centerY - viewportState.panY) * zoomChange;
+    viewportState.zoom = newZoom;
+
+    constrainPan();
+    updatePan();
+  }
+
+  /**
    * Handle keyboard shortcuts
    */
   function handleKeyDown(e) {
+    // Override browser zoom: Cmd/Ctrl + Plus/Minus/Zero (blocked when modal open)
+    if ((e.metaKey || e.ctrlKey) && !isModalOpen()) {
+      if (e.key === '=' || e.key === '+') {
+        e.preventDefault();
+        applyZoom(viewportState.zoom * 1.25);
+        return;
+      }
+      if (e.key === '-') {
+        e.preventDefault();
+        applyZoom(viewportState.zoom / 1.25);
+        return;
+      }
+      if (e.key === '0') {
+        e.preventDefault();
+        applyZoom(1);
+        return;
+      }
+    }
+
     // Escape to close modal
     if (e.code === 'Escape' && isModalOpen()) {
       e.preventDefault();
@@ -1332,6 +1414,21 @@ if (typeof window !== 'undefined') {
       e.preventDefault();
       placeNextTile();
     }
+    // Option+M to mark current reading as fully read (testing shortcut)
+    if (e.altKey && e.code === 'KeyM' && isModalOpen() && currentReadingPk) {
+      e.preventDefault();
+      const tile = gameState.tiles.find(t => t.pk === currentReadingPk && !t.isCollected);
+      if (tile) {
+        tile.isCollected = true;
+        tile.collected = new Date().toISOString();
+        delete tile.placedAt;
+        delete tile.readProgress;
+        saveState(gameState);
+        renderVisibleHexes();
+        updateStats();
+      }
+      closeModal();
+    }
     // Option+D to enable 300x fast mode (decay, tile timer, modal fade)
     if (e.altKey && e.code === 'KeyD' && !fastDecay) {
       e.preventDefault();
@@ -1349,23 +1446,26 @@ if (typeof window !== 'undefined') {
       const tileElapsed = now - gameState.lastTilePlacedAt;
       gameState.lastTilePlacedAt = now - tileElapsed / FAST_DECAY_MULTIPLIER;
 
-      // Accelerate modal fade if open
-      if (isModalOpen() && modalOpenedAt) {
-        const reading = gameData.readings[currentReadingPk];
-        if (reading) {
-          const wordCount = countWords(reading.content);
-          const fullDurationMs = calculateReadingTimeMs(wordCount);
+      // Accelerate modal fade if open (only for uncollected)
+      if (isModalOpen() && modalOpenedAt && currentReadingTimeMs) {
+        const tile = gameState.tiles.find(t => t.pk === currentReadingPk && !t.isCollected);
+        if (tile) {
+          // Calculate current progress
           const elapsed = now - modalOpenedAt;
-          const remaining = Math.max(0, fullDurationMs - elapsed);
-          const fastRemaining = remaining / FAST_DECAY_MULTIPLIER;
+          const progressGained = elapsed / currentReadingTimeMs;
+          const currentProgress = Math.min(1, currentStartProgress + progressGained);
 
-          // Restart animation with fast remaining time (starts from opacity 1)
-          elements.modal.style.setProperty('--fade-duration', fastRemaining + 'ms');
+          // Restart animation at current progress with accelerated speed
+          const fastDuration = currentReadingTimeMs / FAST_MODAL_MULTIPLIER;
+          elements.modal.style.setProperty('--fade-duration', fastDuration + 'ms');
+          elements.modal.style.setProperty('--fade-delay', (-currentProgress * fastDuration) + 'ms');
           elements.modal.classList.remove('visible');
           elements.modal.offsetHeight; // Trigger reflow
           elements.modal.classList.add('visible');
 
-          // Adjust modalOpenedAt so decay pause calculation stays correct
+          // Update tracking: we're now at currentProgress, timer restarts
+          currentStartProgress = currentProgress;
+          currentReadingTimeMs = fastDuration;
           modalOpenedAt = now;
         }
       }
@@ -1395,10 +1495,31 @@ if (typeof window !== 'undefined') {
       const tileElapsed = now - gameState.lastTilePlacedAt;
       gameState.lastTilePlacedAt = now - tileElapsed * FAST_DECAY_MULTIPLIER;
 
-      // Restore modal fade duration if open
-      if (isModalOpen()) {
-        const currentDuration = parseFloat(elements.modal.style.getPropertyValue('--fade-duration')) || 200;
-        elements.modal.style.setProperty('--fade-duration', (currentDuration * FAST_DECAY_MULTIPLIER) + 'ms');
+      // Restore modal fade duration if open (only for uncollected)
+      if (isModalOpen() && currentReadingTimeMs) {
+        const tile = gameState.tiles.find(t => t.pk === currentReadingPk && !t.isCollected);
+        if (tile) {
+          // Calculate current progress
+          const elapsed = now - modalOpenedAt;
+          const progressGained = elapsed / currentReadingTimeMs;
+          const currentProgress = Math.min(1, currentStartProgress + progressGained);
+
+          // Restore to normal speed
+          const reading = gameData.readings[currentReadingPk];
+          const wordCount = countWords(reading.content);
+          const normalDuration = calculateReadingTimeMs(wordCount);
+
+          elements.modal.style.setProperty('--fade-duration', normalDuration + 'ms');
+          elements.modal.style.setProperty('--fade-delay', (-currentProgress * normalDuration) + 'ms');
+          elements.modal.classList.remove('visible');
+          elements.modal.offsetHeight; // Trigger reflow
+          elements.modal.classList.add('visible');
+
+          // Update tracking
+          currentStartProgress = currentProgress;
+          currentReadingTimeMs = normalDuration;
+          modalOpenedAt = now;
+        }
       }
 
       fastDecay = false;
@@ -1458,8 +1579,10 @@ if (typeof window !== 'undefined') {
     setupViewport();
     updateGame();
 
-    // Click anywhere on modal (overlay or content) closes it
-    elements.modal.addEventListener('click', closeModal);
+    // Click on overlay background closes modal (not content area)
+    elements.modal.addEventListener('click', (e) => {
+      if (e.target === elements.modal) closeModal();
+    });
 
     // Keyboard shortcuts
     document.addEventListener('keydown', handleKeyDown);
