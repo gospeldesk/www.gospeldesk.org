@@ -165,8 +165,9 @@ body.dragging-tile * {
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  padding-top: 20%;
   cursor: pointer;
   position: relative;
   transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s, filter 0.2s;
@@ -176,6 +177,10 @@ body.dragging-tile * {
 
 .tile.collected {
   cursor: grab;
+  background-image: url('tiles.webp');
+  background-size: 100% 600%;  /* 6 sprites tall */
+  background-position: 0 -200%;  /* 3rd sprite (index 2) */
+  color: var(--black);
 }
 
 .tile.collected:active {
@@ -189,10 +194,10 @@ body.dragging-tile * {
 }
 
 /* Book colors */
-.tile.book-matthew { background: var(--gold); color: var(--white); }
-.tile.book-mark { background: var(--red); color: var(--white); }
-.tile.book-luke { background: var(--green); color: var(--white); }
-.tile.book-john { background: var(--blue); color: var(--white); }
+.tile.book-matthew { background-color: var(--gold); color: var(--white); }
+.tile.book-mark { background-color: var(--red); color: var(--white); }
+.tile.book-luke { background-color: var(--green); color: var(--white); }
+.tile.book-john { background-color: var(--blue); color: var(--white); }
 
 /* Tile content */
 .tile-title {
@@ -209,6 +214,20 @@ body.dragging-tile * {
   font-size: 6px;
   opacity: 0.8;
   text-align: center;
+}
+
+/* Inset text effect */
+.tile-title,
+.tile-ref {
+  background-color: #000;
+  color: transparent;
+  text-shadow: 0px 0px 2px rgba(255,255,255,0.5);
+  background-clip: text;
+}
+
+/* Hide title on uncollected tiles */
+.tile.uncollected .tile-title {
+  display: none;
 }
 
 /* Stack badge */
