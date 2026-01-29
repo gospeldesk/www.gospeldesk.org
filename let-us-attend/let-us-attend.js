@@ -529,11 +529,16 @@ if (typeof window !== 'undefined') {
     title.textContent = reading.title;
     tile.appendChild(title);
 
-    // Reference text
+    // Reference text (hidden but kept for accessibility)
     const ref = document.createElement('div');
     ref.className = 'tile-ref';
     ref.textContent = reading.ref;
     tile.appendChild(ref);
+
+    // Book seal
+    const seal = document.createElement('div');
+    seal.className = 'tile-seal seal-' + reading.book.toLowerCase();
+    tile.appendChild(seal);
 
     if (isAvailable) {
       tile.classList.add('available');

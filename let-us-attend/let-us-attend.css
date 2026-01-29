@@ -167,7 +167,7 @@ body.dragging-tile * {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 20%;
+  padding-top: 25%;
   cursor: pointer;
   position: relative;
   transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s, filter 0.2s;
@@ -211,9 +211,7 @@ body.dragging-tile * {
 }
 
 .tile-ref {
-  font-size: 6px;
-  opacity: 0.8;
-  text-align: center;
+  display: none;
 }
 
 /* Inset text effect */
@@ -225,10 +223,29 @@ body.dragging-tile * {
   background-clip: text;
 }
 
-/* Hide title on uncollected tiles */
-.tile.uncollected .tile-title {
+/* Hide title and seal on uncollected tiles */
+.tile.uncollected .tile-title,
+.tile.uncollected .tile-seal {
   display: none;
 }
+
+/* Book seal - 12mm on 1-inch hex ≈ 47% of tile size */
+/* Sprite: 4 square seals stacked vertically */
+.tile-seal {
+  position: absolute;
+  bottom: 8%;
+  width: 40%;
+  aspect-ratio: 1;
+  background-image: url('seals.webp');
+  background-size: 100% 400%;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+.seal-matthew { background-position: center 0%; }
+.seal-mark { background-position: center 33.33%; }
+.seal-luke { background-position: center 66.67%; }
+.seal-john { background-position: center 100%; }
 
 /* Stack badge */
 .stack-badge {
