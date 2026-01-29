@@ -1378,21 +1378,21 @@ if (typeof window !== 'undefined') {
    * Handle keyboard shortcuts
    */
   function handleKeyDown(e) {
-    // Override browser zoom: Cmd/Ctrl + Plus/Minus/Zero (blocked when modal open)
-    if ((e.metaKey || e.ctrlKey) && !isModalOpen()) {
+    // Override browser zoom: Cmd/Ctrl + Plus/Minus/Zero
+    if ((e.metaKey || e.ctrlKey)) {
       if (e.key === '=' || e.key === '+') {
         e.preventDefault();
-        applyZoom(viewportState.zoom * 1.25);
+        if (!isModalOpen()) applyZoom(viewportState.zoom * 1.25);
         return;
       }
       if (e.key === '-') {
         e.preventDefault();
-        applyZoom(viewportState.zoom / 1.25);
+        if (!isModalOpen()) applyZoom(viewportState.zoom / 1.25);
         return;
       }
       if (e.key === '0') {
         e.preventDefault();
-        applyZoom(1);
+        if (!isModalOpen()) applyZoom(1);
         return;
       }
     }
