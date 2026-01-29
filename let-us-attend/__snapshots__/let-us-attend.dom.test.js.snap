@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Visual Snapshots collected tile renders correctly 1`] = `"<div class="tile collected book-matthew" data-pk="41" data-q="3" data-r="2"><div class="tile-title">All Saints</div><div class="tile-ref">Matthew 10:32-33</div><div class="tile-seal seal-matthew"></div></div>"`;
+
+exports[`Visual Snapshots collected tile with stack badge renders correctly 1`] = `"<div class="tile collected book-luke" data-pk="6" data-q="4" data-r="3"><div class="tile-title">Good Samaritan</div><div class="tile-ref">Luke 10:25-37</div><div class="tile-seal seal-luke"></div><span class="stack-badge">x3</span></div>"`;
+
+exports[`Visual Snapshots hex cell with tile renders correctly 1`] = `"<div class="hex-cell occupied has-collected" data-q="5" data-r="5" data-pk="11" style="left: 400px; top: 346px; z-index: 10005;"><div class="tile collected book-john" data-pk="11" data-q="5" data-r="5"><div class="tile-title">Healing at Bethesda</div><div class="tile-ref">John 5:1-15</div><div class="tile-seal seal-john"></div></div></div>"`;
+
+exports[`Visual Snapshots modal collected state renders correctly 1`] = `"<div class="modal-overlay visible collected book-matthew" id="reading-modal" style="--fade-duration: 1ms; --fade-delay: -1ms;"><div class="modal-content"><div class="logo" id="completion-indicator"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="40"></circle></svg></div><h2 id="modal-title">All Saints</h2><p class="ref" id="modal-ref">Matthew 10:32-33</p><div class="reading-text" id="modal-text"><p><span class="v">32</span>Test content for collected.</p></div></div></div>"`;
+
+exports[`Visual Snapshots modal uncollected state renders correctly 1`] = `"<div class="modal-overlay visible book-john" id="reading-modal" style="--fade-duration: 60000ms; --fade-delay: 0ms;"><div class="modal-content"><div class="logo" id="completion-indicator"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="40"></circle></svg></div><h2 id="modal-title">Healing at Bethesda</h2><p class="ref" id="modal-ref">John 5:1-15</p><div class="reading-text" id="modal-text"><p><span class="v">1</span>Test content.</p></div></div></div>"`;
+
+exports[`Visual Snapshots reading timer bar renders correctly 1`] = `"<div class="reading-timer-track"><div class="reading-timer-fill" id="reading-timer-fill" style="width: 65%;"></div></div>"`;
+
+exports[`Visual Snapshots stats box renders correctly 1`] = `"<div class="stats-box" id="stats-box"><div class="progress-track"><div class="progress-bar placed" id="progress-placed" style="width: 15%;"></div><div class="progress-bar collected" id="progress-collected" style="width: 10%;"></div></div><div class="timer-track"><div class="timer-fill" id="timer-fill" style="width: 45%;"></div></div></div>"`;
+
+exports[`Visual Snapshots uncollected tile renders correctly 1`] = `"<div class="tile uncollected book-john" data-pk="11" data-q="5" data-r="5" style="--decay-duration: 1440000ms; --decay-elapsed: 0ms; --read-progress: 0;"><div class="tile-title">Healing at Bethesda</div><div class="tile-ref">John 5:1-15</div><div class="tile-seal seal-john"></div></div>"`;

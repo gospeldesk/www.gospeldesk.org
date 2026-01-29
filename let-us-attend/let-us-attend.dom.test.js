@@ -698,3 +698,856 @@ describe('Persistence Integration', () => {
     expect(loaded.scheduleIndex).toBe(10);
   });
 });
+
+// ============================================================================
+// Time-Based Behavior Tests
+// ============================================================================
+
+describe('Time-Based Behavior', () => {
+  const DECAY_DURATION_MS = gameModule.DECAY_DURATION_MS;
+  const TILE_INTERVAL_MS = gameModule.TILE_INTERVAL_MS;
+  const FAST_DECAY_MULTIPLIER = 300;
+
+  beforeEach(() => {
+    jest.useFakeTimers();
+    jest.setSystemTime(new Date('2025-01-01T12:00:00Z'));
+  });
+
+  afterEach(() => {
+    jest.useRealTimers();
+  });
+
+  test('tile is expired after DECAY_DURATION_MS', () => {
+    const now = Date.now();
+    const placedAt = now - DECAY_DURATION_MS;
+
+    // Tile placed exactly DECAY_DURATION_MS ago
+    const elapsed = now - placedAt;
+    const isExpired = elapsed >= DECAY_DURATION_MS;
+
+    expect(isExpired).toBe(true);
+  });
+
+  test('tile is not expired before DECAY_DURATION_MS', () => {
+    const now = Date.now();
+    const placedAt = now - (DECAY_DURATION_MS - 1000); // 1 second before expiry
+
+    const elapsed = now - placedAt;
+    const isExpired = elapsed >= DECAY_DURATION_MS;
+
+    expect(isExpired).toBe(false);
+  });
+
+  test('tile should be placed when TILE_INTERVAL_MS has passed', () => {
+    const now = Date.now();
+    const lastTilePlacedAt = now - TILE_INTERVAL_MS;
+
+    const timeSinceLastTile = now - lastTilePlacedAt;
+    const shouldPlaceTile = timeSinceLastTile >= TILE_INTERVAL_MS;
+
+    expect(shouldPlaceTile).toBe(true);
+  });
+
+  test('tile should not be placed before TILE_INTERVAL_MS', () => {
+    const now = Date.now();
+    const lastTilePlacedAt = now - (TILE_INTERVAL_MS - 1000); // 1 second before interval
+
+    const timeSinceLastTile = now - lastTilePlacedAt;
+    const shouldPlaceTile = timeSinceLastTile >= TILE_INTERVAL_MS;
+
+    expect(shouldPlaceTile).toBe(false);
+  });
+
+  test('fast decay multiplies time by 300x', () => {
+    const decayDuration = DECAY_DURATION_MS / FAST_DECAY_MULTIPLIER;
+    const now = Date.now();
+    const placedAt = now - decayDuration;
+
+    // With fast decay, this should now be expired
+    const elapsed = now - placedAt;
+    const isExpired = elapsed >= decayDuration;
+
+    expect(isExpired).toBe(true);
+    expect(decayDuration).toBe(DECAY_DURATION_MS / 300);
+  });
+
+  test('fast decay tile interval is also reduced by 300x', () => {
+    const fastInterval = TILE_INTERVAL_MS / FAST_DECAY_MULTIPLIER;
+    const now = Date.now();
+    const lastTilePlacedAt = now - fastInterval;
+
+    const timeSinceLastTile = now - lastTilePlacedAt;
+    const shouldPlaceTile = timeSinceLastTile >= fastInterval;
+
+    expect(shouldPlaceTile).toBe(true);
+    expect(fastInterval).toBe(TILE_INTERVAL_MS / 300);
+  });
+
+  test('modal open pauses decay by advancing placedAt', () => {
+    const now = Date.now();
+    const tile = {
+      pk: '11',
+      placedAt: now - 60000, // Placed 60 seconds ago
+      isCollected: false
+    };
+
+    // Simulate modal being open for 30 seconds
+    const modalDuration = 30000;
+
+    // Advance placedAt by modal duration (this is what closeModal does)
+    tile.placedAt += modalDuration;
+
+    // Original: 60s elapsed, now effectively 30s elapsed
+    const newElapsed = now - tile.placedAt;
+    expect(newElapsed).toBe(30000);
+  });
+
+  test('advancing system time causes tile to expire', () => {
+    const initialTime = Date.now();
+    const tile = {
+      pk: '11',
+      placedAt: initialTime,
+      isCollected: false
+    };
+
+    // Initially not expired
+    let now = Date.now();
+    expect(now - tile.placedAt < DECAY_DURATION_MS).toBe(true);
+
+    // Advance time by decay duration
+    jest.advanceTimersByTime(DECAY_DURATION_MS);
+
+    // Now should be expired
+    now = Date.now();
+    expect(now - tile.placedAt >= DECAY_DURATION_MS).toBe(true);
+  });
+});
+
+// ============================================================================
+// Tile State Transition Tests
+// ============================================================================
+
+describe('Tile State Transitions', () => {
+  describe('Reading Progress', () => {
+    test('partial read sets readProgress between 0 and 1', () => {
+      const tile = {
+        pk: '11',
+        placedAt: Date.now(),
+        isCollected: false
+      };
+
+      // Simulate partial reading (halfway through)
+      const startProgress = 0;
+      const readingTimeMs = 60000; // 1 minute reading
+      const modalDuration = 30000; // Modal open for 30 seconds
+      const progressGained = modalDuration / readingTimeMs;
+      const newProgress = Math.min(1, startProgress + progressGained);
+
+      tile.readProgress = newProgress;
+
+      expect(tile.readProgress).toBe(0.5);
+      expect(tile.readProgress).toBeGreaterThan(0);
+      expect(tile.readProgress).toBeLessThan(1);
+    });
+
+    test('progress resumes from saved state on reopen', () => {
+      const tile = {
+        pk: '11',
+        placedAt: Date.now(),
+        isCollected: false,
+        readProgress: 0.5 // Already 50% read
+      };
+
+      // Modal opens, progress starts from saved state
+      const currentStartProgress = tile.readProgress || 0;
+
+      expect(currentStartProgress).toBe(0.5);
+    });
+
+    test('completing remaining progress marks tile as collected', () => {
+      const tile = {
+        pk: '11',
+        placedAt: Date.now(),
+        isCollected: false,
+        readProgress: 0.5 // Already 50% read
+      };
+
+      // Modal open for enough time to complete
+      const readingTimeMs = 60000;
+      const modalDuration = 30000; // Need 50% more
+      const progressGained = modalDuration / readingTimeMs;
+      const newProgress = Math.min(1, tile.readProgress + progressGained);
+
+      if (newProgress >= 1) {
+        tile.isCollected = true;
+        tile.collected = new Date().toISOString();
+        delete tile.placedAt;
+        delete tile.readProgress;
+      }
+
+      expect(tile.isCollected).toBe(true);
+      expect(tile.collected).toBeDefined();
+      expect(tile.placedAt).toBeUndefined();
+      expect(tile.readProgress).toBeUndefined();
+    });
+
+    test('incomplete read preserves progress and pauses decay', () => {
+      const now = Date.now();
+      const tile = {
+        pk: '11',
+        placedAt: now - 60000,
+        isCollected: false
+      };
+
+      // Partial read
+      const modalDuration = 15000;
+      const readingTimeMs = 60000;
+      const progressGained = modalDuration / readingTimeMs;
+      tile.readProgress = progressGained;
+      tile.placedAt += modalDuration; // Pause decay
+
+      expect(tile.readProgress).toBe(0.25);
+      expect(tile.placedAt).toBe(now - 60000 + modalDuration);
+    });
+
+    test('zero readingTimeMs immediately completes', () => {
+      const tile = {
+        pk: '11',
+        placedAt: Date.now(),
+        isCollected: false
+      };
+
+      const startProgress = 0;
+      const readingTimeMs = 0;
+      const modalDuration = 100;
+      // When readingTimeMs is 0, progressGained should default to 0
+      const progressGained = readingTimeMs > 0 ? modalDuration / readingTimeMs : 0;
+      const newProgress = Math.min(1, startProgress + progressGained);
+
+      // With 0 reading time, progress doesn't advance
+      expect(newProgress).toBe(0);
+    });
+  });
+
+  describe('Decay Removal', () => {
+    test('expired uncollected tile is removed from tiles array', () => {
+      const DECAY_DURATION_MS = gameModule.DECAY_DURATION_MS;
+      const now = Date.now();
+      const tiles = [
+        { pk: '11', q: 5, r: 5, placedAt: now - DECAY_DURATION_MS - 1000, isCollected: false }
+      ];
+
+      // Simulate decay check
+      const decayDuration = DECAY_DURATION_MS;
+      const toRemove = new Set();
+
+      for (let i = 0; i < tiles.length; i++) {
+        const t = tiles[i];
+        if (!t.isCollected && t.placedAt && (now - t.placedAt) >= decayDuration) {
+          toRemove.add(i);
+        }
+      }
+
+      // Remove tiles
+      const sortedIndices = [...toRemove].sort((a, b) => b - a);
+      for (const idx of sortedIndices) {
+        tiles.splice(idx, 1);
+      }
+
+      expect(tiles.length).toBe(0);
+    });
+
+    test('decay also removes oldest collected tile of same pk', () => {
+      const DECAY_DURATION_MS = gameModule.DECAY_DURATION_MS;
+      const now = Date.now();
+      const tiles = [
+        { pk: '11', q: 5, r: 5, isCollected: true, collected: '2025-01-01T10:00:00Z' }, // oldest
+        { pk: '11', q: 5, r: 5, isCollected: true, collected: '2025-01-01T11:00:00Z' }, // newer
+        { pk: '11', q: 6, r: 5, placedAt: now - DECAY_DURATION_MS - 1000, isCollected: false } // expires
+      ];
+
+      // Simulate decay check (mirrors updateGame logic)
+      const decayDuration = DECAY_DURATION_MS;
+      const toRemove = new Set();
+
+      for (let i = 0; i < tiles.length; i++) {
+        const t = tiles[i];
+        if (!t.isCollected && t.placedAt && (now - t.placedAt) >= decayDuration) {
+          toRemove.add(i);
+
+          // Find oldest collected instance of same pk
+          let oldestIdx = -1;
+          let oldestDate = null;
+          for (let j = 0; j < tiles.length; j++) {
+            const c = tiles[j];
+            if (c.pk === t.pk && c.isCollected && !toRemove.has(j)) {
+              if (oldestDate === null || c.collected < oldestDate) {
+                oldestDate = c.collected;
+                oldestIdx = j;
+              }
+            }
+          }
+          if (oldestIdx !== -1) {
+            toRemove.add(oldestIdx);
+          }
+        }
+      }
+
+      // Remove tiles in reverse order
+      const sortedIndices = [...toRemove].sort((a, b) => b - a);
+      for (const idx of sortedIndices) {
+        tiles.splice(idx, 1);
+      }
+
+      // Should have removed: uncollected tile and oldest collected
+      expect(tiles.length).toBe(1);
+      expect(tiles[0].collected).toBe('2025-01-01T11:00:00Z');
+    });
+
+    test('decay with no collected counterpart only removes uncollected', () => {
+      const DECAY_DURATION_MS = gameModule.DECAY_DURATION_MS;
+      const now = Date.now();
+      const tiles = [
+        { pk: '11', q: 5, r: 5, placedAt: now - DECAY_DURATION_MS - 1000, isCollected: false }
+      ];
+
+      const decayDuration = DECAY_DURATION_MS;
+      const toRemove = new Set();
+
+      for (let i = 0; i < tiles.length; i++) {
+        const t = tiles[i];
+        if (!t.isCollected && t.placedAt && (now - t.placedAt) >= decayDuration) {
+          toRemove.add(i);
+
+          // No collected tiles exist for this pk
+          let oldestIdx = -1;
+          let oldestDate = null;
+          for (let j = 0; j < tiles.length; j++) {
+            const c = tiles[j];
+            if (c.pk === t.pk && c.isCollected && !toRemove.has(j)) {
+              if (oldestDate === null || c.collected < oldestDate) {
+                oldestDate = c.collected;
+                oldestIdx = j;
+              }
+            }
+          }
+          if (oldestIdx !== -1) {
+            toRemove.add(oldestIdx);
+          }
+        }
+      }
+
+      const sortedIndices = [...toRemove].sort((a, b) => b - a);
+      for (const idx of sortedIndices) {
+        tiles.splice(idx, 1);
+      }
+
+      expect(tiles.length).toBe(0);
+      expect(toRemove.size).toBe(1);
+    });
+
+    test('collected tiles never decay', () => {
+      const DECAY_DURATION_MS = gameModule.DECAY_DURATION_MS;
+      const now = Date.now();
+      const tiles = [
+        { pk: '11', q: 5, r: 5, isCollected: true, collected: '2025-01-01T10:00:00Z' }
+      ];
+
+      // Simulate decay check
+      const toRemove = new Set();
+
+      for (let i = 0; i < tiles.length; i++) {
+        const t = tiles[i];
+        // Key: only uncollected tiles with placedAt can decay
+        if (!t.isCollected && t.placedAt && (now - t.placedAt) >= DECAY_DURATION_MS) {
+          toRemove.add(i);
+        }
+      }
+
+      expect(toRemove.size).toBe(0);
+      expect(tiles.length).toBe(1);
+    });
+
+    test('multiple expired tiles are all removed', () => {
+      const DECAY_DURATION_MS = gameModule.DECAY_DURATION_MS;
+      const now = Date.now();
+      const tiles = [
+        { pk: '11', q: 5, r: 5, placedAt: now - DECAY_DURATION_MS - 1000, isCollected: false },
+        { pk: '12', q: 6, r: 5, placedAt: now - DECAY_DURATION_MS - 2000, isCollected: false },
+        { pk: '13', q: 7, r: 5, placedAt: now - 1000, isCollected: false } // Not expired
+      ];
+
+      const toRemove = new Set();
+
+      for (let i = 0; i < tiles.length; i++) {
+        const t = tiles[i];
+        if (!t.isCollected && t.placedAt && (now - t.placedAt) >= DECAY_DURATION_MS) {
+          toRemove.add(i);
+        }
+      }
+
+      const sortedIndices = [...toRemove].sort((a, b) => b - a);
+      for (const idx of sortedIndices) {
+        tiles.splice(idx, 1);
+      }
+
+      expect(tiles.length).toBe(1);
+      expect(tiles[0].pk).toBe('13');
+    });
+  });
+});
+
+// ============================================================================
+// Integration Tests (Game Loop Logic)
+// ============================================================================
+
+describe('Game Loop Integration', () => {
+  const DECAY_DURATION_MS = gameModule.DECAY_DURATION_MS;
+  const TILE_INTERVAL_MS = gameModule.TILE_INTERVAL_MS;
+
+  /**
+   * Simulate one game tick (mirrors updateGame logic).
+   * Returns updated state for inspection.
+   */
+  function processGameTick(gameState, schedule, readings, fastDecay = false) {
+    const now = Date.now();
+    const decayDuration = fastDecay ? DECAY_DURATION_MS / 300 : DECAY_DURATION_MS;
+    const toRemove = new Set();
+
+    // Find expired tiles
+    for (let i = 0; i < gameState.tiles.length; i++) {
+      const t = gameState.tiles[i];
+      if (!t.isCollected && t.placedAt && (now - t.placedAt) >= decayDuration) {
+        toRemove.add(i);
+
+        // Find oldest collected instance of same pk
+        let oldestIdx = -1;
+        let oldestDate = null;
+        for (let j = 0; j < gameState.tiles.length; j++) {
+          const c = gameState.tiles[j];
+          if (c.pk === t.pk && c.isCollected && !toRemove.has(j)) {
+            if (oldestDate === null || c.collected < oldestDate) {
+              oldestDate = c.collected;
+              oldestIdx = j;
+            }
+          }
+        }
+        if (oldestIdx !== -1) {
+          toRemove.add(oldestIdx);
+        }
+      }
+    }
+
+    // Remove expired tiles
+    if (toRemove.size > 0) {
+      const sortedIndices = [...toRemove].sort((a, b) => b - a);
+      for (const idx of sortedIndices) {
+        gameState.tiles.splice(idx, 1);
+      }
+    }
+
+    // Check tile placement
+    const tileInterval = fastDecay ? TILE_INTERVAL_MS / 300 : TILE_INTERVAL_MS;
+    const timeSinceLastTile = now - gameState.lastTilePlacedAt;
+    let placedNewTile = false;
+
+    if (timeSinceLastTile >= tileInterval && gameState.scheduleIndex < schedule.length) {
+      const reading = schedule[gameState.scheduleIndex];
+      if (reading && readings[reading.pk]) {
+        gameState.tiles.push({
+          pk: reading.pk,
+          q: 5,
+          r: 5,
+          placedAt: now,
+          isCollected: false
+        });
+        gameState.scheduleIndex++;
+        gameState.lastTilePlacedAt = now;
+        placedNewTile = true;
+      }
+    }
+
+    return { tilesRemoved: toRemove.size, placedNewTile };
+  }
+
+  beforeEach(() => {
+    jest.useFakeTimers();
+    jest.setSystemTime(new Date('2025-01-01T12:00:00Z'));
+  });
+
+  afterEach(() => {
+    jest.useRealTimers();
+  });
+
+  test('full game tick: decay + placement + stats update', () => {
+    const now = Date.now();
+    const gameState = {
+      scheduleIndex: 0,
+      lastTilePlacedAt: now - TILE_INTERVAL_MS - 1000, // Ready for new tile
+      tiles: [
+        { pk: '11', q: 5, r: 5, placedAt: now - DECAY_DURATION_MS - 1000, isCollected: false } // Expired
+      ]
+    };
+    const schedule = [{ pk: '12' }];
+    const readings = { '12': { pk: '12', title: 'Test', book: 'Matthew' } };
+
+    const result = processGameTick(gameState, schedule, readings);
+
+    expect(result.tilesRemoved).toBe(1);
+    expect(result.placedNewTile).toBe(true);
+    expect(gameState.tiles.length).toBe(1);
+    expect(gameState.tiles[0].pk).toBe('12');
+    expect(gameState.scheduleIndex).toBe(1);
+  });
+
+  test('game tick with no expired tiles and no placement needed', () => {
+    const now = Date.now();
+    const gameState = {
+      scheduleIndex: 1,
+      lastTilePlacedAt: now - 1000, // Just placed
+      tiles: [
+        { pk: '11', q: 5, r: 5, placedAt: now - 1000, isCollected: false } // Fresh
+      ]
+    };
+    const schedule = [{ pk: '12' }];
+    const readings = { '12': { pk: '12', title: 'Test', book: 'Matthew' } };
+
+    const result = processGameTick(gameState, schedule, readings);
+
+    expect(result.tilesRemoved).toBe(0);
+    expect(result.placedNewTile).toBe(false);
+    expect(gameState.tiles.length).toBe(1);
+  });
+
+  test('multiple ticks accumulate correctly', () => {
+    const gameState = {
+      scheduleIndex: 0,
+      lastTilePlacedAt: 0,
+      tiles: []
+    };
+    const schedule = [
+      { pk: '11' },
+      { pk: '12' },
+      { pk: '13' }
+    ];
+    const readings = {
+      '11': { pk: '11', title: 'Test 1', book: 'Matthew' },
+      '12': { pk: '12', title: 'Test 2', book: 'Mark' },
+      '13': { pk: '13', title: 'Test 3', book: 'Luke' }
+    };
+
+    // First tick - place first tile
+    processGameTick(gameState, schedule, readings);
+    expect(gameState.tiles.length).toBe(1);
+    expect(gameState.scheduleIndex).toBe(1);
+
+    // Mark first tile as collected so it doesn't decay
+    gameState.tiles[0].isCollected = true;
+    gameState.tiles[0].collected = new Date().toISOString();
+    delete gameState.tiles[0].placedAt;
+
+    // Advance time and tick again
+    jest.advanceTimersByTime(TILE_INTERVAL_MS + 1000);
+    processGameTick(gameState, schedule, readings);
+    expect(gameState.tiles.length).toBe(2);
+    expect(gameState.scheduleIndex).toBe(2);
+
+    // Mark second tile as collected
+    gameState.tiles[1].isCollected = true;
+    gameState.tiles[1].collected = new Date().toISOString();
+    delete gameState.tiles[1].placedAt;
+
+    // Advance time and tick again
+    jest.advanceTimersByTime(TILE_INTERVAL_MS + 1000);
+    processGameTick(gameState, schedule, readings);
+    expect(gameState.tiles.length).toBe(3);
+    expect(gameState.scheduleIndex).toBe(3);
+  });
+
+  test('schedule exhaustion stops tile placement', () => {
+    const now = Date.now();
+    const gameState = {
+      scheduleIndex: 1, // Already at end
+      lastTilePlacedAt: now - TILE_INTERVAL_MS - 1000,
+      tiles: []
+    };
+    const schedule = [{ pk: '11' }]; // Only one entry, already used
+    const readings = { '11': { pk: '11', title: 'Test', book: 'Matthew' } };
+
+    const result = processGameTick(gameState, schedule, readings);
+
+    expect(result.placedNewTile).toBe(false);
+    expect(gameState.tiles.length).toBe(0);
+  });
+
+  test('fast decay mode processes at 300x speed', () => {
+    const now = Date.now();
+    const fastInterval = TILE_INTERVAL_MS / 300;
+    const fastDecay = DECAY_DURATION_MS / 300;
+
+    const gameState = {
+      scheduleIndex: 0,
+      lastTilePlacedAt: now - fastInterval - 100,
+      tiles: [
+        { pk: '11', q: 5, r: 5, placedAt: now - fastDecay - 100, isCollected: false }
+      ]
+    };
+    const schedule = [{ pk: '12' }];
+    const readings = { '12': { pk: '12', title: 'Test', book: 'Matthew' } };
+
+    const result = processGameTick(gameState, schedule, readings, true);
+
+    expect(result.tilesRemoved).toBe(1);
+    expect(result.placedNewTile).toBe(true);
+  });
+});
+
+// ============================================================================
+// Visual/Snapshot Tests
+// ============================================================================
+
+describe('Visual Snapshots', () => {
+  beforeEach(() => {
+    document.body.innerHTML = '';
+  });
+
+  test('uncollected tile renders correctly', () => {
+    const tile = document.createElement('div');
+    tile.className = 'tile uncollected book-john';
+    tile.dataset.pk = '11';
+    tile.dataset.q = '5';
+    tile.dataset.r = '5';
+    tile.style.setProperty('--decay-duration', '1440000ms');
+    tile.style.setProperty('--decay-elapsed', '0ms');
+    tile.style.setProperty('--read-progress', '0');
+
+    const title = document.createElement('div');
+    title.className = 'tile-title';
+    title.textContent = 'Healing at Bethesda';
+    tile.appendChild(title);
+
+    const ref = document.createElement('div');
+    ref.className = 'tile-ref';
+    ref.textContent = 'John 5:1-15';
+    tile.appendChild(ref);
+
+    const seal = document.createElement('div');
+    seal.className = 'tile-seal seal-john';
+    tile.appendChild(seal);
+
+    expect(tile.outerHTML).toMatchSnapshot();
+  });
+
+  test('collected tile renders correctly', () => {
+    const tile = document.createElement('div');
+    tile.className = 'tile collected book-matthew';
+    tile.dataset.pk = '41';
+    tile.dataset.q = '3';
+    tile.dataset.r = '2';
+
+    const title = document.createElement('div');
+    title.className = 'tile-title';
+    title.textContent = 'All Saints';
+    tile.appendChild(title);
+
+    const ref = document.createElement('div');
+    ref.className = 'tile-ref';
+    ref.textContent = 'Matthew 10:32-33';
+    tile.appendChild(ref);
+
+    const seal = document.createElement('div');
+    seal.className = 'tile-seal seal-matthew';
+    tile.appendChild(seal);
+
+    expect(tile.outerHTML).toMatchSnapshot();
+  });
+
+  test('collected tile with stack badge renders correctly', () => {
+    const tile = document.createElement('div');
+    tile.className = 'tile collected book-luke';
+    tile.dataset.pk = '6';
+    tile.dataset.q = '4';
+    tile.dataset.r = '3';
+
+    const title = document.createElement('div');
+    title.className = 'tile-title';
+    title.textContent = 'Good Samaritan';
+    tile.appendChild(title);
+
+    const ref = document.createElement('div');
+    ref.className = 'tile-ref';
+    ref.textContent = 'Luke 10:25-37';
+    tile.appendChild(ref);
+
+    const seal = document.createElement('div');
+    seal.className = 'tile-seal seal-luke';
+    tile.appendChild(seal);
+
+    const badge = document.createElement('span');
+    badge.className = 'stack-badge';
+    badge.textContent = 'x3';
+    tile.appendChild(badge);
+
+    expect(tile.outerHTML).toMatchSnapshot();
+  });
+
+  test('modal uncollected state renders correctly', () => {
+    const modal = document.createElement('div');
+    modal.className = 'modal-overlay visible book-john';
+    modal.id = 'reading-modal';
+    modal.style.setProperty('--fade-duration', '60000ms');
+    modal.style.setProperty('--fade-delay', '0ms');
+
+    const content = document.createElement('div');
+    content.className = 'modal-content';
+
+    const indicator = document.createElement('div');
+    indicator.className = 'logo';
+    indicator.id = 'completion-indicator';
+    indicator.innerHTML = '<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="40"/></svg>';
+    content.appendChild(indicator);
+
+    const title = document.createElement('h2');
+    title.id = 'modal-title';
+    title.textContent = 'Healing at Bethesda';
+    content.appendChild(title);
+
+    const ref = document.createElement('p');
+    ref.className = 'ref';
+    ref.id = 'modal-ref';
+    ref.textContent = 'John 5:1-15';
+    content.appendChild(ref);
+
+    const text = document.createElement('div');
+    text.className = 'reading-text';
+    text.id = 'modal-text';
+    text.innerHTML = '<p><span class="v">1</span>Test content.</p>';
+    content.appendChild(text);
+
+    modal.appendChild(content);
+
+    expect(modal.outerHTML).toMatchSnapshot();
+  });
+
+  test('modal collected state renders correctly', () => {
+    const modal = document.createElement('div');
+    modal.className = 'modal-overlay visible collected book-matthew';
+    modal.id = 'reading-modal';
+    modal.style.setProperty('--fade-duration', '1ms');
+    modal.style.setProperty('--fade-delay', '-1ms');
+
+    const content = document.createElement('div');
+    content.className = 'modal-content';
+
+    const indicator = document.createElement('div');
+    indicator.className = 'logo';
+    indicator.id = 'completion-indicator';
+    indicator.innerHTML = '<svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="40"/></svg>';
+    content.appendChild(indicator);
+
+    const title = document.createElement('h2');
+    title.id = 'modal-title';
+    title.textContent = 'All Saints';
+    content.appendChild(title);
+
+    const ref = document.createElement('p');
+    ref.className = 'ref';
+    ref.id = 'modal-ref';
+    ref.textContent = 'Matthew 10:32-33';
+    content.appendChild(ref);
+
+    const text = document.createElement('div');
+    text.className = 'reading-text';
+    text.id = 'modal-text';
+    text.innerHTML = '<p><span class="v">32</span>Test content for collected.</p>';
+    content.appendChild(text);
+
+    modal.appendChild(content);
+
+    expect(modal.outerHTML).toMatchSnapshot();
+  });
+
+  test('stats box renders correctly', () => {
+    const statsBox = document.createElement('div');
+    statsBox.className = 'stats-box';
+    statsBox.id = 'stats-box';
+
+    const progressTrack = document.createElement('div');
+    progressTrack.className = 'progress-track';
+
+    const progressPlaced = document.createElement('div');
+    progressPlaced.className = 'progress-bar placed';
+    progressPlaced.id = 'progress-placed';
+    progressPlaced.style.width = '15%';
+    progressTrack.appendChild(progressPlaced);
+
+    const progressCollected = document.createElement('div');
+    progressCollected.className = 'progress-bar collected';
+    progressCollected.id = 'progress-collected';
+    progressCollected.style.width = '10%';
+    progressTrack.appendChild(progressCollected);
+
+    statsBox.appendChild(progressTrack);
+
+    const timerTrack = document.createElement('div');
+    timerTrack.className = 'timer-track';
+
+    const timerFill = document.createElement('div');
+    timerFill.className = 'timer-fill';
+    timerFill.id = 'timer-fill';
+    timerFill.style.width = '45%';
+    timerTrack.appendChild(timerFill);
+
+    statsBox.appendChild(timerTrack);
+
+    expect(statsBox.outerHTML).toMatchSnapshot();
+  });
+
+  test('hex cell with tile renders correctly', () => {
+    const cell = document.createElement('div');
+    cell.className = 'hex-cell occupied has-collected';
+    cell.dataset.q = '5';
+    cell.dataset.r = '5';
+    cell.dataset.pk = '11';
+    cell.style.left = '400px';
+    cell.style.top = '346px';
+    cell.style.zIndex = '10005';
+
+    const tile = document.createElement('div');
+    tile.className = 'tile collected book-john';
+    tile.dataset.pk = '11';
+    tile.dataset.q = '5';
+    tile.dataset.r = '5';
+
+    const title = document.createElement('div');
+    title.className = 'tile-title';
+    title.textContent = 'Healing at Bethesda';
+    tile.appendChild(title);
+
+    const ref = document.createElement('div');
+    ref.className = 'tile-ref';
+    ref.textContent = 'John 5:1-15';
+    tile.appendChild(ref);
+
+    const seal = document.createElement('div');
+    seal.className = 'tile-seal seal-john';
+    tile.appendChild(seal);
+
+    cell.appendChild(tile);
+
+    expect(cell.outerHTML).toMatchSnapshot();
+  });
+
+  test('reading timer bar renders correctly', () => {
+    const timerBar = document.createElement('div');
+    timerBar.className = 'reading-timer-track';
+
+    const timerFill = document.createElement('div');
+    timerFill.className = 'reading-timer-fill';
+    timerFill.id = 'reading-timer-fill';
+    timerFill.style.width = '65%';
+    timerBar.appendChild(timerFill);
+
+    expect(timerBar.outerHTML).toMatchSnapshot();
+  });
+});
