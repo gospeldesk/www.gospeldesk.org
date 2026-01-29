@@ -11,6 +11,27 @@ const READING_WPM = 200; // Words per minute for reading time calculation
 
 const STORAGE_KEY = 'let-us-attend';
 
+// Board constants - fixed size canvas with background
+const BOARD_TILES_WIDE = 64;
+const BOARD_SIZE_PX = 4096; // 64 tiles at 64px each
+
+/**
+ * Check if hex coordinates are within the board bounds.
+ * Board is BOARD_SIZE_PX x BOARD_SIZE_PX pixels.
+ *
+ * @param {number} q - Column coordinate
+ * @param {number} r - Row coordinate
+ * @param {number} tileSize - Width of hexagon (default 80)
+ * @returns {boolean} True if position is on the board
+ */
+function isOnBoard(q, r, tileSize = 80) {
+  const pos = hexToPixel(q, r, tileSize);
+  const hexHeight = tileSize * 1.1547;
+  // Check if the tile fits within board bounds
+  return pos.x >= 0 && pos.x + tileSize <= BOARD_SIZE_PX &&
+         pos.y >= 0 && pos.y + hexHeight <= BOARD_SIZE_PX;
+}
+
 /**
  * Get the fixed decay duration in milliseconds.
  *
@@ -224,6 +245,7 @@ function canPlaceTile(tiles, pk, q, r) {
  * Find the nearest empty cell from viewport center.
  * For uncollected tiles, only finds truly empty cells (no stacking).
  * Uses true hex rings for concentric placement.
+ * Only returns cells within board bounds.
  *
  * @param {Array} tiles - Array of placed tiles
  * @param {Object} viewportState - Viewport state with panX, panY, viewportWidth, viewportHeight
@@ -243,7 +265,7 @@ function findNearestEmptyCellFromViewportCenter(tiles, viewportState, tileSize) 
   const occupied = new Set(tiles.map(t => `${t.q},${t.r}`));
 
   // Check center first
-  if (!occupied.has(`${centerHex.q},${centerHex.r}`)) {
+  if (!occupied.has(`${centerHex.q},${centerHex.r}`) && isOnBoard(centerHex.q, centerHex.r, tileSize)) {
     return { q: centerHex.q, r: centerHex.r };
   }
 
@@ -252,14 +274,29 @@ function findNearestEmptyCellFromViewportCenter(tiles, viewportState, tileSize) 
     const ring = getHexRing(centerHex.q, centerHex.r, radius);
     for (const cell of ring) {
       const key = `${cell.q},${cell.r}`;
-      if (!occupied.has(key)) {
+      if (!occupied.has(key) && isOnBoard(cell.q, cell.r, tileSize)) {
         return cell;
       }
     }
   }
 
-  // Fallback
-  return { q: centerHex.q, r: centerHex.r };
+  // Fallback - find any empty cell on board starting from origin
+  const originHex = { q: 0, r: 0 };
+  if (!occupied.has('0,0') && isOnBoard(0, 0, tileSize)) {
+    return originHex;
+  }
+  for (let radius = 1; radius < 100; radius++) {
+    const ring = getHexRing(0, 0, radius);
+    for (const cell of ring) {
+      const key = `${cell.q},${cell.r}`;
+      if (!occupied.has(key) && isOnBoard(cell.q, cell.r, tileSize)) {
+        return cell;
+      }
+    }
+  }
+
+  // Final fallback (shouldn't happen)
+  return { q: 0, r: 0 };
 }
 
 /**
@@ -312,73 +349,6 @@ function createInitialState() {
 }
 
 /**
- * Calculate constrained pan values to keep at least one tile visible.
- * Only considers tiles visible in the perpendicular axis.
- *
- * @param {Array} tiles - Array of {q, r} tile positions
- * @param {Object} viewportState - {panX, panY, zoom, viewportWidth, viewportHeight}
- * @param {number} tileSize - Base tile size in pixels
- * @returns {Object} Constrained {panX, panY}
- */
-function calculateConstrainedPan(tiles, viewportState, tileSize) {
-  if (!tiles || tiles.length === 0) {
-    return { panX: viewportState.panX, panY: viewportState.panY };
-  }
-
-  const hexHeight = tileSize * 1.1547;
-  const zoom = viewportState.zoom || 1;
-  const margin = tileSize * zoom * 0.5;
-
-  let panX = viewportState.panX;
-  let panY = viewportState.panY;
-
-  // Get tile positions in canvas coordinates
-  const tilePositions = tiles.map(tile => {
-    const pos = hexToPixel(tile.q, tile.r, tileSize);
-    return {
-      left: pos.x,
-      right: pos.x + tileSize,
-      top: pos.y,
-      bottom: pos.y + hexHeight
-    };
-  });
-
-  // Find tiles that are vertically visible (for horizontal constraint)
-  const verticallyVisible = tilePositions.filter(t => {
-    const screenTop = panY + t.top * zoom;
-    const screenBottom = panY + t.bottom * zoom;
-    return screenBottom > 0 && screenTop < viewportState.viewportHeight;
-  });
-
-  // Find tiles that are horizontally visible (for vertical constraint)
-  const horizontallyVisible = tilePositions.filter(t => {
-    const screenLeft = panX + t.left * zoom;
-    const screenRight = panX + t.right * zoom;
-    return screenRight > 0 && screenLeft < viewportState.viewportWidth;
-  });
-
-  // Horizontal constraint: based on vertically-visible tiles
-  if (verticallyVisible.length > 0) {
-    const minX = Math.min(...verticallyVisible.map(t => t.left));
-    const maxX = Math.max(...verticallyVisible.map(t => t.right));
-    const minPanX = margin - maxX * zoom;
-    const maxPanX = viewportState.viewportWidth - margin - minX * zoom;
-    panX = Math.max(minPanX, Math.min(maxPanX, panX));
-  }
-
-  // Vertical constraint: based on horizontally-visible tiles
-  if (horizontallyVisible.length > 0) {
-    const minY = Math.min(...horizontallyVisible.map(t => t.top));
-    const maxY = Math.max(...horizontallyVisible.map(t => t.bottom));
-    const minPanY = margin - maxY * zoom;
-    const maxPanY = viewportState.viewportHeight - margin - minY * zoom;
-    panY = Math.max(minPanY, Math.min(maxPanY, panY));
-  }
-
-  return { panX, panY };
-}
-
-/**
  * Count words in HTML content by stripping tags and splitting on whitespace.
  *
  * @param {string} html - HTML content string
@@ -407,6 +377,8 @@ if (typeof module !== 'undefined' && module.exports) {
     READING_WPM,
     PERSPECTIVE_SCALE_FACTOR,
     PERSPECTIVE_BASE_ROW,
+    BOARD_TILES_WIDE,
+    BOARD_SIZE_PX,
     getDecayDurationMs,
     hexToPixel,
     pixelToHex,
@@ -415,9 +387,9 @@ if (typeof module !== 'undefined' && module.exports) {
     getScaleForRow,
     getPerspectiveYOffset,
     getPerspectiveXOffset,
+    isOnBoard,
     canPlaceTile,
     findNearestEmptyCellFromViewportCenter,
-    calculateConstrainedPan,
     countWords,
     calculateReadingTimeMs,
     saveState,
@@ -463,12 +435,6 @@ if (typeof window !== 'undefined') {
   // Track visible range for incremental updates
   let lastVisibleRange = { minQ: 0, maxQ: 0, minR: 0, maxR: 0 };
 
-  // Cached tile bounds for fast pan constraints (recalculated when tiles change)
-  // rowBounds: Map<r, {y, height, minX, maxX}> - bounds per row
-  // colBounds: Map<q, {minX, width, minY, maxY}> - bounds per column
-  let rowBoundsCache = null;
-  let colBoundsCache = null;
-
   // Spatial index for O(1) tile lookups: "q,r" -> Tile[]
   let tileIndex = new Map();
 
@@ -494,8 +460,11 @@ if (typeof window !== 'undefined') {
 
   /**
    * Check if placement is valid using spatial index (O(1) lookup)
+   * Also checks board bounds.
    */
   function canPlaceTileIndexed(pk, q, r) {
+    // Must be on board
+    if (!isOnBoard(q, r, getTileSize())) return false;
     const existing = getTilesAt(q, r);
     if (existing.length === 0) return true;
     return existing.every(t => t.pk === pk);
@@ -562,13 +531,19 @@ if (typeof window !== 'undefined') {
     const viewport = elements.hexViewport;
     const canvas = elements.hexCanvas;
 
+    // Set board size
+    canvas.style.width = BOARD_SIZE_PX + 'px';
+    canvas.style.height = BOARD_SIZE_PX + 'px';
+
     // Get viewport dimensions
     viewportState.viewportWidth = viewport.clientWidth;
     viewportState.viewportHeight = viewport.clientHeight;
 
-    // Center the canvas initially so (0,0) is in the middle
-    viewportState.panX = viewportState.viewportWidth / 2;
-    viewportState.panY = viewportState.viewportHeight / 2;
+    // Center the board initially
+    const zoom = viewportState.zoom;
+    viewportState.panX = viewportState.viewportWidth / 2 - (BOARD_SIZE_PX / 2) * zoom;
+    viewportState.panY = viewportState.viewportHeight / 2 - (BOARD_SIZE_PX / 2) * zoom;
+    constrainPan();
 
     // Mouse pan handlers
     viewport.addEventListener('mousedown', handlePanStart);
@@ -697,107 +672,32 @@ if (typeof window !== 'undefined') {
   }
 
   /**
-   * Rebuild the cached tile bounds (call when tiles change)
-   * Caches bounds per row and per column for fast hexagonal constraint
+   * Calculate minimum zoom so board always covers viewport
    */
-  function rebuildTileBoundsCache() {
-    if (!gameState || gameState.tiles.length === 0) {
-      rowBoundsCache = null;
-      colBoundsCache = null;
-      return;
-    }
-
-    const tileSize = getTileSize();
-    const hexHeight = tileSize * 1.1547;
-
-    // Build row bounds: for each row r, track y position and x extent
-    const rowBounds = new Map();
-    // Build column bounds: for each column q, track x position and y extent
-    const colBounds = new Map();
-
-    for (const tile of gameState.tiles) {
-      const pos = hexToPixel(tile.q, tile.r, tileSize);
-      const left = pos.x;
-      const right = pos.x + tileSize;
-      const top = pos.y;
-      const bottom = pos.y + hexHeight;
-
-      // Update row bounds
-      if (!rowBounds.has(tile.r)) {
-        rowBounds.set(tile.r, { top, bottom, minX: left, maxX: right });
-      } else {
-        const rb = rowBounds.get(tile.r);
-        rb.minX = Math.min(rb.minX, left);
-        rb.maxX = Math.max(rb.maxX, right);
-      }
-
-      // Update column bounds
-      if (!colBounds.has(tile.q)) {
-        colBounds.set(tile.q, { left, right, minY: top, maxY: bottom });
-      } else {
-        const cb = colBounds.get(tile.q);
-        cb.minY = Math.min(cb.minY, top);
-        cb.maxY = Math.max(cb.maxY, bottom);
-      }
-    }
-
-    rowBoundsCache = { bounds: rowBounds, tileSize, hexHeight };
-    colBoundsCache = { bounds: colBounds, tileSize };
+  function getMinZoom() {
+    const minZoomX = viewportState.viewportWidth / BOARD_SIZE_PX;
+    const minZoomY = viewportState.viewportHeight / BOARD_SIZE_PX;
+    return Math.max(minZoomX, minZoomY);
   }
 
   /**
-   * Constrain pan so at least one tile is always visible (fast cached version)
-   * Preserves hexagonal constraint behavior by using per-row/per-column bounds
+   * Constrain pan to keep viewport within board bounds
    */
   function constrainPan() {
-    if (!rowBoundsCache || !colBoundsCache) return;
-
-    const { bounds: rowBounds, tileSize, hexHeight } = rowBoundsCache;
-    const { bounds: colBounds } = colBoundsCache;
     const zoom = viewportState.zoom || 1;
-    const margin = tileSize * zoom * 0.5;
 
-    let panX = viewportState.panX;
-    let panY = viewportState.panY;
+    const scaledWidth = BOARD_SIZE_PX * zoom;
+    const scaledHeight = BOARD_SIZE_PX * zoom;
 
-    // Find rows that are vertically visible (for horizontal constraint)
-    let visibleMinX = Infinity, visibleMaxX = -Infinity;
-    for (const [r, rb] of rowBounds) {
-      const screenTop = panY + rb.top * zoom;
-      const screenBottom = panY + rb.bottom * zoom;
-      if (screenBottom > 0 && screenTop < viewportState.viewportHeight) {
-        visibleMinX = Math.min(visibleMinX, rb.minX);
-        visibleMaxX = Math.max(visibleMaxX, rb.maxX);
-      }
-    }
+    // Board edge = viewport edge (no margin)
+    const minPanX = viewportState.viewportWidth - scaledWidth;
+    const maxPanX = 0;
 
-    // Apply horizontal constraint based on vertically-visible rows
-    if (visibleMinX !== Infinity) {
-      const minPanX = margin - visibleMaxX * zoom;
-      const maxPanX = viewportState.viewportWidth - margin - visibleMinX * zoom;
-      panX = Math.max(minPanX, Math.min(maxPanX, panX));
-    }
+    const minPanY = viewportState.viewportHeight - scaledHeight;
+    const maxPanY = 0;
 
-    // Find columns that are horizontally visible (for vertical constraint)
-    let visibleMinY = Infinity, visibleMaxY = -Infinity;
-    for (const [q, cb] of colBounds) {
-      const screenLeft = panX + cb.left * zoom;
-      const screenRight = panX + cb.right * zoom;
-      if (screenRight > 0 && screenLeft < viewportState.viewportWidth) {
-        visibleMinY = Math.min(visibleMinY, cb.minY);
-        visibleMaxY = Math.max(visibleMaxY, cb.maxY);
-      }
-    }
-
-    // Apply vertical constraint based on horizontally-visible columns
-    if (visibleMinY !== Infinity) {
-      const minPanY = margin - visibleMaxY * zoom;
-      const maxPanY = viewportState.viewportHeight - margin - visibleMinY * zoom;
-      panY = Math.max(minPanY, Math.min(maxPanY, panY));
-    }
-
-    viewportState.panX = panX;
-    viewportState.panY = panY;
+    viewportState.panX = Math.max(minPanX, Math.min(maxPanX, viewportState.panX));
+    viewportState.panY = Math.max(minPanY, Math.min(maxPanY, viewportState.panY));
   }
 
   /**
@@ -811,7 +711,7 @@ if (typeof window !== 'undefined') {
     if (e.ctrlKey) {
       // Pinch to zoom
       const zoomFactor = 1 - e.deltaY * 0.01;
-      const newZoom = Math.min(6, Math.max(0.6, viewportState.zoom * zoomFactor));
+      const newZoom = Math.min(6, Math.max(getMinZoom(), viewportState.zoom * zoomFactor));
 
       // Zoom toward cursor position
       const rect = elements.hexViewport.getBoundingClientRect();
@@ -1303,7 +1203,6 @@ if (typeof window !== 'undefined') {
         }
 
         rebuildTileIndex();
-        rebuildTileBoundsCache();
         saveState(gameState);
         renderVisibleHexes();
       }
@@ -1370,7 +1269,6 @@ if (typeof window !== 'undefined') {
     gameState.lastTilePlacedAt = Date.now();
 
     rebuildTileIndex();
-    rebuildTileBoundsCache();
     saveState(gameState);
     renderVisibleHexes();
   }
@@ -1414,7 +1312,6 @@ if (typeof window !== 'undefined') {
         gameState.tiles.splice(idx, 1);
       }
       rebuildTileIndex();
-      rebuildTileBoundsCache();
       saveState(gameState);
       renderVisibleHexes();
     }
@@ -1433,7 +1330,7 @@ if (typeof window !== 'undefined') {
    * Apply zoom centered on viewport
    */
   function applyZoom(newZoom) {
-    newZoom = Math.min(6, Math.max(0.6, newZoom));
+    newZoom = Math.min(6, Math.max(getMinZoom(), newZoom));
     if (newZoom === viewportState.zoom) return;
 
     // Zoom toward viewport center
@@ -1489,6 +1386,23 @@ if (typeof window !== 'undefined') {
       e.preventDefault();
       placeNextTile();
     }
+    // Option+Shift+M to mark all uncollected tiles as collected
+    if (e.altKey && e.shiftKey && e.code === 'KeyM') {
+      e.preventDefault();
+      const now = new Date().toISOString();
+      for (const tile of gameState.tiles) {
+        if (!tile.isCollected) {
+          tile.isCollected = true;
+          tile.collected = now;
+          delete tile.placedAt;
+          delete tile.readProgress;
+        }
+      }
+      saveState(gameState);
+      renderVisibleHexes();
+      updateStats();
+      return;
+    }
     // Option+M to mark current reading as fully read (testing shortcut)
     if (e.altKey && e.code === 'KeyM' && isModalOpen() && currentReadingPk) {
       e.preventDefault();
@@ -1499,6 +1413,9 @@ if (typeof window !== 'undefined') {
         delete tile.placedAt;
         delete tile.readProgress;
         elements.modal.classList.add('collected');
+        // Jump background to full color
+        elements.modal.style.setProperty('--fade-duration', '1ms');
+        elements.modal.style.setProperty('--fade-delay', '-1ms');
         saveState(gameState);
         renderVisibleHexes();
         updateStats();
@@ -1648,7 +1565,6 @@ if (typeof window !== 'undefined') {
       saveState(gameState);
     }
     rebuildTileIndex();
-    rebuildTileBoundsCache();
 
     // Initialize UI
     setupViewport();

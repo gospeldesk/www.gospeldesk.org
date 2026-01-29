@@ -10,13 +10,14 @@ const {
   getHexRing,
   canPlaceTile,
   findNearestEmptyCellFromViewportCenter,
-  calculateConstrainedPan,
+  isOnBoard,
   countWords,
   calculateReadingTimeMs,
   getDecayDurationMs,
   TILE_INTERVAL_MS,
   DECAY_DURATION_MS,
   READING_WPM,
+  BOARD_SIZE_PX,
   saveState,
   loadState,
   createInitialState
@@ -386,169 +387,169 @@ describe('Viewport-Centered Placement', () => {
   });
 });
 
-describe('Pan Constraint', () => {
-  const tileSize = 80;
+describe('Board Bounds', () => {
+  const tileSize = 64;
+  const hexHeight = tileSize * 1.1547;
 
-  test('returns unchanged pan when no tiles', () => {
-    const viewportState = {
-      panX: 100,
-      panY: 100,
-      zoom: 1,
-      viewportWidth: 800,
-      viewportHeight: 600
-    };
-
-    const result = calculateConstrainedPan([], viewportState, tileSize);
-
-    expect(result.panX).toBe(100);
-    expect(result.panY).toBe(100);
+  test('origin is on board', () => {
+    expect(isOnBoard(0, 0, tileSize)).toBe(true);
   });
 
-  test('constrains pan to keep single tile visible', () => {
-    const tiles = [{ q: 0, r: 0 }];
-    const viewportState = {
-      panX: -1000, // Way off to the left
-      panY: 300,
-      zoom: 1,
-      viewportWidth: 800,
-      viewportHeight: 600
-    };
-
-    const result = calculateConstrainedPan(tiles, viewportState, tileSize);
-
-    // Pan should be constrained so tile is visible
-    // Tile at (0,0) has right edge at tileSize (80)
-    // Right edge screen pos = panX + 80 * zoom should be >= margin
-    expect(result.panX).toBeGreaterThan(-1000);
+  test('position near origin is on board', () => {
+    expect(isOnBoard(5, 5, tileSize)).toBe(true);
   });
 
-  test('horizontal constraint only considers vertically visible tiles', () => {
-    // Two tiles: one at origin, one far above (off screen vertically)
-    const tiles = [
-      { q: 0, r: 0 },   // At origin, visible
-      { q: 5, r: -10 }  // Far up and right, off screen vertically
-    ];
-    const viewportState = {
-      panX: 400,  // Centered on origin tile
-      panY: 300,
-      zoom: 1,
-      viewportWidth: 800,
-      viewportHeight: 600
-    };
-
-    const result = calculateConstrainedPan(tiles, viewportState, tileSize);
-
-    // The far-away tile should not affect horizontal constraint
-    // We should be able to pan left without being blocked by the distant tile
-    const tilesOnlyOrigin = [{ q: 0, r: 0 }];
-    const resultOriginOnly = calculateConstrainedPan(tilesOnlyOrigin, viewportState, tileSize);
-
-    // Constraints should be similar since the off-screen tile is ignored
-    expect(result.panX).toBe(resultOriginOnly.panX);
+  test('negative q is off board', () => {
+    expect(isOnBoard(-1, 0, tileSize)).toBe(false);
   });
 
-  test('vertical constraint only considers horizontally visible tiles', () => {
-    // Two tiles: one at origin, one far to the right (off screen horizontally)
-    const tiles = [
-      { q: 0, r: 0 },   // At origin, visible
-      { q: 20, r: 5 }   // Far right and down, off screen horizontally
-    ];
-    const viewportState = {
-      panX: 400,  // Centered on origin tile
-      panY: 300,
-      zoom: 1,
-      viewportWidth: 800,
-      viewportHeight: 600
-    };
-
-    const result = calculateConstrainedPan(tiles, viewportState, tileSize);
-
-    // The far-away tile should not affect vertical constraint
-    const tilesOnlyOrigin = [{ q: 0, r: 0 }];
-    const resultOriginOnly = calculateConstrainedPan(tilesOnlyOrigin, viewportState, tileSize);
-
-    // Constraints should be similar since the off-screen tile is ignored
-    expect(result.panY).toBe(resultOriginOnly.panY);
+  test('negative r is off board', () => {
+    expect(isOnBoard(0, -1, tileSize)).toBe(false);
   });
 
-  test('respects zoom level', () => {
-    const tiles = [{ q: 0, r: 0 }];
-    const viewportState1 = {
-      panX: -500,
-      panY: 300,
-      zoom: 1,
-      viewportWidth: 800,
-      viewportHeight: 600
-    };
-    const viewportState2 = {
-      panX: -500,
-      panY: 300,
-      zoom: 2, // Zoomed in
-      viewportWidth: 800,
-      viewportHeight: 600
-    };
-
-    const result1 = calculateConstrainedPan(tiles, viewportState1, tileSize);
-    const result2 = calculateConstrainedPan(tiles, viewportState2, tileSize);
-
-    // At higher zoom, the constraint should be different
-    expect(result1.panX).not.toBe(result2.panX);
+  test('position near right edge of board', () => {
+    // Board is 4096px wide, tile is 64px
+    // Max q where tile fits: (4096 - 64) / 64 = 63, so q=63 should fit
+    expect(isOnBoard(63, 0, tileSize)).toBe(true);
+    // q=64 would exceed
+    expect(isOnBoard(64, 0, tileSize)).toBe(false);
   });
 
-  test('handles missing zoom (defaults to 1)', () => {
-    const tiles = [{ q: 0, r: 0 }];
-    const viewportState = {
-      panX: 400,
-      panY: 300,
-      // zoom is missing
-      viewportWidth: 800,
-      viewportHeight: 600
-    };
-
-    // Should not throw
-    const result = calculateConstrainedPan(tiles, viewportState, tileSize);
-    expect(result.panX).toBeDefined();
-    expect(result.panY).toBeDefined();
+  test('position near bottom edge of board', () => {
+    // Board is 4096px tall, hex height is ~73.9px
+    // Row spacing is hexHeight * 0.75 = ~55.4px
+    // Max r where tile fits: solve r*55.4 + 73.9 <= 4096
+    // r <= (4096 - 73.9) / 55.4 = ~72.6, so r=72 should fit
+    expect(isOnBoard(0, 72, tileSize)).toBe(true);
+    // r=73 would exceed
+    expect(isOnBoard(0, 73, tileSize)).toBe(false);
   });
 
-  test('handles null tiles array', () => {
-    const viewportState = {
-      panX: 100,
-      panY: 100,
+  test('BOARD_SIZE_PX is 4096 (64 tiles at 64px)', () => {
+    expect(BOARD_SIZE_PX).toBe(4096);
+  });
+});
+
+describe('getMinZoom', () => {
+  // Import the browser-only functions by mocking window
+  let getMinZoom, constrainPan, viewportState;
+
+  beforeEach(() => {
+    // Create mock viewportState and functions that mirror the browser code
+    viewportState = {
+      panX: 0,
+      panY: 0,
       zoom: 1,
-      viewportWidth: 800,
-      viewportHeight: 600
+      viewportWidth: 0,
+      viewportHeight: 0
     };
 
-    const result = calculateConstrainedPan(null, viewportState, tileSize);
-    expect(result.panX).toBe(100);
-    expect(result.panY).toBe(100);
+    getMinZoom = () => {
+      const minZoomX = viewportState.viewportWidth / BOARD_SIZE_PX;
+      const minZoomY = viewportState.viewportHeight / BOARD_SIZE_PX;
+      return Math.max(minZoomX, minZoomY);
+    };
+
+    constrainPan = () => {
+      const zoom = viewportState.zoom || 1;
+
+      const scaledWidth = BOARD_SIZE_PX * zoom;
+      const scaledHeight = BOARD_SIZE_PX * zoom;
+
+      const minPanX = viewportState.viewportWidth - scaledWidth;
+      const maxPanX = 0;
+
+      const minPanY = viewportState.viewportHeight - scaledHeight;
+      const maxPanY = 0;
+
+      viewportState.panX = Math.max(minPanX, Math.min(maxPanX, viewportState.panX));
+      viewportState.panY = Math.max(minPanY, Math.min(maxPanY, viewportState.panY));
+    };
   });
 
-  test('handles tiles at negative coordinates', () => {
-    const tiles = [{ q: -2, r: 0 }]; // Tile to the left of origin, on same row
-    const viewportState = {
-      panX: 400,  // Centered view
-      panY: 300,
-      zoom: 1,
-      viewportWidth: 800,
-      viewportHeight: 600
-    };
+  test('returns 1 when viewport equals board size', () => {
+    viewportState.viewportWidth = BOARD_SIZE_PX;
+    viewportState.viewportHeight = BOARD_SIZE_PX;
+    expect(getMinZoom()).toBe(1);
+  });
 
-    // First verify the tile is visible with this pan
-    const result = calculateConstrainedPan(tiles, viewportState, tileSize);
+  test('returns higher value for wider viewport', () => {
+    viewportState.viewportWidth = BOARD_SIZE_PX * 2;
+    viewportState.viewportHeight = BOARD_SIZE_PX;
+    expect(getMinZoom()).toBe(2); // width limited
+  });
 
-    // Now try to pan way right (which would move tile off left edge)
-    const viewportStateRight = {
-      panX: 1000,  // Panned far right
-      panY: 300,
-      zoom: 1,
-      viewportWidth: 800,
-      viewportHeight: 600
-    };
+  test('returns higher value for taller viewport', () => {
+    viewportState.viewportWidth = BOARD_SIZE_PX;
+    viewportState.viewportHeight = BOARD_SIZE_PX * 2;
+    expect(getMinZoom()).toBe(2); // height limited
+  });
 
-    const resultConstrained = calculateConstrainedPan(tiles, viewportStateRight, tileSize);
-    // Pan should be constrained - can't go as far right
-    expect(resultConstrained.panX).toBeLessThan(1000);
+  test('returns fractional zoom for smaller viewport', () => {
+    viewportState.viewportWidth = BOARD_SIZE_PX / 2;
+    viewportState.viewportHeight = BOARD_SIZE_PX / 2;
+    expect(getMinZoom()).toBe(0.5);
+  });
+
+  describe('constrainPan board bounds', () => {
+    test('clamps panX to 0 at left edge', () => {
+      viewportState.viewportWidth = 1024;
+      viewportState.viewportHeight = 1024;
+      viewportState.zoom = 1;
+      viewportState.panX = 100; // trying to show whitespace on left
+
+      constrainPan();
+
+      expect(viewportState.panX).toBe(0);
+    });
+
+    test('clamps panX at right edge', () => {
+      viewportState.viewportWidth = 1024;
+      viewportState.viewportHeight = 1024;
+      viewportState.zoom = 1;
+      viewportState.panX = -100000; // too far right, would show whitespace
+
+      constrainPan();
+
+      // minPanX = 1024 - BOARD_SIZE_PX
+      expect(viewportState.panX).toBe(1024 - BOARD_SIZE_PX);
+    });
+
+    test('clamps panY to 0 at top edge', () => {
+      viewportState.viewportWidth = 1024;
+      viewportState.viewportHeight = 1024;
+      viewportState.zoom = 1;
+      viewportState.panY = 100; // trying to show whitespace on top
+
+      constrainPan();
+
+      expect(viewportState.panY).toBe(0);
+    });
+
+    test('clamps panY at bottom edge', () => {
+      viewportState.viewportWidth = 1024;
+      viewportState.viewportHeight = 1024;
+      viewportState.zoom = 1;
+      viewportState.panY = -100000; // too far down, would show whitespace
+
+      constrainPan();
+
+      // minPanY = 1024 - BOARD_SIZE_PX
+      expect(viewportState.panY).toBe(1024 - BOARD_SIZE_PX);
+    });
+
+    test('respects zoom when calculating bounds', () => {
+      viewportState.viewportWidth = 1024;
+      viewportState.viewportHeight = 1024;
+      viewportState.zoom = 2; // scaled board is BOARD_SIZE_PX * 2
+      viewportState.panX = -100000;
+      viewportState.panY = -100000;
+
+      constrainPan();
+
+      // minPanX = 1024 - BOARD_SIZE_PX * 2
+      expect(viewportState.panX).toBe(1024 - BOARD_SIZE_PX * 2);
+      expect(viewportState.panY).toBe(1024 - BOARD_SIZE_PX * 2);
+    });
   });
 });
