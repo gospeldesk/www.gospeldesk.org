@@ -13,7 +13,7 @@ const STORAGE_KEY = 'let-us-attend';
 
 // Board constants - fixed size canvas with background
 const BOARD_TILES_WIDE = 64;
-const BOARD_SIZE_PX = 4096; // 64 tiles at 64px each
+const BOARD_SIZE_PX = 8192; // 64 tiles at 128px each
 
 /**
  * Check if hex coordinates are within the board bounds.
@@ -438,6 +438,9 @@ if (typeof window !== 'undefined') {
   // Spatial index for O(1) tile lookups: "q,r" -> Tile[]
   let tileIndex = new Map();
 
+  // Center hex for initial tile placement
+  let boardCenterHex = null;
+
   /**
    * Rebuild the spatial index from gameState.tiles
    */
@@ -539,10 +542,18 @@ if (typeof window !== 'undefined') {
     viewportState.viewportWidth = viewport.clientWidth;
     viewportState.viewportHeight = viewport.clientHeight;
 
-    // Center the board initially
+    // Center on the tile closest to board center
     const zoom = viewportState.zoom;
-    viewportState.panX = viewportState.viewportWidth / 2 - (BOARD_SIZE_PX / 2) * zoom;
-    viewportState.panY = viewportState.viewportHeight / 2 - (BOARD_SIZE_PX / 2) * zoom;
+    const tileSize = getTileSize();
+    const hexHeight = tileSize * 1.1547;
+    const boardCenterX = BOARD_SIZE_PX / 2;
+    const boardCenterY = BOARD_SIZE_PX / 2;
+    boardCenterHex = pixelToHex(boardCenterX, boardCenterY, tileSize);
+    const tilePos = hexToPixel(boardCenterHex.q, boardCenterHex.r, tileSize);
+    const tileCenterX = tilePos.x + tileSize / 2;
+    const tileCenterY = tilePos.y + hexHeight / 2;
+    viewportState.panX = viewportState.viewportWidth / 2 - tileCenterX * zoom;
+    viewportState.panY = viewportState.viewportHeight / 2 - tileCenterY * zoom;
     constrainPan();
 
     // Mouse pan handlers
@@ -677,7 +688,7 @@ if (typeof window !== 'undefined') {
   function getMinZoom() {
     const minZoomX = viewportState.viewportWidth / BOARD_SIZE_PX;
     const minZoomY = viewportState.viewportHeight / BOARD_SIZE_PX;
-    return Math.max(minZoomX, minZoomY);
+    return Math.max(0.3, minZoomX, minZoomY);
   }
 
   /**
@@ -711,7 +722,7 @@ if (typeof window !== 'undefined') {
     if (e.ctrlKey) {
       // Pinch to zoom
       const zoomFactor = 1 - e.deltaY * 0.01;
-      const newZoom = Math.min(6, Math.max(getMinZoom(), viewportState.zoom * zoomFactor));
+      const newZoom = Math.min(5, Math.max(getMinZoom(), viewportState.zoom * zoomFactor));
 
       // Zoom toward cursor position
       const rect = elements.hexViewport.getBoundingClientRect();
@@ -726,6 +737,7 @@ if (typeof window !== 'undefined') {
       viewportState.zoom = newZoom;
       constrainPan();
       updatePan(); // Zoom only changes transform, use fast path
+      updateBackgroundBlur();
     } else {
       // Regular scroll for panning - use fast path
       viewportState.panX -= e.deltaX;
@@ -756,6 +768,16 @@ if (typeof window !== 'undefined') {
       minR: Math.floor((visibleMinY - hexHeight) / rowHeight) - padding,
       maxR: Math.ceil((visibleMaxY + hexHeight) / rowHeight) + padding
     };
+  }
+
+  /**
+   * Update background blur based on zoom level
+   * Clear when zoomed out, lightly blurred when zoomed in
+   */
+  function updateBackgroundBlur() {
+    // Blur starts at zoom 1, maxes at zoom 5 (4px)
+    const blur = Math.max(0, (viewportState.zoom - 1) / 4 * 4);
+    elements.hexCanvas.style.setProperty('--bg-blur', blur + 'px');
   }
 
   /**
@@ -830,6 +852,7 @@ if (typeof window !== 'undefined') {
   function renderVisibleHexes() {
     updateVisibleCellsIfNeeded();
     updateCanvasTransform();
+    updateBackgroundBlur();
     elements.hexCanvas.style.transformOrigin = '0 0';
     renderPlacedTiles();
   }
@@ -1251,11 +1274,19 @@ if (typeof window !== 'undefined') {
 
     const reading = gameData.schedule[gameState.scheduleIndex];
     const tileSize = getTileSize();
-    const { q, r } = findNearestEmptyCellFromViewportCenter(
-      gameState.tiles,
-      viewportState,
-      tileSize
-    );
+
+    // Use board center for first tile, otherwise find nearest empty cell
+    let q, r;
+    if (gameState.tiles.length === 0 && boardCenterHex) {
+      q = boardCenterHex.q;
+      r = boardCenterHex.r;
+    } else {
+      ({ q, r } = findNearestEmptyCellFromViewportCenter(
+        gameState.tiles,
+        viewportState,
+        tileSize
+      ));
+    }
 
     gameState.tiles.push({
       pk: reading.pk,
@@ -1330,7 +1361,7 @@ if (typeof window !== 'undefined') {
    * Apply zoom centered on viewport
    */
   function applyZoom(newZoom) {
-    newZoom = Math.min(6, Math.max(getMinZoom(), newZoom));
+    newZoom = Math.min(5, Math.max(getMinZoom(), newZoom));
     if (newZoom === viewportState.zoom) return;
 
     // Zoom toward viewport center
@@ -1343,6 +1374,7 @@ if (typeof window !== 'undefined') {
 
     constrainPan();
     updatePan();
+    updateBackgroundBlur();
   }
 
   /**
@@ -1540,8 +1572,10 @@ if (typeof window !== 'undefined') {
   async function initGame() {
     // Cache DOM elements
     elements = {
+      loading: document.getElementById('loading'),
       hexViewport: document.getElementById('hex-viewport'),
       hexCanvas: document.getElementById('hex-canvas'),
+      statsBox: document.getElementById('stats-box'),
       progressPlaced: document.getElementById('progress-placed'),
       progressCollected: document.getElementById('progress-collected'),
       timerFill: document.getElementById('timer-fill'),
@@ -1566,9 +1600,19 @@ if (typeof window !== 'undefined') {
     }
     rebuildTileIndex();
 
+    // Show board (must happen before setupViewport reads dimensions)
+    elements.hexViewport.classList.remove('hidden');
+    elements.statsBox.classList.remove('hidden');
+
     // Initialize UI
     setupViewport();
     updateGame();
+
+    // Fade in board, hide loading
+    requestAnimationFrame(() => {
+      elements.hexViewport.classList.add('visible');
+      elements.loading.classList.add('fade-out');
+    });
 
     // Click on overlay background closes modal (not content area)
     elements.modal.addEventListener('click', (e) => {

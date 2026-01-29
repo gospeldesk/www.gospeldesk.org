@@ -7,11 +7,17 @@
   <link rel="stylesheet" href="let-us-attend.css">
 </head>
 <body>
-  <div class="hex-viewport" id="hex-viewport">
+  <div class="loading" id="loading">
+    <svg class="loading-hex" viewBox="0 0 100 115.47">
+      <polygon points="50,0 100,25 100,86.6 50,115.47 0,86.6 0,25" fill="#e0dcd8"/>
+    </svg>
+  </div>
+
+  <div class="hex-viewport hidden" id="hex-viewport">
     <div class="hex-canvas" id="hex-canvas"></div>
   </div>
 
-  <div class="stats-box">
+  <div class="stats-box hidden" id="stats-box">
     <div class="progress-bar">
       <div class="progress-placed" id="progress-placed"></div>
       <div class="progress-collected" id="progress-collected"></div>

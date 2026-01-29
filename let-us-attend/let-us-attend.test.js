@@ -388,7 +388,7 @@ describe('Viewport-Centered Placement', () => {
 });
 
 describe('Board Bounds', () => {
-  const tileSize = 64;
+  const tileSize = 128;
   const hexHeight = tileSize * 1.1547;
 
   test('origin is on board', () => {
@@ -408,25 +408,25 @@ describe('Board Bounds', () => {
   });
 
   test('position near right edge of board', () => {
-    // Board is 4096px wide, tile is 64px
-    // Max q where tile fits: (4096 - 64) / 64 = 63, so q=63 should fit
+    // Board is 8192px wide, tile is 128px
+    // Max q where tile fits: (8192 - 128) / 128 = 63, so q=63 should fit
     expect(isOnBoard(63, 0, tileSize)).toBe(true);
     // q=64 would exceed
     expect(isOnBoard(64, 0, tileSize)).toBe(false);
   });
 
   test('position near bottom edge of board', () => {
-    // Board is 4096px tall, hex height is ~73.9px
-    // Row spacing is hexHeight * 0.75 = ~55.4px
-    // Max r where tile fits: solve r*55.4 + 73.9 <= 4096
-    // r <= (4096 - 73.9) / 55.4 = ~72.6, so r=72 should fit
+    // Board is 8192px tall, hex height is ~147.8px
+    // Row spacing is hexHeight * 0.75 = ~110.85px
+    // Max r where tile fits: solve r*110.85 + 147.8 <= 8192
+    // r <= (8192 - 147.8) / 110.85 = ~72.6, so r=72 should fit
     expect(isOnBoard(0, 72, tileSize)).toBe(true);
     // r=73 would exceed
     expect(isOnBoard(0, 73, tileSize)).toBe(false);
   });
 
-  test('BOARD_SIZE_PX is 4096 (64 tiles at 64px)', () => {
-    expect(BOARD_SIZE_PX).toBe(4096);
+  test('BOARD_SIZE_PX is 8192 (64 tiles at 128px)', () => {
+    expect(BOARD_SIZE_PX).toBe(8192);
   });
 });
 

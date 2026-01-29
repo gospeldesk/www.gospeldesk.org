@@ -25,7 +25,7 @@
   --blue: #11115e;
   --green: #2d6a4f;
 
-  --tile-size: 64px;
+  --tile-size: 128px;
   --tile-gap: 4px;
 }
 
@@ -135,6 +135,7 @@ body {
   background-size: 100% 100%;
   opacity: 0.2;
   z-index: -1;
+  filter: blur(var(--bg-blur, 0px));
 }
 
 /* Hex Cell - Equilateral hexagons */
@@ -185,7 +186,7 @@ body.dragging-tile * {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding-top: 25%;
+  padding-top: 20%;
   cursor: pointer;
   position: relative;
   transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s, filter 0.2s;
@@ -219,10 +220,10 @@ body.dragging-tile * {
 
 /* Tile content */
 .tile-title {
-  font-size: 8px;
+  font-size: 16px;
   font-weight: 800;
   text-align: center;
-  padding: 4px;
+  padding: 8px;
   line-height: 1.2;
   max-height: 60%;
   overflow: hidden;
@@ -252,7 +253,7 @@ body.dragging-tile * {
 .tile-seal {
   position: absolute;
   bottom: 8%;
-  width: 30%;
+  width: 33%;
   aspect-ratio: 1;
   background-image: url('assets/seals.webp');
   background-size: 100% 400%;
@@ -294,15 +295,12 @@ body.dragging-tile * {
 
 /* Uncollected tile styles - saturation based on read progress */
 .tile.uncollected {
-  cursor: grab;
+  cursor: pointer;
   filter: saturate(var(--read-progress, 0));
   animation: decay-fade var(--decay-duration, 100s) linear forwards;
   animation-delay: calc(-1 * var(--decay-elapsed, 0s));
 }
 
-.tile.uncollected:active {
-  cursor: grabbing;
-}
 
 @keyframes decay-fade {
   from { opacity: 1; }
@@ -474,6 +472,47 @@ body.dragging-tile * {
   fill: var(--black);
 }
 
+/* Loading indicator */
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--white);
+}
+
+.loading-hex {
+  /* Match tile size at default zoom 2: 128px * 2 * 0.95 (scale) = 243.2px */
+  width: 243.2px;
+  height: auto;
+  animation: loading-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes loading-pulse {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+.loading.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  pointer-events: none;
+}
+
+/* Board fade-in */
+.hex-viewport {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+.hex-viewport.visible {
+  opacity: 1;
+}
+
 /* Hidden utility */
 .hidden {
   display: none !important;
@@ -482,7 +521,7 @@ body.dragging-tile * {
 /* Responsive */
 @media (max-width: 600px) {
   :root {
-    --tile-size: 48px;
+    --tile-size: 96px;
   }
 
   .modal-content {
