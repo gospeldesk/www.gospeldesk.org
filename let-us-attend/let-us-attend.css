@@ -111,7 +111,7 @@ body {
   height: 100vh;
   overflow: hidden;
   cursor: grab;
-  background-color: #fff;
+  z-index: 1;
 }
 
 .hex-viewport.dragging {
@@ -124,18 +124,24 @@ body {
   left: 0;
 }
 
-.hex-canvas::before {
-  content: '';
+/* Board background - separate element so it can fade in during loading */
+.board-bg {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 8192px;
+  height: 8192px;
   background-image: url('assets/bg.webp');
   background-size: 100% 100%;
-  opacity: var(--bg-opacity, 0.2);
-  z-index: -1;
+  opacity: 0;
+  z-index: 0;
   filter: blur(var(--bg-blur, 0px));
+  transform-origin: 0 0;
+  transition: opacity 3s ease-out, filter 0.3s ease-out;
+}
+
+.board-bg.bg-loaded {
+  opacity: var(--bg-opacity, 0.2);
 }
 
 /* Hex Cell - Equilateral hexagons */
@@ -589,7 +595,8 @@ body.dragging-tile * {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--white);
+  z-index: 9999;
+  /* Transparent so background can fade in behind */
 }
 
 .loading-container {
@@ -629,13 +636,13 @@ body.dragging-tile * {
   pointer-events: none;
 }
 
-/* Board fade-in */
-.hex-viewport {
+/* Tiles fade-in after loading (not background) */
+.hex-canvas {
   opacity: 0;
   transition: opacity 0.5s ease-out;
 }
 
-.hex-viewport.visible {
+.hex-viewport.visible .hex-canvas {
   opacity: 1;
 }
 

@@ -323,6 +323,11 @@ if (typeof module !== 'undefined' && module.exports) {
 // ============================================================================
 
 if (typeof window !== 'undefined') {
+  // Preload background image immediately (before DOMContentLoaded)
+  // Fade in handled by CSS transition when 'bg-loaded' class is added
+  const bgImage = new Image();
+  bgImage.src = 'assets/bg.webp';
+
   // Game state
   let gameState = null;
   let gameData = null;
@@ -706,15 +711,17 @@ if (typeof window !== 'undefined') {
     const blur = Math.max(0, (viewportState.zoom - 1) / 4 * 4);
     // Opacity scales from 0.2 (blur 0) to 0.67 (blur 4)
     const opacity = 0.2 + (blur / 4) * 0.47;
-    elements.hexCanvas.style.setProperty('--bg-blur', blur + 'px');
-    elements.hexCanvas.style.setProperty('--bg-opacity', opacity);
+    elements.boardBg.style.setProperty('--bg-blur', blur + 'px');
+    elements.boardBg.style.setProperty('--bg-opacity', opacity);
   }
 
   /**
    * Update only the canvas transform (fast path for panning)
    */
   function updateCanvasTransform() {
-    elements.hexCanvas.style.transform = `translate(${viewportState.panX}px, ${viewportState.panY}px) scale(${viewportState.zoom})`;
+    const transform = `translate(${viewportState.panX}px, ${viewportState.panY}px) scale(${viewportState.zoom})`;
+    elements.hexCanvas.style.transform = transform;
+    elements.boardBg.style.transform = transform;
   }
 
   /**
@@ -1530,6 +1537,7 @@ if (typeof window !== 'undefined') {
     elements = {
       loading: document.getElementById('loading'),
       loadingTimerFill: document.getElementById('loading-timer-fill'),
+      boardBg: document.getElementById('board-bg'),
       hexViewport: document.getElementById('hex-viewport'),
       hexCanvas: document.getElementById('hex-canvas'),
       statsBox: document.getElementById('stats-box'),
@@ -1542,6 +1550,14 @@ if (typeof window !== 'undefined') {
       readingTimerFill: document.getElementById('reading-timer-fill'),
       modalText: document.getElementById('modal-text')
     };
+
+    // Trigger background fade when preloaded image is ready
+    // (bgImage preload started at top of file, before DOMContentLoaded)
+    if (bgImage.complete) {
+      elements.boardBg.classList.add('bg-loaded');
+    } else {
+      bgImage.onload = () => elements.boardBg.classList.add('bg-loaded');
+    }
 
     // Load game data
     const loaded = await loadGameData();
