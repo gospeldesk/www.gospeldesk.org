@@ -43,64 +43,6 @@ body {
   overflow: hidden;
 }
 
-/* Stats Box - lower right corner */
-.stats-box {
-  position: fixed;
-  bottom: 16px;
-  right: 16px;
-  background: var(--black);
-  color: var(--white);
-  padding: 8px 12px;
-  border-radius: 6px;
-  font-size: 12px;
-  font-weight: 800;
-  z-index: 101;
-  opacity: 0.8;
-}
-
-.progress-bar {
-  width: 60px;
-  height: 4px;
-  background: rgba(255,255,255,0.15);
-  border-radius: 2px;
-  position: relative;
-  overflow: hidden;
-}
-
-.progress-placed {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  background: rgba(255,255,255,0.35);
-  border-radius: 2px;
-  transition: width 0.3s ease-out;
-}
-
-.progress-collected {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  background: var(--white);
-  border-radius: 2px;
-  transition: width 0.3s ease-out;
-}
-
-.timer-bar {
-  width: 60px;
-  height: 4px;
-  background: rgba(255,255,255,0.15);
-  border-radius: 2px;
-  margin-top: 6px;
-  overflow: hidden;
-}
-
-.timer-fill {
-  height: 100%;
-  background: rgba(255,255,255,0.5);
-  border-radius: 2px;
-}
 
 /* Hex Viewport (board container) */
 .hex-viewport {
@@ -223,6 +165,47 @@ body.dragging-tile * {
 .tile.book-mark { background-color: var(--red); color: var(--white); }
 .tile.book-luke { background-color: var(--green); color: var(--white); }
 .tile.book-john { background-color: var(--blue); color: var(--white); }
+
+/* Special tiles - neutral gray appearance */
+.tile.special-tile {
+  background-color: var(--gray);
+  color: var(--white);
+}
+
+/* About tile collected - plain appearance, no title visible */
+.tile.tile-about.collected .tile-title {
+  display: none;
+}
+
+/* Synaxis tile never shows stone texture or title (not truly collected until stories exhausted) */
+.tile.tile-synaxis.collected {
+  background-image: none;
+}
+
+.tile.tile-synaxis .tile-title {
+  display: none;
+}
+
+/* Synaxis timer bar - matches loading timer bar at default zoom (2x) */
+.synaxis-timer-bar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;   /* 50px * 2 (zoom) = 100px, matching loading timer */
+  height: 2px;   /* 2px * 2 (zoom) = 4px, matching loading timer */
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 1px;
+  overflow: hidden;
+}
+
+.synaxis-timer-fill {
+  height: 100%;
+  width: 0%;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 1px;
+  transition: width 0.1s linear;
+}
 
 /* Tile content */
 .tile-title {
@@ -355,6 +338,9 @@ body.dragging-tile * {
 .modal-overlay.book-mark::before { background-color: var(--red); }
 .modal-overlay.book-luke::before { background-color: var(--green); }
 .modal-overlay.book-john::before { background-color: var(--blue); }
+
+/* Special tile modal - neutral gray background */
+.modal-overlay.special-modal::before { background-color: var(--gray); }
 
 .modal-content {
   pointer-events: auto;
@@ -538,6 +524,28 @@ body.dragging-tile * {
   display: none;
 }
 
+/* Collection progress bar (shown in synaxis modal) */
+.collection-progress-bar {
+  width: 100%;
+  height: 4px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  margin-top: 24pt;
+  overflow: hidden;
+}
+
+.collection-progress-bar.hidden {
+  display: none;
+}
+
+.collection-progress-fill {
+  height: 100%;
+  width: 0%;
+  background: var(--gray);
+  border-radius: 2px;
+  transition: width 0.3s ease-out;
+}
+
 /* Logo */
 .modal-content .logo {
   display: block;
@@ -610,7 +618,12 @@ body.dragging-tile * {
   /* Match tile size at default zoom 2: 128px * 2 = 256px, then scale like tiles */
   width: 256px;
   height: auto;
+  filter: saturate(0);
   animation: uncollected-pulse 3s ease-in-out infinite;
+}
+
+.loading-hex polygon {
+  fill: var(--gray);
 }
 
 .loading-timer-bar {
@@ -625,7 +638,7 @@ body.dragging-tile * {
 .loading-timer-fill {
   height: 100%;
   width: 0%;
-  background: var(--gray);
+  background: rgba(255, 255, 255, 0.6);
   border-radius: 2px;
   transition: width 0.1s linear;
 }
@@ -660,11 +673,5 @@ body.dragging-tile * {
   .modal-content {
     margin: 16px;
     padding: 24pt;
-  }
-
-  .stats-box {
-    bottom: 12px;
-    right: 12px;
-    font-size: 11px;
   }
 }

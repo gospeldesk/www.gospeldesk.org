@@ -10,7 +10,7 @@
   <div class="loading" id="loading">
     <div class="loading-container">
       <svg class="loading-hex" viewBox="0 0 100 115.47">
-        <polygon points="50,0 100,25 100,86.6 50,115.47 0,86.6 0,25" fill="#e0dcd8"/>
+        <polygon points="50,0 100,28.87 100,86.6 50,115.47 0,86.6 0,28.87"/>
       </svg>
       <div class="loading-timer-bar">
         <div class="loading-timer-fill" id="loading-timer-fill"></div>
@@ -21,14 +21,6 @@
   <div class="hex-viewport" id="hex-viewport">
     <div class="board-bg" id="board-bg"></div>
     <div class="hex-canvas" id="hex-canvas"></div>
-  </div>
-
-  <div class="stats-box hidden" id="stats-box">
-    <div class="progress-bar">
-      <div class="progress-placed" id="progress-placed"></div>
-      <div class="progress-collected" id="progress-collected"></div>
-    </div>
-    <div class="timer-bar"><div class="timer-fill" id="timer-fill"></div></div>
   </div>
 
   <div class="modal-overlay" id="reading-modal">
@@ -46,6 +38,9 @@
       <div class="reading-text" id="modal-text"></div>
       <div class="reading-timer-bar" id="reading-timer-bar">
         <div class="reading-timer-fill" id="reading-timer-fill"></div>
+      </div>
+      <div class="collection-progress-bar hidden" id="collection-progress-bar">
+        <div class="collection-progress-fill" id="collection-progress-fill"></div>
       </div>
     </div>
     </div>

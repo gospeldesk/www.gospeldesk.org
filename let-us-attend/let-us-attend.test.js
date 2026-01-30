@@ -18,6 +18,8 @@ const {
   DECAY_DURATION_MS,
   READING_WPM,
   BOARD_SIZE_PX,
+  ABOUT_PK,
+  SYNAXIS_PK,
   saveState,
   loadState,
   createInitialState
@@ -34,6 +36,16 @@ describe('Timing Constants', () => {
 
   test('getDecayDurationMs returns fixed decay duration', () => {
     expect(getDecayDurationMs()).toBe(DECAY_DURATION_MS);
+  });
+});
+
+describe('Special Tile Constants', () => {
+  test('ABOUT_PK is defined', () => {
+    expect(ABOUT_PK).toBe('__about__');
+  });
+
+  test('SYNAXIS_PK is defined', () => {
+    expect(SYNAXIS_PK).toBe('__synaxis__');
   });
 });
 

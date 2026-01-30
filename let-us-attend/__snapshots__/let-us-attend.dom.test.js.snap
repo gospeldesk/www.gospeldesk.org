@@ -1,5 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Special Tile Visual Snapshots about tile collected renders correctly 1`] = `"<div class="tile special-tile tile-about collected" data-pk="__about__" data-q="32" data-r="36"><div class="tile-title">Let Us Attend!</div><div class="tile-ref"></div></div>"`;
+
+exports[`Special Tile Visual Snapshots about tile uncollected renders correctly 1`] = `"<div class="tile special-tile tile-about uncollected" data-pk="__about__" data-q="32" data-r="36"><div class="tile-title">Let Us Attend!</div><div class="tile-ref"></div></div>"`;
+
+exports[`Special Tile Visual Snapshots special modal renders correctly 1`] = `"<div class="modal-overlay visible special-modal" id="reading-modal" style="--fade-duration: 60000ms; --fade-delay: 0ms;"><div class="modal-content"><h2 id="modal-title">Let Us Attend!</h2><p class="ref" id="modal-ref"></p><div class="reading-text" id="modal-text"><p>Welcome to Let Us Attend!</p></div></div></div>"`;
+
+exports[`Special Tile Visual Snapshots synaxis tile with timer bar renders correctly 1`] = `"<div class="tile special-tile tile-synaxis uncollected" data-pk="__synaxis__" data-q="32" data-r="35"><div class="tile-title">The Synaxis</div><div class="tile-ref"></div><div class="synaxis-timer-bar"><div class="synaxis-timer-fill" id="synaxis-timer-fill" style="width: 50%;"></div></div></div>"`;
+
 exports[`Visual Snapshots collected tile renders correctly 1`] = `"<div class="tile collected book-matthew" data-pk="41" data-q="3" data-r="2"><div class="tile-title">All Saints</div><div class="tile-ref">Matthew 10:32-33</div><div class="tile-seal seal-matthew"></div></div>"`;
 
 exports[`Visual Snapshots collected tile with stack badge renders correctly 1`] = `"<div class="tile collected book-luke" data-pk="6" data-q="4" data-r="3"><div class="tile-title">Good Samaritan</div><div class="tile-ref">Luke 10:25-37</div><div class="tile-seal seal-luke"></div><span class="stack-badge">x3</span></div>"`;

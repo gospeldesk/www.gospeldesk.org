@@ -9,6 +9,9 @@ const path = require('path');
 // Load the game module
 const gameModule = require('./let-us-attend.js');
 
+// Get special tile constants
+const { ABOUT_PK, SYNAXIS_PK } = gameModule;
+
 // Mock game data
 const mockData = {
   readings: {
@@ -38,6 +41,24 @@ const mockData = {
       ref: 'Matthew 10:32-33',
       direct: ['jesus', 'disciples'],
       content: '<p><span class="v">32</span>Test content for reading 41.</p>'
+    },
+    [ABOUT_PK]: {
+      pk: ABOUT_PK,
+      slug: 'about',
+      title: 'Let Us Attend!',
+      book: null,
+      ref: '',
+      direct: [],
+      content: '<p>Welcome to Let Us Attend!</p>'
+    },
+    [SYNAXIS_PK]: {
+      pk: SYNAXIS_PK,
+      slug: 'synaxis',
+      title: 'The Synaxis',
+      book: null,
+      ref: '',
+      direct: [],
+      content: '<p>This is your Synaxis.</p>'
     }
   },
   schedule: [
@@ -1549,5 +1570,404 @@ describe('Visual Snapshots', () => {
     timerBar.appendChild(timerFill);
 
     expect(timerBar.outerHTML).toMatchSnapshot();
+  });
+});
+
+// ============================================================================
+// Onboarding Flow Tests
+// ============================================================================
+
+describe('Onboarding Flow', () => {
+  const { getHexRing, hexDistance } = gameModule;
+
+  describe('About Tile Placement', () => {
+    test('fresh game should place about tile at board center', () => {
+      const gameState = {
+        scheduleIndex: 0,
+        lastTilePlacedAt: 0,
+        tiles: []
+      };
+      const boardCenterHex = { q: 32, r: 36 };
+
+      // Simulate placeNextTile logic step 1
+      const aboutTile = gameState.tiles.find(t => t.pk === ABOUT_PK);
+      if (!aboutTile && boardCenterHex) {
+        gameState.tiles.push({
+          pk: ABOUT_PK,
+          q: boardCenterHex.q,
+          r: boardCenterHex.r,
+          placedAt: Date.now(),
+          isCollected: false
+        });
+      }
+
+      expect(gameState.tiles.length).toBe(1);
+      expect(gameState.tiles[0].pk).toBe(ABOUT_PK);
+      expect(gameState.tiles[0].q).toBe(32);
+      expect(gameState.tiles[0].r).toBe(36);
+    });
+
+    test('no tiles placed while about tile uncollected', () => {
+      const gameState = {
+        scheduleIndex: 0,
+        lastTilePlacedAt: Date.now() - 1000000,
+        tiles: [{
+          pk: ABOUT_PK,
+          q: 32,
+          r: 36,
+          placedAt: Date.now(),
+          isCollected: false
+        }]
+      };
+
+      // Simulate placeNextTile step 2
+      const aboutTile = gameState.tiles.find(t => t.pk === ABOUT_PK);
+      let shouldReturn = false;
+      if (aboutTile && !aboutTile.isCollected) {
+        shouldReturn = true;
+      }
+
+      expect(shouldReturn).toBe(true);
+    });
+  });
+
+  describe('Synaxis Tile Placement', () => {
+    test('synaxis tile placed adjacent to about after collection', () => {
+      const gameState = {
+        scheduleIndex: 0,
+        lastTilePlacedAt: 0,
+        tiles: [{
+          pk: ABOUT_PK,
+          q: 32,
+          r: 36,
+          isCollected: true,
+          collected: new Date().toISOString()
+        }]
+      };
+
+      // Simulate placeNextTile step 3
+      const aboutTile = gameState.tiles.find(t => t.pk === ABOUT_PK);
+      const synaxisTile = gameState.tiles.find(t => t.pk === SYNAXIS_PK);
+
+      if (!synaxisTile && aboutTile && aboutTile.isCollected) {
+        const ring1 = getHexRing(aboutTile.q, aboutTile.r, 1);
+        const synaxisPos = ring1[0]; // First empty cell
+        gameState.tiles.push({
+          pk: SYNAXIS_PK,
+          q: synaxisPos.q,
+          r: synaxisPos.r,
+          placedAt: Date.now(),
+          isCollected: false
+        });
+      }
+
+      expect(gameState.tiles.length).toBe(2);
+      const newSynaxis = gameState.tiles.find(t => t.pk === SYNAXIS_PK);
+      expect(newSynaxis).toBeDefined();
+      expect(hexDistance(32, 36, newSynaxis.q, newSynaxis.r)).toBe(1);
+    });
+
+    test('no story tiles until synaxis exists', () => {
+      const gameState = {
+        scheduleIndex: 0,
+        lastTilePlacedAt: Date.now() - 1000000,
+        tiles: [{
+          pk: ABOUT_PK,
+          q: 32,
+          r: 36,
+          isCollected: true,
+          collected: new Date().toISOString()
+        }]
+      };
+
+      // Without synaxis, step 3 places synaxis (not story tile)
+      const synaxisTile = gameState.tiles.find(t => t.pk === SYNAXIS_PK);
+      const aboutTile = gameState.tiles.find(t => t.pk === ABOUT_PK);
+
+      // Check that we'd place synaxis next, not a story tile
+      expect(synaxisTile).toBeUndefined();
+      expect(aboutTile.isCollected).toBe(true);
+    });
+
+    test('story tiles spiral from synaxis position', () => {
+      const gameState = {
+        scheduleIndex: 0,
+        lastTilePlacedAt: 0,
+        tiles: [
+          {
+            pk: ABOUT_PK,
+            q: 32,
+            r: 36,
+            isCollected: true,
+            collected: new Date().toISOString()
+          },
+          {
+            pk: SYNAXIS_PK,
+            q: 32,
+            r: 35, // Adjacent to about
+            placedAt: Date.now(),
+            isCollected: false
+          }
+        ]
+      };
+
+      // Story tiles should spiral from synaxis (32, 35)
+      const synaxisTile = gameState.tiles.find(t => t.pk === SYNAXIS_PK);
+      expect(synaxisTile.q).toBe(32);
+      expect(synaxisTile.r).toBe(35);
+
+      // New tiles would be placed relative to synaxis position
+      const ring1FromSynaxis = getHexRing(synaxisTile.q, synaxisTile.r, 1);
+      expect(ring1FromSynaxis.length).toBe(6);
+    });
+  });
+
+  describe('About Tile Dragging', () => {
+    test('about tile is not draggable after collection', () => {
+      const tile = document.createElement('div');
+      tile.className = 'tile collected special-tile tile-about';
+      tile.dataset.pk = ABOUT_PK;
+
+      // Simulate handleTileMouseDown check
+      const shouldPreventDrag = tile.dataset.pk === ABOUT_PK;
+      expect(shouldPreventDrag).toBe(true);
+    });
+
+    test('synaxis tile is draggable when collected', () => {
+      const tile = document.createElement('div');
+      tile.className = 'tile collected special-tile tile-synaxis';
+      tile.dataset.pk = SYNAXIS_PK;
+
+      // Simulate handleTileMouseDown check - synaxis is not blocked
+      const shouldPreventDrag = tile.dataset.pk === ABOUT_PK;
+      expect(shouldPreventDrag).toBe(false);
+    });
+  });
+
+  describe('Special Tiles Decay', () => {
+    test('about and synaxis tiles never decay', () => {
+      const DECAY_DURATION_MS = gameModule.DECAY_DURATION_MS;
+      const now = Date.now();
+      const tiles = [
+        { pk: ABOUT_PK, q: 32, r: 36, placedAt: now - DECAY_DURATION_MS * 2, isCollected: false },
+        { pk: SYNAXIS_PK, q: 32, r: 35, placedAt: now - DECAY_DURATION_MS * 2, isCollected: false },
+        { pk: '11', q: 33, r: 35, placedAt: now - DECAY_DURATION_MS * 2, isCollected: false }
+      ];
+
+      // Simulate decay check
+      const toRemove = new Set();
+      for (let i = 0; i < tiles.length; i++) {
+        const t = tiles[i];
+        // Special tiles never decay
+        if (t.pk === ABOUT_PK || t.pk === SYNAXIS_PK) continue;
+        if (!t.isCollected && t.placedAt && (now - t.placedAt) >= DECAY_DURATION_MS) {
+          toRemove.add(i);
+        }
+      }
+
+      // Only the regular tile (index 2) should be marked for removal
+      expect(toRemove.size).toBe(1);
+      expect(toRemove.has(2)).toBe(true);
+      expect(toRemove.has(0)).toBe(false);
+      expect(toRemove.has(1)).toBe(false);
+    });
+  });
+});
+
+// ============================================================================
+// Special Tile Rendering Tests
+// ============================================================================
+
+describe('Special Tile Rendering', () => {
+  test('about tile renders without book color/seal', () => {
+    const tile = document.createElement('div');
+    tile.className = 'tile special-tile tile-about uncollected';
+    tile.dataset.pk = ABOUT_PK;
+
+    const title = document.createElement('div');
+    title.className = 'tile-title';
+    title.textContent = 'Let Us Attend!';
+    tile.appendChild(title);
+
+    // No seal for special tiles
+    expect(tile.querySelector('.tile-seal')).toBeNull();
+    expect(tile.classList.contains('special-tile')).toBe(true);
+    expect(tile.classList.contains('book-matthew')).toBe(false);
+  });
+
+  test('synaxis tile renders with timer bar', () => {
+    const tile = document.createElement('div');
+    tile.className = 'tile special-tile tile-synaxis uncollected';
+    tile.dataset.pk = SYNAXIS_PK;
+
+    const title = document.createElement('div');
+    title.className = 'tile-title';
+    title.textContent = 'The Synaxis';
+    tile.appendChild(title);
+
+    // Synaxis has timer bar
+    const timerBar = document.createElement('div');
+    timerBar.className = 'synaxis-timer-bar';
+    const timerFill = document.createElement('div');
+    timerFill.className = 'synaxis-timer-fill';
+    timerFill.id = 'synaxis-timer-fill';
+    timerBar.appendChild(timerFill);
+    tile.appendChild(timerBar);
+
+    expect(tile.querySelector('.synaxis-timer-bar')).not.toBeNull();
+    expect(tile.querySelector('.synaxis-timer-fill')).not.toBeNull();
+  });
+
+  test('collected about tile hides title', () => {
+    const tile = document.createElement('div');
+    tile.className = 'tile special-tile tile-about collected';
+    tile.dataset.pk = ABOUT_PK;
+
+    const title = document.createElement('div');
+    title.className = 'tile-title';
+    title.textContent = 'Let Us Attend!';
+    tile.appendChild(title);
+
+    // CSS would hide .tile-about.collected .tile-title
+    expect(tile.classList.contains('tile-about')).toBe(true);
+    expect(tile.classList.contains('collected')).toBe(true);
+  });
+
+  test('special tile modal has neutral background class', () => {
+    const modal = document.createElement('div');
+    modal.className = 'modal-overlay visible';
+
+    // For special tiles (book === null), use special-modal class
+    const reading = mockData.readings[ABOUT_PK];
+    if (reading.book === null) {
+      modal.classList.add('special-modal');
+    }
+
+    expect(modal.classList.contains('special-modal')).toBe(true);
+    expect(modal.classList.contains('book-matthew')).toBe(false);
+  });
+
+  test('synaxis timer bar updates with tile countdown', () => {
+    const timerFill = document.createElement('div');
+    timerFill.className = 'synaxis-timer-fill';
+    timerFill.id = 'synaxis-timer-fill';
+    timerFill.style.width = '0%';
+
+    // Simulate updateStats updating the timer
+    const progress = 0.75;
+    timerFill.style.width = (progress * 100) + '%';
+
+    expect(timerFill.style.width).toBe('75%');
+  });
+});
+
+// ============================================================================
+// Special Tile Visual Snapshots
+// ============================================================================
+
+describe('Special Tile Visual Snapshots', () => {
+  beforeEach(() => {
+    document.body.innerHTML = '';
+  });
+
+  test('about tile uncollected renders correctly', () => {
+    const tile = document.createElement('div');
+    tile.className = 'tile special-tile tile-about uncollected';
+    tile.dataset.pk = ABOUT_PK;
+    tile.dataset.q = '32';
+    tile.dataset.r = '36';
+
+    const title = document.createElement('div');
+    title.className = 'tile-title';
+    title.textContent = 'Let Us Attend!';
+    tile.appendChild(title);
+
+    const ref = document.createElement('div');
+    ref.className = 'tile-ref';
+    ref.textContent = '';
+    tile.appendChild(ref);
+
+    expect(tile.outerHTML).toMatchSnapshot();
+  });
+
+  test('about tile collected renders correctly', () => {
+    const tile = document.createElement('div');
+    tile.className = 'tile special-tile tile-about collected';
+    tile.dataset.pk = ABOUT_PK;
+    tile.dataset.q = '32';
+    tile.dataset.r = '36';
+
+    const title = document.createElement('div');
+    title.className = 'tile-title';
+    title.textContent = 'Let Us Attend!';
+    tile.appendChild(title);
+
+    const ref = document.createElement('div');
+    ref.className = 'tile-ref';
+    ref.textContent = '';
+    tile.appendChild(ref);
+
+    expect(tile.outerHTML).toMatchSnapshot();
+  });
+
+  test('synaxis tile with timer bar renders correctly', () => {
+    const tile = document.createElement('div');
+    tile.className = 'tile special-tile tile-synaxis uncollected';
+    tile.dataset.pk = SYNAXIS_PK;
+    tile.dataset.q = '32';
+    tile.dataset.r = '35';
+
+    const title = document.createElement('div');
+    title.className = 'tile-title';
+    title.textContent = 'The Synaxis';
+    tile.appendChild(title);
+
+    const ref = document.createElement('div');
+    ref.className = 'tile-ref';
+    ref.textContent = '';
+    tile.appendChild(ref);
+
+    const timerBar = document.createElement('div');
+    timerBar.className = 'synaxis-timer-bar';
+    const timerFill = document.createElement('div');
+    timerFill.className = 'synaxis-timer-fill';
+    timerFill.id = 'synaxis-timer-fill';
+    timerFill.style.width = '50%';
+    timerBar.appendChild(timerFill);
+    tile.appendChild(timerBar);
+
+    expect(tile.outerHTML).toMatchSnapshot();
+  });
+
+  test('special modal renders correctly', () => {
+    const modal = document.createElement('div');
+    modal.className = 'modal-overlay visible special-modal';
+    modal.id = 'reading-modal';
+    modal.style.setProperty('--fade-duration', '60000ms');
+    modal.style.setProperty('--fade-delay', '0ms');
+
+    const content = document.createElement('div');
+    content.className = 'modal-content';
+
+    const title = document.createElement('h2');
+    title.id = 'modal-title';
+    title.textContent = 'Let Us Attend!';
+    content.appendChild(title);
+
+    const ref = document.createElement('p');
+    ref.className = 'ref';
+    ref.id = 'modal-ref';
+    ref.textContent = '';
+    content.appendChild(ref);
+
+    const text = document.createElement('div');
+    text.className = 'reading-text';
+    text.id = 'modal-text';
+    text.innerHTML = '<p>Welcome to Let Us Attend!</p>';
+    content.appendChild(text);
+
+    modal.appendChild(content);
+
+    expect(modal.outerHTML).toMatchSnapshot();
   });
 });

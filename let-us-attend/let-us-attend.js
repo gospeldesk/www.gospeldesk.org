@@ -11,6 +11,10 @@ const READING_WPM = 200; // Words per minute for reading time calculation
 
 const STORAGE_KEY = 'let-us-attend';
 
+// Special tile identifiers
+const ABOUT_PK = '__about__';
+const SYNAXIS_PK = '__synaxis__';
+
 // Board constants - fixed size canvas with background
 const BOARD_TILES_WIDE = 64;
 const BOARD_SIZE_PX = 8192; // 64 tiles at 128px each
@@ -302,6 +306,8 @@ if (typeof module !== 'undefined' && module.exports) {
     READING_WPM,
     BOARD_TILES_WIDE,
     BOARD_SIZE_PX,
+    ABOUT_PK,
+    SYNAXIS_PK,
     getDecayDurationMs,
     hexToPixel,
     pixelToHex,
@@ -421,7 +427,19 @@ if (typeof window !== 'undefined') {
     const tile = document.createElement('div');
     tile.className = 'tile';
     tile.dataset.pk = pk;
-    tile.classList.add('book-' + reading.book.toLowerCase());
+
+    // Special tiles (book === null) get neutral gray styling
+    const isSpecialTile = reading.book === null;
+    if (isSpecialTile) {
+      tile.classList.add('special-tile');
+      if (pk === ABOUT_PK) {
+        tile.classList.add('tile-about');
+      } else if (pk === SYNAXIS_PK) {
+        tile.classList.add('tile-synaxis');
+      }
+    } else {
+      tile.classList.add('book-' + reading.book.toLowerCase());
+    }
 
     // Title text
     const title = document.createElement('div');
@@ -435,10 +453,23 @@ if (typeof window !== 'undefined') {
     ref.textContent = reading.ref;
     tile.appendChild(ref);
 
-    // Book seal
-    const seal = document.createElement('div');
-    seal.className = 'tile-seal seal-' + reading.book.toLowerCase();
-    tile.appendChild(seal);
+    // Book seal (only for regular tiles)
+    if (!isSpecialTile) {
+      const seal = document.createElement('div');
+      seal.className = 'tile-seal seal-' + reading.book.toLowerCase();
+      tile.appendChild(seal);
+    }
+
+    // Synaxis tile gets a timer bar
+    if (pk === SYNAXIS_PK) {
+      const timerBar = document.createElement('div');
+      timerBar.className = 'synaxis-timer-bar';
+      const timerFill = document.createElement('div');
+      timerFill.className = 'synaxis-timer-fill';
+      timerFill.id = 'synaxis-timer-fill';
+      timerBar.appendChild(timerFill);
+      tile.appendChild(timerBar);
+    }
 
     return tile;
   }
@@ -932,27 +963,17 @@ if (typeof window !== 'undefined') {
    * Update stats display
    */
   function updateStats() {
-    const total = Object.keys(gameData.readings).length;
-
-    // Collected count (unique pks)
-    const collectedTiles = gameState.tiles.filter(t => t.isCollected);
-    const uniqueCollectedPks = new Set(collectedTiles.map(t => t.pk));
-    const collectedPct = (uniqueCollectedPks.size / total) * 100;
-
-    // Placed count (unique pks currently on board)
-    const uniquePlacedPks = new Set(gameState.tiles.map(t => t.pk));
-    const placedPct = (uniquePlacedPks.size / total) * 100;
-
-    // Update progress bars
-    elements.progressPlaced.style.width = placedPct + '%';
-    elements.progressCollected.style.width = collectedPct + '%';
-
-    // Timer bar - shows progress toward next tile
+    // Timer bar on synaxis tile - shows progress toward next tile
     const now = Date.now();
     const tileInterval = fastDecay ? TILE_INTERVAL_MS / FAST_DECAY_MULTIPLIER : TILE_INTERVAL_MS;
     const timeSinceLastTile = now - gameState.lastTilePlacedAt;
     const progress = Math.min(1, timeSinceLastTile / tileInterval);
-    elements.timerFill.style.width = (progress * 100) + '%';
+
+    // Update synaxis timer bar if it exists
+    const synaxisTimerFill = document.getElementById('synaxis-timer-fill');
+    if (synaxisTimerFill) {
+      synaxisTimerFill.style.width = (progress * 100) + '%';
+    }
 
     // Reading timer bar - shows progress toward completing current reading
     if (isModalOpen() && modalOpenedAt && currentReadingTimeMs) {
@@ -978,9 +999,13 @@ if (typeof window !== 'undefined') {
     elements.modalRef.textContent = reading.ref;
     elements.modalText.innerHTML = reading.content;
 
-    // Set overlay color based on book
-    elements.modal.classList.remove('book-matthew', 'book-mark', 'book-luke', 'book-john');
-    elements.modal.classList.add('book-' + reading.book.toLowerCase());
+    // Set overlay color based on book (or special-modal for special tiles)
+    elements.modal.classList.remove('book-matthew', 'book-mark', 'book-luke', 'book-john', 'special-modal');
+    if (reading.book === null) {
+      elements.modal.classList.add('special-modal');
+    } else {
+      elements.modal.classList.add('book-' + reading.book.toLowerCase());
+    }
 
     // Calculate reading time
     const wordCount = countWords(reading.content);
@@ -1009,18 +1034,35 @@ if (typeof window !== 'undefined') {
       elements.modal.classList.remove('collected');
     }
 
-    // Initialize reading timer bar
-    elements.readingTimerFill.style.width = (currentStartProgress * 100) + '%';
+    // For synaxis modal: show collection progress bar instead of reading timer
+    if (pk === SYNAXIS_PK) {
+      elements.readingTimerBar.classList.add('hidden');
+      // Count unique collected pks (excluding special tiles)
+      const collectedTiles = gameState.tiles.filter(t => t.isCollected && t.pk !== ABOUT_PK && t.pk !== SYNAXIS_PK);
+      const uniqueCollectedPks = new Set(collectedTiles.map(t => t.pk));
+      // Total readings excluding special tiles
+      const totalReadings = Object.keys(gameData.readings).filter(pk => pk !== ABOUT_PK && pk !== SYNAXIS_PK).length;
+      const collectionProgress = totalReadings > 0 ? (uniqueCollectedPks.size / totalReadings) * 100 : 0;
+      elements.collectionProgressFill.style.width = collectionProgress + '%';
+      elements.collectionProgressBar.classList.remove('hidden');
+    } else {
+      elements.readingTimerBar.classList.remove('hidden');
+      elements.collectionProgressBar.classList.add('hidden');
+      // Initialize reading timer bar
+      elements.readingTimerFill.style.width = (currentStartProgress * 100) + '%';
+    }
 
     elements.modal.classList.add('visible');
 
     // Listen for overlay fade animation end to mark as collected
-    if (!isCollected) {
+    // (Synaxis tile is never collected this way - it stays in uncollected state)
+    if (!isCollected && pk !== SYNAXIS_PK) {
       const handleOverlayAnimationEnd = (e) => {
         if (e.animationName !== 'overlay-fade') return;
         elements.modal.removeEventListener('animationend', handleOverlayAnimationEnd);
         const tile = gameState.tiles.find(t => t.pk === currentReadingPk && !t.isCollected);
         if (tile) {
+          const wasAboutTile = tile.pk === ABOUT_PK;
           tile.isCollected = true;
           tile.collected = new Date().toISOString();
           delete tile.placedAt;
@@ -1029,6 +1071,10 @@ if (typeof window !== 'undefined') {
           saveState(gameState);
           renderVisibleHexes();
           updateStats();
+          // Immediately place synaxis after about tile is collected
+          if (wasAboutTile) {
+            placeNextTile();
+          }
         }
       };
       elements.modal.addEventListener('animationend', handleOverlayAnimationEnd);
@@ -1056,30 +1102,19 @@ if (typeof window !== 'undefined') {
    * Close reading modal
    */
   function closeModal() {
+    const closingPk = currentReadingPk;
+
     if (currentReadingPk && modalOpenedAt) {
       const tile = gameState.tiles.find(t => t.pk === currentReadingPk && !t.isCollected);
       if (tile) {
         const modalDuration = Date.now() - modalOpenedAt;
 
-        // Calculate new read progress
+        // Calculate and save partial read progress, pause decay
         const progressGained = currentReadingTimeMs > 0 ? modalDuration / currentReadingTimeMs : 0;
         const newProgress = Math.min(1, currentStartProgress + progressGained);
-
-        if (newProgress >= 1) {
-          // Fully read - mark as collected
-          tile.isCollected = true;
-          tile.collected = new Date().toISOString();
-          delete tile.placedAt;
-          delete tile.readProgress;
-          elements.modal.classList.add('collected');
-          renderVisibleHexes();
-          updateStats();
-        } else {
-          // Partially read - save progress and pause decay
-          tile.readProgress = newProgress;
-          if (tile.placedAt) {
-            tile.placedAt += modalDuration;
-          }
+        tile.readProgress = newProgress;
+        if (tile.placedAt) {
+          tile.placedAt += modalDuration;
         }
         saveState(gameState);
       }
@@ -1089,7 +1124,14 @@ if (typeof window !== 'undefined') {
     currentReadingTimeMs = null;
     currentStartProgress = 0;
     elements.readingTimerFill.style.width = '0%';
+    elements.readingTimerBar.classList.remove('hidden');
+    elements.collectionProgressBar.classList.add('hidden');
     elements.modal.classList.remove('visible', 'collected');
+
+    // Place first story tile when synaxis modal is closed for the first time
+    if (closingPk === SYNAXIS_PK && gameState.scheduleIndex === 0) {
+      placeNextTile();
+    }
   }
 
   /**
@@ -1102,6 +1144,9 @@ if (typeof window !== 'undefined') {
 
     const tile = e.target.closest('.tile');
     if (!tile) return;
+
+    // About tile is never draggable (stays at board center forever)
+    if (tile.dataset.pk === ABOUT_PK) return;
 
     // Only allow drag on collected tiles
     if (!tile.classList.contains('collected')) return;
@@ -1214,13 +1259,75 @@ if (typeof window !== 'undefined') {
   }
 
   /**
-   * Place the next tile from the schedule
+   * Place the next tile from the schedule.
+   * Onboarding sequence:
+   * 1. About tile at board center (if none exists)
+   * 2. Wait for about tile to be collected
+   * 3. Synaxis tile adjacent to about (if none exists)
+   * 4. Story tiles spiral from synaxis position
    */
   function placeNextTile() {
     if (!gameData || !gameData.schedule || !gameState) {
       return; // Game not initialized
     }
 
+    const tileSize = getTileSize();
+
+    // Check for special tiles in game state
+    const aboutTile = gameState.tiles.find(t => t.pk === ABOUT_PK);
+    const synaxisTile = gameState.tiles.find(t => t.pk === SYNAXIS_PK);
+
+    // Step 1: Place about tile at board center if none exists
+    if (!aboutTile && boardCenterHex) {
+      gameState.tiles.push({
+        pk: ABOUT_PK,
+        q: boardCenterHex.q,
+        r: boardCenterHex.r,
+        placedAt: Date.now(),
+        isCollected: false
+      });
+      gameState.lastTilePlacedAt = Date.now();
+      rebuildTileIndex();
+      saveState(gameState);
+      renderVisibleHexes();
+      return;
+    }
+
+    // Step 2: Wait for about tile to be collected before placing synaxis
+    if (aboutTile && !aboutTile.isCollected) {
+      return; // Wait for user to read about tile
+    }
+
+    // Step 3: Place synaxis tile adjacent to about if none exists
+    if (!synaxisTile && aboutTile) {
+      // Find first empty cell adjacent to about tile
+      const aboutQ = aboutTile.q;
+      const aboutR = aboutTile.r;
+      const ring1 = getHexRing(aboutQ, aboutR, 1);
+      let synaxisPos = null;
+      for (const cell of ring1) {
+        if (isOnBoard(cell.q, cell.r, tileSize) && !getTilesAt(cell.q, cell.r).length) {
+          synaxisPos = cell;
+          break;
+        }
+      }
+      if (synaxisPos) {
+        gameState.tiles.push({
+          pk: SYNAXIS_PK,
+          q: synaxisPos.q,
+          r: synaxisPos.r,
+          placedAt: Date.now(),
+          isCollected: false
+        });
+        gameState.lastTilePlacedAt = Date.now();
+        rebuildTileIndex();
+        saveState(gameState);
+        renderVisibleHexes();
+      }
+      return;
+    }
+
+    // Step 4: Place story tiles (spiral from synaxis position)
     // Skip entries with missing reading data
     while (gameState.scheduleIndex < gameData.schedule.length) {
       const entry = gameData.schedule[gameState.scheduleIndex];
@@ -1235,21 +1342,26 @@ if (typeof window !== 'undefined') {
     }
 
     const reading = gameData.schedule[gameState.scheduleIndex];
-    const tileSize = getTileSize();
 
-    // Use board center for first tile, otherwise find nearest empty cell from viewport center
-    let q, r;
-    if (gameState.tiles.length === 0 && boardCenterHex) {
-      q = boardCenterHex.q;
-      r = boardCenterHex.r;
+    // Story tiles spiral from synaxis position (or viewport center as fallback)
+    let centerQ, centerR;
+    if (synaxisTile) {
+      centerQ = synaxisTile.q;
+      centerR = synaxisTile.r;
+    } else if (viewportCenterHex) {
+      centerQ = viewportCenterHex.q;
+      centerR = viewportCenterHex.r;
     } else {
-      ({ q, r } = findNearestEmptyCellFromHex(
-        gameState.tiles,
-        viewportCenterHex.q,
-        viewportCenterHex.r,
-        tileSize
-      ));
+      centerQ = boardCenterHex.q;
+      centerR = boardCenterHex.r;
     }
+
+    const { q, r } = findNearestEmptyCellFromHex(
+      gameState.tiles,
+      centerQ,
+      centerR,
+      tileSize
+    );
 
     gameState.tiles.push({
       pk: reading.pk,
@@ -1278,6 +1390,8 @@ if (typeof window !== 'undefined') {
     // Single pass: find expired tiles and their oldest collected counterparts
     for (let i = 0; i < gameState.tiles.length; i++) {
       const t = gameState.tiles[i];
+      // Special tiles never decay
+      if (t.pk === ABOUT_PK || t.pk === SYNAXIS_PK) continue;
       if (!t.isCollected && t.placedAt && (now - t.placedAt) >= decayDuration) {
         toRemove.add(i);
 
@@ -1381,12 +1495,12 @@ if (typeof window !== 'undefined') {
       e.preventDefault();
       placeNextTile();
     }
-    // Option+Shift+M to mark all uncollected tiles as collected
+    // Option+Shift+M to mark all uncollected tiles as collected (except synaxis)
     if (e.altKey && e.shiftKey && e.code === 'KeyM') {
       e.preventDefault();
       const now = new Date().toISOString();
       for (const tile of gameState.tiles) {
-        if (!tile.isCollected) {
+        if (!tile.isCollected && tile.pk !== SYNAXIS_PK) {
           tile.isCollected = true;
           tile.collected = now;
           delete tile.placedAt;
@@ -1398,8 +1512,8 @@ if (typeof window !== 'undefined') {
       updateStats();
       return;
     }
-    // Option+M to mark current reading as fully read (testing shortcut)
-    if (e.altKey && e.code === 'KeyM' && isModalOpen() && currentReadingPk) {
+    // Option+M to mark current reading as fully read (testing shortcut, except synaxis)
+    if (e.altKey && e.code === 'KeyM' && isModalOpen() && currentReadingPk && currentReadingPk !== SYNAXIS_PK) {
       e.preventDefault();
       const tile = gameState.tiles.find(t => t.pk === currentReadingPk && !t.isCollected);
       if (tile) {
@@ -1540,15 +1654,14 @@ if (typeof window !== 'undefined') {
       boardBg: document.getElementById('board-bg'),
       hexViewport: document.getElementById('hex-viewport'),
       hexCanvas: document.getElementById('hex-canvas'),
-      statsBox: document.getElementById('stats-box'),
-      progressPlaced: document.getElementById('progress-placed'),
-      progressCollected: document.getElementById('progress-collected'),
-      timerFill: document.getElementById('timer-fill'),
       modal: document.getElementById('reading-modal'),
       modalTitle: document.getElementById('modal-title'),
       modalRef: document.getElementById('modal-ref'),
+      readingTimerBar: document.getElementById('reading-timer-bar'),
       readingTimerFill: document.getElementById('reading-timer-fill'),
-      modalText: document.getElementById('modal-text')
+      modalText: document.getElementById('modal-text'),
+      collectionProgressBar: document.getElementById('collection-progress-bar'),
+      collectionProgressFill: document.getElementById('collection-progress-fill')
     };
 
     // Trigger background fade when preloaded image is ready
@@ -1576,7 +1689,6 @@ if (typeof window !== 'undefined') {
 
     // Show board (must happen before setupViewport reads dimensions)
     elements.hexViewport.classList.remove('hidden');
-    elements.statsBox.classList.remove('hidden');
 
     // Initialize UI
     setupViewport();
